@@ -1,0 +1,286 @@
+DIGEST 82038126c99c6ae4ceb111699dbecd0b
+FAlgebra.Cartesian
+R1086:1089 Algebra.Sets <> <> lib
+sec 1146:1148 <> Def
+var 1160:1160 Def E
+var 1162:1162 Def F
+R1166:1171 Algebra.Sets <> Setoid rec
+rec 1239:1247 <> cart_type
+proj 1261:1266 <> cart_l
+proj 1273:1278 <> cart_r
+R1270:1270 Algebra.Cartesian <> Def.E var
+R1282:1282 Algebra.Cartesian <> Def.F var
+def 1331:1337 <> cart_eq
+R1346:1354 Algebra.Cartesian <> cart_type rec
+R1389:1392 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1362:1366 Algebra.Sets <> Equal proj
+R1380:1385 Algebra.Cartesian <> cart_l proj
+R1387:1387 Algebra.Cartesian <> y var
+R1369:1374 Algebra.Cartesian <> cart_l proj
+R1376:1376 Algebra.Cartesian <> x var
+R1393:1397 Algebra.Sets <> Equal proj
+R1411:1416 Algebra.Cartesian <> cart_r proj
+R1418:1418 Algebra.Cartesian <> y var
+R1400:1405 Algebra.Cartesian <> cart_r proj
+R1407:1407 Algebra.Cartesian <> x var
+prf 1429:1441 <> cart_eq_equiv
+R1445:1455 Algebra.Sets <> equivalence def
+R1457:1463 Algebra.Cartesian <> cart_eq def
+R1565:1571 Algebra.Cartesian <> cart_eq def
+R1684:1690 Algebra.Sets <> app_rel def
+R1693:1699 Algebra.Cartesian <> cart_eq def
+R1784:1789 Algebra.Cartesian <> cart_l proj
+R1772:1776 Algebra.Sets <> Trans thm
+R1784:1789 Algebra.Cartesian <> cart_l proj
+R1772:1776 Algebra.Sets <> Trans thm
+R1824:1829 Algebra.Cartesian <> cart_r proj
+R1812:1816 Algebra.Sets <> Trans thm
+R1824:1829 Algebra.Cartesian <> cart_r proj
+R1812:1816 Algebra.Sets <> Trans thm
+R1866:1872 Algebra.Sets <> app_rel def
+R1875:1881 Algebra.Cartesian <> cart_eq def
+def 1920:1923 <> cart
+R1927:1932 Algebra.Sets <> Setoid rec
+R1937:1948 Algebra.Sets <> Build_Setoid constr
+R1950:1962 Algebra.Cartesian <> cart_eq_equiv thm
+R2051:2053 Algebra.Cartesian Def <> sec
+sec 2064:2074 <> Projections
+var 2086:2086 Projections E
+var 2088:2088 Projections F
+R2092:2097 Algebra.Sets <> Setoid rec
+def 2112:2116 <> proj1
+R2123:2126 Algebra.Cartesian <> cart def
+R2130:2130 Algebra.Cartesian <> Projections.F var
+R2128:2128 Algebra.Cartesian <> Projections.E var
+R2135:2135 Algebra.Cartesian <> Projections.E var
+R2140:2145 Algebra.Cartesian <> cart_l proj
+R2147:2147 Algebra.Cartesian <> x var
+def 2162:2166 <> proj2
+R2173:2176 Algebra.Cartesian <> cart def
+R2180:2180 Algebra.Cartesian <> Projections.F var
+R2178:2178 Algebra.Cartesian <> Projections.E var
+R2185:2185 Algebra.Cartesian <> Projections.F var
+R2190:2195 Algebra.Cartesian <> cart_r proj
+R2197:2197 Algebra.Cartesian <> x var
+prf 2303:2312 <> proj1_comp
+R2330:2333 Algebra.Cartesian <> cart def
+R2337:2337 Algebra.Cartesian <> Projections.F var
+R2335:2335 Algebra.Cartesian <> Projections.E var
+R2349:2352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2353:2357 Algebra.Sets <> Equal proj
+R2370:2374 Algebra.Cartesian <> proj1 def
+R2376:2376 Algebra.Cartesian <> y var
+R2360:2364 Algebra.Cartesian <> proj1 def
+R2366:2366 Algebra.Cartesian <> x var
+R2340:2344 Algebra.Sets <> Equal proj
+R2348:2348 Algebra.Cartesian <> y var
+R2346:2346 Algebra.Cartesian <> x var
+R2415:2421 Algebra.Sets <> app_rel def
+R2424:2430 Algebra.Cartesian <> cart_eq def
+prf 2464:2473 <> proj2_comp
+R2491:2494 Algebra.Cartesian <> cart def
+R2498:2498 Algebra.Cartesian <> Projections.F var
+R2496:2496 Algebra.Cartesian <> Projections.E var
+R2510:2513 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2514:2518 Algebra.Sets <> Equal proj
+R2531:2535 Algebra.Cartesian <> proj2 def
+R2537:2537 Algebra.Cartesian <> y var
+R2521:2525 Algebra.Cartesian <> proj2 def
+R2527:2527 Algebra.Cartesian <> x var
+R2501:2505 Algebra.Sets <> Equal proj
+R2509:2509 Algebra.Cartesian <> y var
+R2507:2507 Algebra.Cartesian <> x var
+R2576:2582 Algebra.Sets <> app_rel def
+R2585:2591 Algebra.Cartesian <> cart_eq def
+def 2675:2683 <> proj1_map
+R2687:2689 Algebra.Sets <> MAP def
+R2702:2702 Algebra.Cartesian <> Projections.E var
+R2692:2695 Algebra.Cartesian <> cart def
+R2699:2699 Algebra.Cartesian <> Projections.F var
+R2697:2697 Algebra.Cartesian <> Projections.E var
+R2707:2715 Algebra.Sets <> Build_Map constr
+R2717:2726 Algebra.Cartesian <> proj1_comp thm
+def 2741:2749 <> proj2_map
+R2753:2755 Algebra.Sets <> MAP def
+R2768:2768 Algebra.Cartesian <> Projections.F var
+R2758:2761 Algebra.Cartesian <> cart def
+R2765:2765 Algebra.Cartesian <> Projections.F var
+R2763:2763 Algebra.Cartesian <> Projections.E var
+R2773:2781 Algebra.Sets <> Build_Map constr
+R2783:2792 Algebra.Cartesian <> proj2_comp thm
+def 2807:2812 <> couple
+R2819:2819 Algebra.Cartesian <> Projections.E var
+R2827:2827 Algebra.Cartesian <> Projections.F var
+R2832:2835 Algebra.Cartesian <> cart def
+R2839:2839 Algebra.Cartesian <> Projections.F var
+R2837:2837 Algebra.Cartesian <> Projections.E var
+R2844:2858 Algebra.Cartesian <> Build_cart_type constr
+R2862:2862 Algebra.Cartesian <> y var
+R2860:2860 Algebra.Cartesian <> x var
+prf 2872:2882 <> couple_comp
+R2902:2902 Algebra.Cartesian <> Projections.E var
+R2913:2913 Algebra.Cartesian <> Projections.F var
+R2928:2931 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2942:2945 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2946:2950 Algebra.Sets <> Equal proj
+R2966:2971 Algebra.Cartesian <> couple def
+R2976:2977 Algebra.Cartesian <> y' var
+R2973:2974 Algebra.Cartesian <> x' var
+R2953:2958 Algebra.Cartesian <> couple def
+R2962:2962 Algebra.Cartesian <> y var
+R2960:2960 Algebra.Cartesian <> x var
+R2932:2936 Algebra.Sets <> Equal proj
+R2940:2941 Algebra.Cartesian <> y' var
+R2938:2938 Algebra.Cartesian <> y var
+R2918:2922 Algebra.Sets <> Equal proj
+R2926:2927 Algebra.Cartesian <> x' var
+R2924:2924 Algebra.Cartesian <> x var
+R3003:3009 Algebra.Sets <> app_rel def
+R3012:3018 Algebra.Cartesian <> cart_eq def
+prf 3087:3096 <> coupl_proj
+R3111:3114 Algebra.Cartesian <> cart def
+R3118:3118 Algebra.Cartesian <> Projections.F var
+R3116:3116 Algebra.Cartesian <> Projections.E var
+R3121:3125 Algebra.Sets <> Equal proj
+R3156:3156 Algebra.Cartesian <> x var
+R3128:3133 Algebra.Cartesian <> couple def
+R3146:3150 Algebra.Cartesian <> proj2 def
+R3152:3152 Algebra.Cartesian <> x var
+R3136:3140 Algebra.Cartesian <> proj1 def
+R3142:3142 Algebra.Cartesian <> x var
+R3181:3187 Algebra.Sets <> app_rel def
+R3190:3196 Algebra.Cartesian <> cart_eq def
+R3261:3271 Algebra.Cartesian Projections <> sec
+sec 3282:3285 <> Maps
+var 3297:3297 Maps E
+var 3299:3299 Maps F
+var 3301:3301 Maps G
+R3305:3310 Algebra.Sets <> Setoid rec
+def 3325:3329 <> curry
+R3336:3338 Algebra.Sets <> MAP def
+R3351:3351 Algebra.Cartesian <> Maps.G var
+R3341:3344 Algebra.Cartesian <> cart def
+R3348:3348 Algebra.Cartesian <> Maps.F var
+R3346:3346 Algebra.Cartesian <> Maps.E var
+R3359:3359 Algebra.Cartesian <> Maps.E var
+R3367:3367 Algebra.Cartesian <> Maps.F var
+R3373:3373 Algebra.Cartesian <> f var
+R3376:3381 Algebra.Cartesian <> couple def
+R3385:3385 Algebra.Cartesian <> y var
+R3383:3383 Algebra.Cartesian <> x var
+def 3401:3415 <> fun2_compatible
+R3423:3426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3428:3431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3432:3432 Algebra.Cartesian <> Maps.G var
+R3427:3427 Algebra.Cartesian <> Maps.F var
+R3422:3422 Algebra.Cartesian <> Maps.E var
+R3455:3455 Algebra.Cartesian <> Maps.E var
+R3466:3466 Algebra.Cartesian <> Maps.F var
+R3482:3485 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3496:3499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3500:3504 Algebra.Sets <> Equal proj
+R3515:3515 Algebra.Cartesian <> f var
+R3520:3521 Algebra.Cartesian <> y' var
+R3517:3518 Algebra.Cartesian <> x' var
+R3507:3507 Algebra.Cartesian <> f var
+R3511:3511 Algebra.Cartesian <> y var
+R3509:3509 Algebra.Cartesian <> x var
+R3486:3490 Algebra.Sets <> Equal proj
+R3494:3495 Algebra.Cartesian <> y' var
+R3492:3492 Algebra.Cartesian <> y var
+R3472:3476 Algebra.Sets <> Equal proj
+R3480:3481 Algebra.Cartesian <> x' var
+R3478:3478 Algebra.Cartesian <> x var
+def 3537:3543 <> uncurry
+R3561:3564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3566:3569 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3570:3570 Algebra.Cartesian <> Maps.G var
+R3565:3565 Algebra.Cartesian <> Maps.F var
+R3560:3560 Algebra.Cartesian <> Maps.E var
+R3590:3593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3594:3596 Algebra.Sets <> MAP def
+R3609:3609 Algebra.Cartesian <> Maps.G var
+R3599:3602 Algebra.Cartesian <> cart def
+R3606:3606 Algebra.Cartesian <> Maps.F var
+R3604:3604 Algebra.Cartesian <> Maps.E var
+R3573:3587 Algebra.Cartesian <> fun2_compatible def
+R3589:3589 Algebra.Cartesian <> f var
+R3648:3656 Algebra.Sets <> Build_Map constr
+R3671:3674 Algebra.Cartesian <> cart def
+R3678:3678 Algebra.Cartesian <> Maps.F var
+R3676:3676 Algebra.Cartesian <> Maps.E var
+R3696:3700 Algebra.Cartesian <> proj2 def
+R3702:3702 Algebra.Cartesian <> x var
+R3686:3690 Algebra.Cartesian <> proj1 def
+R3692:3692 Algebra.Cartesian <> x var
+R3648:3656 Algebra.Sets <> Build_Map constr
+R3671:3674 Algebra.Cartesian <> cart def
+R3678:3678 Algebra.Cartesian <> Maps.F var
+R3676:3676 Algebra.Cartesian <> Maps.E var
+R3696:3700 Algebra.Cartesian <> proj2 def
+R3702:3702 Algebra.Cartesian <> x var
+R3686:3690 Algebra.Cartesian <> proj1 def
+R3692:3692 Algebra.Cartesian <> x var
+R3787:3793 Algebra.Sets <> app_rel def
+R3796:3802 Algebra.Cartesian <> cart_eq def
+var 3842:3842 Maps f
+R3846:3848 Algebra.Sets <> MAP def
+R3853:3856 Algebra.Cartesian <> cart def
+R3860:3860 Algebra.Cartesian <> Maps.G var
+R3858:3858 Algebra.Cartesian <> Maps.F var
+R3850:3850 Algebra.Cartesian <> Maps.E var
+def 3876:3884 <> map_proj1
+R3888:3890 Algebra.Sets <> MAP def
+R3894:3894 Algebra.Cartesian <> Maps.F var
+R3892:3892 Algebra.Cartesian <> Maps.E var
+R3899:3910 Algebra.Sets <> comp_map_map def
+R3928:3928 Algebra.Cartesian <> Maps.f var
+R3913:3921 Algebra.Cartesian <> proj1_map def
+R3925:3925 Algebra.Cartesian <> Maps.G var
+R3923:3923 Algebra.Cartesian <> Maps.F var
+def 3943:3951 <> map_proj2
+R3955:3957 Algebra.Sets <> MAP def
+R3961:3961 Algebra.Cartesian <> Maps.G var
+R3959:3959 Algebra.Cartesian <> Maps.E var
+R3966:3977 Algebra.Sets <> comp_map_map def
+R3995:3995 Algebra.Cartesian <> Maps.f var
+R3980:3988 Algebra.Cartesian <> proj2_map def
+R3992:3992 Algebra.Cartesian <> Maps.G var
+R3990:3990 Algebra.Cartesian <> Maps.F var
+def 4010:4019 <> map_couple
+R4030:4033 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4041:4044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4045:4047 Algebra.Sets <> MAP def
+R4052:4055 Algebra.Cartesian <> cart def
+R4059:4059 Algebra.Cartesian <> Maps.G var
+R4057:4057 Algebra.Cartesian <> Maps.F var
+R4049:4049 Algebra.Cartesian <> Maps.E var
+R4034:4036 Algebra.Sets <> MAP def
+R4040:4040 Algebra.Cartesian <> Maps.G var
+R4038:4038 Algebra.Cartesian <> Maps.E var
+R4023:4025 Algebra.Sets <> MAP def
+R4029:4029 Algebra.Cartesian <> Maps.F var
+R4027:4027 Algebra.Cartesian <> Maps.E var
+R4082:4090 Algebra.Sets <> Build_Map constr
+R4105:4105 Algebra.Cartesian <> Maps.E var
+R4110:4115 Algebra.Cartesian <> couple def
+R4126:4126 Algebra.Cartesian <> x var
+R4120:4120 Algebra.Cartesian <> x var
+R4082:4090 Algebra.Sets <> Build_Map constr
+R4105:4105 Algebra.Cartesian <> Maps.E var
+R4110:4115 Algebra.Cartesian <> couple def
+R4126:4126 Algebra.Cartesian <> x var
+R4120:4120 Algebra.Cartesian <> x var
+R4182:4192 Algebra.Cartesian <> couple_comp thm
+R4182:4192 Algebra.Cartesian <> couple_comp thm
+prf 4230:4249 <> map_couple_proj_prop
+R4253:4257 Algebra.Sets <> Equal proj
+R4292:4292 Algebra.Cartesian <> Maps.f var
+R4260:4269 Algebra.Cartesian <> map_couple def
+R4281:4289 Algebra.Cartesian <> map_proj2 def
+R4271:4279 Algebra.Cartesian <> map_proj1 def
+R4330:4338 Algebra.Cartesian <> map_proj1 def
+R4341:4349 Algebra.Cartesian <> map_proj2 def
+R4382:4388 Algebra.Sets <> app_rel def
+R4391:4397 Algebra.Cartesian <> cart_eq def
+R4428:4431 Algebra.Cartesian Maps <> sec

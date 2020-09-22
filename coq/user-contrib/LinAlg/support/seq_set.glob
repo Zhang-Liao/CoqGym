@@ -1,0 +1,55 @@
+DIGEST 4bbd5ddcb6baf7baad017b6f7b229164
+FLinAlg.support.seq_set
+R1364:1369 LinAlg.support.finite <> <> lib
+R1400:1404 Algebra.Parts <> <> lib
+sec 1416:1419 <> MAIN
+def 1458:1464 <> seq_set
+R1480:1485 Algebra.Sets <> Setoid rec
+R1493:1495 LinAlg.support.finite <> Nat def
+R1503:1505 LinAlg.support.finite <> seq def
+R1509:1509 LinAlg.support.seq_set <> A var
+R1507:1507 LinAlg.support.seq_set <> n var
+R1513:1520 Algebra.Parts <> part_set def
+R1522:1522 LinAlg.support.seq_set <> A var
+R1556:1570 Algebra.Parts <> Build_Predicate constr
+R1596:1602 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1612:1613 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1607:1609 LinAlg.support.finite <> fin def
+R1615:1618 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1622:1625 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1614:1614 LinAlg.support.seq_set <> a var
+R1621:1621 LinAlg.support.seq_set <> i var
+R1556:1570 Algebra.Parts <> Build_Predicate constr
+R1596:1602 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1612:1613 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1607:1609 LinAlg.support.finite <> fin def
+R1615:1618 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1622:1625 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1614:1614 LinAlg.support.seq_set <> a var
+R1621:1621 LinAlg.support.seq_set <> i var
+R1682:1686 Algebra.Sets <> Trans thm
+R1682:1686 Algebra.Sets <> Trans thm
+var 1734:1734 MAIN A
+R1738:1743 Algebra.Sets <> Setoid rec
+var 1755:1755 MAIN n
+R1759:1761 LinAlg.support.finite <> Nat def
+prf 1771:1782 <> seq_set_comp
+R1801:1803 LinAlg.support.finite <> seq def
+R1807:1807 LinAlg.support.seq_set <> MAIN.A var
+R1805:1805 LinAlg.support.seq_set <> MAIN.n var
+R1822:1825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1835:1838 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1849:1852 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1826:1832 LinAlg.support.seq_set <> seq_set def
+R1834:1834 LinAlg.support.seq_set <> v var
+R1839:1845 LinAlg.support.seq_set <> seq_set def
+R1847:1848 LinAlg.support.seq_set <> v' var
+R1811:1814 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1817:1820 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1810:1810 LinAlg.support.seq_set <> v var
+R1815:1816 LinAlg.support.seq_set <> v' var
+R1981:1985 Algebra.Sets <> Trans thm
+R1981:1985 Algebra.Sets <> Trans thm
+R2101:2105 Algebra.Sets <> Trans thm
+R2101:2105 Algebra.Sets <> Trans thm
+R2150:2153 LinAlg.support.seq_set MAIN <> sec

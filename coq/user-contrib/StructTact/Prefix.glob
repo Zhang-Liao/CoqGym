@@ -1,0 +1,105 @@
+DIGEST c72cbc158f2a6c3f7d8b28490307205a
+FStructTact.Prefix
+R15:18 Coq.Lists.List <> <> lib
+R58:81 StructTact.StructTactics <> <> lib
+def 119:124 <> Prefix
+R136:139 Coq.Init.Datatypes <> list ind
+R141:141 StructTact.Prefix <> A var
+R169:170 StructTact.Prefix <> l2 var
+R165:166 StructTact.Prefix <> l1 var
+R184:187 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R194:197 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R210:213 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R206:208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R214:219 StructTact.Prefix <> Prefix def
+R235:236 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R244:247 Coq.Init.Logic <> True ind
+R263:267 Coq.Init.Logic <> False ind
+sec 285:290 <> prefix
+var 304:304 prefix A
+prf 323:333 <> Prefix_refl
+R353:356 Coq.Init.Datatypes <> list ind
+R358:358 StructTact.Prefix <> prefix.A var
+R368:373 StructTact.Prefix <> Prefix def
+R377:377 StructTact.Prefix <> l var
+R375:375 StructTact.Prefix <> l var
+prf 454:463 <> Prefix_nil
+R483:486 Coq.Init.Datatypes <> list ind
+R488:488 StructTact.Prefix <> prefix.A var
+R509:518 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R520:522 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R519:519 StructTact.Prefix <> l var
+R523:524 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R498:503 StructTact.Prefix <> Prefix def
+R507:508 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R505:505 StructTact.Prefix <> l var
+prf 622:632 <> Prefix_cons
+R655:658 Coq.Init.Datatypes <> list ind
+R660:660 StructTact.Prefix <> prefix.A var
+R683:692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R693:698 StructTact.Prefix <> Prefix def
+R712:715 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R711:711 StructTact.Prefix <> a var
+R716:716 StructTact.Prefix <> l var
+R702:705 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R701:701 StructTact.Prefix <> a var
+R706:707 StructTact.Prefix <> l' var
+R672:677 StructTact.Prefix <> Prefix def
+R682:682 StructTact.Prefix <> l var
+R679:680 StructTact.Prefix <> l' var
+prf 773:781 <> Prefix_in
+R804:807 Coq.Init.Datatypes <> list ind
+R809:809 StructTact.Prefix <> prefix.A var
+R830:839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R857:860 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R861:862 Coq.Lists.List <> In def
+R866:866 StructTact.Prefix <> l var
+R864:864 StructTact.Prefix <> x var
+R850:851 Coq.Lists.List <> In def
+R855:856 StructTact.Prefix <> l' var
+R853:853 StructTact.Prefix <> x var
+R819:824 StructTact.Prefix <> Prefix def
+R829:829 StructTact.Prefix <> l var
+R826:827 StructTact.Prefix <> l' var
+R939:948 StructTact.Prefix <> Prefix_nil thm
+prf 1141:1150 <> app_Prefix
+R1177:1180 Coq.Init.Datatypes <> list ind
+R1182:1182 StructTact.Prefix <> prefix.A var
+R1205:1214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1215:1220 StructTact.Prefix <> Prefix def
+R1225:1226 StructTact.Prefix <> zs var
+R1222:1223 StructTact.Prefix <> xs var
+R1200:1202 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1194:1197 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1192:1193 StructTact.Prefix <> xs var
+R1198:1199 StructTact.Prefix <> ys var
+R1203:1204 StructTact.Prefix <> zs var
+prf 1389:1397 <> Prefix_In
+R1417:1420 Coq.Init.Datatypes <> list ind
+R1422:1422 StructTact.Prefix <> prefix.A var
+R1448:1457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1464:1473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1474:1475 Coq.Lists.List <> In def
+R1479:1480 StructTact.Prefix <> l' var
+R1477:1477 StructTact.Prefix <> x var
+R1458:1459 Coq.Lists.List <> In def
+R1463:1463 StructTact.Prefix <> l var
+R1461:1461 StructTact.Prefix <> x var
+R1437:1442 StructTact.Prefix <> Prefix def
+R1446:1447 StructTact.Prefix <> l' var
+R1444:1444 StructTact.Prefix <> l var
+prf 1617:1634 <> Prefix_exists_rest
+R1658:1661 Coq.Init.Datatypes <> list ind
+R1663:1663 StructTact.Prefix <> prefix.A var
+R1685:1694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1695:1701 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1706:1715 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1718:1720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1716:1717 StructTact.Prefix <> l2 var
+R1723:1726 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R1721:1722 StructTact.Prefix <> l1 var
+R1727:1730 StructTact.Prefix <> rest var
+R1673:1678 StructTact.Prefix <> Prefix def
+R1683:1684 StructTact.Prefix <> l2 var
+R1680:1681 StructTact.Prefix <> l1 var
+R1901:1906 StructTact.Prefix prefix <> sec

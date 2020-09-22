@@ -1,0 +1,1278 @@
+DIGEST 2a4daae7cab5bf94b2e54bfa4c267edf
+FCoq.ssr.ssrfun
+R847:855 Coq.ssr.ssreflect <> <> lib
+R12801:12801 Coq.ssr.ssrfun <> x var
+not 12777:12777 <> ::fun_scope:x_'^~'_x
+R12915:12915 Coq.ssr.ssrfun <> f var
+not 12894:12894 <> ::fun_scope:'@^~'_x
+R13132:13134 Coq.Init.Datatypes <> fst def
+not 13121:13121 <> ::pair_scope:x_'.1'
+R13223:13225 Coq.Init.Datatypes <> snd def
+not 13212:13212 <> ::pair_scope:x_'.2'
+R13330:13333 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R13329:13329 Coq.ssr.ssrfun <> P var
+R13334:13334 Coq.ssr.ssrfun <> Q var
+R13340:13340 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13352:13353 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13365:13365 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13341:13345 Coq.Init.Logic <> proj1 thm
+R13347:13351 Coq.ssr.ssrfun <> PandQ var
+R13354:13358 Coq.Init.Logic <> proj2 thm
+R13360:13364 Coq.ssr.ssrfun <> PandQ var
+def 13380:13387 <> all_pair
+R13411:13411 Coq.ssr.ssrfun <> I var
+R13417:13419 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13414:13414 Coq.ssr.ssrfun <> T var
+R13416:13416 Coq.ssr.ssrfun <> i var
+R13420:13420 Coq.ssr.ssrfun <> U var
+R13422:13422 Coq.ssr.ssrfun <> i var
+R13430:13430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13447:13448 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13465:13465 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13440:13440 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R13444:13446 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R13441:13441 Coq.ssr.ssrfun <> w var
+R13443:13443 Coq.ssr.ssrfun <> i var
+R13458:13458 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R13462:13464 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R13459:13459 Coq.ssr.ssrfun <> w var
+R13461:13461 Coq.ssr.ssrfun <> i var
+mod 13605:13610 <> Option
+def 13625:13629 Option apply
+R13644:13647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13648:13649 Coq.ssr.ssrfun <> rT var
+R13642:13643 Coq.ssr.ssrfun <> aT var
+R13662:13662 Coq.ssr.ssrfun <> u var
+R13667:13670 Coq.Init.Datatypes <> Some constr
+R13679:13679 Coq.ssr.ssrfun <> f var
+R13688:13688 Coq.ssr.ssrfun <> x var
+def 13703:13709 Option default
+R13716:13720 Coq.ssr.ssrfun Option apply def
+R13731:13731 Coq.ssr.ssrfun <> T var
+R13736:13736 Coq.ssr.ssrfun <> x var
+def 13752:13755 Option bind
+R13770:13773 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13774:13779 Coq.Init.Datatypes <> option ind
+R13781:13782 Coq.ssr.ssrfun <> rT var
+R13768:13769 Coq.ssr.ssrfun <> aT var
+R13788:13792 Coq.ssr.ssrfun Option apply def
+R13796:13799 Coq.Init.Datatypes <> None constr
+R13794:13794 Coq.ssr.ssrfun <> f var
+def 13814:13816 Option map
+R13831:13834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13835:13836 Coq.ssr.ssrfun <> rT var
+R13829:13830 Coq.ssr.ssrfun <> aT var
+R13842:13845 Coq.ssr.ssrfun Option bind def
+R13857:13860 Coq.Init.Datatypes <> Some constr
+R13863:13863 Coq.ssr.ssrfun <> f var
+R13865:13865 Coq.ssr.ssrfun <> x var
+R13875:13880 Coq.ssr.ssrfun Option <> mod
+syndef 13893:13896 <> oapp
+R13901:13912 Coq.ssr.ssrfun <> apply def
+syndef 13924:13928 <> odflt
+R13933:13946 Coq.ssr.ssrfun <> default def
+syndef 13958:13962 <> obind
+R13967:13977 Coq.ssr.ssrfun <> bind def
+syndef 13989:13992 <> omap
+R13997:14006 Coq.ssr.ssrfun <> map def
+syndef 14018:14021 <> some
+R14028:14031 Coq.Init.Datatypes <> Some constr
+syndef 14115:14119 <> erefl
+R14124:14133 Coq.Init.Logic <> refl_equal syndef
+syndef 14145:14149 <> ecast
+R14178:14180 Coq.Init.Logic <> ::type_scope:x_'='_x not
+def 14215:14218 <> esym
+R14223:14228 Coq.Init.Logic <> sym_eq syndef
+def 14242:14246 <> nesym
+R14251:14260 Coq.Init.Logic <> sym_not_eq syndef
+def 14274:14279 <> etrans
+R14284:14291 Coq.Init.Logic <> trans_eq syndef
+def 14305:14310 <> congr1
+R14315:14321 Coq.Init.Logic <> f_equal thm
+def 14335:14340 <> congr2
+R14345:14352 Coq.Init.Logic <> f_equal2 thm
+def 14498:14509 <> all_equal_to
+R14519:14519 Coq.ssr.ssrfun <> T var
+R14544:14546 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14535:14541 Coq.ssr.ssreflect <> unkeyed syndef
+R14543:14543 Coq.ssr.ssrfun <> x var
+R14547:14548 Coq.ssr.ssrfun <> x0 var
+prf 14558:14562 <> unitE
+R14566:14577 Coq.ssr.ssrfun <> all_equal_to def
+R14579:14580 Coq.Init.Datatypes <> tt constr
+constr 14662:14665 <> Wrap
+rec 14649:14655 <> wrapped
+proj 14668:14673 <> unwrap
+R14677:14677 Coq.ssr.ssrfun <> T var
+R14704:14707 Coq.ssr.ssrfun <> Wrap constr
+R14711:14711 Coq.ssr.ssrfun <> x var
+R14709:14709 Coq.ssr.ssrfun <> T var
+sec 16563:16570 <> SimplFun
+var 16584:16585 SimplFun aT
+var 16587:16588 SimplFun rT
+ind 16607:16615 <> simpl_fun
+constr 16620:16627 <> SimplFun
+R16634:16637 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16638:16639 Coq.ssr.ssrfun <> SimplFun.rT var
+R16632:16633 Coq.ssr.ssrfun <> SimplFun.aT var
+R16640:16640 Coq.ssr.ssrfun <> simpl_fun ind
+def 16654:16665 <> fun_of_simpl
+R16702:16702 Coq.ssr.ssrfun <> f var
+R16686:16693 Coq.ssr.ssrfun <> SimplFun constr
+R16711:16711 Coq.ssr.ssrfun <> x var
+R16715:16760 Coq.ssr.ssrfun <> fun_of_simpl def
+R16768:16775 Coq.ssr.ssrfun SimplFun <> sec
+R16813:16820 Coq.ssr.ssrfun <> SimplFun constr
+not 16788:16788 <> ::fun_scope:'['_'fun'_':'_x_'=>'_x_']'
+R16951:16958 Coq.ssr.ssrfun <> SimplFun constr
+not 16928:16928 <> ::fun_scope:'['_'fun'_x_'=>'_x_']'
+R17096:17103 Coq.ssr.ssrfun <> SimplFun constr
+not 17069:17069 <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']'
+R17218:17222 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17224:17227 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17229:17229 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+not 17184:17184 <> ::fun_scope:'['_'fun'_x_x_'=>'_x_']'
+R17381:17385 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17387:17389 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17391:17394 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17396:17396 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+not 17339:17339 <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']'
+R17515:17519 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17521:17524 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17526:17526 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+not 17469:17469 <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_x_'=>'_x_']'
+R17641:17645 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17647:17649 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17651:17654 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17656:17656 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+not 17599:17599 <> ::fun_scope:'['_'fun'_x_'('_x_':'_x_')'_'=>'_x_']'
+R17790:17794 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17796:17798 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17801:17804 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R17806:17806 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+not 17729:17729 <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_'('_x_':'_x_')'_'=>'_x_']'
+def 17924:17936 <> SimplFunDelta
+R17951:17954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17957:17960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17961:17962 Coq.ssr.ssrfun <> rT var
+R17955:17956 Coq.ssr.ssrfun <> aT var
+R17949:17950 Coq.ssr.ssrfun <> aT var
+R17968:17972 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17974:17977 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17983:17983 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17978:17978 Coq.ssr.ssrfun <> f var
+R17982:17982 Coq.ssr.ssrfun <> z var
+R17980:17980 Coq.ssr.ssrfun <> z var
+sec 18156:18174 <> ExtensionalEquality
+var 18188:18188 ExtensionalEquality A
+var 18190:18190 ExtensionalEquality B
+var 18192:18192 ExtensionalEquality C
+def 18214:18218 <> eqfun
+R18228:18231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18232:18232 Coq.ssr.ssrfun <> ExtensionalEquality.A var
+R18227:18227 Coq.ssr.ssrfun <> ExtensionalEquality.B var
+R18258:18260 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18255:18255 Coq.ssr.ssrfun <> f var
+R18257:18257 Coq.ssr.ssrfun <> x var
+R18261:18261 Coq.ssr.ssrfun <> g var
+R18263:18263 Coq.ssr.ssrfun <> x var
+def 18278:18282 <> eqrel
+R18292:18295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18297:18300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18301:18301 Coq.ssr.ssrfun <> ExtensionalEquality.A var
+R18296:18296 Coq.ssr.ssrfun <> ExtensionalEquality.B var
+R18291:18291 Coq.ssr.ssrfun <> ExtensionalEquality.C var
+R18331:18333 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18326:18326 Coq.ssr.ssrfun <> r var
+R18330:18330 Coq.ssr.ssrfun <> y var
+R18328:18328 Coq.ssr.ssrfun <> x var
+R18334:18334 Coq.ssr.ssrfun <> s var
+R18338:18338 Coq.ssr.ssrfun <> y var
+R18336:18336 Coq.ssr.ssrfun <> x var
+prf 18348:18352 <> frefl
+R18358:18362 Coq.ssr.ssrfun <> eqfun def
+R18366:18366 Coq.ssr.ssrfun <> f var
+R18364:18364 Coq.ssr.ssrfun <> f var
+prf 18394:18397 <> fsym
+R18414:18417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18418:18422 Coq.ssr.ssrfun <> eqfun def
+R18426:18426 Coq.ssr.ssrfun <> f var
+R18424:18424 Coq.ssr.ssrfun <> g var
+R18405:18409 Coq.ssr.ssrfun <> eqfun def
+R18413:18413 Coq.ssr.ssrfun <> g var
+R18411:18411 Coq.ssr.ssrfun <> f var
+prf 18467:18472 <> ftrans
+R18491:18494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18504:18507 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18508:18512 Coq.ssr.ssrfun <> eqfun def
+R18516:18516 Coq.ssr.ssrfun <> h var
+R18514:18514 Coq.ssr.ssrfun <> f var
+R18495:18499 Coq.ssr.ssrfun <> eqfun def
+R18503:18503 Coq.ssr.ssrfun <> h var
+R18501:18501 Coq.ssr.ssrfun <> g var
+R18482:18486 Coq.ssr.ssrfun <> eqfun def
+R18490:18490 Coq.ssr.ssrfun <> g var
+R18488:18488 Coq.ssr.ssrfun <> f var
+prf 18578:18582 <> rrefl
+R18588:18592 Coq.ssr.ssrfun <> eqrel def
+R18596:18596 Coq.ssr.ssrfun <> r var
+R18594:18594 Coq.ssr.ssrfun <> r var
+R18623:18641 Coq.ssr.ssrfun ExtensionalEquality <> sec
+R18749:18753 Coq.ssr.ssrfun <> eqfun def
+not 18734:18734 <> ::fun_scope:x_'=1'_x
+R18840:18844 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R18851:18851 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R18847:18849 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+not 18818:18818 <> ::fun_scope:x_'=1'_x_':>'_x
+R18940:18944 Coq.ssr.ssrfun <> eqrel def
+not 18925:18925 <> ::fun_scope:x_'=2'_x
+R19031:19035 Coq.ssr.ssrfun <> ::fun_scope:x_'=2'_x not
+R19042:19042 Coq.ssr.ssrfun <> ::fun_scope:x_'=2'_x not
+R19038:19040 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+not 19009:19009 <> ::fun_scope:x_'=2'_x_':>'_x
+sec 19116:19126 <> Composition
+var 19140:19140 Composition A
+var 19142:19142 Composition B
+var 19144:19144 Composition C
+def 19166:19172 <> funcomp
+R19182:19185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19186:19186 Coq.ssr.ssrfun <> Composition.A var
+R19181:19181 Coq.ssr.ssrfun <> Composition.B var
+R19195:19198 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19199:19199 Coq.ssr.ssrfun <> Composition.B var
+R19194:19194 Coq.ssr.ssrfun <> Composition.C var
+R19218:19218 Coq.ssr.ssrfun <> u var
+R19212:19213 Coq.Init.Datatypes <> tt constr
+R19223:19223 Coq.ssr.ssrfun <> f var
+R19226:19226 Coq.ssr.ssrfun <> g var
+R19228:19228 Coq.ssr.ssrfun <> x var
+def 19243:19249 <> catcomp
+R19260:19266 Coq.ssr.ssrfun <> funcomp def
+R19272:19272 Coq.ssr.ssrfun <> g var
+R19270:19270 Coq.ssr.ssrfun <> f var
+R19268:19268 Coq.ssr.ssrfun <> u var
+syndef 19290:19293 <> comp
+R19299:19305 Coq.ssr.ssrfun <> funcomp def
+R19307:19308 Coq.Init.Datatypes <> tt constr
+def 19324:19328 <> pcomp
+R19336:19339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19340:19345 Coq.Init.Datatypes <> option ind
+R19347:19347 Coq.ssr.ssrfun <> Composition.A var
+R19335:19335 Coq.ssr.ssrfun <> Composition.B var
+R19356:19359 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19360:19365 Coq.Init.Datatypes <> option ind
+R19367:19367 Coq.ssr.ssrfun <> Composition.B var
+R19355:19355 Coq.ssr.ssrfun <> Composition.C var
+R19375:19379 Coq.ssr.ssrfun <> obind syndef
+R19384:19384 Coq.ssr.ssrfun <> g var
+R19386:19386 Coq.ssr.ssrfun <> x var
+R19381:19381 Coq.ssr.ssrfun <> f var
+prf 19397:19403 <> eq_comp
+R19424:19427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19435:19438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19447:19450 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R19439:19442 Coq.ssr.ssrfun <> comp syndef
+R19446:19446 Coq.ssr.ssrfun <> g var
+R19444:19444 Coq.ssr.ssrfun <> f var
+R19451:19454 Coq.ssr.ssrfun <> comp syndef
+R19459:19460 Coq.ssr.ssrfun <> g' var
+R19456:19457 Coq.ssr.ssrfun <> f' var
+R19429:19432 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R19428:19428 Coq.ssr.ssrfun <> g var
+R19433:19434 Coq.ssr.ssrfun <> g' var
+R19418:19421 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R19417:19417 Coq.ssr.ssrfun <> f var
+R19422:19423 Coq.ssr.ssrfun <> f' var
+R19533:19543 Coq.ssr.ssrfun Composition <> sec
+syndef 19556:19559 <> comp
+R19565:19571 Coq.ssr.ssrfun <> funcomp def
+R19573:19574 Coq.Init.Datatypes <> tt constr
+R19616:19622 Coq.ssr.ssrfun <> funcomp def
+R19630:19631 Coq.Init.Datatypes <> tt constr
+R19628:19628 Coq.ssr.ssrfun <> C var
+R19626:19626 Coq.ssr.ssrfun <> B var
+R19624:19624 Coq.ssr.ssrfun <> A var
+not 19587:19587 <> :::'@'_'comp'
+R19659:19662 Coq.ssr.ssrfun <> comp syndef
+not 19644:19644 <> ::fun_scope:x_'\o'_x
+R19750:19756 Coq.ssr.ssrfun <> catcomp def
+R19758:19759 Coq.Init.Datatypes <> tt constr
+not 19735:19735 <> ::fun_scope:x_'\;'_x
+R19883:19883 Coq.ssr.ssrfun <> x var
+not 19854:19854 <> ::fun_scope:'['_'eta'_x_']'
+not 19947:19947 <> ::fun_scope:'fun'_'=>'_x
+syndef 20028:20029 <> id
+R20044:20044 Coq.ssr.ssrfun <> x var
+R20085:20085 Coq.ssr.ssrfun <> x var
+not 20057:20057 <> ::fun_scope:'@'_'id'_x
+def 20157:20163 <> id_head
+R20173:20173 Coq.ssr.ssrfun <> T var
+R20189:20189 Coq.ssr.ssrfun <> u var
+R20183:20184 Coq.Init.Datatypes <> tt constr
+R20194:20194 Coq.ssr.ssrfun <> x var
+def 20208:20222 <> explicit_id_key
+R20227:20228 Coq.Init.Datatypes <> tt constr
+syndef 20240:20244 <> idfun
+R20250:20256 Coq.ssr.ssrfun <> id_head def
+R20258:20259 Coq.Init.Datatypes <> tt constr
+R20292:20298 Coq.ssr.ssrfun <> id_head def
+R20302:20316 Coq.ssr.ssrfun <> explicit_id_key def
+not 20272:20272 <> ::fun_scope:'@'_'idfun'_x
+def 20397:20404 <> phant_id
+R20434:20437 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20438:20444 Coq.ssr.ssreflect <> phantom variant
+R20449:20450 Coq.ssr.ssrfun <> v2 var
+R20446:20447 Coq.ssr.ssrfun <> T2 var
+R20421:20427 Coq.ssr.ssreflect <> phantom variant
+R20432:20433 Coq.ssr.ssrfun <> v1 var
+R20429:20430 Coq.ssr.ssrfun <> T1 var
+sec 20493:20495 <> Tag
+var 20510:20510 Tag I
+var 20521:20521 Tag i
+var 20529:20530 Tag T_
+var 20532:20533 Tag U_
+R20525:20525 Coq.ssr.ssrfun <> I var
+R20538:20541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20537:20537 Coq.ssr.ssrfun <> I var
+def 20561:20563 <> tag
+R20568:20573 Coq.Init.Specif <> projT1 def
+def 20587:20592 <> tagged
+R20606:20607 Coq.ssr.ssrfun <> Tag.T_ var
+R20609:20611 Coq.ssr.ssrfun <> tag def
+R20613:20613 Coq.ssr.ssrfun <> w var
+R20620:20625 Coq.Init.Specif <> projT2 def
+R20629:20633 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20636:20636 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20634:20635 Coq.ssr.ssrfun <> Tag.T_ var
+R20627:20627 Coq.ssr.ssrfun <> Tag.I var
+def 20650:20655 <> Tagged
+R20663:20668 Coq.Init.Specif <> existT constr
+R20683:20683 Coq.ssr.ssrfun <> x var
+R20681:20681 Coq.ssr.ssrfun <> Tag.i var
+R20672:20676 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20679:20679 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20677:20678 Coq.ssr.ssrfun <> Tag.T_ var
+R20670:20670 Coq.ssr.ssrfun <> Tag.I var
+def 20698:20701 <> tag2
+R20709:20713 Coq.Init.Specif <> sigT2 ind
+R20720:20721 Coq.ssr.ssrfun <> Tag.U_ var
+R20717:20718 Coq.ssr.ssrfun <> Tag.T_ var
+R20715:20715 Coq.ssr.ssrfun <> Tag.I var
+R20753:20753 Coq.ssr.ssrfun <> w var
+R20732:20738 Coq.Init.Specif <> existT2 constr
+def 20772:20778 <> tagged2
+R20784:20785 Coq.ssr.ssrfun <> Tag.T_ var
+R20787:20790 Coq.ssr.ssrfun <> tag2 def
+R20792:20792 Coq.ssr.ssrfun <> w var
+R20824:20824 Coq.ssr.ssrfun <> w var
+R20803:20809 Coq.Init.Specif <> existT2 constr
+def 20843:20850 <> tagged2'
+R20856:20857 Coq.ssr.ssrfun <> Tag.U_ var
+R20859:20862 Coq.ssr.ssrfun <> tag2 def
+R20864:20864 Coq.ssr.ssrfun <> w var
+R20896:20896 Coq.ssr.ssrfun <> w var
+R20875:20881 Coq.Init.Specif <> existT2 constr
+def 20915:20921 <> Tagged2
+R20931:20937 Coq.Init.Specif <> existT2 constr
+R20963:20963 Coq.ssr.ssrfun <> y var
+R20961:20961 Coq.ssr.ssrfun <> x var
+R20959:20959 Coq.ssr.ssrfun <> Tag.i var
+R20950:20954 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20957:20957 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20955:20956 Coq.ssr.ssrfun <> Tag.U_ var
+R20941:20945 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20948:20948 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R20946:20947 Coq.ssr.ssrfun <> Tag.T_ var
+R20939:20939 Coq.ssr.ssrfun <> Tag.I var
+R20971:20973 Coq.ssr.ssrfun Tag <> sec
+R20987:20992 Coq.ssr.ssrfun <> Tagged def
+R20987:20992 Coq.ssr.ssrfun <> Tagged def
+R21011:21017 Coq.ssr.ssrfun <> Tagged2 def
+R21011:21017 Coq.ssr.ssrfun <> Tagged2 def
+R21128:21132 Coq.Init.Specif <> sigT2 ind
+R21139:21140 Coq.ssr.ssrfun <> U_ var
+R21136:21137 Coq.ssr.ssrfun <> T_ var
+R21134:21134 Coq.ssr.ssrfun <> I var
+R21148:21153 Coq.ssr.ssrfun <> Tagged def
+R21183:21183 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21193:21194 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21205:21205 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R21184:21190 Coq.ssr.ssrfun <> tagged2 def
+R21192:21192 Coq.ssr.ssrfun <> w var
+R21195:21202 Coq.ssr.ssrfun <> tagged2' def
+R21204:21204 Coq.ssr.ssrfun <> w var
+R21169:21171 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R21165:21166 Coq.ssr.ssrfun <> T_ var
+R21168:21168 Coq.ssr.ssrfun <> i var
+R21172:21173 Coq.ssr.ssrfun <> U_ var
+R21175:21175 Coq.ssr.ssrfun <> i var
+prf 21215:21221 <> all_tag
+R21234:21234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21266:21272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21273:21273 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21275:21277 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21291:21293 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21313:21313 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21288:21288 Coq.ssr.ssrfun <> T var
+R21290:21290 Coq.ssr.ssrfun <> x var
+R21304:21304 Coq.ssr.ssrfun <> U var
+R21309:21309 Coq.ssr.ssrfun <> f var
+R21311:21311 Coq.ssr.ssrfun <> x var
+R21306:21306 Coq.ssr.ssrfun <> x var
+R21246:21246 Coq.ssr.ssrfun <> I var
+R21249:21249 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21251:21253 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21257:21259 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21265:21265 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R21254:21254 Coq.ssr.ssrfun <> T var
+R21256:21256 Coq.ssr.ssrfun <> x var
+R21260:21260 Coq.ssr.ssrfun <> U var
+R21264:21264 Coq.ssr.ssrfun <> y var
+R21262:21262 Coq.ssr.ssrfun <> x var
+R21354:21356 Coq.ssr.ssrfun <> tag def
+R21362:21362 Coq.ssr.ssrfun <> x var
+R21354:21356 Coq.ssr.ssrfun <> tag def
+R21362:21362 Coq.ssr.ssrfun <> x var
+prf 21398:21405 <> all_tag2
+R21421:21421 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21461:21467 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21468:21468 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21470:21472 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21486:21488 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21508:21510 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21530:21530 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21483:21483 Coq.ssr.ssrfun <> T var
+R21485:21485 Coq.ssr.ssrfun <> i var
+R21499:21499 Coq.ssr.ssrfun <> U var
+R21504:21504 Coq.ssr.ssrfun <> f var
+R21506:21506 Coq.ssr.ssrfun <> i var
+R21501:21501 Coq.ssr.ssrfun <> i var
+R21521:21521 Coq.ssr.ssrfun <> V var
+R21526:21526 Coq.ssr.ssrfun <> f var
+R21528:21528 Coq.ssr.ssrfun <> i var
+R21523:21523 Coq.ssr.ssrfun <> i var
+R21433:21433 Coq.ssr.ssrfun <> I var
+R21436:21436 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21438:21440 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21444:21446 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21452:21454 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21460:21460 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'&'_x_'}' not
+R21441:21441 Coq.ssr.ssrfun <> T var
+R21443:21443 Coq.ssr.ssrfun <> i var
+R21447:21447 Coq.ssr.ssrfun <> U var
+R21451:21451 Coq.ssr.ssrfun <> y var
+R21449:21449 Coq.ssr.ssrfun <> i var
+R21455:21455 Coq.ssr.ssrfun <> V var
+R21459:21459 Coq.ssr.ssrfun <> y var
+R21457:21457 Coq.ssr.ssrfun <> i var
+R21548:21554 Coq.ssr.ssrfun <> all_tag thm
+R21561:21568 Coq.ssr.ssrfun <> all_pair def
+syndef 21668:21671 <> sval
+R21678:21686 Coq.Init.Specif <> proj1_sig def
+R21719:21727 Coq.Init.Specif <> proj1_sig def
+not 21703:21703 <> :::'@'_'sval'
+sec 21773:21775 <> Sig
+var 21790:21790 Sig T
+var 21801:21801 Sig P
+var 21803:21803 Sig Q
+R21808:21811 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21807:21807 Coq.ssr.ssrfun <> T var
+prf 21826:21830 <> svalP
+R21837:21839 Coq.Init.Specif <> sig ind
+R21841:21841 Coq.ssr.ssrfun <> Sig.P var
+R21846:21846 Coq.ssr.ssrfun <> Sig.P var
+R21849:21852 Coq.ssr.ssrfun <> sval syndef
+R21854:21854 Coq.ssr.ssrfun <> u var
+def 21894:21898 <> s2val
+R21905:21908 Coq.Init.Specif <> sig2 ind
+R21912:21912 Coq.ssr.ssrfun <> Sig.Q var
+R21910:21910 Coq.ssr.ssrfun <> Sig.P var
+R21943:21943 Coq.ssr.ssrfun <> u var
+R21923:21928 Coq.Init.Specif <> exist2 constr
+prf 21958:21963 <> s2valP
+R21969:21969 Coq.ssr.ssrfun <> Sig.P var
+R21972:21976 Coq.ssr.ssrfun <> s2val def
+R21978:21978 Coq.ssr.ssrfun <> u var
+prf 22013:22019 <> s2valP'
+R22025:22025 Coq.ssr.ssrfun <> Sig.Q var
+R22028:22032 Coq.ssr.ssrfun <> s2val def
+R22034:22034 Coq.ssr.ssrfun <> u var
+R22067:22069 Coq.ssr.ssrfun Sig <> sec
+R22149:22151 Coq.Init.Specif <> sig ind
+R22155:22155 Coq.ssr.ssrfun <> P var
+R22153:22153 Coq.ssr.ssrfun <> I var
+R22161:22166 Coq.ssr.ssrfun <> Tagged def
+R22171:22175 Coq.ssr.ssrfun <> svalP thm
+R22177:22177 Coq.ssr.ssrfun <> u var
+R22168:22168 Coq.ssr.ssrfun <> P var
+R22215:22218 Coq.Init.Specif <> sig2 ind
+R22224:22224 Coq.ssr.ssrfun <> Q var
+R22222:22222 Coq.ssr.ssrfun <> P var
+R22220:22220 Coq.ssr.ssrfun <> I var
+R22232:22236 Coq.Init.Specif <> exist constr
+R22271:22274 Coq.Init.Logic <> conj constr
+R22288:22294 Coq.ssr.ssrfun <> s2valP' thm
+R22296:22296 Coq.ssr.ssrfun <> u var
+R22277:22282 Coq.ssr.ssrfun <> s2valP thm
+R22284:22284 Coq.ssr.ssrfun <> u var
+R22261:22265 Coq.ssr.ssrfun <> s2val def
+R22267:22267 Coq.ssr.ssrfun <> u var
+R22251:22254 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R22248:22248 Coq.ssr.ssrfun <> P var
+R22250:22250 Coq.ssr.ssrfun <> i var
+R22255:22255 Coq.ssr.ssrfun <> Q var
+R22257:22257 Coq.ssr.ssrfun <> i var
+prf 22308:22314 <> all_sig
+R22328:22328 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22360:22366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22367:22367 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22369:22371 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22385:22387 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22407:22407 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22382:22382 Coq.ssr.ssrfun <> T var
+R22384:22384 Coq.ssr.ssrfun <> x var
+R22398:22398 Coq.ssr.ssrfun <> P var
+R22403:22403 Coq.ssr.ssrfun <> f var
+R22405:22405 Coq.ssr.ssrfun <> x var
+R22400:22400 Coq.ssr.ssrfun <> x var
+R22340:22340 Coq.ssr.ssrfun <> I var
+R22343:22343 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22345:22347 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22351:22353 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22359:22359 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R22348:22348 Coq.ssr.ssrfun <> T var
+R22350:22350 Coq.ssr.ssrfun <> x var
+R22354:22354 Coq.ssr.ssrfun <> P var
+R22358:22358 Coq.ssr.ssrfun <> y var
+R22356:22356 Coq.ssr.ssrfun <> x var
+R22425:22431 Coq.ssr.ssrfun <> all_tag thm
+prf 22460:22467 <> all_sig2
+R22483:22483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22523:22529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22530:22530 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22532:22534 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22548:22550 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22570:22572 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22592:22592 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22545:22545 Coq.ssr.ssrfun <> T var
+R22547:22547 Coq.ssr.ssrfun <> x var
+R22561:22561 Coq.ssr.ssrfun <> P var
+R22566:22566 Coq.ssr.ssrfun <> f var
+R22568:22568 Coq.ssr.ssrfun <> x var
+R22563:22563 Coq.ssr.ssrfun <> x var
+R22583:22583 Coq.ssr.ssrfun <> Q var
+R22588:22588 Coq.ssr.ssrfun <> f var
+R22590:22590 Coq.ssr.ssrfun <> x var
+R22585:22585 Coq.ssr.ssrfun <> x var
+R22495:22495 Coq.ssr.ssrfun <> I var
+R22498:22498 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22500:22502 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22506:22508 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22514:22516 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22522:22522 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'&'_x_'}' not
+R22503:22503 Coq.ssr.ssrfun <> T var
+R22505:22505 Coq.ssr.ssrfun <> x var
+R22509:22509 Coq.ssr.ssrfun <> P var
+R22513:22513 Coq.ssr.ssrfun <> y var
+R22511:22511 Coq.ssr.ssrfun <> x var
+R22517:22517 Coq.ssr.ssrfun <> Q var
+R22521:22521 Coq.ssr.ssrfun <> y var
+R22519:22519 Coq.ssr.ssrfun <> x var
+R22610:22616 Coq.ssr.ssrfun <> all_sig thm
+R22623:22630 Coq.ssr.ssrfun <> all_pair def
+sec 22659:22666 <> Morphism
+var 22681:22682 Morphism aT
+var 22684:22685 Morphism rT
+var 22687:22688 Morphism sT
+var 22699:22699 Morphism f
+R22705:22708 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22709:22710 Coq.ssr.ssrfun <> rT var
+R22703:22704 Coq.ssr.ssrfun <> aT var
+def 22785:22794 <> morphism_1
+R22823:22825 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22815:22815 Coq.ssr.ssrfun <> Morphism.f var
+R22818:22819 Coq.ssr.ssrfun <> aF var
+R22821:22821 Coq.ssr.ssrfun <> x var
+R22826:22827 Coq.ssr.ssrfun <> rF var
+R22830:22830 Coq.ssr.ssrfun <> Morphism.f var
+R22832:22832 Coq.ssr.ssrfun <> x var
+def 22847:22856 <> morphism_2
+R22892:22894 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22881:22881 Coq.ssr.ssrfun <> Morphism.f var
+R22884:22886 Coq.ssr.ssrfun <> aOp var
+R22890:22890 Coq.ssr.ssrfun <> y var
+R22888:22888 Coq.ssr.ssrfun <> x var
+R22895:22897 Coq.ssr.ssrfun <> rOp var
+R22906:22906 Coq.ssr.ssrfun <> Morphism.f var
+R22908:22908 Coq.ssr.ssrfun <> y var
+R22900:22900 Coq.ssr.ssrfun <> Morphism.f var
+R22902:22902 Coq.ssr.ssrfun <> x var
+def 22987:23000 <> homomorphism_1
+R23012:23015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23039:23042 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23043:23044 Coq.ssr.ssrfun <> rP var
+R23047:23047 Coq.ssr.ssrfun <> Morphism.f var
+R23049:23049 Coq.ssr.ssrfun <> x var
+R23035:23036 Coq.ssr.ssrfun <> aP var
+R23038:23038 Coq.ssr.ssrfun <> x var
+def 23064:23077 <> homomorphism_2
+R23089:23092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23094:23097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23127:23130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23131:23132 Coq.ssr.ssrfun <> rR var
+R23141:23141 Coq.ssr.ssrfun <> Morphism.f var
+R23143:23143 Coq.ssr.ssrfun <> y var
+R23135:23135 Coq.ssr.ssrfun <> Morphism.f var
+R23137:23137 Coq.ssr.ssrfun <> x var
+R23121:23122 Coq.ssr.ssrfun <> aR var
+R23126:23126 Coq.ssr.ssrfun <> y var
+R23124:23124 Coq.ssr.ssrfun <> x var
+def 23219:23232 <> monomorphism_1
+R23244:23247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23248:23249 Coq.ssr.ssrfun <> Morphism.sT var
+R23273:23275 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23265:23266 Coq.ssr.ssrfun <> rP var
+R23269:23269 Coq.ssr.ssrfun <> Morphism.f var
+R23271:23271 Coq.ssr.ssrfun <> x var
+R23276:23277 Coq.ssr.ssrfun <> aP var
+R23279:23279 Coq.ssr.ssrfun <> x var
+def 23293:23306 <> monomorphism_2
+R23318:23321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23323:23326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23327:23328 Coq.ssr.ssrfun <> Morphism.sT var
+R23362:23364 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23348:23349 Coq.ssr.ssrfun <> rR var
+R23358:23358 Coq.ssr.ssrfun <> Morphism.f var
+R23360:23360 Coq.ssr.ssrfun <> y var
+R23352:23352 Coq.ssr.ssrfun <> Morphism.f var
+R23354:23354 Coq.ssr.ssrfun <> x var
+R23365:23366 Coq.ssr.ssrfun <> aR var
+R23370:23370 Coq.ssr.ssrfun <> y var
+R23368:23368 Coq.ssr.ssrfun <> x var
+R23378:23385 Coq.ssr.ssrfun Morphism <> sec
+R23434:23443 Coq.ssr.ssrfun <> morphism_1 def
+not 23398:23398 <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}'
+R23615:23624 Coq.ssr.ssrfun <> morphism_1 def
+not 23585:23585 <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'}'
+R23796:23805 Coq.ssr.ssrfun <> morphism_2 def
+not 23758:23758 <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}'
+R23995:24004 Coq.ssr.ssrfun <> morphism_2 def
+not 23963:23963 <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'}'
+R24189:24202 Coq.ssr.ssrfun <> homomorphism_1 def
+not 24154:24154 <> ::type_scope:'{'_'homo'_x_':'_x_'/'_x_'>->'_x_'}'
+R24372:24385 Coq.ssr.ssrfun <> homomorphism_1 def
+not 24343:24343 <> ::type_scope:'{'_'homo'_x_':'_x_'/'_x_'}'
+R24555:24568 Coq.ssr.ssrfun <> homomorphism_2 def
+not 24518:24518 <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'>->'_x_'}'
+R24756:24769 Coq.ssr.ssrfun <> homomorphism_2 def
+not 24725:24725 <> ::type_scope:'{'_'homo'_x_':'_x_x_'/'_x_'}'
+R24950:24963 Coq.ssr.ssrfun <> homomorphism_2 def
+not 24918:24918 <> ::type_scope:'{'_'homo'_x_':'_x_x_'/~'_x_'}'
+R25148:25161 Coq.ssr.ssrfun <> monomorphism_1 def
+not 25113:25113 <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}'
+R25331:25344 Coq.ssr.ssrfun <> monomorphism_1 def
+not 25302:25302 <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'}'
+R25514:25527 Coq.ssr.ssrfun <> monomorphism_2 def
+not 25477:25477 <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}'
+R25715:25728 Coq.ssr.ssrfun <> monomorphism_2 def
+not 25684:25684 <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'}'
+R25909:25922 Coq.ssr.ssrfun <> monomorphism_2 def
+not 25877:25877 <> ::type_scope:'{'_'mono'_x_':'_x_x_'/~'_x_'}'
+sec 26443:26452 <> Injections
+var 26610:26611 Injections rT
+var 26613:26614 Injections aT
+var 26625:26625 Injections f
+R26631:26634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26635:26636 Coq.ssr.ssrfun <> rT var
+R26629:26630 Coq.ssr.ssrfun <> aT var
+def 26652:26660 <> injective
+R26690:26693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26696:26698 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26694:26695 Coq.ssr.ssrfun <> x1 var
+R26699:26700 Coq.ssr.ssrfun <> x2 var
+R26683:26685 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26679:26679 Coq.ssr.ssrfun <> Injections.f var
+R26681:26682 Coq.ssr.ssrfun <> x1 var
+R26686:26686 Coq.ssr.ssrfun <> Injections.f var
+R26688:26689 Coq.ssr.ssrfun <> x2 var
+def 26715:26720 <> cancel
+R26744:26746 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26737:26737 Coq.ssr.ssrfun <> g var
+R26740:26740 Coq.ssr.ssrfun <> Injections.f var
+R26742:26742 Coq.ssr.ssrfun <> x var
+R26747:26747 Coq.ssr.ssrfun <> x var
+def 26762:26768 <> pcancel
+R26792:26794 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26785:26785 Coq.ssr.ssrfun <> g var
+R26788:26788 Coq.ssr.ssrfun <> Injections.f var
+R26790:26790 Coq.ssr.ssrfun <> x var
+R26795:26798 Coq.Init.Datatypes <> Some constr
+R26800:26800 Coq.ssr.ssrfun <> x var
+def 26815:26821 <> ocancel
+R26830:26833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26834:26839 Coq.Init.Datatypes <> option ind
+R26841:26842 Coq.ssr.ssrfun <> Injections.rT var
+R26828:26829 Coq.ssr.ssrfun <> Injections.aT var
+R26874:26876 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26860:26863 Coq.ssr.ssrfun <> oapp syndef
+R26870:26870 Coq.ssr.ssrfun <> g var
+R26872:26872 Coq.ssr.ssrfun <> x var
+R26867:26867 Coq.ssr.ssrfun <> x var
+R26865:26865 Coq.ssr.ssrfun <> h var
+R26877:26877 Coq.ssr.ssrfun <> x var
+prf 26887:26894 <> can_pcan
+R26908:26911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26912:26918 Coq.ssr.ssrfun <> pcancel def
+R26930:26933 Coq.Init.Datatypes <> Some constr
+R26936:26936 Coq.ssr.ssrfun <> g var
+R26938:26938 Coq.ssr.ssrfun <> y var
+R26900:26905 Coq.ssr.ssrfun <> cancel def
+R26907:26907 Coq.ssr.ssrfun <> g var
+R26973:26976 Coq.Init.Datatypes <> Some constr
+R26973:26976 Coq.Init.Datatypes <> Some constr
+prf 26994:27001 <> pcan_inj
+R27016:27019 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27020:27028 Coq.ssr.ssrfun <> injective def
+R27007:27013 Coq.ssr.ssrfun <> pcancel def
+R27015:27015 Coq.ssr.ssrfun <> g var
+R27057:27062 Coq.ssr.ssrfun <> congr1 def
+prf 27101:27107 <> can_inj
+R27121:27124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27125:27133 Coq.ssr.ssrfun <> injective def
+R27113:27118 Coq.ssr.ssrfun <> cancel def
+R27120:27120 Coq.ssr.ssrfun <> g var
+R27168:27175 Coq.ssr.ssrfun <> pcan_inj thm
+R27151:27158 Coq.ssr.ssrfun <> can_pcan thm
+R27168:27175 Coq.ssr.ssrfun <> pcan_inj thm
+prf 27190:27194 <> canLR
+R27212:27215 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27223:27226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27230:27232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27227:27227 Coq.ssr.ssrfun <> g var
+R27229:27229 Coq.ssr.ssrfun <> x var
+R27233:27233 Coq.ssr.ssrfun <> y var
+R27217:27219 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27216:27216 Coq.ssr.ssrfun <> x var
+R27220:27220 Coq.ssr.ssrfun <> Injections.f var
+R27222:27222 Coq.ssr.ssrfun <> y var
+R27204:27209 Coq.ssr.ssrfun <> cancel def
+R27211:27211 Coq.ssr.ssrfun <> g var
+prf 27272:27276 <> canRL
+R27294:27297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27305:27308 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27310:27312 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27309:27309 Coq.ssr.ssrfun <> x var
+R27313:27313 Coq.ssr.ssrfun <> g var
+R27315:27315 Coq.ssr.ssrfun <> y var
+R27301:27303 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27298:27298 Coq.ssr.ssrfun <> Injections.f var
+R27300:27300 Coq.ssr.ssrfun <> x var
+R27304:27304 Coq.ssr.ssrfun <> y var
+R27286:27291 Coq.ssr.ssrfun <> cancel def
+R27293:27293 Coq.ssr.ssrfun <> g var
+R27352:27361 Coq.ssr.ssrfun Injections <> sec
+prf 27371:27378 <> Some_inj
+R27386:27394 Coq.ssr.ssrfun <> injective def
+R27398:27401 Coq.Init.Datatypes <> Some constr
+R27403:27403 Coq.ssr.ssrfun <> T var
+prf 27571:27575 <> esymK
+R27585:27590 Coq.ssr.ssrfun <> cancel def
+R27608:27611 Coq.ssr.ssrfun <> esym def
+R27617:27617 Coq.ssr.ssrfun <> x var
+R27615:27615 Coq.ssr.ssrfun <> y var
+R27613:27613 Coq.ssr.ssrfun <> T var
+R27594:27597 Coq.ssr.ssrfun <> esym def
+R27603:27603 Coq.ssr.ssrfun <> y var
+R27601:27601 Coq.ssr.ssrfun <> x var
+R27599:27599 Coq.ssr.ssrfun <> T var
+prf 27654:27662 <> etrans_id
+R27679:27681 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27683:27686 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R27687:27687 Coq.ssr.ssrfun <> T var
+R27678:27678 Coq.ssr.ssrfun <> x var
+R27682:27682 Coq.ssr.ssrfun <> y var
+R27713:27715 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27692:27697 Coq.ssr.ssrfun <> etrans def
+R27709:27712 Coq.ssr.ssrfun <> eqxy var
+R27700:27704 Coq.ssr.ssrfun <> erefl syndef
+R27706:27706 Coq.ssr.ssrfun <> x var
+R27716:27719 Coq.ssr.ssrfun <> eqxy var
+sec 27762:27777 <> InjectionsTheory
+var 27792:27792 InjectionsTheory A
+var 27794:27794 InjectionsTheory B
+var 27796:27796 InjectionsTheory C
+var 27807:27807 InjectionsTheory f
+var 27809:27809 InjectionsTheory g
+var 27822:27822 InjectionsTheory h
+R27814:27817 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27818:27818 Coq.ssr.ssrfun <> A var
+R27813:27813 Coq.ssr.ssrfun <> B var
+R27827:27830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27831:27831 Coq.ssr.ssrfun <> B var
+R27826:27826 Coq.ssr.ssrfun <> C var
+prf 27842:27847 <> inj_id
+R27851:27859 Coq.ssr.ssrfun <> injective def
+R27862:27865 Coq.ssr.ssrfun <> ::fun_scope:'@'_'id'_x not
+R27866:27866 Coq.ssr.ssrfun <> InjectionsTheory.A var
+prf 27896:27906 <> inj_can_sym
+R27924:27927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27940:27943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27944:27949 Coq.ssr.ssrfun <> cancel def
+R27954:27954 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R27951:27952 Coq.ssr.ssrfun <> f' var
+R27928:27936 Coq.ssr.ssrfun <> injective def
+R27938:27939 Coq.ssr.ssrfun <> f' var
+R27913:27918 Coq.ssr.ssrfun <> cancel def
+R27922:27923 Coq.ssr.ssrfun <> f' var
+R27920:27920 Coq.ssr.ssrfun <> InjectionsTheory.f var
+prf 28012:28019 <> inj_comp
+R28034:28037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28049:28052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28053:28061 Coq.ssr.ssrfun <> injective def
+R28065:28068 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R28064:28064 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28069:28069 Coq.ssr.ssrfun <> InjectionsTheory.h var
+R28038:28046 Coq.ssr.ssrfun <> injective def
+R28048:28048 Coq.ssr.ssrfun <> InjectionsTheory.h var
+R28023:28031 Coq.ssr.ssrfun <> injective def
+R28033:28033 Coq.ssr.ssrfun <> InjectionsTheory.f var
+prf 28136:28143 <> can_comp
+R28164:28167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28179:28182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28183:28188 Coq.ssr.ssrfun <> cancel def
+R28202:28205 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R28200:28201 Coq.ssr.ssrfun <> h' var
+R28206:28207 Coq.ssr.ssrfun <> f' var
+R28192:28195 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R28191:28191 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28196:28196 Coq.ssr.ssrfun <> InjectionsTheory.h var
+R28168:28173 Coq.ssr.ssrfun <> cancel def
+R28177:28178 Coq.ssr.ssrfun <> h' var
+R28175:28175 Coq.ssr.ssrfun <> InjectionsTheory.h var
+R28153:28158 Coq.ssr.ssrfun <> cancel def
+R28162:28163 Coq.ssr.ssrfun <> f' var
+R28160:28160 Coq.ssr.ssrfun <> InjectionsTheory.f var
+prf 28267:28276 <> pcan_pcomp
+R28300:28303 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28316:28319 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28320:28326 Coq.ssr.ssrfun <> pcancel def
+R28338:28342 Coq.ssr.ssrfun <> pcomp def
+R28347:28348 Coq.ssr.ssrfun <> f' var
+R28344:28345 Coq.ssr.ssrfun <> h' var
+R28330:28333 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R28329:28329 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28334:28334 Coq.ssr.ssrfun <> InjectionsTheory.h var
+R28304:28310 Coq.ssr.ssrfun <> pcancel def
+R28314:28315 Coq.ssr.ssrfun <> h' var
+R28312:28312 Coq.ssr.ssrfun <> InjectionsTheory.h var
+R28288:28294 Coq.ssr.ssrfun <> pcancel def
+R28298:28299 Coq.ssr.ssrfun <> f' var
+R28296:28296 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28387:28391 Coq.ssr.ssrfun <> pcomp def
+R28387:28391 Coq.ssr.ssrfun <> pcomp def
+R28387:28391 Coq.ssr.ssrfun <> pcomp def
+prf 28415:28420 <> eq_inj
+R28435:28438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28445:28448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28449:28457 Coq.ssr.ssrfun <> injective def
+R28459:28459 Coq.ssr.ssrfun <> InjectionsTheory.g var
+R28440:28443 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R28439:28439 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28444:28444 Coq.ssr.ssrfun <> InjectionsTheory.g var
+R28424:28432 Coq.ssr.ssrfun <> injective def
+R28434:28434 Coq.ssr.ssrfun <> InjectionsTheory.f var
+prf 28536:28541 <> eq_can
+R28562:28565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28572:28575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28584:28587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28588:28593 Coq.ssr.ssrfun <> cancel def
+R28597:28598 Coq.ssr.ssrfun <> g' var
+R28595:28595 Coq.ssr.ssrfun <> InjectionsTheory.g var
+R28578:28581 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R28576:28577 Coq.ssr.ssrfun <> f' var
+R28582:28583 Coq.ssr.ssrfun <> g' var
+R28567:28570 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R28566:28566 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28571:28571 Coq.ssr.ssrfun <> InjectionsTheory.g var
+R28551:28556 Coq.ssr.ssrfun <> cancel def
+R28560:28561 Coq.ssr.ssrfun <> f' var
+R28558:28558 Coq.ssr.ssrfun <> InjectionsTheory.f var
+prf 28669:28678 <> inj_can_eq
+R28696:28699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28712:28715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28727:28730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28732:28735 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R28731:28731 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28736:28736 Coq.ssr.ssrfun <> InjectionsTheory.g var
+R28716:28721 Coq.ssr.ssrfun <> cancel def
+R28725:28726 Coq.ssr.ssrfun <> f' var
+R28723:28723 Coq.ssr.ssrfun <> InjectionsTheory.g var
+R28700:28708 Coq.ssr.ssrfun <> injective def
+R28710:28711 Coq.ssr.ssrfun <> f' var
+R28685:28690 Coq.ssr.ssrfun <> cancel def
+R28694:28695 Coq.ssr.ssrfun <> f' var
+R28692:28692 Coq.ssr.ssrfun <> InjectionsTheory.f var
+R28807:28822 Coq.ssr.ssrfun InjectionsTheory <> sec
+sec 28834:28843 <> Bijections
+var 28858:28858 Bijections A
+var 28860:28860 Bijections B
+var 28871:28871 Bijections f
+R28876:28879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28880:28880 Coq.ssr.ssrfun <> A var
+R28875:28875 Coq.ssr.ssrfun <> B var
+ind 28893:28901 <> bijective
+constr 28913:28921 <> Bijective
+R28928:28933 Coq.ssr.ssrfun <> cancel def
+R28937:28937 Coq.ssr.ssrfun <> g var
+R28935:28935 Coq.ssr.ssrfun <> Bijections.f var
+R28941:28946 Coq.ssr.ssrfun <> cancel def
+R28950:28950 Coq.ssr.ssrfun <> Bijections.f var
+R28948:28948 Coq.ssr.ssrfun <> g var
+R28951:28951 Coq.ssr.ssrfun <> bijective ind
+var 28965:28968 Bijections bijf
+R28972:28980 Coq.ssr.ssrfun <> bijective variant
+prf 28990:28996 <> bij_inj
+R29000:29008 Coq.ssr.ssrfun <> injective def
+R29010:29010 Coq.ssr.ssrfun <> Bijections.f var
+R29029:29032 Coq.ssr.ssrfun <> Bijections.bijf var
+R29052:29058 Coq.ssr.ssrfun <> can_inj thm
+R29029:29032 Coq.ssr.ssrfun <> Bijections.bijf var
+R29029:29032 Coq.ssr.ssrfun <> Bijections.bijf var
+R29052:29058 Coq.ssr.ssrfun <> can_inj thm
+prf 29076:29086 <> bij_can_sym
+R29104:29108 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R29093:29098 Coq.ssr.ssrfun <> cancel def
+R29103:29103 Coq.ssr.ssrfun <> Bijections.f var
+R29100:29101 Coq.ssr.ssrfun <> f' var
+R29109:29114 Coq.ssr.ssrfun <> cancel def
+R29118:29119 Coq.ssr.ssrfun <> f' var
+R29116:29116 Coq.ssr.ssrfun <> Bijections.f var
+R29154:29164 Coq.ssr.ssrfun <> inj_can_sym thm
+R29169:29175 Coq.ssr.ssrfun <> bij_inj thm
+R29169:29175 Coq.ssr.ssrfun <> bij_inj thm
+R29154:29164 Coq.ssr.ssrfun <> inj_can_sym thm
+R29187:29190 Coq.ssr.ssrfun <> Bijections.bijf var
+R29187:29190 Coq.ssr.ssrfun <> Bijections.bijf var
+R29187:29190 Coq.ssr.ssrfun <> Bijections.bijf var
+prf 29236:29245 <> bij_can_eq
+R29267:29270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29283:29286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29289:29292 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R29287:29288 Coq.ssr.ssrfun <> f' var
+R29293:29295 Coq.ssr.ssrfun <> f'' var
+R29271:29276 Coq.ssr.ssrfun <> cancel def
+R29280:29282 Coq.ssr.ssrfun <> f'' var
+R29278:29278 Coq.ssr.ssrfun <> Bijections.f var
+R29256:29261 Coq.ssr.ssrfun <> cancel def
+R29265:29266 Coq.ssr.ssrfun <> f' var
+R29263:29263 Coq.ssr.ssrfun <> Bijections.f var
+R29331:29340 Coq.ssr.ssrfun <> inj_can_eq thm
+R29344:29350 Coq.ssr.ssrfun <> bij_inj thm
+R29360:29370 Coq.ssr.ssrfun <> bij_can_sym thm
+R29331:29340 Coq.ssr.ssrfun <> inj_can_eq thm
+R29344:29350 Coq.ssr.ssrfun <> bij_inj thm
+R29360:29370 Coq.ssr.ssrfun <> bij_can_sym thm
+R29360:29370 Coq.ssr.ssrfun <> bij_can_sym thm
+R29383:29392 Coq.ssr.ssrfun Bijections <> sec
+sec 29404:29419 <> BijectionsTheory
+var 29434:29434 BijectionsTheory A
+var 29436:29436 BijectionsTheory B
+var 29438:29438 BijectionsTheory C
+var 29449:29449 BijectionsTheory f
+var 29462:29462 BijectionsTheory h
+R29454:29457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29458:29458 Coq.ssr.ssrfun <> A var
+R29453:29453 Coq.ssr.ssrfun <> B var
+R29467:29470 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29471:29471 Coq.ssr.ssrfun <> B var
+R29466:29466 Coq.ssr.ssrfun <> C var
+prf 29482:29487 <> eq_bij
+R29502:29505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29522:29525 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29526:29534 Coq.ssr.ssrfun <> bijective variant
+R29536:29536 Coq.ssr.ssrfun <> g var
+R29517:29520 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R29516:29516 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29521:29521 Coq.ssr.ssrfun <> g var
+R29491:29499 Coq.ssr.ssrfun <> bijective variant
+R29501:29501 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29592:29597 Coq.ssr.ssrfun <> eq_can thm
+R29592:29597 Coq.ssr.ssrfun <> eq_can thm
+R29592:29597 Coq.ssr.ssrfun <> eq_can thm
+prf 29619:29626 <> bij_comp
+R29641:29644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29656:29659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29660:29668 Coq.ssr.ssrfun <> bijective variant
+R29672:29675 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R29671:29671 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29676:29676 Coq.ssr.ssrfun <> BijectionsTheory.h var
+R29645:29653 Coq.ssr.ssrfun <> bijective variant
+R29655:29655 Coq.ssr.ssrfun <> BijectionsTheory.h var
+R29630:29638 Coq.ssr.ssrfun <> bijective variant
+R29640:29640 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29732:29735 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R29748:29755 Coq.ssr.ssrfun <> can_comp thm
+R29732:29735 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R29748:29755 Coq.ssr.ssrfun <> can_comp thm
+R29748:29755 Coq.ssr.ssrfun <> can_comp thm
+prf 29776:29786 <> bij_can_bij
+R29801:29804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29827:29830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29831:29839 Coq.ssr.ssrfun <> bijective variant
+R29841:29842 Coq.ssr.ssrfun <> f' var
+R29816:29821 Coq.ssr.ssrfun <> cancel def
+R29825:29826 Coq.ssr.ssrfun <> f' var
+R29823:29823 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29790:29798 Coq.ssr.ssrfun <> bijective variant
+R29800:29800 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29875:29875 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29894:29904 Coq.ssr.ssrfun <> bij_can_sym thm
+R29875:29875 Coq.ssr.ssrfun <> BijectionsTheory.f var
+R29894:29904 Coq.ssr.ssrfun <> bij_can_sym thm
+R29923:29938 Coq.ssr.ssrfun BijectionsTheory <> sec
+sec 29950:29960 <> Involutions
+var 29975:29975 Involutions A
+var 29986:29986 Involutions f
+R29991:29994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29995:29995 Coq.ssr.ssrfun <> A var
+R29990:29990 Coq.ssr.ssrfun <> A var
+def 30011:30020 <> involutive
+R30025:30030 Coq.ssr.ssrfun <> cancel def
+R30034:30034 Coq.ssr.ssrfun <> Involutions.f var
+R30032:30032 Coq.ssr.ssrfun <> Involutions.f var
+var 30049:30050 Involutions Hf
+R30054:30063 Coq.ssr.ssrfun <> involutive def
+prf 30073:30079 <> inv_inj
+R30083:30091 Coq.ssr.ssrfun <> injective def
+R30093:30093 Coq.ssr.ssrfun <> Involutions.f var
+R30110:30116 Coq.ssr.ssrfun <> can_inj thm
+R30118:30119 Coq.ssr.ssrfun <> Involutions.Hf var
+R30118:30119 Coq.ssr.ssrfun <> Involutions.Hf var
+R30110:30116 Coq.ssr.ssrfun <> can_inj thm
+prf 30133:30139 <> inv_bij
+R30143:30151 Coq.ssr.ssrfun <> bijective variant
+R30153:30153 Coq.ssr.ssrfun <> Involutions.f var
+R30173:30173 Coq.ssr.ssrfun <> Involutions.f var
+R30173:30173 Coq.ssr.ssrfun <> Involutions.f var
+R30186:30196 Coq.ssr.ssrfun Involutions <> sec
+sec 30208:30226 <> OperationProperties
+var 30240:30240 OperationProperties S
+var 30242:30242 OperationProperties T
+var 30244:30244 OperationProperties R
+sec 30263:30269 OperationProperties SopTisR
+R30293:30296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30298:30301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30302:30302 Coq.ssr.ssrfun <> OperationProperties.R var
+R30297:30297 Coq.ssr.ssrfun <> OperationProperties.T var
+R30292:30292 Coq.ssr.ssrfun <> OperationProperties.S var
+def 30316:30327 <> left_inverse
+R30363:30365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30351:30352 Coq.ssr.ssrfun <> op var
+R30362:30362 Coq.ssr.ssrfun <> x var
+R30355:30357 Coq.ssr.ssrfun <> inv var
+R30359:30359 Coq.ssr.ssrfun <> x var
+R30366:30366 Coq.ssr.ssrfun <> e var
+def 30380:30392 <> right_inverse
+R30428:30430 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30416:30417 Coq.ssr.ssrfun <> op var
+R30422:30424 Coq.ssr.ssrfun <> inv var
+R30426:30426 Coq.ssr.ssrfun <> x var
+R30419:30419 Coq.ssr.ssrfun <> x var
+R30431:30431 Coq.ssr.ssrfun <> e var
+def 30445:30458 <> left_injective
+R30476:30484 Coq.ssr.ssrfun <> injective def
+R30489:30491 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R30492:30492 Coq.ssr.ssrfun <> x var
+R30487:30488 Coq.ssr.ssrfun <> op var
+def 30507:30521 <> right_injective
+R30539:30547 Coq.ssr.ssrfun <> injective def
+R30550:30551 Coq.ssr.ssrfun <> op var
+R30553:30553 Coq.ssr.ssrfun <> y var
+R30561:30567 Coq.ssr.ssrfun OperationProperties.SopTisR <> sec
+sec 30580:30586 OperationProperties SopTisS
+R30610:30613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30615:30618 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R30619:30619 Coq.ssr.ssrfun <> OperationProperties.S var
+R30614:30614 Coq.ssr.ssrfun <> OperationProperties.T var
+R30609:30609 Coq.ssr.ssrfun <> OperationProperties.S var
+def 30633:30640 <> right_id
+R30666:30668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30660:30661 Coq.ssr.ssrfun <> op var
+R30665:30665 Coq.ssr.ssrfun <> e var
+R30663:30663 Coq.ssr.ssrfun <> x var
+R30669:30669 Coq.ssr.ssrfun <> x var
+def 30683:30691 <> left_zero
+R30717:30719 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30711:30712 Coq.ssr.ssrfun <> op var
+R30716:30716 Coq.ssr.ssrfun <> x var
+R30714:30714 Coq.ssr.ssrfun <> z var
+R30720:30720 Coq.ssr.ssrfun <> z var
+def 30734:30750 <> right_commutative
+R30785:30787 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30772:30773 Coq.ssr.ssrfun <> op var
+R30784:30784 Coq.ssr.ssrfun <> z var
+R30776:30777 Coq.ssr.ssrfun <> op var
+R30781:30781 Coq.ssr.ssrfun <> y var
+R30779:30779 Coq.ssr.ssrfun <> x var
+R30788:30789 Coq.ssr.ssrfun <> op var
+R30800:30800 Coq.ssr.ssrfun <> y var
+R30792:30793 Coq.ssr.ssrfun <> op var
+R30797:30797 Coq.ssr.ssrfun <> z var
+R30795:30795 Coq.ssr.ssrfun <> x var
+def 30814:30830 <> left_distributive
+R30872:30874 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R30858:30859 Coq.ssr.ssrfun <> op var
+R30871:30871 Coq.ssr.ssrfun <> z var
+R30862:30864 Coq.ssr.ssrfun <> add var
+R30868:30868 Coq.ssr.ssrfun <> y var
+R30866:30866 Coq.ssr.ssrfun <> x var
+R30875:30877 Coq.ssr.ssrfun <> add var
+R30889:30890 Coq.ssr.ssrfun <> op var
+R30894:30894 Coq.ssr.ssrfun <> z var
+R30892:30892 Coq.ssr.ssrfun <> y var
+R30880:30881 Coq.ssr.ssrfun <> op var
+R30885:30885 Coq.ssr.ssrfun <> z var
+R30883:30883 Coq.ssr.ssrfun <> x var
+def 30909:30918 <> right_loop
+R30940:30945 Coq.ssr.ssrfun <> cancel def
+R30959:30962 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R30968:30968 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R30963:30965 Coq.ssr.ssrfun <> inv var
+R30967:30967 Coq.ssr.ssrfun <> y var
+R30957:30958 Coq.ssr.ssrfun <> op var
+R30950:30952 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R30953:30953 Coq.ssr.ssrfun <> y var
+R30948:30949 Coq.ssr.ssrfun <> op var
+def 30983:30996 <> rev_right_loop
+R31018:31023 Coq.ssr.ssrfun <> cancel def
+R31043:31045 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R31046:31046 Coq.ssr.ssrfun <> y var
+R31041:31042 Coq.ssr.ssrfun <> op var
+R31028:31031 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R31037:31037 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R31032:31034 Coq.ssr.ssrfun <> inv var
+R31036:31036 Coq.ssr.ssrfun <> y var
+R31026:31027 Coq.ssr.ssrfun <> op var
+R31054:31060 Coq.ssr.ssrfun OperationProperties.SopTisS <> sec
+sec 31072:31078 OperationProperties SopTisT
+R31102:31105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31107:31110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31111:31111 Coq.ssr.ssrfun <> OperationProperties.T var
+R31106:31106 Coq.ssr.ssrfun <> OperationProperties.T var
+R31101:31101 Coq.ssr.ssrfun <> OperationProperties.S var
+def 31125:31131 <> left_id
+R31157:31159 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31151:31152 Coq.ssr.ssrfun <> op var
+R31156:31156 Coq.ssr.ssrfun <> x var
+R31154:31154 Coq.ssr.ssrfun <> e var
+R31160:31160 Coq.ssr.ssrfun <> x var
+def 31174:31183 <> right_zero
+R31209:31211 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31203:31204 Coq.ssr.ssrfun <> op var
+R31208:31208 Coq.ssr.ssrfun <> z var
+R31206:31206 Coq.ssr.ssrfun <> x var
+R31212:31212 Coq.ssr.ssrfun <> z var
+def 31226:31241 <> left_commutative
+R31276:31278 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31263:31264 Coq.ssr.ssrfun <> op var
+R31269:31270 Coq.ssr.ssrfun <> op var
+R31274:31274 Coq.ssr.ssrfun <> z var
+R31272:31272 Coq.ssr.ssrfun <> y var
+R31266:31266 Coq.ssr.ssrfun <> x var
+R31279:31280 Coq.ssr.ssrfun <> op var
+R31285:31286 Coq.ssr.ssrfun <> op var
+R31290:31290 Coq.ssr.ssrfun <> z var
+R31288:31288 Coq.ssr.ssrfun <> x var
+R31282:31282 Coq.ssr.ssrfun <> y var
+def 31305:31322 <> right_distributive
+R31364:31366 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31350:31351 Coq.ssr.ssrfun <> op var
+R31356:31358 Coq.ssr.ssrfun <> add var
+R31362:31362 Coq.ssr.ssrfun <> z var
+R31360:31360 Coq.ssr.ssrfun <> y var
+R31353:31353 Coq.ssr.ssrfun <> x var
+R31367:31369 Coq.ssr.ssrfun <> add var
+R31381:31382 Coq.ssr.ssrfun <> op var
+R31386:31386 Coq.ssr.ssrfun <> z var
+R31384:31384 Coq.ssr.ssrfun <> x var
+R31372:31373 Coq.ssr.ssrfun <> op var
+R31377:31377 Coq.ssr.ssrfun <> y var
+R31375:31375 Coq.ssr.ssrfun <> x var
+def 31401:31409 <> left_loop
+R31431:31436 Coq.ssr.ssrfun <> cancel def
+R31446:31447 Coq.ssr.ssrfun <> op var
+R31450:31452 Coq.ssr.ssrfun <> inv var
+R31454:31454 Coq.ssr.ssrfun <> x var
+R31439:31440 Coq.ssr.ssrfun <> op var
+R31442:31442 Coq.ssr.ssrfun <> x var
+def 31470:31482 <> rev_left_loop
+R31504:31509 Coq.ssr.ssrfun <> cancel def
+R31525:31526 Coq.ssr.ssrfun <> op var
+R31528:31528 Coq.ssr.ssrfun <> x var
+R31512:31513 Coq.ssr.ssrfun <> op var
+R31516:31518 Coq.ssr.ssrfun <> inv var
+R31520:31520 Coq.ssr.ssrfun <> x var
+R31536:31542 Coq.ssr.ssrfun OperationProperties.SopTisT <> sec
+sec 31554:31560 OperationProperties SopSisT
+R31584:31587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31589:31592 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31593:31593 Coq.ssr.ssrfun <> OperationProperties.T var
+R31588:31588 Coq.ssr.ssrfun <> OperationProperties.S var
+R31583:31583 Coq.ssr.ssrfun <> OperationProperties.S var
+def 31607:31618 <> self_inverse
+R31644:31646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31638:31639 Coq.ssr.ssrfun <> op var
+R31643:31643 Coq.ssr.ssrfun <> x var
+R31641:31641 Coq.ssr.ssrfun <> x var
+R31647:31647 Coq.ssr.ssrfun <> e var
+def 31661:31671 <> commutative
+R31697:31699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31691:31692 Coq.ssr.ssrfun <> op var
+R31696:31696 Coq.ssr.ssrfun <> y var
+R31694:31694 Coq.ssr.ssrfun <> x var
+R31700:31701 Coq.ssr.ssrfun <> op var
+R31705:31705 Coq.ssr.ssrfun <> x var
+R31703:31703 Coq.ssr.ssrfun <> y var
+R31712:31718 Coq.ssr.ssrfun OperationProperties.SopSisT <> sec
+sec 31730:31736 OperationProperties SopSisS
+R31760:31763 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31765:31768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R31769:31769 Coq.ssr.ssrfun <> OperationProperties.S var
+R31764:31764 Coq.ssr.ssrfun <> OperationProperties.S var
+R31759:31759 Coq.ssr.ssrfun <> OperationProperties.S var
+def 31783:31792 <> idempotent
+R31816:31818 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31810:31811 Coq.ssr.ssrfun <> op var
+R31815:31815 Coq.ssr.ssrfun <> x var
+R31813:31813 Coq.ssr.ssrfun <> x var
+R31819:31819 Coq.ssr.ssrfun <> x var
+def 31833:31843 <> associative
+R31878:31880 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31865:31866 Coq.ssr.ssrfun <> op var
+R31871:31872 Coq.ssr.ssrfun <> op var
+R31876:31876 Coq.ssr.ssrfun <> z var
+R31874:31874 Coq.ssr.ssrfun <> y var
+R31868:31868 Coq.ssr.ssrfun <> x var
+R31881:31882 Coq.ssr.ssrfun <> op var
+R31893:31893 Coq.ssr.ssrfun <> z var
+R31885:31886 Coq.ssr.ssrfun <> op var
+R31890:31890 Coq.ssr.ssrfun <> y var
+R31888:31888 Coq.ssr.ssrfun <> x var
+def 31907:31917 <> interchange
+R31971:31973 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R31948:31950 Coq.ssr.ssrfun <> op1 var
+R31963:31965 Coq.ssr.ssrfun <> op2 var
+R31969:31969 Coq.ssr.ssrfun <> t var
+R31967:31967 Coq.ssr.ssrfun <> z var
+R31953:31955 Coq.ssr.ssrfun <> op2 var
+R31959:31959 Coq.ssr.ssrfun <> y var
+R31957:31957 Coq.ssr.ssrfun <> x var
+R31974:31976 Coq.ssr.ssrfun <> op2 var
+R31989:31991 Coq.ssr.ssrfun <> op1 var
+R31995:31995 Coq.ssr.ssrfun <> t var
+R31993:31993 Coq.ssr.ssrfun <> y var
+R31979:31981 Coq.ssr.ssrfun <> op1 var
+R31985:31985 Coq.ssr.ssrfun <> z var
+R31983:31983 Coq.ssr.ssrfun <> x var
+R32003:32009 Coq.ssr.ssrfun OperationProperties.SopSisS <> sec
+R32017:32035 Coq.ssr.ssrfun OperationProperties <> sec

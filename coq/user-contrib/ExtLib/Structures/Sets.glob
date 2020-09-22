@@ -1,0 +1,333 @@
+DIGEST 68780a4bf61bafeae936812c300933c7
+FExtLib.Structures.Sets
+R15:38 ExtLib.Structures.Monoid <> <> lib
+sec 96:99 <> Sets
+var 113:113 Sets S
+var 134:134 Sets T
+rec 153:156 <> DSet
+proj 172:179 <> contains
+proj 204:208 <> empty
+proj 223:231 <> singleton
+proj 248:252 <> union
+proj 277:282 <> filter
+proj 316:324 <> intersect
+proj 345:354 <> difference
+proj 374:379 <> subset
+proj 429:431 <> add
+proj 458:463 <> remove
+R186:189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R191:194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R195:198 Coq.Init.Datatypes <> bool ind
+R190:190 ExtLib.Structures.Sets <> Sets.S var
+R185:185 ExtLib.Structures.Sets <> Sets.T var
+R217:217 ExtLib.Structures.Sets <> Sets.S var
+R237:240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R241:241 ExtLib.Structures.Sets <> Sets.S var
+R236:236 ExtLib.Structures.Sets <> Sets.T var
+R262:265 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R267:270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R271:271 ExtLib.Structures.Sets <> Sets.S var
+R266:266 ExtLib.Structures.Sets <> Sets.S var
+R261:261 ExtLib.Structures.Sets <> Sets.S var
+R290:290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R300:304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R306:309 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R310:310 ExtLib.Structures.Sets <> Sets.S var
+R305:305 ExtLib.Structures.Sets <> Sets.S var
+R292:295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R296:299 Coq.Init.Datatypes <> bool ind
+R291:291 ExtLib.Structures.Sets <> Sets.T var
+R330:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R339:339 ExtLib.Structures.Sets <> Sets.S var
+R334:334 ExtLib.Structures.Sets <> Sets.S var
+R329:329 ExtLib.Structures.Sets <> Sets.S var
+R359:362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:368 ExtLib.Structures.Sets <> Sets.S var
+R363:363 ExtLib.Structures.Sets <> Sets.S var
+R358:358 ExtLib.Structures.Sets <> Sets.S var
+R388:391 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R393:396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R397:400 Coq.Init.Datatypes <> bool ind
+R392:392 ExtLib.Structures.Sets <> Sets.S var
+R387:387 ExtLib.Structures.Sets <> Sets.S var
+R443:446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R448:451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R452:452 ExtLib.Structures.Sets <> Sets.S var
+R447:447 ExtLib.Structures.Sets <> Sets.S var
+R442:442 ExtLib.Structures.Sets <> Sets.T var
+R472:475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R477:480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R481:481 ExtLib.Structures.Sets <> Sets.S var
+R476:476 ExtLib.Structures.Sets <> Sets.S var
+R471:471 ExtLib.Structures.Sets <> Sets.T var
+var 500:501 Sets DS
+R505:508 ExtLib.Structures.Sets <> DSet class
+var 522:524 Sets eqT
+R529:532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R534:537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R533:533 ExtLib.Structures.Sets <> Sets.T var
+R528:528 ExtLib.Structures.Sets <> Sets.T var
+rec 553:561 <> DSet_Laws
+proj 577:583 <> DSet_WF
+proj 601:608 <> empty_WF
+proj 630:641 <> singleton_WF
+proj 681:688 <> union_WF
+proj 757:765 <> filter_WF
+proj 819:830 <> intersect_WF
+proj 903:915 <> difference_WF
+proj 989:994 <> add_WF
+proj 1045:1053 <> remove_WF
+proj 1108:1125 <> empty_not_contains
+proj 1168:1185 <> singleton_contains
+proj 1254:1267 <> union_contains
+proj 1398:1415 <> intersect_contains
+proj 1547:1565 <> difference_contains
+proj 1705:1719 <> subset_contains
+proj 1864:1875 <> add_contains
+proj 1947:1962 <> add_contains_not
+proj 2053:2067 <> remove_contains
+proj 2140:2158 <> remove_contains_not
+R588:591 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R587:587 ExtLib.Structures.Sets <> Sets.S var
+R612:618 ExtLib.Structures.Sets <> DSet_WF meth
+R620:624 ExtLib.Structures.Sets <> empty meth
+R655:661 ExtLib.Structures.Sets <> DSet_WF meth
+R664:672 ExtLib.Structures.Sets <> singleton meth
+R674:674 ExtLib.Structures.Sets <> x var
+R714:717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R728:731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R732:738 ExtLib.Structures.Sets <> DSet_WF meth
+R741:745 ExtLib.Structures.Sets <> union meth
+R749:750 ExtLib.Structures.Sets <> s' var
+R747:747 ExtLib.Structures.Sets <> s var
+R718:724 ExtLib.Structures.Sets <> DSet_WF meth
+R726:727 ExtLib.Structures.Sets <> s' var
+R705:711 ExtLib.Structures.Sets <> DSet_WF meth
+R713:713 ExtLib.Structures.Sets <> s var
+R790:793 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R794:800 ExtLib.Structures.Sets <> DSet_WF meth
+R803:808 ExtLib.Structures.Sets <> filter meth
+R812:812 ExtLib.Structures.Sets <> s var
+R810:810 ExtLib.Structures.Sets <> f var
+R781:787 ExtLib.Structures.Sets <> DSet_WF meth
+R789:789 ExtLib.Structures.Sets <> s var
+R856:859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R870:873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R874:880 ExtLib.Structures.Sets <> DSet_WF meth
+R883:891 ExtLib.Structures.Sets <> intersect meth
+R895:896 ExtLib.Structures.Sets <> s' var
+R893:893 ExtLib.Structures.Sets <> s var
+R860:866 ExtLib.Structures.Sets <> DSet_WF meth
+R868:869 ExtLib.Structures.Sets <> s' var
+R847:853 ExtLib.Structures.Sets <> DSet_WF meth
+R855:855 ExtLib.Structures.Sets <> s var
+R941:944 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R955:958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R959:965 ExtLib.Structures.Sets <> DSet_WF meth
+R968:977 ExtLib.Structures.Sets <> difference meth
+R981:982 ExtLib.Structures.Sets <> s' var
+R979:979 ExtLib.Structures.Sets <> s var
+R945:951 ExtLib.Structures.Sets <> DSet_WF meth
+R953:954 ExtLib.Structures.Sets <> s' var
+R932:938 ExtLib.Structures.Sets <> DSet_WF meth
+R940:940 ExtLib.Structures.Sets <> s var
+R1019:1022 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1023:1029 ExtLib.Structures.Sets <> DSet_WF meth
+R1032:1034 ExtLib.Structures.Sets <> add meth
+R1038:1038 ExtLib.Structures.Sets <> s var
+R1036:1036 ExtLib.Structures.Sets <> x var
+R1010:1016 ExtLib.Structures.Sets <> DSet_WF meth
+R1018:1018 ExtLib.Structures.Sets <> s var
+R1078:1081 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1082:1088 ExtLib.Structures.Sets <> DSet_WF meth
+R1091:1096 ExtLib.Structures.Sets <> remove meth
+R1100:1100 ExtLib.Structures.Sets <> s var
+R1098:1098 ExtLib.Structures.Sets <> x var
+R1069:1075 ExtLib.Structures.Sets <> DSet_WF meth
+R1077:1077 ExtLib.Structures.Sets <> s var
+R1155:1157 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1139:1146 ExtLib.Structures.Sets <> contains meth
+R1150:1154 ExtLib.Structures.Sets <> empty meth
+R1148:1148 ExtLib.Structures.Sets <> t var
+R1158:1162 Coq.Init.Datatypes <> false constr
+R1237:1241 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1230:1232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1206:1213 ExtLib.Structures.Sets <> contains meth
+R1218:1226 ExtLib.Structures.Sets <> singleton meth
+R1228:1228 ExtLib.Structures.Sets <> u var
+R1215:1215 ExtLib.Structures.Sets <> t var
+R1233:1236 Coq.Init.Datatypes <> true constr
+R1242:1244 ExtLib.Structures.Sets <> Sets.eqT var
+R1248:1248 ExtLib.Structures.Sets <> u var
+R1246:1246 ExtLib.Structures.Sets <> t var
+R1301:1304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1315:1322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1367:1369 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1333:1335 Coq.Init.Datatypes <> orb def
+R1353:1360 ExtLib.Structures.Sets <> contains meth
+R1364:1365 ExtLib.Structures.Sets <> s' var
+R1362:1362 ExtLib.Structures.Sets <> x var
+R1338:1345 ExtLib.Structures.Sets <> contains meth
+R1349:1349 ExtLib.Structures.Sets <> s var
+R1347:1347 ExtLib.Structures.Sets <> x var
+R1370:1377 ExtLib.Structures.Sets <> contains meth
+R1382:1386 ExtLib.Structures.Sets <> union meth
+R1390:1391 ExtLib.Structures.Sets <> s' var
+R1388:1388 ExtLib.Structures.Sets <> s var
+R1379:1379 ExtLib.Structures.Sets <> x var
+R1305:1311 ExtLib.Structures.Sets <> DSet_WF meth
+R1313:1314 ExtLib.Structures.Sets <> s' var
+R1292:1298 ExtLib.Structures.Sets <> DSet_WF meth
+R1300:1300 ExtLib.Structures.Sets <> s var
+R1445:1448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1459:1466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1512:1514 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1477:1480 Coq.Init.Datatypes <> andb def
+R1498:1505 ExtLib.Structures.Sets <> contains meth
+R1509:1510 ExtLib.Structures.Sets <> s' var
+R1507:1507 ExtLib.Structures.Sets <> x var
+R1483:1490 ExtLib.Structures.Sets <> contains meth
+R1494:1494 ExtLib.Structures.Sets <> s var
+R1492:1492 ExtLib.Structures.Sets <> x var
+R1515:1522 ExtLib.Structures.Sets <> contains meth
+R1527:1535 ExtLib.Structures.Sets <> intersect meth
+R1539:1540 ExtLib.Structures.Sets <> s' var
+R1537:1537 ExtLib.Structures.Sets <> s var
+R1524:1524 ExtLib.Structures.Sets <> x var
+R1449:1455 ExtLib.Structures.Sets <> DSet_WF meth
+R1457:1458 ExtLib.Structures.Sets <> s' var
+R1436:1442 ExtLib.Structures.Sets <> DSet_WF meth
+R1444:1444 ExtLib.Structures.Sets <> s var
+R1595:1598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1609:1616 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1669:1671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1627:1630 Coq.Init.Datatypes <> andb def
+R1648:1651 Coq.Init.Datatypes <> negb def
+R1654:1661 ExtLib.Structures.Sets <> contains meth
+R1665:1666 ExtLib.Structures.Sets <> s' var
+R1663:1663 ExtLib.Structures.Sets <> x var
+R1633:1640 ExtLib.Structures.Sets <> contains meth
+R1644:1644 ExtLib.Structures.Sets <> s var
+R1642:1642 ExtLib.Structures.Sets <> x var
+R1672:1679 ExtLib.Structures.Sets <> contains meth
+R1684:1693 ExtLib.Structures.Sets <> difference meth
+R1697:1698 ExtLib.Structures.Sets <> s' var
+R1695:1695 ExtLib.Structures.Sets <> s var
+R1681:1681 ExtLib.Structures.Sets <> x var
+R1599:1605 ExtLib.Structures.Sets <> DSet_WF meth
+R1607:1608 ExtLib.Structures.Sets <> s' var
+R1586:1592 ExtLib.Structures.Sets <> DSet_WF meth
+R1594:1594 ExtLib.Structures.Sets <> s var
+R1753:1756 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1767:1774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1793:1803 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1857:1857 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1786:1788 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1775:1780 ExtLib.Structures.Sets <> subset meth
+R1784:1785 ExtLib.Structures.Sets <> s' var
+R1782:1782 ExtLib.Structures.Sets <> s var
+R1789:1792 Coq.Init.Datatypes <> true constr
+R1833:1836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1850:1852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1837:1844 ExtLib.Structures.Sets <> contains meth
+R1848:1849 ExtLib.Structures.Sets <> s' var
+R1846:1846 ExtLib.Structures.Sets <> x var
+R1853:1856 Coq.Init.Datatypes <> true constr
+R1826:1828 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1814:1821 ExtLib.Structures.Sets <> contains meth
+R1825:1825 ExtLib.Structures.Sets <> s var
+R1823:1823 ExtLib.Structures.Sets <> x var
+R1829:1832 Coq.Init.Datatypes <> true constr
+R1757:1763 ExtLib.Structures.Sets <> DSet_WF meth
+R1765:1766 ExtLib.Structures.Sets <> s' var
+R1744:1750 ExtLib.Structures.Sets <> DSet_WF meth
+R1752:1752 ExtLib.Structures.Sets <> s var
+R1906:1914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1935:1937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1915:1922 ExtLib.Structures.Sets <> contains meth
+R1927:1929 ExtLib.Structures.Sets <> add meth
+R1933:1933 ExtLib.Structures.Sets <> s var
+R1931:1931 ExtLib.Structures.Sets <> x var
+R1924:1924 ExtLib.Structures.Sets <> x var
+R1938:1941 Coq.Init.Datatypes <> true constr
+R1897:1903 ExtLib.Structures.Sets <> DSet_WF meth
+R1905:1905 ExtLib.Structures.Sets <> s var
+R1991:1999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2008:2011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2032:2034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2012:2019 ExtLib.Structures.Sets <> contains meth
+R2024:2026 ExtLib.Structures.Sets <> add meth
+R2030:2030 ExtLib.Structures.Sets <> s var
+R2028:2028 ExtLib.Structures.Sets <> y var
+R2021:2021 ExtLib.Structures.Sets <> x var
+R2035:2042 ExtLib.Structures.Sets <> contains meth
+R2046:2046 ExtLib.Structures.Sets <> s var
+R2044:2044 ExtLib.Structures.Sets <> x var
+R2000:2000 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2001:2003 ExtLib.Structures.Sets <> Sets.eqT var
+R2007:2007 ExtLib.Structures.Sets <> y var
+R2005:2005 ExtLib.Structures.Sets <> x var
+R1982:1988 ExtLib.Structures.Sets <> DSet_WF meth
+R1990:1990 ExtLib.Structures.Sets <> s var
+R2095:2103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2127:2129 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2104:2111 ExtLib.Structures.Sets <> contains meth
+R2116:2121 ExtLib.Structures.Sets <> remove meth
+R2125:2125 ExtLib.Structures.Sets <> s var
+R2123:2123 ExtLib.Structures.Sets <> x var
+R2113:2113 ExtLib.Structures.Sets <> x var
+R2130:2134 Coq.Init.Datatypes <> false constr
+R2086:2092 ExtLib.Structures.Sets <> DSet_WF meth
+R2094:2094 ExtLib.Structures.Sets <> s var
+R2185:2193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2202:2205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2229:2231 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2206:2213 ExtLib.Structures.Sets <> contains meth
+R2218:2223 ExtLib.Structures.Sets <> remove meth
+R2227:2227 ExtLib.Structures.Sets <> s var
+R2225:2225 ExtLib.Structures.Sets <> y var
+R2215:2215 ExtLib.Structures.Sets <> x var
+R2232:2239 ExtLib.Structures.Sets <> contains meth
+R2243:2243 ExtLib.Structures.Sets <> s var
+R2241:2241 ExtLib.Structures.Sets <> x var
+R2194:2194 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2195:2197 ExtLib.Structures.Sets <> Sets.eqT var
+R2201:2201 ExtLib.Structures.Sets <> y var
+R2199:2199 ExtLib.Structures.Sets <> x var
+R2176:2182 ExtLib.Structures.Sets <> DSet_WF meth
+R2184:2184 ExtLib.Structures.Sets <> s var
+R2255:2258 ExtLib.Structures.Sets Sets <> sec
+R2272:2279 ExtLib.Structures.Sets <> contains meth
+R2272:2279 ExtLib.Structures.Sets <> contains meth
+R2308:2312 ExtLib.Structures.Sets <> empty meth
+R2308:2312 ExtLib.Structures.Sets <> empty meth
+R2337:2345 ExtLib.Structures.Sets <> singleton meth
+R2337:2345 ExtLib.Structures.Sets <> singleton meth
+R2372:2376 ExtLib.Structures.Sets <> union meth
+R2372:2376 ExtLib.Structures.Sets <> union meth
+R2405:2413 ExtLib.Structures.Sets <> intersect meth
+R2405:2413 ExtLib.Structures.Sets <> intersect meth
+R2442:2451 ExtLib.Structures.Sets <> difference meth
+R2442:2451 ExtLib.Structures.Sets <> difference meth
+R2480:2485 ExtLib.Structures.Sets <> subset meth
+R2480:2485 ExtLib.Structures.Sets <> subset meth
+R2514:2516 ExtLib.Structures.Sets <> add meth
+R2514:2516 ExtLib.Structures.Sets <> add meth
+R2545:2550 ExtLib.Structures.Sets <> remove meth
+R2545:2550 ExtLib.Structures.Sets <> remove meth
+R2579:2584 ExtLib.Structures.Sets <> filter meth
+R2579:2584 ExtLib.Structures.Sets <> filter meth
+sec 2612:2617 <> monoid
+var 2631:2631 monoid S
+R2680:2683 ExtLib.Structures.Sets <> DSet class
+R2687:2687 ExtLib.Structures.Sets <> monoid.T var
+R2685:2685 ExtLib.Structures.Sets <> monoid.S var
+def 2705:2720 <> Monoid_set_union
+R2724:2729 ExtLib.Structures.Monoid <> Monoid rec
+R2731:2731 ExtLib.Structures.Sets <> monoid.S var
+R2741:2786 ExtLib.Structures.Monoid <> Build_Monoid constr
+R2782:2786 ExtLib.Structures.Sets <> empty meth
+R2756:2760 ExtLib.Structures.Sets <> union meth
+R2798:2803 ExtLib.Structures.Sets monoid <> sec

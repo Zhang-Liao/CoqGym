@@ -1,0 +1,72 @@
+DIGEST 80d0ccf1eae4eb78af108c95cf50d4d5
+FAlgebra.Group_cat
+R1086:1095 Algebra.Monoid_cat <> <> lib
+sec 1145:1151 <> Inverse
+var 1163:1163 Inverse G
+R1167:1169 Algebra.Set_cat <> SET def
+var 1181:1181 Inverse f
+R1185:1202 Algebra.Sgroup_cat <> law_of_composition def
+R1204:1204 Algebra.Group_cat <> Inverse.G var
+var 1216:1216 Inverse e
+R1220:1220 Algebra.Group_cat <> Inverse.G var
+var 1232:1234 Inverse inv
+R1238:1240 Algebra.Sets <> MAP def
+R1244:1244 Algebra.Group_cat <> Inverse.G var
+R1242:1242 Algebra.Group_cat <> Inverse.G var
+def 1259:1267 <> inverse_r
+R1283:1283 Algebra.Group_cat <> Inverse.G var
+R1286:1290 Algebra.Sets <> Equal proj
+R1315:1315 Algebra.Group_cat <> Inverse.e var
+R1293:1293 Algebra.Group_cat <> Inverse.f var
+R1296:1301 Algebra.Cartesian <> couple def
+R1306:1308 Algebra.Group_cat <> Inverse.inv var
+R1310:1310 Algebra.Group_cat <> x var
+R1303:1303 Algebra.Group_cat <> x var
+def 1330:1338 <> inverse_l
+R1354:1354 Algebra.Group_cat <> Inverse.G var
+R1357:1361 Algebra.Sets <> Equal proj
+R1386:1386 Algebra.Group_cat <> Inverse.e var
+R1364:1364 Algebra.Group_cat <> Inverse.f var
+R1367:1372 Algebra.Cartesian <> couple def
+R1382:1382 Algebra.Group_cat <> x var
+R1375:1377 Algebra.Group_cat <> Inverse.inv var
+R1379:1379 Algebra.Group_cat <> x var
+R1393:1399 Algebra.Group_cat Inverse <> sec
+rec 1410:1417 <> group_on
+proj 1446:1462 <> group_inverse_map
+proj 1478:1496 <> group_inverse_r_prf
+proj 1571:1589 <> group_inverse_l_prf
+R1424:1429 Algebra.Monoid_cat <> monoid rec
+R1466:1468 Algebra.Sets <> Map rec
+R1472:1472 Algebra.Group_cat <> G var
+R1470:1470 Algebra.Group_cat <> G var
+R1504:1512 Algebra.Group_cat <> inverse_r def
+R1549:1565 Algebra.Group_cat <> group_inverse_map meth
+R1534:1544 Algebra.Monoid_cat <> monoid_unit proj
+R1546:1546 Algebra.Group_cat <> G var
+R1515:1528 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1530:1530 Algebra.Group_cat <> G var
+R1597:1605 Algebra.Group_cat <> inverse_l def
+R1642:1658 Algebra.Group_cat <> group_inverse_map meth
+R1627:1637 Algebra.Monoid_cat <> monoid_unit proj
+R1639:1639 Algebra.Group_cat <> G var
+R1608:1621 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1623:1623 Algebra.Group_cat <> G var
+rec 1670:1674 <> group
+proj 1690:1701 <> group_monoid
+proj 1714:1725 <> group_on_def
+R1706:1711 Algebra.Monoid_cat <> monoid rec
+R1730:1737 Algebra.Group_cat <> group_on rec
+R1739:1750 Algebra.Group_cat <> group_monoid meth
+R1754:1794 Algebra.Group_cat <> Build_group constr
+def 1856:1868 <> group_inverse
+R1875:1879 Algebra.Group_cat <> group rec
+R1887:1887 Algebra.Group_cat <> G var
+R1893:1909 Algebra.Group_cat <> group_inverse_map proj
+R1913:1913 Algebra.Group_cat <> x var
+R1911:1911 Algebra.Group_cat <> G var
+def 1975:1979 <> GROUP
+R1984:1994 Algebra.Categories <> full_subcat def
+R2020:2031 Algebra.Group_cat <> group_monoid proj
+R2013:2017 Algebra.Group_cat <> group rec
+R2000:2005 Algebra.Monoid_cat <> MONOID def

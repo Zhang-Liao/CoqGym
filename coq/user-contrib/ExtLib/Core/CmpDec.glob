@@ -1,0 +1,171 @@
+DIGEST a23cef881eb1f2a420036e11cd16db2a
+FExtLib.Core.CmpDec
+R15:27 Coq.Bool.Bool <> <> lib
+R45:71 Coq.Classes.RelationClasses <> <> lib
+R89:111 ExtLib.Tactics.Consider <> <> lib
+rec 167:172 <> CmpDec
+proj 243:249 <> cmp_dec
+R193:196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R198:201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R197:197 ExtLib.Core.CmpDec <> T var
+R192:192 ExtLib.Core.CmpDec <> T var
+R216:219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R221:224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R220:220 ExtLib.Core.CmpDec <> T var
+R215:215 ExtLib.Core.CmpDec <> T var
+R254:257 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R259:262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R263:272 Coq.Init.Datatypes <> comparison ind
+R258:258 ExtLib.Core.CmpDec <> T var
+R253:253 ExtLib.Core.CmpDec <> T var
+rec 284:297 <> CmpDec_Correct
+proj 362:376 <> cmp_dec_correct
+R313:316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R318:321 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R317:317 ExtLib.Core.CmpDec <> T var
+R312:312 ExtLib.Core.CmpDec <> T var
+R334:339 ExtLib.Core.CmpDec <> CmpDec class
+R345:347 ExtLib.Core.CmpDec <> ltu var
+R341:343 ExtLib.Core.CmpDec <> equ var
+R393:393 ExtLib.Core.CmpDec <> T var
+R405:411 ExtLib.Core.CmpDec <> cmp_dec meth
+R415:415 ExtLib.Core.CmpDec <> y var
+R413:413 ExtLib.Core.CmpDec <> x var
+R428:429 Coq.Init.Datatypes <> Eq constr
+R434:436 ExtLib.Core.CmpDec <> equ var
+R440:440 ExtLib.Core.CmpDec <> y var
+R438:438 ExtLib.Core.CmpDec <> x var
+R448:449 Coq.Init.Datatypes <> Lt constr
+R454:456 ExtLib.Core.CmpDec <> ltu var
+R460:460 ExtLib.Core.CmpDec <> y var
+R458:458 ExtLib.Core.CmpDec <> x var
+R468:469 Coq.Init.Datatypes <> Gt constr
+R474:476 ExtLib.Core.CmpDec <> ltu var
+R480:480 ExtLib.Core.CmpDec <> x var
+R478:478 ExtLib.Core.CmpDec <> y var
+ind 502:509 <> cmp_case
+constr 552:557 <> CaseEq
+constr 586:591 <> CaseLt
+constr 620:625 <> CaseGt
+R538:541 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R528:537 Coq.Init.Datatypes <> comparison ind
+R562:565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R566:573 ExtLib.Core.CmpDec <> cmp_case ind
+R581:582 Coq.Init.Datatypes <> Eq constr
+R579:579 ExtLib.Core.CmpDec <> R var
+R577:577 ExtLib.Core.CmpDec <> Q var
+R575:575 ExtLib.Core.CmpDec <> P var
+R561:561 ExtLib.Core.CmpDec <> P var
+R596:599 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R600:607 ExtLib.Core.CmpDec <> cmp_case ind
+R615:616 Coq.Init.Datatypes <> Lt constr
+R613:613 ExtLib.Core.CmpDec <> R var
+R611:611 ExtLib.Core.CmpDec <> Q var
+R609:609 ExtLib.Core.CmpDec <> P var
+R595:595 ExtLib.Core.CmpDec <> Q var
+R630:633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R634:641 ExtLib.Core.CmpDec <> cmp_case ind
+R649:650 Coq.Init.Datatypes <> Gt constr
+R647:647 ExtLib.Core.CmpDec <> R var
+R645:645 ExtLib.Core.CmpDec <> Q var
+R643:643 ExtLib.Core.CmpDec <> P var
+R629:629 ExtLib.Core.CmpDec <> R var
+sec 662:665 <> pair
+var 679:679 pair T
+var 681:681 pair U
+var 703:705 pair eqt
+var 707:709 pair ltt
+R714:717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R719:722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R718:718 ExtLib.Core.CmpDec <> pair.T var
+R713:713 ExtLib.Core.CmpDec <> pair.T var
+var 741:743 pair equ
+var 745:747 pair ltu
+R752:755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R757:760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R756:756 ExtLib.Core.CmpDec <> pair.U var
+R751:751 ExtLib.Core.CmpDec <> pair.U var
+def 781:787 <> eq_pair
+R797:799 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R796:796 ExtLib.Core.CmpDec <> pair.T var
+R800:800 ExtLib.Core.CmpDec <> pair.U var
+R836:839 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R817:819 ExtLib.Core.CmpDec <> pair.eqt var
+R830:832 Coq.Init.Datatypes <> fst def
+R834:834 ExtLib.Core.CmpDec <> b var
+R822:824 Coq.Init.Datatypes <> fst def
+R826:826 ExtLib.Core.CmpDec <> a var
+R840:842 ExtLib.Core.CmpDec <> pair.equ var
+R853:855 Coq.Init.Datatypes <> snd def
+R857:857 ExtLib.Core.CmpDec <> b var
+R845:847 Coq.Init.Datatypes <> snd def
+R849:849 ExtLib.Core.CmpDec <> a var
+def 875:881 <> lt_pair
+R891:893 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R890:890 ExtLib.Core.CmpDec <> pair.T var
+R894:894 ExtLib.Core.CmpDec <> pair.U var
+R930:934 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R977:977 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R911:913 ExtLib.Core.CmpDec <> pair.ltt var
+R924:926 Coq.Init.Datatypes <> fst def
+R928:928 ExtLib.Core.CmpDec <> b var
+R916:918 Coq.Init.Datatypes <> fst def
+R920:920 ExtLib.Core.CmpDec <> a var
+R954:957 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R935:937 ExtLib.Core.CmpDec <> pair.eqt var
+R948:950 Coq.Init.Datatypes <> fst def
+R952:952 ExtLib.Core.CmpDec <> b var
+R940:942 Coq.Init.Datatypes <> fst def
+R944:944 ExtLib.Core.CmpDec <> a var
+R958:960 ExtLib.Core.CmpDec <> pair.ltu var
+R971:973 Coq.Init.Datatypes <> snd def
+R975:975 ExtLib.Core.CmpDec <> b var
+R963:965 Coq.Init.Datatypes <> snd def
+R967:967 ExtLib.Core.CmpDec <> a var
+var 992:994 pair cdt
+R998:1003 ExtLib.Core.CmpDec <> CmpDec class
+R1009:1011 ExtLib.Core.CmpDec <> pair.ltt var
+R1005:1007 ExtLib.Core.CmpDec <> pair.eqt var
+var 1025:1027 pair cdu
+R1031:1036 ExtLib.Core.CmpDec <> CmpDec class
+R1042:1044 ExtLib.Core.CmpDec <> pair.ltu var
+R1038:1040 ExtLib.Core.CmpDec <> pair.equ var
+inst 1059:1069 <> CmpDec_pair
+R1073:1078 ExtLib.Core.CmpDec <> CmpDec class
+R1088:1094 ExtLib.Core.CmpDec <> lt_pair def
+R1080:1086 ExtLib.Core.CmpDec <> eq_pair def
+R1103:1109 ExtLib.Core.CmpDec <> cmp_dec meth
+R1145:1145 ExtLib.Core.CmpDec <> a var
+R1134:1134 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1137:1137 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1140:1140 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1170:1170 ExtLib.Core.CmpDec <> b var
+R1159:1159 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1162:1162 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1165:1165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1185:1191 ExtLib.Core.CmpDec <> cmp_dec meth
+R1212:1213 Coq.Init.Datatypes <> Eq constr
+R1218:1224 ExtLib.Core.CmpDec <> cmp_dec meth
+var 1272:1275 pair cdtC
+R1279:1292 ExtLib.Core.CmpDec <> CmpDec_Correct class
+R1294:1296 ExtLib.Core.CmpDec <> pair.cdt var
+var 1310:1313 pair cduC
+R1317:1330 ExtLib.Core.CmpDec <> CmpDec_Correct class
+R1332:1334 ExtLib.Core.CmpDec <> pair.cdu var
+var 1348:1360 pair Symmetric_eqt
+R1364:1372 Coq.Classes.RelationClasses <> Symmetric class
+R1374:1376 ExtLib.Core.CmpDec <> pair.eqt var
+inst 1391:1409 <> CmpDec_Correct_pair
+R1413:1426 ExtLib.Core.CmpDec <> CmpDec_Correct class
+R1428:1438 ExtLib.Core.CmpDec <> CmpDec_pair inst
+R1498:1504 ExtLib.Core.CmpDec <> eq_pair def
+R1507:1513 ExtLib.Core.CmpDec <> lt_pair def
+R1544:1558 ExtLib.Core.CmpDec <> cmp_dec_correct meth
+R1577:1583 ExtLib.Core.CmpDec <> cmp_dec meth
+R1544:1558 ExtLib.Core.CmpDec <> cmp_dec_correct meth
+R1577:1583 ExtLib.Core.CmpDec <> cmp_dec meth
+R1629:1643 ExtLib.Core.CmpDec <> cmp_dec_correct meth
+R1662:1668 ExtLib.Core.CmpDec <> cmp_dec meth
+R1629:1643 ExtLib.Core.CmpDec <> cmp_dec_correct meth
+R1662:1668 ExtLib.Core.CmpDec <> cmp_dec meth
+R1709:1712 ExtLib.Core.CmpDec pair <> sec

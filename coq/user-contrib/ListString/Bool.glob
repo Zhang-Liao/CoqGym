@@ -1,0 +1,37 @@
+DIGEST f58c8ebc0388b790d62e46c4b903937e
+FListString.Bool
+def 11:17 <> compare
+R26:29 Coq.Init.Datatypes <> bool ind
+R34:43 Coq.Init.Datatypes <> comparison ind
+R59:59 ListString.Bool <> y var
+R56:56 ListString.Bool <> x var
+R70:73 Coq.Init.Datatypes <> true constr
+R76:80 Coq.Init.Datatypes <> false constr
+R85:86 Coq.Init.Datatypes <> Gt constr
+R92:96 Coq.Init.Datatypes <> false constr
+R99:102 Coq.Init.Datatypes <> true constr
+R107:108 Coq.Init.Datatypes <> Lt constr
+R114:117 Coq.Init.Datatypes <> true constr
+R120:123 Coq.Init.Datatypes <> true constr
+R127:131 Coq.Init.Datatypes <> false constr
+R134:138 Coq.Init.Datatypes <> false constr
+R143:144 Coq.Init.Datatypes <> Eq constr
+R143:144 Coq.Init.Datatypes <> Eq constr
+prf 160:177 <> compare_implies_eq
+R195:198 Coq.Init.Datatypes <> bool ind
+R218:221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R223:225 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R222:222 ListString.Bool <> x var
+R226:226 ListString.Bool <> y var
+R213:215 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R202:208 ListString.Bool <> compare def
+R212:212 ListString.Bool <> y var
+R210:210 ListString.Bool <> x var
+R216:217 Coq.Init.Datatypes <> Eq constr
+prf 298:315 <> compare_same_is_eq
+R331:334 Coq.Init.Datatypes <> bool ind
+R349:351 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R338:344 ListString.Bool <> compare def
+R348:348 ListString.Bool <> x var
+R346:346 ListString.Bool <> x var
+R352:353 Coq.Init.Datatypes <> Eq constr

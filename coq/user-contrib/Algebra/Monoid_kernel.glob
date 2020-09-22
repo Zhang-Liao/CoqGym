@@ -1,0 +1,73 @@
+DIGEST 67f4c00155e60f4ac2665fc8c0e23d85
+FAlgebra.Monoid_kernel
+R1086:1096 Algebra.Monoid_util <> <> lib
+R1114:1119 Algebra.Parts2 <> <> lib
+sec 1130:1138 <> Image_hom
+var 1150:1150 Image_hom M
+var 1152:1153 Image_hom M'
+R1157:1162 Algebra.Monoid_cat <> MONOID def
+var 1174:1174 Image_hom f
+R1178:1180 Algebra.Categories <> Hom proj
+R1184:1185 Algebra.Monoid_kernel <> Image_hom.M' var
+R1182:1182 Algebra.Monoid_kernel <> Image_hom.M var
+def 1200:1215 <> image_monoid_hom
+R1219:1227 Algebra.Sub_monoid <> submonoid rec
+R1229:1230 Algebra.Monoid_kernel <> Image_hom.M' var
+R1240:1255 Algebra.Monoid_util <> BUILD_SUB_MONOID def
+R1269:1277 Algebra.Parts2 <> image_map def
+R1279:1279 Algebra.Monoid_kernel <> Image_hom.f var
+R1261:1262 Algebra.Monoid_kernel <> Image_hom.M' var
+R1240:1255 Algebra.Monoid_util <> BUILD_SUB_MONOID def
+R1269:1277 Algebra.Parts2 <> image_map def
+R1279:1279 Algebra.Monoid_kernel <> Image_hom.f var
+R1261:1262 Algebra.Monoid_kernel <> Image_hom.M' var
+R1490:1499 Algebra.Sgroup_cat <> sgroup_law def
+R1501:1501 Algebra.Monoid_kernel <> Image_hom.M var
+R1490:1499 Algebra.Sgroup_cat <> sgroup_law def
+R1501:1501 Algebra.Monoid_kernel <> Image_hom.M var
+R1571:1580 Algebra.Sgroup_cat <> sgroup_law def
+R1636:1637 Algebra.Sets <> Ap proj
+R1640:1649 Algebra.Sgroup_cat <> sgroup_map proj
+R1652:1668 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R1670:1670 Algebra.Monoid_kernel <> Image_hom.f var
+R1586:1587 Algebra.Sets <> Ap proj
+R1590:1599 Algebra.Sgroup_cat <> sgroup_map proj
+R1602:1618 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R1620:1620 Algebra.Monoid_kernel <> Image_hom.f var
+R1582:1583 Algebra.Monoid_kernel <> Image_hom.M' var
+R1553:1557 Algebra.Sets <> Trans thm
+R1571:1580 Algebra.Sgroup_cat <> sgroup_law def
+R1636:1637 Algebra.Sets <> Ap proj
+R1640:1649 Algebra.Sgroup_cat <> sgroup_map proj
+R1652:1668 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R1670:1670 Algebra.Monoid_kernel <> Image_hom.f var
+R1586:1587 Algebra.Sets <> Ap proj
+R1590:1599 Algebra.Sgroup_cat <> sgroup_map proj
+R1602:1618 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R1620:1620 Algebra.Monoid_kernel <> Image_hom.f var
+R1582:1583 Algebra.Monoid_kernel <> Image_hom.M' var
+R1553:1557 Algebra.Sets <> Trans thm
+R1724:1734 Algebra.Monoid_cat <> monoid_unit proj
+R1736:1736 Algebra.Monoid_kernel <> Image_hom.M var
+R1724:1734 Algebra.Monoid_cat <> monoid_unit proj
+R1736:1736 Algebra.Monoid_kernel <> Image_hom.M var
+prf 1829:1845 <> image_monoid_prop
+R1860:1860 Algebra.Monoid_kernel <> Image_hom.M var
+R1863:1869 Algebra.Parts <> in_part def
+R1877:1892 Algebra.Monoid_kernel <> image_monoid_hom def
+R1872:1872 Algebra.Monoid_kernel <> Image_hom.f var
+R1874:1874 Algebra.Monoid_kernel <> x var
+prf 1996:2016 <> image_monoid_prop_rev
+R2032:2033 Algebra.Monoid_kernel <> Image_hom.M' var
+R2062:2065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2066:2072 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2078:2079 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2077:2077 Algebra.Monoid_kernel <> Image_hom.M var
+R2080:2084 Algebra.Sets <> Equal proj
+R2089:2089 Algebra.Monoid_kernel <> Image_hom.f var
+R2091:2091 Algebra.Monoid_kernel <> x var
+R2086:2086 Algebra.Monoid_kernel <> y var
+R2036:2042 Algebra.Parts <> in_part def
+R2046:2061 Algebra.Monoid_kernel <> image_monoid_hom def
+R2044:2044 Algebra.Monoid_kernel <> y var
+R2246:2254 Algebra.Monoid_kernel Image_hom <> sec

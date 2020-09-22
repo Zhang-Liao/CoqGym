@@ -1,0 +1,62 @@
+DIGEST da7b6a0ed744daab23dabce107ad1aa1
+FExtLib.Tactics.Reify
+sec 54:63 <> ClassReify
+var 77:77 ClassReify P
+var 79:79 ClassReify Q
+var 100:100 ClassReify D
+R105:108 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R109:109 ExtLib.Tactics.Reify <> ClassReify.Q var
+R104:104 ExtLib.Tactics.Reify <> ClassReify.P var
+rec 121:130 <> ClassReify
+proj 154:158 <> reify
+proj 168:178 <> reify_sound
+R137:137 ExtLib.Tactics.Reify <> ClassReify.Q var
+R162:162 ExtLib.Tactics.Reify <> ClassReify.P var
+R189:191 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R182:182 ExtLib.Tactics.Reify <> ClassReify.D var
+R184:188 ExtLib.Tactics.Reify <> reify meth
+R192:192 ExtLib.Tactics.Reify <> v var
+R203:212 ExtLib.Tactics.Reify ClassReify <> sec
+R231:240 Coq.Lists.List <> <> lib
+sec 252:260 <> ListReify
+var 276:276 ListReify T
+var 278:278 ListReify U
+var 289:289 ListReify f
+R294:297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R298:298 ExtLib.Tactics.Reify <> U var
+R293:293 ExtLib.Tactics.Reify <> T var
+inst 322:332 <> Reflect_nil
+R336:345 ExtLib.Tactics.Reify <> ClassReify class
+R355:357 Coq.Init.Datatypes <> nil constr
+R348:350 Coq.Lists.List <> map def
+R352:352 ExtLib.Tactics.Reify <> ListReify.f var
+R384:394 ExtLib.Tactics.Reify <> reify_sound meth
+R366:370 ExtLib.Tactics.Reify <> reify meth
+R375:377 Coq.Init.Datatypes <> nil constr
+R399:408 Coq.Init.Logic <> refl_equal syndef
+inst 435:446 <> Reflect_cons
+R458:467 ExtLib.Tactics.Reify <> ClassReify class
+R471:471 ExtLib.Tactics.Reify <> a var
+R469:469 ExtLib.Tactics.Reify <> ListReify.f var
+R480:489 ExtLib.Tactics.Reify <> ClassReify class
+R499:499 ExtLib.Tactics.Reify <> b var
+R492:494 Coq.Lists.List <> map def
+R496:496 ExtLib.Tactics.Reify <> ListReify.f var
+R507:516 ExtLib.Tactics.Reify <> ClassReify class
+R528:531 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R527:527 ExtLib.Tactics.Reify <> a var
+R532:532 ExtLib.Tactics.Reify <> b var
+R519:521 Coq.Lists.List <> map def
+R523:523 ExtLib.Tactics.Reify <> ListReify.f var
+R548:600 ExtLib.Tactics.Reify <> Build_ClassReify constr
+R557:560 Coq.Init.Datatypes <> cons constr
+R584:588 ExtLib.Tactics.Reify <> reify meth
+R564:568 ExtLib.Tactics.Reify <> reify meth
+R548:600 ExtLib.Tactics.Reify <> Build_ClassReify constr
+R557:560 Coq.Init.Datatypes <> cons constr
+R584:588 ExtLib.Tactics.Reify <> reify meth
+R564:568 ExtLib.Tactics.Reify <> reify meth
+R631:641 ExtLib.Tactics.Reify <> reify_sound meth
+R631:641 ExtLib.Tactics.Reify <> reify_sound meth
+R631:641 ExtLib.Tactics.Reify <> reify_sound meth
+R659:667 ExtLib.Tactics.Reify ListReify <> sec

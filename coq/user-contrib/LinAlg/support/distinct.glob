@@ -1,0 +1,59 @@
+DIGEST b43a35434e2907f832dacfa2c950e075
+FLinAlg.support.distinct
+R1277:1282 LinAlg.support.finite <> <> lib
+R1313:1317 Algebra.Parts <> <> lib
+def 1358:1365 <> distinct
+R1372:1377 Algebra.Sets <> Setoid rec
+R1385:1387 LinAlg.support.finite <> Nat def
+R1395:1397 LinAlg.support.finite <> seq def
+R1401:1401 LinAlg.support.distinct <> A var
+R1399:1399 LinAlg.support.distinct <> n var
+R1422:1424 LinAlg.support.finite <> fin def
+R1426:1426 LinAlg.support.distinct <> n var
+R1442:1445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1446:1447 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1451:1454 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1458:1461 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1448:1448 LinAlg.support.distinct <> v var
+R1450:1450 LinAlg.support.distinct <> i var
+R1455:1455 LinAlg.support.distinct <> v var
+R1457:1457 LinAlg.support.distinct <> j var
+R1429:1430 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1432:1435 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1437:1440 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1431:1431 LinAlg.support.distinct <> i var
+R1436:1436 LinAlg.support.distinct <> j var
+prf 1472:1484 <> distinct_comp
+R1501:1506 Algebra.Sets <> Setoid rec
+R1514:1516 LinAlg.support.finite <> Nat def
+R1527:1529 LinAlg.support.finite <> seq def
+R1533:1533 LinAlg.support.distinct <> A var
+R1531:1531 LinAlg.support.distinct <> n var
+R1548:1551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1564:1567 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1568:1575 LinAlg.support.distinct <> distinct def
+R1577:1578 LinAlg.support.distinct <> v' var
+R1553:1556 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1559:1562 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1552:1552 LinAlg.support.distinct <> v var
+R1557:1558 LinAlg.support.distinct <> v' var
+R1538:1545 LinAlg.support.distinct <> distinct def
+R1547:1547 LinAlg.support.distinct <> v var
+R1588:1595 LinAlg.support.distinct <> distinct def
+R1711:1715 Algebra.Sets <> Trans thm
+R1711:1715 Algebra.Sets <> Trans thm
+R1755:1759 Algebra.Sets <> Trans thm
+R1755:1759 Algebra.Sets <> Trans thm
+def 1848:1860 <> distinct_pred
+R1867:1872 Algebra.Sets <> Setoid rec
+R1880:1882 LinAlg.support.finite <> Nat def
+R1887:1895 Algebra.Parts <> Predicate rec
+R1898:1900 LinAlg.support.finite <> seq def
+R1904:1904 LinAlg.support.distinct <> A var
+R1902:1902 LinAlg.support.distinct <> n var
+R1924:1938 Algebra.Parts <> Build_Predicate constr
+R1951:1958 LinAlg.support.distinct <> distinct def
+R1924:1938 Algebra.Parts <> Build_Predicate constr
+R1951:1958 LinAlg.support.distinct <> distinct def
+R2023:2035 LinAlg.support.distinct <> distinct_comp thm
+R2023:2035 LinAlg.support.distinct <> distinct_comp thm

@@ -1,0 +1,26 @@
+DIGEST e79f6fdce8a1e2cfa36c3acce7dd3ac8
+FExtLib.Structures.MonadExc
+R15:37 ExtLib.Structures.Monad <> <> lib
+rec 47:54 <> MonadExc
+proj 98:102 <> raise
+proj 129:133 <> catch
+R76:79 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R119:122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R123:123 ExtLib.Structures.MonadExc <> m var
+R125:125 ExtLib.Structures.MonadExc <> T var
+R118:118 ExtLib.Structures.MonadExc <> E var
+R152:155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R156:156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R165:169 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R170:170 ExtLib.Structures.MonadExc <> m var
+R172:172 ExtLib.Structures.MonadExc <> T var
+R158:161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R162:162 ExtLib.Structures.MonadExc <> m var
+R164:164 ExtLib.Structures.MonadExc <> T var
+R157:157 ExtLib.Structures.MonadExc <> E var
+R149:149 ExtLib.Structures.MonadExc <> m var
+R151:151 ExtLib.Structures.MonadExc <> T var
+R188:192 ExtLib.Structures.MonadExc <> raise meth
+R188:192 ExtLib.Structures.MonadExc <> raise meth
+R229:233 ExtLib.Structures.MonadExc <> catch meth
+R229:233 ExtLib.Structures.MonadExc <> catch meth

@@ -1,0 +1,253 @@
+DIGEST bbcba65ec6d0ded6462bc3d1a559f8a5
+FExtLib.Core.Type
+R15:32 Coq.Setoids.Setoid <> <> lib
+R50:73 ExtLib.Structures.Proper <> <> lib
+rec 243:246 <> type
+proj 279:283 <> equal
+proj 304:309 <> proper
+R288:291 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R293:296 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R292:292 ExtLib.Core.Type <> T var
+R287:287 ExtLib.Core.Type <> T var
+R314:317 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R313:313 ExtLib.Core.Type <> T var
+def 350:364 <> type_from_equal
+R391:394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R396:399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R395:395 ExtLib.Core.Type <> T var
+R390:390 ExtLib.Core.Type <> T var
+R408:411 ExtLib.Core.Type <> type class
+R417:417 ExtLib.Core.Type <> T var
+R425:462 ExtLib.Core.Type <> Build_type constr
+R458:458 ExtLib.Core.Type <> r var
+R462:462 ExtLib.Core.Type <> x var
+R460:460 ExtLib.Core.Type <> x var
+R434:434 ExtLib.Core.Type <> r var
+def 493:503 <> type_libniz
+R526:529 ExtLib.Core.Type <> type class
+R535:535 ExtLib.Core.Type <> T var
+R543:583 ExtLib.Core.Type <> Build_type constr
+R580:583 Coq.Init.Logic <> True ind
+R553:554 Coq.Init.Logic <> eq ind
+R556:556 ExtLib.Core.Type <> T var
+sec 623:626 <> type
+var 686:687 type tT
+R691:694 ExtLib.Core.Type <> type class
+R696:696 ExtLib.Core.Type <> type.T var
+rec 805:810 <> typeOk
+proj 819:829 <> only_proper
+proj 883:893 <> equiv_prefl
+proj 926:934 <> equiv_sym
+proj 959:969 <> equiv_trans
+R854:857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R866:869 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R858:863 ExtLib.Core.Type <> proper class
+R865:865 ExtLib.Core.Type <> x var
+R870:875 ExtLib.Core.Type <> proper class
+R877:877 ExtLib.Core.Type <> y var
+R845:849 ExtLib.Core.Type <> equal meth
+R853:853 ExtLib.Core.Type <> y var
+R851:851 ExtLib.Core.Type <> x var
+R898:907 ExtLib.Structures.Proper <> PReflexive class
+R916:920 ExtLib.Core.Type <> equal meth
+R909:914 ExtLib.Core.Type <> proper class
+R939:947 Coq.Classes.RelationClasses <> Symmetric class
+R949:953 ExtLib.Core.Type <> equal meth
+R974:983 Coq.Classes.RelationClasses <> Transitive class
+R985:989 ExtLib.Core.Type <> equal meth
+inst 1027:1037 <> proper_left
+R1051:1058 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1072:1072 ExtLib.Core.Type <> type.T var
+R1084:1087 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1088:1093 ExtLib.Core.Type <> proper class
+R1095:1095 ExtLib.Core.Type <> x var
+R1075:1079 ExtLib.Core.Type <> equal meth
+R1083:1083 ExtLib.Core.Type <> y var
+R1081:1081 ExtLib.Core.Type <> x var
+R1045:1050 ExtLib.Core.Type <> typeOk class
+R1156:1160 ExtLib.Core.Type <> equal meth
+R1156:1160 ExtLib.Core.Type <> equal meth
+R1181:1191 ExtLib.Core.Type <> only_proper meth
+R1181:1191 ExtLib.Core.Type <> only_proper meth
+inst 1255:1266 <> proper_right
+R1280:1287 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1301:1301 ExtLib.Core.Type <> type.T var
+R1313:1316 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1317:1322 ExtLib.Core.Type <> proper class
+R1324:1324 ExtLib.Core.Type <> y var
+R1304:1308 ExtLib.Core.Type <> equal meth
+R1312:1312 ExtLib.Core.Type <> y var
+R1310:1310 ExtLib.Core.Type <> x var
+R1274:1279 ExtLib.Core.Type <> typeOk class
+R1385:1389 ExtLib.Core.Type <> equal meth
+R1385:1389 ExtLib.Core.Type <> equal meth
+R1410:1420 ExtLib.Core.Type <> only_proper meth
+R1410:1420 ExtLib.Core.Type <> only_proper meth
+R1459:1462 ExtLib.Core.Type type <> sec
+def 1490:1494 <> type1
+R1517:1520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1578:1581 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1582:1585 ExtLib.Core.Type <> type class
+R1592:1592 ExtLib.Core.Type <> F var
+R1594:1594 ExtLib.Core.Type <> T var
+R1568:1571 ExtLib.Core.Type <> type class
+R1577:1577 ExtLib.Core.Type <> T var
+def 1622:1626 <> type2
+R1651:1654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1663:1666 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1720:1723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1751:1754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1755:1758 ExtLib.Core.Type <> type class
+R1761:1761 ExtLib.Core.Type <> F var
+R1765:1765 ExtLib.Core.Type <> U var
+R1763:1763 ExtLib.Core.Type <> T var
+R1745:1748 ExtLib.Core.Type <> type class
+R1750:1750 ExtLib.Core.Type <> U var
+R1714:1717 ExtLib.Core.Type <> type class
+R1719:1719 ExtLib.Core.Type <> T var
+def 1793:1797 <> type3
+R1824:1827 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1836:1839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1848:1851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1905:1908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1936:1939 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1967:1971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1972:1975 ExtLib.Core.Type <> type class
+R1978:1978 ExtLib.Core.Type <> F var
+R1984:1984 ExtLib.Core.Type <> V var
+R1982:1982 ExtLib.Core.Type <> U var
+R1980:1980 ExtLib.Core.Type <> T var
+R1961:1964 ExtLib.Core.Type <> type class
+R1966:1966 ExtLib.Core.Type <> V var
+R1930:1933 ExtLib.Core.Type <> type class
+R1935:1935 ExtLib.Core.Type <> U var
+R1899:1902 ExtLib.Core.Type <> type class
+R1904:1904 ExtLib.Core.Type <> T var
+def 2012:2018 <> typeOk1
+R2041:2044 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2061:2065 ExtLib.Core.Type <> type1 def
+R2075:2075 ExtLib.Core.Type <> F var
+R2132:2135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2136:2141 ExtLib.Core.Type <> typeOk class
+R2144:2145 ExtLib.Core.Type <> tF var
+R2149:2150 ExtLib.Core.Type <> tT var
+R2121:2126 ExtLib.Core.Type <> typeOk class
+R2130:2131 ExtLib.Core.Type <> tT var
+R2128:2128 ExtLib.Core.Type <> T var
+def 2178:2184 <> typeOk2
+R2221:2224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2233:2236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2253:2257 ExtLib.Core.Type <> type2 def
+R2269:2269 ExtLib.Core.Type <> F var
+R2316:2319 ExtLib.Core.Type <> type class
+R2325:2325 ExtLib.Core.Type <> T var
+R2345:2348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2349:2355 ExtLib.Core.Type <> typeOk1 def
+R2368:2369 ExtLib.Core.Type <> tF var
+R2373:2374 ExtLib.Core.Type <> tT var
+R2330:2335 ExtLib.Core.Type <> typeOk class
+R2343:2344 ExtLib.Core.Type <> tT var
+R2341:2341 ExtLib.Core.Type <> T var
+def 2402:2408 <> typeOk3
+R2430:2434 ExtLib.Core.Type <> type3 def
+R2436:2436 ExtLib.Core.Type <> F var
+R2483:2486 ExtLib.Core.Type <> type class
+R2488:2488 ExtLib.Core.Type <> T var
+R2508:2511 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2512:2518 ExtLib.Core.Type <> typeOk2 def
+R2533:2534 ExtLib.Core.Type <> tF var
+R2538:2539 ExtLib.Core.Type <> tT var
+R2493:2498 ExtLib.Core.Type <> typeOk class
+R2506:2507 ExtLib.Core.Type <> tT var
+R2504:2504 ExtLib.Core.Type <> T var
+inst 2639:2648 <> type_type1
+R2658:2662 ExtLib.Core.Type <> type1 class
+R2664:2664 ExtLib.Core.Type <> F var
+R2675:2678 ExtLib.Core.Type <> type class
+R2680:2680 ExtLib.Core.Type <> T var
+R2685:2688 ExtLib.Core.Type <> type class
+R2691:2691 ExtLib.Core.Type <> F var
+R2693:2693 ExtLib.Core.Type <> T var
+inst 2739:2749 <> type1_type2
+R2759:2763 ExtLib.Core.Type <> type2 class
+R2765:2765 ExtLib.Core.Type <> F var
+R2776:2779 ExtLib.Core.Type <> type class
+R2781:2781 ExtLib.Core.Type <> T var
+R2786:2790 ExtLib.Core.Type <> type1 class
+R2793:2793 ExtLib.Core.Type <> F var
+R2795:2795 ExtLib.Core.Type <> T var
+inst 2841:2851 <> type2_type3
+R2861:2865 ExtLib.Core.Type <> type3 class
+R2867:2867 ExtLib.Core.Type <> F var
+R2878:2881 ExtLib.Core.Type <> type class
+R2883:2883 ExtLib.Core.Type <> T var
+R2888:2892 ExtLib.Core.Type <> type2 class
+R2895:2895 ExtLib.Core.Type <> F var
+R2897:2897 ExtLib.Core.Type <> T var
+rec 2933:2938 <> Oktype
+proj 2954:2961 <> the_type
+proj 2975:2983 <> the_proof
+R2966:2969 ExtLib.Core.Type <> type class
+R2971:2971 ExtLib.Core.Type <> T var
+R2988:2993 ExtLib.Core.Type <> typeOk class
+R2995:3002 ExtLib.Core.Type <> the_type meth
+R3008:3042 ExtLib.Core.Type <> the_type meth
+inst 3062:3075 <> typeOk_typeOk1
+R3085:3089 ExtLib.Core.Type <> type1 class
+R3091:3091 ExtLib.Core.Type <> F var
+R3102:3105 ExtLib.Core.Type <> type class
+R3107:3107 ExtLib.Core.Type <> T var
+R3112:3115 ExtLib.Core.Type <> type class
+R3118:3118 ExtLib.Core.Type <> F var
+R3120:3120 ExtLib.Core.Type <> T var
+inst 3154:3168 <> typeOk1_typeOk2
+R3178:3182 ExtLib.Core.Type <> type2 class
+R3184:3184 ExtLib.Core.Type <> F var
+R3195:3198 ExtLib.Core.Type <> type class
+R3200:3200 ExtLib.Core.Type <> T var
+R3205:3209 ExtLib.Core.Type <> type1 class
+R3212:3212 ExtLib.Core.Type <> F var
+R3214:3214 ExtLib.Core.Type <> T var
+inst 3248:3262 <> typeOk2_typeOk3
+R3272:3276 ExtLib.Core.Type <> type3 class
+R3278:3278 ExtLib.Core.Type <> F var
+R3289:3292 ExtLib.Core.Type <> type class
+R3294:3294 ExtLib.Core.Type <> T var
+R3299:3303 ExtLib.Core.Type <> type2 class
+R3306:3306 ExtLib.Core.Type <> F var
+R3308:3308 ExtLib.Core.Type <> T var
+sec 3335:3351 <> typeOk_from_equal
+R3373:3380 Coq.Relations.Relation_Definitions <> relation def
+R3382:3382 ExtLib.Core.Type <> T var
+var 3399:3399 typeOk_from_equal p
+R3420:3423 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3429:3432 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3424:3424 ExtLib.Core.Type <> typeOk_from_equal.r var
+R3428:3428 ExtLib.Core.Type <> x var
+R3426:3426 ExtLib.Core.Type <> x var
+R3433:3433 ExtLib.Core.Type <> typeOk_from_equal.r var
+R3437:3437 ExtLib.Core.Type <> y var
+R3435:3435 ExtLib.Core.Type <> y var
+R3415:3415 ExtLib.Core.Type <> typeOk_from_equal.r var
+R3419:3419 ExtLib.Core.Type <> y var
+R3417:3417 ExtLib.Core.Type <> x var
+var 3453:3455 typeOk_from_equal sym
+R3459:3467 Coq.Classes.RelationClasses <> Symmetric class
+R3469:3469 ExtLib.Core.Type <> typeOk_from_equal.r var
+var 3485:3489 typeOk_from_equal trans
+R3493:3502 Coq.Classes.RelationClasses <> Transitive class
+R3504:3504 ExtLib.Core.Type <> typeOk_from_equal.r var
+prf 3518:3534 <> typeOk_from_equal
+R3539:3544 ExtLib.Core.Type <> typeOk class
+R3547:3561 ExtLib.Core.Type <> type_from_equal def
+R3563:3563 ExtLib.Core.Type <> typeOk_from_equal.r var
+R3636:3652 ExtLib.Core.Type typeOk_from_equal <> sec
+prf 3664:3676 <> typeOk_libniz
+R3682:3687 ExtLib.Core.Type <> typeOk class
+R3690:3700 ExtLib.Core.Type <> type_libniz def
+R3702:3702 ExtLib.Core.Type <> T var
+R3735:3739 ExtLib.Core.Type <> equal meth
+R3742:3752 ExtLib.Core.Type <> type_libniz def
+R3803:3803 Coq.Init.Logic <> I constr
+R3803:3803 Coq.Init.Logic <> I constr
+R3803:3803 Coq.Init.Logic <> I constr

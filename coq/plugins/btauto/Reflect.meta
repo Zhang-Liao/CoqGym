@@ -1,0 +1,500 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 1; Loc.bol_pos = 0; Loc.line_nb_last = 1; Loc.bol_pos_last = 0; Loc.bp = 0; Loc.ep = 68} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 3; Loc.bol_pos = 70; Loc.line_nb_last = 3; Loc.bol_pos_last = 70; Loc.bp = 70; Loc.ep = 83} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 7; Loc.bol_pos = 131; Loc.line_nb_last = 15; Loc.bol_pos_last = 409; Loc.bp = 131; Loc.ep = 466} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 17; Loc.bol_pos = 468; Loc.line_nb_last = 27; Loc.bol_pos_last = 956; Loc.bp = 468; Loc.ep = 960} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 29; Loc.bol_pos = 962; Loc.line_nb_last = 29; Loc.bol_pos_last = 962; Loc.bp = 962; Loc.ep = 971} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 33; Loc.bol_pos = 1021; Loc.line_nb_last = 33; Loc.bol_pos_last = 1021; Loc.bp = 1021; Loc.ep = 1041} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 37; Loc.bol_pos = 1075; Loc.line_nb_last = 56; Loc.bol_pos_last = 1785; Loc.bp = 1075; Loc.ep = 1789} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 58; Loc.bol_pos = 1791; Loc.line_nb_last = 58; Loc.bol_pos_last = 1791; Loc.bp = 1791; Loc.ep = 1807} **)
+(**VERNAC_TYPE** VernacSetOpacity **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 62; Loc.bol_pos = 1860; Loc.line_nb_last = 63; Loc.bol_pos_last = 1910; Loc.bp = 1860; Loc.ep = 1962} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 64; Loc.bol_pos = 1963; Loc.line_nb_last = 64; Loc.bol_pos_last = 1963; Loc.bp = 1963; Loc.ep = 1969} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 65; Loc.bol_pos = 1970; Loc.line_nb_last = 65; Loc.bol_pos_last = 1970; Loc.bp = 1970; Loc.ep = 2045} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 66; Loc.bol_pos = 2046; Loc.line_nb_last = 66; Loc.bol_pos_last = 2046; Loc.bp = 2048; Loc.ep = 2121} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 67; Loc.bol_pos = 2122; Loc.line_nb_last = 67; Loc.bol_pos_last = 2122; Loc.bp = 2124; Loc.ep = 2166} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 68; Loc.bol_pos = 2167; Loc.line_nb_last = 68; Loc.bol_pos_last = 2167; Loc.bp = 2169; Loc.ep = 2200} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 69; Loc.bol_pos = 2201; Loc.line_nb_last = 69; Loc.bol_pos_last = 2201; Loc.bp = 2203; Loc.ep = 2240} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 70; Loc.bol_pos = 2241; Loc.line_nb_last = 70; Loc.bol_pos_last = 2241; Loc.bp = 2243; Loc.ep = 2327} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 71; Loc.bol_pos = 2328; Loc.line_nb_last = 71; Loc.bol_pos_last = 2328; Loc.bp = 2330; Loc.ep = 2367} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 72; Loc.bol_pos = 2368; Loc.line_nb_last = 72; Loc.bol_pos_last = 2368; Loc.bp = 2370; Loc.ep = 2441} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 73; Loc.bol_pos = 2442; Loc.line_nb_last = 73; Loc.bol_pos_last = 2442; Loc.bp = 2444; Loc.ep = 2480} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 74; Loc.bol_pos = 2481; Loc.line_nb_last = 74; Loc.bol_pos_last = 2481; Loc.bp = 2483; Loc.ep = 2539} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 75; Loc.bol_pos = 2540; Loc.line_nb_last = 77; Loc.bol_pos_last = 2653; Loc.bp = 2542; Loc.ep = 2659} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 78; Loc.bol_pos = 2660; Loc.line_nb_last = 78; Loc.bol_pos_last = 2660; Loc.bp = 2660; Loc.ep = 2664} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** poly_of_formula_eval_compat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 80; Loc.bol_pos = 2666; Loc.line_nb_last = 80; Loc.bol_pos_last = 2666; Loc.bp = 2666; Loc.ep = 2707} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 81; Loc.bol_pos = 2708; Loc.line_nb_last = 81; Loc.bol_pos_last = 2708; Loc.bp = 2708; Loc.ep = 2771} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 82; Loc.bol_pos = 2772; Loc.line_nb_last = 82; Loc.bol_pos_last = 2772; Loc.bp = 2772; Loc.ep = 2802} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 83; Loc.bol_pos = 2803; Loc.line_nb_last = 83; Loc.bol_pos_last = 2803; Loc.bp = 2803; Loc.ep = 2832} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 87; Loc.bol_pos = 2869; Loc.line_nb_last = 87; Loc.bol_pos_last = 2869; Loc.bp = 2869; Loc.ep = 2954} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 88; Loc.bol_pos = 2955; Loc.line_nb_last = 88; Loc.bol_pos_last = 2955; Loc.bp = 2955; Loc.ep = 2961} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 89; Loc.bol_pos = 2962; Loc.line_nb_last = 89; Loc.bol_pos_last = 2962; Loc.bp = 2962; Loc.ep = 2991} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 90; Loc.bol_pos = 2992; Loc.line_nb_last = 90; Loc.bol_pos_last = 2992; Loc.bp = 2992; Loc.ep = 2993} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 90; Loc.bol_pos = 2992; Loc.line_nb_last = 90; Loc.bol_pos_last = 2992; Loc.bp = 2994; Loc.ep = 3051} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 91; Loc.bol_pos = 3052; Loc.line_nb_last = 91; Loc.bol_pos_last = 3052; Loc.bp = 3052; Loc.ep = 3053} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 91; Loc.bol_pos = 3052; Loc.line_nb_last = 91; Loc.bol_pos_last = 3052; Loc.bp = 3054; Loc.ep = 3078} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 92; Loc.bol_pos = 3079; Loc.line_nb_last = 92; Loc.bol_pos_last = 3079; Loc.bp = 3079; Loc.ep = 3080} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 92; Loc.bol_pos = 3079; Loc.line_nb_last = 92; Loc.bol_pos_last = 3079; Loc.bp = 3081; Loc.ep = 3105} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 93; Loc.bol_pos = 3106; Loc.line_nb_last = 93; Loc.bol_pos_last = 3106; Loc.bp = 3106; Loc.ep = 3107} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 93; Loc.bol_pos = 3106; Loc.line_nb_last = 93; Loc.bol_pos_last = 3106; Loc.bp = 3108; Loc.ep = 3191} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 94; Loc.bol_pos = 3192; Loc.line_nb_last = 94; Loc.bol_pos_last = 3192; Loc.bp = 3192; Loc.ep = 3193} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 94; Loc.bol_pos = 3192; Loc.line_nb_last = 94; Loc.bol_pos_last = 3192; Loc.bp = 3194; Loc.ep = 3303} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 95; Loc.bol_pos = 3304; Loc.line_nb_last = 95; Loc.bol_pos_last = 3304; Loc.bp = 3304; Loc.ep = 3305} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 95; Loc.bol_pos = 3304; Loc.line_nb_last = 95; Loc.bol_pos_last = 3304; Loc.bp = 3306; Loc.ep = 3357} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 96; Loc.bol_pos = 3358; Loc.line_nb_last = 96; Loc.bol_pos_last = 3358; Loc.bp = 3358; Loc.ep = 3359} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 96; Loc.bol_pos = 3358; Loc.line_nb_last = 96; Loc.bol_pos_last = 3358; Loc.bp = 3360; Loc.ep = 3443} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 97; Loc.bol_pos = 3444; Loc.line_nb_last = 97; Loc.bol_pos_last = 3444; Loc.bp = 3444; Loc.ep = 3445} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 97; Loc.bol_pos = 3444; Loc.line_nb_last = 97; Loc.bol_pos_last = 3444; Loc.bp = 3446; Loc.ep = 3542} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 98; Loc.bol_pos = 3543; Loc.line_nb_last = 98; Loc.bol_pos_last = 3543; Loc.bp = 3543; Loc.ep = 3547} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** poly_of_formula_valid_compat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 102; Loc.bol_pos = 3597; Loc.line_nb_last = 103; Loc.bol_pos_last = 3645; Loc.bp = 3597; Loc.ep = 3732} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 104; Loc.bol_pos = 3733; Loc.line_nb_last = 104; Loc.bol_pos_last = 3733; Loc.bp = 3733; Loc.ep = 3739} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 105; Loc.bol_pos = 3740; Loc.line_nb_last = 105; Loc.bol_pos_last = 3740; Loc.bp = 3740; Loc.ep = 3761} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 106; Loc.bol_pos = 3762; Loc.line_nb_last = 106; Loc.bol_pos_last = 3762; Loc.bp = 3762; Loc.ep = 3808} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 107; Loc.bol_pos = 3809; Loc.line_nb_last = 107; Loc.bol_pos_last = 3809; Loc.bp = 3809; Loc.ep = 3834} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 108; Loc.bol_pos = 3835; Loc.line_nb_last = 108; Loc.bol_pos_last = 3835; Loc.bp = 3835; Loc.ep = 3839} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** poly_of_formula_sound **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 110; Loc.bol_pos = 3841; Loc.line_nb_last = 110; Loc.bol_pos_last = 3841; Loc.bp = 3841; Loc.ep = 3857} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 112; Loc.bol_pos = 3859; Loc.line_nb_last = 112; Loc.bol_pos_last = 3859; Loc.bp = 3859; Loc.ep = 3880} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 129; Loc.bol_pos = 4542; Loc.line_nb_last = 131; Loc.bol_pos_last = 4660; Loc.bp = 4542; Loc.ep = 4704} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 132; Loc.bol_pos = 4705; Loc.line_nb_last = 132; Loc.bol_pos_last = 4705; Loc.bp = 4705; Loc.ep = 4711} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 133; Loc.bol_pos = 4712; Loc.line_nb_last = 133; Loc.bol_pos_last = 4712; Loc.bp = 4712; Loc.ep = 4733} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 134; Loc.bol_pos = 4734; Loc.line_nb_last = 134; Loc.bol_pos_last = 4734; Loc.bp = 4734; Loc.ep = 4780} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 135; Loc.bol_pos = 4781; Loc.line_nb_last = 135; Loc.bol_pos_last = 4781; Loc.bp = 4781; Loc.ep = 4835} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 136; Loc.bol_pos = 4836; Loc.line_nb_last = 136; Loc.bol_pos_last = 4836; Loc.bp = 4836; Loc.ep = 4890} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 137; Loc.bol_pos = 4891; Loc.line_nb_last = 137; Loc.bol_pos_last = 4891; Loc.bp = 4891; Loc.ep = 4953} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 138; Loc.bol_pos = 4954; Loc.line_nb_last = 138; Loc.bol_pos_last = 4954; Loc.bp = 4954; Loc.ep = 5016} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 139; Loc.bol_pos = 5017; Loc.line_nb_last = 139; Loc.bol_pos_last = 5017; Loc.bp = 5017; Loc.ep = 5042} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 140; Loc.bol_pos = 5043; Loc.line_nb_last = 140; Loc.bol_pos_last = 5043; Loc.bp = 5043; Loc.ep = 5047} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** reduce_poly_of_formula_sound **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 142; Loc.bol_pos = 5049; Loc.line_nb_last = 145; Loc.bol_pos_last = 5143; Loc.bp = 5049; Loc.ep = 5173} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 149; Loc.bol_pos = 5216; Loc.line_nb_last = 155; Loc.bol_pos_last = 5380; Loc.bp = 5216; Loc.ep = 5384} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 159; Loc.bol_pos = 5439; Loc.line_nb_last = 159; Loc.bol_pos_last = 5439; Loc.bp = 5439; Loc.ep = 5472} **)
+(**VERNAC_TYPE** VernacDeclareInstances **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 161; Loc.bol_pos = 5474; Loc.line_nb_last = 171; Loc.bol_pos_last = 5710; Loc.bp = 5474; Loc.ep = 5714} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 173; Loc.bol_pos = 5716; Loc.line_nb_last = 174; Loc.bol_pos_last = 5760; Loc.bp = 5716; Loc.ep = 5825} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 175; Loc.bol_pos = 5826; Loc.line_nb_last = 175; Loc.bol_pos_last = 5826; Loc.bp = 5826; Loc.ep = 5832} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 176; Loc.bol_pos = 5833; Loc.line_nb_last = 176; Loc.bol_pos_last = 5833; Loc.bp = 5833; Loc.ep = 5865} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 177; Loc.bol_pos = 5866; Loc.line_nb_last = 177; Loc.bol_pos_last = 5866; Loc.bp = 5866; Loc.ep = 5907} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 178; Loc.bol_pos = 5908; Loc.line_nb_last = 178; Loc.bol_pos_last = 5908; Loc.bp = 5908; Loc.ep = 5912} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** list_nth_base **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 180; Loc.bol_pos = 5914; Loc.line_nb_last = 182; Loc.bol_pos_last = 5992; Loc.bp = 5914; Loc.ep = 6055} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 183; Loc.bol_pos = 6056; Loc.line_nb_last = 183; Loc.bol_pos_last = 6056; Loc.bp = 6056; Loc.ep = 6062} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 184; Loc.bol_pos = 6063; Loc.line_nb_last = 184; Loc.bol_pos_last = 6063; Loc.bp = 6063; Loc.ep = 6095} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 185; Loc.bol_pos = 6096; Loc.line_nb_last = 185; Loc.bol_pos_last = 6096; Loc.bp = 6096; Loc.ep = 6137} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 186; Loc.bol_pos = 6138; Loc.line_nb_last = 186; Loc.bol_pos_last = 6138; Loc.bp = 6138; Loc.ep = 6142} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** list_nth_succ **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 188; Loc.bol_pos = 6144; Loc.line_nb_last = 189; Loc.bol_pos_last = 6187; Loc.bp = 6144; Loc.ep = 6214} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 190; Loc.bol_pos = 6215; Loc.line_nb_last = 190; Loc.bol_pos_last = 6215; Loc.bp = 6215; Loc.ep = 6221} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 191; Loc.bol_pos = 6222; Loc.line_nb_last = 191; Loc.bol_pos_last = 6222; Loc.bp = 6222; Loc.ep = 6271} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 192; Loc.bol_pos = 6272; Loc.line_nb_last = 192; Loc.bol_pos_last = 6272; Loc.bp = 6272; Loc.ep = 6273} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 192; Loc.bol_pos = 6272; Loc.line_nb_last = 192; Loc.bol_pos_last = 6272; Loc.bp = 6274; Loc.ep = 6309} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 193; Loc.bol_pos = 6310; Loc.line_nb_last = 193; Loc.bol_pos_last = 6310; Loc.bp = 6310; Loc.ep = 6311} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 193; Loc.bol_pos = 6310; Loc.line_nb_last = 193; Loc.bol_pos_last = 6310; Loc.bp = 6312; Loc.ep = 6347} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 194; Loc.bol_pos = 6348; Loc.line_nb_last = 194; Loc.bol_pos_last = 6348; Loc.bp = 6348; Loc.ep = 6352} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** list_nth_nil **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 196; Loc.bol_pos = 6354; Loc.line_nb_last = 197; Loc.bol_pos_last = 6408; Loc.bp = 6354; Loc.ep = 6454} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 198; Loc.bol_pos = 6455; Loc.line_nb_last = 198; Loc.bol_pos_last = 6455; Loc.bp = 6455; Loc.ep = 6461} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 199; Loc.bol_pos = 6462; Loc.line_nb_last = 200; Loc.bol_pos_last = 6527; Loc.bp = 6462; Loc.ep = 6553} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 201; Loc.bol_pos = 6554; Loc.line_nb_last = 201; Loc.bol_pos_last = 6554; Loc.bp = 6554; Loc.ep = 6555} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 201; Loc.bol_pos = 6554; Loc.line_nb_last = 201; Loc.bol_pos_last = 6554; Loc.bp = 6556; Loc.ep = 6614} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 202; Loc.bol_pos = 6615; Loc.line_nb_last = 202; Loc.bol_pos_last = 6615; Loc.bp = 6617; Loc.ep = 6666} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 203; Loc.bol_pos = 6667; Loc.line_nb_last = 203; Loc.bol_pos_last = 6667; Loc.bp = 6667; Loc.ep = 6668} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 203; Loc.bol_pos = 6667; Loc.line_nb_last = 203; Loc.bol_pos_last = 6667; Loc.bp = 6669; Loc.ep = 6741} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 204; Loc.bol_pos = 6742; Loc.line_nb_last = 204; Loc.bol_pos_last = 6742; Loc.bp = 6744; Loc.ep = 6777} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 205; Loc.bol_pos = 6778; Loc.line_nb_last = 205; Loc.bol_pos_last = 6778; Loc.bp = 6780; Loc.ep = 6781} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 205; Loc.bol_pos = 6778; Loc.line_nb_last = 205; Loc.bol_pos_last = 6778; Loc.bp = 6782; Loc.ep = 6817} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 206; Loc.bol_pos = 6818; Loc.line_nb_last = 206; Loc.bol_pos_last = 6818; Loc.bp = 6820; Loc.ep = 6821} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 206; Loc.bol_pos = 6818; Loc.line_nb_last = 206; Loc.bol_pos_last = 6818; Loc.bp = 6822; Loc.ep = 6868} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 207; Loc.bol_pos = 6869; Loc.line_nb_last = 207; Loc.bol_pos_last = 6869; Loc.bp = 6869; Loc.ep = 6873} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** make_last_nth_1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 209; Loc.bol_pos = 6875; Loc.line_nb_last = 209; Loc.bol_pos_last = 6875; Loc.bp = 6875; Loc.ep = 6959} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 210; Loc.bol_pos = 6960; Loc.line_nb_last = 210; Loc.bol_pos_last = 6960; Loc.bp = 6960; Loc.ep = 6966} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 211; Loc.bol_pos = 6967; Loc.line_nb_last = 211; Loc.bol_pos_last = 6967; Loc.bp = 6967; Loc.ep = 7033} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 212; Loc.bol_pos = 7034; Loc.line_nb_last = 212; Loc.bol_pos_last = 7034; Loc.bp = 7034; Loc.ep = 7035} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 212; Loc.bol_pos = 7034; Loc.line_nb_last = 212; Loc.bol_pos_last = 7034; Loc.bp = 7036; Loc.ep = 7048} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 213; Loc.bol_pos = 7049; Loc.line_nb_last = 213; Loc.bol_pos_last = 7049; Loc.bp = 7049; Loc.ep = 7050} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 213; Loc.bol_pos = 7049; Loc.line_nb_last = 213; Loc.bol_pos_last = 7049; Loc.bp = 7051; Loc.ep = 7123} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 214; Loc.bol_pos = 7124; Loc.line_nb_last = 214; Loc.bol_pos_last = 7124; Loc.bp = 7126; Loc.ep = 7154} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 215; Loc.bol_pos = 7155; Loc.line_nb_last = 215; Loc.bol_pos_last = 7155; Loc.bp = 7155; Loc.ep = 7159} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** make_last_nth_2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 217; Loc.bol_pos = 7161; Loc.line_nb_last = 218; Loc.bol_pos_last = 7216; Loc.bp = 7161; Loc.ep = 7281} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 219; Loc.bol_pos = 7282; Loc.line_nb_last = 219; Loc.bol_pos_last = 7282; Loc.bp = 7282; Loc.ep = 7288} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 220; Loc.bol_pos = 7289; Loc.line_nb_last = 220; Loc.bol_pos_last = 7289; Loc.bp = 7289; Loc.ep = 7339} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 221; Loc.bol_pos = 7340; Loc.line_nb_last = 221; Loc.bol_pos_last = 7340; Loc.bp = 7340; Loc.ep = 7341} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 221; Loc.bol_pos = 7340; Loc.line_nb_last = 221; Loc.bol_pos_last = 7340; Loc.bp = 7342; Loc.ep = 7386} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 222; Loc.bol_pos = 7387; Loc.line_nb_last = 222; Loc.bol_pos_last = 7387; Loc.bp = 7387; Loc.ep = 7388} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 222; Loc.bol_pos = 7387; Loc.line_nb_last = 222; Loc.bol_pos_last = 7387; Loc.bp = 7389; Loc.ep = 7422} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 223; Loc.bol_pos = 7423; Loc.line_nb_last = 223; Loc.bol_pos_last = 7423; Loc.bp = 7425; Loc.ep = 7426} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 223; Loc.bol_pos = 7423; Loc.line_nb_last = 223; Loc.bol_pos_last = 7423; Loc.bp = 7427; Loc.ep = 7455} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 224; Loc.bol_pos = 7456; Loc.line_nb_last = 224; Loc.bol_pos_last = 7456; Loc.bp = 7460; Loc.ep = 7515} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 225; Loc.bol_pos = 7516; Loc.line_nb_last = 225; Loc.bol_pos_last = 7516; Loc.bp = 7520; Loc.ep = 7556} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 226; Loc.bol_pos = 7557; Loc.line_nb_last = 226; Loc.bol_pos_last = 7557; Loc.bp = 7559; Loc.ep = 7560} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 226; Loc.bol_pos = 7557; Loc.line_nb_last = 226; Loc.bol_pos_last = 7557; Loc.bp = 7561; Loc.ep = 7589} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 227; Loc.bol_pos = 7590; Loc.line_nb_last = 227; Loc.bol_pos_last = 7590; Loc.bp = 7594; Loc.ep = 7627} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 228; Loc.bol_pos = 7628; Loc.line_nb_last = 228; Loc.bol_pos_last = 7628; Loc.bp = 7632; Loc.ep = 7633} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 228; Loc.bol_pos = 7628; Loc.line_nb_last = 228; Loc.bol_pos_last = 7628; Loc.bp = 7634; Loc.ep = 7670} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 228; Loc.bol_pos = 7628; Loc.line_nb_last = 228; Loc.bol_pos_last = 7628; Loc.bp = 7671; Loc.ep = 7672} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 229; Loc.bol_pos = 7673; Loc.line_nb_last = 229; Loc.bol_pos_last = 7673; Loc.bp = 7677; Loc.ep = 7678} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 229; Loc.bol_pos = 7673; Loc.line_nb_last = 229; Loc.bol_pos_last = 7673; Loc.bp = 7679; Loc.ep = 7728} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 229; Loc.bol_pos = 7673; Loc.line_nb_last = 229; Loc.bol_pos_last = 7673; Loc.bp = 7729; Loc.ep = 7730} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 230; Loc.bol_pos = 7731; Loc.line_nb_last = 230; Loc.bol_pos_last = 7731; Loc.bp = 7731; Loc.ep = 7735} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** list_replace_nth_1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 232; Loc.bol_pos = 7737; Loc.line_nb_last = 232; Loc.bol_pos_last = 7737; Loc.bp = 7737; Loc.ep = 7824} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 233; Loc.bol_pos = 7825; Loc.line_nb_last = 233; Loc.bol_pos_last = 7825; Loc.bp = 7825; Loc.ep = 7831} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 234; Loc.bol_pos = 7832; Loc.line_nb_last = 234; Loc.bol_pos_last = 7832; Loc.bp = 7832; Loc.ep = 7877} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 235; Loc.bol_pos = 7878; Loc.line_nb_last = 235; Loc.bol_pos_last = 7878; Loc.bp = 7878; Loc.ep = 7879} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 235; Loc.bol_pos = 7878; Loc.line_nb_last = 235; Loc.bol_pos_last = 7878; Loc.bp = 7880; Loc.ep = 7906} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 236; Loc.bol_pos = 7907; Loc.line_nb_last = 236; Loc.bol_pos_last = 7907; Loc.bp = 7907; Loc.ep = 7908} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 236; Loc.bol_pos = 7907; Loc.line_nb_last = 236; Loc.bol_pos_last = 7907; Loc.bp = 7909; Loc.ep = 7942} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 237; Loc.bol_pos = 7943; Loc.line_nb_last = 237; Loc.bol_pos_last = 7943; Loc.bp = 7945; Loc.ep = 7946} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 237; Loc.bol_pos = 7943; Loc.line_nb_last = 237; Loc.bol_pos_last = 7943; Loc.bp = 7947; Loc.ep = 8003} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 238; Loc.bol_pos = 8004; Loc.line_nb_last = 238; Loc.bol_pos_last = 8004; Loc.bp = 8006; Loc.ep = 8007} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 238; Loc.bol_pos = 8004; Loc.line_nb_last = 238; Loc.bol_pos_last = 8004; Loc.bp = 8008; Loc.ep = 8057} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 239; Loc.bol_pos = 8058; Loc.line_nb_last = 239; Loc.bol_pos_last = 8058; Loc.bp = 8058; Loc.ep = 8062} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** list_replace_nth_2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 243; Loc.bol_pos = 8127; Loc.line_nb_last = 244; Loc.bol_pos_last = 8197; Loc.bp = 8127; Loc.ep = 8233} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 245; Loc.bol_pos = 8234; Loc.line_nb_last = 245; Loc.bol_pos_last = 8234; Loc.bp = 8234; Loc.ep = 8240} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 246; Loc.bol_pos = 8241; Loc.line_nb_last = 246; Loc.bol_pos_last = 8241; Loc.bp = 8241; Loc.ep = 8279} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 247; Loc.bol_pos = 8280; Loc.line_nb_last = 247; Loc.bol_pos_last = 8280; Loc.bp = 8282; Loc.ep = 8333} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 248; Loc.bol_pos = 8334; Loc.line_nb_last = 248; Loc.bol_pos_last = 8334; Loc.bp = 8336; Loc.ep = 8348} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 249; Loc.bol_pos = 8349; Loc.line_nb_last = 249; Loc.bol_pos_last = 8349; Loc.bp = 8353; Loc.ep = 8426} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 250; Loc.bol_pos = 8427; Loc.line_nb_last = 252; Loc.bol_pos_last = 8552; Loc.bp = 8431; Loc.ep = 8560} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 253; Loc.bol_pos = 8561; Loc.line_nb_last = 253; Loc.bol_pos_last = 8561; Loc.bp = 8565; Loc.ep = 8643} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 254; Loc.bol_pos = 8644; Loc.line_nb_last = 254; Loc.bol_pos_last = 8644; Loc.bp = 8648; Loc.ep = 8703} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 255; Loc.bol_pos = 8704; Loc.line_nb_last = 255; Loc.bol_pos_last = 8704; Loc.bp = 8708; Loc.ep = 8749} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 256; Loc.bol_pos = 8750; Loc.line_nb_last = 256; Loc.bol_pos_last = 8750; Loc.bp = 8754; Loc.ep = 8832} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 257; Loc.bol_pos = 8833; Loc.line_nb_last = 257; Loc.bol_pos_last = 8833; Loc.bp = 8837; Loc.ep = 8892} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 258; Loc.bol_pos = 8893; Loc.line_nb_last = 258; Loc.bol_pos_last = 8893; Loc.bp = 8893; Loc.ep = 8897} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** boolean_witness_nonzero **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 262; Loc.bol_pos = 8993; Loc.line_nb_last = 264; Loc.bol_pos_last = 9129; Loc.bp = 8993; Loc.ep = 9173} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 265; Loc.bol_pos = 9174; Loc.line_nb_last = 265; Loc.bol_pos_last = 9174; Loc.bp = 9174; Loc.ep = 9180} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 266; Loc.bol_pos = 9181; Loc.line_nb_last = 266; Loc.bol_pos_last = 9181; Loc.bp = 9181; Loc.ep = 9202} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 267; Loc.bol_pos = 9203; Loc.line_nb_last = 267; Loc.bol_pos_last = 9203; Loc.bp = 9203; Loc.ep = 9249} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 268; Loc.bol_pos = 9250; Loc.line_nb_last = 268; Loc.bol_pos_last = 9250; Loc.bp = 9250; Loc.ep = 9304} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 269; Loc.bol_pos = 9305; Loc.line_nb_last = 269; Loc.bol_pos_last = 9305; Loc.bp = 9305; Loc.ep = 9359} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 270; Loc.bol_pos = 9360; Loc.line_nb_last = 270; Loc.bol_pos_last = 9360; Loc.bp = 9360; Loc.ep = 9422} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 271; Loc.bol_pos = 9423; Loc.line_nb_last = 271; Loc.bol_pos_last = 9423; Loc.bp = 9423; Loc.ep = 9485} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 272; Loc.bol_pos = 9486; Loc.line_nb_last = 272; Loc.bol_pos_last = 9486; Loc.bp = 9486; Loc.ep = 9552} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 273; Loc.bol_pos = 9553; Loc.line_nb_last = 273; Loc.bol_pos_last = 9553; Loc.bp = 9553; Loc.ep = 9588} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 274; Loc.bol_pos = 9589; Loc.line_nb_last = 274; Loc.bol_pos_last = 9589; Loc.bp = 9589; Loc.ep = 9620} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 275; Loc.bol_pos = 9621; Loc.line_nb_last = 275; Loc.bol_pos_last = 9621; Loc.bp = 9621; Loc.ep = 9668} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 276; Loc.bol_pos = 9669; Loc.line_nb_last = 276; Loc.bol_pos_last = 9669; Loc.bp = 9669; Loc.ep = 9758} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 277; Loc.bol_pos = 9759; Loc.line_nb_last = 277; Loc.bol_pos_last = 9759; Loc.bp = 9759; Loc.ep = 9806} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 278; Loc.bol_pos = 9807; Loc.line_nb_last = 278; Loc.bol_pos_last = 9807; Loc.bp = 9807; Loc.ep = 9837} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 279; Loc.bol_pos = 9838; Loc.line_nb_last = 279; Loc.bol_pos_last = 9838; Loc.bp = 9838; Loc.ep = 9842} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** reduce_poly_of_formula_sound_alt **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 309; Loc.bol_pos = 11268; Loc.line_nb_last = 309; Loc.bol_pos_last = 11268; Loc.bp = 11268; Loc.ep = 11285} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/btauto/Reflect.v"; Loc.line_nb = 315; Loc.bol_pos = 11380; Loc.line_nb_last = 315; Loc.bol_pos_last = 11380; Loc.bp = 11380; Loc.ep = 11415} **)
+(**VERNAC_TYPE** VernacSetOpacity **)

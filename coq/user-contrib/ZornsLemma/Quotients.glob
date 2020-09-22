@@ -1,0 +1,655 @@
+DIGEST 89e7ae0d54dd7c1b85c8449a0324f0ec
+FZornsLemma.Quotients
+R15:23 Coq.Sets.Ensembles <> <> lib
+R41:57 ZornsLemma.EnsemblesImplicit <> <> lib
+R75:79 Coq.Sets.Image <> <> lib
+R97:109 ZornsLemma.ImageImplicit <> <> lib
+R127:146 Coq.Relations.Relation_Definitions <> <> lib
+R164:192 ZornsLemma.Relation_Definitions_Implicit <> <> lib
+R210:220 Coq.Logic.Description <> <> lib
+R238:253 Coq.Logic.ProofIrrelevance <> <> lib
+R271:287 ZornsLemma.Proj1SigInjective <> <> lib
+R305:317 ZornsLemma.EnsemblesSpec <> <> lib
+sec 353:360 <> Quotient
+var 372:372 Quotient A
+var 389:389 Quotient R
+R391:398 Coq.Relations.Relation_Definitions <> relation def
+R400:400 ZornsLemma.Quotients <> Quotient.A var
+var 414:419 Quotient equivR
+R421:431 Coq.Relations.Relation_Definitions <> equivalence rec
+R433:433 ZornsLemma.Quotients <> Quotient.R var
+def 448:458 <> equiv_class
+R463:463 ZornsLemma.Quotients <> Quotient.A var
+R468:475 Coq.Sets.Ensembles <> Ensemble def
+R477:477 ZornsLemma.Quotients <> Quotient.A var
+R484:485 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R487:487 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R489:491 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R497:498 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R492:492 ZornsLemma.Quotients <> Quotient.R var
+R496:496 ZornsLemma.Quotients <> y var
+R494:494 ZornsLemma.Quotients <> x var
+R488:488 ZornsLemma.Quotients <> Quotient.A var
+prf 508:537 <> R_impl_equality_of_equiv_class
+R553:553 ZornsLemma.Quotients <> Quotient.A var
+R561:564 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R578:580 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R565:575 ZornsLemma.Quotients <> equiv_class def
+R577:577 ZornsLemma.Quotients <> x var
+R581:591 ZornsLemma.Quotients <> equiv_class def
+R593:593 ZornsLemma.Quotients <> y var
+R556:556 ZornsLemma.Quotients <> Quotient.R var
+R560:560 ZornsLemma.Quotients <> y var
+R558:558 ZornsLemma.Quotients <> x var
+R612:617 ZornsLemma.Quotients <> Quotient.equivR var
+R634:657 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R634:657 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+prf 844:873 <> equality_of_equiv_class_impl_R
+R889:889 ZornsLemma.Quotients <> Quotient.A var
+R921:924 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R925:925 ZornsLemma.Quotients <> Quotient.R var
+R929:929 ZornsLemma.Quotients <> y var
+R927:927 ZornsLemma.Quotients <> x var
+R905:907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R892:902 ZornsLemma.Quotients <> equiv_class def
+R904:904 ZornsLemma.Quotients <> x var
+R908:918 ZornsLemma.Quotients <> equiv_class def
+R920:920 ZornsLemma.Quotients <> y var
+R948:953 ZornsLemma.Quotients <> Quotient.equivR var
+R972:973 Coq.Sets.Ensembles <> In def
+R976:986 ZornsLemma.Quotients <> equiv_class def
+R972:973 Coq.Sets.Ensembles <> In def
+R976:986 ZornsLemma.Quotients <> equiv_class def
+def 1102:1114 <> equiv_classes
+R1118:1125 Coq.Sets.Ensembles <> Ensemble def
+R1128:1135 Coq.Sets.Ensembles <> Ensemble def
+R1137:1137 ZornsLemma.Quotients <> Quotient.A var
+R1145:1146 Coq.Sets.Image <> Im ind
+R1157:1167 ZornsLemma.Quotients <> equiv_class def
+R1148:1155 Coq.Sets.Ensembles <> Full_set ind
+def 1181:1188 <> quotient
+R1202:1203 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1205:1205 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1216:1218 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1237:1238 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R1206:1213 Coq.Sets.Ensembles <> Ensemble def
+R1215:1215 ZornsLemma.Quotients <> Quotient.A var
+R1219:1220 Coq.Sets.Ensembles <> In def
+R1236:1236 ZornsLemma.Quotients <> S var
+R1222:1234 ZornsLemma.Quotients <> equiv_classes def
+prf 1248:1270 <> equiv_class_in_quotient
+R1282:1282 ZornsLemma.Quotients <> Quotient.A var
+R1287:1288 Coq.Sets.Ensembles <> In def
+R1305:1315 ZornsLemma.Quotients <> equiv_class def
+R1317:1317 ZornsLemma.Quotients <> x var
+R1290:1302 ZornsLemma.Quotients <> equiv_classes def
+R1335:1347 ZornsLemma.Quotients <> equiv_classes def
+R1363:1368 Coq.Sets.Image <> Im_def thm
+R1363:1368 Coq.Sets.Image <> Im_def thm
+def 1401:1419 <> quotient_projection
+R1424:1424 ZornsLemma.Quotients <> Quotient.A var
+R1429:1436 ZornsLemma.Quotients <> quotient def
+R1443:1447 Coq.Init.Specif <> exist constr
+R1468:1490 ZornsLemma.Quotients <> equiv_class_in_quotient thm
+R1492:1492 ZornsLemma.Quotients <> x var
+R1452:1462 ZornsLemma.Quotients <> equiv_class def
+R1464:1464 ZornsLemma.Quotients <> x var
+prf 1503:1529 <> quotient_projection_correct
+R1541:1541 ZornsLemma.Quotients <> Quotient.A var
+R1579:1581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1546:1554 Coq.Init.Specif <> proj1_sig def
+R1557:1575 ZornsLemma.Quotients <> quotient_projection def
+R1577:1577 ZornsLemma.Quotients <> x var
+R1582:1592 ZornsLemma.Quotients <> equiv_class def
+R1594:1594 ZornsLemma.Quotients <> x var
+prf 1625:1654 <> quotient_projection_surjective
+R1669:1676 ZornsLemma.Quotients <> quotient def
+R1681:1687 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1691:1692 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R1690:1690 ZornsLemma.Quotients <> Quotient.A var
+R1714:1716 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1693:1711 ZornsLemma.Quotients <> quotient_projection def
+R1713:1713 ZornsLemma.Quotients <> x var
+R1717:1720 ZornsLemma.Quotients <> xbar var
+R1781:1799 ZornsLemma.Quotients <> quotient_projection def
+R1858:1874 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R1858:1874 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+prf 1889:1919 <> quotient_projection_collapses_R
+R1935:1935 ZornsLemma.Quotients <> Quotient.A var
+R1947:1950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1973:1975 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1951:1969 ZornsLemma.Quotients <> quotient_projection def
+R1971:1972 ZornsLemma.Quotients <> x1 var
+R1976:1994 ZornsLemma.Quotients <> quotient_projection def
+R1996:1997 ZornsLemma.Quotients <> x2 var
+R1940:1940 ZornsLemma.Quotients <> Quotient.R var
+R1945:1946 ZornsLemma.Quotients <> x2 var
+R1942:1943 ZornsLemma.Quotients <> x1 var
+R2021:2037 ZornsLemma.Proj1SigInjective <> subset_eq_compatT thm
+R2021:2037 ZornsLemma.Proj1SigInjective <> subset_eq_compatT thm
+R2046:2075 ZornsLemma.Quotients <> R_impl_equality_of_equiv_class thm
+R2046:2075 ZornsLemma.Quotients <> R_impl_equality_of_equiv_class thm
+prf 2102:2142 <> quotient_projection_minimally_collapses_R
+R2158:2158 ZornsLemma.Quotients <> Quotient.A var
+R2210:2213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2214:2214 ZornsLemma.Quotients <> Quotient.R var
+R2219:2220 ZornsLemma.Quotients <> x2 var
+R2216:2217 ZornsLemma.Quotients <> x1 var
+R2185:2187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2163:2181 ZornsLemma.Quotients <> quotient_projection def
+R2183:2184 ZornsLemma.Quotients <> x1 var
+R2188:2206 ZornsLemma.Quotients <> quotient_projection def
+R2208:2209 ZornsLemma.Quotients <> x2 var
+R2244:2273 ZornsLemma.Quotients <> equality_of_equiv_class_impl_R thm
+R2244:2273 ZornsLemma.Quotients <> equality_of_equiv_class_impl_R thm
+R2294:2320 ZornsLemma.Quotients <> quotient_projection_correct thm
+R2294:2320 ZornsLemma.Quotients <> quotient_projection_correct thm
+R2294:2320 ZornsLemma.Quotients <> quotient_projection_correct thm
+R2294:2320 ZornsLemma.Quotients <> quotient_projection_correct thm
+R2294:2320 ZornsLemma.Quotients <> quotient_projection_correct thm
+R2294:2320 ZornsLemma.Quotients <> quotient_projection_correct thm
+R2357:2364 ZornsLemma.Quotients Quotient <> sec
+sec 2376:2390 <> InducedFunction
+var 2454:2454 InducedFunction A
+var 2456:2456 InducedFunction B
+var 2473:2473 InducedFunction R
+R2475:2482 Coq.Sets.Relations_1 <> Relation def
+R2484:2484 ZornsLemma.Quotients <> InducedFunction.A var
+var 2496:2496 InducedFunction f
+R2499:2500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2501:2501 ZornsLemma.Quotients <> InducedFunction.B var
+R2498:2498 ZornsLemma.Quotients <> InducedFunction.A var
+var 2515:2519 InducedFunction equiv
+R2521:2531 Coq.Relations.Relation_Definitions <> equivalence rec
+R2533:2533 ZornsLemma.Quotients <> InducedFunction.R var
+var 2547:2558 InducedFunction well_defined
+R2572:2572 ZornsLemma.Quotients <> InducedFunction.A var
+R2580:2583 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2587:2589 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2584:2584 ZornsLemma.Quotients <> InducedFunction.f var
+R2586:2586 ZornsLemma.Quotients <> x var
+R2590:2590 ZornsLemma.Quotients <> InducedFunction.f var
+R2592:2592 ZornsLemma.Quotients <> y var
+R2575:2575 ZornsLemma.Quotients <> InducedFunction.R var
+R2579:2579 ZornsLemma.Quotients <> y var
+R2577:2577 ZornsLemma.Quotients <> x var
+prf 2602:2620 <> description_of_fbar
+R2635:2642 ZornsLemma.Quotients <> quotient def
+R2644:2644 ZornsLemma.Quotients <> InducedFunction.R var
+R2647:2654 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2658:2661 Coq.Init.Logic <> ::type_scope:'exists'_'!'_x_'..'_x_','_x not
+R2657:2657 ZornsLemma.Quotients <> InducedFunction.B var
+R2662:2668 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2672:2673 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2671:2671 ZornsLemma.Quotients <> InducedFunction.A var
+R2704:2707 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2697:2699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2674:2692 ZornsLemma.Quotients <> quotient_projection def
+R2696:2696 ZornsLemma.Quotients <> x var
+R2694:2694 ZornsLemma.Quotients <> InducedFunction.R var
+R2700:2703 ZornsLemma.Quotients <> xbar var
+R2711:2713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2708:2708 ZornsLemma.Quotients <> InducedFunction.f var
+R2710:2710 ZornsLemma.Quotients <> x var
+R2714:2714 ZornsLemma.Quotients <> y var
+R2743:2772 ZornsLemma.Quotients <> quotient_projection_surjective thm
+R2743:2772 ZornsLemma.Quotients <> quotient_projection_surjective thm
+R2801:2801 ZornsLemma.Quotients <> InducedFunction.f var
+R2801:2801 ZornsLemma.Quotients <> InducedFunction.f var
+R2814:2819 Coq.Init.Logic <> unique def
+R2901:2912 ZornsLemma.Quotients <> InducedFunction.well_defined var
+R2901:2912 ZornsLemma.Quotients <> InducedFunction.well_defined var
+R2921:2950 ZornsLemma.Quotients <> equality_of_equiv_class_impl_R thm
+R2921:2950 ZornsLemma.Quotients <> equality_of_equiv_class_impl_R thm
+R2976:2984 Coq.Init.Specif <> proj1_sig def
+R2987:3005 ZornsLemma.Quotients <> quotient_projection def
+R3007:3007 ZornsLemma.Quotients <> InducedFunction.R var
+R2976:2984 Coq.Init.Specif <> proj1_sig def
+R2987:3005 ZornsLemma.Quotients <> quotient_projection def
+R3007:3007 ZornsLemma.Quotients <> InducedFunction.R var
+def 3075:3090 <> induced_function
+R3098:3105 ZornsLemma.Quotients <> quotient def
+R3107:3107 ZornsLemma.Quotients <> InducedFunction.R var
+R3112:3112 ZornsLemma.Quotients <> InducedFunction.B var
+R3119:3127 Coq.Init.Specif <> proj1_sig def
+R3130:3162 Coq.Logic.Description <> constructive_definite_description prfax
+R3182:3200 ZornsLemma.Quotients <> description_of_fbar thm
+R3202:3205 ZornsLemma.Quotients <> xbar var
+prf 3217:3240 <> induced_function_correct
+R3252:3252 ZornsLemma.Quotients <> InducedFunction.A var
+R3299:3301 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3257:3272 ZornsLemma.Quotients <> induced_function def
+R3275:3293 ZornsLemma.Quotients <> quotient_projection def
+R3297:3297 ZornsLemma.Quotients <> x var
+R3295:3295 ZornsLemma.Quotients <> InducedFunction.R var
+R3302:3302 ZornsLemma.Quotients <> InducedFunction.f var
+R3304:3304 ZornsLemma.Quotients <> x var
+R3328:3343 ZornsLemma.Quotients <> induced_function def
+R3355:3387 Coq.Logic.Description <> constructive_definite_description prfax
+R3442:3453 ZornsLemma.Quotients <> InducedFunction.well_defined var
+R3442:3453 ZornsLemma.Quotients <> InducedFunction.well_defined var
+R3462:3502 ZornsLemma.Quotients <> quotient_projection_minimally_collapses_R thm
+R3462:3502 ZornsLemma.Quotients <> quotient_projection_minimally_collapses_R thm
+prf 3526:3548 <> induced_function_unique
+R3573:3574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3575:3575 ZornsLemma.Quotients <> InducedFunction.B var
+R3563:3570 ZornsLemma.Quotients <> quotient def
+R3572:3572 ZornsLemma.Quotients <> InducedFunction.R var
+R3580:3580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3629:3636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3694:3694 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3649:3656 ZornsLemma.Quotients <> quotient def
+R3658:3658 ZornsLemma.Quotients <> InducedFunction.R var
+R3670:3672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3661:3664 ZornsLemma.Quotients <> fbar var
+R3666:3669 ZornsLemma.Quotients <> xbar var
+R3673:3688 ZornsLemma.Quotients <> induced_function def
+R3690:3693 ZornsLemma.Quotients <> xbar var
+R3590:3590 ZornsLemma.Quotients <> InducedFunction.A var
+R3623:3625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3593:3596 ZornsLemma.Quotients <> fbar var
+R3599:3617 ZornsLemma.Quotients <> quotient_projection def
+R3621:3621 ZornsLemma.Quotients <> x var
+R3619:3619 ZornsLemma.Quotients <> InducedFunction.R var
+R3626:3626 ZornsLemma.Quotients <> InducedFunction.f var
+R3628:3628 ZornsLemma.Quotients <> x var
+R3722:3751 ZornsLemma.Quotients <> quotient_projection_surjective thm
+R3722:3751 ZornsLemma.Quotients <> quotient_projection_surjective thm
+R3794:3817 ZornsLemma.Quotients <> induced_function_correct thm
+R3794:3817 ZornsLemma.Quotients <> induced_function_correct thm
+R3794:3817 ZornsLemma.Quotients <> induced_function_correct thm
+R3843:3857 ZornsLemma.Quotients InducedFunction <> sec
+sec 3869:3884 <> InducedFunction2
+var 3959:3959 InducedFunction2 A
+var 3961:3961 InducedFunction2 B
+var 3978:3978 InducedFunction2 R
+R3980:3987 Coq.Relations.Relation_Definitions <> relation def
+R3989:3989 ZornsLemma.Quotients <> InducedFunction2.A var
+var 4001:4001 InducedFunction2 S
+R4003:4010 Coq.Relations.Relation_Definitions <> relation def
+R4012:4012 ZornsLemma.Quotients <> InducedFunction2.B var
+var 4024:4024 InducedFunction2 f
+R4027:4028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4029:4029 ZornsLemma.Quotients <> InducedFunction2.B var
+R4026:4026 ZornsLemma.Quotients <> InducedFunction2.A var
+var 4043:4048 InducedFunction2 equivR
+R4051:4061 Coq.Relations.Relation_Definitions <> equivalence rec
+R4063:4063 ZornsLemma.Quotients <> InducedFunction2.R var
+var 4077:4082 InducedFunction2 equivS
+R4085:4095 Coq.Relations.Relation_Definitions <> equivalence rec
+R4097:4097 ZornsLemma.Quotients <> InducedFunction2.S var
+var 4111:4123 InducedFunction2 well_defined2
+R4139:4139 ZornsLemma.Quotients <> InducedFunction2.A var
+R4149:4152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4153:4153 ZornsLemma.Quotients <> InducedFunction2.S var
+R4163:4163 ZornsLemma.Quotients <> InducedFunction2.f var
+R4165:4166 ZornsLemma.Quotients <> a2 var
+R4156:4156 ZornsLemma.Quotients <> InducedFunction2.f var
+R4158:4159 ZornsLemma.Quotients <> a1 var
+R4142:4142 ZornsLemma.Quotients <> InducedFunction2.R var
+R4147:4148 ZornsLemma.Quotients <> a2 var
+R4144:4145 ZornsLemma.Quotients <> a1 var
+def 4182:4186 <> projf
+R4191:4191 ZornsLemma.Quotients <> InducedFunction2.A var
+R4196:4203 ZornsLemma.Quotients <> quotient def
+R4205:4205 ZornsLemma.Quotients <> InducedFunction2.S var
+R4212:4230 ZornsLemma.Quotients <> quotient_projection def
+R4235:4235 ZornsLemma.Quotients <> InducedFunction2.f var
+R4237:4237 ZornsLemma.Quotients <> a var
+R4232:4232 ZornsLemma.Quotients <> InducedFunction2.S var
+prf 4247:4264 <> projf_well_defined
+R4280:4280 ZornsLemma.Quotients <> InducedFunction2.A var
+R4292:4295 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4304:4306 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4296:4300 ZornsLemma.Quotients <> projf def
+R4302:4303 ZornsLemma.Quotients <> a1 var
+R4307:4311 ZornsLemma.Quotients <> projf def
+R4313:4314 ZornsLemma.Quotients <> a2 var
+R4285:4285 ZornsLemma.Quotients <> InducedFunction2.R var
+R4290:4291 ZornsLemma.Quotients <> a2 var
+R4287:4288 ZornsLemma.Quotients <> a1 var
+R4339:4343 ZornsLemma.Quotients <> projf def
+R4352:4382 ZornsLemma.Quotients <> quotient_projection_collapses_R thm
+R4352:4382 ZornsLemma.Quotients <> quotient_projection_collapses_R thm
+R4400:4412 ZornsLemma.Quotients <> InducedFunction2.well_defined2 var
+R4400:4412 ZornsLemma.Quotients <> InducedFunction2.well_defined2 var
+def 4444:4460 <> induced_function2
+R4473:4476 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4477:4484 ZornsLemma.Quotients <> quotient def
+R4486:4486 ZornsLemma.Quotients <> InducedFunction2.S var
+R4463:4470 ZornsLemma.Quotients <> quotient def
+R4472:4472 ZornsLemma.Quotients <> InducedFunction2.R var
+R4493:4508 ZornsLemma.Quotients <> induced_function def
+R4523:4540 ZornsLemma.Quotients <> projf_well_defined thm
+R4516:4521 ZornsLemma.Quotients <> InducedFunction2.equivR var
+R4510:4514 ZornsLemma.Quotients <> projf def
+prf 4550:4574 <> induced_function2_correct
+R4586:4586 ZornsLemma.Quotients <> InducedFunction2.A var
+R4634:4638 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4591:4607 ZornsLemma.Quotients <> induced_function2 def
+R4610:4628 ZornsLemma.Quotients <> quotient_projection def
+R4632:4632 ZornsLemma.Quotients <> a var
+R4630:4630 ZornsLemma.Quotients <> InducedFunction2.R var
+R4639:4657 ZornsLemma.Quotients <> quotient_projection def
+R4662:4662 ZornsLemma.Quotients <> InducedFunction2.f var
+R4664:4664 ZornsLemma.Quotients <> a var
+R4659:4659 ZornsLemma.Quotients <> InducedFunction2.S var
+R4690:4706 ZornsLemma.Quotients <> induced_function2 def
+R4717:4740 ZornsLemma.Quotients <> induced_function_correct thm
+R4717:4740 ZornsLemma.Quotients <> induced_function_correct thm
+R4717:4740 ZornsLemma.Quotients <> induced_function_correct thm
+R4766:4781 ZornsLemma.Quotients InducedFunction2 <> sec
+sec 4793:4811 <> InducedFunction2arg
+var 4905:4905 InducedFunction2arg A
+var 4907:4907 InducedFunction2arg B
+var 4909:4909 InducedFunction2arg C
+var 4926:4926 InducedFunction2arg R
+R4928:4935 Coq.Relations.Relation_Definitions <> relation def
+R4937:4937 ZornsLemma.Quotients <> InducedFunction2arg.A var
+var 4949:4949 InducedFunction2arg S
+R4951:4958 Coq.Relations.Relation_Definitions <> relation def
+R4960:4960 ZornsLemma.Quotients <> InducedFunction2arg.B var
+var 4972:4972 InducedFunction2arg f
+R4975:4976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4978:4979 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4980:4980 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R4977:4977 ZornsLemma.Quotients <> InducedFunction2arg.B var
+R4974:4974 ZornsLemma.Quotients <> InducedFunction2arg.A var
+var 4994:4999 InducedFunction2arg equivR
+R5001:5011 Coq.Relations.Relation_Definitions <> equivalence rec
+R5013:5013 ZornsLemma.Quotients <> InducedFunction2arg.R var
+var 5027:5032 InducedFunction2arg equivS
+R5034:5044 Coq.Relations.Relation_Definitions <> equivalence rec
+R5046:5046 ZornsLemma.Quotients <> InducedFunction2arg.S var
+var 5060:5076 InducedFunction2arg well_defined_2arg
+R5093:5093 ZornsLemma.Quotients <> InducedFunction2arg.A var
+R5103:5103 ZornsLemma.Quotients <> InducedFunction2arg.B var
+R5116:5119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5127:5130 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5138:5140 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5131:5131 ZornsLemma.Quotients <> InducedFunction2arg.f var
+R5136:5137 ZornsLemma.Quotients <> b1 var
+R5133:5134 ZornsLemma.Quotients <> a1 var
+R5141:5141 ZornsLemma.Quotients <> InducedFunction2arg.f var
+R5146:5147 ZornsLemma.Quotients <> b2 var
+R5143:5144 ZornsLemma.Quotients <> a2 var
+R5120:5120 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R5125:5126 ZornsLemma.Quotients <> b2 var
+R5122:5123 ZornsLemma.Quotients <> b1 var
+R5109:5109 ZornsLemma.Quotients <> InducedFunction2arg.R var
+R5114:5115 ZornsLemma.Quotients <> a2 var
+R5111:5112 ZornsLemma.Quotients <> a1 var
+prf 5157:5175 <> slices_well_defined
+R5188:5188 ZornsLemma.Quotients <> InducedFunction2arg.A var
+R5198:5198 ZornsLemma.Quotients <> InducedFunction2arg.B var
+R5211:5214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5221:5223 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5215:5215 ZornsLemma.Quotients <> InducedFunction2arg.f var
+R5219:5220 ZornsLemma.Quotients <> b1 var
+R5217:5217 ZornsLemma.Quotients <> a var
+R5224:5224 ZornsLemma.Quotients <> InducedFunction2arg.f var
+R5228:5229 ZornsLemma.Quotients <> b2 var
+R5226:5226 ZornsLemma.Quotients <> a var
+R5204:5204 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R5209:5210 ZornsLemma.Quotients <> b2 var
+R5206:5207 ZornsLemma.Quotients <> b1 var
+R5253:5269 ZornsLemma.Quotients <> InducedFunction2arg.well_defined_2arg var
+R5253:5269 ZornsLemma.Quotients <> InducedFunction2arg.well_defined_2arg var
+R5279:5288 Coq.Relations.Relation_Definitions <> equiv_refl proj
+R5290:5295 ZornsLemma.Quotients <> InducedFunction2arg.equivR var
+R5279:5288 Coq.Relations.Relation_Definitions <> equiv_refl proj
+R5290:5295 ZornsLemma.Quotients <> InducedFunction2arg.equivR var
+def 5328:5335 <> induced1
+R5340:5340 ZornsLemma.Quotients <> InducedFunction2arg.A var
+R5355:5358 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5359:5359 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R5345:5352 ZornsLemma.Quotients <> quotient def
+R5354:5354 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R5367:5382 ZornsLemma.Quotients <> induced_function def
+R5398:5416 ZornsLemma.Quotients <> slices_well_defined thm
+R5418:5418 ZornsLemma.Quotients <> a var
+R5390:5395 ZornsLemma.Quotients <> InducedFunction2arg.equivS var
+R5385:5385 ZornsLemma.Quotients <> InducedFunction2arg.f var
+R5387:5387 ZornsLemma.Quotients <> a var
+def 5434:5438 <> eq_fn
+R5455:5456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5457:5457 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R5445:5452 ZornsLemma.Quotients <> quotient def
+R5454:5454 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R5474:5481 ZornsLemma.Quotients <> quotient def
+R5483:5483 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R5489:5491 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5486:5486 ZornsLemma.Quotients <> f var
+R5488:5488 ZornsLemma.Quotients <> b var
+R5492:5492 ZornsLemma.Quotients <> g var
+R5494:5494 ZornsLemma.Quotients <> b var
+prf 5503:5513 <> eq_fn_equiv
+R5516:5526 Coq.Relations.Relation_Definitions <> equivalence rec
+R5528:5532 ZornsLemma.Quotients <> eq_fn def
+R5562:5570 Coq.Relations.Relation_Definitions <> reflexive def
+R5580:5584 ZornsLemma.Quotients <> eq_fn def
+R5607:5616 Coq.Relations.Relation_Definitions <> transitive def
+R5626:5630 ZornsLemma.Quotients <> eq_fn def
+R5687:5695 Coq.Relations.Relation_Definitions <> symmetric def
+R5705:5709 ZornsLemma.Quotients <> eq_fn def
+prf 5743:5763 <> well_defined_induced1
+R5779:5779 ZornsLemma.Quotients <> InducedFunction2arg.A var
+R5789:5794 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5795:5799 ZornsLemma.Quotients <> eq_fn def
+R5816:5823 ZornsLemma.Quotients <> induced1 def
+R5825:5826 ZornsLemma.Quotients <> a2 var
+R5802:5809 ZornsLemma.Quotients <> induced1 def
+R5811:5812 ZornsLemma.Quotients <> a1 var
+R5782:5782 ZornsLemma.Quotients <> InducedFunction2arg.R var
+R5787:5788 ZornsLemma.Quotients <> a2 var
+R5784:5785 ZornsLemma.Quotients <> a1 var
+R5844:5848 ZornsLemma.Quotients <> eq_fn def
+R5871:5900 ZornsLemma.Quotients <> quotient_projection_surjective thm
+R5871:5900 ZornsLemma.Quotients <> quotient_projection_surjective thm
+R5941:5948 ZornsLemma.Quotients <> induced1 def
+R5959:5982 ZornsLemma.Quotients <> induced_function_correct thm
+R5959:5982 ZornsLemma.Quotients <> induced_function_correct thm
+R5959:5982 ZornsLemma.Quotients <> induced_function_correct thm
+R5993:6016 ZornsLemma.Quotients <> induced_function_correct thm
+R5993:6016 ZornsLemma.Quotients <> induced_function_correct thm
+R5993:6016 ZornsLemma.Quotients <> induced_function_correct thm
+R6025:6041 ZornsLemma.Quotients <> InducedFunction2arg.well_defined_2arg var
+R6025:6041 ZornsLemma.Quotients <> InducedFunction2arg.well_defined_2arg var
+R6063:6072 Coq.Relations.Relation_Definitions <> equiv_refl proj
+R6074:6079 ZornsLemma.Quotients <> InducedFunction2arg.equivS var
+R6063:6072 Coq.Relations.Relation_Definitions <> equiv_refl proj
+R6074:6079 ZornsLemma.Quotients <> InducedFunction2arg.equivS var
+def 6100:6107 <> induced2
+R6114:6130 ZornsLemma.Quotients <> induced_function2 def
+R6160:6180 ZornsLemma.Quotients <> well_defined_induced1 thm
+R6148:6158 ZornsLemma.Quotients <> eq_fn_equiv thm
+R6141:6146 ZornsLemma.Quotients <> InducedFunction2arg.equivR var
+R6132:6139 ZornsLemma.Quotients <> induced1 def
+def 6195:6198 <> eval
+R6203:6210 ZornsLemma.Quotients <> quotient def
+R6212:6212 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6228:6229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6230:6230 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R6218:6225 ZornsLemma.Quotients <> quotient def
+R6227:6227 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6234:6234 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R6239:6239 ZornsLemma.Quotients <> f var
+R6241:6241 ZornsLemma.Quotients <> b var
+prf 6250:6266 <> well_defined_eval
+R6279:6286 ZornsLemma.Quotients <> quotient def
+R6288:6288 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6306:6307 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6308:6308 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R6296:6303 ZornsLemma.Quotients <> quotient def
+R6305:6305 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6323:6326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6335:6337 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6327:6330 ZornsLemma.Quotients <> eval def
+R6334:6334 ZornsLemma.Quotients <> f var
+R6332:6332 ZornsLemma.Quotients <> b var
+R6338:6341 ZornsLemma.Quotients <> eval def
+R6345:6345 ZornsLemma.Quotients <> g var
+R6343:6343 ZornsLemma.Quotients <> b var
+R6314:6318 ZornsLemma.Quotients <> eq_fn def
+R6322:6322 ZornsLemma.Quotients <> g var
+R6320:6320 ZornsLemma.Quotients <> f var
+R6370:6373 ZornsLemma.Quotients <> eval def
+def 6402:6413 <> induced_eval
+R6418:6425 ZornsLemma.Quotients <> quotient def
+R6427:6427 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6435:6450 ZornsLemma.Quotients <> induced_function def
+R6474:6490 ZornsLemma.Quotients <> well_defined_eval thm
+R6492:6492 ZornsLemma.Quotients <> b var
+R6461:6471 ZornsLemma.Quotients <> eq_fn_equiv thm
+R6453:6456 ZornsLemma.Quotients <> eval def
+R6458:6458 ZornsLemma.Quotients <> b var
+def 6508:6527 <> induced_function2arg
+R6532:6539 ZornsLemma.Quotients <> quotient def
+R6541:6541 ZornsLemma.Quotients <> InducedFunction2arg.R var
+R6547:6554 ZornsLemma.Quotients <> quotient def
+R6556:6556 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6561:6561 ZornsLemma.Quotients <> InducedFunction2arg.C var
+R6568:6579 ZornsLemma.Quotients <> induced_eval def
+R6584:6591 ZornsLemma.Quotients <> induced2 def
+R6593:6593 ZornsLemma.Quotients <> a var
+R6581:6581 ZornsLemma.Quotients <> b var
+prf 6604:6631 <> induced_function2arg_correct
+R6644:6644 ZornsLemma.Quotients <> InducedFunction2arg.A var
+R6650:6650 ZornsLemma.Quotients <> InducedFunction2arg.B var
+R6728:6732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6656:6675 ZornsLemma.Quotients <> induced_function2arg def
+R6704:6722 ZornsLemma.Quotients <> quotient_projection def
+R6726:6726 ZornsLemma.Quotients <> b var
+R6724:6724 ZornsLemma.Quotients <> InducedFunction2arg.S var
+R6678:6696 ZornsLemma.Quotients <> quotient_projection def
+R6700:6700 ZornsLemma.Quotients <> a var
+R6698:6698 ZornsLemma.Quotients <> InducedFunction2arg.R var
+R6733:6733 ZornsLemma.Quotients <> InducedFunction2arg.f var
+R6737:6737 ZornsLemma.Quotients <> b var
+R6735:6735 ZornsLemma.Quotients <> a var
+R6762:6781 ZornsLemma.Quotients <> induced_function2arg def
+R6791:6802 ZornsLemma.Quotients <> induced_eval def
+R6812:6819 ZornsLemma.Quotients <> induced2 def
+R6830:6854 ZornsLemma.Quotients <> induced_function2_correct thm
+R6830:6854 ZornsLemma.Quotients <> induced_function2_correct thm
+R6830:6854 ZornsLemma.Quotients <> induced_function2_correct thm
+R6865:6888 ZornsLemma.Quotients <> induced_function_correct thm
+R6865:6888 ZornsLemma.Quotients <> induced_function_correct thm
+R6865:6888 ZornsLemma.Quotients <> induced_function_correct thm
+R6898:6901 ZornsLemma.Quotients <> eval def
+R6911:6918 ZornsLemma.Quotients <> induced1 def
+R6929:6952 ZornsLemma.Quotients <> induced_function_correct thm
+R6929:6952 ZornsLemma.Quotients <> induced_function_correct thm
+R6929:6952 ZornsLemma.Quotients <> induced_function_correct thm
+R6978:6996 ZornsLemma.Quotients InducedFunction2arg <> sec
+sec 7008:7023 <> InducedFunction3
+var 7119:7119 InducedFunction3 A
+var 7121:7121 InducedFunction3 B
+var 7123:7123 InducedFunction3 C
+var 7140:7140 InducedFunction3 R
+R7142:7149 Coq.Relations.Relation_Definitions <> relation def
+R7151:7151 ZornsLemma.Quotients <> InducedFunction3.A var
+var 7163:7163 InducedFunction3 S
+R7165:7172 Coq.Relations.Relation_Definitions <> relation def
+R7174:7174 ZornsLemma.Quotients <> InducedFunction3.B var
+var 7186:7186 InducedFunction3 T
+R7188:7195 Coq.Relations.Relation_Definitions <> relation def
+R7197:7197 ZornsLemma.Quotients <> InducedFunction3.C var
+var 7209:7209 InducedFunction3 f
+R7212:7213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7215:7216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7217:7217 ZornsLemma.Quotients <> InducedFunction3.C var
+R7214:7214 ZornsLemma.Quotients <> InducedFunction3.B var
+R7211:7211 ZornsLemma.Quotients <> InducedFunction3.A var
+var 7231:7236 InducedFunction3 equivR
+R7238:7248 Coq.Relations.Relation_Definitions <> equivalence rec
+R7250:7250 ZornsLemma.Quotients <> InducedFunction3.R var
+var 7264:7269 InducedFunction3 equivS
+R7271:7281 Coq.Relations.Relation_Definitions <> equivalence rec
+R7283:7283 ZornsLemma.Quotients <> InducedFunction3.S var
+var 7297:7302 InducedFunction3 equivT
+R7304:7314 Coq.Relations.Relation_Definitions <> equivalence rec
+R7316:7316 ZornsLemma.Quotients <> InducedFunction3.T var
+var 7330:7342 InducedFunction3 well_defined3
+R7359:7359 ZornsLemma.Quotients <> InducedFunction3.A var
+R7369:7369 ZornsLemma.Quotients <> InducedFunction3.B var
+R7382:7385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7393:7396 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7397:7397 ZornsLemma.Quotients <> InducedFunction3.T var
+R7410:7410 ZornsLemma.Quotients <> InducedFunction3.f var
+R7415:7416 ZornsLemma.Quotients <> b2 var
+R7412:7413 ZornsLemma.Quotients <> a2 var
+R7400:7400 ZornsLemma.Quotients <> InducedFunction3.f var
+R7405:7406 ZornsLemma.Quotients <> b1 var
+R7402:7403 ZornsLemma.Quotients <> a1 var
+R7386:7386 ZornsLemma.Quotients <> InducedFunction3.S var
+R7391:7392 ZornsLemma.Quotients <> b2 var
+R7388:7389 ZornsLemma.Quotients <> b1 var
+R7375:7375 ZornsLemma.Quotients <> InducedFunction3.R var
+R7380:7381 ZornsLemma.Quotients <> a2 var
+R7377:7378 ZornsLemma.Quotients <> a1 var
+def 7432:7437 <> projf2
+R7442:7442 ZornsLemma.Quotients <> InducedFunction3.A var
+R7448:7448 ZornsLemma.Quotients <> InducedFunction3.B var
+R7456:7474 ZornsLemma.Quotients <> quotient_projection def
+R7479:7479 ZornsLemma.Quotients <> InducedFunction3.f var
+R7483:7483 ZornsLemma.Quotients <> b var
+R7481:7481 ZornsLemma.Quotients <> a var
+R7476:7476 ZornsLemma.Quotients <> InducedFunction3.T var
+prf 7494:7512 <> projf2_well_defined
+R7529:7529 ZornsLemma.Quotients <> InducedFunction3.A var
+R7539:7539 ZornsLemma.Quotients <> InducedFunction3.B var
+R7552:7555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7563:7566 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7579:7581 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7567:7572 ZornsLemma.Quotients <> projf2 def
+R7577:7578 ZornsLemma.Quotients <> b1 var
+R7574:7575 ZornsLemma.Quotients <> a1 var
+R7582:7587 ZornsLemma.Quotients <> projf2 def
+R7592:7593 ZornsLemma.Quotients <> b2 var
+R7589:7590 ZornsLemma.Quotients <> a2 var
+R7556:7556 ZornsLemma.Quotients <> InducedFunction3.S var
+R7561:7562 ZornsLemma.Quotients <> b2 var
+R7558:7559 ZornsLemma.Quotients <> b1 var
+R7545:7545 ZornsLemma.Quotients <> InducedFunction3.R var
+R7550:7551 ZornsLemma.Quotients <> a2 var
+R7547:7548 ZornsLemma.Quotients <> a1 var
+R7617:7647 ZornsLemma.Quotients <> quotient_projection_collapses_R thm
+R7617:7647 ZornsLemma.Quotients <> quotient_projection_collapses_R thm
+R7665:7677 ZornsLemma.Quotients <> InducedFunction3.well_defined3 var
+R7665:7677 ZornsLemma.Quotients <> InducedFunction3.well_defined3 var
+def 7721:7737 <> induced_function3
+R7751:7754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7765:7768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7769:7776 ZornsLemma.Quotients <> quotient def
+R7778:7778 ZornsLemma.Quotients <> InducedFunction3.T var
+R7755:7762 ZornsLemma.Quotients <> quotient def
+R7764:7764 ZornsLemma.Quotients <> InducedFunction3.S var
+R7741:7748 ZornsLemma.Quotients <> quotient def
+R7750:7750 ZornsLemma.Quotients <> InducedFunction3.R var
+R7785:7804 ZornsLemma.Quotients <> induced_function2arg def
+R7827:7845 ZornsLemma.Quotients <> projf2_well_defined thm
+R7820:7825 ZornsLemma.Quotients <> InducedFunction3.equivS var
+R7813:7818 ZornsLemma.Quotients <> InducedFunction3.equivR var
+R7806:7811 ZornsLemma.Quotients <> projf2 def
+prf 7855:7879 <> induced_function3_correct
+R7892:7892 ZornsLemma.Quotients <> InducedFunction3.A var
+R7898:7898 ZornsLemma.Quotients <> InducedFunction3.B var
+R7993:7997 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7904:7920 ZornsLemma.Quotients <> induced_function3 def
+R7969:7987 ZornsLemma.Quotients <> quotient_projection def
+R7991:7991 ZornsLemma.Quotients <> b var
+R7989:7989 ZornsLemma.Quotients <> InducedFunction3.S var
+R7923:7941 ZornsLemma.Quotients <> quotient_projection def
+R7945:7945 ZornsLemma.Quotients <> a var
+R7943:7943 ZornsLemma.Quotients <> InducedFunction3.R var
+R7998:8016 ZornsLemma.Quotients <> quotient_projection def
+R8021:8021 ZornsLemma.Quotients <> InducedFunction3.f var
+R8025:8025 ZornsLemma.Quotients <> b var
+R8023:8023 ZornsLemma.Quotients <> a var
+R8018:8018 ZornsLemma.Quotients <> InducedFunction3.T var
+R8051:8067 ZornsLemma.Quotients <> induced_function3 def
+R8078:8105 ZornsLemma.Quotients <> induced_function2arg_correct thm
+R8078:8105 ZornsLemma.Quotients <> induced_function2arg_correct thm
+R8078:8105 ZornsLemma.Quotients <> induced_function2arg_correct thm
+R8131:8146 ZornsLemma.Quotients InducedFunction3 <> sec

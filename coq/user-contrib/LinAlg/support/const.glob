@@ -1,0 +1,77 @@
+DIGEST 3a0a5a1388e87c58d4ef5db71cd30a2f
+FLinAlg.support.const
+R1129:1136 LinAlg.support.conshdtl <> <> lib
+sec 1148:1151 <> MAIN
+var 1163:1163 MAIN A
+R1167:1172 Algebra.Sets <> Setoid rec
+def 1260:1268 <> const_map
+R1286:1291 Algebra.Sets <> Setoid rec
+R1299:1299 LinAlg.support.const <> Y var
+R1303:1305 Algebra.Sets <> MAP def
+R1309:1309 LinAlg.support.const <> Y var
+R1307:1307 LinAlg.support.const <> X var
+R1327:1335 Algebra.Sets <> Build_Map constr
+R1327:1335 Algebra.Sets <> Build_Map constr
+R1387:1390 Algebra.Sets <> Refl thm
+R1387:1390 Algebra.Sets <> Refl thm
+def 1414:1422 <> const_seq
+R1438:1440 LinAlg.support.finite <> Nat def
+R1448:1448 LinAlg.support.const <> MAIN.A var
+R1452:1454 LinAlg.support.finite <> seq def
+R1458:1458 LinAlg.support.const <> MAIN.A var
+R1456:1456 LinAlg.support.const <> n var
+R1476:1484 LinAlg.support.const <> const_map def
+R1487:1489 LinAlg.support.finite <> fin def
+R1476:1484 LinAlg.support.const <> const_map def
+R1487:1489 LinAlg.support.finite <> fin def
+prf 1533:1548 <> seq_S_O_constseq
+R1563:1565 LinAlg.support.finite <> seq def
+R1569:1569 LinAlg.support.const <> MAIN.A var
+R1573:1576 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1597:1600 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1572:1572 LinAlg.support.const <> v var
+R1577:1585 LinAlg.support.const <> const_seq def
+R1590:1593 LinAlg.support.conshdtl <> head def
+R1595:1595 LinAlg.support.const <> v var
+R1661:1687 LinAlg.support.conshdtl <> seq_S_O_contains_single_elt thm
+R1661:1687 LinAlg.support.conshdtl <> seq_S_O_contains_single_elt thm
+prf 1702:1716 <> Seqtl_const_seq
+R1733:1735 LinAlg.support.finite <> Nat def
+R1743:1743 LinAlg.support.const <> MAIN.A var
+R1768:1771 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1792:1795 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1747:1751 LinAlg.support.conshdtl <> Seqtl def
+R1754:1762 LinAlg.support.const <> const_seq def
+R1766:1766 LinAlg.support.const <> a var
+R1764:1764 LinAlg.support.const <> n var
+R1772:1780 LinAlg.support.const <> const_seq def
+R1791:1791 LinAlg.support.const <> a var
+R1783:1786 Coq.Init.Peano <> pred syndef
+R1788:1788 LinAlg.support.const <> n var
+prf 1902:1915 <> cons_const_seq
+R1932:1934 LinAlg.support.finite <> Nat def
+R1949:1949 LinAlg.support.const <> MAIN.A var
+R1966:1970 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1985:1988 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2007:2010 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2030:2033 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1990:1992 LinAlg.support.conshdtl <> :::x_';;'_x not
+R1989:1989 LinAlg.support.const <> a var
+R1993:2001 LinAlg.support.const <> const_seq def
+R2005:2006 LinAlg.support.const <> a' var
+R2003:2003 LinAlg.support.const <> n var
+R2011:2019 LinAlg.support.const <> const_seq def
+R2027:2029 LinAlg.support.const <> a'' var
+R2022:2022 Coq.Init.Datatypes <> S constr
+R2024:2024 LinAlg.support.const <> n var
+R1973:1976 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1980:1983 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1971:1972 LinAlg.support.const <> a' var
+R1977:1979 LinAlg.support.const <> a'' var
+R1955:1958 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1961:1964 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1954:1954 LinAlg.support.const <> a var
+R1959:1960 LinAlg.support.const <> a' var
+R2130:2134 Algebra.Sets <> Trans thm
+R2130:2134 Algebra.Sets <> Trans thm
+R2229:2232 LinAlg.support.const MAIN <> sec

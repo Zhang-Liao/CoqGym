@@ -1,0 +1,64 @@
+DIGEST 21378f1b680f65d5de3c04870f65bcf5
+FAlgebra.Sgroup_facts
+R1086:1095 Algebra.Sgroup_cat <> <> lib
+sec 1106:1111 <> Lemmas
+var 1123:1123 Lemmas E
+R1127:1132 Algebra.Sgroup_cat <> SGROUP def
+prf 1142:1153 <> SGROUP_assoc
+R1173:1173 Algebra.Sgroup_facts <> Lemmas.E var
+R1177:1181 Algebra.Sets <> Equal proj
+R1223:1232 Algebra.Sgroup_cat <> sgroup_law def
+R1239:1248 Algebra.Sgroup_cat <> sgroup_law def
+R1254:1254 Algebra.Sgroup_facts <> z var
+R1252:1252 Algebra.Sgroup_facts <> y var
+R1236:1236 Algebra.Sgroup_facts <> x var
+R1184:1193 Algebra.Sgroup_cat <> sgroup_law def
+R1216:1216 Algebra.Sgroup_facts <> z var
+R1198:1207 Algebra.Sgroup_cat <> sgroup_law def
+R1213:1213 Algebra.Sgroup_facts <> y var
+R1211:1211 Algebra.Sgroup_facts <> x var
+R1296:1311 Algebra.Sgroup_cat <> sgroup_assoc_prf proj
+R1313:1313 Algebra.Sgroup_facts <> Lemmas.E var
+R1296:1311 Algebra.Sgroup_cat <> sgroup_assoc_prf proj
+R1313:1313 Algebra.Sgroup_facts <> Lemmas.E var
+prf 1354:1364 <> SGROUP_comp
+R1388:1388 Algebra.Sgroup_facts <> Lemmas.E var
+R1402:1405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1416:1419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1420:1424 Algebra.Sets <> Equal proj
+R1446:1455 Algebra.Sgroup_cat <> sgroup_law def
+R1462:1463 Algebra.Sgroup_facts <> y' var
+R1459:1460 Algebra.Sgroup_facts <> x' var
+R1427:1436 Algebra.Sgroup_cat <> sgroup_law def
+R1442:1442 Algebra.Sgroup_facts <> y var
+R1440:1440 Algebra.Sgroup_facts <> x var
+R1406:1410 Algebra.Sets <> Equal proj
+R1414:1415 Algebra.Sgroup_facts <> y' var
+R1412:1412 Algebra.Sgroup_facts <> y var
+R1392:1396 Algebra.Sets <> Equal proj
+R1400:1401 Algebra.Sgroup_facts <> x' var
+R1398:1398 Algebra.Sgroup_facts <> x var
+R1474:1483 Algebra.Sgroup_cat <> sgroup_law def
+var 1527:1527 Lemmas F
+R1531:1536 Algebra.Sgroup_cat <> SGROUP def
+var 1548:1548 Lemmas f
+R1552:1554 Algebra.Categories <> Hom proj
+R1558:1558 Algebra.Sgroup_facts <> Lemmas.F var
+R1556:1556 Algebra.Sgroup_facts <> Lemmas.E var
+prf 1568:1582 <> SGROUP_hom_prop
+R1600:1600 Algebra.Sgroup_facts <> Lemmas.E var
+R1603:1607 Algebra.Sets <> Equal proj
+R1633:1642 Algebra.Sgroup_cat <> sgroup_law def
+R1653:1653 Algebra.Sgroup_facts <> Lemmas.f var
+R1655:1655 Algebra.Sgroup_facts <> y var
+R1647:1647 Algebra.Sgroup_facts <> Lemmas.f var
+R1649:1649 Algebra.Sgroup_facts <> x var
+R1610:1610 Algebra.Sgroup_facts <> Lemmas.f var
+R1613:1622 Algebra.Sgroup_cat <> sgroup_law def
+R1628:1628 Algebra.Sgroup_facts <> y var
+R1626:1626 Algebra.Sgroup_facts <> x var
+R1695:1708 Algebra.Sgroup_cat <> sgroup_hom_prf proj
+R1710:1710 Algebra.Sgroup_facts <> Lemmas.f var
+R1695:1708 Algebra.Sgroup_cat <> sgroup_hom_prf proj
+R1710:1710 Algebra.Sgroup_facts <> Lemmas.f var
+R1723:1728 Algebra.Sgroup_facts Lemmas <> sec

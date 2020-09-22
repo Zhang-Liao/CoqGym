@@ -1,0 +1,69 @@
+DIGEST 08a7a01ce5db9a52bce5f7b3c91a3ae3
+FAlgebra.Abelian_group_cat
+R1086:1094 Algebra.Group_cat <> <> lib
+def 1183:1193 <> commutative
+R1200:1202 Algebra.Set_cat <> SET def
+R1210:1227 Algebra.Sgroup_cat <> law_of_composition def
+R1229:1229 Algebra.Abelian_group_cat <> E var
+R1250:1250 Algebra.Abelian_group_cat <> E var
+R1253:1257 Algebra.Sets <> Equal proj
+R1277:1277 Algebra.Abelian_group_cat <> f var
+R1280:1285 Algebra.Cartesian <> couple def
+R1289:1289 Algebra.Abelian_group_cat <> x var
+R1287:1287 Algebra.Abelian_group_cat <> y var
+R1260:1260 Algebra.Abelian_group_cat <> f var
+R1263:1268 Algebra.Cartesian <> couple def
+R1272:1272 Algebra.Abelian_group_cat <> y var
+R1270:1270 Algebra.Abelian_group_cat <> x var
+rec 1302:1318 <> abelian_sgroup_on
+proj 1347:1368 <> abelian_sgroup_com_prf
+R1325:1330 Algebra.Sgroup_cat <> sgroup rec
+R1372:1382 Algebra.Abelian_group_cat <> commutative def
+R1385:1398 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1400:1400 Algebra.Abelian_group_cat <> A var
+rec 1413:1426 <> abelian_sgroup
+proj 1442:1462 <> abelian_sgroup_sgroup
+proj 1478:1498 <> abelian_sgroup_on_def
+R1467:1472 Algebra.Sgroup_cat <> sgroup rec
+R1503:1519 Algebra.Abelian_group_cat <> abelian_sgroup_on rec
+R1521:1541 Algebra.Abelian_group_cat <> abelian_sgroup_sgroup meth
+R1545:1612 Algebra.Abelian_group_cat <> Build_abelian_sgroup constr
+def 1627:1640 <> ABELIAN_SGROUP
+R1647:1657 Algebra.Categories <> full_subcat def
+R1692:1712 Algebra.Abelian_group_cat <> abelian_sgroup_sgroup proj
+R1676:1689 Algebra.Abelian_group_cat <> abelian_sgroup rec
+R1663:1668 Algebra.Sgroup_cat <> SGROUP def
+rec 1723:1739 <> abelian_monoid_on
+proj 1768:1796 <> abelian_monoid_abelian_sgroup
+R1746:1751 Algebra.Monoid_cat <> monoid rec
+R1801:1817 Algebra.Abelian_group_cat <> abelian_sgroup_on rec
+R1819:1819 Algebra.Abelian_group_cat <> M var
+rec 1831:1844 <> abelian_monoid
+proj 1860:1880 <> abelian_monoid_monoid
+proj 1896:1916 <> abelian_monoid_on_def
+R1885:1890 Algebra.Monoid_cat <> monoid rec
+R1921:1937 Algebra.Abelian_group_cat <> abelian_monoid_on rec
+R1939:1959 Algebra.Abelian_group_cat <> abelian_monoid_monoid meth
+R1963:2030 Algebra.Abelian_group_cat <> Build_abelian_monoid constr
+def 2045:2058 <> ABELIAN_MONOID
+R2065:2075 Algebra.Categories <> full_subcat def
+R2110:2130 Algebra.Abelian_group_cat <> abelian_monoid_monoid proj
+R2094:2107 Algebra.Abelian_group_cat <> abelian_monoid rec
+R2081:2086 Algebra.Monoid_cat <> MONOID def
+rec 2141:2156 <> abelian_group_on
+proj 2184:2211 <> abelian_group_abelian_monoid
+R2163:2167 Algebra.Group_cat <> group rec
+R2216:2232 Algebra.Abelian_group_cat <> abelian_monoid_on rec
+R2234:2234 Algebra.Abelian_group_cat <> G var
+rec 2246:2258 <> abelian_group
+proj 2274:2292 <> abelian_group_group
+proj 2307:2326 <> abelian_group_on_def
+R2297:2301 Algebra.Group_cat <> group rec
+R2331:2346 Algebra.Abelian_group_cat <> abelian_group_on rec
+R2348:2366 Algebra.Abelian_group_cat <> abelian_group_group meth
+R2370:2434 Algebra.Abelian_group_cat <> Build_abelian_group constr
+def 2449:2461 <> ABELIAN_GROUP
+R2468:2478 Algebra.Categories <> full_subcat def
+R2511:2529 Algebra.Abelian_group_cat <> abelian_group_group proj
+R2496:2508 Algebra.Abelian_group_cat <> abelian_group rec
+R2484:2488 Algebra.Group_cat <> GROUP def

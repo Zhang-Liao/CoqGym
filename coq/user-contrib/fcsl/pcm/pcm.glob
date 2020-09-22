@@ -1,0 +1,1714 @@
+DIGEST dd6d7a321e8ccd4f2b3430aa2115175f
+Ffcsl.pcm.pcm
+R999:1007 Coq.ssr.ssreflect <> <> lib
+R1009:1015 Coq.ssr.ssrbool <> <> lib
+R1017:1022 Coq.ssr.ssrfun <> <> lib
+R1054:1059 mathcomp.ssreflect.ssrnat <> <> lib
+R1061:1065 mathcomp.ssreflect.bigop <> <> lib
+mod 1318:1320 <> PCM
+constr 1354:1358 PCM Mixin
+rec 1331:1338 PCM mixin_of
+proj 1366:1373 PCM valid_op
+proj 1392:1398 PCM join_op
+proj 1419:1425 PCM unit_op
+R1378:1381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1382:1385 Coq.Init.Datatypes <> bool ind
+R1377:1377 fcsl.pcm.pcm <> T var
+R1403:1406 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1408:1411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1412:1412 fcsl.pcm.pcm <> T var
+R1407:1407 fcsl.pcm.pcm <> T var
+R1402:1402 fcsl.pcm.pcm <> T var
+R1429:1429 fcsl.pcm.pcm <> T var
+R1440:1450 Coq.ssr.ssrfun <> commutative def
+R1452:1458 fcsl.pcm.pcm <> join_op meth
+R1469:1479 Coq.ssr.ssrfun <> associative def
+R1481:1487 fcsl.pcm.pcm <> join_op meth
+R1498:1504 Coq.ssr.ssrfun <> left_id def
+R1514:1520 fcsl.pcm.pcm <> join_op meth
+R1506:1512 fcsl.pcm.pcm <> unit_op meth
+R1597:1600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1601:1608 fcsl.pcm.pcm <> valid_op meth
+R1610:1610 fcsl.pcm.pcm <> x var
+R1575:1582 fcsl.pcm.pcm <> valid_op meth
+R1585:1591 fcsl.pcm.pcm <> join_op meth
+R1595:1595 fcsl.pcm.pcm <> y var
+R1593:1593 fcsl.pcm.pcm <> x var
+R1646:1653 fcsl.pcm.pcm <> valid_op meth
+R1655:1661 fcsl.pcm.pcm <> unit_op meth
+sec 1674:1681 PCM ClassDef
+syndef 1694:1701 PCM class_of
+R1706:1713 fcsl.pcm.pcm PCM mixin_of rec
+constr 1758:1761 PCM Pack
+rec 1743:1746 PCM type
+proj 1764:1767 PCM sort
+R1781:1788 fcsl.pcm.pcm PCM class_of syndef
+R1790:1793 fcsl.pcm.pcm <> sort meth
+R1803:1836 fcsl.pcm.pcm PCM sort proj
+var 1851:1851 PCM.ClassDef T
+var 1862:1863 PCM.ClassDef cT
+R1867:1870 fcsl.pcm.pcm PCM type rec
+def 1885:1889 PCM class
+R1918:1919 fcsl.pcm.pcm <> PCM.ClassDef.cT var
+R1928:1935 fcsl.pcm.pcm PCM class_of syndef
+R1937:1939 fcsl.pcm.pcm <> cT' var
+R1899:1902 fcsl.pcm.pcm PCM Pack constr
+def 1959:1962 PCM pack
+R1970:1973 fcsl.pcm.pcm PCM Pack constr
+R1977:1977 fcsl.pcm.pcm <> c var
+R1975:1975 fcsl.pcm.pcm <> PCM.ClassDef.T var
+def 1991:1995 PCM clone
+R2010:2013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2014:2014 fcsl.pcm.pcm <> PCM.ClassDef.T var
+R2008:2009 fcsl.pcm.pcm <> PCM.ClassDef.cT var
+R2018:2025 Coq.ssr.ssrfun <> phant_id def
+R2036:2037 fcsl.pcm.pcm <> PCM.ClassDef.cT var
+R2028:2031 fcsl.pcm.pcm PCM pack def
+R2033:2033 fcsl.pcm.pcm <> c var
+R2042:2045 fcsl.pcm.pcm PCM pack def
+R2047:2047 fcsl.pcm.pcm <> c var
+def 2063:2067 PCM valid
+R2072:2079 fcsl.pcm.pcm PCM valid_op proj
+R2081:2085 fcsl.pcm.pcm PCM class def
+def 2099:2102 PCM join
+R2107:2113 fcsl.pcm.pcm PCM join_op proj
+R2115:2119 fcsl.pcm.pcm PCM class def
+def 2133:2136 PCM unit
+R2141:2147 fcsl.pcm.pcm PCM unit_op proj
+R2149:2153 fcsl.pcm.pcm PCM class def
+R2161:2168 fcsl.pcm.pcm PCM.ClassDef <> sec
+R2182:2185 fcsl.pcm.pcm PCM unit def
+R2182:2185 fcsl.pcm.pcm PCM unit def
+mod 2201:2207 <> PCM.Exports
+R2210:2243 fcsl.pcm.pcm PCM sort proj
+syndef 2255:2257 PCM.Exports pcm
+R2262:2265 fcsl.pcm.pcm PCM type rec
+syndef 2277:2284 PCM.Exports PCMMixin
+R2289:2293 fcsl.pcm.pcm PCM Mixin constr
+syndef 2305:2307 PCM.Exports PCM
+R2318:2321 fcsl.pcm.pcm PCM pack def
+R2374:2376 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2377:2384 fcsl.pcm.pcm PCM mixin_of rec
+R2367:2371 fcsl.pcm.pcm PCM class def
+not 2339:2339 PCM.Exports ::pcm_scope:'['_'pcmMixin'_'of'_x_']'
+R2492:2496 fcsl.pcm.pcm PCM clone def
+R2510:2511 Coq.ssr.ssrfun <> id syndef
+R2504:2508 Coq.ssr.ssrfun <> idfun syndef
+not 2460:2460 PCM.Exports ::pcm_scope:'['_'pcm'_'of'_x_'for'_x_']'
+R2614:2618 fcsl.pcm.pcm PCM clone def
+R2629:2630 Coq.ssr.ssrfun <> id syndef
+R2626:2627 Coq.ssr.ssrfun <> id syndef
+not 2590:2590 PCM.Exports ::pcm_scope:'['_'pcm'_'of'_x_']'
+R2713:2716 fcsl.pcm.pcm PCM join def
+not 2700:2700 PCM.Exports ::pcm_scope:x_'\+'_x
+syndef 2782:2786 PCM.Exports valid
+R2791:2795 fcsl.pcm.pcm PCM valid def
+syndef 2807:2810 PCM.Exports Unit
+R2815:2818 fcsl.pcm.pcm PCM unit def
+R2832:2835 fcsl.pcm.pcm PCM unit def
+R2832:2835 fcsl.pcm.pcm PCM unit def
+sec 2979:2982 PCM.Exports Laws
+var 2994:2994 PCM.Exports.Laws U
+var 2996:2996 PCM.Exports.Laws V
+R3000:3002 fcsl.pcm.pcm PCM.Exports pcm syndef
+prf 3012:3016 PCM.Exports joinC
+R3025:3025 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3036:3038 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3031:3034 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3030:3030 fcsl.pcm.pcm <> x var
+R3035:3035 fcsl.pcm.pcm <> y var
+R3040:3043 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3039:3039 fcsl.pcm.pcm <> y var
+R3044:3044 fcsl.pcm.pcm <> x var
+R3063:3063 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3063:3063 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3063:3063 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+prf 3110:3114 PCM.Exports joinA
+R3125:3125 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3143:3145 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3131:3135 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3142:3142 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3130:3130 fcsl.pcm.pcm <> x var
+R3137:3140 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3136:3136 fcsl.pcm.pcm <> y var
+R3141:3141 fcsl.pcm.pcm <> z var
+R3152:3155 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3147:3150 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3146:3146 fcsl.pcm.pcm <> x var
+R3151:3151 fcsl.pcm.pcm <> y var
+R3156:3156 fcsl.pcm.pcm <> z var
+R3175:3175 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3175:3175 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3175:3175 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+prf 3227:3232 PCM.Exports joinAC
+R3243:3243 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3259:3261 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3254:3257 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3249:3252 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3248:3248 fcsl.pcm.pcm <> x var
+R3253:3253 fcsl.pcm.pcm <> y var
+R3258:3258 fcsl.pcm.pcm <> z var
+R3268:3271 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3263:3266 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3262:3262 fcsl.pcm.pcm <> x var
+R3267:3267 fcsl.pcm.pcm <> z var
+R3272:3272 fcsl.pcm.pcm <> y var
+R3294:3298 fcsl.pcm.pcm PCM.Exports joinA thm
+R3301:3305 fcsl.pcm.pcm PCM.Exports joinC thm
+R3310:3314 fcsl.pcm.pcm PCM.Exports joinA thm
+R3294:3298 fcsl.pcm.pcm PCM.Exports joinA thm
+R3294:3298 fcsl.pcm.pcm PCM.Exports joinA thm
+R3301:3305 fcsl.pcm.pcm PCM.Exports joinC thm
+R3301:3305 fcsl.pcm.pcm PCM.Exports joinC thm
+R3310:3314 fcsl.pcm.pcm PCM.Exports joinA thm
+R3310:3314 fcsl.pcm.pcm PCM.Exports joinA thm
+prf 3329:3334 PCM.Exports joinCA
+R3345:3345 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3363:3365 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3351:3355 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3362:3362 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3350:3350 fcsl.pcm.pcm <> x var
+R3357:3360 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3356:3356 fcsl.pcm.pcm <> y var
+R3361:3361 fcsl.pcm.pcm <> z var
+R3367:3371 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3378:3378 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3366:3366 fcsl.pcm.pcm <> y var
+R3373:3376 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3372:3372 fcsl.pcm.pcm <> x var
+R3377:3377 fcsl.pcm.pcm <> z var
+R3399:3403 fcsl.pcm.pcm PCM.Exports joinA thm
+R3406:3410 fcsl.pcm.pcm PCM.Exports joinC thm
+R3416:3420 fcsl.pcm.pcm PCM.Exports joinA thm
+R3399:3403 fcsl.pcm.pcm PCM.Exports joinA thm
+R3399:3403 fcsl.pcm.pcm PCM.Exports joinA thm
+R3406:3410 fcsl.pcm.pcm PCM.Exports joinC thm
+R3406:3410 fcsl.pcm.pcm PCM.Exports joinC thm
+R3416:3420 fcsl.pcm.pcm PCM.Exports joinA thm
+R3416:3420 fcsl.pcm.pcm PCM.Exports joinA thm
+prf 3435:3440 PCM.Exports validL
+R3449:3449 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3468:3471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3472:3476 fcsl.pcm.pcm PCM.Exports valid syndef
+R3478:3478 fcsl.pcm.pcm <> x var
+R3454:3458 fcsl.pcm.pcm PCM.Exports valid syndef
+R3462:3465 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3461:3461 fcsl.pcm.pcm <> x var
+R3466:3466 fcsl.pcm.pcm <> y var
+R3494:3494 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3494:3494 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3494:3494 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+prf 3559:3564 PCM.Exports validR
+R3573:3573 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3592:3595 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3596:3600 fcsl.pcm.pcm PCM.Exports valid syndef
+R3602:3602 fcsl.pcm.pcm <> y var
+R3578:3582 fcsl.pcm.pcm PCM.Exports valid syndef
+R3586:3589 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3585:3585 fcsl.pcm.pcm <> x var
+R3590:3590 fcsl.pcm.pcm <> y var
+R3623:3627 fcsl.pcm.pcm PCM.Exports joinC thm
+R3637:3642 fcsl.pcm.pcm PCM.Exports validL thm
+R3623:3627 fcsl.pcm.pcm PCM.Exports joinC thm
+R3623:3627 fcsl.pcm.pcm PCM.Exports joinC thm
+R3637:3642 fcsl.pcm.pcm PCM.Exports validL thm
+prf 3657:3662 PCM.Exports validE
+R3671:3671 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3690:3693 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3701:3703 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R3694:3698 fcsl.pcm.pcm PCM.Exports valid syndef
+R3700:3700 fcsl.pcm.pcm <> x var
+R3704:3708 fcsl.pcm.pcm PCM.Exports valid syndef
+R3710:3710 fcsl.pcm.pcm <> y var
+R3676:3680 fcsl.pcm.pcm PCM.Exports valid syndef
+R3684:3687 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3683:3683 fcsl.pcm.pcm <> x var
+R3688:3688 fcsl.pcm.pcm <> y var
+R3741:3746 fcsl.pcm.pcm PCM.Exports validL thm
+R3752:3757 fcsl.pcm.pcm PCM.Exports validR thm
+R3741:3746 fcsl.pcm.pcm PCM.Exports validL thm
+R3741:3746 fcsl.pcm.pcm PCM.Exports validL thm
+R3752:3757 fcsl.pcm.pcm PCM.Exports validR thm
+R3752:3757 fcsl.pcm.pcm PCM.Exports validR thm
+prf 3775:3779 PCM.Exports unitL
+R3786:3786 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3800:3802 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3795:3798 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3791:3794 fcsl.pcm.pcm PCM.Exports Unit syndef
+R3799:3799 fcsl.pcm.pcm <> x var
+R3803:3803 fcsl.pcm.pcm <> x var
+R3822:3822 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3822:3822 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3822:3822 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+prf 3873:3877 PCM.Exports unitR
+R3884:3884 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3898:3900 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3890:3893 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R3889:3889 fcsl.pcm.pcm <> x var
+R3894:3897 fcsl.pcm.pcm PCM.Exports Unit syndef
+R3901:3901 fcsl.pcm.pcm <> x var
+R3922:3926 fcsl.pcm.pcm PCM.Exports joinC thm
+R3928:3932 fcsl.pcm.pcm PCM.Exports unitL thm
+R3922:3926 fcsl.pcm.pcm PCM.Exports joinC thm
+R3922:3926 fcsl.pcm.pcm PCM.Exports joinC thm
+R3928:3932 fcsl.pcm.pcm PCM.Exports unitL thm
+R3928:3932 fcsl.pcm.pcm PCM.Exports unitL thm
+prf 3947:3956 PCM.Exports valid_unit
+R3960:3964 fcsl.pcm.pcm PCM.Exports valid syndef
+R3968:3971 fcsl.pcm.pcm PCM.Exports Unit syndef
+R3973:3973 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3993:3993 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3993:3993 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R3993:3993 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+prf 4103:4109 PCM.Exports validAR
+R4120:4120 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R4144:4147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4148:4152 fcsl.pcm.pcm PCM.Exports valid syndef
+R4156:4159 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4155:4155 fcsl.pcm.pcm <> y var
+R4160:4160 fcsl.pcm.pcm <> z var
+R4125:4129 fcsl.pcm.pcm PCM.Exports valid syndef
+R4138:4141 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4133:4136 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4132:4132 fcsl.pcm.pcm <> x var
+R4137:4137 fcsl.pcm.pcm <> y var
+R4142:4142 fcsl.pcm.pcm <> z var
+R4183:4187 fcsl.pcm.pcm PCM.Exports joinA thm
+R4197:4202 fcsl.pcm.pcm PCM.Exports validR thm
+R4183:4187 fcsl.pcm.pcm PCM.Exports joinA thm
+R4183:4187 fcsl.pcm.pcm PCM.Exports joinA thm
+R4197:4202 fcsl.pcm.pcm PCM.Exports validR thm
+prf 4217:4223 PCM.Exports validAL
+R4234:4234 fcsl.pcm.pcm <> PCM.Exports.Laws.U var
+R4260:4263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4264:4268 fcsl.pcm.pcm PCM.Exports valid syndef
+R4272:4275 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4271:4271 fcsl.pcm.pcm <> x var
+R4276:4276 fcsl.pcm.pcm <> y var
+R4239:4243 fcsl.pcm.pcm PCM.Exports valid syndef
+R4247:4251 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4258:4258 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4246:4246 fcsl.pcm.pcm <> x var
+R4253:4256 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4252:4252 fcsl.pcm.pcm <> y var
+R4257:4257 fcsl.pcm.pcm <> z var
+R4298:4302 fcsl.pcm.pcm PCM.Exports joinA thm
+R4312:4317 fcsl.pcm.pcm PCM.Exports validL thm
+R4298:4302 fcsl.pcm.pcm PCM.Exports joinA thm
+R4298:4302 fcsl.pcm.pcm PCM.Exports joinA thm
+R4312:4317 fcsl.pcm.pcm PCM.Exports validL thm
+R4330:4333 fcsl.pcm.pcm PCM.Exports.Laws <> sec
+sec 4378:4391 PCM.Exports UnfoldingRules
+var 4403:4403 PCM.Exports.UnfoldingRules U
+R4407:4409 fcsl.pcm.pcm PCM.Exports pcm syndef
+prf 4419:4427 PCM.Exports pcm_joinE
+R4436:4436 fcsl.pcm.pcm <> PCM.Exports.UnfoldingRules.U var
+R4447:4449 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4442:4445 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R4441:4441 fcsl.pcm.pcm <> x var
+R4446:4446 fcsl.pcm.pcm <> y var
+R4450:4456 fcsl.pcm.pcm PCM join_op proj
+R4470:4470 fcsl.pcm.pcm <> y var
+R4468:4468 fcsl.pcm.pcm <> x var
+R4459:4463 fcsl.pcm.pcm PCM class def
+R4465:4465 fcsl.pcm.pcm <> PCM.Exports.UnfoldingRules.U var
+prf 4499:4508 PCM.Exports pcm_validE
+R4515:4515 fcsl.pcm.pcm <> PCM.Exports.UnfoldingRules.U var
+R4527:4529 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4520:4524 fcsl.pcm.pcm PCM.Exports valid syndef
+R4526:4526 fcsl.pcm.pcm <> x var
+R4530:4537 fcsl.pcm.pcm PCM valid_op proj
+R4549:4549 fcsl.pcm.pcm <> x var
+R4540:4544 fcsl.pcm.pcm PCM class def
+R4546:4546 fcsl.pcm.pcm <> PCM.Exports.UnfoldingRules.U var
+prf 4578:4586 PCM.Exports pcm_unitE
+R4594:4596 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4590:4593 fcsl.pcm.pcm PCM unit def
+R4597:4603 fcsl.pcm.pcm PCM unit_op proj
+R4606:4610 fcsl.pcm.pcm PCM class def
+R4612:4612 fcsl.pcm.pcm <> PCM.Exports.UnfoldingRules.U var
+def 4647:4650 PCM.Exports pcmE
+R4655:4655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4665:4666 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4677:4678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4688:4688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4656:4664 fcsl.pcm.pcm PCM.Exports pcm_joinE thm
+R4667:4676 fcsl.pcm.pcm PCM.Exports pcm_validE thm
+R4679:4687 fcsl.pcm.pcm PCM.Exports pcm_unitE thm
+def 4745:4748 PCM.Exports pull
+R4757:4757 fcsl.pcm.pcm <> PCM.Exports.UnfoldingRules.U var
+R4763:4763 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4773:4774 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4785:4785 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4764:4768 fcsl.pcm.pcm PCM.Exports joinC thm
+R4772:4772 fcsl.pcm.pcm <> x var
+R4770:4770 fcsl.pcm.pcm <> y var
+R4775:4780 fcsl.pcm.pcm PCM.Exports joinCA thm
+R4784:4784 fcsl.pcm.pcm <> x var
+R4782:4782 fcsl.pcm.pcm <> y var
+R4793:4806 fcsl.pcm.pcm PCM.Exports.UnfoldingRules <> sec
+R4815:4821 fcsl.pcm.pcm PCM.Exports <> mod
+R4829:4831 fcsl.pcm.pcm PCM <> mod
+def 4994:5000 <> precise
+R5007:5009 fcsl.pcm.pcm <> pcm syndef
+R5018:5021 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5017:5017 fcsl.pcm.pcm <> U var
+R5075:5078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5083:5086 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5091:5099 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5119:5122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5125:5127 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5123:5124 fcsl.pcm.pcm <> s1 var
+R5128:5129 fcsl.pcm.pcm <> s2 var
+R5108:5110 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5102:5105 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5100:5101 fcsl.pcm.pcm <> s1 var
+R5106:5107 fcsl.pcm.pcm <> t1 var
+R5113:5116 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5111:5112 fcsl.pcm.pcm <> s2 var
+R5117:5118 fcsl.pcm.pcm <> t2 var
+R5087:5087 fcsl.pcm.pcm <> P var
+R5089:5090 fcsl.pcm.pcm <> s2 var
+R5079:5079 fcsl.pcm.pcm <> P var
+R5081:5082 fcsl.pcm.pcm <> s1 var
+R5059:5063 fcsl.pcm.pcm <> valid syndef
+R5068:5071 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5066:5067 fcsl.pcm.pcm <> s1 var
+R5072:5073 fcsl.pcm.pcm <> t1 var
+mod 5140:5154 <> CancellativePCM
+ind 5166:5173 CancellativePCM mixin_of
+constr 5188:5192 CancellativePCM Mixin
+R5180:5182 fcsl.pcm.pcm PCM.Exports pcm syndef
+R5217:5217 fcsl.pcm.pcm <> U var
+R5235:5238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5256:5259 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5262:5264 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5260:5261 fcsl.pcm.pcm <> x1 var
+R5265:5266 fcsl.pcm.pcm <> x2 var
+R5246:5248 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5241:5244 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5239:5240 fcsl.pcm.pcm <> x1 var
+R5245:5245 fcsl.pcm.pcm <> x var
+R5251:5254 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5249:5250 fcsl.pcm.pcm <> x2 var
+R5255:5255 fcsl.pcm.pcm <> x var
+R5220:5224 fcsl.pcm.pcm PCM.Exports valid syndef
+R5229:5232 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5227:5228 fcsl.pcm.pcm <> x1 var
+R5233:5233 fcsl.pcm.pcm <> x var
+R5267:5267 fcsl.pcm.pcm <> mixin_of ind
+R5267:5267 fcsl.pcm.pcm <> U var
+sec 5278:5285 CancellativePCM ClassDef
+constr 5319:5323 CancellativePCM Class
+rec 5296:5303 CancellativePCM class_of
+proj 5329:5332 CancellativePCM base
+proj 5355:5359 CancellativePCM mixin
+R5336:5347 fcsl.pcm.pcm PCM mixin_of rec
+R5349:5349 fcsl.pcm.pcm <> U var
+R5363:5370 fcsl.pcm.pcm CancellativePCM mixin_of variant
+R5373:5380 fcsl.pcm.pcm PCM Pack constr
+R5382:5385 fcsl.pcm.pcm <> base meth
+R5397:5437 fcsl.pcm.pcm CancellativePCM base proj
+constr 5466:5469 CancellativePCM Pack
+rec 5451:5454 CancellativePCM type
+proj 5472:5475 CancellativePCM sort
+R5489:5496 fcsl.pcm.pcm CancellativePCM class_of rec
+R5498:5501 fcsl.pcm.pcm <> sort meth
+R5511:5544 fcsl.pcm.pcm CancellativePCM sort proj
+var 5559:5559 CancellativePCM.ClassDef T
+var 5570:5571 CancellativePCM.ClassDef cT
+R5575:5578 fcsl.pcm.pcm CancellativePCM type rec
+def 5593:5597 CancellativePCM class
+R5626:5627 fcsl.pcm.pcm <> CancellativePCM.ClassDef.cT var
+R5636:5643 fcsl.pcm.pcm CancellativePCM class_of rec
+R5645:5647 fcsl.pcm.pcm <> cT' var
+R5607:5610 fcsl.pcm.pcm CancellativePCM Pack constr
+def 5666:5670 CancellativePCM clone
+R5677:5684 Coq.ssr.ssrfun <> phant_id def
+R5692:5692 fcsl.pcm.pcm <> c var
+R5686:5690 fcsl.pcm.pcm CancellativePCM class def
+R5698:5701 fcsl.pcm.pcm CancellativePCM Pack constr
+R5705:5705 fcsl.pcm.pcm <> c var
+R5703:5703 fcsl.pcm.pcm <> CancellativePCM.ClassDef.T var
+def 5817:5820 CancellativePCM pack
+R5831:5838 fcsl.pcm.pcm CancellativePCM mixin_of variant
+R5841:5848 fcsl.pcm.pcm PCM Pack constr
+R5850:5851 fcsl.pcm.pcm <> b0 var
+R5869:5876 Coq.ssr.ssrfun <> phant_id def
+R5881:5881 fcsl.pcm.pcm <> m var
+R5878:5879 fcsl.pcm.pcm <> m0 var
+R5886:5889 fcsl.pcm.pcm CancellativePCM Pack constr
+R5893:5897 fcsl.pcm.pcm CancellativePCM Class constr
+R5904:5904 fcsl.pcm.pcm <> m var
+R5901:5902 fcsl.pcm.pcm <> b0 var
+R5899:5899 fcsl.pcm.pcm <> CancellativePCM.ClassDef.T var
+def 5920:5922 CancellativePCM pcm
+R5927:5934 fcsl.pcm.pcm PCM Pack constr
+R5936:5940 fcsl.pcm.pcm CancellativePCM class def
+R5949:5956 fcsl.pcm.pcm CancellativePCM.ClassDef <> sec
+mod 5967:5973 <> CancellativePCM.Exports
+R5976:6016 fcsl.pcm.pcm CancellativePCM base proj
+R6019:6052 fcsl.pcm.pcm CancellativePCM sort proj
+R6055:6086 fcsl.pcm.pcm CancellativePCM pcm def
+R6089:6111 fcsl.pcm.pcm CancellativePCM pcm def
+syndef 6124:6127 CancellativePCM.Exports cpcm
+R6132:6135 fcsl.pcm.pcm CancellativePCM type rec
+syndef 6147:6155 CancellativePCM.Exports CPCMMixin
+R6160:6164 fcsl.pcm.pcm CancellativePCM Mixin constr
+syndef 6176:6179 CancellativePCM.Exports CPCM
+R6190:6193 fcsl.pcm.pcm CancellativePCM pack def
+R6203:6204 Coq.ssr.ssrfun <> id syndef
+R6252:6256 fcsl.pcm.pcm CancellativePCM clone def
+R6265:6266 Coq.ssr.ssrfun <> id syndef
+not 6218:6218 CancellativePCM.Exports ::pcm_scope:'['_'cpcm'_'of'_x_'for'_x_']'
+R6371:6375 fcsl.pcm.pcm CancellativePCM clone def
+R6383:6384 Coq.ssr.ssrfun <> id syndef
+not 6346:6346 CancellativePCM.Exports ::pcm_scope:'['_'cpcm'_'of'_x_']'
+sec 6454:6459 CancellativePCM.Exports Lemmas
+var 6471:6471 CancellativePCM.Exports.Lemmas U
+R6475:6478 fcsl.pcm.pcm CancellativePCM.Exports cpcm syndef
+prf 6488:6493 CancellativePCM.Exports joinKx
+R6506:6506 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+R6526:6529 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6547:6550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6553:6555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6551:6552 fcsl.pcm.pcm <> x1 var
+R6556:6557 fcsl.pcm.pcm <> x2 var
+R6537:6539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6532:6535 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6530:6531 fcsl.pcm.pcm <> x1 var
+R6536:6536 fcsl.pcm.pcm <> x var
+R6542:6545 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6540:6541 fcsl.pcm.pcm <> x2 var
+R6546:6546 fcsl.pcm.pcm <> x var
+R6511:6515 fcsl.pcm.pcm PCM.Exports valid syndef
+R6520:6523 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6518:6519 fcsl.pcm.pcm <> x1 var
+R6524:6524 fcsl.pcm.pcm <> x var
+R6577:6577 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+R6577:6577 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+R6577:6577 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+prf 6622:6627 CancellativePCM.Exports joinxK
+R6640:6640 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+R6660:6663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6681:6684 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6687:6689 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6685:6686 fcsl.pcm.pcm <> x1 var
+R6690:6691 fcsl.pcm.pcm <> x2 var
+R6671:6673 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6665:6668 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6664:6664 fcsl.pcm.pcm <> x var
+R6669:6670 fcsl.pcm.pcm <> x1 var
+R6675:6678 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6674:6674 fcsl.pcm.pcm <> x var
+R6679:6680 fcsl.pcm.pcm <> x2 var
+R6645:6649 fcsl.pcm.pcm PCM.Exports valid syndef
+R6653:6656 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6652:6652 fcsl.pcm.pcm <> x var
+R6657:6658 fcsl.pcm.pcm <> x1 var
+R6715:6719 fcsl.pcm.pcm PCM.Exports joinC thm
+R6732:6737 fcsl.pcm.pcm CancellativePCM.Exports joinKx thm
+R6715:6719 fcsl.pcm.pcm PCM.Exports joinC thm
+R6715:6719 fcsl.pcm.pcm PCM.Exports joinC thm
+R6715:6719 fcsl.pcm.pcm PCM.Exports joinC thm
+R6715:6719 fcsl.pcm.pcm PCM.Exports joinC thm
+R6732:6737 fcsl.pcm.pcm CancellativePCM.Exports joinKx thm
+prf 6752:6757 CancellativePCM.Exports cancPL
+R6765:6768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6764:6764 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+R6807:6810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6827:6830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6835:6838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6843:6855 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6875:6878 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6879:6879 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6887:6891 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6899:6899 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6882:6884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6880:6881 fcsl.pcm.pcm <> s1 var
+R6885:6886 fcsl.pcm.pcm <> s2 var
+R6894:6896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6892:6893 fcsl.pcm.pcm <> t1 var
+R6897:6898 fcsl.pcm.pcm <> t2 var
+R6864:6866 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6858:6861 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6856:6857 fcsl.pcm.pcm <> s1 var
+R6862:6863 fcsl.pcm.pcm <> t1 var
+R6869:6872 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6867:6868 fcsl.pcm.pcm <> s2 var
+R6873:6874 fcsl.pcm.pcm <> t2 var
+R6839:6839 fcsl.pcm.pcm <> P var
+R6841:6842 fcsl.pcm.pcm <> s2 var
+R6831:6831 fcsl.pcm.pcm <> P var
+R6833:6834 fcsl.pcm.pcm <> s1 var
+R6811:6815 fcsl.pcm.pcm PCM.Exports valid syndef
+R6820:6823 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6818:6819 fcsl.pcm.pcm <> s1 var
+R6824:6825 fcsl.pcm.pcm <> t1 var
+R6798:6804 fcsl.pcm.pcm <> precise def
+R6806:6806 fcsl.pcm.pcm <> P var
+R6991:6996 fcsl.pcm.pcm CancellativePCM.Exports joinxK thm
+R6991:6996 fcsl.pcm.pcm CancellativePCM.Exports joinxK thm
+R6991:6996 fcsl.pcm.pcm CancellativePCM.Exports joinxK thm
+prf 7016:7021 CancellativePCM.Exports cancPR
+R7029:7032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7028:7028 fcsl.pcm.pcm <> CancellativePCM.Exports.Lemmas.U var
+R7071:7074 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7091:7094 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7099:7102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7107:7119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7139:7142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7143:7143 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7151:7155 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7163:7163 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7146:7148 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7144:7145 fcsl.pcm.pcm <> s1 var
+R7149:7150 fcsl.pcm.pcm <> s2 var
+R7158:7160 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7156:7157 fcsl.pcm.pcm <> t1 var
+R7161:7162 fcsl.pcm.pcm <> t2 var
+R7128:7130 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7122:7125 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R7120:7121 fcsl.pcm.pcm <> s1 var
+R7126:7127 fcsl.pcm.pcm <> t1 var
+R7133:7136 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R7131:7132 fcsl.pcm.pcm <> s2 var
+R7137:7138 fcsl.pcm.pcm <> t2 var
+R7103:7103 fcsl.pcm.pcm <> P var
+R7105:7106 fcsl.pcm.pcm <> t2 var
+R7095:7095 fcsl.pcm.pcm <> P var
+R7097:7098 fcsl.pcm.pcm <> t1 var
+R7075:7079 fcsl.pcm.pcm PCM.Exports valid syndef
+R7084:7087 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R7082:7083 fcsl.pcm.pcm <> s1 var
+R7088:7089 fcsl.pcm.pcm <> t1 var
+R7062:7068 fcsl.pcm.pcm <> precise def
+R7070:7070 fcsl.pcm.pcm <> P var
+R7201:7205 fcsl.pcm.pcm PCM.Exports joinC thm
+R7212:7216 fcsl.pcm.pcm PCM.Exports joinC thm
+R7201:7205 fcsl.pcm.pcm PCM.Exports joinC thm
+R7201:7205 fcsl.pcm.pcm PCM.Exports joinC thm
+R7212:7216 fcsl.pcm.pcm PCM.Exports joinC thm
+R7212:7216 fcsl.pcm.pcm PCM.Exports joinC thm
+R7243:7248 fcsl.pcm.pcm CancellativePCM.Exports cancPL thm
+R7243:7248 fcsl.pcm.pcm CancellativePCM.Exports cancPL thm
+R7243:7248 fcsl.pcm.pcm CancellativePCM.Exports cancPL thm
+R7243:7248 fcsl.pcm.pcm CancellativePCM.Exports cancPL thm
+R7243:7248 fcsl.pcm.pcm CancellativePCM.Exports cancPL thm
+R7274:7279 fcsl.pcm.pcm CancellativePCM.Exports.Lemmas <> sec
+R7286:7292 fcsl.pcm.pcm CancellativePCM.Exports <> mod
+R7300:7314 fcsl.pcm.pcm CancellativePCM <> mod
+mod 7679:7682 <> TPCM
+constr 7715:7719 TPCM Mixin
+rec 7693:7700 TPCM mixin_of
+proj 7725:7732 TPCM undef_op
+proj 7741:7748 TPCM unitb_op
+R7707:7709 fcsl.pcm.pcm PCM.Exports pcm syndef
+R7736:7736 fcsl.pcm.pcm <> U var
+R7753:7756 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7757:7760 Coq.Init.Datatypes <> bool ind
+R7752:7752 fcsl.pcm.pcm <> U var
+R7779:7785 Coq.ssr.ssrbool <> reflect syndef
+R7799:7806 fcsl.pcm.pcm <> unitb_op meth
+R7808:7808 fcsl.pcm.pcm <> x var
+R7789:7791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7788:7788 fcsl.pcm.pcm <> x var
+R7792:7795 fcsl.pcm.pcm PCM.Exports Unit syndef
+R7894:7894 fcsl.pcm.pcm <> U var
+R7910:7913 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7922:7925 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7915:7917 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7914:7914 fcsl.pcm.pcm <> x var
+R7918:7921 fcsl.pcm.pcm PCM.Exports Unit syndef
+R7927:7929 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7926:7926 fcsl.pcm.pcm <> y var
+R7930:7933 fcsl.pcm.pcm PCM.Exports Unit syndef
+R7903:7905 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7898:7901 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R7897:7897 fcsl.pcm.pcm <> x var
+R7902:7902 fcsl.pcm.pcm <> y var
+R7906:7909 fcsl.pcm.pcm PCM.Exports Unit syndef
+R8055:8057 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R8058:8062 fcsl.pcm.pcm PCM.Exports valid syndef
+R8064:8071 fcsl.pcm.pcm <> undef_op meth
+R8103:8105 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8098:8101 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R8090:8097 fcsl.pcm.pcm <> undef_op meth
+R8102:8102 fcsl.pcm.pcm <> x var
+R8106:8113 fcsl.pcm.pcm <> undef_op meth
+sec 8126:8133 TPCM ClassDef
+constr 8167:8171 TPCM Class
+rec 8144:8151 TPCM class_of
+proj 8177:8180 TPCM base
+proj 8203:8207 TPCM mixin
+R8184:8195 fcsl.pcm.pcm PCM mixin_of rec
+R8197:8197 fcsl.pcm.pcm <> U var
+R8211:8218 fcsl.pcm.pcm TPCM mixin_of rec
+R8221:8228 fcsl.pcm.pcm PCM Pack constr
+R8230:8233 fcsl.pcm.pcm <> base meth
+R8245:8285 fcsl.pcm.pcm TPCM base proj
+constr 8314:8317 TPCM Pack
+rec 8299:8302 TPCM type
+proj 8320:8323 TPCM sort
+R8337:8344 fcsl.pcm.pcm TPCM class_of rec
+R8346:8349 fcsl.pcm.pcm <> sort meth
+R8359:8392 fcsl.pcm.pcm TPCM sort proj
+var 8407:8407 TPCM.ClassDef T
+var 8418:8419 TPCM.ClassDef cT
+R8423:8426 fcsl.pcm.pcm TPCM type rec
+def 8441:8445 TPCM class
+R8474:8475 fcsl.pcm.pcm <> TPCM.ClassDef.cT var
+R8484:8491 fcsl.pcm.pcm TPCM class_of rec
+R8493:8495 fcsl.pcm.pcm <> cT' var
+R8455:8458 fcsl.pcm.pcm TPCM Pack constr
+def 8514:8518 TPCM clone
+R8525:8532 Coq.ssr.ssrfun <> phant_id def
+R8540:8540 fcsl.pcm.pcm <> c var
+R8534:8538 fcsl.pcm.pcm TPCM class def
+R8546:8549 fcsl.pcm.pcm TPCM Pack constr
+R8553:8553 fcsl.pcm.pcm <> c var
+R8551:8551 fcsl.pcm.pcm <> TPCM.ClassDef.T var
+def 8658:8661 TPCM pack
+R8672:8679 fcsl.pcm.pcm TPCM mixin_of rec
+R8682:8689 fcsl.pcm.pcm PCM Pack constr
+R8691:8692 fcsl.pcm.pcm <> b0 var
+R8710:8717 Coq.ssr.ssrfun <> phant_id def
+R8722:8722 fcsl.pcm.pcm <> m var
+R8719:8720 fcsl.pcm.pcm <> m0 var
+R8727:8730 fcsl.pcm.pcm TPCM Pack constr
+R8734:8738 fcsl.pcm.pcm TPCM Class constr
+R8745:8745 fcsl.pcm.pcm <> m var
+R8742:8743 fcsl.pcm.pcm <> b0 var
+R8740:8740 fcsl.pcm.pcm <> TPCM.ClassDef.T var
+def 8761:8763 TPCM pcm
+R8768:8775 fcsl.pcm.pcm PCM Pack constr
+R8777:8781 fcsl.pcm.pcm TPCM class def
+def 8795:8799 TPCM unitb
+R8804:8811 fcsl.pcm.pcm TPCM unitb_op proj
+R8814:8818 fcsl.pcm.pcm TPCM mixin proj
+R8820:8824 fcsl.pcm.pcm TPCM class def
+def 8839:8843 TPCM undef
+R8847:8849 fcsl.pcm.pcm TPCM pcm def
+R8854:8861 fcsl.pcm.pcm TPCM undef_op proj
+R8864:8868 fcsl.pcm.pcm TPCM mixin proj
+R8870:8874 fcsl.pcm.pcm TPCM class def
+R8883:8890 fcsl.pcm.pcm TPCM.ClassDef <> sec
+mod 8901:8907 <> TPCM.Exports
+R8910:8950 fcsl.pcm.pcm TPCM base proj
+R8953:8986 fcsl.pcm.pcm TPCM sort proj
+R8989:9020 fcsl.pcm.pcm TPCM pcm def
+R9023:9045 fcsl.pcm.pcm TPCM pcm def
+syndef 9057:9060 TPCM.Exports tpcm
+R9065:9068 fcsl.pcm.pcm TPCM type rec
+syndef 9080:9088 TPCM.Exports TPCMMixin
+R9093:9097 fcsl.pcm.pcm TPCM Mixin constr
+syndef 9109:9112 TPCM.Exports TPCM
+R9123:9126 fcsl.pcm.pcm TPCM pack def
+R9136:9137 Coq.ssr.ssrfun <> id syndef
+R9185:9189 fcsl.pcm.pcm TPCM clone def
+R9198:9199 Coq.ssr.ssrfun <> id syndef
+not 9151:9151 TPCM.Exports ::pcm_scope:'['_'tpcm'_'of'_x_'for'_x_']'
+R9304:9308 fcsl.pcm.pcm TPCM clone def
+R9316:9317 Coq.ssr.ssrfun <> id syndef
+not 9279:9279 TPCM.Exports ::pcm_scope:'['_'tpcm'_'of'_x_']'
+syndef 9388:9392 TPCM.Exports undef
+R9397:9401 fcsl.pcm.pcm TPCM undef def
+syndef 9413:9417 TPCM.Exports unitb
+R9422:9426 fcsl.pcm.pcm TPCM unitb def
+R9440:9444 fcsl.pcm.pcm TPCM undef def
+R9440:9444 fcsl.pcm.pcm TPCM undef def
+sec 9485:9490 TPCM.Exports Lemmas
+var 9502:9502 TPCM.Exports.Lemmas U
+R9506:9509 fcsl.pcm.pcm TPCM.Exports tpcm syndef
+prf 9519:9524 TPCM.Exports unitbP
+R9531:9531 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9536:9542 Coq.ssr.ssrbool <> reflect syndef
+R9556:9560 fcsl.pcm.pcm TPCM.Exports unitb syndef
+R9562:9562 fcsl.pcm.pcm <> x var
+R9546:9548 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9545:9545 fcsl.pcm.pcm <> x var
+R9549:9552 fcsl.pcm.pcm PCM.Exports Unit syndef
+R9582:9582 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9582:9582 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9582:9582 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+prf 9609:9614 TPCM.Exports unitbE
+R9618:9622 fcsl.pcm.pcm TPCM.Exports unitb syndef
+R9629:9631 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R9632:9632 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9625:9628 fcsl.pcm.pcm PCM.Exports Unit syndef
+R9652:9657 fcsl.pcm.pcm TPCM.Exports unitbP thm
+R9652:9657 fcsl.pcm.pcm TPCM.Exports unitbP thm
+R9652:9657 fcsl.pcm.pcm TPCM.Exports unitbP thm
+prf 9672:9677 TPCM.Exports joinE0
+R9686:9686 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9704:9708 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R9697:9699 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9692:9695 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R9691:9691 fcsl.pcm.pcm <> x var
+R9696:9696 fcsl.pcm.pcm <> y var
+R9700:9703 fcsl.pcm.pcm PCM.Exports Unit syndef
+R9709:9709 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9718:9722 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9731:9731 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R9711:9713 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9710:9710 fcsl.pcm.pcm <> x var
+R9714:9717 fcsl.pcm.pcm PCM.Exports Unit syndef
+R9724:9726 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9723:9723 fcsl.pcm.pcm <> y var
+R9727:9730 fcsl.pcm.pcm PCM.Exports Unit syndef
+R9748:9748 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9748:9748 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9748:9748 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9835:9839 fcsl.pcm.pcm PCM.Exports unitL thm
+R9835:9839 fcsl.pcm.pcm PCM.Exports unitL thm
+R9835:9839 fcsl.pcm.pcm PCM.Exports unitL thm
+prf 9854:9865 TPCM.Exports valid_undefN
+R9869:9871 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R9872:9876 fcsl.pcm.pcm PCM.Exports valid syndef
+R9880:9884 fcsl.pcm.pcm TPCM.Exports undef syndef
+R9886:9886 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9906:9906 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9906:9906 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9906:9906 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+prf 9931:9941 TPCM.Exports valid_undef
+R9961:9963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9945:9949 fcsl.pcm.pcm PCM.Exports valid syndef
+R9953:9957 fcsl.pcm.pcm TPCM.Exports undef syndef
+R9959:9959 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R9964:9968 Coq.Init.Datatypes <> false constr
+R9991:9996 Coq.ssr.ssrbool <> negbTE thm
+R9998:10009 fcsl.pcm.pcm TPCM.Exports valid_undefN thm
+R9991:9996 Coq.ssr.ssrbool <> negbTE thm
+R9998:10009 fcsl.pcm.pcm TPCM.Exports valid_undefN thm
+R9991:9996 Coq.ssr.ssrbool <> negbTE thm
+R9998:10009 fcsl.pcm.pcm TPCM.Exports valid_undefN thm
+prf 10025:10034 TPCM.Exports undef_join
+R10041:10041 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10056:10058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10051:10054 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R10046:10050 fcsl.pcm.pcm TPCM.Exports undef syndef
+R10055:10055 fcsl.pcm.pcm <> x var
+R10059:10063 fcsl.pcm.pcm TPCM.Exports undef syndef
+R10082:10082 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10082:10082 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10082:10082 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+prf 10109:10118 TPCM.Exports join_undef
+R10125:10125 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10140:10142 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10131:10134 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R10130:10130 fcsl.pcm.pcm <> x var
+R10135:10139 fcsl.pcm.pcm TPCM.Exports undef syndef
+R10143:10147 fcsl.pcm.pcm TPCM.Exports undef syndef
+R10168:10172 fcsl.pcm.pcm PCM.Exports joinC thm
+R10174:10183 fcsl.pcm.pcm TPCM.Exports undef_join thm
+R10168:10172 fcsl.pcm.pcm PCM.Exports joinC thm
+R10168:10172 fcsl.pcm.pcm PCM.Exports joinC thm
+R10174:10183 fcsl.pcm.pcm TPCM.Exports undef_join thm
+R10174:10183 fcsl.pcm.pcm TPCM.Exports undef_join thm
+prf 10198:10203 TPCM.Exports undef0
+R10207:10207 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10217:10222 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10231:10231 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R10213:10215 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R10216:10216 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10208:10212 fcsl.pcm.pcm TPCM.Exports undef syndef
+R10227:10229 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R10230:10230 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10223:10226 fcsl.pcm.pcm PCM.Exports Unit syndef
+R10261:10270 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R10272:10272 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10287:10297 fcsl.pcm.pcm TPCM.Exports valid_undef thm
+R10261:10270 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R10272:10272 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10261:10270 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R10272:10272 fcsl.pcm.pcm <> TPCM.Exports.Lemmas.U var
+R10287:10297 fcsl.pcm.pcm TPCM.Exports valid_undef thm
+R10287:10297 fcsl.pcm.pcm TPCM.Exports valid_undef thm
+def 10317:10322 TPCM.Exports undefE
+R10327:10327 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10338:10339 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10350:10351 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10363:10363 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R10328:10337 fcsl.pcm.pcm TPCM.Exports undef_join thm
+R10340:10349 fcsl.pcm.pcm TPCM.Exports join_undef thm
+R10352:10362 fcsl.pcm.pcm TPCM.Exports valid_undef thm
+R10372:10377 fcsl.pcm.pcm TPCM.Exports.Lemmas <> sec
+R10384:10390 fcsl.pcm.pcm TPCM.Exports <> mod
+R10398:10401 fcsl.pcm.pcm TPCM <> mod
+R10581:10583 fcsl.pcm.pcm <> pcm syndef
+R10589:10598 mathcomp.ssreflect.bigop Monoid Law constr
+R10624:10628 fcsl.pcm.pcm <> unitR thm
+R10630:10630 fcsl.pcm.pcm <> U var
+R10613:10617 fcsl.pcm.pcm <> unitL thm
+R10619:10619 fcsl.pcm.pcm <> U var
+R10602:10606 fcsl.pcm.pcm <> joinA thm
+R10608:10608 fcsl.pcm.pcm <> U var
+R10660:10662 fcsl.pcm.pcm <> pcm syndef
+R10668:10680 mathcomp.ssreflect.bigop Monoid ComLaw constr
+R10684:10688 fcsl.pcm.pcm <> joinC thm
+R10690:10690 fcsl.pcm.pcm <> U var
+sec 10704:10718 <> BigPartialMorph
+var 10732:10733 BigPartialMorph R1
+var 10744:10745 BigPartialMorph R2
+var 10755:10755 BigPartialMorph K
+var 10778:10778 BigPartialMorph f
+R10749:10751 fcsl.pcm.pcm <> pcm syndef
+R10761:10764 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10767:10770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10765:10766 fcsl.pcm.pcm <> R2 var
+R10759:10760 fcsl.pcm.pcm <> R1 var
+R10784:10787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10788:10789 fcsl.pcm.pcm <> R1 var
+R10782:10783 fcsl.pcm.pcm <> R2 var
+var 10804:10806 BigPartialMorph id1
+var 10815:10817 BigPartialMorph op1
+R10810:10811 fcsl.pcm.pcm <> BigPartialMorph.R1 var
+R10823:10826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10829:10832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10833:10834 fcsl.pcm.pcm <> BigPartialMorph.R1 var
+R10827:10828 fcsl.pcm.pcm <> BigPartialMorph.R1 var
+R10821:10822 fcsl.pcm.pcm <> BigPartialMorph.R1 var
+var 10852:10855 BigPartialMorph f_op
+var 10927:10930 BigPartialMorph f_id
+R10872:10873 fcsl.pcm.pcm <> BigPartialMorph.R2 var
+R10890:10893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10904:10906 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10894:10894 fcsl.pcm.pcm <> BigPartialMorph.f var
+R10898:10901 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R10897:10897 fcsl.pcm.pcm <> x var
+R10902:10902 fcsl.pcm.pcm <> y var
+R10907:10909 fcsl.pcm.pcm <> BigPartialMorph.op1 var
+R10918:10918 fcsl.pcm.pcm <> BigPartialMorph.f var
+R10920:10920 fcsl.pcm.pcm <> y var
+R10912:10912 fcsl.pcm.pcm <> BigPartialMorph.f var
+R10914:10914 fcsl.pcm.pcm <> x var
+R10876:10880 fcsl.pcm.pcm <> valid syndef
+R10884:10887 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R10883:10883 fcsl.pcm.pcm <> x var
+R10888:10888 fcsl.pcm.pcm <> y var
+R10940:10942 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10934:10934 fcsl.pcm.pcm <> BigPartialMorph.f var
+R10936:10939 fcsl.pcm.pcm <> Unit syndef
+R10943:10945 fcsl.pcm.pcm <> BigPartialMorph.id1 var
+prf 10956:10965 <> big_pmorph
+R10976:10979 Coq.ssr.ssrbool <> pred def
+R10981:10981 fcsl.pcm.pcm <> I var
+R11042:11053 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11096:11109 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11054:11054 fcsl.pcm.pcm <> BigPartialMorph.f var
+R11057:11061 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11070:11070 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11075:11077 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11079:11082 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11084:11086 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11090:11091 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11071:11074 fcsl.pcm.pcm <> Unit syndef
+R11083:11083 fcsl.pcm.pcm <> r var
+R11062:11069 fcsl.pcm.pcm <> join def
+R11087:11087 fcsl.pcm.pcm <> P var
+R11089:11089 fcsl.pcm.pcm <> i var
+R11092:11092 fcsl.pcm.pcm <> F var
+R11094:11094 fcsl.pcm.pcm <> i var
+R11110:11114 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11118:11118 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11122:11124 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11126:11129 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11131:11133 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11137:11138 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11119:11121 fcsl.pcm.pcm <> BigPartialMorph.id1 var
+R11130:11130 fcsl.pcm.pcm <> r var
+R11115:11117 fcsl.pcm.pcm <> BigPartialMorph.op1 var
+R11134:11134 fcsl.pcm.pcm <> P var
+R11136:11136 fcsl.pcm.pcm <> i var
+R11139:11139 fcsl.pcm.pcm <> BigPartialMorph.f var
+R11142:11142 fcsl.pcm.pcm <> F var
+R11144:11144 fcsl.pcm.pcm <> i var
+R10996:11000 fcsl.pcm.pcm <> valid syndef
+R11003:11007 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11016:11016 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11021:11023 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11025:11028 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11030:11032 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11036:11037 mathcomp.ssreflect.bigop <> ::big_scope:'\big'_'['_x_'/'_x_']_'_'('_x_'<-'_x_'|'_x_')'_x not
+R11017:11020 fcsl.pcm.pcm <> Unit syndef
+R11029:11029 fcsl.pcm.pcm <> r var
+R11008:11015 fcsl.pcm.pcm <> join def
+R11033:11033 fcsl.pcm.pcm <> P var
+R11035:11035 fcsl.pcm.pcm <> i var
+R11038:11038 fcsl.pcm.pcm <> F var
+R11040:11040 fcsl.pcm.pcm <> i var
+R11164:11169 Coq.ssr.ssreflect <> unlock thm
+R11202:11204 Coq.ssr.ssrbool <> ifP thm
+R11164:11169 Coq.ssr.ssreflect <> unlock thm
+R11164:11169 Coq.ssr.ssreflect <> unlock thm
+R11202:11204 Coq.ssr.ssrbool <> ifP thm
+R11202:11204 Coq.ssr.ssrbool <> ifP thm
+R11226:11229 fcsl.pcm.pcm <> BigPartialMorph.f_op var
+R11248:11253 fcsl.pcm.pcm <> validR thm
+R11226:11229 fcsl.pcm.pcm <> BigPartialMorph.f_op var
+R11226:11229 fcsl.pcm.pcm <> BigPartialMorph.f_op var
+R11248:11253 fcsl.pcm.pcm <> validR thm
+R11268:11282 fcsl.pcm.pcm BigPartialMorph <> sec
+def 11407:11415 <> natPCMMix
+R11423:11430 fcsl.pcm.pcm <> PCMMixin syndef
+R11473:11477 Coq.ssr.ssrfun <> erefl syndef
+R11462:11465 Coq.ssr.ssrfun <> ::fun_scope:'@'_'id'_x not
+R11466:11469 Coq.Init.Datatypes <> true constr
+R11444:11448 mathcomp.ssreflect.ssrnat <> add0n thm
+R11438:11442 mathcomp.ssreflect.ssrnat <> addnA thm
+R11432:11436 mathcomp.ssreflect.ssrnat <> addnC thm
+R11515:11517 fcsl.pcm.pcm <> PCM syndef
+R11519:11521 Coq.Init.Datatypes <> nat ind
+R11523:11531 fcsl.pcm.pcm <> natPCMMix def
+def 11615:11624 <> multPCMMix
+R11632:11639 fcsl.pcm.pcm <> PCMMixin syndef
+R11682:11686 Coq.ssr.ssrfun <> erefl syndef
+R11671:11674 Coq.ssr.ssrfun <> ::fun_scope:'@'_'id'_x not
+R11675:11678 Coq.Init.Datatypes <> true constr
+R11653:11657 mathcomp.ssreflect.ssrnat <> mul1n thm
+R11647:11651 mathcomp.ssreflect.ssrnat <> mulnA thm
+R11641:11645 mathcomp.ssreflect.ssrnat <> mulnC thm
+def 11703:11709 <> multPCM
+R11726:11728 fcsl.pcm.pcm <> PCM syndef
+R11730:11732 Coq.Init.Datatypes <> nat ind
+R11734:11743 fcsl.pcm.pcm <> multPCMMix def
+def 11777:11785 <> maxPCMMix
+R11793:11800 fcsl.pcm.pcm <> PCMMixin syndef
+R11843:11847 Coq.ssr.ssrfun <> erefl syndef
+R11832:11835 Coq.ssr.ssrfun <> ::fun_scope:'@'_'id'_x not
+R11836:11839 Coq.Init.Datatypes <> true constr
+R11814:11818 mathcomp.ssreflect.ssrnat <> max0n thm
+R11808:11812 mathcomp.ssreflect.ssrnat <> maxnA thm
+R11802:11806 mathcomp.ssreflect.ssrnat <> maxnC thm
+def 11864:11869 <> maxPCM
+R11886:11888 fcsl.pcm.pcm <> PCM syndef
+R11890:11892 Coq.Init.Datatypes <> nat ind
+R11894:11902 fcsl.pcm.pcm <> maxPCMMix def
+def 11956:11968 <> bool_orPCMMix
+R11976:11983 fcsl.pcm.pcm <> PCMMixin syndef
+R12023:12027 Coq.ssr.ssrfun <> erefl syndef
+R12012:12015 Coq.ssr.ssrfun <> ::fun_scope:'@'_'id'_x not
+R12016:12019 Coq.Init.Datatypes <> true constr
+R11995:11998 Coq.ssr.ssrbool <> orFb thm
+R11990:11993 Coq.ssr.ssrbool <> orbA thm
+R11985:11988 Coq.ssr.ssrbool <> orbC thm
+def 12044:12053 <> bool_orPCM
+R12070:12072 fcsl.pcm.pcm <> PCM syndef
+R12074:12077 Coq.Init.Datatypes <> bool ind
+R12079:12091 fcsl.pcm.pcm <> bool_orPCMMix def
+mod 12144:12150 <> ProdPCM
+sec 12161:12167 ProdPCM ProdPCM
+var 12181:12181 ProdPCM.ProdPCM U
+var 12183:12183 ProdPCM.ProdPCM V
+R12187:12189 fcsl.pcm.pcm PCM.Exports pcm syndef
+syndef 12208:12209 ProdPCM tp
+R12216:12218 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R12215:12215 fcsl.pcm.pcm <> ProdPCM.ProdPCM.U var
+R12219:12219 fcsl.pcm.pcm <> ProdPCM.ProdPCM.V var
+def 12240:12245 ProdPCM pvalid
+R12250:12254 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R12256:12258 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R12261:12264 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R12287:12287 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R12274:12277 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R12265:12269 fcsl.pcm.pcm PCM.Exports valid syndef
+R12272:12273 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R12271:12271 fcsl.pcm.pcm <> x var
+R12278:12282 fcsl.pcm.pcm PCM.Exports valid syndef
+R12285:12286 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R12284:12284 fcsl.pcm.pcm <> x var
+R12259:12260 fcsl.pcm.pcm ProdPCM tp syndef
+def 12301:12305 ProdPCM pjoin
+R12310:12314 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R12317:12317 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R12320:12322 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R12325:12328 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R12357:12357 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R12329:12329 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12342:12343 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12356:12356 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12334:12337 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R12332:12333 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R12330:12331 fcsl.pcm.pcm <> x1 var
+R12340:12341 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R12338:12339 fcsl.pcm.pcm <> x2 var
+R12348:12351 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R12346:12347 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R12344:12345 fcsl.pcm.pcm <> x1 var
+R12354:12355 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R12352:12353 fcsl.pcm.pcm <> x2 var
+R12323:12324 fcsl.pcm.pcm ProdPCM tp syndef
+R12323:12324 fcsl.pcm.pcm ProdPCM tp syndef
+def 12371:12375 ProdPCM punit
+R12379:12380 fcsl.pcm.pcm ProdPCM tp syndef
+R12385:12385 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12390:12391 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12396:12396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R12386:12389 fcsl.pcm.pcm PCM.Exports Unit syndef
+R12392:12395 fcsl.pcm.pcm PCM.Exports Unit syndef
+prf 12406:12410 ProdPCM joinC
+R12427:12429 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12418:12422 fcsl.pcm.pcm ProdPCM pjoin def
+R12426:12426 fcsl.pcm.pcm <> y var
+R12424:12424 fcsl.pcm.pcm <> x var
+R12430:12434 fcsl.pcm.pcm ProdPCM pjoin def
+R12438:12438 fcsl.pcm.pcm <> x var
+R12436:12436 fcsl.pcm.pcm <> y var
+R12494:12498 fcsl.pcm.pcm PCM.Exports joinC thm
+R12505:12509 fcsl.pcm.pcm PCM.Exports joinC thm
+R12494:12498 fcsl.pcm.pcm PCM.Exports joinC thm
+R12494:12498 fcsl.pcm.pcm PCM.Exports joinC thm
+R12505:12509 fcsl.pcm.pcm PCM.Exports joinC thm
+R12505:12509 fcsl.pcm.pcm PCM.Exports joinC thm
+prf 12529:12533 ProdPCM joinA
+R12562:12564 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12543:12547 fcsl.pcm.pcm ProdPCM pjoin def
+R12552:12556 fcsl.pcm.pcm ProdPCM pjoin def
+R12560:12560 fcsl.pcm.pcm <> z var
+R12558:12558 fcsl.pcm.pcm <> y var
+R12549:12549 fcsl.pcm.pcm <> x var
+R12565:12569 fcsl.pcm.pcm ProdPCM pjoin def
+R12583:12583 fcsl.pcm.pcm <> z var
+R12572:12576 fcsl.pcm.pcm ProdPCM pjoin def
+R12580:12580 fcsl.pcm.pcm <> y var
+R12578:12578 fcsl.pcm.pcm <> x var
+R12647:12651 fcsl.pcm.pcm PCM.Exports joinA thm
+R12658:12662 fcsl.pcm.pcm PCM.Exports joinA thm
+R12647:12651 fcsl.pcm.pcm PCM.Exports joinA thm
+R12647:12651 fcsl.pcm.pcm PCM.Exports joinA thm
+R12658:12662 fcsl.pcm.pcm PCM.Exports joinA thm
+R12658:12662 fcsl.pcm.pcm PCM.Exports joinA thm
+prf 12681:12686 ProdPCM validL
+R12712:12715 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12716:12721 fcsl.pcm.pcm ProdPCM pvalid def
+R12723:12723 fcsl.pcm.pcm <> x var
+R12694:12699 fcsl.pcm.pcm ProdPCM pvalid def
+R12702:12706 fcsl.pcm.pcm ProdPCM pjoin def
+R12710:12710 fcsl.pcm.pcm <> y var
+R12708:12708 fcsl.pcm.pcm <> x var
+R12796:12801 fcsl.pcm.pcm PCM.Exports validL thm
+R12808:12813 fcsl.pcm.pcm PCM.Exports validL thm
+R12774:12777 Coq.ssr.ssrbool <> andP thm
+R12796:12801 fcsl.pcm.pcm PCM.Exports validL thm
+R12796:12801 fcsl.pcm.pcm PCM.Exports validL thm
+R12808:12813 fcsl.pcm.pcm PCM.Exports validL thm
+R12808:12813 fcsl.pcm.pcm PCM.Exports validL thm
+prf 12832:12836 ProdPCM unitL
+R12855:12857 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12842:12846 fcsl.pcm.pcm ProdPCM pjoin def
+R12854:12854 fcsl.pcm.pcm <> x var
+R12848:12852 fcsl.pcm.pcm ProdPCM punit def
+R12858:12858 fcsl.pcm.pcm <> x var
+R12899:12903 fcsl.pcm.pcm PCM.Exports unitL thm
+R12899:12903 fcsl.pcm.pcm PCM.Exports unitL thm
+R12899:12903 fcsl.pcm.pcm PCM.Exports unitL thm
+R12899:12903 fcsl.pcm.pcm PCM.Exports unitL thm
+R12899:12903 fcsl.pcm.pcm PCM.Exports unitL thm
+prf 12918:12923 ProdPCM validU
+R12927:12932 fcsl.pcm.pcm ProdPCM pvalid def
+R12934:12938 fcsl.pcm.pcm ProdPCM punit def
+R12960:12965 fcsl.pcm.pcm ProdPCM pvalid def
+R12971:12980 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R12960:12965 fcsl.pcm.pcm ProdPCM pvalid def
+R12960:12965 fcsl.pcm.pcm ProdPCM pvalid def
+R12971:12980 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R12971:12980 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R12971:12980 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R12971:12980 fcsl.pcm.pcm PCM.Exports valid_unit thm
+R12993:12999 fcsl.pcm.pcm ProdPCM.ProdPCM <> sec
+R13006:13012 fcsl.pcm.pcm ProdPCM <> mod
+def 13027:13038 <> prodPCMMixin
+R13050:13057 fcsl.pcm.pcm <> PCMMixin syndef
+R13169:13182 fcsl.pcm.pcm <> validU thm
+R13186:13186 fcsl.pcm.pcm <> V var
+R13184:13184 fcsl.pcm.pcm <> U var
+R13135:13148 fcsl.pcm.pcm <> validL thm
+R13152:13152 fcsl.pcm.pcm <> V var
+R13150:13150 fcsl.pcm.pcm <> U var
+R13114:13126 fcsl.pcm.pcm <> unitL thm
+R13130:13130 fcsl.pcm.pcm <> V var
+R13128:13128 fcsl.pcm.pcm <> U var
+R13082:13094 fcsl.pcm.pcm <> joinA thm
+R13098:13098 fcsl.pcm.pcm <> V var
+R13096:13096 fcsl.pcm.pcm <> U var
+R13061:13073 fcsl.pcm.pcm <> joinC thm
+R13077:13077 fcsl.pcm.pcm <> V var
+R13075:13075 fcsl.pcm.pcm <> U var
+R13227:13229 fcsl.pcm.pcm <> PCM syndef
+R13233:13235 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R13241:13252 fcsl.pcm.pcm <> prodPCMMixin def
+R13256:13256 fcsl.pcm.pcm <> V var
+R13254:13254 fcsl.pcm.pcm <> U var
+sec 13299:13312 <> Simplification
+var 13324:13324 Simplification U
+var 13326:13326 Simplification V
+R13330:13332 fcsl.pcm.pcm <> pcm syndef
+prf 13342:13346 <> pcmPJ
+R13357:13357 fcsl.pcm.pcm <> Simplification.U var
+R13369:13369 fcsl.pcm.pcm <> Simplification.V var
+R13403:13405 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13391:13394 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R13383:13383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13386:13387 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13390:13390 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13384:13385 fcsl.pcm.pcm <> x1 var
+R13388:13389 fcsl.pcm.pcm <> x2 var
+R13395:13395 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13398:13399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13402:13402 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13396:13397 fcsl.pcm.pcm <> y1 var
+R13400:13401 fcsl.pcm.pcm <> y2 var
+R13406:13406 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13415:13416 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13425:13425 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13409:13412 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R13407:13408 fcsl.pcm.pcm <> x1 var
+R13413:13414 fcsl.pcm.pcm <> y1 var
+R13419:13422 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R13417:13418 fcsl.pcm.pcm <> x2 var
+R13423:13424 fcsl.pcm.pcm <> y2 var
+prf 13454:13461 <> pcm_peta
+R13468:13474 fcsl.pcm.pcm <> prodPCM canonstruc
+R13478:13478 fcsl.pcm.pcm <> Simplification.V var
+R13476:13476 fcsl.pcm.pcm <> Simplification.U var
+R13484:13486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13483:13483 fcsl.pcm.pcm <> x var
+R13487:13487 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13491:13492 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13496:13496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13489:13490 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R13488:13488 fcsl.pcm.pcm <> x var
+R13494:13495 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R13493:13493 fcsl.pcm.pcm <> x var
+prf 13530:13534 <> pcmPV
+R13541:13547 fcsl.pcm.pcm <> prodPCM canonstruc
+R13551:13551 fcsl.pcm.pcm <> Simplification.V var
+R13549:13549 fcsl.pcm.pcm <> Simplification.U var
+R13563:13565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13556:13560 fcsl.pcm.pcm <> valid syndef
+R13562:13562 fcsl.pcm.pcm <> x var
+R13575:13578 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13566:13570 fcsl.pcm.pcm <> valid syndef
+R13573:13574 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R13572:13572 fcsl.pcm.pcm <> x var
+R13579:13583 fcsl.pcm.pcm <> valid syndef
+R13586:13587 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R13585:13585 fcsl.pcm.pcm <> x var
+R13608:13611 fcsl.pcm.pcm <> pcmE def
+R13608:13611 fcsl.pcm.pcm <> pcmE def
+R13608:13611 fcsl.pcm.pcm <> pcmE def
+def 13631:13635 <> pcmPE
+R13640:13640 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13646:13647 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13653:13653 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13641:13645 fcsl.pcm.pcm <> pcmPJ thm
+R13648:13652 fcsl.pcm.pcm <> pcmPV thm
+R13661:13674 fcsl.pcm.pcm Simplification <> sec
+sec 13855:13862 <> ProdTPCM
+var 13876:13876 ProdTPCM U
+var 13878:13878 ProdTPCM V
+R13882:13885 fcsl.pcm.pcm <> tpcm syndef
+prf 13896:13905 <> prod_unitb
+R13912:13918 fcsl.pcm.pcm <> prodPCM canonstruc
+R13922:13922 fcsl.pcm.pcm <> ProdTPCM.V var
+R13920:13920 fcsl.pcm.pcm <> ProdTPCM.U var
+R13936:13942 Coq.ssr.ssrbool <> reflect syndef
+R13965:13968 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R13956:13960 fcsl.pcm.pcm <> unitb syndef
+R13963:13964 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R13962:13962 fcsl.pcm.pcm <> x var
+R13969:13973 fcsl.pcm.pcm <> unitb syndef
+R13976:13977 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R13975:13975 fcsl.pcm.pcm <> x var
+R13946:13948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13945:13945 fcsl.pcm.pcm <> x var
+R13949:13952 fcsl.pcm.pcm <> Unit syndef
+R14010:14013 Coq.ssr.ssrbool <> andP thm
+R14010:14013 Coq.ssr.ssrbool <> andP thm
+R14010:14013 Coq.ssr.ssrbool <> andP thm
+R14050:14055 fcsl.pcm.pcm <> unitbP thm
+R14061:14066 fcsl.pcm.pcm <> unitbP thm
+R14113:14118 fcsl.pcm.pcm <> unitbE thm
+R14113:14118 fcsl.pcm.pcm <> unitbE thm
+R14113:14118 fcsl.pcm.pcm <> unitbE thm
+R14113:14118 fcsl.pcm.pcm <> unitbE thm
+R14113:14118 fcsl.pcm.pcm <> unitbE thm
+prf 14133:14143 <> prod_join0E
+R14152:14158 fcsl.pcm.pcm <> prodPCM canonstruc
+R14162:14162 fcsl.pcm.pcm <> ProdTPCM.V var
+R14160:14160 fcsl.pcm.pcm <> ProdTPCM.U var
+R14180:14183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14192:14195 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14185:14187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14184:14184 fcsl.pcm.pcm <> x var
+R14188:14191 fcsl.pcm.pcm <> Unit syndef
+R14197:14199 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14196:14196 fcsl.pcm.pcm <> y var
+R14200:14203 fcsl.pcm.pcm <> Unit syndef
+R14173:14175 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14168:14171 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14167:14167 fcsl.pcm.pcm <> x var
+R14172:14172 fcsl.pcm.pcm <> y var
+R14176:14179 fcsl.pcm.pcm <> Unit syndef
+R14244:14249 fcsl.pcm.pcm <> joinE0 thm
+R14259:14264 fcsl.pcm.pcm <> joinE0 thm
+prf 14521:14536 <> prod_valid_undef
+R14540:14542 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R14543:14547 fcsl.pcm.pcm <> valid syndef
+R14549:14549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14558:14559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14568:14568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14551:14555 fcsl.pcm.pcm <> undef syndef
+R14557:14557 fcsl.pcm.pcm <> ProdTPCM.U var
+R14561:14565 fcsl.pcm.pcm <> undef syndef
+R14567:14567 fcsl.pcm.pcm <> ProdTPCM.V var
+R14589:14593 fcsl.pcm.pcm <> pcmPV thm
+R14595:14602 Coq.ssr.ssrbool <> negb_and thm
+R14605:14615 fcsl.pcm.pcm <> valid_undef thm
+R14589:14593 fcsl.pcm.pcm <> pcmPV thm
+R14589:14593 fcsl.pcm.pcm <> pcmPV thm
+R14595:14602 Coq.ssr.ssrbool <> negb_and thm
+R14595:14602 Coq.ssr.ssrbool <> negb_and thm
+R14605:14615 fcsl.pcm.pcm <> valid_undef thm
+R14605:14615 fcsl.pcm.pcm <> valid_undef thm
+R14605:14615 fcsl.pcm.pcm <> valid_undef thm
+R14605:14615 fcsl.pcm.pcm <> valid_undef thm
+prf 14630:14644 <> prod_undef_join
+R14675:14677 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14670:14673 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14650:14650 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14659:14660 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14669:14669 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14652:14656 fcsl.pcm.pcm <> undef syndef
+R14658:14658 fcsl.pcm.pcm <> ProdTPCM.U var
+R14662:14666 fcsl.pcm.pcm <> undef syndef
+R14668:14668 fcsl.pcm.pcm <> ProdTPCM.V var
+R14674:14674 fcsl.pcm.pcm <> x var
+R14678:14678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14687:14688 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14697:14697 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R14680:14684 fcsl.pcm.pcm <> undef syndef
+R14686:14686 fcsl.pcm.pcm <> ProdTPCM.U var
+R14690:14694 fcsl.pcm.pcm <> undef syndef
+R14696:14696 fcsl.pcm.pcm <> ProdTPCM.V var
+R14735:14739 fcsl.pcm.pcm <> pcmPE def
+R14742:14751 fcsl.pcm.pcm <> undef_join thm
+R14735:14739 fcsl.pcm.pcm <> pcmPE def
+R14735:14739 fcsl.pcm.pcm <> pcmPE def
+R14742:14751 fcsl.pcm.pcm <> undef_join thm
+R14742:14751 fcsl.pcm.pcm <> undef_join thm
+R14742:14751 fcsl.pcm.pcm <> undef_join thm
+R14742:14751 fcsl.pcm.pcm <> undef_join thm
+def 14771:14781 <> prodTPCMMix
+R14786:14794 fcsl.pcm.pcm <> TPCMMixin syndef
+R14873:14887 fcsl.pcm.pcm <> prod_undef_join thm
+R14856:14871 fcsl.pcm.pcm <> prod_valid_undef thm
+R14807:14817 fcsl.pcm.pcm <> prod_join0E thm
+R14796:14805 fcsl.pcm.pcm <> prod_unitb thm
+R14924:14927 fcsl.pcm.pcm <> TPCM syndef
+R14931:14933 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R14930:14930 fcsl.pcm.pcm <> ProdTPCM.U var
+R14934:14934 fcsl.pcm.pcm <> ProdTPCM.V var
+R14937:14947 fcsl.pcm.pcm <> prodTPCMMix def
+R14955:14962 fcsl.pcm.pcm ProdTPCM <> sec
+mod 15010:15016 <> UnitPCM
+sec 15027:15033 UnitPCM UnitPCM
+def 15048:15053 UnitPCM uvalid
+R15060:15063 Coq.Init.Datatypes <> unit ind
+R15069:15072 Coq.Init.Datatypes <> true constr
+def 15086:15090 UnitPCM ujoin
+R15099:15102 Coq.Init.Datatypes <> unit ind
+R15108:15109 Coq.Init.Datatypes <> tt constr
+def 15123:15127 UnitPCM uunit
+R15132:15133 Coq.Init.Datatypes <> tt constr
+prf 15143:15148 UnitPCM ujoinC
+R15165:15167 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15156:15160 fcsl.pcm.pcm UnitPCM ujoin def
+R15164:15164 fcsl.pcm.pcm <> y var
+R15162:15162 fcsl.pcm.pcm <> x var
+R15168:15172 fcsl.pcm.pcm UnitPCM ujoin def
+R15176:15176 fcsl.pcm.pcm <> x var
+R15174:15174 fcsl.pcm.pcm <> y var
+prf 15205:15210 UnitPCM ujoinA
+R15239:15241 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15220:15224 fcsl.pcm.pcm UnitPCM ujoin def
+R15229:15233 fcsl.pcm.pcm UnitPCM ujoin def
+R15237:15237 fcsl.pcm.pcm <> z var
+R15235:15235 fcsl.pcm.pcm <> y var
+R15226:15226 fcsl.pcm.pcm <> x var
+R15242:15246 fcsl.pcm.pcm UnitPCM ujoin def
+R15260:15260 fcsl.pcm.pcm <> z var
+R15249:15253 fcsl.pcm.pcm UnitPCM ujoin def
+R15257:15257 fcsl.pcm.pcm <> y var
+R15255:15255 fcsl.pcm.pcm <> x var
+prf 15289:15295 UnitPCM uvalidL
+R15321:15324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15325:15330 fcsl.pcm.pcm UnitPCM uvalid def
+R15332:15332 fcsl.pcm.pcm <> x var
+R15303:15308 fcsl.pcm.pcm UnitPCM uvalid def
+R15311:15315 fcsl.pcm.pcm UnitPCM ujoin def
+R15319:15319 fcsl.pcm.pcm <> y var
+R15317:15317 fcsl.pcm.pcm <> x var
+prf 15361:15366 UnitPCM uunitL
+R15385:15387 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15372:15376 fcsl.pcm.pcm UnitPCM ujoin def
+R15384:15384 fcsl.pcm.pcm <> x var
+R15378:15382 fcsl.pcm.pcm UnitPCM uunit def
+R15388:15388 fcsl.pcm.pcm <> x var
+prf 15423:15429 UnitPCM uvalidU
+R15433:15438 fcsl.pcm.pcm UnitPCM uvalid def
+R15440:15444 fcsl.pcm.pcm UnitPCM uunit def
+R15471:15477 fcsl.pcm.pcm UnitPCM.UnitPCM <> sec
+R15484:15490 fcsl.pcm.pcm UnitPCM <> mod
+def 15505:15516 <> unitPCMMixin
+R15524:15531 fcsl.pcm.pcm <> PCMMixin syndef
+R15606:15620 fcsl.pcm.pcm <> uvalidU thm
+R15590:15604 fcsl.pcm.pcm <> uvalidL thm
+R15575:15588 fcsl.pcm.pcm <> uunitL thm
+R15548:15561 fcsl.pcm.pcm <> ujoinA thm
+R15533:15546 fcsl.pcm.pcm <> ujoinC thm
+R15656:15658 fcsl.pcm.pcm <> PCM syndef
+R15660:15663 Coq.Init.Datatypes <> unit ind
+R15665:15676 fcsl.pcm.pcm <> unitPCMMixin def
+mod 15820:15830 <> BoolConjPCM
+prf 15839:15843 BoolConjPCM unitL
+R15858:15860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15853:15856 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R15849:15852 Coq.Init.Datatypes <> true constr
+R15857:15857 fcsl.pcm.pcm <> x var
+R15861:15861 fcsl.pcm.pcm <> x var
+R15887:15897 fcsl.pcm.pcm BoolConjPCM <> mod
+def 15912:15923 <> boolPCMMixin
+R15928:15935 fcsl.pcm.pcm <> PCMMixin syndef
+R16017:16021 Coq.ssr.ssrfun <> erefl syndef
+R16006:16009 Coq.ssr.ssrfun <> ::fun_scope:'@'_'id'_x not
+R16010:16013 Coq.Init.Datatypes <> true constr
+R15949:15965 fcsl.pcm.pcm <> unitL thm
+R15943:15947 Coq.ssr.ssrbool <> andbA thm
+R15937:15941 Coq.ssr.ssrbool <> andbC thm
+R16064:16066 fcsl.pcm.pcm <> PCM syndef
+R16068:16071 Coq.Init.Datatypes <> bool ind
+R16073:16084 fcsl.pcm.pcm <> boolPCMMixin def
+def 16185:16194 <> pcm_preord
+R16201:16203 fcsl.pcm.pcm <> pcm syndef
+R16213:16213 fcsl.pcm.pcm <> U var
+R16219:16225 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16227:16228 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16230:16232 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16229:16229 fcsl.pcm.pcm <> y var
+R16234:16237 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R16233:16233 fcsl.pcm.pcm <> x var
+R16238:16238 fcsl.pcm.pcm <> z var
+R16277:16286 fcsl.pcm.pcm <> pcm_preord def
+not 16251:16251 <> ::type_scope:'['_'pcm'_x_'<='_x_']'
+sec 16402:16411 <> PleqLemmas
+var 16423:16423 PleqLemmas U
+R16427:16429 fcsl.pcm.pcm <> pcm syndef
+R16455:16455 fcsl.pcm.pcm <> PleqLemmas.U var
+prf 16465:16473 <> pleq_unit
+R16479:16483 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16488:16491 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16493:16493 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16484:16487 fcsl.pcm.pcm <> Unit syndef
+R16492:16492 fcsl.pcm.pcm <> x var
+R16524:16528 fcsl.pcm.pcm <> unitL thm
+R16524:16528 fcsl.pcm.pcm <> unitL thm
+R16524:16528 fcsl.pcm.pcm <> unitL thm
+prf 16711:16719 <> pleq_refl
+R16725:16729 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16731:16734 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16736:16736 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16730:16730 fcsl.pcm.pcm <> x var
+R16735:16735 fcsl.pcm.pcm <> x var
+R16756:16759 fcsl.pcm.pcm <> Unit syndef
+R16770:16774 fcsl.pcm.pcm <> unitR thm
+R16756:16759 fcsl.pcm.pcm <> Unit syndef
+R16770:16774 fcsl.pcm.pcm <> unitR thm
+R16770:16774 fcsl.pcm.pcm <> unitR thm
+prf 16789:16798 <> pleq_trans
+R16820:16823 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16836:16839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16840:16844 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16846:16849 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16851:16851 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16845:16845 fcsl.pcm.pcm <> x var
+R16850:16850 fcsl.pcm.pcm <> z var
+R16824:16828 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16830:16833 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16835:16835 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16829:16829 fcsl.pcm.pcm <> y var
+R16834:16834 fcsl.pcm.pcm <> z var
+R16808:16812 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16814:16817 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16819:16819 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16813:16813 fcsl.pcm.pcm <> x var
+R16818:16818 fcsl.pcm.pcm <> y var
+R16892:16895 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R16908:16912 fcsl.pcm.pcm <> joinA thm
+R16892:16895 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R16908:16912 fcsl.pcm.pcm <> joinA thm
+R16908:16912 fcsl.pcm.pcm <> joinA thm
+prf 16954:16964 <> pleq_join2r
+R16990:16993 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16994:16998 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17006:17009 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17017:17017 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17001:17004 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R16999:17000 fcsl.pcm.pcm <> x1 var
+R17005:17005 fcsl.pcm.pcm <> x var
+R17012:17015 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17010:17011 fcsl.pcm.pcm <> x2 var
+R17016:17016 fcsl.pcm.pcm <> x var
+R16976:16980 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16983:16986 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16989:16989 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R16981:16982 fcsl.pcm.pcm <> x1 var
+R16987:16988 fcsl.pcm.pcm <> x2 var
+R17060:17065 fcsl.pcm.pcm <> joinAC thm
+R17060:17065 fcsl.pcm.pcm <> joinAC thm
+R17060:17065 fcsl.pcm.pcm <> joinAC thm
+prf 17080:17090 <> pleq_join2l
+R17116:17119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17120:17124 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17132:17135 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17143:17143 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17126:17129 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17125:17125 fcsl.pcm.pcm <> x var
+R17130:17131 fcsl.pcm.pcm <> x1 var
+R17137:17140 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17136:17136 fcsl.pcm.pcm <> x var
+R17141:17142 fcsl.pcm.pcm <> x2 var
+R17102:17106 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17109:17112 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17115:17115 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17107:17108 fcsl.pcm.pcm <> x1 var
+R17113:17114 fcsl.pcm.pcm <> x2 var
+R17166:17170 fcsl.pcm.pcm <> joinC thm
+R17183:17193 fcsl.pcm.pcm <> pleq_join2r thm
+R17166:17170 fcsl.pcm.pcm <> joinC thm
+R17166:17170 fcsl.pcm.pcm <> joinC thm
+R17166:17170 fcsl.pcm.pcm <> joinC thm
+R17166:17170 fcsl.pcm.pcm <> joinC thm
+R17183:17193 fcsl.pcm.pcm <> pleq_join2r thm
+prf 17208:17217 <> pleq_joinr
+R17227:17231 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17234:17237 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17246:17246 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17232:17233 fcsl.pcm.pcm <> x1 var
+R17240:17243 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17238:17239 fcsl.pcm.pcm <> x1 var
+R17244:17245 fcsl.pcm.pcm <> x2 var
+prf 17282:17291 <> pleq_joinl
+R17301:17305 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17308:17311 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17320:17320 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17306:17307 fcsl.pcm.pcm <> x2 var
+R17314:17317 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17312:17313 fcsl.pcm.pcm <> x1 var
+R17318:17319 fcsl.pcm.pcm <> x2 var
+R17341:17345 fcsl.pcm.pcm <> joinC thm
+R17355:17364 fcsl.pcm.pcm <> pleq_joinr thm
+R17341:17345 fcsl.pcm.pcm <> joinC thm
+R17341:17345 fcsl.pcm.pcm <> joinC thm
+R17355:17364 fcsl.pcm.pcm <> pleq_joinr thm
+prf 17402:17406 <> pleqV
+R17417:17417 fcsl.pcm.pcm <> PleqLemmas.U var
+R17436:17439 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17448:17451 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17452:17456 fcsl.pcm.pcm <> valid syndef
+R17458:17459 fcsl.pcm.pcm <> x1 var
+R17440:17444 fcsl.pcm.pcm <> valid syndef
+R17446:17447 fcsl.pcm.pcm <> x2 var
+R17422:17426 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17429:17432 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17435:17435 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17427:17428 fcsl.pcm.pcm <> x1 var
+R17433:17434 fcsl.pcm.pcm <> x2 var
+R17484:17489 fcsl.pcm.pcm <> validL thm
+prf 17504:17514 <> pleq_validL
+R17527:17527 fcsl.pcm.pcm <> PleqLemmas.U var
+R17555:17558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17574:17577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17578:17582 fcsl.pcm.pcm <> valid syndef
+R17586:17589 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17585:17585 fcsl.pcm.pcm <> x var
+R17590:17591 fcsl.pcm.pcm <> x1 var
+R17559:17563 fcsl.pcm.pcm <> valid syndef
+R17567:17570 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17566:17566 fcsl.pcm.pcm <> x var
+R17571:17572 fcsl.pcm.pcm <> x2 var
+R17541:17545 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17548:17551 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17554:17554 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17546:17547 fcsl.pcm.pcm <> x1 var
+R17552:17553 fcsl.pcm.pcm <> x2 var
+R17625:17629 fcsl.pcm.pcm <> joinA thm
+R17639:17644 fcsl.pcm.pcm <> validL thm
+R17625:17629 fcsl.pcm.pcm <> joinA thm
+R17625:17629 fcsl.pcm.pcm <> joinA thm
+R17639:17644 fcsl.pcm.pcm <> validL thm
+prf 17659:17669 <> pleq_validR
+R17682:17682 fcsl.pcm.pcm <> PleqLemmas.U var
+R17710:17713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17729:17732 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17733:17737 fcsl.pcm.pcm <> valid syndef
+R17742:17745 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17740:17741 fcsl.pcm.pcm <> x1 var
+R17746:17746 fcsl.pcm.pcm <> x var
+R17714:17718 fcsl.pcm.pcm <> valid syndef
+R17723:17726 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17721:17722 fcsl.pcm.pcm <> x2 var
+R17727:17727 fcsl.pcm.pcm <> x var
+R17696:17700 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17703:17706 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17709:17709 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17701:17702 fcsl.pcm.pcm <> x1 var
+R17707:17708 fcsl.pcm.pcm <> x2 var
+R17771:17775 fcsl.pcm.pcm <> joinC thm
+R17788:17798 fcsl.pcm.pcm <> pleq_validL thm
+R17771:17775 fcsl.pcm.pcm <> joinC thm
+R17771:17775 fcsl.pcm.pcm <> joinC thm
+R17771:17775 fcsl.pcm.pcm <> joinC thm
+R17771:17775 fcsl.pcm.pcm <> joinC thm
+R17788:17798 fcsl.pcm.pcm <> pleq_validL thm
+prf 17872:17882 <> pleq_joinxK
+R17889:17892 fcsl.pcm.pcm <> cpcm syndef
+R17906:17906 fcsl.pcm.pcm <> V var
+R17935:17938 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17963:17966 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17967:17971 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17974:17977 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17980:17980 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17972:17973 fcsl.pcm.pcm <> x1 var
+R17978:17979 fcsl.pcm.pcm <> x2 var
+R17939:17943 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17951:17954 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17962:17962 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R17946:17949 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17944:17945 fcsl.pcm.pcm <> x1 var
+R17950:17950 fcsl.pcm.pcm <> x var
+R17957:17960 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17955:17956 fcsl.pcm.pcm <> x2 var
+R17961:17961 fcsl.pcm.pcm <> x var
+R17920:17924 fcsl.pcm.pcm <> valid syndef
+R17929:17932 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R17927:17928 fcsl.pcm.pcm <> x2 var
+R17933:17933 fcsl.pcm.pcm <> x var
+R18014:18019 fcsl.pcm.pcm <> joinAC thm
+R18014:18019 fcsl.pcm.pcm <> joinAC thm
+R18014:18019 fcsl.pcm.pcm <> joinAC thm
+R18024:18029 fcsl.pcm.pcm <> joinKx thm
+prf 18060:18070 <> pleq_joinKx
+R18077:18080 fcsl.pcm.pcm <> cpcm syndef
+R18094:18094 fcsl.pcm.pcm <> V var
+R18123:18126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18151:18154 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18155:18159 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R18162:18165 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R18168:18168 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R18160:18161 fcsl.pcm.pcm <> x1 var
+R18166:18167 fcsl.pcm.pcm <> x2 var
+R18127:18131 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R18139:18142 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R18150:18150 fcsl.pcm.pcm <> ::type_scope:'['_'pcm'_x_'<='_x_']' not
+R18133:18136 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18132:18132 fcsl.pcm.pcm <> x var
+R18137:18138 fcsl.pcm.pcm <> x1 var
+R18144:18147 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18143:18143 fcsl.pcm.pcm <> x var
+R18148:18149 fcsl.pcm.pcm <> x2 var
+R18108:18112 fcsl.pcm.pcm <> valid syndef
+R18116:18119 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18115:18115 fcsl.pcm.pcm <> x var
+R18120:18121 fcsl.pcm.pcm <> x2 var
+R18191:18195 fcsl.pcm.pcm <> joinC thm
+R18208:18218 fcsl.pcm.pcm <> pleq_joinxK thm
+R18191:18195 fcsl.pcm.pcm <> joinC thm
+R18191:18195 fcsl.pcm.pcm <> joinC thm
+R18191:18195 fcsl.pcm.pcm <> joinC thm
+R18191:18195 fcsl.pcm.pcm <> joinC thm
+R18208:18218 fcsl.pcm.pcm <> pleq_joinxK thm
+R18231:18240 fcsl.pcm.pcm PleqLemmas <> sec
+def 18386:18390 <> local
+R18397:18399 fcsl.pcm.pcm <> pcm syndef
+R18408:18411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18413:18416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18417:18422 Coq.Init.Datatypes <> option ind
+R18424:18424 fcsl.pcm.pcm <> U var
+R18412:18412 fcsl.pcm.pcm <> U var
+R18407:18407 fcsl.pcm.pcm <> U var
+R18470:18473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18495:18517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18537:18540 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R18518:18522 fcsl.pcm.pcm <> valid syndef
+R18531:18534 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18526:18529 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18525:18525 fcsl.pcm.pcm <> r var
+R18530:18530 fcsl.pcm.pcm <> p var
+R18535:18535 fcsl.pcm.pcm <> y var
+R18553:18555 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18541:18541 fcsl.pcm.pcm <> f var
+R18552:18552 fcsl.pcm.pcm <> y var
+R18545:18548 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18544:18544 fcsl.pcm.pcm <> x var
+R18549:18549 fcsl.pcm.pcm <> p var
+R18556:18559 Coq.Init.Datatypes <> Some constr
+R18563:18566 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18562:18562 fcsl.pcm.pcm <> r var
+R18567:18567 fcsl.pcm.pcm <> p var
+R18486:18488 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18474:18474 fcsl.pcm.pcm <> f var
+R18480:18483 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18479:18479 fcsl.pcm.pcm <> p var
+R18484:18484 fcsl.pcm.pcm <> y var
+R18476:18476 fcsl.pcm.pcm <> x var
+R18489:18492 Coq.Init.Datatypes <> Some constr
+R18494:18494 fcsl.pcm.pcm <> r var
+R18449:18453 fcsl.pcm.pcm <> valid syndef
+R18457:18461 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18468:18468 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18456:18456 fcsl.pcm.pcm <> x var
+R18463:18466 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18462:18462 fcsl.pcm.pcm <> p var
+R18467:18467 fcsl.pcm.pcm <> y var
+prf 18579:18584 <> localV
+R18617:18620 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18635:18638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18653:18656 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R18657:18661 fcsl.pcm.pcm <> valid syndef
+R18665:18668 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18664:18664 fcsl.pcm.pcm <> r var
+R18669:18669 fcsl.pcm.pcm <> y var
+R18644:18646 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18639:18639 fcsl.pcm.pcm <> f var
+R18643:18643 fcsl.pcm.pcm <> y var
+R18641:18641 fcsl.pcm.pcm <> x var
+R18647:18650 Coq.Init.Datatypes <> Some constr
+R18652:18652 fcsl.pcm.pcm <> r var
+R18621:18625 fcsl.pcm.pcm <> valid syndef
+R18629:18632 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R18628:18628 fcsl.pcm.pcm <> x var
+R18633:18633 fcsl.pcm.pcm <> y var
+R18608:18612 fcsl.pcm.pcm <> local def
+R18616:18616 fcsl.pcm.pcm <> f var
+R18614:18614 fcsl.pcm.pcm <> U var
+R18705:18708 fcsl.pcm.pcm <> Unit syndef
+R18726:18730 fcsl.pcm.pcm <> unitL thm
+R18733:18737 fcsl.pcm.pcm <> unitR thm
+R18705:18708 fcsl.pcm.pcm <> Unit syndef
+R18705:18708 fcsl.pcm.pcm <> Unit syndef
+R18726:18730 fcsl.pcm.pcm <> unitL thm
+R18726:18730 fcsl.pcm.pcm <> unitL thm
+R18733:18737 fcsl.pcm.pcm <> unitR thm
+R18733:18737 fcsl.pcm.pcm <> unitR thm
+R18733:18737 fcsl.pcm.pcm <> unitR thm
+R18733:18737 fcsl.pcm.pcm <> unitR thm
+prf 18758:18760 <> idL
+R18767:18769 fcsl.pcm.pcm <> pcm syndef
+R18775:18779 fcsl.pcm.pcm <> local def
+R18795:18798 Coq.Init.Datatypes <> Some constr
+R18800:18800 fcsl.pcm.pcm <> x var
+R18781:18781 fcsl.pcm.pcm <> U var
+R18845:18849 fcsl.pcm.pcm <> joinA thm
+R18845:18849 fcsl.pcm.pcm <> joinA thm
+R18845:18849 fcsl.pcm.pcm <> joinA thm

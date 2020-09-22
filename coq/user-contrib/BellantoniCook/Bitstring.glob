@@ -1,0 +1,192 @@
+DIGEST 2ab6a2d827f73d8ccbcebe551a55ada4
+FBellantoniCook.Bitstring
+R15:18 Coq.Bool.Bool <> <> lib
+R20:24 Coq.Arith.Arith <> <> lib
+R26:29 Coq.Arith.Div2 <> <> lib
+R31:34 Coq.Lists.List <> <> lib
+R52:69 BellantoniCook.Lib <> <> lib
+syndef 82:83 <> bs
+R89:92 Coq.Init.Datatypes <> list ind
+R94:97 Coq.Init.Datatypes <> bool ind
+def 113:117 <> unary
+R124:125 BellantoniCook.Bitstring <> bs syndef
+R131:137 Coq.Lists.List <> forallb def
+R142:142 BellantoniCook.Bitstring <> v var
+R139:140 Coq.Init.Datatypes <> id def
+def 204:210 <> bs2bool
+R215:216 BellantoniCook.Bitstring <> bs syndef
+R221:224 Coq.Init.Datatypes <> bool ind
+R229:230 Coq.Lists.List <> hd def
+R238:238 BellantoniCook.Bitstring <> v var
+R232:236 Coq.Init.Datatypes <> false constr
+def 253:259 <> bool2bs
+R264:267 Coq.Init.Datatypes <> bool ind
+R272:273 BellantoniCook.Bitstring <> bs syndef
+R283:283 BellantoniCook.Bitstring <> b var
+R305:307 Coq.Init.Datatypes <> nil constr
+R294:295 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R290:293 Coq.Init.Datatypes <> true constr
+R296:298 Coq.Init.Datatypes <> nil constr
+prf 317:332 <> bs_nat2bool_true
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R376:379 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R368:373 Coq.Init.Datatypes <> length def
+R375:375 BellantoniCook.Bitstring <> v var
+R357:359 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R348:354 BellantoniCook.Bitstring <> bs2bool def
+R356:356 BellantoniCook.Bitstring <> v var
+R360:363 Coq.Init.Datatypes <> true constr
+prf 455:475 <> bs_nat2bool_true_conv
+R505:510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R524:527 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:539 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R528:534 BellantoniCook.Bitstring <> bs2bool def
+R536:536 BellantoniCook.Bitstring <> v var
+R540:543 Coq.Init.Datatypes <> true constr
+R519:522 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R511:516 Coq.Init.Datatypes <> length def
+R518:518 BellantoniCook.Bitstring <> v var
+R498:500 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R491:495 BellantoniCook.Bitstring <> unary def
+R497:497 BellantoniCook.Bitstring <> v var
+R501:504 Coq.Init.Datatypes <> true constr
+R614:626 Coq.Bool.Bool <> andb_true_iff thm
+R614:626 Coq.Bool.Bool <> andb_true_iff thm
+R614:626 Coq.Bool.Bool <> andb_true_iff thm
+R646:648 Coq.Init.Logic <> and ind
+R646:648 Coq.Init.Logic <> and ind
+prf 687:703 <> bs_nat2bool_false
+R725:730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R748:751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R760:762 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R752:757 Coq.Init.Datatypes <> length def
+R759:759 BellantoniCook.Bitstring <> v var
+R740:742 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R731:737 BellantoniCook.Bitstring <> bs2bool def
+R739:739 BellantoniCook.Bitstring <> v var
+R743:747 Coq.Init.Datatypes <> false constr
+R718:720 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R711:715 BellantoniCook.Bitstring <> unary def
+R717:717 BellantoniCook.Bitstring <> v var
+R721:724 Coq.Init.Datatypes <> true constr
+R819:831 Coq.Bool.Bool <> andb_true_iff thm
+R819:831 Coq.Bool.Bool <> andb_true_iff thm
+R819:831 Coq.Bool.Bool <> andb_true_iff thm
+R851:853 Coq.Init.Logic <> and ind
+R851:853 Coq.Init.Logic <> and ind
+prf 897:918 <> bs_nat2bool_false_conv
+R938:943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R953:955 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R944:950 BellantoniCook.Bitstring <> bs2bool def
+R952:952 BellantoniCook.Bitstring <> v var
+R956:960 Coq.Init.Datatypes <> false constr
+R934:936 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R926:931 Coq.Init.Datatypes <> length def
+R933:933 BellantoniCook.Bitstring <> v var
+def 1083:1088 <> bs2nat
+R1093:1094 BellantoniCook.Bitstring <> bs syndef
+R1099:1101 Coq.Init.Datatypes <> nat ind
+R1114:1114 BellantoniCook.Bitstring <> v var
+R1125:1127 Coq.Init.Datatypes <> nil constr
+R1143:1146 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1138:1142 Coq.Init.Datatypes <> false constr
+R1154:1156 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1157:1162 BellantoniCook.Bitstring <> bs2nat def
+R1175:1179 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1171:1174 Coq.Init.Datatypes <> true constr
+R1186:1186 Coq.Init.Datatypes <> S constr
+R1190:1192 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1193:1198 BellantoniCook.Bitstring <> bs2nat def
+def 1221:1227 <> succ_bs
+R1234:1235 BellantoniCook.Bitstring <> bs syndef
+R1240:1241 BellantoniCook.Bitstring <> bs syndef
+R1254:1254 BellantoniCook.Bitstring <> v var
+R1267:1269 Coq.Init.Datatypes <> nil constr
+R1274:1274 BellantoniCook.Lib <> :::'['_x_';'_'..'_';'_x_']' not
+R1279:1279 BellantoniCook.Lib <> :::'['_x_';'_'..'_';'_x_']' not
+R1275:1278 Coq.Init.Datatypes <> true constr
+R1292:1295 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1287:1291 Coq.Init.Datatypes <> false constr
+R1306:1309 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1302:1305 Coq.Init.Datatypes <> true constr
+R1323:1326 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1319:1322 Coq.Init.Datatypes <> true constr
+R1338:1341 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1333:1337 Coq.Init.Datatypes <> false constr
+R1342:1348 BellantoniCook.Bitstring <> succ_bs def
+prf 1367:1381 <> succ_bs_correct
+R1405:1407 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1387:1392 BellantoniCook.Bitstring <> bs2nat def
+R1395:1401 BellantoniCook.Bitstring <> succ_bs def
+R1403:1403 BellantoniCook.Bitstring <> v var
+R1416:1418 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1408:1413 BellantoniCook.Bitstring <> bs2nat def
+R1415:1415 BellantoniCook.Bitstring <> v var
+def 1501:1506 <> nat2bs
+R1511:1513 Coq.Init.Datatypes <> nat ind
+R1518:1519 BellantoniCook.Bitstring <> bs syndef
+R1532:1532 BellantoniCook.Bitstring <> n var
+R1548:1550 Coq.Init.Datatypes <> nil constr
+R1556:1556 Coq.Init.Datatypes <> S constr
+R1564:1570 BellantoniCook.Bitstring <> succ_bs def
+R1573:1578 BellantoniCook.Bitstring <> nat2bs def
+prf 1598:1607 <> bs2nat_nil
+R1623:1625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1613:1618 BellantoniCook.Bitstring <> bs2nat def
+R1620:1622 Coq.Init.Datatypes <> nil constr
+prf 1657:1668 <> bs2nat_false
+R1695:1697 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1676:1681 BellantoniCook.Bitstring <> bs2nat def
+R1689:1692 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1684:1688 Coq.Init.Datatypes <> false constr
+R1693:1693 BellantoniCook.Bitstring <> v var
+R1699:1701 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1702:1707 BellantoniCook.Bitstring <> bs2nat def
+R1709:1709 BellantoniCook.Bitstring <> v var
+prf 1740:1750 <> bs2nat_true
+R1776:1778 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1758:1763 BellantoniCook.Bitstring <> bs2nat def
+R1770:1773 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R1766:1769 Coq.Init.Datatypes <> true constr
+R1774:1774 BellantoniCook.Bitstring <> v var
+R1780:1782 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1784:1786 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1787:1792 BellantoniCook.Bitstring <> bs2nat def
+R1794:1794 BellantoniCook.Bitstring <> v var
+prf 1825:1833 <> bs2nat_tl
+R1860:1862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1847:1852 BellantoniCook.Bitstring <> bs2nat def
+R1855:1856 Coq.Lists.List <> tl def
+R1858:1858 BellantoniCook.Bitstring <> v var
+R1863:1866 Coq.Arith.Div2 <> div2 syndef
+R1869:1874 BellantoniCook.Bitstring <> bs2nat def
+R1876:1876 BellantoniCook.Bitstring <> v var
+R1940:1943 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1956:1956 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1932:1937 BellantoniCook.Bitstring <> bs2nat def
+R1952:1954 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1944:1949 BellantoniCook.Bitstring <> bs2nat def
+R1966:1968 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1969:1974 BellantoniCook.Bitstring <> bs2nat def
+R1940:1943 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1956:1956 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1932:1937 BellantoniCook.Bitstring <> bs2nat def
+R1952:1954 Coq.Init.Peano <> ::nat_scope:x_'+'_x not
+R1944:1949 BellantoniCook.Bitstring <> bs2nat def
+R1966:1968 Coq.Init.Peano <> ::nat_scope:x_'*'_x not
+R1969:1974 BellantoniCook.Bitstring <> bs2nat def
+R2007:2026 Coq.Arith.Div2 <> div2_double_plus_one thm
+R2038:2048 Coq.Arith.Div2 <> div2_double thm
+R2007:2026 Coq.Arith.Div2 <> div2_double_plus_one thm
+R2007:2026 Coq.Arith.Div2 <> div2_double_plus_one thm
+R2038:2048 Coq.Arith.Div2 <> div2_double thm
+R2038:2048 Coq.Arith.Div2 <> div2_double thm
+prf 2073:2085 <> bs2nat_nat2bs
+R2116:2118 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2099:2104 BellantoniCook.Bitstring <> bs2nat def
+R2107:2112 BellantoniCook.Bitstring <> nat2bs def
+R2114:2114 BellantoniCook.Bitstring <> n var
+R2119:2119 BellantoniCook.Bitstring <> n var
+R2180:2194 BellantoniCook.Bitstring <> succ_bs_correct thm
+R2180:2194 BellantoniCook.Bitstring <> succ_bs_correct thm
+R2180:2194 BellantoniCook.Bitstring <> succ_bs_correct thm

@@ -1,0 +1,12 @@
+DIGEST 6a85cb3cd85ac9fb5470495289650c99
+Fmathcomp.field.all_field
+R15:18 mathcomp.field.algC <> <> lib
+R36:58 mathcomp.field.algebraics_fundamentals <> <> lib
+R76:81 mathcomp.field.algnum <> <> lib
+R99:110 mathcomp.field.closed_field <> <> lib
+R128:137 mathcomp.field.cyclotomic <> <> lib
+R155:162 mathcomp.field.falgebra <> <> lib
+R180:187 mathcomp.field.fieldext <> <> lib
+R205:212 mathcomp.field.finfield <> <> lib
+R230:235 mathcomp.field.galois <> <> lib
+R253:261 mathcomp.field.separable <> <> lib

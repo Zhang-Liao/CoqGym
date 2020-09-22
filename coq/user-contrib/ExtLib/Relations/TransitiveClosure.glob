@@ -1,0 +1,356 @@
+DIGEST 900c6cddbc8c5ffbc8a2a35b16c0db36
+FExtLib.Relations.TransitiveClosure
+R15:41 Coq.Classes.RelationClasses <> <> lib
+R59:76 Coq.Setoids.Setoid <> <> lib
+sec 159:168 <> parametric
+var 182:182 parametric T
+var 203:203 parametric R
+R208:211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R213:216 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R212:212 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R207:207 ExtLib.Relations.TransitiveClosure <> parametric.T var
+ind 258:265 <> makeRefl
+constr 294:298 <> RRefl
+constr 319:323 <> RStep
+R272:272 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R278:281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R277:277 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R302:309 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R313:313 ExtLib.Relations.TransitiveClosure <> x var
+R311:311 ExtLib.Relations.TransitiveClosure <> x var
+R342:345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R346:353 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R357:357 ExtLib.Relations.TransitiveClosure <> y var
+R355:355 ExtLib.Relations.TransitiveClosure <> x var
+R337:337 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R341:341 ExtLib.Relations.TransitiveClosure <> y var
+R339:339 ExtLib.Relations.TransitiveClosure <> x var
+inst 379:391 <> Refl_makeRefl
+R395:403 Coq.Classes.RelationClasses <> Reflexive class
+R405:412 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+inst 467:480 <> Refl_makeTrans
+R496:499 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R500:509 Coq.Classes.RelationClasses <> Transitive class
+R511:518 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R484:493 Coq.Classes.RelationClasses <> Transitive class
+R495:495 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R639:643 ExtLib.Relations.TransitiveClosure <> RStep constr
+R639:643 ExtLib.Relations.TransitiveClosure <> RStep constr
+R639:643 ExtLib.Relations.TransitiveClosure <> RStep constr
+R656:660 ExtLib.Relations.TransitiveClosure <> RStep constr
+R656:660 ExtLib.Relations.TransitiveClosure <> RStep constr
+ind 728:736 <> makeTrans
+constr 762:766 <> TStep
+constr 797:802 <> TTrans
+R745:745 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R775:778 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R779:787 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R791:791 ExtLib.Relations.TransitiveClosure <> y var
+R789:789 ExtLib.Relations.TransitiveClosure <> x var
+R770:770 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R774:774 ExtLib.Relations.TransitiveClosure <> y var
+R772:772 ExtLib.Relations.TransitiveClosure <> x var
+R829:832 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R846:849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R850:858 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R862:862 ExtLib.Relations.TransitiveClosure <> y var
+R860:860 ExtLib.Relations.TransitiveClosure <> x var
+R833:841 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R845:845 ExtLib.Relations.TransitiveClosure <> y var
+R843:843 ExtLib.Relations.TransitiveClosure <> z var
+R816:824 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R828:828 ExtLib.Relations.TransitiveClosure <> z var
+R826:826 ExtLib.Relations.TransitiveClosure <> x var
+inst 884:898 <> Trans_makeTrans
+R902:911 Coq.Classes.RelationClasses <> Transitive class
+R913:921 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R959:964 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R959:964 ExtLib.Relations.TransitiveClosure <> TTrans constr
+inst 1006:1019 <> Trans_makeRefl
+R1034:1037 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1038:1046 Coq.Classes.RelationClasses <> Reflexive class
+R1048:1056 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R1023:1031 Coq.Classes.RelationClasses <> Reflexive class
+R1033:1033 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R1092:1096 ExtLib.Relations.TransitiveClosure <> TStep constr
+R1092:1096 ExtLib.Relations.TransitiveClosure <> TStep constr
+ind 1132:1140 <> leftTrans
+constr 1166:1170 <> LTFin
+constr 1201:1206 <> LTStep
+R1149:1149 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R1179:1182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1183:1191 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R1195:1195 ExtLib.Relations.TransitiveClosure <> y var
+R1193:1193 ExtLib.Relations.TransitiveClosure <> x var
+R1174:1174 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R1178:1178 ExtLib.Relations.TransitiveClosure <> y var
+R1176:1176 ExtLib.Relations.TransitiveClosure <> x var
+R1225:1228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1242:1245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1246:1254 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R1258:1258 ExtLib.Relations.TransitiveClosure <> y var
+R1256:1256 ExtLib.Relations.TransitiveClosure <> x var
+R1229:1237 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R1241:1241 ExtLib.Relations.TransitiveClosure <> y var
+R1239:1239 ExtLib.Relations.TransitiveClosure <> z var
+R1220:1220 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R1224:1224 ExtLib.Relations.TransitiveClosure <> z var
+R1222:1222 ExtLib.Relations.TransitiveClosure <> x var
+ind 1274:1283 <> rightTrans
+constr 1309:1313 <> RTFin
+constr 1345:1350 <> RTStep
+R1292:1292 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R1322:1325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1326:1335 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R1339:1339 ExtLib.Relations.TransitiveClosure <> y var
+R1337:1337 ExtLib.Relations.TransitiveClosure <> x var
+R1317:1317 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R1321:1321 ExtLib.Relations.TransitiveClosure <> y var
+R1319:1319 ExtLib.Relations.TransitiveClosure <> x var
+R1378:1381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1387:1390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1391:1400 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R1404:1404 ExtLib.Relations.TransitiveClosure <> y var
+R1402:1402 ExtLib.Relations.TransitiveClosure <> x var
+R1382:1382 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R1386:1386 ExtLib.Relations.TransitiveClosure <> y var
+R1384:1384 ExtLib.Relations.TransitiveClosure <> z var
+R1364:1373 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R1377:1377 ExtLib.Relations.TransitiveClosure <> z var
+R1375:1375 ExtLib.Relations.TransitiveClosure <> x var
+def 1472:1495 <> leftTrans_rightTrans_acc
+R1506:1514 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R1518:1518 ExtLib.Relations.TransitiveClosure <> x var
+R1516:1516 ExtLib.Relations.TransitiveClosure <> y var
+R1547:1550 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1551:1560 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R1564:1564 ExtLib.Relations.TransitiveClosure <> x var
+R1562:1562 ExtLib.Relations.TransitiveClosure <> z var
+R1533:1542 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R1546:1546 ExtLib.Relations.TransitiveClosure <> y var
+R1544:1544 ExtLib.Relations.TransitiveClosure <> z var
+R1579:1579 ExtLib.Relations.TransitiveClosure <> l var
+R1594:1598 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R1619:1624 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R1626:1628 ExtLib.Relations.TransitiveClosure <> pfR var
+R1641:1646 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R1681:1704 ExtLib.Relations.TransitiveClosure <> leftTrans_rightTrans_acc def
+R1711:1716 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R1718:1720 ExtLib.Relations.TransitiveClosure <> pfR var
+def 1747:1770 <> rightTrans_leftTrans_acc
+R1781:1790 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R1794:1794 ExtLib.Relations.TransitiveClosure <> y var
+R1792:1792 ExtLib.Relations.TransitiveClosure <> x var
+R1822:1825 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1826:1834 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R1838:1838 ExtLib.Relations.TransitiveClosure <> z var
+R1836:1836 ExtLib.Relations.TransitiveClosure <> x var
+R1809:1817 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R1821:1821 ExtLib.Relations.TransitiveClosure <> z var
+R1819:1819 ExtLib.Relations.TransitiveClosure <> y var
+R1853:1853 ExtLib.Relations.TransitiveClosure <> l var
+R1868:1872 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R1893:1898 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R1903:1905 ExtLib.Relations.TransitiveClosure <> pfR var
+R1915:1920 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R1955:1978 ExtLib.Relations.TransitiveClosure <> rightTrans_leftTrans_acc def
+R1984:1989 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R1995:1997 ExtLib.Relations.TransitiveClosure <> pfR var
+prf 2020:2039 <> leftTrans_rightTrans
+R2072:2076 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2059:2067 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R2071:2071 ExtLib.Relations.TransitiveClosure <> y var
+R2069:2069 ExtLib.Relations.TransitiveClosure <> x var
+R2077:2086 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R2090:2090 ExtLib.Relations.TransitiveClosure <> y var
+R2088:2088 ExtLib.Relations.TransitiveClosure <> x var
+R2137:2141 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R2137:2141 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R2169:2192 ExtLib.Relations.TransitiveClosure <> leftTrans_rightTrans_acc def
+R2169:2192 ExtLib.Relations.TransitiveClosure <> leftTrans_rightTrans_acc def
+R2215:2219 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R2215:2219 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R2261:2265 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R2261:2265 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R2293:2316 ExtLib.Relations.TransitiveClosure <> rightTrans_leftTrans_acc def
+R2293:2316 ExtLib.Relations.TransitiveClosure <> rightTrans_leftTrans_acc def
+R2339:2343 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R2339:2343 ExtLib.Relations.TransitiveClosure <> LTFin constr
+def 2380:2402 <> leftTrans_makeTrans_acc
+R2413:2421 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R2425:2425 ExtLib.Relations.TransitiveClosure <> y var
+R2423:2423 ExtLib.Relations.TransitiveClosure <> x var
+R2430:2438 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R2442:2442 ExtLib.Relations.TransitiveClosure <> y var
+R2440:2440 ExtLib.Relations.TransitiveClosure <> x var
+R2457:2457 ExtLib.Relations.TransitiveClosure <> l var
+R2472:2476 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R2484:2488 ExtLib.Relations.TransitiveClosure <> TStep constr
+R2501:2506 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R2528:2533 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R2547:2569 ExtLib.Relations.TransitiveClosure <> leftTrans_makeTrans_acc def
+R2536:2540 ExtLib.Relations.TransitiveClosure <> TStep constr
+def 2597:2611 <> leftTrans_trans
+R2622:2630 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R2634:2634 ExtLib.Relations.TransitiveClosure <> y var
+R2632:2632 ExtLib.Relations.TransitiveClosure <> x var
+R2653:2661 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R2665:2665 ExtLib.Relations.TransitiveClosure <> z var
+R2663:2663 ExtLib.Relations.TransitiveClosure <> y var
+R2669:2677 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R2681:2681 ExtLib.Relations.TransitiveClosure <> z var
+R2679:2679 ExtLib.Relations.TransitiveClosure <> x var
+R2696:2696 ExtLib.Relations.TransitiveClosure <> l var
+R2711:2715 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R2736:2741 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R2746:2748 ExtLib.Relations.TransitiveClosure <> pfL var
+R2758:2763 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R2790:2795 ExtLib.Relations.TransitiveClosure <> LTStep constr
+R2801:2815 ExtLib.Relations.TransitiveClosure <> leftTrans_trans def
+R2821:2823 ExtLib.Relations.TransitiveClosure <> pfR var
+prf 2846:2864 <> makeTrans_leftTrans
+R2899:2903 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2885:2893 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R2897:2898 ExtLib.Relations.TransitiveClosure <> s' var
+R2895:2895 ExtLib.Relations.TransitiveClosure <> s var
+R2904:2912 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R2916:2917 ExtLib.Relations.TransitiveClosure <> s' var
+R2914:2914 ExtLib.Relations.TransitiveClosure <> s var
+R2974:2978 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R2974:2978 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R3007:3021 ExtLib.Relations.TransitiveClosure <> leftTrans_trans def
+R3007:3021 ExtLib.Relations.TransitiveClosure <> leftTrans_trans def
+R3051:3073 ExtLib.Relations.TransitiveClosure <> leftTrans_makeTrans_acc def
+R3051:3073 ExtLib.Relations.TransitiveClosure <> leftTrans_makeTrans_acc def
+prf 3108:3127 <> makeTrans_rightTrans
+R3162:3166 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3148:3156 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R3160:3161 ExtLib.Relations.TransitiveClosure <> s' var
+R3158:3158 ExtLib.Relations.TransitiveClosure <> s var
+R3167:3176 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R3180:3181 ExtLib.Relations.TransitiveClosure <> s' var
+R3178:3178 ExtLib.Relations.TransitiveClosure <> s var
+R3226:3244 ExtLib.Relations.TransitiveClosure <> makeTrans_leftTrans thm
+R3226:3244 ExtLib.Relations.TransitiveClosure <> makeTrans_leftTrans thm
+R3253:3272 ExtLib.Relations.TransitiveClosure <> leftTrans_rightTrans thm
+R3253:3272 ExtLib.Relations.TransitiveClosure <> leftTrans_rightTrans thm
+def 3296:3306 <> RTStep_left
+R3325:3325 ExtLib.Relations.TransitiveClosure <> parametric.T var
+R3333:3336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3351:3354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3355:3364 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R3368:3368 ExtLib.Relations.TransitiveClosure <> z var
+R3366:3366 ExtLib.Relations.TransitiveClosure <> x var
+R3337:3346 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R3350:3350 ExtLib.Relations.TransitiveClosure <> z var
+R3348:3348 ExtLib.Relations.TransitiveClosure <> y var
+R3328:3328 ExtLib.Relations.TransitiveClosure <> parametric.R var
+R3332:3332 ExtLib.Relations.TransitiveClosure <> y var
+R3330:3330 ExtLib.Relations.TransitiveClosure <> x var
+R3442:3447 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R3442:3447 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R3457:3461 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R3457:3461 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R3513:3518 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R3513:3518 ExtLib.Relations.TransitiveClosure <> RTStep constr
+R3586:3595 ExtLib.Relations.TransitiveClosure parametric <> sec
+sec 3607:3611 <> param
+var 3625:3625 param T
+var 3646:3646 param R
+R3651:3654 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3656:3659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3655:3655 ExtLib.Relations.TransitiveClosure <> param.T var
+R3650:3650 ExtLib.Relations.TransitiveClosure <> param.T var
+prf 3677:3690 <> makeTrans_idem
+R3739:3743 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3711:3719 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R3737:3738 ExtLib.Relations.TransitiveClosure <> s' var
+R3735:3735 ExtLib.Relations.TransitiveClosure <> s var
+R3722:3730 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R3732:3732 ExtLib.Relations.TransitiveClosure <> param.R var
+R3744:3752 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R3758:3759 ExtLib.Relations.TransitiveClosure <> s' var
+R3756:3756 ExtLib.Relations.TransitiveClosure <> s var
+R3754:3754 ExtLib.Relations.TransitiveClosure <> param.R var
+R3813:3818 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R3813:3818 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R3813:3818 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R3836:3840 ExtLib.Relations.TransitiveClosure <> TStep constr
+R3836:3840 ExtLib.Relations.TransitiveClosure <> TStep constr
+prf 3863:3885 <> makeTrans_makeRefl_comm
+R3933:3937 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3906:3914 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R3931:3932 ExtLib.Relations.TransitiveClosure <> s' var
+R3929:3929 ExtLib.Relations.TransitiveClosure <> s var
+R3917:3924 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R3926:3926 ExtLib.Relations.TransitiveClosure <> param.R var
+R3938:3945 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R3963:3964 ExtLib.Relations.TransitiveClosure <> s' var
+R3961:3961 ExtLib.Relations.TransitiveClosure <> s var
+R3948:3956 ExtLib.Relations.TransitiveClosure <> makeTrans ind
+R3958:3958 ExtLib.Relations.TransitiveClosure <> param.R var
+R4058:4065 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R4058:4065 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4141:4145 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4148:4152 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4155:4159 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4162:4167 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4227:4231 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4227:4231 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4240:4244 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4240:4244 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4279:4283 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4286:4290 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4293:4298 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4279:4283 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4279:4283 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4286:4290 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4293:4298 ExtLib.Relations.TransitiveClosure <> TTrans constr
+R4286:4290 ExtLib.Relations.TransitiveClosure <> TStep constr
+R4293:4298 ExtLib.Relations.TransitiveClosure <> TTrans constr
+prf 4321:4333 <> makeRefl_idem
+R4380:4384 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4354:4361 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R4378:4379 ExtLib.Relations.TransitiveClosure <> s' var
+R4376:4376 ExtLib.Relations.TransitiveClosure <> s var
+R4364:4371 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R4373:4373 ExtLib.Relations.TransitiveClosure <> param.R var
+R4385:4392 ExtLib.Relations.TransitiveClosure <> makeRefl ind
+R4398:4399 ExtLib.Relations.TransitiveClosure <> s' var
+R4396:4396 ExtLib.Relations.TransitiveClosure <> s var
+R4394:4394 ExtLib.Relations.TransitiveClosure <> param.R var
+R4454:4458 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4461:4465 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4454:4458 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4454:4458 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4454:4458 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4454:4458 ExtLib.Relations.TransitiveClosure <> RStep constr
+R4461:4465 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4461:4465 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4461:4465 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4461:4465 ExtLib.Relations.TransitiveClosure <> RRefl constr
+R4480:4484 ExtLib.Relations.TransitiveClosure param <> sec

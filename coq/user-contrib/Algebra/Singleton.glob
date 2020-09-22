@@ -1,0 +1,78 @@
+DIGEST 9221e55e44c20b882300f8aaceb0cebd
+FAlgebra.Singleton
+R1086:1090 Algebra.Parts <> <> lib
+sec 1128:1134 <> Single1
+var 1146:1146 Single1 E
+R1150:1155 Algebra.Sets <> Setoid rec
+def 1170:1175 <> single
+R1180:1183 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1184:1191 Algebra.Parts <> part_set def
+R1193:1193 Algebra.Singleton <> Single1.E var
+R1179:1179 Algebra.Singleton <> Single1.E var
+R1213:1227 Algebra.Parts <> Build_Predicate constr
+R1248:1248 Algebra.Singleton <> Single1.E var
+R1253:1257 Algebra.Sets <> Equal proj
+R1259:1259 Algebra.Singleton <> y var
+R1213:1227 Algebra.Parts <> Build_Predicate constr
+R1248:1248 Algebra.Singleton <> Single1.E var
+R1253:1257 Algebra.Sets <> Equal proj
+R1259:1259 Algebra.Singleton <> y var
+R1321:1325 Algebra.Sets <> Trans thm
+R1321:1325 Algebra.Sets <> Trans thm
+prf 1371:1379 <> in_single
+R1394:1394 Algebra.Singleton <> Single1.E var
+R1397:1403 Algebra.Parts <> in_part def
+R1408:1413 Algebra.Singleton <> single def
+R1415:1415 Algebra.Singleton <> x var
+R1405:1405 Algebra.Singleton <> x var
+prf 1498:1507 <> single_law
+R1524:1524 Algebra.Singleton <> Single1.E var
+R1536:1539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1540:1544 Algebra.Sets <> Equal proj
+R1558:1563 Algebra.Singleton <> single def
+R1565:1565 Algebra.Singleton <> y var
+R1547:1552 Algebra.Singleton <> single def
+R1554:1554 Algebra.Singleton <> x var
+R1527:1531 Algebra.Sets <> Equal proj
+R1535:1535 Algebra.Singleton <> y var
+R1533:1533 Algebra.Singleton <> x var
+R1576:1581 Algebra.Singleton <> single def
+R1614:1620 Algebra.Parts <> eq_part def
+R1717:1721 Algebra.Sets <> Trans thm
+R1717:1721 Algebra.Sets <> Trans thm
+R1784:1788 Algebra.Sets <> Trans thm
+R1784:1788 Algebra.Sets <> Trans thm
+prf 1863:1873 <> single_prop
+R1890:1890 Algebra.Singleton <> Single1.E var
+R1902:1905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1906:1912 Algebra.Parts <> in_part def
+R1917:1922 Algebra.Singleton <> single def
+R1924:1924 Algebra.Singleton <> x var
+R1914:1914 Algebra.Singleton <> y var
+R1893:1897 Algebra.Sets <> Equal proj
+R1901:1901 Algebra.Singleton <> x var
+R1899:1899 Algebra.Singleton <> y var
+prf 2011:2025 <> single_prop_rev
+R2042:2042 Algebra.Singleton <> Single1.E var
+R2065:2068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2069:2073 Algebra.Sets <> Equal proj
+R2077:2077 Algebra.Singleton <> x var
+R2075:2075 Algebra.Singleton <> y var
+R2045:2051 Algebra.Parts <> in_part def
+R2056:2061 Algebra.Singleton <> single def
+R2063:2063 Algebra.Singleton <> x var
+R2053:2053 Algebra.Singleton <> y var
+prf 2167:2178 <> single_simpl
+R2195:2195 Algebra.Singleton <> Single1.E var
+R2225:2228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2229:2233 Algebra.Sets <> Equal proj
+R2237:2237 Algebra.Singleton <> y var
+R2235:2235 Algebra.Singleton <> x var
+R2198:2202 Algebra.Sets <> Equal proj
+R2216:2221 Algebra.Singleton <> single def
+R2223:2223 Algebra.Singleton <> y var
+R2205:2210 Algebra.Singleton <> single def
+R2212:2212 Algebra.Singleton <> x var
+R2262:2268 Algebra.Parts <> eq_part def
+R2271:2276 Algebra.Singleton <> single def
+R2374:2380 Algebra.Singleton Single1 <> sec

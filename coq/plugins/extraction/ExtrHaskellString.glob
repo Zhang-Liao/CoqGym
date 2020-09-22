@@ -1,0 +1,7 @@
+DIGEST 60cec9a6de97b66ca1c21335dfeb27dc
+FCoq.extraction.ExtrHaskellString
+R85:109 Coq.extraction.Extraction <> <> lib
+R128:132 Coq.Strings.Ascii <> <> lib
+R150:155 Coq.Strings.String <> <> lib
+R399:403 Coq.Strings.Ascii <> ascii ind
+R1492:1497 Coq.Strings.String <> string ind

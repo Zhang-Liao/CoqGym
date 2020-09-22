@@ -1,0 +1,40 @@
+DIGEST 9562620ad9099c2027d28545c60e03c5
+FZornsLemma.EnsemblesSpec
+R15:23 Coq.Sets.Ensembles <> <> lib
+R41:57 ZornsLemma.EnsemblesImplicit <> <> lib
+ind 71:105 <> characteristic_function_abstraction
+constr 148:171 <> intro_characteristic_sat
+R120:121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R119:119 ZornsLemma.EnsemblesSpec <> X var
+R131:131 ZornsLemma.EnsemblesSpec <> X var
+R177:184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R185:186 Coq.Sets.Ensembles <> In def
+R228:228 ZornsLemma.EnsemblesSpec <> x var
+R189:223 ZornsLemma.EnsemblesSpec <> characteristic_function_abstraction ind
+R225:225 ZornsLemma.EnsemblesSpec <> P var
+R189:223 ZornsLemma.EnsemblesSpec <> X var
+R174:174 ZornsLemma.EnsemblesSpec <> P var
+R176:176 ZornsLemma.EnsemblesSpec <> x var
+def 243:277 <> characteristic_function_to_ensemble
+R292:293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R291:291 ZornsLemma.EnsemblesSpec <> X var
+R302:309 Coq.Sets.Ensembles <> Ensemble def
+R311:311 ZornsLemma.EnsemblesSpec <> X var
+R318:352 ZornsLemma.EnsemblesSpec <> characteristic_function_abstraction ind
+R354:354 ZornsLemma.EnsemblesSpec <> P var
+R389:423 ZornsLemma.EnsemblesSpec <> characteristic_function_to_ensemble def
+not 367:367 <> :::'['_x_':'_x_'|'_x_']'
+prf 461:507 <> characteristic_function_to_ensemble_is_identity
+R532:533 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R531:531 ZornsLemma.EnsemblesSpec <> X var
+R558:560 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R545:546 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R548:548 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R550:552 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R556:557 ZornsLemma.EnsemblesSpec <> :::'['_x_':'_x_'|'_x_']' not
+R553:553 ZornsLemma.EnsemblesSpec <> P var
+R555:555 ZornsLemma.EnsemblesSpec <> x var
+R549:549 ZornsLemma.EnsemblesSpec <> X var
+R561:561 ZornsLemma.EnsemblesSpec <> P var
+R585:608 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax
+R585:608 Coq.Sets.Ensembles <> Extensionality_Ensembles prfax

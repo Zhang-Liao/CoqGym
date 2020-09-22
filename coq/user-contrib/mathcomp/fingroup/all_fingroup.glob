@@ -1,0 +1,10 @@
+DIGEST 9dfd5b5b4b0a3f555afcb43cdc519ace
+Fmathcomp.fingroup.all_fingroup
+R15:20 mathcomp.fingroup.action <> <> lib
+R38:49 mathcomp.fingroup.automorphism <> <> lib
+R67:74 mathcomp.fingroup.fingroup <> <> lib
+R92:99 mathcomp.fingroup.gproduct <> <> lib
+R117:124 mathcomp.fingroup.morphism <> <> lib
+R142:145 mathcomp.fingroup.perm <> <> lib
+R163:174 mathcomp.fingroup.presentation <> <> lib
+R192:199 mathcomp.fingroup.quotient <> <> lib

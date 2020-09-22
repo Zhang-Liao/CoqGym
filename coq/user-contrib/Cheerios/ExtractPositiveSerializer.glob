@@ -1,0 +1,29 @@
+DIGEST 7781579421a98fd5212a6936b680aec8
+FCheerios.ExtractPositiveSerializer
+R15:52 Cheerios.ExtractPositiveSerializerDeps <> <> lib
+R71:76 Coq.ZArith.ZArith <> <> lib
+R94:107 Coq.extraction.ExtrOcamlBasic <> <> lib
+R125:139 Coq.extraction.ExtrOcamlString <> <> lib
+def 154:171 <> positive_serialize
+R183:186 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R187:202 Cheerios.Core IOStreamWriter t defax
+R175:182 Coq.Numbers.BinNums <> positive ind
+R207:215 Cheerios.Core <> serialize meth
+def 230:249 <> positive_deserialize
+R253:268 Cheerios.Core ByteListReader t defax
+R270:277 Coq.Numbers.BinNums <> positive ind
+R282:292 Cheerios.Core <> deserialize meth
+def 307:328 <> positive_serialize_top
+R340:343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R344:362 Cheerios.Core IOStreamWriter wire defax
+R332:339 Coq.Numbers.BinNums <> positive ind
+R378:390 Cheerios.Core <> serialize_top def
+R393:401 Cheerios.Core <> serialize meth
+R403:403 Cheerios.ExtractPositiveSerializer <> p var
+def 419:442 <> positive_deserialize_top
+R465:468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R469:474 Coq.Init.Datatypes <> option ind
+R476:483 Coq.Numbers.BinNums <> positive ind
+R446:464 Cheerios.Core IOStreamWriter wire defax
+R490:504 Cheerios.Core <> deserialize_top def
+R506:516 Cheerios.Core <> deserialize meth

@@ -1,0 +1,440 @@
+DIGEST 37f5dee5621f672931aba66a6e056cd8
+FCoq.NArith.BinNatDef
+R691:697 Coq.Numbers.BinNums <> <> lib
+R715:720 Coq.PArith.BinPos <> <> lib
+R773:774 Coq.Numbers.BinNums <> N0 constr
+not 766:766 <> :::'0'
+R800:803 Coq.Numbers.BinNums <> Npos constr
+not 792:792 <> :::'1'
+R832:835 Coq.Numbers.BinNums <> Npos constr
+not 824:824 <> :::'2'
+mod 1055:1055 <> N
+def 1070:1070 N t
+R1075:1075 Coq.Numbers.BinNums <> N ind
+syndef 1140:1142 N pos
+R1147:1150 Coq.Numbers.BinNums <> Npos constr
+def 1186:1189 N zero
+def 1208:1210 N one
+def 1229:1231 N two
+def 1285:1295 N succ_double
+R1310:1310 Coq.NArith.BinNatDef <> x var
+R1341:1343 Coq.NArith.BinNatDef N pos syndef
+R1346:1347 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+def 1400:1405 N double
+R1420:1420 Coq.NArith.BinNatDef <> n var
+R1451:1453 Coq.NArith.BinNatDef N pos syndef
+R1456:1457 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+def 1499:1502 N succ
+R1517:1517 Coq.NArith.BinNatDef <> n var
+R1548:1550 Coq.NArith.BinNatDef N pos syndef
+R1553:1560 Coq.PArith.BinPos Pos succ def
+def 1607:1610 N pred
+R1625:1625 Coq.NArith.BinNatDef <> n var
+R1656:1665 Coq.PArith.BinPos Pos pred_N def
+def 1750:1757 N succ_pos
+R1764:1764 Coq.Numbers.BinNums <> N ind
+R1769:1776 Coq.Numbers.BinNums <> positive ind
+R1788:1788 Coq.NArith.BinNatDef <> n var
+R1830:1837 Coq.PArith.BinPos Pos succ def
+def 1879:1881 N add
+R1901:1901 Coq.NArith.BinNatDef <> m var
+R1898:1898 Coq.NArith.BinNatDef <> n var
+R1920:1920 Coq.NArith.BinNatDef <> m var
+R1934:1934 Coq.NArith.BinNatDef <> n var
+R1956:1958 Coq.NArith.BinNatDef N pos syndef
+R1962:1964 Coq.PArith.BinPos <> ::positive_scope:x_'+'_x not
+R1989:1991 Coq.NArith.BinNatDef N add def
+not 1982:1982 N ::N_scope:x_'+'_x
+def 2036:2038 N sub
+R2056:2056 Coq.NArith.BinNatDef <> m var
+R2053:2053 Coq.NArith.BinNatDef <> n var
+R2085:2085 Coq.NArith.BinNatDef <> n var
+R2115:2126 Coq.PArith.BinPos Pos sub_mask def
+R2154:2156 Coq.NArith.BinNatDef N pos syndef
+R2196:2198 Coq.NArith.BinNatDef N sub def
+not 2189:2189 N ::N_scope:x_'-'_x
+def 2246:2248 N mul
+R2268:2268 Coq.NArith.BinNatDef <> m var
+R2265:2265 Coq.NArith.BinNatDef <> n var
+R2323:2325 Coq.NArith.BinNatDef N pos syndef
+R2329:2331 Coq.PArith.BinPos <> ::positive_scope:x_'*'_x not
+R2356:2358 Coq.NArith.BinNatDef N mul def
+not 2349:2349 N ::N_scope:x_'*'_x
+def 2397:2403 N compare
+R2423:2423 Coq.NArith.BinNatDef <> m var
+R2420:2420 Coq.NArith.BinNatDef <> n var
+R2442:2443 Coq.Init.Datatypes <> Eq constr
+R2462:2463 Coq.Init.Datatypes <> Lt constr
+R2482:2483 Coq.Init.Datatypes <> Gt constr
+R2510:2513 Coq.PArith.BinPos <> ::positive_scope:x_'?='_x not
+R2549:2555 Coq.NArith.BinNatDef N compare def
+not 2541:2541 N ::N_scope:x_'?='_x
+def 2650:2652 N eqb
+R2672:2672 Coq.NArith.BinNatDef <> m var
+R2669:2669 Coq.NArith.BinNatDef <> n var
+R2693:2696 Coq.Init.Datatypes <> true constr
+R2720:2726 Coq.PArith.BinPos Pos eqb def
+R2746:2750 Coq.Init.Datatypes <> false constr
+def 2771:2773 N leb
+R2790:2793 Coq.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R2789:2789 Coq.NArith.BinNatDef <> x var
+R2794:2794 Coq.NArith.BinNatDef <> y var
+R2801:2802 Coq.Init.Datatypes <> Gt constr
+R2807:2811 Coq.Init.Datatypes <> false constr
+R2820:2823 Coq.Init.Datatypes <> true constr
+def 2842:2844 N ltb
+R2861:2864 Coq.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R2860:2860 Coq.NArith.BinNatDef <> x var
+R2865:2865 Coq.NArith.BinNatDef <> y var
+R2872:2873 Coq.Init.Datatypes <> Lt constr
+R2878:2881 Coq.Init.Datatypes <> true constr
+R2890:2894 Coq.Init.Datatypes <> false constr
+R2916:2918 Coq.NArith.BinNatDef N eqb def
+not 2908:2908 N ::N_scope:x_'=?'_x
+R2978:2980 Coq.NArith.BinNatDef N leb def
+not 2969:2969 N ::N_scope:x_'<=?'_x
+R3039:3041 Coq.NArith.BinNatDef N ltb def
+not 3031:3031 N ::N_scope:x_'<?'_x
+def 3118:3120 N min
+R3137:3140 Coq.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R3136:3136 Coq.NArith.BinNatDef <> n var
+R3141:3142 Coq.NArith.BinNatDef <> n' var
+R3152:3153 Coq.Init.Datatypes <> Lt constr
+R3157:3158 Coq.Init.Datatypes <> Eq constr
+R3163:3163 Coq.NArith.BinNatDef <> n var
+R3163:3163 Coq.NArith.BinNatDef <> n var
+R3168:3169 Coq.Init.Datatypes <> Gt constr
+R3174:3175 Coq.NArith.BinNatDef <> n' var
+def 3195:3197 N max
+R3214:3217 Coq.NArith.BinNatDef N ::N_scope:x_'?='_x not
+R3213:3213 Coq.NArith.BinNatDef <> n var
+R3218:3219 Coq.NArith.BinNatDef <> n' var
+R3229:3230 Coq.Init.Datatypes <> Lt constr
+R3234:3235 Coq.Init.Datatypes <> Eq constr
+R3240:3241 Coq.NArith.BinNatDef <> n' var
+R3240:3241 Coq.NArith.BinNatDef <> n' var
+R3246:3247 Coq.Init.Datatypes <> Gt constr
+R3252:3252 Coq.NArith.BinNatDef <> n var
+def 3294:3297 N div2
+R3312:3312 Coq.NArith.BinNatDef <> n var
+R3351:3352 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R3358:3360 Coq.NArith.BinNatDef N pos syndef
+R3374:3375 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R3381:3383 Coq.NArith.BinNatDef N pos syndef
+def 3421:3424 N even
+R3439:3439 Coq.NArith.BinNatDef <> n var
+R3457:3460 Coq.Init.Datatypes <> true constr
+R3473:3474 Coq.Numbers.BinNums <> xO constr
+R3482:3485 Coq.Init.Datatypes <> true constr
+R3498:3502 Coq.Init.Datatypes <> false constr
+def 3523:3525 N odd
+R3532:3535 Coq.Init.Datatypes <> negb def
+R3538:3541 Coq.NArith.BinNatDef N even def
+R3543:3543 Coq.NArith.BinNatDef <> n var
+def 3573:3575 N pow
+R3595:3595 Coq.NArith.BinNatDef <> n var
+R3592:3592 Coq.NArith.BinNatDef <> p var
+R3656:3658 Coq.NArith.BinNatDef N pos syndef
+R3662:3662 Coq.PArith.BinPos <> ::positive_scope:x_'^'_x not
+R3663:3663 Coq.NArith.BinNatDef <> p var
+R3687:3689 Coq.NArith.BinNatDef N pow def
+not 3680:3680 N ::N_scope:x_'^'_x
+def 3729:3734 N square
+R3749:3749 Coq.NArith.BinNatDef <> n var
+R3784:3786 Coq.NArith.BinNatDef N pos syndef
+R3789:3798 Coq.PArith.BinPos Pos square def
+def 3847:3850 N log2
+R3864:3864 Coq.NArith.BinNatDef <> n var
+R3906:3907 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R3913:3915 Coq.NArith.BinNatDef N pos syndef
+R3918:3925 Coq.PArith.BinPos Pos size def
+R3941:3942 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R3948:3950 Coq.NArith.BinNatDef N pos syndef
+R3953:3960 Coq.PArith.BinPos Pos size def
+def 4068:4071 N size
+R4085:4085 Coq.NArith.BinNatDef <> n var
+R4116:4118 Coq.NArith.BinNatDef N pos syndef
+R4121:4128 Coq.PArith.BinPos Pos size def
+def 4151:4158 N size_nat
+R4172:4172 Coq.NArith.BinNatDef <> n var
+R4188:4188 Coq.Init.Datatypes <> O constr
+R4203:4214 Coq.PArith.BinPos Pos size_nat def
+def 4261:4272 N pos_div_eucl
+R4277:4284 Coq.Numbers.BinNums <> positive ind
+R4289:4289 Coq.Numbers.BinNums <> N ind
+R4295:4297 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4294:4294 Coq.Numbers.BinNums <> N ind
+R4298:4298 Coq.Numbers.BinNums <> N ind
+R4311:4311 Coq.NArith.BinNatDef <> a var
+R4324:4325 Coq.Numbers.BinNums <> xH constr
+R4343:4343 Coq.NArith.BinNatDef <> b var
+R4355:4355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4357:4357 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4359:4359 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4368:4368 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4370:4370 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4372:4372 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4384:4385 Coq.Numbers.BinNums <> xO constr
+R4414:4425 Coq.NArith.BinNatDef <> pos_div_eucl def
+R4430:4430 Coq.NArith.BinNatDef <> b var
+R4452:4457 Coq.NArith.BinNatDef N double def
+R4459:4459 Coq.NArith.BinNatDef <> r var
+R4475:4479 Coq.NArith.BinNatDef N ::N_scope:x_'<=?'_x not
+R4474:4474 Coq.NArith.BinNatDef <> b var
+R4480:4481 Coq.NArith.BinNatDef <> r' var
+R4525:4525 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4534:4535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4538:4538 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4526:4531 Coq.NArith.BinNatDef N double def
+R4533:4533 Coq.NArith.BinNatDef <> q var
+R4536:4537 Coq.NArith.BinNatDef <> r' var
+R4488:4488 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4502:4503 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4510:4510 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4489:4499 Coq.NArith.BinNatDef N succ_double def
+R4501:4501 Coq.NArith.BinNatDef <> q var
+R4506:4508 Coq.NArith.BinNatDef N ::N_scope:x_'-'_x not
+R4504:4505 Coq.NArith.BinNatDef <> r' var
+R4509:4509 Coq.NArith.BinNatDef <> b var
+R4546:4547 Coq.Numbers.BinNums <> xI constr
+R4576:4587 Coq.NArith.BinNatDef <> pos_div_eucl def
+R4592:4592 Coq.NArith.BinNatDef <> b var
+R4614:4624 Coq.NArith.BinNatDef N succ_double def
+R4626:4626 Coq.NArith.BinNatDef <> r var
+R4642:4646 Coq.NArith.BinNatDef N ::N_scope:x_'<=?'_x not
+R4641:4641 Coq.NArith.BinNatDef <> b var
+R4647:4648 Coq.NArith.BinNatDef <> r' var
+R4693:4693 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4702:4703 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4706:4706 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4694:4699 Coq.NArith.BinNatDef N double def
+R4701:4701 Coq.NArith.BinNatDef <> q var
+R4704:4705 Coq.NArith.BinNatDef <> r' var
+R4655:4655 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4669:4670 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4677:4677 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4656:4666 Coq.NArith.BinNatDef N succ_double def
+R4668:4668 Coq.NArith.BinNatDef <> q var
+R4673:4675 Coq.NArith.BinNatDef N ::N_scope:x_'-'_x not
+R4671:4672 Coq.NArith.BinNatDef <> r' var
+R4676:4676 Coq.NArith.BinNatDef <> b var
+def 4727:4734 N div_eucl
+R4741:4741 Coq.Numbers.BinNums <> N ind
+R4747:4749 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R4746:4746 Coq.Numbers.BinNums <> N ind
+R4750:4750 Coq.Numbers.BinNums <> N ind
+R4766:4766 Coq.NArith.BinNatDef <> b var
+R4763:4763 Coq.NArith.BinNatDef <> a var
+R4787:4787 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4789:4790 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4792:4792 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4808:4808 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4810:4811 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4813:4813 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4812:4812 Coq.NArith.BinNatDef <> a var
+R4833:4844 Coq.NArith.BinNatDef N pos_div_eucl def
+R4849:4849 Coq.NArith.BinNatDef <> b var
+def 4870:4872 N div
+R4881:4883 Coq.Init.Datatypes <> fst def
+R4886:4893 Coq.NArith.BinNatDef N div_eucl def
+R4897:4897 Coq.NArith.BinNatDef <> b var
+R4895:4895 Coq.NArith.BinNatDef <> a var
+def 4912:4917 N modulo
+R4926:4928 Coq.Init.Datatypes <> snd def
+R4931:4938 Coq.NArith.BinNatDef N div_eucl def
+R4942:4942 Coq.NArith.BinNatDef <> b var
+R4940:4940 Coq.NArith.BinNatDef <> a var
+R4960:4962 Coq.NArith.BinNatDef N div def
+not 4953:4953 N ::N_scope:x_'/'_x
+R4990:4995 Coq.NArith.BinNatDef N modulo def
+not 4981:4981 N ::N_scope:x_'mod'_x
+def 5084:5086 N gcd
+R5105:5105 Coq.NArith.BinNatDef <> b var
+R5102:5102 Coq.NArith.BinNatDef <> a var
+R5124:5124 Coq.NArith.BinNatDef <> b var
+R5138:5138 Coq.NArith.BinNatDef <> a var
+R5160:5162 Coq.NArith.BinNatDef N pos syndef
+R5165:5171 Coq.PArith.BinPos Pos gcd def
+def 5284:5287 N ggcd
+R5306:5306 Coq.NArith.BinNatDef <> b var
+R5303:5303 Coq.NArith.BinNatDef <> a var
+R5325:5325 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5327:5327 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5333:5333 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5326:5326 Coq.NArith.BinNatDef <> b var
+R5328:5328 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5330:5330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5332:5332 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5347:5347 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5349:5349 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5355:5355 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5348:5348 Coq.NArith.BinNatDef <> a var
+R5350:5350 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5352:5352 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5354:5354 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5402:5409 Coq.PArith.BinPos Pos ggcd def
+R5387:5387 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5389:5389 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5397:5397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5390:5390 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5393:5393 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5396:5396 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5423:5423 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5429:5430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5447:5447 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5424:5426 Coq.NArith.BinNatDef N pos syndef
+R5431:5431 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5438:5439 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5446:5446 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5432:5434 Coq.NArith.BinNatDef N pos syndef
+R5440:5442 Coq.NArith.BinNatDef N pos syndef
+def 5487:5493 N sqrtrem
+R5507:5507 Coq.NArith.BinNatDef <> n var
+R5523:5523 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5525:5526 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5528:5528 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5553:5563 Coq.PArith.BinPos Pos sqrtrem def
+R5579:5579 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5581:5582 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5590:5590 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5595:5595 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5601:5602 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5608:5608 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5596:5598 Coq.NArith.BinNatDef N pos syndef
+R5603:5605 Coq.NArith.BinNatDef N pos syndef
+R5617:5617 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5619:5620 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5622:5622 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5627:5627 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5633:5634 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5636:5636 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5628:5630 Coq.NArith.BinNatDef N pos syndef
+def 5664:5667 N sqrt
+R5681:5681 Coq.NArith.BinNatDef <> n var
+R5712:5714 Coq.NArith.BinNatDef N pos syndef
+R5717:5724 Coq.PArith.BinPos Pos sqrt def
+def 5813:5815 N lor
+R5834:5834 Coq.NArith.BinNatDef <> m var
+R5831:5831 Coq.NArith.BinNatDef <> n var
+R5854:5854 Coq.NArith.BinNatDef <> m var
+R5869:5869 Coq.NArith.BinNatDef <> n var
+R5892:5894 Coq.NArith.BinNatDef N pos syndef
+R5897:5903 Coq.PArith.BinPos Pos lor def
+def 5950:5953 N land
+R5972:5972 Coq.NArith.BinNatDef <> m var
+R5969:5969 Coq.NArith.BinNatDef <> n var
+R6027:6034 Coq.PArith.BinPos Pos land def
+def 6079:6083 N ldiff
+R6102:6102 Coq.NArith.BinNatDef <> m var
+R6099:6099 Coq.NArith.BinNatDef <> n var
+R6135:6135 Coq.NArith.BinNatDef <> n var
+R6157:6165 Coq.PArith.BinPos Pos ldiff def
+def 6203:6206 N lxor
+R6226:6226 Coq.NArith.BinNatDef <> m var
+R6223:6223 Coq.NArith.BinNatDef <> n var
+R6247:6247 Coq.NArith.BinNatDef <> m var
+R6263:6263 Coq.NArith.BinNatDef <> n var
+R6287:6294 Coq.PArith.BinPos Pos lxor def
+def 6334:6343 N shiftl_nat
+R6348:6348 Coq.Numbers.BinNums <> N ind
+R6354:6361 Coq.Init.Datatypes <> nat_rect scheme
+R6377:6382 Coq.NArith.BinNatDef N double def
+R6365:6365 Coq.NArith.BinNatDef <> a var
+def 6397:6406 N shiftr_nat
+R6411:6411 Coq.Numbers.BinNums <> N ind
+R6417:6424 Coq.Init.Datatypes <> nat_rect scheme
+R6440:6443 Coq.NArith.BinNatDef N div2 def
+R6428:6428 Coq.NArith.BinNatDef <> a var
+def 6459:6464 N shiftl
+R6481:6481 Coq.NArith.BinNatDef <> a var
+R6516:6518 Coq.NArith.BinNatDef N pos syndef
+R6521:6530 Coq.PArith.BinPos Pos shiftl def
+R6534:6534 Coq.NArith.BinNatDef <> n var
+R6532:6532 Coq.NArith.BinNatDef <> a var
+def 6556:6561 N shiftr
+R6578:6578 Coq.NArith.BinNatDef <> n var
+R6596:6596 Coq.NArith.BinNatDef <> a var
+R6613:6620 Coq.PArith.BinPos Pos iter def
+R6627:6627 Coq.NArith.BinNatDef <> a var
+R6622:6625 Coq.NArith.BinNatDef N div2 def
+def 6706:6716 N testbit_nat
+R6721:6721 Coq.Numbers.BinNums <> N ind
+R6735:6735 Coq.NArith.BinNatDef <> a var
+R6762:6766 Coq.Init.Datatypes <> false constr
+R6783:6797 Coq.PArith.BinPos Pos testbit_nat def
+def 6854:6860 N testbit
+R6877:6877 Coq.NArith.BinNatDef <> a var
+R6895:6899 Coq.Init.Datatypes <> false constr
+R6916:6926 Coq.PArith.BinPos Pos testbit def
+R6930:6930 Coq.NArith.BinNatDef <> n var
+def 6999:7004 N to_nat
+R7009:7009 Coq.Numbers.BinNums <> N ind
+R7023:7023 Coq.NArith.BinNatDef <> a var
+R7041:7041 Coq.Init.Datatypes <> O constr
+R7058:7067 Coq.PArith.BinPos Pos to_nat def
+def 7090:7095 N of_nat
+R7100:7102 Coq.Init.Datatypes <> nat ind
+R7116:7116 Coq.NArith.BinNatDef <> n var
+R7129:7129 Coq.Init.Datatypes <> O constr
+R7142:7142 Coq.Init.Datatypes <> S constr
+R7150:7152 Coq.NArith.BinNatDef N pos syndef
+R7155:7169 Coq.PArith.BinPos Pos of_succ_nat def
+def 7226:7229 N iter
+R7234:7234 Coq.Numbers.BinNums <> N ind
+R7245:7246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7247:7247 Coq.NArith.BinNatDef <> A var
+R7244:7244 Coq.NArith.BinNatDef <> A var
+R7253:7253 Coq.NArith.BinNatDef <> A var
+R7258:7258 Coq.NArith.BinNatDef <> A var
+R7271:7271 Coq.NArith.BinNatDef <> n var
+R7289:7289 Coq.NArith.BinNatDef <> x var
+R7306:7313 Coq.PArith.BinPos Pos iter def
+R7317:7317 Coq.NArith.BinNatDef <> x var
+R7315:7315 Coq.NArith.BinNatDef <> f var
+def 7410:7416 N of_uint
+R7421:7432 Coq.Init.Decimal <> uint ind
+R7438:7448 Coq.PArith.BinPos Pos of_uint def
+R7450:7450 Coq.NArith.BinNatDef <> d var
+def 7465:7470 N of_int
+R7475:7485 Coq.Init.Decimal <> int ind
+R7499:7510 Coq.Init.Decimal <> norm def
+R7512:7512 Coq.NArith.BinNatDef <> d var
+R7523:7533 Coq.Init.Decimal <> Pos constr
+R7540:7543 Coq.Init.Datatypes <> Some constr
+R7546:7556 Coq.PArith.BinPos Pos of_uint def
+R7558:7558 Coq.NArith.BinNatDef <> d var
+R7565:7575 Coq.Init.Decimal <> Neg constr
+R7582:7585 Coq.Init.Datatypes <> None constr
+def 7606:7612 N to_uint
+R7627:7627 Coq.NArith.BinNatDef <> n var
+R7643:7654 Coq.Init.Decimal <> zero syndef
+R7669:7679 Coq.PArith.BinPos Pos to_uint def
+def 7702:7707 N to_int
+R7714:7724 Coq.Init.Decimal <> Pos constr
+R7727:7733 Coq.NArith.BinNatDef N to_uint def
+R7735:7735 Coq.NArith.BinNatDef <> n var
+R7757:7757 Coq.Numbers.BinNums <> N ind
+R7759:7765 Coq.NArith.BinNatDef N of_uint def
+R7757:7757 Coq.Numbers.BinNums <> N ind
+R7759:7765 Coq.NArith.BinNatDef N of_uint def
+R7757:7757 Coq.Numbers.BinNums <> N ind
+R7759:7765 Coq.NArith.BinNatDef N of_uint def
+R7757:7757 Coq.Numbers.BinNums <> N ind
+R7767:7773 Coq.NArith.BinNatDef N to_uint def
+R7757:7757 Coq.Numbers.BinNums <> N ind
+R7767:7773 Coq.NArith.BinNatDef N to_uint def
+R7757:7757 Coq.Numbers.BinNums <> N ind
+R7767:7773 Coq.NArith.BinNatDef N to_uint def
+R7791:7791 Coq.NArith.BinNatDef N <> mod
+R7880:7880 Coq.Numbers.BinNums <> N ind
+R7882:7890 Coq.NArith.BinNatDef <> of_uint def
+R7880:7880 Coq.Numbers.BinNums <> N ind
+R7882:7890 Coq.NArith.BinNatDef <> of_uint def
+R7880:7880 Coq.Numbers.BinNums <> N ind
+R7882:7890 Coq.NArith.BinNatDef <> of_uint def
+R7880:7880 Coq.Numbers.BinNums <> N ind
+R7892:7900 Coq.NArith.BinNatDef <> to_uint def
+R7880:7880 Coq.Numbers.BinNums <> N ind
+R7892:7900 Coq.NArith.BinNatDef <> to_uint def
+R7880:7880 Coq.Numbers.BinNums <> N ind
+R7892:7900 Coq.NArith.BinNatDef <> to_uint def

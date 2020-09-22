@@ -1,0 +1,126 @@
+DIGEST 85d246029060e324119535b5b3a70d52
+FVerdi.StateMachineHandlerMonad
+R15:18 Coq.Lists.List <> <> lib
+def 262:272 <> GenHandler1
+R298:301 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R303:305 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R302:302 Verdi.StateMachineHandlerMonad <> A var
+R306:306 Verdi.StateMachineHandlerMonad <> S var
+R297:297 Verdi.StateMachineHandlerMonad <> S var
+def 328:330 <> ret
+R350:350 Verdi.StateMachineHandlerMonad <> A var
+R355:365 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R369:369 Verdi.StateMachineHandlerMonad <> A var
+R367:367 Verdi.StateMachineHandlerMonad <> S var
+R383:383 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R385:386 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R388:388 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R384:384 Verdi.StateMachineHandlerMonad <> a var
+R387:387 Verdi.StateMachineHandlerMonad <> s var
+def 403:406 <> bind
+R428:438 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R442:442 Verdi.StateMachineHandlerMonad <> A var
+R440:440 Verdi.StateMachineHandlerMonad <> S var
+R451:454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R455:465 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R469:469 Verdi.StateMachineHandlerMonad <> B var
+R467:467 Verdi.StateMachineHandlerMonad <> S var
+R450:450 Verdi.StateMachineHandlerMonad <> A var
+R474:484 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R488:488 Verdi.StateMachineHandlerMonad <> B var
+R486:486 Verdi.StateMachineHandlerMonad <> S var
+R524:524 Verdi.StateMachineHandlerMonad <> m var
+R526:526 Verdi.StateMachineHandlerMonad <> s var
+R513:513 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R515:516 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R519:519 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R552:552 Verdi.StateMachineHandlerMonad <> f var
+R540:540 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R542:543 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R547:547 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R566:566 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R568:569 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R573:573 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+def 608:619 <> write_output
+R632:632 Verdi.StateMachineHandlerMonad <> O var
+R637:647 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R651:651 Verdi.StateMachineHandlerMonad <> O var
+R649:649 Verdi.StateMachineHandlerMonad <> S var
+R656:658 Verdi.StateMachineHandlerMonad <> ret def
+R660:660 Verdi.StateMachineHandlerMonad <> o var
+def 675:680 <> modify
+R692:695 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R696:696 Verdi.StateMachineHandlerMonad <> S var
+R691:691 Verdi.StateMachineHandlerMonad <> S var
+R701:711 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R715:718 Coq.Init.Datatypes <> unit ind
+R713:713 Verdi.StateMachineHandlerMonad <> S var
+R732:732 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R735:736 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R740:740 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R733:734 Coq.Init.Datatypes <> tt constr
+R737:737 Verdi.StateMachineHandlerMonad <> f var
+R739:739 Verdi.StateMachineHandlerMonad <> s var
+def 755:757 <> put
+R768:768 Verdi.StateMachineHandlerMonad <> S var
+R773:783 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R787:790 Coq.Init.Datatypes <> unit ind
+R785:785 Verdi.StateMachineHandlerMonad <> S var
+R804:804 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R807:808 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R810:810 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R805:806 Coq.Init.Datatypes <> tt constr
+R809:809 Verdi.StateMachineHandlerMonad <> s var
+def 825:827 <> get
+R835:845 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R849:849 Verdi.StateMachineHandlerMonad <> S var
+R847:847 Verdi.StateMachineHandlerMonad <> S var
+R863:863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R865:866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R868:868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R864:864 Verdi.StateMachineHandlerMonad <> s var
+R867:867 Verdi.StateMachineHandlerMonad <> s var
+def 883:896 <> runGenHandler1
+R909:909 Verdi.StateMachineHandlerMonad <> S var
+R917:927 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R931:931 Verdi.StateMachineHandlerMonad <> A var
+R929:929 Verdi.StateMachineHandlerMonad <> S var
+R939:941 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R938:938 Verdi.StateMachineHandlerMonad <> A var
+R942:942 Verdi.StateMachineHandlerMonad <> S var
+R956:956 Verdi.StateMachineHandlerMonad <> h var
+R958:958 Verdi.StateMachineHandlerMonad <> s var
+def 973:975 <> nop
+R992:994 Verdi.StateMachineHandlerMonad <> ret def
+R1000:1001 Coq.Init.Datatypes <> tt constr
+R996:996 Verdi.StateMachineHandlerMonad <> S var
+R1027:1030 Verdi.StateMachineHandlerMonad <> bind def
+not 1014:1014 <> :::x_'>>'_x
+R1094:1097 Verdi.StateMachineHandlerMonad <> bind def
+not 1073:1073 <> :::x_'<-'_x_';;'_x
+R1234:1237 Verdi.StateMachineHandlerMonad <> :::x_'<-'_x_';;'_x not
+R1240:1243 Verdi.StateMachineHandlerMonad <> :::x_'<-'_x_';;'_x not
+not 1218:1218 <> :::x_';;'_x
+def 1322:1325 <> when
+R1338:1341 Coq.Init.Datatypes <> bool ind
+R1349:1359 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R1363:1363 Verdi.StateMachineHandlerMonad <> A var
+R1361:1361 Verdi.StateMachineHandlerMonad <> S var
+R1368:1378 Verdi.StateMachineHandlerMonad <> GenHandler1 def
+R1382:1385 Coq.Init.Datatypes <> unit ind
+R1380:1380 Verdi.StateMachineHandlerMonad <> S var
+R1395:1395 Verdi.StateMachineHandlerMonad <> b var
+R1419:1421 Verdi.StateMachineHandlerMonad <> nop def
+R1403:1406 Verdi.StateMachineHandlerMonad <> :::x_';;'_x not
+R1402:1402 Verdi.StateMachineHandlerMonad <> m var
+R1407:1409 Verdi.StateMachineHandlerMonad <> ret def
+R1411:1412 Coq.Init.Datatypes <> tt constr
+R1471:1484 Verdi.StateMachineHandlerMonad <> runGenHandler1 def
+R1496:1499 Verdi.StateMachineHandlerMonad <> bind def
+R1511:1522 Verdi.StateMachineHandlerMonad <> write_output def
+R1534:1536 Verdi.StateMachineHandlerMonad <> get def
+R1548:1551 Verdi.StateMachineHandlerMonad <> when def
+R1563:1565 Verdi.StateMachineHandlerMonad <> put def
+R1577:1579 Verdi.StateMachineHandlerMonad <> nop def
+R1591:1596 Verdi.StateMachineHandlerMonad <> modify def
+R1608:1610 Verdi.StateMachineHandlerMonad <> ret def

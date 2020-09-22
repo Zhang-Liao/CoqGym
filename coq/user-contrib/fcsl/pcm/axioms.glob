@@ -1,0 +1,263 @@
+DIGEST 395f6b888c87a80c24100c0b358e4f97
+Ffcsl.pcm.axioms
+R1323:1331 Coq.ssr.ssreflect <> <> lib
+R1333:1338 Coq.ssr.ssrfun <> <> lib
+R1340:1344 Coq.Logic.Eqdep <> <> lib
+R1346:1359 Coq.Logic.ClassicalFacts <> <> lib
+ax 1593:1596 <> pext
+R1621:1621 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1631:1635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1638:1640 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1636:1637 fcsl.pcm.axioms <> p1 var
+R1641:1642 fcsl.pcm.axioms <> p2 var
+R1624:1628 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1622:1623 fcsl.pcm.axioms <> p1 var
+R1629:1630 fcsl.pcm.axioms <> p2 var
+ax 1651:1654 <> fext
+R1673:1676 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1672:1672 fcsl.pcm.axioms <> A var
+R1702:1702 fcsl.pcm.axioms <> B var
+R1704:1704 fcsl.pcm.axioms <> x var
+R1724:1724 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1746:1750 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1753:1755 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1751:1752 fcsl.pcm.axioms <> f1 var
+R1756:1757 fcsl.pcm.axioms <> f2 var
+R1739:1741 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1735:1736 fcsl.pcm.axioms <> f1 var
+R1738:1738 fcsl.pcm.axioms <> x var
+R1742:1743 fcsl.pcm.axioms <> f2 var
+R1745:1745 fcsl.pcm.axioms <> x var
+prf 1767:1772 <> pf_irr
+R1794:1794 fcsl.pcm.axioms <> P var
+R1801:1803 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1799:1800 fcsl.pcm.axioms <> p1 var
+R1804:1805 fcsl.pcm.axioms <> p2 var
+R1824:1851 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_cic thm
+R1853:1856 fcsl.pcm.axioms <> pext prfax
+R1824:1851 Coq.Logic.ClassicalFacts <> ext_prop_dep_proof_irrel_cic thm
+R1853:1856 fcsl.pcm.axioms <> pext prfax
+prf 1871:1873 <> eta
+R1883:1886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1882:1882 fcsl.pcm.axioms <> A var
+R1908:1908 fcsl.pcm.axioms <> B var
+R1910:1910 fcsl.pcm.axioms <> x var
+R1916:1918 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1915:1915 fcsl.pcm.axioms <> f var
+R1919:1923 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R1925:1925 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R1924:1924 fcsl.pcm.axioms <> f var
+R1945:1948 fcsl.pcm.axioms <> fext prfax
+R1945:1948 fcsl.pcm.axioms <> fext prfax
+prf 1966:1973 <> sval_inj
+R1981:1989 Coq.ssr.ssrfun <> injective def
+R1992:2000 Coq.ssr.ssrfun <> :::'@'_'sval' not
+R2000:2000 fcsl.pcm.axioms <> P var
+R1998:1998 fcsl.pcm.axioms <> A var
+R2070:2074 Coq.Init.Specif <> exist constr
+R2084:2089 fcsl.pcm.axioms <> pf_irr thm
+R2070:2074 Coq.Init.Specif <> exist constr
+R2084:2089 fcsl.pcm.axioms <> pf_irr thm
+prf 2104:2108 <> svalE
+R2118:2121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2117:2117 fcsl.pcm.axioms <> A var
+R2152:2154 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2134:2137 Coq.ssr.ssrfun <> sval syndef
+R2140:2144 Coq.Init.Specif <> exist constr
+R2150:2150 fcsl.pcm.axioms <> H var
+R2148:2148 fcsl.pcm.axioms <> x var
+R2146:2146 fcsl.pcm.axioms <> P var
+R2155:2155 fcsl.pcm.axioms <> x var
+prf 2184:2189 <> compf1
+R2201:2204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2205:2205 fcsl.pcm.axioms <> B var
+R2200:2200 fcsl.pcm.axioms <> A var
+R2211:2213 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2210:2210 fcsl.pcm.axioms <> f var
+R2215:2218 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R2214:2214 fcsl.pcm.axioms <> f var
+R2219:2220 Coq.ssr.ssrfun <> id syndef
+R2240:2243 fcsl.pcm.axioms <> fext prfax
+R2240:2243 fcsl.pcm.axioms <> fext prfax
+prf 2258:2263 <> comp1f
+R2275:2278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2279:2279 fcsl.pcm.axioms <> B var
+R2274:2274 fcsl.pcm.axioms <> A var
+R2285:2287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2284:2284 fcsl.pcm.axioms <> f var
+R2290:2293 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R2288:2289 Coq.ssr.ssrfun <> id syndef
+R2294:2294 fcsl.pcm.axioms <> f var
+R2314:2317 fcsl.pcm.axioms <> fext prfax
+R2314:2317 fcsl.pcm.axioms <> fext prfax
+sec 2467:2470 <> Cast
+var 2483:2483 Cast C
+var 2494:2499 Cast interp
+R2504:2507 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2503:2503 fcsl.pcm.axioms <> C var
+def 2527:2530 <> cast
+R2543:2545 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2542:2542 fcsl.pcm.axioms <> A var
+R2546:2546 fcsl.pcm.axioms <> B var
+R2554:2559 fcsl.pcm.axioms <> Cast.interp var
+R2561:2561 fcsl.pcm.axioms <> B var
+R2566:2571 fcsl.pcm.axioms <> Cast.interp var
+R2573:2573 fcsl.pcm.axioms <> A var
+R2580:2584 Coq.ssr.ssrfun <> ecast syndef
+R2591:2594 Coq.ssr.ssrfun <> esym def
+R2596:2597 fcsl.pcm.axioms <> pf var
+R2600:2600 fcsl.pcm.axioms <> v var
+prf 2610:2612 <> eqc
+R2623:2625 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2622:2622 fcsl.pcm.axioms <> A var
+R2626:2626 fcsl.pcm.axioms <> A var
+R2634:2639 fcsl.pcm.axioms <> Cast.interp var
+R2641:2641 fcsl.pcm.axioms <> A var
+R2655:2657 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2646:2649 fcsl.pcm.axioms <> cast def
+R2654:2654 fcsl.pcm.axioms <> v var
+R2651:2652 fcsl.pcm.axioms <> pf var
+R2658:2658 fcsl.pcm.axioms <> v var
+R2688:2698 Coq.Logic.Eqdep EqdepTheory Streicher_K thm
+R2688:2698 Coq.Logic.Eqdep EqdepTheory Streicher_K thm
+def 2718:2721 <> jmeq
+R2732:2737 fcsl.pcm.axioms <> Cast.interp var
+R2739:2739 fcsl.pcm.axioms <> A var
+R2747:2752 fcsl.pcm.axioms <> Cast.interp var
+R2754:2754 fcsl.pcm.axioms <> B var
+R2772:2774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2771:2771 fcsl.pcm.axioms <> v var
+R2775:2778 fcsl.pcm.axioms <> cast def
+R2783:2783 fcsl.pcm.axioms <> w var
+R2780:2781 fcsl.pcm.axioms <> pf var
+prf 2793:2798 <> jmrefl
+R2807:2812 fcsl.pcm.axioms <> Cast.interp var
+R2814:2814 fcsl.pcm.axioms <> A var
+R2819:2822 fcsl.pcm.axioms <> jmeq def
+R2826:2826 fcsl.pcm.axioms <> v var
+R2824:2824 fcsl.pcm.axioms <> v var
+R2857:2859 fcsl.pcm.axioms <> eqc thm
+R2857:2859 fcsl.pcm.axioms <> eqc thm
+R2857:2859 fcsl.pcm.axioms <> eqc thm
+prf 2874:2878 <> jmsym
+R2889:2894 fcsl.pcm.axioms <> Cast.interp var
+R2896:2896 fcsl.pcm.axioms <> A var
+R2904:2909 fcsl.pcm.axioms <> Cast.interp var
+R2911:2911 fcsl.pcm.axioms <> B var
+R2924:2927 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2928:2931 fcsl.pcm.axioms <> jmeq def
+R2935:2935 fcsl.pcm.axioms <> v var
+R2933:2933 fcsl.pcm.axioms <> w var
+R2916:2919 fcsl.pcm.axioms <> jmeq def
+R2923:2923 fcsl.pcm.axioms <> w var
+R2921:2921 fcsl.pcm.axioms <> v var
+R2970:2973 Coq.ssr.ssrfun <> esym def
+R2970:2973 Coq.ssr.ssrfun <> esym def
+R2970:2973 Coq.ssr.ssrfun <> esym def
+R3037:3039 fcsl.pcm.axioms <> eqc thm
+R3037:3039 fcsl.pcm.axioms <> eqc thm
+R3037:3039 fcsl.pcm.axioms <> eqc thm
+R3037:3039 fcsl.pcm.axioms <> eqc thm
+R3037:3039 fcsl.pcm.axioms <> eqc thm
+prf 3054:3056 <> jmE
+R3067:3072 fcsl.pcm.axioms <> Cast.interp var
+R3074:3074 fcsl.pcm.axioms <> A var
+R3087:3091 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3079:3082 fcsl.pcm.axioms <> jmeq def
+R3086:3086 fcsl.pcm.axioms <> w var
+R3084:3084 fcsl.pcm.axioms <> v var
+R3093:3095 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3092:3092 fcsl.pcm.axioms <> v var
+R3096:3096 fcsl.pcm.axioms <> w var
+R3143:3148 fcsl.pcm.axioms <> jmrefl thm
+R3121:3125 Coq.ssr.ssrfun <> erefl syndef
+R3143:3148 fcsl.pcm.axioms <> jmrefl thm
+prf 3163:3167 <> castE
+R3185:3187 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3184:3184 fcsl.pcm.axioms <> A var
+R3188:3188 fcsl.pcm.axioms <> B var
+R3200:3205 fcsl.pcm.axioms <> Cast.interp var
+R3207:3207 fcsl.pcm.axioms <> B var
+R3227:3231 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3222:3224 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3220:3221 fcsl.pcm.axioms <> v1 var
+R3225:3226 fcsl.pcm.axioms <> v2 var
+R3243:3245 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3232:3235 fcsl.pcm.axioms <> cast def
+R3241:3242 fcsl.pcm.axioms <> v1 var
+R3237:3239 fcsl.pcm.axioms <> pf1 var
+R3246:3249 fcsl.pcm.axioms <> cast def
+R3255:3256 fcsl.pcm.axioms <> v2 var
+R3251:3253 fcsl.pcm.axioms <> pf2 var
+R3312:3314 fcsl.pcm.axioms <> eqc thm
+R3312:3314 fcsl.pcm.axioms <> eqc thm
+R3312:3314 fcsl.pcm.axioms <> eqc thm
+R3312:3314 fcsl.pcm.axioms <> eqc thm
+R3312:3314 fcsl.pcm.axioms <> eqc thm
+R3327:3330 fcsl.pcm.axioms Cast <> sec
+R3344:3347 fcsl.pcm.axioms <> cast def
+R3344:3347 fcsl.pcm.axioms <> cast def
+R3383:3386 fcsl.pcm.axioms <> jmeq def
+R3383:3386 fcsl.pcm.axioms <> jmeq def
+syndef 3508:3512 <> icast
+R3524:3527 fcsl.pcm.axioms <> cast def
+R3531:3532 Coq.ssr.ssrfun <> id syndef
+syndef 3554:3558 <> ijmeq
+R3569:3572 fcsl.pcm.axioms <> jmeq def
+R3576:3577 Coq.ssr.ssrfun <> id syndef
+sec 3626:3632 <> Dynamic
+var 3646:3646 Dynamic A
+var 3657:3657 Dynamic P
+R3662:3665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3661:3661 fcsl.pcm.axioms <> A var
+def 3837:3843 <> dynamic
+R3848:3851 Coq.Init.Specif <> sigT ind
+R3853:3853 fcsl.pcm.axioms <> Dynamic.P var
+def 3867:3869 <> dyn
+R3874:3879 Coq.Init.Specif <> existT constr
+R3881:3881 fcsl.pcm.axioms <> Dynamic.P var
+def 3895:3900 <> dyn_tp
+R3906:3911 Coq.Init.Specif <> projT1 def
+R3915:3915 fcsl.pcm.axioms <> Dynamic.P var
+def 3929:3935 <> dyn_val
+R3941:3946 Coq.Init.Specif <> projT2 def
+R3950:3950 fcsl.pcm.axioms <> Dynamic.P var
+def 3964:3970 <> dyn_eta
+R3976:3983 Coq.Init.Specif <> sigT_eta def
+R3987:3987 fcsl.pcm.axioms <> Dynamic.P var
+def 4001:4008 <> dyn_injT
+R4014:4024 Coq.Logic.EqdepFacts <> eq_sigT_fst thm
+R4028:4028 fcsl.pcm.axioms <> Dynamic.P var
+def 4042:4048 <> dyn_inj
+R4054:4062 Coq.Logic.Eqdep EqdepTheory inj_pair2 thm
+R4066:4066 fcsl.pcm.axioms <> Dynamic.P var
+R4074:4080 fcsl.pcm.axioms Dynamic <> sec
+R4144:4146 fcsl.pcm.axioms <> dyn def
+R4144:4146 fcsl.pcm.axioms <> dyn def
+syndef 4184:4187 <> idyn
+R4196:4198 fcsl.pcm.axioms <> dyn def
+R4202:4203 Coq.ssr.ssrfun <> id syndef
+prf 4218:4221 <> dynE
+R4250:4252 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4249:4249 fcsl.pcm.axioms <> A var
+R4253:4253 fcsl.pcm.axioms <> B var
+R4261:4266 fcsl.pcm.axioms <> interp var
+R4268:4268 fcsl.pcm.axioms <> A var
+R4276:4281 fcsl.pcm.axioms <> interp var
+R4283:4283 fcsl.pcm.axioms <> B var
+R4311:4315 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R4296:4299 fcsl.pcm.axioms <> jmeq def
+R4310:4310 fcsl.pcm.axioms <> w var
+R4308:4308 fcsl.pcm.axioms <> v var
+R4301:4306 fcsl.pcm.axioms <> interp var
+R4328:4330 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4316:4318 fcsl.pcm.axioms <> dyn def
+R4327:4327 fcsl.pcm.axioms <> v var
+R4320:4325 fcsl.pcm.axioms <> interp var
+R4331:4333 fcsl.pcm.axioms <> dyn def
+R4342:4342 fcsl.pcm.axioms <> w var
+R4335:4340 fcsl.pcm.axioms <> interp var
+R4383:4385 fcsl.pcm.axioms <> jmE thm
+R4383:4385 fcsl.pcm.axioms <> jmE thm
+R4383:4385 fcsl.pcm.axioms <> jmE thm
+R4402:4408 fcsl.pcm.axioms <> dyn_inj def

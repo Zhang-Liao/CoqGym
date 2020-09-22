@@ -1,0 +1,59 @@
+DIGEST 8ced8e45b394c357ecb4cdf4b10bdb10
+FVerdi.LockServSeqNum
+R15:25 Verdi.Verdi <> <> lib
+R44:57 Verdi.LockServ <> <> lib
+R68:79 Verdi.SeqNum <> <> lib
+R97:115 Verdi.SeqNumCorrect <> <> lib
+sec 127:140 <> LockServSeqNum
+var 155:165 LockServSeqNum num_Clients
+R169:171 Coq.Init.Datatypes <> nat ind
+def 188:210 <> transformed_base_params
+R220:237 Verdi.SeqNum <> base_params inst
+R274:293 Verdi.LockServ <> LockServ_MultiParams inst
+R295:305 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R240:258 Verdi.LockServ <> LockServ_BaseParams inst
+R260:270 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+def 322:345 <> transformed_multi_params
+R355:373 Verdi.SeqNum <> multi_params inst
+R410:429 Verdi.LockServ <> LockServ_MultiParams inst
+R431:441 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R376:394 Verdi.LockServ <> LockServ_BaseParams inst
+R396:406 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+def 459:477 <> transformed_network
+R487:493 Verdi.Net <> network rec
+R519:542 Verdi.LockServSeqNum <> transformed_multi_params def
+R495:517 Verdi.LockServSeqNum <> transformed_base_params def
+prf 556:578 <> transformed_correctness
+R600:618 Verdi.LockServSeqNum <> transformed_network def
+R704:713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R715:730 Verdi.LockServ <> mutual_exclusion def
+R745:751 Verdi.Net <> nwState proj
+R754:766 Verdi.SeqNumCorrect <> revertNetwork def
+R768:770 Verdi.LockServSeqNum <> net var
+R732:742 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R631:643 Verdi.Net <> step_dup_star def
+R702:703 Verdi.LockServSeqNum <> tr var
+R698:700 Verdi.LockServSeqNum <> net var
+R682:696 Verdi.Net <> step_async_init def
+R656:679 Verdi.LockServSeqNum <> transformed_multi_params def
+R818:844 Verdi.SeqNumCorrect <> true_in_reachable_transform thm
+R957:990 Verdi.LockServ <> true_in_reachable_mutual_exclusion thm
+R992:1002 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R903:909 Verdi.Net <> network rec
+R914:929 Verdi.LockServ <> mutual_exclusion def
+R932:938 Verdi.Net <> nwState proj
+R940:942 Verdi.LockServSeqNum <> net var
+R849:868 Verdi.LockServ <> LockServ_MultiParams inst
+R870:880 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R818:844 Verdi.SeqNumCorrect <> true_in_reachable_transform thm
+R957:990 Verdi.LockServ <> true_in_reachable_mutual_exclusion thm
+R992:1002 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R903:909 Verdi.Net <> network rec
+R914:929 Verdi.LockServ <> mutual_exclusion def
+R932:938 Verdi.Net <> nwState proj
+R940:942 Verdi.LockServSeqNum <> net var
+R849:868 Verdi.LockServ <> LockServ_MultiParams inst
+R870:880 Verdi.LockServSeqNum <> LockServSeqNum.num_Clients var
+R1017:1033 Verdi.Net <> true_in_reachable def
+R1066:1074 Verdi.Net <> reachable def
+R1100:1113 Verdi.LockServSeqNum LockServSeqNum <> sec

@@ -1,0 +1,39 @@
+DIGEST be8ffdbec53df9dd872784ab741974d8
+FLinAlg.support.seq_set_seq
+R1137:1143 LinAlg.support.seq_set <> <> lib
+var 1477:1487 <> seq_set_fun
+R1505:1510 Algebra.Sets <> Setoid rec
+R1518:1520 LinAlg.support.finite <> Nat def
+R1528:1530 LinAlg.support.finite <> seq def
+R1534:1534 LinAlg.support.seq_set_seq <> A var
+R1532:1532 LinAlg.support.seq_set_seq <> n var
+R1543:1547 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1562:1562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1548:1554 LinAlg.support.seq_set <> seq_set def
+R1556:1556 LinAlg.support.seq_set_seq <> v var
+R1538:1540 LinAlg.support.finite <> fin def
+R1542:1542 LinAlg.support.seq_set_seq <> n var
+R1580:1592 Algebra.Parts <> Build_subtype constr
+R1608:1616 Algebra.Parts <> Predicate rec
+R1598:1604 LinAlg.support.seq_set <> seq_set def
+R1580:1592 Algebra.Parts <> Build_subtype constr
+R1608:1616 Algebra.Parts <> Predicate rec
+R1598:1604 LinAlg.support.seq_set <> seq_set def
+R1673:1676 Algebra.Sets <> Refl thm
+R1673:1676 Algebra.Sets <> Refl thm
+def 1727:1737 <> seq_set_seq
+R1755:1760 Algebra.Sets <> Setoid rec
+R1768:1770 LinAlg.support.finite <> Nat def
+R1778:1780 LinAlg.support.finite <> seq def
+R1784:1784 LinAlg.support.seq_set_seq <> A var
+R1782:1782 LinAlg.support.seq_set_seq <> n var
+R1788:1790 LinAlg.support.finite <> seq def
+R1795:1801 LinAlg.support.seq_set <> seq_set def
+R1803:1803 LinAlg.support.seq_set_seq <> v var
+R1792:1792 LinAlg.support.seq_set_seq <> n var
+R1837:1845 Algebra.Sets <> Build_Map constr
+R1852:1862 LinAlg.support.seq_set_seq <> seq_set_fun def
+R1837:1845 Algebra.Sets <> Build_Map constr
+R1852:1862 LinAlg.support.seq_set_seq <> seq_set_fun def
+R1939:1945 Algebra.Sets <> Ap_comp thm
+R1939:1945 Algebra.Sets <> Ap_comp thm

@@ -1,0 +1,62 @@
+DIGEST 39a951af6334f66a9a4dfb0217867afe
+FStructTact.Nth
+R15:18 Coq.Lists.List <> <> lib
+R58:81 StructTact.StructTactics <> <> lib
+ind 120:122 <> Nth
+constr 169:173 <> Nth_0
+constr 208:212 <> Nth_S
+R143:146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R150:153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R155:158 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R147:149 Coq.Init.Datatypes <> nat ind
+R137:140 Coq.Init.Datatypes <> list ind
+R189:191 StructTact.Nth <> Nth ind
+R204:204 StructTact.Nth <> x var
+R195:198 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R194:194 StructTact.Nth <> x var
+R199:199 StructTact.Nth <> l var
+R189:191 StructTact.Nth <> A var
+R241:244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R245:247 StructTact.Nth <> Nth ind
+R264:264 StructTact.Nth <> x var
+R259:259 Coq.Init.Datatypes <> S constr
+R261:261 StructTact.Nth <> n var
+R251:254 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R250:250 StructTact.Nth <> y var
+R255:255 StructTact.Nth <> l var
+R245:247 StructTact.Nth <> A var
+R232:234 StructTact.Nth <> Nth ind
+R240:240 StructTact.Nth <> x var
+R238:238 StructTact.Nth <> n var
+R236:236 StructTact.Nth <> l var
+R232:234 StructTact.Nth <> A var
+sec 276:278 <> nth
+var 292:292 nth A
+prf 311:323 <> nth_error_Nth
+R347:347 StructTact.Nth <> nth.A var
+R379:388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R389:391 StructTact.Nth <> Nth ind
+R397:397 StructTact.Nth <> x var
+R395:395 StructTact.Nth <> n var
+R393:393 StructTact.Nth <> l var
+R370:372 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R357:365 Coq.Lists.List <> nth_error def
+R369:369 StructTact.Nth <> n var
+R367:367 StructTact.Nth <> l var
+R373:376 Coq.Init.Datatypes <> Some constr
+R378:378 StructTact.Nth <> x var
+R508:512 Coq.Init.Specif <> value def
+prf 653:665 <> Nth_nth_error
+R689:689 StructTact.Nth <> nth.A var
+R708:717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R731:733 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R718:726 Coq.Lists.List <> nth_error def
+R730:730 StructTact.Nth <> n var
+R728:728 StructTact.Nth <> l var
+R734:737 Coq.Init.Datatypes <> Some constr
+R739:739 StructTact.Nth <> x var
+R699:701 StructTact.Nth <> Nth ind
+R707:707 StructTact.Nth <> x var
+R705:705 StructTact.Nth <> n var
+R703:703 StructTact.Nth <> l var
+R815:817 StructTact.Nth nth <> sec

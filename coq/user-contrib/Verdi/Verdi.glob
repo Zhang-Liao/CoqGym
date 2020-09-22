@@ -1,0 +1,12 @@
+DIGEST 70be4850e3e5f17dabe2007fe106455f
+FVerdi.Verdi
+R15:18 Coq.Lists.List <> <> lib
+R58:62 Coq.Arith.Arith <> <> lib
+R80:84 Coq.omega.Omega <> <> lib
+R102:134 Coq.Numbers.Natural.Abstract.NDiv <> <> lib
+R152:170 Coq.Sorting.Permutation <> <> lib
+R189:203 StructTact.Util <> <> lib
+R221:244 StructTact.StructTactics <> <> lib
+R263:278 Verdi.VerdiHints <> <> lib
+R296:304 Verdi.Net <> <> lib
+R316:321 Coq.Numbers.Natural.Peano.NPeano <> <> lib

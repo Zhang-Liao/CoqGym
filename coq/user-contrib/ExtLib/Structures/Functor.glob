@@ -1,0 +1,58 @@
+DIGEST d86839bbcb4bbc736427b7b9943e8bbb
+FExtLib.Structures.Functor
+R15:29 ExtLib.Core.Any <> <> lib
+rec 97:103 <> Functor
+proj 150:153 <> fmap
+R124:127 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R182:182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R189:193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R197:200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R201:201 ExtLib.Structures.Functor <> F var
+R203:203 ExtLib.Structures.Functor <> B var
+R194:194 ExtLib.Structures.Functor <> F var
+R196:196 ExtLib.Structures.Functor <> A var
+R184:187 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R188:188 ExtLib.Structures.Functor <> B var
+R183:183 ExtLib.Structures.Functor <> A var
+def 232:233 <> ID
+R260:263 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R264:264 ExtLib.Structures.Functor <> T var
+R259:259 ExtLib.Structures.Functor <> T var
+R290:290 ExtLib.Structures.Functor <> T var
+R296:298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R293:293 ExtLib.Structures.Functor <> f var
+R295:295 ExtLib.Structures.Functor <> x var
+R299:299 ExtLib.Structures.Functor <> x var
+rec 321:328 <> PFunctor
+proj 377:380 <> FunP
+proj 407:411 <> pfmap
+R351:354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R392:395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R444:447 ExtLib.Structures.Functor <> FunP meth
+R449:449 ExtLib.Structures.Functor <> B var
+R453:453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R460:464 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R468:471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R472:472 ExtLib.Structures.Functor <> F var
+R474:474 ExtLib.Structures.Functor <> B var
+R465:465 ExtLib.Structures.Functor <> F var
+R467:467 ExtLib.Structures.Functor <> A var
+R455:458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R459:459 ExtLib.Structures.Functor <> B var
+R454:454 ExtLib.Structures.Functor <> A var
+R517:520 ExtLib.Structures.Functor <> FunP class
+def 651:671 <> PFunctor_From_Functor
+R701:704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R723:729 ExtLib.Structures.Functor <> Functor class
+R737:737 ExtLib.Structures.Functor <> F var
+R742:749 ExtLib.Structures.Functor <> PFunctor class
+R759:759 ExtLib.Structures.Functor <> F var
+R767:814 ExtLib.Structures.Functor <> Build_PFunctor constr
+R807:810 ExtLib.Structures.Functor <> fmap meth
+R814:814 ExtLib.Structures.Functor <> x var
+R812:812 ExtLib.Structures.Functor <> f var
+R775:777 ExtLib.Core.Any <> Any class
+mod 876:890 <> FunctorNotation
+R919:923 ExtLib.Structures.Functor <> pfmap meth
+not 904:904 FunctorNotation :::x_'<$>'_x
+R980:994 ExtLib.Structures.Functor FunctorNotation <> mod

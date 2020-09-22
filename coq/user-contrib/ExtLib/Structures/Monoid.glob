@@ -1,0 +1,39 @@
+DIGEST 154f6cc2ab21de314aa743416d92ee41
+FExtLib.Structures.Monoid
+R15:30 ExtLib.Core.Type <> <> lib
+R48:71 ExtLib.Structures.BinOps <> <> lib
+sec 140:145 <> Monoid
+var 171:171 Monoid S
+rec 203:208 <> Monoid
+proj 224:234 <> monoid_plus
+proj 254:264 <> monoid_unit
+R239:242 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R244:247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R248:248 ExtLib.Structures.Monoid <> Monoid.S var
+R243:243 ExtLib.Structures.Monoid <> Monoid.S var
+R238:238 ExtLib.Structures.Monoid <> Monoid.S var
+R268:268 ExtLib.Structures.Monoid <> Monoid.S var
+R308:311 ExtLib.Core.Type <> type class
+R313:313 ExtLib.Structures.Monoid <> Monoid.S var
+rec 338:347 <> MonoidLaws
+proj 376:387 <> monoid_assoc
+proj 430:441 <> monoid_lunit
+proj 497:508 <> monoid_runit
+R354:359 ExtLib.Structures.Monoid <> Monoid rec
+R392:402 ExtLib.Structures.BinOps <> Associative class
+R420:424 ExtLib.Core.Type <> equal meth
+R407:417 ExtLib.Structures.Monoid <> monoid_plus proj
+R404:404 ExtLib.Structures.Monoid <> M var
+R446:453 ExtLib.Structures.BinOps <> LeftUnit class
+R487:491 ExtLib.Core.Type <> equal meth
+R474:484 ExtLib.Structures.Monoid <> monoid_unit proj
+R471:471 ExtLib.Structures.Monoid <> M var
+R458:468 ExtLib.Structures.Monoid <> monoid_plus proj
+R455:455 ExtLib.Structures.Monoid <> M var
+R513:521 ExtLib.Structures.BinOps <> RightUnit class
+R555:559 ExtLib.Core.Type <> equal meth
+R542:552 ExtLib.Structures.Monoid <> monoid_unit proj
+R539:539 ExtLib.Structures.Monoid <> M var
+R526:536 ExtLib.Structures.Monoid <> monoid_plus proj
+R523:523 ExtLib.Structures.Monoid <> M var
+R571:576 ExtLib.Structures.Monoid Monoid <> sec

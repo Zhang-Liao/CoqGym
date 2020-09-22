@@ -1,0 +1,344 @@
+DIGEST 7d758583f777d4bcb7d0adb2c9713798
+FAlgebra.Free_module
+R1118:1128 Algebra.Module_util <> <> lib
+R1146:1157 Algebra.Module_facts <> <> lib
+sec 1168:1182 <> Free_Module_def
+var 1194:1194 Free_Module_def R
+R1198:1201 Algebra.Ring_cat <> RING def
+var 1213:1213 Free_Module_def V
+R1217:1219 Algebra.Set_cat <> SET def
+ind 1233:1235 <> FMd
+constr 1251:1253 <> Var
+constr 1270:1272 <> Law
+constr 1298:1301 <> Unit
+constr 1313:1315 <> Inv
+constr 1334:1335 <> Op
+R1258:1261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1262:1264 Algebra.Free_module <> FMd ind
+R1257:1257 Algebra.Free_module <> Free_Module_def.V var
+R1279:1282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1286:1289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1290:1292 Algebra.Free_module <> FMd ind
+R1283:1285 Algebra.Free_module <> FMd ind
+R1276:1278 Algebra.Free_module <> FMd ind
+R1305:1307 Algebra.Free_module <> FMd ind
+R1322:1325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1326:1328 Algebra.Free_module <> FMd ind
+R1319:1321 Algebra.Free_module <> FMd ind
+R1340:1343 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1347:1350 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1351:1353 Algebra.Free_module <> FMd ind
+R1344:1346 Algebra.Free_module <> FMd ind
+R1339:1339 Algebra.Free_module <> Free_Module_def.R var
+ind 1367:1371 <> eqFMd
+constr 1401:1409 <> eqFMd_Var
+constr 1475:1483 <> eqFMd_law
+constr 1590:1604 <> eqFMd_law_assoc
+constr 1685:1695 <> eqFMd_law0r
+constr 1745:1753 <> eqFMd_inv
+constr 1814:1823 <> eqFMd_invr
+constr 1874:1883 <> eqFMd_refl
+constr 1922:1930 <> eqFMd_sym
+constr 1986:1996 <> eqFMd_trans
+constr 2073:2081 <> eqFMd_com
+constr 2133:2145 <> eqFMd_op_comp
+constr 2252:2264 <> eqFMd_oplin_l
+constr 2368:2380 <> eqFMd_oplin_r
+constr 2475:2488 <> eqFMd_op_assoc
+constr 2581:2593 <> eqFMd_op_unit
+R1378:1381 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1385:1388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1382:1384 Algebra.Free_module <> FMd ind
+R1375:1377 Algebra.Free_module <> FMd ind
+R1426:1426 Algebra.Free_module <> Free_Module_def.V var
+R1438:1442 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1469:1469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1443:1447 Algebra.Free_module <> eqFMd ind
+R1458:1460 Algebra.Free_module <> Var constr
+R1462:1462 Algebra.Free_module <> y var
+R1450:1452 Algebra.Free_module <> Var constr
+R1454:1454 Algebra.Free_module <> x var
+R1429:1433 Algebra.Sets <> Equal proj
+R1437:1437 Algebra.Free_module <> y var
+R1435:1435 Algebra.Free_module <> x var
+R1512:1514 Algebra.Free_module <> FMd ind
+R1533:1536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1547:1551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1584:1584 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1552:1556 Algebra.Free_module <> eqFMd ind
+R1569:1571 Algebra.Free_module <> Law constr
+R1576:1577 Algebra.Free_module <> y' var
+R1573:1574 Algebra.Free_module <> x' var
+R1559:1561 Algebra.Free_module <> Law constr
+R1565:1565 Algebra.Free_module <> y var
+R1563:1563 Algebra.Free_module <> x var
+R1537:1541 Algebra.Free_module <> eqFMd ind
+R1545:1546 Algebra.Free_module <> y' var
+R1543:1543 Algebra.Free_module <> y var
+R1523:1527 Algebra.Free_module <> eqFMd ind
+R1531:1532 Algebra.Free_module <> x' var
+R1529:1529 Algebra.Free_module <> x var
+R1629:1631 Algebra.Free_module <> FMd ind
+R1634:1638 Algebra.Free_module <> eqFMd ind
+R1659:1661 Algebra.Free_module <> Law constr
+R1666:1668 Algebra.Free_module <> Law constr
+R1672:1672 Algebra.Free_module <> z var
+R1670:1670 Algebra.Free_module <> y var
+R1663:1663 Algebra.Free_module <> x var
+R1641:1643 Algebra.Free_module <> Law constr
+R1655:1655 Algebra.Free_module <> z var
+R1646:1648 Algebra.Free_module <> Law constr
+R1652:1652 Algebra.Free_module <> y var
+R1650:1650 Algebra.Free_module <> x var
+R1710:1712 Algebra.Free_module <> FMd ind
+R1715:1719 Algebra.Free_module <> eqFMd ind
+R1734:1734 Algebra.Free_module <> x var
+R1722:1724 Algebra.Free_module <> Law constr
+R1728:1731 Algebra.Free_module <> Unit constr
+R1726:1726 Algebra.Free_module <> x var
+R1770:1772 Algebra.Free_module <> FMd ind
+R1784:1787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1788:1792 Algebra.Free_module <> eqFMd ind
+R1803:1805 Algebra.Free_module <> Inv constr
+R1807:1807 Algebra.Free_module <> y var
+R1795:1797 Algebra.Free_module <> Inv constr
+R1799:1799 Algebra.Free_module <> x var
+R1775:1779 Algebra.Free_module <> eqFMd ind
+R1783:1783 Algebra.Free_module <> y var
+R1781:1781 Algebra.Free_module <> x var
+R1838:1840 Algebra.Free_module <> FMd ind
+R1843:1847 Algebra.Free_module <> eqFMd ind
+R1865:1868 Algebra.Free_module <> Unit constr
+R1850:1852 Algebra.Free_module <> Law constr
+R1857:1859 Algebra.Free_module <> Inv constr
+R1861:1861 Algebra.Free_module <> x var
+R1854:1854 Algebra.Free_module <> x var
+R1898:1900 Algebra.Free_module <> FMd ind
+R1903:1907 Algebra.Free_module <> eqFMd ind
+R1911:1911 Algebra.Free_module <> x var
+R1909:1909 Algebra.Free_module <> x var
+R1947:1949 Algebra.Free_module <> FMd ind
+R1961:1965 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1980:1980 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1966:1970 Algebra.Free_module <> eqFMd ind
+R1974:1974 Algebra.Free_module <> x var
+R1972:1972 Algebra.Free_module <> y var
+R1952:1956 Algebra.Free_module <> eqFMd ind
+R1960:1960 Algebra.Free_module <> y var
+R1958:1958 Algebra.Free_module <> x var
+R2021:2023 Algebra.Free_module <> FMd ind
+R2035:2038 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2048:2052 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2067:2067 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2053:2057 Algebra.Free_module <> eqFMd ind
+R2061:2061 Algebra.Free_module <> z var
+R2059:2059 Algebra.Free_module <> x var
+R2039:2043 Algebra.Free_module <> eqFMd ind
+R2047:2047 Algebra.Free_module <> z var
+R2045:2045 Algebra.Free_module <> y var
+R2026:2030 Algebra.Free_module <> eqFMd ind
+R2034:2034 Algebra.Free_module <> y var
+R2032:2032 Algebra.Free_module <> x var
+R2098:2100 Algebra.Free_module <> FMd ind
+R2103:2107 Algebra.Free_module <> eqFMd ind
+R2120:2122 Algebra.Free_module <> Law constr
+R2126:2126 Algebra.Free_module <> x var
+R2124:2124 Algebra.Free_module <> y var
+R2110:2112 Algebra.Free_module <> Law constr
+R2116:2116 Algebra.Free_module <> y var
+R2114:2114 Algebra.Free_module <> x var
+R2169:2169 Algebra.Free_module <> Free_Module_def.R var
+R2179:2181 Algebra.Free_module <> FMd ind
+R2200:2203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2213:2217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2246:2246 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2218:2222 Algebra.Free_module <> eqFMd ind
+R2234:2235 Algebra.Free_module <> Op constr
+R2239:2239 Algebra.Free_module <> y var
+R2237:2237 Algebra.Free_module <> b var
+R2225:2226 Algebra.Free_module <> Op constr
+R2230:2230 Algebra.Free_module <> x var
+R2228:2228 Algebra.Free_module <> a var
+R2204:2208 Algebra.Free_module <> eqFMd ind
+R2212:2212 Algebra.Free_module <> y var
+R2210:2210 Algebra.Free_module <> x var
+R2191:2195 Algebra.Sets <> Equal proj
+R2199:2199 Algebra.Free_module <> b var
+R2197:2197 Algebra.Free_module <> a var
+R2288:2288 Algebra.Free_module <> Free_Module_def.R var
+R2296:2298 Algebra.Free_module <> FMd ind
+R2308:2312 Algebra.Free_module <> eqFMd ind
+R2341:2343 Algebra.Free_module <> Law constr
+R2355:2356 Algebra.Free_module <> Op constr
+R2360:2360 Algebra.Free_module <> x var
+R2358:2358 Algebra.Free_module <> b var
+R2346:2347 Algebra.Free_module <> Op constr
+R2351:2351 Algebra.Free_module <> x var
+R2349:2349 Algebra.Free_module <> a var
+R2315:2316 Algebra.Free_module <> Op constr
+R2337:2337 Algebra.Free_module <> x var
+R2319:2328 Algebra.Sgroup_cat <> sgroup_law def
+R2334:2334 Algebra.Free_module <> b var
+R2332:2332 Algebra.Free_module <> a var
+R2330:2330 Algebra.Free_module <> Free_Module_def.R var
+R2402:2402 Algebra.Free_module <> Free_Module_def.R var
+R2412:2414 Algebra.Free_module <> FMd ind
+R2424:2428 Algebra.Free_module <> eqFMd ind
+R2448:2450 Algebra.Free_module <> Law constr
+R2462:2463 Algebra.Free_module <> Op constr
+R2467:2467 Algebra.Free_module <> y var
+R2465:2465 Algebra.Free_module <> a var
+R2453:2454 Algebra.Free_module <> Op constr
+R2458:2458 Algebra.Free_module <> x var
+R2456:2456 Algebra.Free_module <> a var
+R2431:2432 Algebra.Free_module <> Op constr
+R2437:2439 Algebra.Free_module <> Law constr
+R2443:2443 Algebra.Free_module <> y var
+R2441:2441 Algebra.Free_module <> x var
+R2434:2434 Algebra.Free_module <> a var
+R2512:2512 Algebra.Free_module <> Free_Module_def.R var
+R2520:2522 Algebra.Free_module <> FMd ind
+R2532:2536 Algebra.Free_module <> eqFMd ind
+R2555:2556 Algebra.Free_module <> Op constr
+R2574:2574 Algebra.Free_module <> x var
+R2559:2567 Algebra.Ring_cat <> ring_mult def
+R2571:2571 Algebra.Free_module <> b var
+R2569:2569 Algebra.Free_module <> a var
+R2539:2540 Algebra.Free_module <> Op constr
+R2545:2546 Algebra.Free_module <> Op constr
+R2550:2550 Algebra.Free_module <> x var
+R2548:2548 Algebra.Free_module <> b var
+R2542:2542 Algebra.Free_module <> a var
+R2608:2610 Algebra.Free_module <> FMd ind
+R2613:2617 Algebra.Free_module <> eqFMd ind
+R2640:2640 Algebra.Free_module <> x var
+R2620:2621 Algebra.Free_module <> Op constr
+R2637:2637 Algebra.Free_module <> x var
+R2624:2632 Algebra.Ring_cat <> ring_unit def
+R2634:2634 Algebra.Free_module <> Free_Module_def.R var
+prf 2780:2790 <> eqFMd_Equiv
+R2794:2804 Algebra.Sets <> equivalence def
+R2806:2810 Algebra.Free_module <> eqFMd ind
+R2867:2876 Algebra.Free_module <> eqFMd_refl constr
+R2867:2876 Algebra.Free_module <> eqFMd_refl constr
+R2933:2943 Algebra.Free_module <> eqFMd_trans constr
+R2933:2943 Algebra.Free_module <> eqFMd_trans constr
+R2952:2960 Algebra.Free_module <> eqFMd_sym constr
+R2952:2960 Algebra.Free_module <> eqFMd_sym constr
+def 2980:2986 <> FMd_set
+R2991:3002 Algebra.Sets <> Build_Setoid constr
+R3004:3014 Algebra.Free_module <> eqFMd_Equiv thm
+def 3029:3038 <> FreeModule
+R3042:3047 Algebra.Module_cat <> MODULE def
+R3049:3049 Algebra.Free_module <> Free_Module_def.R var
+R3060:3071 Algebra.Module_util <> BUILD_MODULE def
+R3151:3152 Algebra.Free_module <> Op constr
+R3126:3128 Algebra.Free_module <> Inv constr
+R3111:3114 Algebra.Free_module <> Unit constr
+R3102:3104 Algebra.Free_module <> Law constr
+R3084:3090 Algebra.Free_module <> FMd_set def
+R3077:3077 Algebra.Free_module <> Free_Module_def.R var
+R3060:3071 Algebra.Module_util <> BUILD_MODULE def
+R3151:3152 Algebra.Free_module <> Op constr
+R3126:3128 Algebra.Free_module <> Inv constr
+R3111:3114 Algebra.Free_module <> Unit constr
+R3102:3104 Algebra.Free_module <> Law constr
+R3084:3090 Algebra.Free_module <> FMd_set def
+R3077:3077 Algebra.Free_module <> Free_Module_def.R var
+R3163:3171 Algebra.Free_module <> eqFMd_law constr
+R3163:3171 Algebra.Free_module <> eqFMd_law constr
+R3180:3194 Algebra.Free_module <> eqFMd_law_assoc constr
+R3180:3194 Algebra.Free_module <> eqFMd_law_assoc constr
+R3203:3213 Algebra.Free_module <> eqFMd_law0r constr
+R3203:3213 Algebra.Free_module <> eqFMd_law0r constr
+R3222:3230 Algebra.Free_module <> eqFMd_inv constr
+R3222:3230 Algebra.Free_module <> eqFMd_inv constr
+R3239:3248 Algebra.Free_module <> eqFMd_invr constr
+R3239:3248 Algebra.Free_module <> eqFMd_invr constr
+R3257:3265 Algebra.Free_module <> eqFMd_com constr
+R3257:3265 Algebra.Free_module <> eqFMd_com constr
+R3274:3286 Algebra.Free_module <> eqFMd_op_comp constr
+R3274:3286 Algebra.Free_module <> eqFMd_op_comp constr
+R3295:3307 Algebra.Free_module <> eqFMd_oplin_l constr
+R3295:3307 Algebra.Free_module <> eqFMd_oplin_l constr
+R3316:3328 Algebra.Free_module <> eqFMd_oplin_r constr
+R3316:3328 Algebra.Free_module <> eqFMd_oplin_r constr
+R3337:3350 Algebra.Free_module <> eqFMd_op_assoc constr
+R3337:3350 Algebra.Free_module <> eqFMd_op_assoc constr
+R3359:3371 Algebra.Free_module <> eqFMd_op_unit constr
+R3359:3371 Algebra.Free_module <> eqFMd_op_unit constr
+sec 3391:3404 Free_Module_def Universal_prop
+var 3416:3418 Free_Module_def.Universal_prop Mod
+R3422:3427 Algebra.Module_cat <> MODULE def
+R3429:3429 Algebra.Free_module <> Free_Module_def.R var
+var 3441:3441 Free_Module_def.Universal_prop f
+R3445:3447 Algebra.Categories <> Hom proj
+R3451:3453 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3449:3449 Algebra.Free_module <> Free_Module_def.V var
+def 3466:3477 <> FMd_lift_fun
+R3484:3493 Algebra.Free_module <> FreeModule def
+R3498:3500 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3513:3513 Algebra.Free_module <> p var
+R3524:3526 Algebra.Free_module <> Var constr
+R3533:3533 Algebra.Free_module <> Free_Module_def.Universal_prop.f var
+R3541:3543 Algebra.Free_module <> Law constr
+R3554:3563 Algebra.Sgroup_cat <> sgroup_law def
+R3588:3599 Algebra.Free_module <> FMd_lift_fun def
+R3570:3581 Algebra.Free_module <> FMd_lift_fun def
+R3565:3567 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3609:3612 Algebra.Free_module <> Unit constr
+R3617:3627 Algebra.Monoid_cat <> monoid_unit proj
+R3629:3631 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3637:3639 Algebra.Free_module <> Inv constr
+R3647:3659 Algebra.Group_cat <> group_inverse def
+R3666:3677 Algebra.Free_module <> FMd_lift_fun def
+R3661:3663 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3687:3688 Algebra.Free_module <> Op constr
+R3698:3708 Algebra.Module_cat <> module_mult def
+R3713:3724 Algebra.Free_module <> FMd_lift_fun def
+def 3749:3756 <> FMd_lift
+R3760:3762 Algebra.Categories <> Hom proj
+R3775:3777 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3764:3773 Algebra.Free_module <> FreeModule def
+R3788:3803 Algebra.Module_util <> BUILD_HOM_MODULE def
+R3847:3858 Algebra.Free_module <> FMd_lift_fun def
+R3837:3839 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3818:3827 Algebra.Free_module <> FreeModule def
+R3809:3809 Algebra.Free_module <> Free_Module_def.R var
+R3788:3803 Algebra.Module_util <> BUILD_HOM_MODULE def
+R3847:3858 Algebra.Free_module <> FMd_lift_fun def
+R3837:3839 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R3818:3827 Algebra.Free_module <> FreeModule def
+R3809:3809 Algebra.Free_module <> Free_Module_def.R var
+R4003:4014 Algebra.Free_module <> FMd_lift_fun def
+R3991:3995 Algebra.Sets <> Trans thm
+R4003:4014 Algebra.Free_module <> FMd_lift_fun def
+R3991:3995 Algebra.Sets <> Trans thm
+def 4163:4169 <> FMd_var
+R4173:4175 Algebra.Categories <> Hom proj
+R4179:4188 Algebra.Free_module <> FreeModule def
+R4177:4177 Algebra.Free_module <> Free_Module_def.V var
+R4198:4206 Algebra.Sets <> Build_Map constr
+R4236:4238 Algebra.Free_module <> Var constr
+R4219:4228 Algebra.Free_module <> FreeModule def
+R4212:4212 Algebra.Free_module <> Free_Module_def.V var
+R4198:4206 Algebra.Sets <> Build_Map constr
+R4236:4238 Algebra.Free_module <> Var constr
+R4219:4228 Algebra.Free_module <> FreeModule def
+R4212:4212 Algebra.Free_module <> Free_Module_def.V var
+prf 4306:4318 <> FMd_comp_prop
+R4323:4327 Algebra.Sets <> Equal proj
+R4332:4339 Algebra.Categories <> comp_hom def
+R4377:4383 Algebra.Free_module <> FMd_var def
+R4351:4353 Algebra.Categories <> Hom proj
+R4372:4374 Algebra.Free_module <> Free_Module_def.Universal_prop.Mod var
+R4367:4369 Algebra.Set_cat <> SET def
+R4356:4365 Algebra.Free_module <> FreeModule def
+R4342:4349 Algebra.Free_module <> FMd_lift def
+R4329:4329 Algebra.Free_module <> Free_Module_def.Universal_prop.f var
+R4476:4479 Algebra.Sets <> Refl thm
+R4482:4482 Algebra.Free_module <> Free_Module_def.Universal_prop.f var
+R4476:4479 Algebra.Sets <> Refl thm
+R4482:4482 Algebra.Free_module <> Free_Module_def.Universal_prop.f var
+R4498:4511 Algebra.Free_module Free_Module_def.Universal_prop <> sec
+R4518:4532 Algebra.Free_module Free_Module_def <> sec

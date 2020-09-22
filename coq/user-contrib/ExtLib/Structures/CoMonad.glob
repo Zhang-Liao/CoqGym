@@ -1,0 +1,21 @@
+DIGEST c3c0ff3cc2d1010c88ba323908481fc7
+FExtLib.Structures.CoMonad
+rec 52:58 <> CoMonad
+proj 91:95 <> coret
+proj 122:127 <> cobind
+R69:72 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R114:117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R118:118 ExtLib.Structures.CoMonad <> A var
+R111:111 ExtLib.Structures.CoMonad <> m var
+R113:113 ExtLib.Structures.CoMonad <> A var
+R148:151 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R152:152 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R161:165 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R166:166 ExtLib.Structures.CoMonad <> m var
+R168:168 ExtLib.Structures.CoMonad <> B var
+R156:159 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R160:160 ExtLib.Structures.CoMonad <> B var
+R153:153 ExtLib.Structures.CoMonad <> m var
+R155:155 ExtLib.Structures.CoMonad <> A var
+R145:145 ExtLib.Structures.CoMonad <> m var
+R147:147 ExtLib.Structures.CoMonad <> A var

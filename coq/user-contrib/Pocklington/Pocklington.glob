@@ -1,0 +1,17 @@
+DIGEST c8c17951def1cbfd180d1a61ff6265e6
+FPocklington.Pocklington
+R1144:1148 Coq.Arith.Arith <> <> lib
+R1166:1171 Coq.ZArith.ZArith <> <> lib
+R1190:1195 Pocklington.lemmas <> <> lib
+R1213:1215 Pocklington.dec <> <> lib
+R1233:1236 Pocklington.natZ <> <> lib
+R1254:1257 Pocklington.list <> <> lib
+R1275:1281 Pocklington.divides <> <> lib
+R1299:1304 Pocklington.modulo <> <> lib
+R1322:1324 Pocklington.exp <> <> lib
+R1342:1344 Pocklington.gcd <> <> lib
+R1362:1366 Pocklington.prime <> <> lib
+R1384:1391 Pocklington.modprime <> <> lib
+R1409:1414 Pocklington.fermat <> <> lib
+R1432:1436 Pocklington.order <> <> lib
+R1454:1457 Pocklington.pock <> <> lib

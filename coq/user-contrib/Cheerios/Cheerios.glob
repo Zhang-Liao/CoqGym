@@ -1,0 +1,9 @@
+DIGEST 4c077fd1991b723cd802a2fb9cd659d7
+FCheerios.Cheerios
+R15:27 Cheerios.Core <> <> lib
+R45:70 Cheerios.DeserializerMonad <> <> lib
+R88:103 Cheerios.Tactics <> <> lib
+R121:145 Cheerios.BasicSerializers <> <> lib
+R163:182 Cheerios.Combinators <> <> lib
+R200:215 Cheerios.Tactics <> <> lib
+R233:246 Cheerios.Types <> <> lib

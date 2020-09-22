@@ -1,0 +1,32 @@
+DIGEST a6f3ad2fe3c423fe389705a969b270b6
+FExtLib.Tactics.TypeTac
+R15:30 ExtLib.Core.Type <> <> lib
+R48:62 ExtLib.Data.Fun <> <> lib
+R80:103 ExtLib.Structures.Proper <> <> lib
+R168:173 ExtLib.Core.Type <> proper class
+R198:207 ExtLib.Data.PreFun <> proper_fun thm
+R255:259 ExtLib.Core.Type <> equal meth
+R286:295 ExtLib.Data.PreFun <> proper_fun thm
+R343:347 ExtLib.Core.Type <> equal meth
+R374:383 ExtLib.Data.PreFun <> proper_fun thm
+R431:440 ExtLib.Structures.Proper <> PReflexive class
+R455:465 ExtLib.Core.Type <> equiv_prefl meth
+R569:574 ExtLib.Core.Type <> proper class
+R569:574 ExtLib.Core.Type <> proper class
+R659:668 ExtLib.Data.PreFun <> proper_app inst
+R599:608 ExtLib.Data.PreFun <> proper_fun thm
+R975:979 ExtLib.Core.Type <> equal meth
+R975:979 ExtLib.Core.Type <> equal meth
+R1104:1108 ExtLib.Core.Type <> equal meth
+R1104:1108 ExtLib.Core.Type <> equal meth
+R1169:1173 ExtLib.Core.Type <> equal meth
+R1169:1173 ExtLib.Core.Type <> equal meth
+R1246:1254 ExtLib.Data.PreFun <> equal_app thm
+R1200:1208 ExtLib.Data.PreFun <> equal_fun thm
+R1135:1143 ExtLib.Data.PreFun <> equal_fun thm
+R1042:1047 ExtLib.Core.Type <> proper class
+R1019:1028 ExtLib.Structures.Proper <> preflexive def
+R1347:1352 ExtLib.Core.Type <> proper class
+R1347:1352 ExtLib.Core.Type <> proper class
+R1381:1385 ExtLib.Core.Type <> equal meth
+R1381:1385 ExtLib.Core.Type <> equal meth

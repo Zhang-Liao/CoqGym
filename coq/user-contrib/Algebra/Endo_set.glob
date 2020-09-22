@@ -1,0 +1,76 @@
+DIGEST 4094de1993cd52b1c1199a720b90d52d
+FAlgebra.Endo_set
+R1086:1095 Algebra.Monoid_cat <> <> lib
+sec 1162:1164 <> Def
+var 1176:1176 Def E
+R1180:1182 Algebra.Set_cat <> SET def
+def 1197:1205 <> endo_comp
+R1209:1226 Algebra.Sgroup_cat <> law_of_composition def
+R1229:1231 Algebra.Categories <> Hom proj
+R1235:1235 Algebra.Endo_set <> Def.E var
+R1233:1233 Algebra.Endo_set <> Def.E var
+R1246:1263 Algebra.Sgroup_cat <> law_of_composition def
+R1282:1290 Algebra.Sets <> Build_Map constr
+R1309:1312 Algebra.Cartesian <> cart def
+R1325:1327 Algebra.Categories <> Hom proj
+R1331:1331 Algebra.Endo_set <> Def.E var
+R1329:1329 Algebra.Endo_set <> Def.E var
+R1315:1317 Algebra.Categories <> Hom proj
+R1321:1321 Algebra.Endo_set <> Def.E var
+R1319:1319 Algebra.Endo_set <> Def.E var
+R1337:1348 Algebra.Sets <> comp_map_map def
+R1361:1365 Algebra.Cartesian <> proj2 def
+R1367:1367 Algebra.Endo_set <> x var
+R1351:1355 Algebra.Cartesian <> proj1 def
+R1357:1357 Algebra.Endo_set <> x var
+R1282:1290 Algebra.Sets <> Build_Map constr
+R1309:1312 Algebra.Cartesian <> cart def
+R1325:1327 Algebra.Categories <> Hom proj
+R1331:1331 Algebra.Endo_set <> Def.E var
+R1329:1329 Algebra.Endo_set <> Def.E var
+R1315:1317 Algebra.Categories <> Hom proj
+R1321:1321 Algebra.Endo_set <> Def.E var
+R1319:1319 Algebra.Endo_set <> Def.E var
+R1337:1348 Algebra.Sets <> comp_map_map def
+R1361:1365 Algebra.Cartesian <> proj2 def
+R1367:1367 Algebra.Endo_set <> x var
+R1351:1355 Algebra.Cartesian <> proj1 def
+R1357:1357 Algebra.Endo_set <> x var
+def 1426:1440 <> Endo_SET_sgroup
+R1444:1449 Algebra.Sgroup_cat <> SGROUP def
+R1459:1470 Algebra.Sgroup_cat <> Build_sgroup constr
+R1485:1487 Algebra.Categories <> Hom proj
+R1491:1491 Algebra.Endo_set <> Def.E var
+R1489:1489 Algebra.Endo_set <> Def.E var
+R1459:1470 Algebra.Sgroup_cat <> Build_sgroup constr
+R1485:1487 Algebra.Categories <> Hom proj
+R1491:1491 Algebra.Endo_set <> Def.E var
+R1489:1489 Algebra.Endo_set <> Def.E var
+R1503:1517 Algebra.Sgroup_cat <> Build_sgroup_on constr
+R1549:1557 Algebra.Endo_set <> endo_comp def
+R1523:1525 Algebra.Categories <> Hom proj
+R1529:1529 Algebra.Endo_set <> Def.E var
+R1527:1527 Algebra.Endo_set <> Def.E var
+R1503:1517 Algebra.Sgroup_cat <> Build_sgroup_on constr
+R1549:1557 Algebra.Endo_set <> endo_comp def
+R1523:1525 Algebra.Categories <> Hom proj
+R1529:1529 Algebra.Endo_set <> Def.E var
+R1527:1527 Algebra.Endo_set <> Def.E var
+R1597:1602 Algebra.Sets <> Map_eq def
+def 1653:1660 <> Endo_SET
+R1664:1669 Algebra.Monoid_cat <> MONOID def
+R1679:1690 Algebra.Monoid_cat <> Build_monoid constr
+R1708:1722 Algebra.Endo_set <> Endo_SET_sgroup def
+R1679:1690 Algebra.Monoid_cat <> Build_monoid constr
+R1708:1722 Algebra.Endo_set <> Endo_SET_sgroup def
+R1734:1748 Algebra.Monoid_cat <> Build_monoid_on constr
+R1785:1786 Algebra.Sets <> Id def
+R1788:1788 Algebra.Endo_set <> Def.E var
+R1754:1768 Algebra.Endo_set <> Endo_SET_sgroup def
+R1734:1748 Algebra.Monoid_cat <> Build_monoid_on constr
+R1785:1786 Algebra.Sets <> Id def
+R1788:1788 Algebra.Endo_set <> Def.E var
+R1754:1768 Algebra.Endo_set <> Endo_SET_sgroup def
+R1828:1833 Algebra.Sets <> Map_eq def
+R1898:1903 Algebra.Sets <> Map_eq def
+R1946:1948 Algebra.Endo_set Def <> sec

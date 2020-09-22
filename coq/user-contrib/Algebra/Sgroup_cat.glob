@@ -1,0 +1,192 @@
+DIGEST c5bbd44da5ae7ae4468a4486fbdb8d85
+FAlgebra.Sgroup_cat
+R1086:1091 Algebra.Subcat <> <> lib
+R1109:1115 Algebra.Set_cat <> <> lib
+def 1174:1191 <> law_of_composition
+R1198:1200 Algebra.Set_cat <> SET def
+R1206:1208 Algebra.Categories <> Hom proj
+R1225:1225 Algebra.Sgroup_cat <> E var
+R1220:1222 Algebra.Set_cat <> SET def
+R1211:1214 Algebra.Cartesian <> cart def
+R1218:1218 Algebra.Sgroup_cat <> E var
+R1216:1216 Algebra.Sgroup_cat <> E var
+def 1240:1250 <> associative
+R1257:1259 Algebra.Set_cat <> SET def
+R1267:1284 Algebra.Sgroup_cat <> law_of_composition def
+R1286:1286 Algebra.Sgroup_cat <> E var
+R1309:1309 Algebra.Sgroup_cat <> E var
+R1314:1318 Algebra.Sets <> Equal proj
+R1353:1353 Algebra.Sgroup_cat <> f var
+R1356:1361 Algebra.Cartesian <> couple def
+R1366:1366 Algebra.Sgroup_cat <> f var
+R1369:1374 Algebra.Cartesian <> couple def
+R1378:1378 Algebra.Sgroup_cat <> z var
+R1376:1376 Algebra.Sgroup_cat <> y var
+R1363:1363 Algebra.Sgroup_cat <> x var
+R1321:1321 Algebra.Sgroup_cat <> f var
+R1324:1329 Algebra.Cartesian <> couple def
+R1348:1348 Algebra.Sgroup_cat <> z var
+R1332:1332 Algebra.Sgroup_cat <> f var
+R1335:1340 Algebra.Cartesian <> couple def
+R1344:1344 Algebra.Sgroup_cat <> y var
+R1342:1342 Algebra.Sgroup_cat <> x var
+rec 1393:1401 <> sgroup_on
+proj 1427:1440 <> sgroup_law_map
+proj 1469:1484 <> sgroup_assoc_prf
+R1408:1410 Algebra.Set_cat <> SET def
+R1444:1461 Algebra.Sgroup_cat <> law_of_composition def
+R1463:1463 Algebra.Sgroup_cat <> E var
+R1488:1498 Algebra.Sgroup_cat <> associative def
+R1500:1513 Algebra.Sgroup_cat <> sgroup_law_map meth
+rec 1525:1530 <> sgroup
+proj 1546:1555 <> sgroup_set
+proj 1568:1580 <> sgroup_on_def
+R1560:1565 Algebra.Sets <> Setoid rec
+R1585:1593 Algebra.Sgroup_cat <> sgroup_on rec
+R1595:1604 Algebra.Sgroup_cat <> sgroup_set meth
+R1608:1651 Algebra.Sgroup_cat <> Build_sgroup constr
+def 1713:1722 <> sgroup_law
+R1729:1734 Algebra.Sgroup_cat <> sgroup rec
+R1740:1743 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1745:1748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1749:1749 Algebra.Sgroup_cat <> E var
+R1744:1744 Algebra.Sgroup_cat <> E var
+R1739:1739 Algebra.Sgroup_cat <> E var
+R1768:1773 Algebra.Sets <> Setoid rec
+R1766:1766 Algebra.Sgroup_cat <> E var
+R1778:1791 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1796:1801 Algebra.Cartesian <> couple def
+R1805:1805 Algebra.Sgroup_cat <> y var
+R1803:1803 Algebra.Sgroup_cat <> x var
+R1793:1793 Algebra.Sgroup_cat <> E var
+sec 1864:1866 <> Hom
+var 1878:1878 Hom E
+var 1880:1880 Hom F
+R1884:1889 Algebra.Sgroup_cat <> sgroup rec
+def 1904:1918 <> sgroup_hom_prop
+R1925:1927 Algebra.Categories <> Hom proj
+R1937:1937 Algebra.Sgroup_cat <> Hom.F var
+R1932:1934 Algebra.Set_cat <> SET def
+R1930:1930 Algebra.Sgroup_cat <> Hom.E var
+R1958:1958 Algebra.Sgroup_cat <> Hom.E var
+R1961:1965 Algebra.Sets <> Equal proj
+R1991:2000 Algebra.Sgroup_cat <> sgroup_law def
+R2011:2011 Algebra.Sgroup_cat <> f var
+R2013:2013 Algebra.Sgroup_cat <> y var
+R2005:2005 Algebra.Sgroup_cat <> f var
+R2007:2007 Algebra.Sgroup_cat <> x var
+R1968:1968 Algebra.Sgroup_cat <> f var
+R1971:1980 Algebra.Sgroup_cat <> sgroup_law def
+R1986:1986 Algebra.Sgroup_cat <> y var
+R1984:1984 Algebra.Sgroup_cat <> x var
+rec 2026:2035 <> sgroup_hom
+proj 2051:2060 <> sgroup_map
+proj 2074:2087 <> sgroup_hom_prf
+R2065:2067 Algebra.Sets <> Map rec
+R2071:2071 Algebra.Sgroup_cat <> Hom.F var
+R2069:2069 Algebra.Sgroup_cat <> Hom.E var
+R2091:2105 Algebra.Sgroup_cat <> sgroup_hom_prop def
+R2107:2116 Algebra.Sgroup_cat <> sgroup_map meth
+R2124:2126 Algebra.Sgroup_cat Hom <> sec
+def 2141:2155 <> sgroup_hom_comp
+R2176:2181 Algebra.Sgroup_cat <> sgroup rec
+R2198:2201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2216:2219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2220:2229 Algebra.Sgroup_cat <> sgroup_hom rec
+R2233:2233 Algebra.Sgroup_cat <> G var
+R2231:2231 Algebra.Sgroup_cat <> E var
+R2202:2211 Algebra.Sgroup_cat <> sgroup_hom rec
+R2215:2215 Algebra.Sgroup_cat <> F var
+R2213:2213 Algebra.Sgroup_cat <> E var
+R2184:2193 Algebra.Sgroup_cat <> sgroup_hom rec
+R2197:2197 Algebra.Sgroup_cat <> G var
+R2195:2195 Algebra.Sgroup_cat <> F var
+R2277:2292 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R2307:2318 Algebra.Sets <> comp_map_map def
+R2277:2292 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R2307:2318 Algebra.Sets <> comp_map_map def
+R2334:2348 Algebra.Sgroup_cat <> sgroup_hom_prop def
+R2400:2411 Algebra.Sets <> comp_map_fun def
+R2475:2476 Algebra.Sets <> Ap proj
+R2501:2510 Algebra.Sgroup_cat <> sgroup_law def
+R2537:2538 Algebra.Sets <> Ap proj
+R2541:2550 Algebra.Sgroup_cat <> sgroup_map proj
+R2515:2516 Algebra.Sets <> Ap proj
+R2519:2528 Algebra.Sgroup_cat <> sgroup_map proj
+R2479:2488 Algebra.Sgroup_cat <> sgroup_map proj
+R2457:2461 Algebra.Sets <> Trans thm
+R2475:2476 Algebra.Sets <> Ap proj
+R2501:2510 Algebra.Sgroup_cat <> sgroup_law def
+R2537:2538 Algebra.Sets <> Ap proj
+R2541:2550 Algebra.Sgroup_cat <> sgroup_map proj
+R2515:2516 Algebra.Sets <> Ap proj
+R2519:2528 Algebra.Sgroup_cat <> sgroup_map proj
+R2479:2488 Algebra.Sgroup_cat <> sgroup_map proj
+R2457:2461 Algebra.Sets <> Trans thm
+R2587:2591 Algebra.Sets <> Equal proj
+R2637:2646 Algebra.Sgroup_cat <> sgroup_law def
+R2673:2674 Algebra.Sets <> Ap proj
+R2677:2686 Algebra.Sgroup_cat <> sgroup_map proj
+R2651:2652 Algebra.Sets <> Ap proj
+R2655:2664 Algebra.Sgroup_cat <> sgroup_map proj
+R2594:2595 Algebra.Sets <> Ap proj
+R2613:2622 Algebra.Sgroup_cat <> sgroup_law def
+R2598:2607 Algebra.Sgroup_cat <> sgroup_map proj
+R2587:2591 Algebra.Sets <> Equal proj
+R2637:2646 Algebra.Sgroup_cat <> sgroup_law def
+R2673:2674 Algebra.Sets <> Ap proj
+R2677:2686 Algebra.Sgroup_cat <> sgroup_map proj
+R2651:2652 Algebra.Sets <> Ap proj
+R2655:2664 Algebra.Sgroup_cat <> sgroup_map proj
+R2594:2595 Algebra.Sets <> Ap proj
+R2613:2622 Algebra.Sgroup_cat <> sgroup_law def
+R2598:2607 Algebra.Sgroup_cat <> sgroup_map proj
+R2723:2736 Algebra.Sgroup_cat <> sgroup_hom_prf proj
+R2723:2736 Algebra.Sgroup_cat <> sgroup_hom_prf proj
+R2749:2762 Algebra.Sgroup_cat <> sgroup_hom_prf proj
+R2749:2762 Algebra.Sgroup_cat <> sgroup_hom_prf proj
+def 2789:2797 <> sgroup_id
+R2812:2817 Algebra.Sgroup_cat <> sgroup rec
+R2820:2829 Algebra.Sgroup_cat <> sgroup_hom rec
+R2833:2833 Algebra.Sgroup_cat <> E var
+R2831:2831 Algebra.Sgroup_cat <> E var
+R2869:2884 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R2899:2900 Algebra.Sets <> Id def
+R2869:2884 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R2899:2900 Algebra.Sets <> Id def
+def 2975:2980 <> SGROUP
+R2984:2991 Algebra.Categories <> category rec
+R3002:3007 Algebra.Subcat <> subcat def
+R3257:3265 Algebra.Sgroup_cat <> sgroup_id def
+R3229:3243 Algebra.Sgroup_cat <> sgroup_hom_comp def
+R3069:3074 Algebra.Sgroup_cat <> sgroup rec
+R3091:3109 Algebra.Parts <> Build_subtype_image constr
+R3193:3202 Algebra.Sgroup_cat <> sgroup_map proj
+R3215:3215 Algebra.Sgroup_cat <> F var
+R3208:3208 Algebra.Sgroup_cat <> E var
+R3162:3171 Algebra.Sgroup_cat <> sgroup_hom rec
+R3175:3175 Algebra.Sgroup_cat <> F var
+R3173:3173 Algebra.Sgroup_cat <> E var
+R3115:3117 Algebra.Sets <> MAP def
+R3121:3121 Algebra.Sgroup_cat <> F var
+R3119:3119 Algebra.Sgroup_cat <> E var
+R3035:3044 Algebra.Sgroup_cat <> sgroup_set proj
+R3023:3028 Algebra.Sgroup_cat <> sgroup rec
+R3013:3015 Algebra.Set_cat <> SET def
+R3002:3007 Algebra.Subcat <> subcat def
+R3257:3265 Algebra.Sgroup_cat <> sgroup_id def
+R3229:3243 Algebra.Sgroup_cat <> sgroup_hom_comp def
+R3069:3074 Algebra.Sgroup_cat <> sgroup rec
+R3091:3109 Algebra.Parts <> Build_subtype_image constr
+R3193:3202 Algebra.Sgroup_cat <> sgroup_map proj
+R3215:3215 Algebra.Sgroup_cat <> F var
+R3208:3208 Algebra.Sgroup_cat <> E var
+R3162:3171 Algebra.Sgroup_cat <> sgroup_hom rec
+R3175:3175 Algebra.Sgroup_cat <> F var
+R3173:3173 Algebra.Sgroup_cat <> E var
+R3115:3117 Algebra.Sets <> MAP def
+R3121:3121 Algebra.Sgroup_cat <> F var
+R3119:3119 Algebra.Sgroup_cat <> E var
+R3035:3044 Algebra.Sgroup_cat <> sgroup_set proj
+R3023:3028 Algebra.Sgroup_cat <> sgroup rec
+R3013:3015 Algebra.Set_cat <> SET def

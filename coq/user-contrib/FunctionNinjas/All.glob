@@ -1,0 +1,13 @@
+DIGEST 55024bc8558f1a791d1c2962b53dfe4e
+FFunctionNinjas.All
+def 11:15 <> apply
+R29:32 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R33:33 FunctionNinjas.All <> B var
+R28:28 FunctionNinjas.All <> A var
+R41:41 FunctionNinjas.All <> A var
+R47:47 FunctionNinjas.All <> f var
+R49:49 FunctionNinjas.All <> x var
+R77:81 FunctionNinjas.All <> apply def
+not 62:62 <> :::x_'|>'_x
+R150:154 FunctionNinjas.All <> apply def
+not 135:135 <> :::x_'@@'_x

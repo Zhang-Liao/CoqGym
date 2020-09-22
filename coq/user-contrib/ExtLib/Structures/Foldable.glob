@@ -1,0 +1,112 @@
+DIGEST 76e116f233e7e5b028a083bad333f9a7
+FExtLib.Structures.Foldable
+R15:28 Coq.Lists.List <> <> lib
+R46:61 ExtLib.Core.Type <> <> lib
+R79:102 ExtLib.Structures.Monoid <> <> lib
+sec 160:167 <> foldable
+var 181:181 foldable T
+var 183:183 foldable A
+rec 202:209 <> Foldable
+proj 225:232 <> fold_mon
+R250:255 ExtLib.Structures.Monoid <> Monoid rec
+R257:257 ExtLib.Structures.Foldable <> m var
+R261:261 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R268:272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R274:277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R278:278 ExtLib.Structures.Foldable <> m var
+R273:273 ExtLib.Structures.Foldable <> foldable.T var
+R263:266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R267:267 ExtLib.Structures.Foldable <> m var
+R262:262 ExtLib.Structures.Foldable <> foldable.A var
+var 295:304 foldable Foldable_T
+R308:315 ExtLib.Structures.Foldable <> Foldable class
+def 332:335 <> fold
+R354:357 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R359:362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R363:363 ExtLib.Structures.Foldable <> R var
+R358:358 ExtLib.Structures.Foldable <> R var
+R353:353 ExtLib.Structures.Foldable <> foldable.A var
+R374:374 ExtLib.Structures.Foldable <> R var
+R382:382 ExtLib.Structures.Foldable <> foldable.T var
+R387:387 ExtLib.Structures.Foldable <> R var
+R397:404 ExtLib.Structures.Foldable <> fold_mon meth
+R544:547 ExtLib.Structures.Foldable <> init var
+R542:542 ExtLib.Structures.Foldable <> s var
+R540:540 ExtLib.Structures.Foldable <> f var
+R443:520 ExtLib.Structures.Monoid <> Build_Monoid constr
+R520:520 ExtLib.Structures.Foldable <> x var
+R471:471 ExtLib.Structures.Foldable <> f var
+R474:474 ExtLib.Structures.Foldable <> g var
+R476:476 ExtLib.Structures.Foldable <> x var
+R419:422 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R423:423 ExtLib.Structures.Foldable <> R var
+R418:418 ExtLib.Structures.Foldable <> R var
+R406:415 ExtLib.Structures.Foldable <> foldable.Foldable_T var
+def 564:569 <> toList
+R574:577 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R578:581 Coq.Init.Datatypes <> list ind
+R583:583 ExtLib.Structures.Foldable <> foldable.A var
+R573:573 ExtLib.Structures.Foldable <> foldable.T var
+R592:599 ExtLib.Structures.Foldable <> fold_mon meth
+R693:696 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R692:692 ExtLib.Structures.Foldable <> x var
+R697:699 Coq.Init.Datatypes <> nil constr
+R610:676 ExtLib.Structures.Monoid <> Build_Monoid constr
+R674:676 Coq.Init.Datatypes <> nil constr
+R626:633 Coq.Lists.List <> app syndef
+R635:635 ExtLib.Structures.Foldable <> foldable.A var
+var 715:717 foldable Add
+R722:725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R727:730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R732:735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R731:731 ExtLib.Structures.Foldable <> foldable.T var
+R726:726 ExtLib.Structures.Foldable <> foldable.T var
+R721:721 ExtLib.Structures.Foldable <> foldable.A var
+rec 751:760 <> FoldableOk
+proj 776:783 <> fold_ind
+R801:806 ExtLib.Structures.Monoid <> Monoid rec
+R808:808 ExtLib.Structures.Foldable <> m var
+R816:819 ExtLib.Core.Type <> type class
+R821:821 ExtLib.Structures.Foldable <> m var
+R830:839 ExtLib.Structures.Monoid <> MonoidLaws class
+R841:841 ExtLib.Structures.Foldable <> M var
+R850:853 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R849:849 ExtLib.Structures.Foldable <> m var
+R899:919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R920:920 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1098:1119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1120:1120 ExtLib.Structures.Foldable <> P var
+R1124:1131 ExtLib.Structures.Foldable <> fold_mon meth
+R1150:1150 ExtLib.Structures.Foldable <> u var
+R1148:1148 ExtLib.Structures.Foldable <> f var
+R1146:1146 ExtLib.Structures.Foldable <> M var
+R1144:1144 ExtLib.Structures.Foldable <> m var
+R1133:1142 ExtLib.Structures.Foldable <> foldable.Foldable_T var
+R964:987 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1020:1043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1044:1044 ExtLib.Structures.Foldable <> P var
+R1047:1057 ExtLib.Structures.Monoid <> monoid_plus proj
+R1069:1076 ExtLib.Structures.Foldable <> fold_mon meth
+R1095:1095 ExtLib.Structures.Foldable <> z var
+R1093:1093 ExtLib.Structures.Foldable <> f var
+R1091:1091 ExtLib.Structures.Foldable <> M var
+R1089:1089 ExtLib.Structures.Foldable <> m var
+R1078:1087 ExtLib.Structures.Foldable <> foldable.Foldable_T var
+R1062:1062 ExtLib.Structures.Foldable <> f var
+R1064:1064 ExtLib.Structures.Foldable <> x var
+R1059:1059 ExtLib.Structures.Foldable <> M var
+R988:988 ExtLib.Structures.Foldable <> P var
+R992:999 ExtLib.Structures.Foldable <> fold_mon meth
+R1018:1018 ExtLib.Structures.Foldable <> y var
+R1016:1016 ExtLib.Structures.Foldable <> f var
+R1014:1014 ExtLib.Structures.Foldable <> M var
+R1012:1012 ExtLib.Structures.Foldable <> m var
+R1001:1010 ExtLib.Structures.Foldable <> foldable.Foldable_T var
+R955:957 ExtLib.Structures.Foldable <> foldable.Add var
+R963:963 ExtLib.Structures.Foldable <> z var
+R961:961 ExtLib.Structures.Foldable <> y var
+R959:959 ExtLib.Structures.Foldable <> x var
+R882:882 ExtLib.Structures.Foldable <> P var
+R885:895 ExtLib.Structures.Monoid <> monoid_unit proj
+R897:897 ExtLib.Structures.Foldable <> M var
+R1163:1170 ExtLib.Structures.Foldable foldable <> sec

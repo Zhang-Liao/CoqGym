@@ -1,0 +1,78 @@
+DIGEST 0e3613be18f1a231cb74f5b3ca43dd36
+FExtLib.Structures.MonadReader
+R47:69 ExtLib.Structures.Monad <> <> lib
+rec 131:141 <> MonadReader
+proj 203:207 <> local
+proj 259:261 <> ask
+R177:180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R234:234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R241:245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R249:252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R253:253 ExtLib.Structures.MonadReader <> m var
+R255:255 ExtLib.Structures.MonadReader <> t var
+R246:246 ExtLib.Structures.MonadReader <> m var
+R248:248 ExtLib.Structures.MonadReader <> t var
+R236:239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R240:240 ExtLib.Structures.MonadReader <> T var
+R235:235 ExtLib.Structures.MonadReader <> T var
+R265:265 ExtLib.Structures.MonadReader <> m var
+R267:267 ExtLib.Structures.MonadReader <> T var
+R283:287 ExtLib.Structures.MonadReader <> local meth
+R283:287 ExtLib.Structures.MonadReader <> local meth
+R329:331 ExtLib.Structures.MonadReader <> ask meth
+R329:331 ExtLib.Structures.MonadReader <> ask meth
+def 367:370 <> asks
+R402:405 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R432:436 ExtLib.Structures.Monad <> Monad class
+R438:438 ExtLib.Structures.MonadReader <> m var
+R484:494 ExtLib.Structures.MonadReader <> MonadReader class
+R504:504 ExtLib.Structures.MonadReader <> m var
+R502:502 ExtLib.Structures.MonadReader <> T var
+R539:542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R543:543 ExtLib.Structures.MonadReader <> U var
+R538:538 ExtLib.Structures.MonadReader <> T var
+R548:548 ExtLib.Structures.MonadReader <> m var
+R550:550 ExtLib.Structures.MonadReader <> U var
+R557:560 ExtLib.Structures.Monad <> bind meth
+R576:578 ExtLib.Structures.Monad <> ret meth
+R581:581 ExtLib.Structures.MonadReader <> f var
+R583:583 ExtLib.Structures.MonadReader <> x var
+R562:564 ExtLib.Structures.MonadReader <> ask meth
+def 600:609 <> ReaderProd
+R641:644 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R671:675 ExtLib.Structures.Monad <> Monad class
+R677:677 ExtLib.Structures.MonadReader <> m var
+R725:735 ExtLib.Structures.MonadReader <> MonadReader class
+R739:739 ExtLib.Structures.MonadReader <> m var
+R737:737 ExtLib.Structures.MonadReader <> T var
+R759:762 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R763:763 ExtLib.Structures.MonadReader <> S var
+R758:758 ExtLib.Structures.MonadReader <> T var
+R783:786 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R788:791 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R792:792 ExtLib.Structures.MonadReader <> T var
+R787:787 ExtLib.Structures.MonadReader <> T var
+R782:782 ExtLib.Structures.MonadReader <> S var
+R797:807 ExtLib.Structures.MonadReader <> MonadReader class
+R817:817 ExtLib.Structures.MonadReader <> m var
+R815:815 ExtLib.Structures.MonadReader <> S var
+R825:944 ExtLib.Structures.MonadReader <> Build_MonadReader constr
+R833:836 ExtLib.Structures.MonadReader <> asks def
+R849:849 ExtLib.Structures.MonadReader <> f var
+R847:847 ExtLib.Structures.MonadReader <> S var
+R844:845 ExtLib.Structures.MonadReader <> MR var
+R842:842 ExtLib.Structures.MonadReader <> T var
+R840:840 ExtLib.Structures.MonadReader <> M var
+R838:838 ExtLib.Structures.MonadReader <> m var
+R878:878 ExtLib.Structures.MonadReader <> m var
+R880:881 ExtLib.Structures.MonadReader <> _T var
+R903:907 ExtLib.Structures.MonadReader <> local meth
+R944:944 ExtLib.Structures.MonadReader <> c var
+R928:928 ExtLib.Structures.MonadReader <> g var
+R941:941 ExtLib.Structures.MonadReader <> s var
+R931:932 ExtLib.Structures.MonadReader <> up var
+R935:935 ExtLib.Structures.MonadReader <> f var
+R937:937 ExtLib.Structures.MonadReader <> s var
+R913:914 ExtLib.Structures.MonadReader <> MR var
+R911:911 ExtLib.Structures.MonadReader <> m var
+R909:909 ExtLib.Structures.MonadReader <> T var

@@ -1,0 +1,22 @@
+DIGEST 66975c65663f2c2ce36afeee7bfe32a8
+FExtLib.Relations.Compose
+sec 8:14 <> compose
+var 28:28 compose T
+var 49:50 compose R1
+var 52:53 compose R2
+R58:61 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R63:66 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R62:62 ExtLib.Relations.Compose <> compose.T var
+R57:57 ExtLib.Relations.Compose <> compose.T var
+def 87:93 <> compose
+R102:102 ExtLib.Relations.Compose <> compose.T var
+R119:125 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R127:128 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R135:138 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R129:130 ExtLib.Relations.Compose <> compose.R1 var
+R134:134 ExtLib.Relations.Compose <> y var
+R132:132 ExtLib.Relations.Compose <> x var
+R139:140 ExtLib.Relations.Compose <> compose.R2 var
+R144:144 ExtLib.Relations.Compose <> z var
+R142:142 ExtLib.Relations.Compose <> y var
+R151:157 ExtLib.Relations.Compose compose <> sec

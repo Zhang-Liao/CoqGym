@@ -1,0 +1,56 @@
+DIGEST c29510d387883464f7393acc983ecff3
+FExtLib.Structures.Traversable
+R15:43 ExtLib.Structures.Applicative <> <> lib
+rec 122:132 <> Traversable
+proj 179:182 <> mapT
+R153:156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R206:209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R241:251 ExtLib.Structures.Applicative <> Applicative class
+R259:259 ExtLib.Structures.Traversable <> F var
+R284:284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R293:297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R301:304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R305:305 ExtLib.Structures.Traversable <> F var
+R308:308 ExtLib.Structures.Traversable <> T var
+R310:310 ExtLib.Structures.Traversable <> B var
+R298:298 ExtLib.Structures.Traversable <> T var
+R300:300 ExtLib.Structures.Traversable <> A var
+R286:289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R290:290 ExtLib.Structures.Traversable <> F var
+R292:292 ExtLib.Structures.Traversable <> B var
+R285:285 ExtLib.Structures.Traversable <> A var
+def 340:347 <> sequence
+R380:383 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R410:420 ExtLib.Structures.Traversable <> Traversable class
+R422:422 ExtLib.Structures.Traversable <> T var
+R450:453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R468:478 ExtLib.Structures.Applicative <> Applicative class
+R480:480 ExtLib.Structures.Traversable <> F var
+R509:512 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R513:513 ExtLib.Structures.Traversable <> F var
+R516:516 ExtLib.Structures.Traversable <> T var
+R518:518 ExtLib.Structures.Traversable <> A var
+R502:502 ExtLib.Structures.Traversable <> T var
+R505:505 ExtLib.Structures.Traversable <> F var
+R507:507 ExtLib.Structures.Traversable <> A var
+R524:527 ExtLib.Structures.Traversable <> mapT meth
+R531:532 Coq.Init.Datatypes <> id def
+def 562:565 <> forT
+R598:601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R628:638 ExtLib.Structures.Traversable <> Traversable class
+R640:640 ExtLib.Structures.Traversable <> T var
+R656:659 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R674:684 ExtLib.Structures.Applicative <> Applicative class
+R686:686 ExtLib.Structures.Traversable <> F var
+R722:722 ExtLib.Structures.Traversable <> T var
+R724:724 ExtLib.Structures.Traversable <> A var
+R731:734 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R735:735 ExtLib.Structures.Traversable <> F var
+R737:737 ExtLib.Structures.Traversable <> B var
+R730:730 ExtLib.Structures.Traversable <> A var
+R742:742 ExtLib.Structures.Traversable <> F var
+R745:745 ExtLib.Structures.Traversable <> T var
+R747:747 ExtLib.Structures.Traversable <> B var
+R753:756 ExtLib.Structures.Traversable <> mapT meth
+R760:761 ExtLib.Structures.Traversable <> aT var
+R758:758 ExtLib.Structures.Traversable <> f var

@@ -1,0 +1,49 @@
+DIGEST f64c5039885d24db76913ea4e6bac545
+FZornsLemma.EnsemblesUtf8
+R15:31 ZornsLemma.EnsemblesImplicit <> <> lib
+R49:52 Coq.Unicode.Utf8 <> <> lib
+R70:77 ZornsLemma.Families <> <> lib
+R95:109 ZornsLemma.IndexedFamilies <> <> lib
+R128:140 ZornsLemma.EnsemblesSpec <> <> lib
+R166:167 Coq.Sets.Ensembles <> In def
+not 152:152 <> :::x_'∈'_x
+R212:223 Coq.Sets.Ensembles <> Intersection ind
+not 198:198 <> :::x_'∩'_x
+R292:303 Coq.Sets.Ensembles <> Intersection ind
+not 277:277 <> :::x_'//\\'_x
+R385:389 Coq.Sets.Ensembles <> Union ind
+not 371:371 <> :::x_'∪'_x
+R458:462 Coq.Sets.Ensembles <> Union ind
+not 443:443 <> :::x_'\\//'_x
+R544:551 Coq.Sets.Ensembles <> Setminus def
+not 530:530 <> :::x_'∖'_x
+R614:621 Coq.Sets.Ensembles <> Setminus def
+not 602:602 <> :::x_'\'_x
+R700:707 Coq.Sets.Ensembles <> Included def
+not 686:686 <> :::x_'⊆'_x
+R751:758 Coq.Sets.Ensembles <> Included def
+not 738:738 <> :::x_'<='_x
+R819:833 Coq.Sets.Ensembles <> Strict_Included def
+not 805:805 <> :::x_'⊊'_x
+R876:890 Coq.Sets.Ensembles <> Strict_Included def
+not 864:864 <> :::x_'<'_x
+R951:959 Coq.Sets.Ensembles <> Singleton ind
+not 937:937 <> :::'[['_x_']]'
+R1005:1010 Coq.Sets.Ensembles <> Couple ind
+not 987:987 <> :::'[['_x_','_x_']]'
+R1062:1067 Coq.Sets.Ensembles <> Triple ind
+not 1040:1040 <> :::'[['_x_','_x_','_x_']]'
+R1108:1116 Coq.Sets.Ensembles <> Empty_set ind
+not 1099:1099 <> :::'∅'
+R1154:1164 ZornsLemma.Families <> FamilyUnion ind
+not 1142:1142 <> :::'⋃'_x
+R1216:1227 ZornsLemma.IndexedFamilies <> IndexedUnion ind
+not 1192:1192 <> :::'⋃'_'['_x_':'_x_']'_x
+R1302:1313 ZornsLemma.IndexedFamilies <> IndexedUnion ind
+not 1277:1277 <> :::'\\//'_'['_x_':'_x_']'_x
+R1389:1406 ZornsLemma.Families <> FamilyIntersection ind
+not 1377:1377 <> :::'⋂'_x
+R1458:1476 ZornsLemma.IndexedFamilies <> IndexedIntersection ind
+not 1434:1434 <> :::'⋂'_'['_x_':'_x_']'_x
+R1551:1569 ZornsLemma.IndexedFamilies <> IndexedIntersection ind
+not 1526:1526 <> :::'//\\'_'['_x_':'_x_']'_x

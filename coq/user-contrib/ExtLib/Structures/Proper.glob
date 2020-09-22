@@ -1,0 +1,81 @@
+DIGEST b87e6a586c34a6e61c08d7c8544cfb2a
+FExtLib.Structures.Proper
+R8:25 Coq.Setoids.Setoid <> <> lib
+R43:65 Coq.Relations.Relations <> <> lib
+R83:109 Coq.Classes.RelationClasses <> <> lib
+sec 230:238 <> relations
+R269:272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R268:268 ExtLib.Structures.Proper <> T var
+R284:291 Coq.Relations.Relation_Definitions <> relation def
+R293:293 ExtLib.Structures.Proper <> T var
+ind 306:315 <> PReflexive
+constr 331:340 <> preflexive
+rec 306:315 <> PReflexive
+proj 331:340 <> preflexive
+R355:355 ExtLib.Structures.Proper <> relations.T var
+R362:365 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R366:366 ExtLib.Structures.Proper <> relations.R var
+R370:370 ExtLib.Structures.Proper <> x var
+R368:368 ExtLib.Structures.Proper <> x var
+R358:359 ExtLib.Structures.Proper <> relations.wf var
+R361:361 ExtLib.Structures.Proper <> x var
+inst 392:411 <> PReflexive_Reflexive
+R418:426 Coq.Classes.RelationClasses <> Reflexive class
+R428:428 ExtLib.Structures.Proper <> relations.R var
+R433:442 ExtLib.Structures.Proper <> PReflexive class
+ind 494:503 <> PSymmetric
+constr 519:528 <> psymmetric
+rec 494:503 <> PSymmetric
+proj 519:528 <> psymmetric
+R548:551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R556:559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R565:568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R569:569 ExtLib.Structures.Proper <> relations.R var
+R573:573 ExtLib.Structures.Proper <> x var
+R571:571 ExtLib.Structures.Proper <> y var
+R560:560 ExtLib.Structures.Proper <> relations.R var
+R564:564 ExtLib.Structures.Proper <> y var
+R562:562 ExtLib.Structures.Proper <> x var
+R552:553 ExtLib.Structures.Proper <> relations.wf var
+R555:555 ExtLib.Structures.Proper <> y var
+R544:545 ExtLib.Structures.Proper <> relations.wf var
+R547:547 ExtLib.Structures.Proper <> x var
+inst 595:614 <> PSymmetric_Symmetric
+R621:629 Coq.Classes.RelationClasses <> Symmetric class
+R631:631 ExtLib.Structures.Proper <> relations.R var
+R636:645 ExtLib.Structures.Proper <> PSymmetric class
+ind 700:710 <> PTransitive
+constr 726:736 <> ptransitive
+rec 700:710 <> PTransitive
+proj 726:736 <> ptransitive
+R758:761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R766:769 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R774:783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R789:792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R798:801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R802:802 ExtLib.Structures.Proper <> relations.R var
+R806:806 ExtLib.Structures.Proper <> z var
+R804:804 ExtLib.Structures.Proper <> x var
+R793:793 ExtLib.Structures.Proper <> relations.R var
+R797:797 ExtLib.Structures.Proper <> z var
+R795:795 ExtLib.Structures.Proper <> y var
+R784:784 ExtLib.Structures.Proper <> relations.R var
+R788:788 ExtLib.Structures.Proper <> y var
+R786:786 ExtLib.Structures.Proper <> x var
+R770:771 ExtLib.Structures.Proper <> relations.wf var
+R773:773 ExtLib.Structures.Proper <> z var
+R762:763 ExtLib.Structures.Proper <> relations.wf var
+R765:765 ExtLib.Structures.Proper <> y var
+R754:755 ExtLib.Structures.Proper <> relations.wf var
+R757:757 ExtLib.Structures.Proper <> x var
+inst 828:849 <> PTransitive_Transitive
+R856:865 Coq.Classes.RelationClasses <> Transitive class
+R867:867 ExtLib.Structures.Proper <> relations.R var
+R872:882 ExtLib.Structures.Proper <> PTransitive class
+R941:949 ExtLib.Structures.Proper relations <> sec
+R963:972 ExtLib.Structures.Proper <> PReflexive class
+R963:972 ExtLib.Structures.Proper <> PReflexive class
+R994:1003 ExtLib.Structures.Proper <> PSymmetric class
+R994:1003 ExtLib.Structures.Proper <> PSymmetric class
+R1025:1035 ExtLib.Structures.Proper <> PTransitive class
+R1025:1035 ExtLib.Structures.Proper <> PTransitive class

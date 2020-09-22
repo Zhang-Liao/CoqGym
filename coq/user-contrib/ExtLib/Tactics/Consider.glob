@@ -1,0 +1,286 @@
+DIGEST 50c5e9d90ab29a9ab321cc76af3cca1b
+FExtLib.Tactics.Consider
+ind 414:420 <> reflect
+constr 455:466 <> reflect_true
+constr 494:506 <> reflect_false
+R441:444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R437:440 Coq.Init.Datatypes <> bool ind
+R471:474 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R475:481 ExtLib.Tactics.Consider <> reflect ind
+R487:490 Coq.Init.Datatypes <> true constr
+R485:485 ExtLib.Tactics.Consider <> Q var
+R483:483 ExtLib.Tactics.Consider <> P var
+R470:470 ExtLib.Tactics.Consider <> P var
+R511:514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R515:521 ExtLib.Tactics.Consider <> reflect ind
+R527:531 Coq.Init.Datatypes <> false constr
+R525:525 ExtLib.Tactics.Consider <> Q var
+R523:523 ExtLib.Tactics.Consider <> P var
+R510:510 ExtLib.Tactics.Consider <> Q var
+ind 545:556 <> semi_reflect
+constr 589:605 <> semi_reflect_true
+constr 636:653 <> semi_reflect_false
+R575:578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R571:574 Coq.Init.Datatypes <> bool ind
+R610:613 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R614:625 ExtLib.Tactics.Consider <> semi_reflect ind
+R629:632 Coq.Init.Datatypes <> true constr
+R627:627 ExtLib.Tactics.Consider <> P var
+R609:609 ExtLib.Tactics.Consider <> P var
+R657:668 ExtLib.Tactics.Consider <> semi_reflect ind
+R672:676 Coq.Init.Datatypes <> false constr
+R670:670 ExtLib.Tactics.Consider <> P var
+prf 686:699 <> iff_to_reflect
+R713:716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R718:721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R717:717 ExtLib.Tactics.Consider <> B var
+R712:712 ExtLib.Tactics.Consider <> A var
+R734:737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R739:742 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R743:746 Coq.Init.Datatypes <> bool ind
+R738:738 ExtLib.Tactics.Consider <> B var
+R733:733 ExtLib.Tactics.Consider <> A var
+R754:754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R789:796 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R841:841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R809:815 ExtLib.Tactics.Consider <> reflect ind
+R835:835 ExtLib.Tactics.Consider <> T var
+R839:839 ExtLib.Tactics.Consider <> y var
+R837:837 ExtLib.Tactics.Consider <> x var
+R826:826 Coq.Init.Logic <> ::type_scope:'~'_x not
+R827:827 ExtLib.Tactics.Consider <> P var
+R831:831 ExtLib.Tactics.Consider <> y var
+R829:829 ExtLib.Tactics.Consider <> x var
+R818:818 ExtLib.Tactics.Consider <> P var
+R822:822 ExtLib.Tactics.Consider <> y var
+R820:820 ExtLib.Tactics.Consider <> x var
+R779:783 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R772:774 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R767:767 ExtLib.Tactics.Consider <> T var
+R771:771 ExtLib.Tactics.Consider <> y var
+R769:769 ExtLib.Tactics.Consider <> x var
+R775:778 Coq.Init.Datatypes <> true constr
+R784:784 ExtLib.Tactics.Consider <> P var
+R788:788 ExtLib.Tactics.Consider <> y var
+R786:786 ExtLib.Tactics.Consider <> x var
+prf 978:996 <> impl_to_semireflect
+R1010:1013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1015:1018 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1014:1014 ExtLib.Tactics.Consider <> B var
+R1009:1009 ExtLib.Tactics.Consider <> A var
+R1031:1034 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1036:1039 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1040:1043 Coq.Init.Datatypes <> bool ind
+R1035:1035 ExtLib.Tactics.Consider <> B var
+R1030:1030 ExtLib.Tactics.Consider <> A var
+R1051:1051 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1085:1092 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1133:1133 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1105:1116 ExtLib.Tactics.Consider <> semi_reflect ind
+R1127:1127 ExtLib.Tactics.Consider <> T var
+R1131:1131 ExtLib.Tactics.Consider <> y var
+R1129:1129 ExtLib.Tactics.Consider <> x var
+R1119:1119 ExtLib.Tactics.Consider <> P var
+R1123:1123 ExtLib.Tactics.Consider <> y var
+R1121:1121 ExtLib.Tactics.Consider <> x var
+R1076:1079 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1080:1080 ExtLib.Tactics.Consider <> P var
+R1084:1084 ExtLib.Tactics.Consider <> y var
+R1082:1082 ExtLib.Tactics.Consider <> x var
+R1069:1071 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1064:1064 ExtLib.Tactics.Consider <> T var
+R1068:1068 ExtLib.Tactics.Consider <> y var
+R1066:1066 ExtLib.Tactics.Consider <> x var
+R1072:1075 Coq.Init.Datatypes <> true constr
+prf 1224:1239 <> reflect_true_inv
+R1263:1266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1267:1267 ExtLib.Tactics.Consider <> P var
+R1247:1253 ExtLib.Tactics.Consider <> reflect ind
+R1259:1262 Coq.Init.Datatypes <> true constr
+R1257:1257 ExtLib.Tactics.Consider <> Q var
+R1255:1255 ExtLib.Tactics.Consider <> P var
+R1301:1301 ExtLib.Tactics.Consider <> x var
+R1306:1312 ExtLib.Tactics.Consider <> reflect ind
+R1350:1350 ExtLib.Tactics.Consider <> b var
+R1364:1365 Coq.Init.Datatypes <> ID def
+R1391:1402 ExtLib.Tactics.Consider <> reflect_true constr
+R1417:1429 ExtLib.Tactics.Consider <> reflect_false constr
+R1452:1452 ExtLib.Tactics.Consider <> x var
+R1301:1301 ExtLib.Tactics.Consider <> x var
+R1306:1312 ExtLib.Tactics.Consider <> reflect ind
+R1350:1350 ExtLib.Tactics.Consider <> b var
+R1364:1365 Coq.Init.Datatypes <> ID def
+R1391:1402 ExtLib.Tactics.Consider <> reflect_true constr
+R1417:1429 ExtLib.Tactics.Consider <> reflect_false constr
+R1452:1452 ExtLib.Tactics.Consider <> x var
+prf 1473:1489 <> reflect_false_inv
+R1514:1517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1518:1518 ExtLib.Tactics.Consider <> Q var
+R1497:1503 ExtLib.Tactics.Consider <> reflect ind
+R1509:1513 Coq.Init.Datatypes <> false constr
+R1507:1507 ExtLib.Tactics.Consider <> Q var
+R1505:1505 ExtLib.Tactics.Consider <> P var
+R1552:1552 ExtLib.Tactics.Consider <> x var
+R1557:1563 ExtLib.Tactics.Consider <> reflect ind
+R1601:1601 ExtLib.Tactics.Consider <> b var
+R1608:1609 Coq.Init.Datatypes <> ID def
+R1642:1653 ExtLib.Tactics.Consider <> reflect_true constr
+R1675:1675 ExtLib.Tactics.Consider <> x var
+R1679:1691 ExtLib.Tactics.Consider <> reflect_false constr
+R1552:1552 ExtLib.Tactics.Consider <> x var
+R1557:1563 ExtLib.Tactics.Consider <> reflect ind
+R1601:1601 ExtLib.Tactics.Consider <> b var
+R1608:1609 Coq.Init.Datatypes <> ID def
+R1642:1653 ExtLib.Tactics.Consider <> reflect_true constr
+R1675:1675 ExtLib.Tactics.Consider <> x var
+R1679:1691 ExtLib.Tactics.Consider <> reflect_false constr
+prf 1722:1742 <> semi_reflect_true_inv
+R1767:1770 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1771:1771 ExtLib.Tactics.Consider <> P var
+R1748:1759 ExtLib.Tactics.Consider <> semi_reflect ind
+R1763:1766 Coq.Init.Datatypes <> true constr
+R1761:1761 ExtLib.Tactics.Consider <> P var
+R1805:1805 ExtLib.Tactics.Consider <> x var
+R1810:1821 ExtLib.Tactics.Consider <> semi_reflect ind
+R1857:1857 ExtLib.Tactics.Consider <> b var
+R1871:1872 Coq.Init.Datatypes <> ID def
+R1898:1914 ExtLib.Tactics.Consider <> semi_reflect_true constr
+R1927:1944 ExtLib.Tactics.Consider <> semi_reflect_false constr
+R1963:1963 ExtLib.Tactics.Consider <> x var
+R1805:1805 ExtLib.Tactics.Consider <> x var
+R1810:1821 ExtLib.Tactics.Consider <> semi_reflect ind
+R1857:1857 ExtLib.Tactics.Consider <> b var
+R1871:1872 Coq.Init.Datatypes <> ID def
+R1898:1914 ExtLib.Tactics.Consider <> semi_reflect_true constr
+R1927:1944 ExtLib.Tactics.Consider <> semi_reflect_false constr
+R1963:1963 ExtLib.Tactics.Consider <> x var
+ind 1985:1991 <> Reflect
+constr 2020:2027 <> _Reflect
+rec 1985:1991 <> Reflect
+proj 2020:2027 <> _Reflect
+R1998:2001 Coq.Init.Datatypes <> bool ind
+R2031:2037 ExtLib.Tactics.Consider <> reflect ind
+R2043:2043 ExtLib.Tactics.Consider <> T var
+R2041:2041 ExtLib.Tactics.Consider <> Q var
+R2039:2039 ExtLib.Tactics.Consider <> P var
+ind 2052:2062 <> SemiReflect
+constr 2089:2100 <> _SemiReflect
+rec 2052:2062 <> SemiReflect
+proj 2089:2100 <> _SemiReflect
+R2069:2072 Coq.Init.Datatypes <> bool ind
+R2104:2115 ExtLib.Tactics.Consider <> semi_reflect ind
+R2119:2119 ExtLib.Tactics.Consider <> T var
+R2117:2117 ExtLib.Tactics.Consider <> P var
+sec 2131:2143 <> boolean_logic
+R2201:2207 ExtLib.Tactics.Consider <> Reflect class
+R2209:2212 Coq.Init.Datatypes <> true constr
+R2201:2207 ExtLib.Tactics.Consider <> Reflect class
+R2209:2212 Coq.Init.Datatypes <> true constr
+R2278:2284 ExtLib.Tactics.Consider <> Reflect class
+R2286:2290 Coq.Init.Datatypes <> false constr
+R2278:2284 ExtLib.Tactics.Consider <> Reflect class
+R2286:2290 Coq.Init.Datatypes <> false constr
+R2313:2329 ExtLib.Tactics.Consider <> reflect_false_inv thm
+R2235:2250 ExtLib.Tactics.Consider <> reflect_true_inv thm
+R2394:2400 ExtLib.Tactics.Consider <> Reflect class
+R2408:2409 ExtLib.Tactics.Consider <> Q1 var
+R2405:2406 ExtLib.Tactics.Consider <> P1 var
+R2402:2403 ExtLib.Tactics.Consider <> T1 var
+R2417:2423 ExtLib.Tactics.Consider <> Reflect class
+R2431:2432 ExtLib.Tactics.Consider <> Q2 var
+R2428:2429 ExtLib.Tactics.Consider <> P2 var
+R2425:2426 ExtLib.Tactics.Consider <> T2 var
+inst 2455:2466 <> Reflect_andb
+R2470:2476 ExtLib.Tactics.Consider <> Reflect class
+R2508:2511 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2506:2507 ExtLib.Tactics.Consider <> boolean_logic.Q1 var
+R2512:2513 ExtLib.Tactics.Consider <> boolean_logic.Q2 var
+R2497:2500 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2495:2496 ExtLib.Tactics.Consider <> boolean_logic.P1 var
+R2501:2502 ExtLib.Tactics.Consider <> boolean_logic.P2 var
+R2481:2484 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R2479:2480 ExtLib.Tactics.Consider <> boolean_logic.T1 var
+R2485:2486 ExtLib.Tactics.Consider <> boolean_logic.T2 var
+R2539:2540 ExtLib.Tactics.Consider <> boolean_logic.T1 var
+R2552:2553 ExtLib.Tactics.Consider <> boolean_logic.T2 var
+R2552:2553 ExtLib.Tactics.Consider <> boolean_logic.T2 var
+inst 2605:2615 <> Reflect_orb
+R2619:2625 ExtLib.Tactics.Consider <> Reflect class
+R2657:2660 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2655:2656 ExtLib.Tactics.Consider <> boolean_logic.Q1 var
+R2661:2662 ExtLib.Tactics.Consider <> boolean_logic.Q2 var
+R2646:2649 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R2644:2645 ExtLib.Tactics.Consider <> boolean_logic.P1 var
+R2650:2651 ExtLib.Tactics.Consider <> boolean_logic.P2 var
+R2630:2633 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R2628:2629 ExtLib.Tactics.Consider <> boolean_logic.T1 var
+R2634:2635 ExtLib.Tactics.Consider <> boolean_logic.T2 var
+R2688:2689 ExtLib.Tactics.Consider <> boolean_logic.T1 var
+R2701:2702 ExtLib.Tactics.Consider <> boolean_logic.T2 var
+R2701:2702 ExtLib.Tactics.Consider <> boolean_logic.T2 var
+inst 2754:2765 <> Reflect_negb
+R2769:2775 ExtLib.Tactics.Consider <> Reflect class
+R2795:2796 ExtLib.Tactics.Consider <> boolean_logic.P1 var
+R2792:2793 ExtLib.Tactics.Consider <> boolean_logic.Q1 var
+R2778:2781 Coq.Init.Datatypes <> negb def
+R2783:2784 ExtLib.Tactics.Consider <> boolean_logic.T1 var
+R2821:2822 ExtLib.Tactics.Consider <> boolean_logic.T1 var
+R2860:2872 ExtLib.Tactics.Consider boolean_logic <> sec
+R2891:2908 ExtLib.Core.RelDec <> <> lib
+sec 2920:2931 <> from_rel_dec
+var 2945:2945 from_rel_dec T
+var 2966:2968 from_rel_dec eqt
+R2973:2976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2978:2981 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2977:2977 ExtLib.Tactics.Consider <> from_rel_dec.T var
+R2972:2972 ExtLib.Tactics.Consider <> from_rel_dec.T var
+var 2999:3000 from_rel_dec rd
+R3004:3009 ExtLib.Core.RelDec <> RelDec class
+R3011:3013 ExtLib.Tactics.Consider <> from_rel_dec.eqt var
+var 3027:3029 from_rel_dec rdc
+R3033:3046 ExtLib.Core.RelDec <> RelDec_Correct class
+R3048:3049 ExtLib.Tactics.Consider <> from_rel_dec.rd var
+inst 3071:3091 <> Reflect_RelDecCorrect
+R3100:3100 ExtLib.Tactics.Consider <> from_rel_dec.T var
+R3107:3113 ExtLib.Tactics.Consider <> Reflect class
+R3140:3141 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3149:3149 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3142:3144 ExtLib.Tactics.Consider <> from_rel_dec.eqt var
+R3148:3148 ExtLib.Tactics.Consider <> b var
+R3146:3146 ExtLib.Tactics.Consider <> a var
+R3130:3132 ExtLib.Tactics.Consider <> from_rel_dec.eqt var
+R3136:3136 ExtLib.Tactics.Consider <> b var
+R3134:3134 ExtLib.Tactics.Consider <> a var
+R3116:3122 ExtLib.Core.RelDec <> rel_dec meth
+R3126:3126 ExtLib.Tactics.Consider <> b var
+R3124:3124 ExtLib.Tactics.Consider <> a var
+R3173:3186 ExtLib.Tactics.Consider <> iff_to_reflect thm
+R3173:3186 ExtLib.Tactics.Consider <> iff_to_reflect thm
+R3200:3214 ExtLib.Core.RelDec <> rel_dec_correct meth
+R3200:3214 ExtLib.Core.RelDec <> rel_dec_correct meth
+R3228:3239 ExtLib.Tactics.Consider from_rel_dec <> sec
+R3260:3266 ExtLib.Tactics.Consider <> Reflect class
+R3298:3318 ExtLib.Tactics.Consider <> Reflect_RelDecCorrect inst
+R3326:3337 ExtLib.Core.RelDec <> Build_RelDec constr
+R3628:3631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3621:3623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3617:3620 Coq.Init.Datatypes <> true constr
+R3624:3627 Coq.Init.Datatypes <> true constr
+R3628:3631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3621:3623 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3617:3620 Coq.Init.Datatypes <> true constr
+R3624:3627 Coq.Init.Datatypes <> true constr
+R3677:3680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3670:3672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3665:3669 Coq.Init.Datatypes <> false constr
+R3673:3676 Coq.Init.Datatypes <> true constr
+R3677:3680 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3670:3672 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3665:3669 Coq.Init.Datatypes <> false constr
+R3673:3676 Coq.Init.Datatypes <> true constr
+R3713:3716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3713:3716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3951:3957 Coq.Init.Specif <> sumbool ind
+R3951:3957 Coq.Init.Specif <> sumbool ind
+R4236:4246 ExtLib.Tactics.Consider <> SemiReflect class
+R4064:4070 ExtLib.Tactics.Consider <> Reflect class

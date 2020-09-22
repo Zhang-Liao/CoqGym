@@ -1,0 +1,35 @@
+DIGEST b98934c6ce0a86a575f12131a1b960fb
+FLinAlg.extras.Matrix_related_defs
+R1144:1151 LinAlg.examples.Matrices <> <> lib
+R1169:1172 LinAlg.support.sums <> <> lib
+sec 1184:1187 <> defs
+var 1199:1199 defs F
+R1203:1207 Algebra.Field_cat <> field rec
+var 1219:1219 defs n
+R1223:1225 LinAlg.support.finite <> Nat def
+var 1237:1237 defs M
+R1241:1246 LinAlg.examples.Matrices <> matrix def
+R1252:1252 LinAlg.extras.Matrix_related_defs <> defs.n var
+R1250:1250 LinAlg.extras.Matrix_related_defs <> defs.n var
+R1248:1248 LinAlg.extras.Matrix_related_defs <> defs.F var
+def 1267:1278 <> the_diagonal
+R1282:1284 LinAlg.support.finite <> seq def
+R1288:1288 LinAlg.extras.Matrix_related_defs <> defs.F var
+R1286:1286 LinAlg.extras.Matrix_related_defs <> defs.n var
+R1298:1306 Algebra.Sets <> Build_Map constr
+R1321:1323 LinAlg.support.finite <> fin def
+R1325:1325 LinAlg.extras.Matrix_related_defs <> defs.n var
+R1330:1330 LinAlg.extras.Matrix_related_defs <> defs.M var
+R1334:1334 LinAlg.extras.Matrix_related_defs <> i var
+R1332:1332 LinAlg.extras.Matrix_related_defs <> i var
+R1298:1306 Algebra.Sets <> Build_Map constr
+R1321:1323 LinAlg.support.finite <> fin def
+R1325:1325 LinAlg.extras.Matrix_related_defs <> defs.n var
+R1330:1330 LinAlg.extras.Matrix_related_defs <> defs.M var
+R1334:1334 LinAlg.extras.Matrix_related_defs <> i var
+R1332:1332 LinAlg.extras.Matrix_related_defs <> i var
+R1369:1369 LinAlg.extras.Matrix_related_defs <> defs.M var
+def 1449:1453 <> trace
+R1458:1460 LinAlg.support.sums <> sum def
+R1462:1473 LinAlg.extras.Matrix_related_defs <> the_diagonal def
+R1480:1483 LinAlg.extras.Matrix_related_defs defs <> sec

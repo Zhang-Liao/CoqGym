@@ -1,0 +1,293 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 696} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 12; Loc.bol_pos = 697; Loc.line_nb_last = 12; Loc.bol_pos_last = 697; Loc.bp = 697; Loc.ep = 719} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 13; Loc.bol_pos = 720; Loc.line_nb_last = 13; Loc.bol_pos_last = 720; Loc.bp = 720; Loc.ep = 742} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 14; Loc.bol_pos = 743; Loc.line_nb_last = 14; Loc.bol_pos_last = 743; Loc.bp = 743; Loc.ep = 766} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 15; Loc.bol_pos = 767; Loc.line_nb_last = 15; Loc.bol_pos_last = 767; Loc.bp = 767; Loc.ep = 793} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 16; Loc.bol_pos = 794; Loc.line_nb_last = 16; Loc.bol_pos_last = 794; Loc.bp = 794; Loc.ep = 831} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 17; Loc.bol_pos = 832; Loc.line_nb_last = 17; Loc.bol_pos_last = 832; Loc.bp = 832; Loc.ep = 859} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 18; Loc.bol_pos = 860; Loc.line_nb_last = 18; Loc.bol_pos_last = 860; Loc.bp = 860; Loc.ep = 890} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 19; Loc.bol_pos = 891; Loc.line_nb_last = 19; Loc.bol_pos_last = 891; Loc.bp = 891; Loc.ep = 913} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 20; Loc.bol_pos = 914; Loc.line_nb_last = 20; Loc.bol_pos_last = 914; Loc.bp = 914; Loc.ep = 944} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 21; Loc.bol_pos = 945; Loc.line_nb_last = 21; Loc.bol_pos_last = 945; Loc.bp = 945; Loc.ep = 971} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 23; Loc.bol_pos = 973; Loc.line_nb_last = 24; Loc.bol_pos_last = 1010; Loc.bp = 973; Loc.ep = 1056} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 27; Loc.bol_pos = 1059; Loc.line_nb_last = 42; Loc.bol_pos_last = 1653; Loc.bp = 1059; Loc.ep = 1659} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 44; Loc.bol_pos = 1661; Loc.line_nb_last = 44; Loc.bol_pos_last = 1661; Loc.bp = 1661; Loc.ep = 1675} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 45; Loc.bol_pos = 1676; Loc.line_nb_last = 45; Loc.bol_pos_last = 1676; Loc.bp = 1676; Loc.ep = 1706} **)
+(**VERNAC_TYPE** VernacContext **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 47; Loc.bol_pos = 1708; Loc.line_nb_last = 47; Loc.bol_pos_last = 1708; Loc.bp = 1708; Loc.ep = 1756} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 48; Loc.bol_pos = 1757; Loc.line_nb_last = 48; Loc.bol_pos_last = 1757; Loc.bp = 1757; Loc.ep = 1763} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 49; Loc.bol_pos = 1764; Loc.line_nb_last = 49; Loc.bol_pos_last = 1764; Loc.bp = 1764; Loc.ep = 1771} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 49; Loc.bol_pos = 1764; Loc.line_nb_last = 49; Loc.bol_pos_last = 1764; Loc.bp = 1772; Loc.ep = 1800} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 50; Loc.bol_pos = 1801; Loc.line_nb_last = 50; Loc.bol_pos_last = 1801; Loc.bp = 1801; Loc.ep = 1809} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** cring_eq_ext **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 52; Loc.bol_pos = 1811; Loc.line_nb_last = 53; Loc.bol_pos_last = 1843; Loc.bp = 1811; Loc.ep = 1901} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 54; Loc.bol_pos = 1902; Loc.line_nb_last = 54; Loc.bol_pos_last = 1902; Loc.bp = 1902; Loc.ep = 1909} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 54; Loc.bol_pos = 1902; Loc.line_nb_last = 54; Loc.bol_pos_last = 1902; Loc.bp = 1910; Loc.ep = 1931} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 55; Loc.bol_pos = 1933; Loc.line_nb_last = 55; Loc.bol_pos_last = 1933; Loc.bp = 1933; Loc.ep = 1967} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 56; Loc.bol_pos = 1969; Loc.line_nb_last = 56; Loc.bol_pos_last = 1969; Loc.bp = 1969; Loc.ep = 2004} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 57; Loc.bol_pos = 2006; Loc.line_nb_last = 57; Loc.bol_pos_last = 2006; Loc.bp = 2006; Loc.ep = 2042} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 58; Loc.bol_pos = 2044; Loc.line_nb_last = 58; Loc.bol_pos_last = 2044; Loc.bp = 2044; Loc.ep = 2078} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 59; Loc.bol_pos = 2080; Loc.line_nb_last = 59; Loc.bol_pos_last = 2080; Loc.bp = 2080; Loc.ep = 2099} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 60; Loc.bol_pos = 2100; Loc.line_nb_last = 60; Loc.bol_pos_last = 2100; Loc.bp = 2100; Loc.ep = 2136} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 61; Loc.bol_pos = 2138; Loc.line_nb_last = 61; Loc.bol_pos_last = 2138; Loc.bp = 2138; Loc.ep = 2174} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 62; Loc.bol_pos = 2176; Loc.line_nb_last = 62; Loc.bol_pos_last = 2176; Loc.bp = 2176; Loc.ep = 2210} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 63; Loc.bol_pos = 2212; Loc.line_nb_last = 63; Loc.bol_pos_last = 2212; Loc.bp = 2212; Loc.ep = 2248} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 64; Loc.bol_pos = 2250; Loc.line_nb_last = 64; Loc.bol_pos_last = 2250; Loc.bp = 2250; Loc.ep = 2269} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 65; Loc.bol_pos = 2270; Loc.line_nb_last = 65; Loc.bol_pos_last = 2270; Loc.bp = 2270; Loc.ep = 2305} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 65; Loc.bol_pos = 2270; Loc.line_nb_last = 65; Loc.bol_pos_last = 2270; Loc.bp = 2306; Loc.ep = 2314} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** cring_almost_ring_theory **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 67; Loc.bol_pos = 2316; Loc.line_nb_last = 70; Loc.bol_pos_last = 2432; Loc.bp = 2316; Loc.ep = 2469} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 71; Loc.bol_pos = 2470; Loc.line_nb_last = 71; Loc.bol_pos_last = 2470; Loc.bp = 2470; Loc.ep = 2477} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 71; Loc.bol_pos = 2470; Loc.line_nb_last = 71; Loc.bol_pos_last = 2470; Loc.bp = 2478; Loc.ep = 2525} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 72; Loc.bol_pos = 2526; Loc.line_nb_last = 72; Loc.bol_pos_last = 2526; Loc.bp = 2526; Loc.ep = 2575} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 73; Loc.bol_pos = 2576; Loc.line_nb_last = 73; Loc.bol_pos_last = 2576; Loc.bp = 2576; Loc.ep = 2597} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 73; Loc.bol_pos = 2576; Loc.line_nb_last = 73; Loc.bol_pos_last = 2576; Loc.bp = 2598; Loc.ep = 2611} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 73; Loc.bol_pos = 2576; Loc.line_nb_last = 73; Loc.bol_pos_last = 2576; Loc.bp = 2612; Loc.ep = 2648} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 74; Loc.bol_pos = 2649; Loc.line_nb_last = 74; Loc.bol_pos_last = 2649; Loc.bp = 2649; Loc.ep = 2698} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 75; Loc.bol_pos = 2699; Loc.line_nb_last = 75; Loc.bol_pos_last = 2699; Loc.bp = 2699; Loc.ep = 2748} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 76; Loc.bol_pos = 2749; Loc.line_nb_last = 76; Loc.bol_pos_last = 2749; Loc.bp = 2749; Loc.ep = 2798} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 77; Loc.bol_pos = 2799; Loc.line_nb_last = 77; Loc.bol_pos_last = 2799; Loc.bp = 2799; Loc.ep = 2823} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 77; Loc.bol_pos = 2799; Loc.line_nb_last = 77; Loc.bol_pos_last = 2799; Loc.bp = 2824; Loc.ep = 2836} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 77; Loc.bol_pos = 2799; Loc.line_nb_last = 77; Loc.bol_pos_last = 2799; Loc.bp = 2837; Loc.ep = 2845} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** cring_morph **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 79; Loc.bol_pos = 2847; Loc.line_nb_last = 81; Loc.bol_pos_last = 2935; Loc.bp = 2847; Loc.ep = 2978} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 82; Loc.bol_pos = 2979; Loc.line_nb_last = 82; Loc.bol_pos_last = 2979; Loc.bp = 2979; Loc.ep = 3014} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 82; Loc.bol_pos = 2979; Loc.line_nb_last = 82; Loc.bol_pos_last = 2979; Loc.bp = 3015; Loc.ep = 3027} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 82; Loc.bol_pos = 2979; Loc.line_nb_last = 82; Loc.bol_pos_last = 2979; Loc.bp = 3028; Loc.ep = 3036} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** cring_power_theory **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 84; Loc.bol_pos = 3038; Loc.line_nb_last = 85; Loc.bol_pos_last = 3063; Loc.bp = 3038; Loc.ep = 3127} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 86; Loc.bol_pos = 3128; Loc.line_nb_last = 86; Loc.bol_pos_last = 3128; Loc.bp = 3128; Loc.ep = 3135} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 86; Loc.bol_pos = 3128; Loc.line_nb_last = 86; Loc.bol_pos_last = 3128; Loc.bp = 3136; Loc.ep = 3167} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 86; Loc.bol_pos = 3128; Loc.line_nb_last = 86; Loc.bol_pos_last = 3128; Loc.bp = 3168; Loc.ep = 3189} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 87; Loc.bol_pos = 3190; Loc.line_nb_last = 87; Loc.bol_pos_last = 3190; Loc.bp = 3190; Loc.ep = 3196} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 87; Loc.bol_pos = 3190; Loc.line_nb_last = 87; Loc.bol_pos_last = 3190; Loc.bp = 3199; Loc.ep = 3217} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 87; Loc.bol_pos = 3190; Loc.line_nb_last = 87; Loc.bol_pos_last = 3190; Loc.bp = 3218; Loc.ep = 3226} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** cring_div_theory **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 89; Loc.bol_pos = 3228; Loc.line_nb_last = 89; Loc.bol_pos_last = 3228; Loc.bp = 3228; Loc.ep = 3238} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 91; Loc.bol_pos = 3240; Loc.line_nb_last = 121; Loc.bol_pos_last = 4387; Loc.bp = 3240; Loc.ep = 4393} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 123; Loc.bol_pos = 4395; Loc.line_nb_last = 123; Loc.bol_pos_last = 4395; Loc.bp = 4395; Loc.ep = 4440} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 125; Loc.bol_pos = 4442; Loc.line_nb_last = 128; Loc.bol_pos_last = 4479; Loc.bp = 4442; Loc.ep = 4495} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 130; Loc.bol_pos = 4497; Loc.line_nb_last = 130; Loc.bol_pos_last = 4497; Loc.bp = 4497; Loc.ep = 4529} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 131; Loc.bol_pos = 4530; Loc.line_nb_last = 131; Loc.bol_pos_last = 4530; Loc.bp = 4530; Loc.ep = 4534} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 131; Loc.bol_pos = 4530; Loc.line_nb_last = 131; Loc.bol_pos_last = 4530; Loc.bp = 4535; Loc.ep = 4552} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 131; Loc.bol_pos = 4530; Loc.line_nb_last = 131; Loc.bol_pos_last = 4530; Loc.bp = 4553; Loc.ep = 4561} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zcri **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 135; Loc.bol_pos = 4585; Loc.line_nb_last = 219; Loc.bol_pos_last = 7617; Loc.bp = 4585; Loc.ep = 7625} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 221; Loc.bol_pos = 7627; Loc.line_nb_last = 227; Loc.bol_pos_last = 7776; Loc.bp = 7627; Loc.ep = 7782} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 229; Loc.bol_pos = 7784; Loc.line_nb_last = 236; Loc.bol_pos_last = 7947; Loc.bp = 7784; Loc.ep = 7954} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 242; Loc.bol_pos = 8119; Loc.line_nb_last = 267; Loc.bol_pos_last = 8946; Loc.bp = 8119; Loc.ep = 8954} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 269; Loc.bol_pos = 8956; Loc.line_nb_last = 270; Loc.bol_pos_last = 9005; Loc.bp = 8956; Loc.ep = 9037} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/setoid_ring/Cring.v"; Loc.line_nb = 272; Loc.bol_pos = 9039; Loc.line_nb_last = 273; Loc.bol_pos_last = 9102; Loc.bp = 9039; Loc.ep = 9130} **)
+(**VERNAC_TYPE** VernacExtend **)

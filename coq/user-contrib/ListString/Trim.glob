@@ -1,0 +1,58 @@
+DIGEST 6caca3416220a69112245820edd8047d
+FListString.Trim
+R15:28 Coq.Lists.List <> <> lib
+R46:62 Coq.Strings.Ascii <> <> lib
+R73:76 ListString.Char <> <> lib
+R94:100 ListString.LString <> <> lib
+def 253:257 <> chomp
+R264:264 ListString.LString <> t def
+R269:269 ListString.LString <> t def
+R282:282 ListString.Trim <> s var
+R293:294 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R299:300 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R306:306 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R312:312 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R316:316 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R322:322 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R326:326 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R332:333 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R339:339 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R344:345 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R344:345 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R344:345 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R352:355 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R362:365 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R366:370 ListString.Trim <> chomp def
+R372:372 ListString.Trim <> s var
+def 479:487 <> trim_head
+R494:494 ListString.LString <> t def
+R499:499 ListString.LString <> t def
+R512:512 ListString.Trim <> s var
+R523:524 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R529:530 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R537:540 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R554:572 ListString.Char <> is_white_space def
+R615:615 ListString.Trim <> s var
+R587:595 ListString.Trim <> trim_head def
+def 716:724 <> trim_tail
+R731:731 ListString.LString <> t def
+R736:736 ListString.LString <> t def
+R749:749 ListString.Trim <> s var
+R760:761 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R766:767 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R774:777 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R793:801 ListString.Trim <> trim_tail def
+R803:803 ListString.Trim <> s var
+R816:817 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R831:849 ListString.Char <> is_white_space def
+R888:888 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R890:890 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R866:867 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R904:907 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R908:908 ListString.Trim <> s var
+def 1041:1044 <> trim
+R1051:1051 ListString.LString <> t def
+R1056:1056 ListString.LString <> t def
+R1063:1071 ListString.Trim <> trim_head def
+R1074:1082 ListString.Trim <> trim_tail def
+R1084:1084 ListString.Trim <> s var

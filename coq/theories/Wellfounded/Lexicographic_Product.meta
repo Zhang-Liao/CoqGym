@@ -1,0 +1,370 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 13; Loc.bol_pos = 723; Loc.line_nb_last = 13; Loc.bol_pos_last = 723; Loc.bp = 723; Loc.ep = 744} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 14; Loc.bol_pos = 745; Loc.line_nb_last = 14; Loc.bol_pos_last = 745; Loc.bp = 745; Loc.ep = 779} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 15; Loc.bol_pos = 780; Loc.line_nb_last = 15; Loc.bol_pos_last = 780; Loc.bp = 780; Loc.ep = 814} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 20; Loc.bol_pos = 919; Loc.line_nb_last = 20; Loc.bol_pos_last = 919; Loc.bp = 919; Loc.ep = 951} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 21; Loc.bol_pos = 952; Loc.line_nb_last = 21; Loc.bol_pos_last = 952; Loc.bp = 954; Loc.ep = 972} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 22; Loc.bol_pos = 973; Loc.line_nb_last = 22; Loc.bol_pos_last = 973; Loc.bp = 975; Loc.ep = 998} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 23; Loc.bol_pos = 999; Loc.line_nb_last = 23; Loc.bol_pos_last = 999; Loc.bp = 1001; Loc.ep = 1031} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 24; Loc.bol_pos = 1032; Loc.line_nb_last = 24; Loc.bol_pos_last = 1032; Loc.bp = 1034; Loc.ep = 1080} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 26; Loc.bol_pos = 1082; Loc.line_nb_last = 26; Loc.bol_pos_last = 1082; Loc.bp = 1084; Loc.ep = 1126} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 28; Loc.bol_pos = 1128; Loc.line_nb_last = 32; Loc.bol_pos_last = 1260; Loc.bp = 1130; Loc.ep = 1324} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 33; Loc.bol_pos = 1325; Loc.line_nb_last = 33; Loc.bol_pos_last = 1325; Loc.bp = 1327; Loc.ep = 1333} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 34; Loc.bol_pos = 1334; Loc.line_nb_last = 34; Loc.bol_pos_last = 1334; Loc.bp = 1338; Loc.ep = 1378} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 35; Loc.bol_pos = 1379; Loc.line_nb_last = 35; Loc.bol_pos_last = 1379; Loc.bp = 1383; Loc.ep = 1420} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 36; Loc.bol_pos = 1421; Loc.line_nb_last = 36; Loc.bol_pos_last = 1421; Loc.bp = 1425; Loc.ep = 1441} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 37; Loc.bol_pos = 1442; Loc.line_nb_last = 37; Loc.bol_pos_last = 1442; Loc.bp = 1446; Loc.ep = 1478} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 38; Loc.bol_pos = 1479; Loc.line_nb_last = 38; Loc.bol_pos_last = 1479; Loc.bp = 1483; Loc.ep = 1510} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 39; Loc.bol_pos = 1511; Loc.line_nb_last = 39; Loc.bol_pos_last = 1511; Loc.bp = 1515; Loc.ep = 1538} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 40; Loc.bol_pos = 1539; Loc.line_nb_last = 40; Loc.bol_pos_last = 1539; Loc.bp = 1543; Loc.ep = 1571} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 41; Loc.bol_pos = 1572; Loc.line_nb_last = 41; Loc.bol_pos_last = 1572; Loc.bp = 1576; Loc.ep = 1583} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 42; Loc.bol_pos = 1584; Loc.line_nb_last = 42; Loc.bol_pos_last = 1584; Loc.bp = 1588; Loc.ep = 1597} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 43; Loc.bol_pos = 1598; Loc.line_nb_last = 43; Loc.bol_pos_last = 1598; Loc.bp = 1602; Loc.ep = 1640} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 45; Loc.bol_pos = 1642; Loc.line_nb_last = 45; Loc.bol_pos_last = 1642; Loc.bp = 1646; Loc.ep = 1656} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 46; Loc.bol_pos = 1657; Loc.line_nb_last = 46; Loc.bol_pos_last = 1657; Loc.bp = 1661; Loc.ep = 1670} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 47; Loc.bol_pos = 1671; Loc.line_nb_last = 47; Loc.bol_pos_last = 1671; Loc.bp = 1675; Loc.ep = 1690} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 49; Loc.bol_pos = 1692; Loc.line_nb_last = 49; Loc.bol_pos_last = 1692; Loc.bp = 1696; Loc.ep = 1717} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 50; Loc.bol_pos = 1718; Loc.line_nb_last = 50; Loc.bol_pos_last = 1718; Loc.bp = 1722; Loc.ep = 1759} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 52; Loc.bol_pos = 1761; Loc.line_nb_last = 52; Loc.bol_pos_last = 1761; Loc.bp = 1765; Loc.ep = 1779} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 53; Loc.bol_pos = 1780; Loc.line_nb_last = 53; Loc.bol_pos_last = 1780; Loc.bp = 1784; Loc.ep = 1806} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 54; Loc.bol_pos = 1807; Loc.line_nb_last = 54; Loc.bol_pos_last = 1807; Loc.bp = 1811; Loc.ep = 1824} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 55; Loc.bol_pos = 1825; Loc.line_nb_last = 55; Loc.bol_pos_last = 1825; Loc.bp = 1829; Loc.ep = 1873} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 56; Loc.bol_pos = 1874; Loc.line_nb_last = 56; Loc.bol_pos_last = 1874; Loc.bp = 1876; Loc.ep = 1884} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** acc_A_B_lexprod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 58; Loc.bol_pos = 1886; Loc.line_nb_last = 60; Loc.bol_pos_last = 1933; Loc.bp = 1888; Loc.ep = 1996} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 61; Loc.bol_pos = 1997; Loc.line_nb_last = 61; Loc.bol_pos_last = 1997; Loc.bp = 1999; Loc.ep = 2005} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 62; Loc.bol_pos = 2006; Loc.line_nb_last = 62; Loc.bol_pos_last = 2006; Loc.bp = 2010; Loc.ep = 2046} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 63; Loc.bol_pos = 2047; Loc.line_nb_last = 63; Loc.bol_pos_last = 2047; Loc.bp = 2051; Loc.ep = 2062} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 64; Loc.bol_pos = 2063; Loc.line_nb_last = 64; Loc.bol_pos_last = 2063; Loc.bp = 2067; Loc.ep = 2113} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 65; Loc.bol_pos = 2114; Loc.line_nb_last = 65; Loc.bol_pos_last = 2114; Loc.bp = 2118; Loc.ep = 2129} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 66; Loc.bol_pos = 2130; Loc.line_nb_last = 66; Loc.bol_pos_last = 2130; Loc.bp = 2134; Loc.ep = 2149} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 67; Loc.bol_pos = 2150; Loc.line_nb_last = 67; Loc.bol_pos_last = 2150; Loc.bp = 2152; Loc.ep = 2160} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** wf_lexprod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 70; Loc.bol_pos = 2163; Loc.line_nb_last = 70; Loc.bol_pos_last = 2163; Loc.bp = 2163; Loc.ep = 2191} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 73; Loc.bol_pos = 2194; Loc.line_nb_last = 73; Loc.bol_pos_last = 2194; Loc.bp = 2194; Loc.ep = 2223} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 74; Loc.bol_pos = 2224; Loc.line_nb_last = 74; Loc.bol_pos_last = 2224; Loc.bp = 2226; Loc.ep = 2244} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 75; Loc.bol_pos = 2245; Loc.line_nb_last = 75; Loc.bol_pos_last = 2245; Loc.bp = 2247; Loc.ep = 2265} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 76; Loc.bol_pos = 2266; Loc.line_nb_last = 76; Loc.bol_pos_last = 2266; Loc.bp = 2268; Loc.ep = 2298} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 77; Loc.bol_pos = 2299; Loc.line_nb_last = 77; Loc.bol_pos_last = 2299; Loc.bp = 2301; Loc.ep = 2331} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 79; Loc.bol_pos = 2333; Loc.line_nb_last = 79; Loc.bol_pos_last = 2333; Loc.bp = 2335; Loc.ep = 2377} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 81; Loc.bol_pos = 2379; Loc.line_nb_last = 82; Loc.bol_pos_last = 2401; Loc.bp = 2381; Loc.ep = 2474} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 83; Loc.bol_pos = 2475; Loc.line_nb_last = 83; Loc.bol_pos_last = 2475; Loc.bp = 2477; Loc.ep = 2483} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 84; Loc.bol_pos = 2484; Loc.line_nb_last = 84; Loc.bol_pos_last = 2484; Loc.bp = 2488; Loc.ep = 2528} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 85; Loc.bol_pos = 2529; Loc.line_nb_last = 85; Loc.bol_pos_last = 2529; Loc.bp = 2533; Loc.ep = 2564} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 86; Loc.bol_pos = 2565; Loc.line_nb_last = 86; Loc.bol_pos_last = 2565; Loc.bp = 2569; Loc.ep = 2598} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 87; Loc.bol_pos = 2599; Loc.line_nb_last = 87; Loc.bol_pos_last = 2599; Loc.bp = 2603; Loc.ep = 2638} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 88; Loc.bol_pos = 2639; Loc.line_nb_last = 88; Loc.bol_pos_last = 2639; Loc.bp = 2643; Loc.ep = 2661} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 89; Loc.bol_pos = 2662; Loc.line_nb_last = 89; Loc.bol_pos_last = 2662; Loc.bp = 2666; Loc.ep = 2691} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 90; Loc.bol_pos = 2692; Loc.line_nb_last = 90; Loc.bol_pos_last = 2692; Loc.bp = 2694; Loc.ep = 2702} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Acc_symprod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 93; Loc.bol_pos = 2705; Loc.line_nb_last = 94; Loc.bol_pos_last = 2726; Loc.bp = 2707; Loc.ep = 2791} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 95; Loc.bol_pos = 2792; Loc.line_nb_last = 95; Loc.bol_pos_last = 2792; Loc.bp = 2794; Loc.ep = 2800} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 96; Loc.bol_pos = 2801; Loc.line_nb_last = 96; Loc.bol_pos_last = 2801; Loc.bp = 2805; Loc.ep = 2809} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 97; Loc.bol_pos = 2810; Loc.line_nb_last = 97; Loc.bol_pos_last = 2810; Loc.bp = 2814; Loc.ep = 2825} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 98; Loc.bol_pos = 2826; Loc.line_nb_last = 98; Loc.bol_pos_last = 2826; Loc.bp = 2830; Loc.ep = 2864} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 99; Loc.bol_pos = 2865; Loc.line_nb_last = 99; Loc.bol_pos_last = 2865; Loc.bp = 2867; Loc.ep = 2875} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** wf_symprod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 101; Loc.bol_pos = 2877; Loc.line_nb_last = 101; Loc.bol_pos_last = 2877; Loc.bp = 2877; Loc.ep = 2902} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 104; Loc.bol_pos = 2905; Loc.line_nb_last = 104; Loc.bol_pos_last = 2905; Loc.bp = 2905; Loc.ep = 2918} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 106; Loc.bol_pos = 2920; Loc.line_nb_last = 106; Loc.bol_pos_last = 2920; Loc.bp = 2922; Loc.ep = 2940} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 107; Loc.bol_pos = 2941; Loc.line_nb_last = 107; Loc.bol_pos_last = 2941; Loc.bp = 2943; Loc.ep = 2971} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 109; Loc.bol_pos = 2973; Loc.line_nb_last = 109; Loc.bol_pos_last = 2973; Loc.bp = 2975; Loc.ep = 3011} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 112; Loc.bol_pos = 3014; Loc.line_nb_last = 112; Loc.bol_pos_last = 3014; Loc.bp = 3016; Loc.ep = 3090} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 113; Loc.bol_pos = 3091; Loc.line_nb_last = 113; Loc.bol_pos_last = 3091; Loc.bp = 3093; Loc.ep = 3099} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 114; Loc.bol_pos = 3100; Loc.line_nb_last = 114; Loc.bol_pos_last = 3100; Loc.bp = 3104; Loc.ep = 3111} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 115; Loc.bol_pos = 3112; Loc.line_nb_last = 115; Loc.bol_pos_last = 3112; Loc.bp = 3116; Loc.ep = 3134} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 116; Loc.bol_pos = 3135; Loc.line_nb_last = 116; Loc.bol_pos_last = 3135; Loc.bp = 3139; Loc.ep = 3155} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 117; Loc.bol_pos = 3156; Loc.line_nb_last = 117; Loc.bol_pos_last = 3156; Loc.bp = 3160; Loc.ep = 3180} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 118; Loc.bol_pos = 3181; Loc.line_nb_last = 118; Loc.bol_pos_last = 3181; Loc.bp = 3185; Loc.ep = 3233} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 119; Loc.bol_pos = 3234; Loc.line_nb_last = 119; Loc.bol_pos_last = 3234; Loc.bp = 3238; Loc.ep = 3252} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 120; Loc.bol_pos = 3253; Loc.line_nb_last = 120; Loc.bol_pos_last = 3253; Loc.bp = 3257; Loc.ep = 3289} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 122; Loc.bol_pos = 3291; Loc.line_nb_last = 122; Loc.bol_pos_last = 3291; Loc.bp = 3295; Loc.ep = 3309} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 123; Loc.bol_pos = 3310; Loc.line_nb_last = 123; Loc.bol_pos_last = 3310; Loc.bp = 3314; Loc.ep = 3345} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 125; Loc.bol_pos = 3347; Loc.line_nb_last = 125; Loc.bol_pos_last = 3347; Loc.bp = 3351; Loc.ep = 3367} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 126; Loc.bol_pos = 3368; Loc.line_nb_last = 126; Loc.bol_pos_last = 3368; Loc.bp = 3372; Loc.ep = 3404} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 128; Loc.bol_pos = 3406; Loc.line_nb_last = 128; Loc.bol_pos_last = 3406; Loc.bp = 3410; Loc.ep = 3426} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 129; Loc.bol_pos = 3427; Loc.line_nb_last = 129; Loc.bol_pos_last = 3427; Loc.bp = 3431; Loc.ep = 3462} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 130; Loc.bol_pos = 3463; Loc.line_nb_last = 130; Loc.bol_pos_last = 3463; Loc.bp = 3465; Loc.ep = 3473} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** swap_Acc **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 133; Loc.bol_pos = 3476; Loc.line_nb_last = 134; Loc.bol_pos_last = 3499; Loc.bp = 3478; Loc.ep = 3559} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 135; Loc.bol_pos = 3560; Loc.line_nb_last = 135; Loc.bol_pos_last = 3560; Loc.bp = 3562; Loc.ep = 3568} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 136; Loc.bol_pos = 3569; Loc.line_nb_last = 136; Loc.bol_pos_last = 3569; Loc.bp = 3573; Loc.ep = 3613} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 137; Loc.bol_pos = 3614; Loc.line_nb_last = 137; Loc.bol_pos_last = 3614; Loc.bp = 3618; Loc.ep = 3669} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 138; Loc.bol_pos = 3670; Loc.line_nb_last = 138; Loc.bol_pos_last = 3670; Loc.bp = 3674; Loc.ep = 3687} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 139; Loc.bol_pos = 3688; Loc.line_nb_last = 139; Loc.bol_pos_last = 3688; Loc.bp = 3692; Loc.ep = 3733} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 140; Loc.bol_pos = 3734; Loc.line_nb_last = 140; Loc.bol_pos_last = 3734; Loc.bp = 3738; Loc.ep = 3787} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 141; Loc.bol_pos = 3788; Loc.line_nb_last = 141; Loc.bol_pos_last = 3788; Loc.bp = 3792; Loc.ep = 3805} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 142; Loc.bol_pos = 3806; Loc.line_nb_last = 142; Loc.bol_pos_last = 3806; Loc.bp = 3810; Loc.ep = 3816} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 143; Loc.bol_pos = 3817; Loc.line_nb_last = 143; Loc.bol_pos_last = 3817; Loc.bp = 3821; Loc.ep = 3837} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 144; Loc.bol_pos = 3838; Loc.line_nb_last = 144; Loc.bol_pos_last = 3838; Loc.bp = 3842; Loc.ep = 3863} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 145; Loc.bol_pos = 3864; Loc.line_nb_last = 145; Loc.bol_pos_last = 3864; Loc.bp = 3868; Loc.ep = 3887} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 146; Loc.bol_pos = 3888; Loc.line_nb_last = 146; Loc.bol_pos_last = 3888; Loc.bp = 3892; Loc.ep = 3927} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 148; Loc.bol_pos = 3929; Loc.line_nb_last = 148; Loc.bol_pos_last = 3929; Loc.bp = 3933; Loc.ep = 3948} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 149; Loc.bol_pos = 3949; Loc.line_nb_last = 149; Loc.bol_pos_last = 3949; Loc.bp = 3953; Loc.ep = 3988} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 151; Loc.bol_pos = 3990; Loc.line_nb_last = 151; Loc.bol_pos_last = 3990; Loc.bp = 3994; Loc.ep = 4001} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 152; Loc.bol_pos = 4002; Loc.line_nb_last = 152; Loc.bol_pos_last = 4002; Loc.bp = 4006; Loc.ep = 4043} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 153; Loc.bol_pos = 4044; Loc.line_nb_last = 153; Loc.bol_pos_last = 4044; Loc.bp = 4048; Loc.ep = 4092} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 154; Loc.bol_pos = 4093; Loc.line_nb_last = 154; Loc.bol_pos_last = 4093; Loc.bp = 4097; Loc.ep = 4113} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 155; Loc.bol_pos = 4114; Loc.line_nb_last = 155; Loc.bol_pos_last = 4114; Loc.bp = 4118; Loc.ep = 4150} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 157; Loc.bol_pos = 4152; Loc.line_nb_last = 157; Loc.bol_pos_last = 4152; Loc.bp = 4156; Loc.ep = 4171} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 158; Loc.bol_pos = 4172; Loc.line_nb_last = 158; Loc.bol_pos_last = 4172; Loc.bp = 4174; Loc.ep = 4182} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Acc_swapprod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 161; Loc.bol_pos = 4185; Loc.line_nb_last = 161; Loc.bol_pos_last = 4185; Loc.bp = 4187; Loc.ep = 4247} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 162; Loc.bol_pos = 4248; Loc.line_nb_last = 162; Loc.bol_pos_last = 4248; Loc.bp = 4250; Loc.ep = 4256} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 163; Loc.bol_pos = 4257; Loc.line_nb_last = 163; Loc.bol_pos_last = 4257; Loc.bp = 4261; Loc.ep = 4265} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 164; Loc.bol_pos = 4266; Loc.line_nb_last = 164; Loc.bol_pos_last = 4266; Loc.bp = 4270; Loc.ep = 4289} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 165; Loc.bol_pos = 4290; Loc.line_nb_last = 165; Loc.bol_pos_last = 4290; Loc.bp = 4294; Loc.ep = 4329} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 166; Loc.bol_pos = 4330; Loc.line_nb_last = 166; Loc.bol_pos_last = 4330; Loc.bp = 4332; Loc.ep = 4340} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** wf_swapprod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Wellfounded/Lexicographic_Product.v"; Loc.line_nb = 168; Loc.bol_pos = 4342; Loc.line_nb_last = 168; Loc.bol_pos_last = 4342; Loc.bp = 4342; Loc.ep = 4351} **)
+(**VERNAC_TYPE** VernacEndSegment **)

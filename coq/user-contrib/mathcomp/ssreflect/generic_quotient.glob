@@ -1,0 +1,1724 @@
+DIGEST 7c15c50e2bd11cbfbd171dbd7588ccac
+Fmathcomp.ssreflect.generic_quotient
+R205:232 mathcomp.ssreflect.ssreflect <> <> lib
+R264:269 mathcomp.ssreflect.ssrfun <> <> lib
+R271:277 mathcomp.ssreflect.ssrbool <> <> lib
+R279:284 mathcomp.ssreflect.eqtype <> <> lib
+R286:291 mathcomp.ssreflect.ssrnat <> <> lib
+R293:298 mathcomp.ssreflect.choice <> <> lib
+R300:302 mathcomp.ssreflect.seq <> <> lib
+R304:310 mathcomp.ssreflect.fintype <> <> lib
+sec 7963:7973 <> QuotientDef
+var 7986:7986 QuotientDef T
+constr 8024:8032 <> QuotClass
+rec 8004:8016 <> quot_mixin_of
+proj 8038:8046 <> quot_repr
+proj 8061:8067 <> quot_pi
+R8052:8055 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8056:8056 mathcomp.ssreflect.generic_quotient <> QuotientDef.T var
+R8050:8051 mathcomp.ssreflect.generic_quotient <> qT var
+R8072:8075 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8076:8077 mathcomp.ssreflect.generic_quotient <> qT var
+R8071:8071 mathcomp.ssreflect.generic_quotient <> QuotientDef.T var
+R8086:8091 Coq.ssr.ssrfun <> cancel def
+R8103:8109 mathcomp.ssreflect.generic_quotient <> quot_pi meth
+R8093:8101 mathcomp.ssreflect.generic_quotient <> quot_repr meth
+syndef 8124:8136 <> quot_class_of
+R8141:8153 mathcomp.ssreflect.generic_quotient <> quot_mixin_of rec
+constr 8176:8187 <> QuotTypePack
+rec 8164:8171 <> quotType
+proj 8193:8201 <> quot_sort
+proj 8214:8223 <> quot_class
+R8227:8239 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R8241:8249 mathcomp.ssreflect.generic_quotient <> quot_sort meth
+var 8264:8265 QuotientDef qT
+R8269:8276 mathcomp.ssreflect.generic_quotient <> quotType rec
+def 8290:8297 <> pi_phant
+R8302:8306 Coq.ssr.ssreflect <> phant variant
+R8308:8309 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+R8314:8320 mathcomp.ssreflect.generic_quotient <> quot_pi proj
+R8323:8332 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R8334:8335 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+R8364:8371 mathcomp.ssreflect.generic_quotient <> pi_phant def
+R8374:8378 Coq.ssr.ssreflect <> Phant constr
+R8380:8381 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+not 8354:8354 QuotientDef :::'\pi'
+def 8397:8403 <> repr_of
+R8408:8416 mathcomp.ssreflect.generic_quotient <> quot_repr proj
+R8419:8428 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R8430:8431 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+prf 8442:8449 <> repr_ofK
+R8453:8458 Coq.ssr.ssrfun <> cancel def
+R8468:8470 mathcomp.ssreflect.generic_quotient QuotientDef :::'\pi' not
+R8460:8466 mathcomp.ssreflect.generic_quotient <> repr_of def
+R8492:8499 mathcomp.ssreflect.generic_quotient <> pi_phant def
+R8502:8508 mathcomp.ssreflect.generic_quotient <> repr_of def
+R8520:8521 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+R8492:8499 mathcomp.ssreflect.generic_quotient <> pi_phant def
+R8492:8499 mathcomp.ssreflect.generic_quotient <> pi_phant def
+R8502:8508 mathcomp.ssreflect.generic_quotient <> repr_of def
+R8502:8508 mathcomp.ssreflect.generic_quotient <> repr_of def
+R8520:8521 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+R8520:8521 mathcomp.ssreflect.generic_quotient <> QuotientDef.qT var
+def 8550:8563 <> QuotType_clone
+R8588:8595 Coq.ssr.ssrfun <> phant_id def
+R8613:8614 mathcomp.ssreflect.generic_quotient <> cT var
+R8598:8607 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R8609:8610 mathcomp.ssreflect.generic_quotient <> qT var
+R8620:8631 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R8635:8636 mathcomp.ssreflect.generic_quotient <> cT var
+R8633:8633 mathcomp.ssreflect.generic_quotient <> Q var
+R8644:8654 mathcomp.ssreflect.generic_quotient QuotientDef <> sec
+R8668:8675 mathcomp.ssreflect.generic_quotient <> repr_ofK thm
+R8668:8675 mathcomp.ssreflect.generic_quotient <> repr_ofK thm
+modtype 8792:8796 <> PiSig
+ax 8809:8809 PiSig f
+R8837:8844 mathcomp.ssreflect.generic_quotient <> quotType rec
+R8846:8846 mathcomp.ssreflect.generic_quotient <> T var
+R8858:8861 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8863:8866 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8867:8868 mathcomp.ssreflect.generic_quotient <> qT var
+R8862:8862 mathcomp.ssreflect.generic_quotient <> T var
+R8850:8854 Coq.ssr.ssreflect <> phant variant
+R8856:8857 mathcomp.ssreflect.generic_quotient <> qT var
+ax 8877:8877 PiSig E
+R8882:8884 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8881:8881 mathcomp.ssreflect.generic_quotient PiSig f defax
+R8885:8892 mathcomp.ssreflect.generic_quotient <> pi_phant def
+R8899:8903 mathcomp.ssreflect.generic_quotient PiSig <> modtype
+R8919:8923 mathcomp.ssreflect.generic_quotient PiSig <> mod
+mod 8914:8915 <> Pi
+def 8937:8937 Pi f
+R8942:8949 mathcomp.ssreflect.generic_quotient <> pi_phant def
+def 8963:8963 Pi E
+R8968:8972 Coq.ssr.ssrfun <> erefl syndef
+R8974:8974 mathcomp.ssreflect.generic_quotient Pi f def
+R8981:8982 mathcomp.ssreflect.generic_quotient Pi <> mod
+R8999:9003 mathcomp.ssreflect.generic_quotient PiSig <> mod
+mod 8993:8995 <> MPi
+def 9017:9017 MPi f
+R9022:9029 mathcomp.ssreflect.generic_quotient <> pi_phant def
+def 9043:9043 MPi E
+R9048:9052 Coq.ssr.ssrfun <> erefl syndef
+R9054:9054 mathcomp.ssreflect.generic_quotient MPi f def
+R9061:9063 mathcomp.ssreflect.generic_quotient MPi <> mod
+modtype 9079:9085 <> ReprSig
+ax 9098:9098 ReprSig f
+R9126:9133 mathcomp.ssreflect.generic_quotient <> quotType rec
+R9135:9135 mathcomp.ssreflect.generic_quotient <> T var
+R9141:9144 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9145:9145 mathcomp.ssreflect.generic_quotient <> T var
+R9139:9140 mathcomp.ssreflect.generic_quotient <> qT var
+ax 9154:9154 ReprSig E
+R9159:9161 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9158:9158 mathcomp.ssreflect.generic_quotient ReprSig f defax
+R9162:9168 mathcomp.ssreflect.generic_quotient <> repr_of def
+R9175:9181 mathcomp.ssreflect.generic_quotient ReprSig <> modtype
+R9199:9205 mathcomp.ssreflect.generic_quotient ReprSig <> mod
+mod 9192:9195 <> Repr
+def 9219:9219 Repr f
+R9224:9230 mathcomp.ssreflect.generic_quotient <> repr_of def
+def 9244:9244 Repr E
+R9249:9253 Coq.ssr.ssrfun <> erefl syndef
+R9255:9255 mathcomp.ssreflect.generic_quotient Repr f def
+R9262:9265 mathcomp.ssreflect.generic_quotient Repr <> mod
+syndef 9345:9348 <> repr
+R9353:9358 mathcomp.ssreflect.generic_quotient <> f defax
+R9384:9387 mathcomp.ssreflect.generic_quotient <> f defax
+R9394:9398 Coq.ssr.ssreflect <> Phant constr
+not 9370:9370 <> ::quotient_scope:'\pi_'_x
+R9442:9445 mathcomp.ssreflect.generic_quotient <> f defax
+R9452:9456 Coq.ssr.ssreflect <> Phant constr
+not 9431:9431 <> ::quotient_scope:'\pi'
+R9535:9538 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R9528:9531 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9539:9542 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+not 9505:9505 <> ::quotient_scope:x_'=='_x_'%[mod'_x_']'
+R9604:9606 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9597:9600 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9607:9610 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+not 9575:9575 <> ::quotient_scope:x_'='_x_'%[mod'_x_']'
+R9673:9676 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R9666:9669 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9677:9680 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+not 9643:9643 <> ::quotient_scope:x_'!='_x_'%[mod'_x_']'
+R9743:9746 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R9736:9739 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9747:9750 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+not 9713:9713 <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']'
+R9802:9806 mathcomp.ssreflect.generic_quotient <> f defax
+R9813:9817 Coq.ssr.ssreflect <> Phant constr
+not 9790:9790 <> :::'\mpi'
+R9848:9857 Coq.ssr.ssreflect <> Unlockable constr
+R9859:9863 mathcomp.ssreflect.generic_quotient <> E prfax
+R9889:9898 Coq.ssr.ssreflect <> Unlockable constr
+R9900:9903 mathcomp.ssreflect.generic_quotient <> E prfax
+R9931:9940 Coq.ssr.ssreflect <> Unlockable constr
+R9942:9947 mathcomp.ssreflect.generic_quotient <> E prfax
+syndef 9960:9972 <> quot_class_of
+R9977:9989 mathcomp.ssreflect.generic_quotient <> quot_mixin_of rec
+syndef 10001:10008 <> QuotType
+R10019:10030 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R10078:10091 mathcomp.ssreflect.generic_quotient <> QuotType_clone def
+R10101:10102 Coq.ssr.ssrfun <> id syndef
+not 10049:10049 <> ::form_scope:'['_'quotType'_'of'_x_']'
+R10178:10181 mathcomp.ssreflect.generic_quotient <> f defax
+R10178:10181 mathcomp.ssreflect.generic_quotient <> f defax
+sec 10284:10297 <> QuotTypeTheory
+var 10310:10310 QuotTypeTheory T
+var 10329:10330 QuotTypeTheory qT
+R10334:10341 mathcomp.ssreflect.generic_quotient <> quotType rec
+R10343:10343 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.T var
+prf 10353:10357 <> reprK
+R10361:10366 Coq.ssr.ssrfun <> cancel def
+R10373:10376 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10377:10378 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10368:10371 mathcomp.ssreflect.generic_quotient <> repr syndef
+R10410:10415 Coq.ssr.ssreflect <> unlock thm
+R10417:10424 mathcomp.ssreflect.generic_quotient <> repr_ofK thm
+R10410:10415 Coq.ssr.ssreflect <> unlock thm
+R10410:10415 Coq.ssr.ssreflect <> unlock thm
+R10410:10415 Coq.ssr.ssreflect <> unlock thm
+R10410:10415 Coq.ssr.ssreflect <> unlock thm
+R10417:10424 mathcomp.ssreflect.generic_quotient <> repr_ofK thm
+R10417:10424 mathcomp.ssreflect.generic_quotient <> repr_ofK thm
+ind 10441:10447 <> pi_spec
+constr 10474:10479 <> PiSpec
+R10454:10454 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.T var
+R10460:10463 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10459:10459 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.T var
+R10487:10489 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R10491:10497 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R10500:10500 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R10498:10499 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10486:10486 mathcomp.ssreflect.generic_quotient <> x var
+R10498:10499 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10490:10490 mathcomp.ssreflect.generic_quotient <> y var
+R10504:10510 mathcomp.ssreflect.generic_quotient <> pi_spec ind
+R10514:10514 mathcomp.ssreflect.generic_quotient <> y var
+R10512:10512 mathcomp.ssreflect.generic_quotient <> x var
+prf 10524:10526 <> piP
+R10533:10533 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.T var
+R10538:10544 mathcomp.ssreflect.generic_quotient <> pi_spec variant
+R10549:10552 mathcomp.ssreflect.generic_quotient <> repr syndef
+R10555:10558 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10559:10560 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10562:10562 mathcomp.ssreflect.generic_quotient <> x var
+R10546:10546 mathcomp.ssreflect.generic_quotient <> x var
+R10598:10602 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10598:10602 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10598:10602 mathcomp.ssreflect.generic_quotient <> reprK thm
+prf 10617:10620 <> mpiE
+R10628:10631 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R10624:10627 mathcomp.ssreflect.generic_quotient <> :::'\mpi' not
+R10632:10635 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10636:10637 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10669:10674 Coq.ssr.ssreflect <> unlock thm
+R10669:10674 Coq.ssr.ssreflect <> unlock thm
+R10669:10674 Coq.ssr.ssreflect <> unlock thm
+R10669:10674 Coq.ssr.ssreflect <> unlock thm
+R10669:10674 Coq.ssr.ssreflect <> unlock thm
+prf 10689:10693 <> quotW
+R10699:10699 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10726:10730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10742:10743 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10746:10746 mathcomp.ssreflect.generic_quotient <> P var
+R10748:10748 mathcomp.ssreflect.generic_quotient <> x var
+R10711:10711 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.T var
+R10714:10714 mathcomp.ssreflect.generic_quotient <> P var
+R10717:10720 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10721:10722 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10724:10724 mathcomp.ssreflect.generic_quotient <> y var
+R10786:10790 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10786:10790 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10786:10790 mathcomp.ssreflect.generic_quotient <> reprK thm
+prf 10816:10820 <> quotP
+R10826:10826 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10876:10882 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10894:10895 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10898:10898 mathcomp.ssreflect.generic_quotient <> P var
+R10900:10900 mathcomp.ssreflect.generic_quotient <> x var
+R10838:10838 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.T var
+R10860:10863 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10864:10864 mathcomp.ssreflect.generic_quotient <> P var
+R10867:10870 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10871:10872 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10874:10874 mathcomp.ssreflect.generic_quotient <> y var
+R10856:10858 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10841:10844 mathcomp.ssreflect.generic_quotient <> repr syndef
+R10847:10850 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10851:10852 mathcomp.ssreflect.generic_quotient <> QuotTypeTheory.qT var
+R10854:10854 mathcomp.ssreflect.generic_quotient <> y var
+R10859:10859 mathcomp.ssreflect.generic_quotient <> y var
+R10938:10942 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10964:10968 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10938:10942 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10938:10942 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10964:10968 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10964:10968 mathcomp.ssreflect.generic_quotient <> reprK thm
+R10981:10994 mathcomp.ssreflect.generic_quotient QuotTypeTheory <> sec
+R11008:11012 mathcomp.ssreflect.generic_quotient <> reprK thm
+R11008:11012 mathcomp.ssreflect.generic_quotient <> reprK thm
+constr 11199:11205 <> EqualTo
+rec 11177:11184 <> equal_to
+proj 11212:11220 <> equal_val
+R11193:11193 mathcomp.ssreflect.generic_quotient <> T var
+R11224:11224 mathcomp.ssreflect.generic_quotient <> T var
+R11243:11245 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11242:11242 mathcomp.ssreflect.generic_quotient <> x var
+R11246:11254 mathcomp.ssreflect.generic_quotient <> equal_val meth
+prf 11265:11273 <> equal_toE
+R11291:11291 mathcomp.ssreflect.generic_quotient <> T var
+R11299:11306 mathcomp.ssreflect.generic_quotient <> equal_to rec
+R11308:11308 mathcomp.ssreflect.generic_quotient <> x var
+R11324:11326 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11313:11321 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R11323:11323 mathcomp.ssreflect.generic_quotient <> m var
+R11327:11327 mathcomp.ssreflect.generic_quotient <> x var
+syndef 11364:11366 <> piE
+R11373:11381 mathcomp.ssreflect.generic_quotient <> equal_toE thm
+R11420:11427 mathcomp.ssreflect.generic_quotient <> quotType rec
+R11429:11429 mathcomp.ssreflect.generic_quotient <> T var
+R11437:11437 mathcomp.ssreflect.generic_quotient <> T var
+R11446:11452 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R11476:11480 Coq.ssr.ssrfun <> erefl syndef
+R11468:11472 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R11472:11472 mathcomp.ssreflect.generic_quotient <> x var
+R11457:11460 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R11461:11462 mathcomp.ssreflect.generic_quotient <> qT var
+R11464:11464 mathcomp.ssreflect.generic_quotient <> x var
+R11497:11503 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R11497:11503 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+sec 11531:11538 <> Morphism
+var 11552:11552 Morphism T
+var 11554:11554 Morphism U
+var 11574:11575 Morphism qT
+R11579:11586 mathcomp.ssreflect.generic_quotient <> quotType rec
+R11588:11588 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+var 11602:11603 Morphism qU
+R11607:11614 mathcomp.ssreflect.generic_quotient <> quotType rec
+R11616:11616 mathcomp.ssreflect.generic_quotient <> Morphism.U var
+var 11631:11631 Morphism f
+var 11644:11644 Morphism g
+var 11662:11662 Morphism p
+var 11675:11675 Morphism r
+R11636:11639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11640:11640 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11635:11635 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11649:11652 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11654:11657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11658:11658 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11653:11653 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11648:11648 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11667:11670 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11671:11671 mathcomp.ssreflect.generic_quotient <> Morphism.U var
+R11666:11666 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11680:11683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11685:11688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11689:11689 mathcomp.ssreflect.generic_quotient <> Morphism.U var
+R11684:11684 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11679:11679 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+var 11703:11704 Morphism fq
+var 11719:11720 Morphism gq
+var 11741:11742 Morphism pq
+var 11756:11757 Morphism rq
+R11710:11713 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11714:11715 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11708:11709 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11726:11729 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11732:11735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11736:11737 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11730:11731 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11724:11725 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11748:11751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11752:11752 mathcomp.ssreflect.generic_quotient <> Morphism.U var
+R11746:11747 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11763:11766 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11769:11772 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11773:11773 mathcomp.ssreflect.generic_quotient <> Morphism.U var
+R11767:11768 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R11761:11762 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+var 11787:11787 Morphism h
+var 11800:11801 Morphism hq
+R11792:11795 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11796:11796 mathcomp.ssreflect.generic_quotient <> Morphism.U var
+R11791:11791 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R11807:11810 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11811:11812 mathcomp.ssreflect.generic_quotient <> Morphism.qU var
+R11805:11806 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+var 11827:11830 Morphism pi_f
+R11834:11840 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11844:11846 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11848:11850 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11854:11858 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11863:11863 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11841:11843 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R11851:11851 mathcomp.ssreflect.generic_quotient <> Morphism.f var
+R11853:11853 mathcomp.ssreflect.generic_quotient <> x var
+R11859:11860 mathcomp.ssreflect.generic_quotient <> Morphism.fq var
+R11862:11862 mathcomp.ssreflect.generic_quotient <> x var
+var 11877:11880 Morphism pi_g
+R11884:11890 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11894:11896 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11898:11898 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11900:11902 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11908:11912 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11919:11919 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11891:11893 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R11903:11903 mathcomp.ssreflect.generic_quotient <> Morphism.g var
+R11907:11907 mathcomp.ssreflect.generic_quotient <> y var
+R11905:11905 mathcomp.ssreflect.generic_quotient <> x var
+R11913:11914 mathcomp.ssreflect.generic_quotient <> Morphism.gq var
+R11918:11918 mathcomp.ssreflect.generic_quotient <> y var
+R11916:11916 mathcomp.ssreflect.generic_quotient <> x var
+var 11933:11936 Morphism pi_p
+R11940:11945 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11949:11951 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11953:11955 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11959:11963 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11968:11968 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R11946:11948 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R11956:11956 mathcomp.ssreflect.generic_quotient <> Morphism.p var
+R11958:11958 mathcomp.ssreflect.generic_quotient <> x var
+R11964:11965 mathcomp.ssreflect.generic_quotient <> Morphism.pq var
+R11967:11967 mathcomp.ssreflect.generic_quotient <> x var
+var 11982:11985 Morphism pi_r
+R11989:11994 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11998:12000 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R12002:12002 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R12004:12006 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R12012:12016 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R12023:12023 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11995:11997 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R12007:12007 mathcomp.ssreflect.generic_quotient <> Morphism.r var
+R12011:12011 mathcomp.ssreflect.generic_quotient <> y var
+R12009:12009 mathcomp.ssreflect.generic_quotient <> x var
+R12017:12018 mathcomp.ssreflect.generic_quotient <> Morphism.rq var
+R12022:12022 mathcomp.ssreflect.generic_quotient <> y var
+R12020:12020 mathcomp.ssreflect.generic_quotient <> x var
+var 12037:12040 Morphism pi_h
+R12056:12056 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R12072:12074 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12060:12063 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R12064:12065 mathcomp.ssreflect.generic_quotient <> Morphism.qU var
+R12068:12068 mathcomp.ssreflect.generic_quotient <> Morphism.h var
+R12070:12070 mathcomp.ssreflect.generic_quotient <> x var
+R12075:12076 mathcomp.ssreflect.generic_quotient <> Morphism.hq var
+R12079:12082 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R12083:12084 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R12086:12086 mathcomp.ssreflect.generic_quotient <> x var
+var 12101:12101 Morphism a
+var 12103:12103 Morphism b
+var 12111:12111 Morphism x
+var 12137:12137 Morphism y
+R12107:12107 mathcomp.ssreflect.generic_quotient <> Morphism.T var
+R12115:12122 mathcomp.ssreflect.generic_quotient <> equal_to rec
+R12125:12128 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R12129:12130 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R12132:12132 mathcomp.ssreflect.generic_quotient <> a var
+R12141:12148 mathcomp.ssreflect.generic_quotient <> equal_to rec
+R12151:12154 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R12155:12156 mathcomp.ssreflect.generic_quotient <> Morphism.qT var
+R12158:12158 mathcomp.ssreflect.generic_quotient <> b var
+prf 12215:12223 <> pi_morph1
+R12236:12238 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12227:12235 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R12232:12232 mathcomp.ssreflect.generic_quotient <> Morphism.f var
+R12234:12234 mathcomp.ssreflect.generic_quotient <> Morphism.a var
+R12239:12240 mathcomp.ssreflect.generic_quotient <> Morphism.fq var
+R12243:12251 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12253:12253 mathcomp.ssreflect.generic_quotient <> Morphism.x var
+R12276:12278 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12276:12278 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12276:12278 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12276:12278 mathcomp.ssreflect.generic_quotient <> piE syndef
+prf 12292:12300 <> pi_morph2
+R12315:12317 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12304:12314 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R12309:12309 mathcomp.ssreflect.generic_quotient <> Morphism.g var
+R12313:12313 mathcomp.ssreflect.generic_quotient <> Morphism.b var
+R12311:12311 mathcomp.ssreflect.generic_quotient <> Morphism.a var
+R12318:12319 mathcomp.ssreflect.generic_quotient <> Morphism.gq var
+R12336:12344 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12346:12346 mathcomp.ssreflect.generic_quotient <> Morphism.y var
+R12322:12330 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12332:12332 mathcomp.ssreflect.generic_quotient <> Morphism.x var
+R12369:12371 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12369:12371 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12369:12371 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12369:12371 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12369:12371 mathcomp.ssreflect.generic_quotient <> piE syndef
+prf 12385:12392 <> pi_mono1
+R12399:12401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12396:12396 mathcomp.ssreflect.generic_quotient <> Morphism.p var
+R12398:12398 mathcomp.ssreflect.generic_quotient <> Morphism.a var
+R12402:12403 mathcomp.ssreflect.generic_quotient <> Morphism.pq var
+R12406:12414 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12416:12416 mathcomp.ssreflect.generic_quotient <> Morphism.x var
+R12439:12441 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12439:12441 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12439:12441 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12439:12441 mathcomp.ssreflect.generic_quotient <> piE syndef
+prf 12455:12462 <> pi_mono2
+R12471:12473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12466:12466 mathcomp.ssreflect.generic_quotient <> Morphism.r var
+R12470:12470 mathcomp.ssreflect.generic_quotient <> Morphism.b var
+R12468:12468 mathcomp.ssreflect.generic_quotient <> Morphism.a var
+R12474:12475 mathcomp.ssreflect.generic_quotient <> Morphism.rq var
+R12492:12500 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12502:12502 mathcomp.ssreflect.generic_quotient <> Morphism.y var
+R12478:12486 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12488:12488 mathcomp.ssreflect.generic_quotient <> Morphism.x var
+R12525:12527 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12525:12527 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12525:12527 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12525:12527 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12525:12527 mathcomp.ssreflect.generic_quotient <> piE syndef
+prf 12541:12550 <> pi_morph11
+R12563:12565 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12554:12562 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R12559:12559 mathcomp.ssreflect.generic_quotient <> Morphism.h var
+R12561:12561 mathcomp.ssreflect.generic_quotient <> Morphism.a var
+R12566:12567 mathcomp.ssreflect.generic_quotient <> Morphism.hq var
+R12570:12578 mathcomp.ssreflect.generic_quotient <> equal_val proj
+R12580:12580 mathcomp.ssreflect.generic_quotient <> Morphism.x var
+R12603:12605 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12603:12605 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12603:12605 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12603:12605 mathcomp.ssreflect.generic_quotient <> piE syndef
+R12618:12625 mathcomp.ssreflect.generic_quotient Morphism <> sec
+R12639:12647 mathcomp.ssreflect.generic_quotient <> pi_morph1 thm
+R12639:12647 mathcomp.ssreflect.generic_quotient <> pi_morph1 thm
+R12672:12680 mathcomp.ssreflect.generic_quotient <> pi_morph2 thm
+R12672:12680 mathcomp.ssreflect.generic_quotient <> pi_morph2 thm
+R12705:12712 mathcomp.ssreflect.generic_quotient <> pi_mono1 thm
+R12705:12712 mathcomp.ssreflect.generic_quotient <> pi_mono1 thm
+R12739:12746 mathcomp.ssreflect.generic_quotient <> pi_mono2 thm
+R12739:12746 mathcomp.ssreflect.generic_quotient <> pi_mono2 thm
+R12773:12782 mathcomp.ssreflect.generic_quotient <> pi_morph11 thm
+R12773:12782 mathcomp.ssreflect.generic_quotient <> pi_morph11 thm
+R12829:12836 mathcomp.ssreflect.generic_quotient <> equal_to rec
+R12839:12842 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+not 12812:12812 <> ::quotient_scope:'{pi_'_x_x_'}'
+R12890:12897 mathcomp.ssreflect.generic_quotient <> equal_to rec
+R12900:12904 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+not 12876:12876 <> ::quotient_scope:'{pi'_x_'}'
+syndef 12967:12973 <> PiMorph
+R12984:12990 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+syndef 13008:13015 <> PiMorph1
+R13039:13042 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13044:13044 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13043:13043 mathcomp.ssreflect.generic_quotient <> a var
+R13050:13056 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R13059:13067 mathcomp.ssreflect.generic_quotient <> pi_morph1 thm
+R13076:13076 mathcomp.ssreflect.generic_quotient <> x var
+R13074:13074 mathcomp.ssreflect.generic_quotient <> a var
+syndef 13090:13097 <> PiMorph2
+R13123:13126 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13128:13128 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13127:13127 mathcomp.ssreflect.generic_quotient <> a var
+R13136:13139 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13141:13141 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13140:13140 mathcomp.ssreflect.generic_quotient <> b var
+R13147:13153 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R13156:13164 mathcomp.ssreflect.generic_quotient <> pi_morph2 thm
+R13177:13177 mathcomp.ssreflect.generic_quotient <> y var
+R13175:13175 mathcomp.ssreflect.generic_quotient <> x var
+R13173:13173 mathcomp.ssreflect.generic_quotient <> b var
+R13171:13171 mathcomp.ssreflect.generic_quotient <> a var
+syndef 13191:13197 <> PiMono1
+R13221:13224 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13226:13226 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13225:13225 mathcomp.ssreflect.generic_quotient <> a var
+R13232:13238 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R13241:13248 mathcomp.ssreflect.generic_quotient <> pi_mono1 thm
+R13257:13257 mathcomp.ssreflect.generic_quotient <> x var
+R13255:13255 mathcomp.ssreflect.generic_quotient <> a var
+syndef 13271:13277 <> PiMono2
+R13303:13306 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13308:13308 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13307:13307 mathcomp.ssreflect.generic_quotient <> a var
+R13316:13319 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13321:13321 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13320:13320 mathcomp.ssreflect.generic_quotient <> b var
+R13327:13333 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R13336:13343 mathcomp.ssreflect.generic_quotient <> pi_mono2 thm
+R13356:13356 mathcomp.ssreflect.generic_quotient <> y var
+R13354:13354 mathcomp.ssreflect.generic_quotient <> x var
+R13352:13352 mathcomp.ssreflect.generic_quotient <> b var
+R13350:13350 mathcomp.ssreflect.generic_quotient <> a var
+syndef 13370:13378 <> PiMorph11
+R13402:13405 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13407:13407 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{pi'_x_'}' not
+R13406:13406 mathcomp.ssreflect.generic_quotient <> a var
+R13413:13419 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R13422:13431 mathcomp.ssreflect.generic_quotient <> pi_morph11 thm
+R13440:13440 mathcomp.ssreflect.generic_quotient <> x var
+R13438:13438 mathcomp.ssreflect.generic_quotient <> a var
+syndef 13478:13485 <> lift_op1
+R13495:13500 Coq.ssr.ssreflect <> locked def
+R13534:13536 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R13516:13519 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R13526:13529 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13531:13531 mathcomp.ssreflect.generic_quotient <> x var
+syndef 13551:13558 <> lift_op2
+R13571:13576 Coq.ssr.ssreflect <> locked def
+R13621:13623 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R13594:13597 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R13613:13616 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13618:13618 mathcomp.ssreflect.generic_quotient <> y var
+R13604:13607 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13609:13609 mathcomp.ssreflect.generic_quotient <> x var
+syndef 13638:13646 <> lift_fun1
+R13656:13661 Coq.ssr.ssreflect <> locked def
+R13680:13683 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13685:13685 mathcomp.ssreflect.generic_quotient <> x var
+syndef 13700:13708 <> lift_fun2
+R13718:13723 Coq.ssr.ssreflect <> locked def
+R13753:13756 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13758:13758 mathcomp.ssreflect.generic_quotient <> y var
+R13744:13747 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13749:13749 mathcomp.ssreflect.generic_quotient <> x var
+syndef 13773:13781 <> lift_op11
+R13794:13799 Coq.ssr.ssreflect <> locked def
+R13834:13836 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R13815:13818 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R13826:13829 mathcomp.ssreflect.generic_quotient <> repr syndef
+R13831:13831 mathcomp.ssreflect.generic_quotient <> x var
+syndef 13880:13887 <> lift_cst
+R13897:13902 Coq.ssr.ssreflect <> locked def
+R13912:13914 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R13905:13908 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+syndef 13929:13935 <> PiConst
+R13944:13950 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R13959:13962 Coq.ssr.ssreflect <> lock thm
+syndef 14034:14043 <> lift_embed
+R14054:14059 Coq.ssr.ssreflect <> locked def
+R14083:14085 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R14071:14074 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R14081:14081 mathcomp.ssreflect.generic_quotient <> x var
+prf 14099:14105 <> eq_lock
+R14117:14121 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R14158:14158 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R14116:14116 mathcomp.ssreflect.generic_quotient <> e var
+R14123:14128 Coq.ssr.ssreflect <> locked def
+R14149:14149 mathcomp.ssreflect.generic_quotient <> T var
+R14154:14154 mathcomp.ssreflect.generic_quotient <> e var
+R14156:14156 mathcomp.ssreflect.generic_quotient <> x var
+R14132:14135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14136:14137 mathcomp.ssreflect.generic_quotient <> T' var
+R14131:14131 mathcomp.ssreflect.generic_quotient <> T var
+R14180:14183 Coq.ssr.ssreflect <> lock thm
+R14180:14183 Coq.ssr.ssreflect <> lock thm
+R14180:14183 Coq.ssr.ssreflect <> lock thm
+syndef 14227:14233 <> PiEmbed
+R14254:14260 mathcomp.ssreflect.generic_quotient <> EqualTo constr
+R14273:14279 mathcomp.ssreflect.generic_quotient <> eq_lock thm
+R14291:14295 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R14269:14269 mathcomp.ssreflect.generic_quotient <> x var
+sec 14382:14400 <> EqQuotTypeStructure
+var 14413:14413 EqQuotTypeStructure T
+var 14432:14441 EqQuotTypeStructure eq_quot_op
+R14445:14447 Coq.ssr.ssrbool <> rel def
+R14449:14449 mathcomp.ssreflect.generic_quotient <> EqQuotTypeStructure.T var
+def 14464:14479 <> eq_quot_mixin_of
+R14498:14510 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R14514:14514 mathcomp.ssreflect.generic_quotient <> Q var
+R14512:14512 mathcomp.ssreflect.generic_quotient <> EqQuotTypeStructure.T var
+R14525:14541 mathcomp.ssreflect.eqtype Equality class_of syndef
+R14543:14543 mathcomp.ssreflect.generic_quotient <> Q var
+R14551:14556 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14578:14580 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14582:14582 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14584:14589 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14604:14608 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14638:14638 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14557:14561 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R14577:14577 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R14562:14573 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R14575:14576 mathcomp.ssreflect.generic_quotient <> qc var
+R14590:14599 mathcomp.ssreflect.generic_quotient <> EqQuotTypeStructure.eq_quot_op var
+R14603:14603 mathcomp.ssreflect.generic_quotient <> y var
+R14601:14601 mathcomp.ssreflect.generic_quotient <> x var
+R14610:14614 mathcomp.ssreflect.eqtype <> eq_op def
+R14637:14637 mathcomp.ssreflect.generic_quotient <> y var
+R14635:14635 mathcomp.ssreflect.generic_quotient <> x var
+R14617:14629 mathcomp.ssreflect.eqtype Equality Pack constr
+R14631:14632 mathcomp.ssreflect.generic_quotient <> ec var
+constr 14687:14697 <> EqQuotClass
+rec 14649:14664 <> eq_quot_class_of
+proj 14703:14720 <> eq_quot_quot_class
+proj 14746:14761 <> eq_quot_eq_mixin
+proj 14789:14804 <> pi_eq_quot_mixin
+R14725:14737 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R14741:14741 mathcomp.ssreflect.generic_quotient <> Q var
+R14739:14739 mathcomp.ssreflect.generic_quotient <> EqQuotTypeStructure.T var
+R14766:14782 mathcomp.ssreflect.eqtype Equality class_of syndef
+R14784:14784 mathcomp.ssreflect.generic_quotient <> Q var
+R14809:14824 mathcomp.ssreflect.generic_quotient <> eq_quot_mixin_of def
+R14845:14860 mathcomp.ssreflect.generic_quotient <> eq_quot_eq_mixin meth
+R14826:14843 mathcomp.ssreflect.generic_quotient <> eq_quot_quot_class meth
+constr 14894:14907 <> EqQuotTypePack
+rec 14873:14882 <> eqQuotType
+proj 14913:14924 <> eq_quot_sort
+R14941:14956 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R14958:14969 mathcomp.ssreflect.generic_quotient <> eq_quot_sort meth
+R14998:15007 mathcomp.ssreflect.generic_quotient <> eqQuotType rec
+def 15022:15034 <> eq_quot_class
+R15042:15057 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R15059:15061 mathcomp.ssreflect.generic_quotient <> eqT var
+R15103:15105 mathcomp.ssreflect.generic_quotient <> eqT var
+R15114:15129 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R15131:15133 mathcomp.ssreflect.generic_quotient <> qT' var
+R15073:15086 mathcomp.ssreflect.generic_quotient <> EqQuotTypePack constr
+R15178:15183 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R15185:15187 mathcomp.ssreflect.generic_quotient <> eqT var
+R15190:15202 mathcomp.ssreflect.generic_quotient <> eq_quot_class def
+R15204:15206 mathcomp.ssreflect.generic_quotient <> eqT var
+R15247:15254 mathcomp.ssreflect.generic_quotient <> QuotType syndef
+R15256:15258 mathcomp.ssreflect.generic_quotient <> eqT var
+R15261:15273 mathcomp.ssreflect.generic_quotient <> eq_quot_class def
+R15275:15277 mathcomp.ssreflect.generic_quotient <> eqT var
+R15282:15331 mathcomp.ssreflect.generic_quotient <> eqQuotType_eqType canonstruc
+R15334:15387 mathcomp.ssreflect.generic_quotient <> eqQuotType_quotType canonstruc
+def 15402:15416 <> EqQuotType_pack
+R15435:15442 mathcomp.ssreflect.generic_quotient <> quotType rec
+R15444:15444 mathcomp.ssreflect.generic_quotient <> EqQuotTypeStructure.T var
+R15453:15458 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R15473:15480 Coq.ssr.ssrfun <> phant_id def
+R15498:15499 mathcomp.ssreflect.generic_quotient <> qc var
+R15483:15492 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R15494:15495 mathcomp.ssreflect.generic_quotient <> qT var
+R15503:15510 Coq.ssr.ssrfun <> phant_id def
+R15532:15533 mathcomp.ssreflect.generic_quotient <> ec var
+R15513:15526 mathcomp.ssreflect.eqtype Equality class def
+R15528:15529 mathcomp.ssreflect.generic_quotient <> eT var
+R15552:15565 mathcomp.ssreflect.generic_quotient <> EqQuotTypePack constr
+R15569:15579 mathcomp.ssreflect.generic_quotient <> EqQuotClass constr
+R15589:15589 mathcomp.ssreflect.generic_quotient <> m var
+R15586:15587 mathcomp.ssreflect.generic_quotient <> ec var
+R15583:15584 mathcomp.ssreflect.generic_quotient <> qc var
+R15581:15581 mathcomp.ssreflect.generic_quotient <> Q var
+def 15605:15620 <> EqQuotType_clone
+R15646:15653 Coq.ssr.ssrfun <> phant_id def
+R15675:15676 mathcomp.ssreflect.generic_quotient <> cT var
+R15656:15668 mathcomp.ssreflect.generic_quotient <> eq_quot_class def
+R15670:15672 mathcomp.ssreflect.generic_quotient <> eqT var
+R15682:15695 mathcomp.ssreflect.generic_quotient <> EqQuotTypePack constr
+R15699:15700 mathcomp.ssreflect.generic_quotient <> cT var
+R15697:15697 mathcomp.ssreflect.generic_quotient <> Q var
+prf 15710:15719 <> pi_eq_quot
+R15727:15732 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R15740:15742 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R15744:15744 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R15746:15748 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R15763:15767 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R15774:15774 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R15733:15736 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R15737:15739 mathcomp.ssreflect.generic_quotient <> eqT var
+R15749:15758 mathcomp.ssreflect.generic_quotient <> EqQuotTypeStructure.eq_quot_op var
+R15762:15762 mathcomp.ssreflect.generic_quotient <> y var
+R15760:15760 mathcomp.ssreflect.generic_quotient <> x var
+R15769:15772 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R15768:15768 mathcomp.ssreflect.generic_quotient <> x var
+R15773:15773 mathcomp.ssreflect.generic_quotient <> y var
+R15848:15854 mathcomp.ssreflect.generic_quotient <> PiMono2 syndef
+R15857:15866 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+R15868:15870 mathcomp.ssreflect.generic_quotient <> eqT var
+R15879:15897 mathcomp.ssreflect.generic_quotient EqQuotTypeStructure <> sec
+syndef 15910:15919 <> EqQuotType
+R15932:15946 mathcomp.ssreflect.generic_quotient <> EqQuotType_pack def
+R15965:15966 Coq.ssr.ssrfun <> id syndef
+R15962:15963 Coq.ssr.ssrfun <> id syndef
+R16014:16029 mathcomp.ssreflect.generic_quotient <> EqQuotType_clone def
+R16041:16042 Coq.ssr.ssrfun <> id syndef
+not 15981:15981 <> ::form_scope:'['_'eqQuotType'_x_'of'_x_']'
+mod 16660:16670 <> QuotSubType
+sec 16681:16692 QuotSubType SubTypeMixin
+var 16705:16705 QuotSubType.SubTypeMixin T
+R16709:16714 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+var 16726:16727 QuotSubType.SubTypeMixin qT
+R16731:16738 mathcomp.ssreflect.generic_quotient <> quotType rec
+R16740:16740 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.T var
+def 16755:16757 QuotSubType Sub
+R16782:16785 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R16767:16770 mathcomp.ssreflect.generic_quotient <> repr syndef
+R16773:16776 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R16777:16778 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R16780:16780 mathcomp.ssreflect.generic_quotient <> x var
+R16786:16786 mathcomp.ssreflect.generic_quotient <> x var
+R16792:16795 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R16796:16797 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R16799:16799 mathcomp.ssreflect.generic_quotient <> x var
+prf 16809:16814 QuotSubType qreprK
+R16839:16841 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16823:16826 mathcomp.ssreflect.generic_quotient <> repr syndef
+R16830:16832 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R16836:16837 mathcomp.ssreflect.generic_quotient <> Px var
+R16834:16834 mathcomp.ssreflect.generic_quotient <> x var
+R16842:16842 mathcomp.ssreflect.generic_quotient <> x var
+R16864:16866 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R16869:16871 mathcomp.ssreflect.eqtype <> eqP thm
+R16864:16866 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R16864:16866 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R16869:16871 mathcomp.ssreflect.eqtype <> eqP thm
+R16869:16871 mathcomp.ssreflect.eqtype <> eqP thm
+prf 16890:16895 QuotSubType sortPx
+R16902:16903 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R16930:16933 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R16908:16911 mathcomp.ssreflect.generic_quotient <> repr syndef
+R16914:16917 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R16918:16919 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R16922:16925 mathcomp.ssreflect.generic_quotient <> repr syndef
+R16927:16927 mathcomp.ssreflect.generic_quotient <> x var
+R16934:16937 mathcomp.ssreflect.generic_quotient <> repr syndef
+R16939:16939 mathcomp.ssreflect.generic_quotient <> x var
+R16961:16965 mathcomp.ssreflect.generic_quotient <> reprK thm
+R16967:16970 mathcomp.ssreflect.eqtype <> eqxx syndef
+R16961:16965 mathcomp.ssreflect.generic_quotient <> reprK thm
+R16961:16965 mathcomp.ssreflect.generic_quotient <> reprK thm
+R16961:16965 mathcomp.ssreflect.generic_quotient <> reprK thm
+R16967:16970 mathcomp.ssreflect.eqtype <> eqxx syndef
+R16967:16970 mathcomp.ssreflect.eqtype <> eqxx syndef
+prf 16985:16992 QuotSubType sort_Sub
+R16999:17000 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R17006:17008 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17005:17005 mathcomp.ssreflect.generic_quotient <> x var
+R17009:17011 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R17014:17019 mathcomp.ssreflect.generic_quotient QuotSubType sortPx thm
+R17021:17021 mathcomp.ssreflect.generic_quotient <> x var
+R17044:17046 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R17048:17052 mathcomp.ssreflect.generic_quotient <> reprK thm
+R17044:17046 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R17044:17046 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R17048:17052 mathcomp.ssreflect.generic_quotient <> reprK thm
+R17048:17052 mathcomp.ssreflect.generic_quotient <> reprK thm
+prf 17067:17071 QuotSubType reprP
+R17094:17094 mathcomp.ssreflect.generic_quotient <> K var
+R17098:17100 mathcomp.ssreflect.generic_quotient QuotSubType Sub def
+R17104:17105 mathcomp.ssreflect.generic_quotient <> Px var
+R17102:17102 mathcomp.ssreflect.generic_quotient <> x var
+R17113:17113 mathcomp.ssreflect.generic_quotient <> K var
+R17115:17115 mathcomp.ssreflect.generic_quotient <> u var
+R17137:17144 mathcomp.ssreflect.generic_quotient QuotSubType sort_Sub thm
+R17137:17144 mathcomp.ssreflect.generic_quotient QuotSubType sort_Sub thm
+R17137:17144 mathcomp.ssreflect.generic_quotient QuotSubType sort_Sub thm
+R17189:17195 mathcomp.ssreflect.eqtype <> SubType constr
+R17209:17214 mathcomp.ssreflect.generic_quotient QuotSubType qreprK thm
+R17203:17207 mathcomp.ssreflect.generic_quotient QuotSubType reprP thm
+def 17228:17234 QuotSubType eqMixin
+R17251:17262 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'eqMixin'_'of'_x_'by'_'<:'_']' not
+R17265:17271 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'eqMixin'_'of'_x_'by'_'<:'_']' not
+R17263:17264 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R17295:17300 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R17302:17303 mathcomp.ssreflect.generic_quotient <> QuotSubType.SubTypeMixin.qT var
+R17305:17311 mathcomp.ssreflect.generic_quotient QuotSubType eqMixin def
+R17319:17330 mathcomp.ssreflect.generic_quotient QuotSubType.SubTypeMixin <> sec
+def 17345:17355 QuotSubType choiceMixin
+R17362:17371 mathcomp.ssreflect.choice Choice.Exports choiceType syndef
+R17380:17387 mathcomp.ssreflect.generic_quotient <> quotType rec
+R17389:17389 mathcomp.ssreflect.generic_quotient <> T var
+R17409:17424 mathcomp.ssreflect.choice <> ::form_scope:'['_'choiceMixin'_'of'_x_'by'_'<:'_']' not
+R17427:17433 mathcomp.ssreflect.choice <> ::form_scope:'['_'choiceMixin'_'of'_x_'by'_'<:'_']' not
+R17425:17426 mathcomp.ssreflect.generic_quotient <> qT var
+R17462:17471 mathcomp.ssreflect.choice Choice.Exports choiceType syndef
+R17480:17487 mathcomp.ssreflect.generic_quotient <> quotType rec
+R17489:17489 mathcomp.ssreflect.generic_quotient <> T var
+R17497:17506 mathcomp.ssreflect.choice Choice.Exports ChoiceType syndef
+R17508:17509 mathcomp.ssreflect.generic_quotient <> qT var
+R17513:17523 mathcomp.ssreflect.generic_quotient QuotSubType choiceMixin def
+R17527:17528 mathcomp.ssreflect.generic_quotient <> qT var
+R17525:17525 mathcomp.ssreflect.generic_quotient <> T var
+def 17544:17553 QuotSubType countMixin
+R17560:17568 mathcomp.ssreflect.choice Countable.Exports countType syndef
+R17577:17584 mathcomp.ssreflect.generic_quotient <> quotType rec
+R17586:17586 mathcomp.ssreflect.generic_quotient <> T var
+R17606:17620 mathcomp.ssreflect.choice <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']' not
+R17623:17629 mathcomp.ssreflect.choice <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']' not
+R17621:17622 mathcomp.ssreflect.generic_quotient <> qT var
+R17657:17665 mathcomp.ssreflect.choice Countable.Exports countType syndef
+R17674:17681 mathcomp.ssreflect.generic_quotient <> quotType rec
+R17683:17683 mathcomp.ssreflect.generic_quotient <> T var
+R17691:17699 mathcomp.ssreflect.choice Countable.Exports CountType syndef
+R17701:17702 mathcomp.ssreflect.generic_quotient <> qT var
+R17706:17715 mathcomp.ssreflect.generic_quotient QuotSubType countMixin def
+R17719:17720 mathcomp.ssreflect.generic_quotient <> qT var
+R17717:17717 mathcomp.ssreflect.generic_quotient <> T var
+sec 17733:17739 QuotSubType finType
+var 17753:17753 QuotSubType.finType T
+var 17767:17768 QuotSubType.finType qT
+R17757:17763 mathcomp.ssreflect.fintype Finite.Exports finType syndef
+R17772:17779 mathcomp.ssreflect.generic_quotient <> quotType rec
+R17781:17781 mathcomp.ssreflect.generic_quotient <> T var
+R17811:17827 mathcomp.ssreflect.choice <> ::form_scope:'['_'subCountType'_'of'_x_']' not
+R17830:17830 mathcomp.ssreflect.choice <> ::form_scope:'['_'subCountType'_'of'_x_']' not
+R17828:17829 mathcomp.ssreflect.generic_quotient <> QuotSubType.finType.qT var
+def 17844:17851 QuotSubType finMixin
+R17868:17880 mathcomp.ssreflect.fintype <> ::form_scope:'['_'finMixin'_'of'_x_'by'_'<:'_']' not
+R17883:17889 mathcomp.ssreflect.fintype <> ::form_scope:'['_'finMixin'_'of'_x_'by'_'<:'_']' not
+R17881:17882 mathcomp.ssreflect.generic_quotient <> QuotSubType.finType.qT var
+R17896:17902 mathcomp.ssreflect.generic_quotient QuotSubType.finType <> sec
+R17910:17920 mathcomp.ssreflect.generic_quotient QuotSubType <> mod
+R17971:17977 mathcomp.ssreflect.eqtype <> SubType constr
+R18016:18033 mathcomp.ssreflect.generic_quotient <> qreprK thm
+R17991:18007 mathcomp.ssreflect.generic_quotient <> reprP thm
+not 17933:17933 <> ::form_scope:'['_'subType'_x_'of'_x_'by'_'%/'_']'
+R18188:18189 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18190:18206 mathcomp.ssreflect.eqtype Equality class_of syndef
+R18165:18183 mathcomp.ssreflect.generic_quotient <> eqMixin def
+not 18124:18124 <> ::form_scope:'['_'eqMixin'_'of'_x_'by'_'<:%/'_']'
+R18367:18368 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18369:18383 mathcomp.ssreflect.choice Choice mixin_of rec
+R18340:18362 mathcomp.ssreflect.generic_quotient <> choiceMixin def
+not 18295:18295 <> ::form_scope:'['_'choiceMixin'_'of'_x_'by'_'<:%/'_']'
+R18546:18547 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18548:18565 mathcomp.ssreflect.choice Countable mixin_of rec
+R18520:18541 mathcomp.ssreflect.generic_quotient <> countMixin def
+not 18476:18476 <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:%/'_']'
+R18723:18724 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18725:18739 mathcomp.ssreflect.fintype Finite mixin_of rec
+R18699:18718 mathcomp.ssreflect.generic_quotient <> finMixin def
+not 18657:18657 <> ::form_scope:'['_'finMixin'_'of'_x_'by'_'<:%/'_']'
+sec 18994:19001 <> EquivRel
+var 19014:19014 EquivRel T
+prf 19031:19040 <> left_trans
+R19047:19049 Coq.ssr.ssrbool <> rel def
+R19051:19051 mathcomp.ssreflect.generic_quotient <> EquivRel.T var
+R19069:19072 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19085:19088 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19089:19103 Coq.ssr.ssrbool <> left_transitive def
+R19105:19105 mathcomp.ssreflect.generic_quotient <> e var
+R19073:19082 Coq.ssr.ssrbool <> transitive def
+R19084:19084 mathcomp.ssreflect.generic_quotient <> e var
+R19058:19066 Coq.ssr.ssrbool <> symmetric def
+R19068:19068 mathcomp.ssreflect.generic_quotient <> e var
+R19142:19144 Coq.ssr.ssrbool <> idP thm
+R19146:19148 Coq.ssr.ssrbool <> idP thm
+R19142:19144 Coq.ssr.ssrbool <> idP thm
+R19146:19148 Coq.ssr.ssrbool <> idP thm
+prf 19187:19197 <> right_trans
+R19204:19206 Coq.ssr.ssrbool <> rel def
+R19208:19208 mathcomp.ssreflect.generic_quotient <> EquivRel.T var
+R19226:19229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19242:19245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19246:19261 Coq.ssr.ssrbool <> right_transitive def
+R19263:19263 mathcomp.ssreflect.generic_quotient <> e var
+R19230:19239 Coq.ssr.ssrbool <> transitive def
+R19241:19241 mathcomp.ssreflect.generic_quotient <> e var
+R19215:19223 Coq.ssr.ssrbool <> symmetric def
+R19225:19225 mathcomp.ssreflect.generic_quotient <> e var
+R19320:19329 mathcomp.ssreflect.generic_quotient <> left_trans thm
+R19320:19329 mathcomp.ssreflect.generic_quotient <> left_trans thm
+ind 19346:19359 <> equiv_class_of
+constr 19382:19391 <> EquivClass
+R19370:19372 Coq.ssr.ssrbool <> rel def
+R19374:19374 mathcomp.ssreflect.generic_quotient <> EquivRel.T var
+R19396:19404 Coq.ssr.ssrbool <> reflexive def
+R19406:19410 mathcomp.ssreflect.generic_quotient <> equiv var
+R19414:19422 Coq.ssr.ssrbool <> symmetric def
+R19424:19428 mathcomp.ssreflect.generic_quotient <> equiv var
+R19432:19441 Coq.ssr.ssrbool <> transitive def
+R19443:19447 mathcomp.ssreflect.generic_quotient <> equiv var
+R19448:19448 mathcomp.ssreflect.generic_quotient <> equiv_class_of ind
+R19448:19448 mathcomp.ssreflect.generic_quotient <> equiv var
+constr 19471:19482 <> EquivRelPack
+rec 19458:19466 <> equiv_rel
+proj 19488:19492 <> equiv
+R19497:19499 Coq.ssr.ssrbool <> rel def
+R19501:19501 mathcomp.ssreflect.generic_quotient <> EquivRel.T var
+R19510:19523 mathcomp.ssreflect.generic_quotient <> equiv_class_of variant
+R19525:19529 mathcomp.ssreflect.generic_quotient <> equiv meth
+var 19544:19544 EquivRel e
+R19548:19556 mathcomp.ssreflect.generic_quotient <> equiv_rel rec
+def 19571:19581 <> equiv_class
+R19620:19620 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19629:19642 mathcomp.ssreflect.generic_quotient <> equiv_class_of variant
+R19644:19645 mathcomp.ssreflect.generic_quotient <> e' var
+R19593:19604 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+def 19666:19675 <> equiv_pack
+R19682:19684 Coq.ssr.ssrbool <> rel def
+R19686:19686 mathcomp.ssreflect.generic_quotient <> EquivRel.T var
+R19695:19702 Coq.ssr.ssrfun <> phant_id def
+R19707:19717 mathcomp.ssreflect.generic_quotient <> equiv_class def
+R19704:19705 mathcomp.ssreflect.generic_quotient <> ce var
+R19725:19736 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+R19740:19741 mathcomp.ssreflect.generic_quotient <> ce var
+R19738:19738 mathcomp.ssreflect.generic_quotient <> r var
+prf 19751:19760 <> equiv_refl
+R19766:19766 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19770:19770 mathcomp.ssreflect.generic_quotient <> x var
+R19768:19768 mathcomp.ssreflect.generic_quotient <> x var
+R19789:19789 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19789:19789 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19789:19789 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+prf 19814:19822 <> equiv_sym
+R19826:19834 Coq.ssr.ssrbool <> symmetric def
+R19836:19836 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19855:19855 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19855:19855 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19855:19855 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+prf 19880:19890 <> equiv_trans
+R19894:19903 Coq.ssr.ssrbool <> transitive def
+R19905:19905 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19924:19924 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19924:19924 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R19924:19924 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+prf 19950:19960 <> eq_op_trans
+R19968:19973 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R19978:19987 Coq.ssr.ssrbool <> transitive def
+R19991:19995 mathcomp.ssreflect.eqtype <> eq_op def
+R19997:19998 mathcomp.ssreflect.generic_quotient <> T' var
+R20031:20033 mathcomp.ssreflect.eqtype <> eqP thm
+R20043:20045 mathcomp.ssreflect.eqtype <> eqP thm
+prf 20062:20073 <> equiv_ltrans
+R20076:20090 Coq.ssr.ssrbool <> left_transitive def
+R20092:20092 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R20112:20121 mathcomp.ssreflect.generic_quotient <> left_trans thm
+R20132:20140 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R20149:20159 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R20112:20121 mathcomp.ssreflect.generic_quotient <> left_trans thm
+R20132:20140 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R20149:20159 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+prf 20175:20186 <> equiv_rtrans
+R20189:20204 Coq.ssr.ssrbool <> right_transitive def
+R20206:20206 mathcomp.ssreflect.generic_quotient <> EquivRel.e var
+R20226:20236 mathcomp.ssreflect.generic_quotient <> right_trans thm
+R20247:20255 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R20264:20274 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R20226:20236 mathcomp.ssreflect.generic_quotient <> right_trans thm
+R20247:20255 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R20264:20274 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R20288:20295 mathcomp.ssreflect.generic_quotient EquivRel <> sec
+syndef 20341:20348 <> EquivRel
+R20366:20377 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+R20384:20393 mathcomp.ssreflect.generic_quotient <> EquivClass constr
+R20446:20455 mathcomp.ssreflect.generic_quotient <> equiv_pack def
+R20465:20466 Coq.ssr.ssrfun <> id syndef
+not 20416:20416 <> ::form_scope:'['_'equiv_rel'_'of'_x_']'
+sec 20701:20717 <> EncodingModuloRel
+var 20732:20732 EncodingModuloRel D
+var 20734:20734 EncodingModuloRel E
+var 20745:20746 EncodingModuloRel ED
+var 20759:20760 EncodingModuloRel DE
+var 20773:20773 EncodingModuloRel e
+R20751:20754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20755:20755 mathcomp.ssreflect.generic_quotient <> D var
+R20750:20750 mathcomp.ssreflect.generic_quotient <> E var
+R20765:20768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20769:20769 mathcomp.ssreflect.generic_quotient <> E var
+R20764:20764 mathcomp.ssreflect.generic_quotient <> D var
+R20777:20779 Coq.ssr.ssrbool <> rel def
+R20781:20781 mathcomp.ssreflect.generic_quotient <> D var
+ind 20794:20811 <> encModRel_class_of
+constr 20830:20847 <> EncModRelClassPack
+R20818:20820 Coq.ssr.ssrbool <> rel def
+R20822:20822 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.D var
+R20868:20871 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20872:20872 mathcomp.ssreflect.generic_quotient <> r var
+R20886:20886 mathcomp.ssreflect.generic_quotient <> x var
+R20875:20876 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.ED var
+R20879:20880 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.DE var
+R20882:20882 mathcomp.ssreflect.generic_quotient <> x var
+R20863:20863 mathcomp.ssreflect.generic_quotient <> r var
+R20867:20867 mathcomp.ssreflect.generic_quotient <> x var
+R20865:20865 mathcomp.ssreflect.generic_quotient <> x var
+R20893:20896 Coq.ssr.ssrfun <> ::fun_scope:x_'=2'_x not
+R20892:20892 mathcomp.ssreflect.generic_quotient <> r var
+R20897:20897 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.e var
+R20899:20899 mathcomp.ssreflect.generic_quotient <> encModRel_class_of ind
+R20899:20899 mathcomp.ssreflect.generic_quotient <> r var
+constr 20922:20934 <> EncModRelPack
+rec 20909:20917 <> encModRel
+proj 20940:20950 <> enc_mod_rel
+R20955:20957 Coq.ssr.ssrbool <> rel def
+R20959:20959 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.D var
+R20968:20985 mathcomp.ssreflect.generic_quotient <> encModRel_class_of variant
+R20987:20997 mathcomp.ssreflect.generic_quotient <> enc_mod_rel meth
+var 21012:21012 EncodingModuloRel r
+R21016:21024 mathcomp.ssreflect.generic_quotient <> encModRel rec
+def 21039:21052 <> encModRelClass
+R21092:21092 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21101:21118 mathcomp.ssreflect.generic_quotient <> encModRel_class_of variant
+R21120:21121 mathcomp.ssreflect.generic_quotient <> r' var
+R21065:21077 mathcomp.ssreflect.generic_quotient <> EncModRelPack constr
+def 21141:21150 <> encModRelP
+R21157:21157 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.D var
+R21167:21170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21171:21171 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21185:21185 mathcomp.ssreflect.generic_quotient <> x var
+R21174:21175 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.ED var
+R21178:21179 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.DE var
+R21181:21181 mathcomp.ssreflect.generic_quotient <> x var
+R21162:21162 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21166:21166 mathcomp.ssreflect.generic_quotient <> x var
+R21164:21164 mathcomp.ssreflect.generic_quotient <> x var
+R21204:21204 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21204:21204 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21204:21204 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+def 21247:21256 <> encModRelE
+R21261:21264 Coq.ssr.ssrfun <> ::fun_scope:x_'=2'_x not
+R21260:21260 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21265:21265 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.e var
+R21284:21284 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21284:21284 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21284:21284 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+def 21315:21327 <> encoded_equiv
+R21331:21333 Coq.ssr.ssrbool <> rel def
+R21335:21335 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.E var
+R21340:21344 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R21346:21346 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R21348:21350 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R21366:21366 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R21351:21351 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.r var
+R21361:21362 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.ED var
+R21364:21364 mathcomp.ssreflect.generic_quotient <> y var
+R21354:21355 mathcomp.ssreflect.generic_quotient <> EncodingModuloRel.ED var
+R21357:21357 mathcomp.ssreflect.generic_quotient <> x var
+R21374:21390 mathcomp.ssreflect.generic_quotient EncodingModuloRel <> sec
+syndef 21403:21416 <> EncModRelClass
+R21426:21443 mathcomp.ssreflect.generic_quotient <> EncModRelClassPack constr
+R21474:21478 Coq.ssr.ssrfun <> erefl syndef
+R21459:21459 mathcomp.ssreflect.generic_quotient <> x var
+syndef 21494:21502 <> EncModRel
+R21513:21525 mathcomp.ssreflect.generic_quotient <> EncModRelPack constr
+R21540:21553 mathcomp.ssreflect.generic_quotient <> EncModRelClass syndef
+sec 21569:21587 <> EncodingModuloEquiv
+var 21602:21602 EncodingModuloEquiv D
+var 21604:21604 EncodingModuloEquiv E
+var 21615:21616 EncodingModuloEquiv ED
+var 21629:21630 EncodingModuloEquiv DE
+var 21643:21643 EncodingModuloEquiv e
+R21621:21624 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21625:21625 mathcomp.ssreflect.generic_quotient <> D var
+R21620:21620 mathcomp.ssreflect.generic_quotient <> E var
+R21635:21638 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21639:21639 mathcomp.ssreflect.generic_quotient <> E var
+R21634:21634 mathcomp.ssreflect.generic_quotient <> D var
+R21647:21655 mathcomp.ssreflect.generic_quotient <> equiv_rel rec
+R21657:21657 mathcomp.ssreflect.generic_quotient <> D var
+var 21671:21671 EncodingModuloEquiv r
+R21675:21683 mathcomp.ssreflect.generic_quotient <> encModRel rec
+R21691:21691 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.e var
+R21688:21689 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.DE var
+R21685:21686 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.ED var
+prf 21702:21721 <> enc_mod_rel_is_equiv
+R21725:21738 mathcomp.ssreflect.generic_quotient <> equiv_class_of variant
+R21741:21751 mathcomp.ssreflect.generic_quotient <> enc_mod_rel proj
+R21753:21753 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.r var
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21829:21837 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21797:21806 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R21829:21837 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R21829:21837 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R21856:21866 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+def 21891:21911 <> enc_mod_rel_equiv_rel
+R21916:21927 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+R21929:21948 mathcomp.ssreflect.generic_quotient <> enc_mod_rel_is_equiv thm
+def 21963:21974 <> encModEquivP
+R21981:21981 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.D var
+R21986:21986 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.r var
+R22000:22000 mathcomp.ssreflect.generic_quotient <> x var
+R21989:21990 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.ED var
+R21993:21994 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.DE var
+R21996:21996 mathcomp.ssreflect.generic_quotient <> x var
+R22021:22030 mathcomp.ssreflect.generic_quotient <> encModRelP def
+R22033:22042 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22021:22030 mathcomp.ssreflect.generic_quotient <> encModRelP def
+R22021:22030 mathcomp.ssreflect.generic_quotient <> encModRelP def
+R22033:22042 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22033:22042 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22033:22042 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22033:22042 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22033:22042 mathcomp.ssreflect.generic_quotient <> encModRelE def
+syndef 22066:22067 <> e'
+R22073:22085 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22087:22087 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.r var
+prf 22098:22111 <> encoded_equivE
+R22117:22120 Coq.ssr.ssrfun <> ::fun_scope:x_'=2'_x not
+R22115:22116 mathcomp.ssreflect.generic_quotient <> e' syndef
+R22121:22125 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R22127:22127 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R22129:22131 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R22147:22147 Coq.ssr.ssrbool <> ::fun_scope:'['_'rel'_x_x_'|'_x_']' not
+R22132:22132 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.e var
+R22142:22143 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.ED var
+R22145:22145 mathcomp.ssreflect.generic_quotient <> y var
+R22135:22136 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.ED var
+R22138:22138 mathcomp.ssreflect.generic_quotient <> x var
+R22181:22193 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22198:22207 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22181:22193 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22181:22193 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22198:22207 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R22198:22207 mathcomp.ssreflect.generic_quotient <> encModRelE def
+syndef 22230:22232 <> e'E
+R22237:22250 mathcomp.ssreflect.generic_quotient <> encoded_equivE thm
+prf 22260:22281 <> encoded_equiv_is_equiv
+R22285:22298 mathcomp.ssreflect.generic_quotient <> equiv_class_of variant
+R22300:22301 mathcomp.ssreflect.generic_quotient <> e' syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22370:22378 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22344:22346 mathcomp.ssreflect.generic_quotient <> e'E syndef
+R22370:22378 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R22370:22378 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R22397:22407 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R22458:22469 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+R22471:22492 mathcomp.ssreflect.generic_quotient <> encoded_equiv_is_equiv thm
+prf 22502:22515 <> encoded_equivP
+R22521:22522 mathcomp.ssreflect.generic_quotient <> e' syndef
+R22536:22536 mathcomp.ssreflect.generic_quotient <> x var
+R22525:22526 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.DE var
+R22529:22530 mathcomp.ssreflect.generic_quotient <> EncodingModuloEquiv.ED var
+R22532:22532 mathcomp.ssreflect.generic_quotient <> x var
+R22558:22570 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22575:22586 mathcomp.ssreflect.generic_quotient <> encModEquivP def
+R22558:22570 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22558:22570 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22575:22586 mathcomp.ssreflect.generic_quotient <> encModEquivP def
+R22575:22586 mathcomp.ssreflect.generic_quotient <> encModEquivP def
+R22599:22617 mathcomp.ssreflect.generic_quotient EncodingModuloEquiv <> sec
+mod 22752:22760 <> EquivQuot
+sec 22771:22779 EquivQuot EquivQuot
+var 22794:22794 EquivQuot.EquivQuot D
+var 22805:22805 EquivQuot.EquivQuot C
+var 22822:22823 EquivQuot.EquivQuot CD
+var 22836:22837 EquivQuot.EquivQuot DC
+R22809:22818 mathcomp.ssreflect.choice Choice.Exports choiceType syndef
+R22828:22831 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22832:22832 mathcomp.ssreflect.generic_quotient <> D var
+R22827:22827 mathcomp.ssreflect.generic_quotient <> C var
+R22842:22845 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22846:22846 mathcomp.ssreflect.generic_quotient <> C var
+R22841:22841 mathcomp.ssreflect.generic_quotient <> D var
+var 22861:22862 EquivQuot.EquivQuot eD
+var 22880:22883 EquivQuot.EquivQuot encD
+R22866:22874 mathcomp.ssreflect.generic_quotient <> equiv_rel rec
+R22876:22876 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.D var
+R22887:22895 mathcomp.ssreflect.generic_quotient <> encModRel rec
+R22903:22904 mathcomp.ssreflect.generic_quotient <> eD var
+R22900:22901 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.DC var
+R22897:22898 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.CD var
+syndef 22917:22918 EquivQuot eC
+R22924:22936 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R22938:22941 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.encD var
+def 22957:22961 EquivQuot canon
+R22968:22973 mathcomp.ssreflect.choice <> choose def
+R22983:22983 mathcomp.ssreflect.generic_quotient <> x var
+R22976:22977 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R22979:22979 mathcomp.ssreflect.generic_quotient <> x var
+constr 23012:23024 EquivQuot EquivQuotient
+rec 22995:23007 EquivQuot equivQuotient
+proj 23030:23034 EquivQuot erepr
+R23038:23038 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.C var
+R23048:23051 mathcomp.ssreflect.eqtype <> frel def
+R23053:23057 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23066:23070 mathcomp.ssreflect.generic_quotient <> erepr meth
+R23060:23064 mathcomp.ssreflect.generic_quotient <> erepr meth
+def 23087:23093 EquivQuot type_of
+R23099:23105 Coq.ssr.ssreflect <> phantom variant
+R23115:23118 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.encD var
+R23108:23110 Coq.ssr.ssrbool <> rel def
+R23124:23136 mathcomp.ssreflect.generic_quotient EquivQuot equivQuotient rec
+prf 23146:23153 EquivQuot canon_id
+R23168:23176 mathcomp.ssreflect.eqtype <> invariant def
+R23184:23188 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23178:23182 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23191:23191 mathcomp.ssreflect.generic_quotient <> x var
+R23223:23227 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23231:23239 mathcomp.ssreflect.choice <> eq_choose thm
+R23246:23247 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23223:23227 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23223:23227 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23231:23239 mathcomp.ssreflect.choice <> eq_choose thm
+R23246:23247 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23231:23239 mathcomp.ssreflect.choice <> eq_choose thm
+R23246:23247 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23269:23277 mathcomp.ssreflect.choice <> choose_id thm
+R23282:23283 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23269:23277 mathcomp.ssreflect.choice <> choose_id thm
+R23282:23283 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23269:23277 mathcomp.ssreflect.choice <> choose_id thm
+R23282:23283 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23294:23300 mathcomp.ssreflect.choice <> chooseP thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23303:23312 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23335:23346 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R23357:23365 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R23370:23376 mathcomp.ssreflect.choice <> chooseP thm
+R23335:23346 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R23357:23365 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R23357:23365 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R23370:23376 mathcomp.ssreflect.choice <> chooseP thm
+R23370:23376 mathcomp.ssreflect.choice <> chooseP thm
+def 23396:23397 EquivQuot pi
+R23402:23407 Coq.ssr.ssreflect <> locked def
+R23419:23431 mathcomp.ssreflect.generic_quotient EquivQuot EquivQuotient constr
+R23434:23441 mathcomp.ssreflect.generic_quotient EquivQuot canon_id thm
+R23443:23443 mathcomp.ssreflect.generic_quotient <> x var
+prf 23455:23460 EquivQuot ereprK
+R23464:23469 Coq.ssr.ssrfun <> cancel def
+R23477:23478 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23471:23475 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R23495:23496 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23495:23496 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23517:23519 mathcomp.ssreflect.eqtype <> eqP thm
+R23542:23548 mathcomp.ssreflect.eqtype <> val_inj thm
+R23554:23566 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'subType'_'for'_x_']' not
+R23572:23572 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'subType'_'for'_x_']' not
+R23567:23571 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R23542:23548 mathcomp.ssreflect.eqtype <> val_inj thm
+R23554:23566 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'subType'_'for'_x_']' not
+R23572:23572 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'subType'_'for'_x_']' not
+R23567:23571 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+syndef 23597:23601 EquivQuot encDE
+R23607:23616 mathcomp.ssreflect.generic_quotient <> encModRelE def
+R23618:23621 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.encD var
+syndef 23640:23644 EquivQuot encDP
+R23650:23661 mathcomp.ssreflect.generic_quotient <> encModEquivP def
+R23663:23666 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.encD var
+R23698:23709 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+R23712:23731 mathcomp.ssreflect.generic_quotient <> enc_mod_rel_is_equiv thm
+R23733:23736 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.encD var
+prf 23747:23751 EquivQuot pi_CD
+R23760:23760 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.C var
+R23765:23771 Coq.ssr.ssrbool <> reflect syndef
+R23788:23789 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23793:23793 mathcomp.ssreflect.generic_quotient <> y var
+R23791:23791 mathcomp.ssreflect.generic_quotient <> x var
+R23778:23780 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R23774:23775 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23777:23777 mathcomp.ssreflect.generic_quotient <> x var
+R23781:23782 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23784:23784 mathcomp.ssreflect.generic_quotient <> y var
+R23812:23815 Coq.ssr.ssrbool <> iffP thm
+R23817:23819 Coq.ssr.ssrbool <> idP thm
+R23812:23815 Coq.ssr.ssrbool <> iffP thm
+R23817:23819 Coq.ssr.ssrbool <> idP thm
+R23840:23846 Coq.ssr.ssrfun <> can_inj thm
+R23848:23853 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R23864:23865 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23867:23871 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23840:23846 Coq.ssr.ssrfun <> can_inj thm
+R23848:23853 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R23864:23865 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R23867:23871 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R23893:23901 mathcomp.ssreflect.choice <> eq_choose thm
+R23913:23914 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23906:23907 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23893:23901 mathcomp.ssreflect.choice <> eq_choose thm
+R23913:23914 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23906:23907 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23893:23901 mathcomp.ssreflect.choice <> eq_choose thm
+R23913:23914 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23906:23907 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23959:23960 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23973:23984 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R23959:23960 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23959:23960 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R23973:23984 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R23999:24007 mathcomp.ssreflect.choice <> choose_id thm
+R24019:24028 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R23999:24007 mathcomp.ssreflect.choice <> choose_id thm
+R24019:24028 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24019:24028 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24019:24028 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24019:24028 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24019:24028 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24043:24053 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R24056:24062 mathcomp.ssreflect.choice <> chooseP thm
+R24065:24074 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24043:24053 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R24056:24062 mathcomp.ssreflect.choice <> chooseP thm
+R24065:24074 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24043:24053 mathcomp.ssreflect.generic_quotient <> equiv_trans thm
+R24056:24062 mathcomp.ssreflect.choice <> chooseP thm
+R24065:24074 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R24129:24130 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R24132:24136 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R24103:24109 Coq.Init.Logic <> f_equal thm
+R24111:24115 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R24129:24130 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R24132:24136 mathcomp.ssreflect.generic_quotient EquivQuot canon def
+R24159:24167 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R24172:24178 mathcomp.ssreflect.choice <> chooseP thm
+R24159:24167 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R24159:24167 mathcomp.ssreflect.generic_quotient <> equiv_sym thm
+R24172:24178 mathcomp.ssreflect.choice <> chooseP thm
+R24172:24178 mathcomp.ssreflect.choice <> chooseP thm
+prf 24193:24197 EquivQuot pi_DC
+R24206:24206 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.D var
+R24213:24219 Coq.ssr.ssrbool <> reflect syndef
+R24246:24247 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.eD var
+R24251:24251 mathcomp.ssreflect.generic_quotient <> y var
+R24249:24249 mathcomp.ssreflect.generic_quotient <> x var
+R24231:24233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24222:24223 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R24226:24227 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.DC var
+R24229:24229 mathcomp.ssreflect.generic_quotient <> x var
+R24234:24235 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R24238:24239 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.DC var
+R24241:24241 mathcomp.ssreflect.generic_quotient <> y var
+R24270:24273 Coq.ssr.ssrbool <> iffP thm
+R24275:24277 Coq.ssr.ssrbool <> idP thm
+R24270:24273 Coq.ssr.ssrbool <> iffP thm
+R24275:24277 Coq.ssr.ssrbool <> idP thm
+R24295:24299 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+R24311:24312 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24295:24299 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+R24311:24312 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24311:24312 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24332:24343 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R24346:24350 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24357:24368 mathcomp.ssreflect.generic_quotient <> equiv_rtrans thm
+R24371:24375 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24384:24388 mathcomp.ssreflect.generic_quotient EquivQuot encDE syndef
+R24332:24343 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R24346:24350 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24332:24343 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R24346:24350 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24357:24368 mathcomp.ssreflect.generic_quotient <> equiv_rtrans thm
+R24371:24375 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24357:24368 mathcomp.ssreflect.generic_quotient <> equiv_rtrans thm
+R24371:24375 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24384:24388 mathcomp.ssreflect.generic_quotient EquivQuot encDE syndef
+R24384:24388 mathcomp.ssreflect.generic_quotient EquivQuot encDE syndef
+R24400:24404 mathcomp.ssreflect.generic_quotient EquivQuot encDE syndef
+R24408:24419 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R24422:24426 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24434:24445 mathcomp.ssreflect.generic_quotient <> equiv_rtrans thm
+R24448:24452 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24400:24404 mathcomp.ssreflect.generic_quotient EquivQuot encDE syndef
+R24400:24404 mathcomp.ssreflect.generic_quotient EquivQuot encDE syndef
+R24408:24419 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R24422:24426 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24408:24419 mathcomp.ssreflect.generic_quotient <> equiv_ltrans thm
+R24422:24426 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24434:24445 mathcomp.ssreflect.generic_quotient <> equiv_rtrans thm
+R24448:24452 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24434:24445 mathcomp.ssreflect.generic_quotient <> equiv_rtrans thm
+R24448:24452 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24468:24472 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+R24468:24472 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+prf 24487:24494 EquivQuot equivQTP
+R24498:24503 Coq.ssr.ssrfun <> cancel def
+R24522:24525 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R24520:24521 mathcomp.ssreflect.generic_quotient EquivQuot pi def
+R24526:24527 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.DC var
+R24508:24511 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R24506:24507 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.CD var
+R24512:24516 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R24563:24567 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+R24572:24576 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R24585:24590 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24593:24594 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24600:24604 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24563:24567 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+R24572:24576 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R24563:24567 mathcomp.ssreflect.generic_quotient EquivQuot pi_CD thm
+R24572:24576 mathcomp.ssreflect.generic_quotient EquivQuot erepr proj
+R24585:24590 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24585:24590 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24585:24590 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24593:24594 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24593:24594 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24600:24604 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24600:24604 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24585:24590 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24585:24590 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24593:24594 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24593:24594 mathcomp.ssreflect.generic_quotient EquivQuot eC syndef
+R24600:24604 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24600:24604 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+R24600:24604 mathcomp.ssreflect.generic_quotient EquivQuot encDP syndef
+syndef 24628:24629 EquivQuot qT
+R24635:24641 mathcomp.ssreflect.generic_quotient EquivQuot type_of def
+R24644:24650 Coq.ssr.ssreflect <> Phantom constr
+R24660:24663 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.encD var
+R24653:24655 Coq.ssr.ssrbool <> rel def
+R24657:24657 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.D var
+def 24679:24687 EquivQuot quotClass
+R24692:24700 mathcomp.ssreflect.generic_quotient <> QuotClass constr
+R24702:24709 mathcomp.ssreflect.generic_quotient EquivQuot equivQTP thm
+R24734:24741 mathcomp.ssreflect.generic_quotient <> QuotType syndef
+R24743:24744 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R24746:24754 mathcomp.ssreflect.generic_quotient EquivQuot quotClass def
+prf 24764:24769 EquivQuot eqmodP
+R24777:24783 Coq.ssr.ssrbool <> reflect syndef
+R24804:24805 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.eD var
+R24809:24809 mathcomp.ssreflect.generic_quotient <> y var
+R24807:24807 mathcomp.ssreflect.generic_quotient <> x var
+R24787:24789 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R24791:24797 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R24800:24800 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R24798:24799 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R24786:24786 mathcomp.ssreflect.generic_quotient <> x var
+R24798:24799 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R24790:24790 mathcomp.ssreflect.generic_quotient <> y var
+R24831:24834 Coq.ssr.ssrbool <> iffP thm
+R24837:24841 mathcomp.ssreflect.generic_quotient EquivQuot pi_DC thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+R24831:24834 Coq.ssr.ssrbool <> iffP thm
+R24837:24841 mathcomp.ssreflect.generic_quotient EquivQuot pi_DC thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+R24859:24864 Coq.ssr.ssreflect <> unlock thm
+prf 24878:24884 EquivQuot eqMixin
+R24888:24904 mathcomp.ssreflect.eqtype Equality mixin_of rec
+R24906:24907 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R24924:24933 mathcomp.ssreflect.eqtype <> CanEqMixin def
+R24935:24940 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24935:24940 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R24924:24933 mathcomp.ssreflect.eqtype <> CanEqMixin def
+R24968:24973 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R24975:24976 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R24978:24984 mathcomp.ssreflect.generic_quotient EquivQuot eqMixin thm
+def 24998:25008 EquivQuot choiceMixin
+R25013:25026 mathcomp.ssreflect.choice <> CanChoiceMixin def
+R25028:25033 mathcomp.ssreflect.generic_quotient EquivQuot ereprK thm
+R25060:25069 mathcomp.ssreflect.choice Choice.Exports ChoiceType syndef
+R25071:25072 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R25074:25084 mathcomp.ssreflect.generic_quotient EquivQuot choiceMixin def
+prf 25094:25099 EquivQuot eqmodE
+R25123:25125 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R25108:25111 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R25113:25119 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R25122:25122 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R25120:25121 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R25107:25107 mathcomp.ssreflect.generic_quotient <> x var
+R25120:25121 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R25112:25112 mathcomp.ssreflect.generic_quotient <> y var
+R25126:25127 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.eD var
+R25131:25131 mathcomp.ssreflect.generic_quotient <> y var
+R25129:25129 mathcomp.ssreflect.generic_quotient <> x var
+R25148:25152 Coq.ssr.ssrbool <> sameP thm
+R25154:25156 mathcomp.ssreflect.eqtype <> eqP thm
+R25160:25165 mathcomp.ssreflect.generic_quotient EquivQuot eqmodP thm
+R25160:25165 mathcomp.ssreflect.generic_quotient EquivQuot eqmodP thm
+R25154:25156 mathcomp.ssreflect.eqtype <> eqP thm
+R25148:25152 Coq.ssr.ssrbool <> sameP thm
+R25203:25212 mathcomp.ssreflect.generic_quotient <> EqQuotType syndef
+R25214:25215 mathcomp.ssreflect.generic_quotient <> EquivQuot.EquivQuot.eD var
+R25217:25218 mathcomp.ssreflect.generic_quotient EquivQuot qT syndef
+R25220:25225 mathcomp.ssreflect.generic_quotient EquivQuot eqmodE thm
+R25233:25241 mathcomp.ssreflect.generic_quotient EquivQuot.EquivQuot <> sec
+R25248:25256 mathcomp.ssreflect.generic_quotient EquivQuot <> mod
+R25393:25408 mathcomp.ssreflect.generic_quotient <> ereprK thm
+R25393:25408 mathcomp.ssreflect.generic_quotient <> ereprK thm
+R25461:25477 mathcomp.ssreflect.generic_quotient <> type_of def
+R25492:25498 Coq.ssr.ssreflect <> Phantom constr
+R25501:25503 Coq.ssr.ssrbool <> rel def
+not 25441:25441 <> ::quotient_scope:'{eq_quot'_x_'}'
+R25566:25569 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R25571:25577 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R25589:25589 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R25578:25586 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25588:25588 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25578:25586 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25588:25588 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+not 25539:25539 <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']'
+R25645:25647 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R25649:25655 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R25667:25667 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R25656:25664 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25666:25666 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25656:25664 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25666:25666 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+not 25619:25619 <> ::quotient_scope:x_'='_x_'%[mod_eq'_x_']'
+R25724:25727 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'!='_x_'%[mod'_x_']' not
+R25729:25735 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'!='_x_'%[mod'_x_']' not
+R25747:25747 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'!='_x_'%[mod'_x_']' not
+R25736:25744 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25746:25746 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25736:25744 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25746:25746 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+not 25697:25697 <> ::quotient_scope:x_'!='_x_'%[mod_eq'_x_']'
+R25804:25807 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']' not
+R25809:25815 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']' not
+R25827:25827 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']' not
+R25816:25824 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25826:25826 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25816:25824 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R25826:25826 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+not 25777:25777 <> ::quotient_scope:x_'<>'_x_'%[mod_eq'_x_']'
+sec 26044:26067 <> DefaultEncodingModuloRel
+var 26082:26082 DefaultEncodingModuloRel D
+var 26099:26099 DefaultEncodingModuloRel r
+R26086:26095 mathcomp.ssreflect.choice Choice.Exports choiceType syndef
+R26103:26105 Coq.ssr.ssrbool <> rel def
+R26107:26107 mathcomp.ssreflect.generic_quotient <> D var
+def 26123:26143 <> defaultEncModRelClass
+R26151:26168 mathcomp.ssreflect.generic_quotient <> EncModRelClassPack constr
+R26215:26219 Coq.ssr.ssrfun <> erefl syndef
+R26198:26200 mathcomp.ssreflect.generic_quotient <> rxx var
+R26182:26182 mathcomp.ssreflect.generic_quotient <> DefaultEncodingModuloRel.r var
+R26180:26180 mathcomp.ssreflect.generic_quotient <> DefaultEncodingModuloRel.r var
+R26177:26178 Coq.ssr.ssrfun <> id syndef
+R26174:26175 Coq.ssr.ssrfun <> id syndef
+R26172:26172 mathcomp.ssreflect.generic_quotient <> DefaultEncodingModuloRel.D var
+R26170:26170 mathcomp.ssreflect.generic_quotient <> DefaultEncodingModuloRel.D var
+R26256:26268 mathcomp.ssreflect.generic_quotient <> EncModRelPack constr
+R26270:26290 mathcomp.ssreflect.generic_quotient <> defaultEncModRelClass def
+R26298:26321 mathcomp.ssreflect.generic_quotient DefaultEncodingModuloRel <> sec
+sec 26496:26517 <> CountEncodingModuloRel
+var 26532:26532 CountEncodingModuloRel D
+var 26543:26543 CountEncodingModuloRel C
+var 26559:26560 CountEncodingModuloRel CD
+var 26573:26574 CountEncodingModuloRel DC
+R26547:26555 mathcomp.ssreflect.choice Countable.Exports countType syndef
+R26565:26568 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26569:26569 mathcomp.ssreflect.generic_quotient <> D var
+R26564:26564 mathcomp.ssreflect.generic_quotient <> C var
+R26579:26582 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26583:26583 mathcomp.ssreflect.generic_quotient <> C var
+R26578:26578 mathcomp.ssreflect.generic_quotient <> D var
+var 26598:26599 CountEncodingModuloRel eD
+var 26617:26620 CountEncodingModuloRel encD
+R26603:26611 mathcomp.ssreflect.generic_quotient <> equiv_rel rec
+R26613:26613 mathcomp.ssreflect.generic_quotient <> CountEncodingModuloRel.D var
+R26624:26632 mathcomp.ssreflect.generic_quotient <> encModRel rec
+R26640:26641 mathcomp.ssreflect.generic_quotient <> eD var
+R26637:26638 mathcomp.ssreflect.generic_quotient <> CountEncodingModuloRel.DC var
+R26634:26635 mathcomp.ssreflect.generic_quotient <> CountEncodingModuloRel.CD var
+syndef 26654:26655 <> eC
+R26661:26673 mathcomp.ssreflect.generic_quotient <> encoded_equiv def
+R26675:26678 mathcomp.ssreflect.generic_quotient <> CountEncodingModuloRel.encD var
+prf 26688:26705 <> eq_quot_countMixin
+R26709:26726 mathcomp.ssreflect.choice Countable mixin_of rec
+R26728:26736 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R26741:26741 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R26737:26740 mathcomp.ssreflect.generic_quotient <> CountEncodingModuloRel.encD var
+R26758:26770 mathcomp.ssreflect.choice <> CanCountMixin def
+R26772:26787 mathcomp.ssreflect.generic_quotient <> ereprK thm
+R26772:26787 mathcomp.ssreflect.generic_quotient <> ereprK thm
+R26758:26770 mathcomp.ssreflect.choice <> CanCountMixin def
+R26826:26834 mathcomp.ssreflect.choice Countable.Exports CountType syndef
+R26836:26844 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R26849:26849 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R26845:26848 mathcomp.ssreflect.generic_quotient <> CountEncodingModuloRel.encD var
+R26851:26868 mathcomp.ssreflect.generic_quotient <> eq_quot_countMixin thm
+R26876:26897 mathcomp.ssreflect.generic_quotient CountEncodingModuloRel <> sec
+sec 26909:26923 <> EquivQuotTheory
+var 26938:26938 EquivQuotTheory T
+var 26955:26955 EquivQuotTheory e
+var 26973:26973 EquivQuotTheory Q
+R26942:26951 mathcomp.ssreflect.choice Choice.Exports choiceType syndef
+R26959:26967 mathcomp.ssreflect.generic_quotient <> equiv_rel rec
+R26969:26969 mathcomp.ssreflect.generic_quotient <> T var
+R26977:26986 mathcomp.ssreflect.generic_quotient <> eqQuotType rec
+R26988:26988 mathcomp.ssreflect.generic_quotient <> e var
+prf 26999:27004 <> eqmodE
+R27030:27032 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27013:27016 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']' not
+R27018:27027 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']' not
+R27029:27029 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod_eq'_x_']' not
+R27028:27028 mathcomp.ssreflect.generic_quotient <> EquivQuotTheory.e var
+R27012:27012 mathcomp.ssreflect.generic_quotient <> x var
+R27028:27028 mathcomp.ssreflect.generic_quotient <> EquivQuotTheory.e var
+R27017:27017 mathcomp.ssreflect.generic_quotient <> y var
+R27033:27033 mathcomp.ssreflect.generic_quotient <> EquivQuotTheory.e var
+R27037:27037 mathcomp.ssreflect.generic_quotient <> y var
+R27035:27035 mathcomp.ssreflect.generic_quotient <> x var
+R27058:27067 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+R27058:27067 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+R27058:27067 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+prf 27082:27087 <> eqmodP
+R27095:27101 Coq.ssr.ssrbool <> reflect syndef
+R27124:27124 mathcomp.ssreflect.generic_quotient <> EquivQuotTheory.e var
+R27128:27128 mathcomp.ssreflect.generic_quotient <> y var
+R27126:27126 mathcomp.ssreflect.generic_quotient <> x var
+R27105:27107 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod_eq'_x_']' not
+R27109:27118 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod_eq'_x_']' not
+R27120:27120 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod_eq'_x_']' not
+R27119:27119 mathcomp.ssreflect.generic_quotient <> EquivQuotTheory.e var
+R27104:27104 mathcomp.ssreflect.generic_quotient <> x var
+R27119:27119 mathcomp.ssreflect.generic_quotient <> EquivQuotTheory.e var
+R27108:27108 mathcomp.ssreflect.generic_quotient <> y var
+R27151:27156 mathcomp.ssreflect.generic_quotient <> eqmodE thm
+R27165:27167 mathcomp.ssreflect.eqtype <> eqP thm
+R27151:27156 mathcomp.ssreflect.generic_quotient <> eqmodE thm
+R27151:27156 mathcomp.ssreflect.generic_quotient <> eqmodE thm
+R27165:27167 mathcomp.ssreflect.eqtype <> eqP thm
+R27180:27194 mathcomp.ssreflect.generic_quotient EquivQuotTheory <> sec
+sec 27239:27250 <> EqQuotTheory
+var 27265:27265 EqQuotTheory T
+var 27276:27276 EqQuotTheory e
+var 27288:27288 EqQuotTheory Q
+R27280:27282 Coq.ssr.ssrbool <> rel def
+R27284:27284 mathcomp.ssreflect.generic_quotient <> T var
+R27292:27301 mathcomp.ssreflect.generic_quotient <> eqQuotType rec
+R27303:27303 mathcomp.ssreflect.generic_quotient <> e var
+prf 27314:27320 <> eqquotE
+R27343:27345 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R27329:27332 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R27334:27340 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R27342:27342 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R27341:27341 mathcomp.ssreflect.generic_quotient <> EqQuotTheory.Q var
+R27328:27328 mathcomp.ssreflect.generic_quotient <> x var
+R27341:27341 mathcomp.ssreflect.generic_quotient <> EqQuotTheory.Q var
+R27333:27333 mathcomp.ssreflect.generic_quotient <> y var
+R27346:27346 mathcomp.ssreflect.generic_quotient <> EqQuotTheory.e var
+R27350:27350 mathcomp.ssreflect.generic_quotient <> y var
+R27348:27348 mathcomp.ssreflect.generic_quotient <> x var
+R27371:27380 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+R27371:27380 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+R27371:27380 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+prf 27395:27401 <> eqquotP
+R27409:27415 Coq.ssr.ssrbool <> reflect syndef
+R27435:27435 mathcomp.ssreflect.generic_quotient <> EqQuotTheory.e var
+R27439:27439 mathcomp.ssreflect.generic_quotient <> y var
+R27437:27437 mathcomp.ssreflect.generic_quotient <> x var
+R27419:27421 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R27423:27429 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R27431:27431 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R27430:27430 mathcomp.ssreflect.generic_quotient <> EqQuotTheory.Q var
+R27418:27418 mathcomp.ssreflect.generic_quotient <> x var
+R27430:27430 mathcomp.ssreflect.generic_quotient <> EqQuotTheory.Q var
+R27422:27422 mathcomp.ssreflect.generic_quotient <> y var
+R27462:27468 mathcomp.ssreflect.generic_quotient <> eqquotE thm
+R27477:27479 mathcomp.ssreflect.eqtype <> eqP thm
+R27462:27468 mathcomp.ssreflect.generic_quotient <> eqquotE thm
+R27462:27468 mathcomp.ssreflect.generic_quotient <> eqquotE thm
+R27477:27479 mathcomp.ssreflect.eqtype <> eqP thm
+R27492:27503 mathcomp.ssreflect.generic_quotient EqQuotTheory <> sec

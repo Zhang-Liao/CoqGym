@@ -1,0 +1,310 @@
+DIGEST 2adab624e47dde62ce9c633216e4d119
+FAlgebra.Categories
+R1086:1094 Algebra.Cartesian <> <> lib
+sec 1172:1183 <> Category_def
+sec 1194:1206 Category_def Category_def1
+var 1218:1219 Category_def.Category_def1 Ob
+var 1238:1240 Category_def.Category_def1 Hom
+R1246:1249 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1252:1255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1256:1261 Algebra.Sets <> Setoid rec
+R1250:1251 Algebra.Categories <> Category_def.Category_def1.Ob var
+R1244:1245 Algebra.Categories <> Category_def.Category_def1.Ob var
+var 1275:1282 Category_def.Category_def1 Hom_comp
+R1301:1302 Algebra.Categories <> Category_def.Category_def1.Ob var
+R1305:1307 Algebra.Sets <> MAP def
+R1337:1339 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1343:1343 Algebra.Categories <> c var
+R1341:1341 Algebra.Categories <> a var
+R1310:1313 Algebra.Cartesian <> cart def
+R1326:1328 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1332:1332 Algebra.Categories <> b var
+R1330:1330 Algebra.Categories <> a var
+R1316:1318 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1322:1322 Algebra.Categories <> c var
+R1320:1320 Algebra.Categories <> b var
+var 1356:1361 Category_def.Category_def1 Hom_id
+R1376:1377 Algebra.Categories <> Category_def.Category_def1.Ob var
+R1380:1382 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1386:1386 Algebra.Categories <> a var
+R1384:1384 Algebra.Categories <> a var
+def 1401:1414 <> Hom_comp_assoc
+R1439:1440 Algebra.Categories <> Category_def.Category_def1.Ob var
+R1448:1450 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1454:1454 Algebra.Categories <> b var
+R1452:1452 Algebra.Categories <> a var
+R1462:1464 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1468:1468 Algebra.Categories <> c var
+R1466:1466 Algebra.Categories <> b var
+R1476:1478 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1482:1482 Algebra.Categories <> d var
+R1480:1480 Algebra.Categories <> c var
+R1488:1492 Algebra.Sets <> Equal proj
+R1557:1564 Algebra.Categories <> Category_def.Category_def1.Hom_comp var
+R1573:1578 Algebra.Cartesian <> couple def
+R1583:1590 Algebra.Categories <> Category_def.Category_def1.Hom_comp var
+R1599:1604 Algebra.Cartesian <> couple def
+R1608:1608 Algebra.Categories <> f var
+R1606:1606 Algebra.Categories <> g var
+R1596:1596 Algebra.Categories <> c var
+R1594:1594 Algebra.Categories <> b var
+R1592:1592 Algebra.Categories <> a var
+R1580:1580 Algebra.Categories <> h var
+R1570:1570 Algebra.Categories <> d var
+R1568:1568 Algebra.Categories <> c var
+R1566:1566 Algebra.Categories <> a var
+R1495:1502 Algebra.Categories <> Category_def.Category_def1.Hom_comp var
+R1511:1516 Algebra.Cartesian <> couple def
+R1548:1548 Algebra.Categories <> f var
+R1519:1526 Algebra.Categories <> Category_def.Category_def1.Hom_comp var
+R1535:1540 Algebra.Cartesian <> couple def
+R1544:1544 Algebra.Categories <> g var
+R1542:1542 Algebra.Categories <> h var
+R1532:1532 Algebra.Categories <> d var
+R1530:1530 Algebra.Categories <> c var
+R1528:1528 Algebra.Categories <> b var
+R1508:1508 Algebra.Categories <> d var
+R1506:1506 Algebra.Categories <> b var
+R1504:1504 Algebra.Categories <> a var
+def 1627:1641 <> Hom_comp_unit_l
+R1662:1663 Algebra.Categories <> Category_def.Category_def1.Ob var
+R1671:1673 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1677:1677 Algebra.Categories <> b var
+R1675:1675 Algebra.Categories <> a var
+R1683:1687 Algebra.Sets <> Equal proj
+R1728:1728 Algebra.Categories <> f var
+R1690:1697 Algebra.Categories <> Category_def.Category_def1.Hom_comp var
+R1706:1711 Algebra.Cartesian <> couple def
+R1724:1724 Algebra.Categories <> f var
+R1714:1719 Algebra.Categories <> Category_def.Category_def1.Hom_id var
+R1721:1721 Algebra.Categories <> b var
+R1703:1703 Algebra.Categories <> b var
+R1701:1701 Algebra.Categories <> b var
+R1699:1699 Algebra.Categories <> a var
+def 1743:1757 <> Hom_comp_unit_r
+R1778:1779 Algebra.Categories <> Category_def.Category_def1.Ob var
+R1787:1789 Algebra.Categories <> Category_def.Category_def1.Hom var
+R1793:1793 Algebra.Categories <> b var
+R1791:1791 Algebra.Categories <> a var
+R1799:1803 Algebra.Sets <> Equal proj
+R1844:1844 Algebra.Categories <> f var
+R1806:1813 Algebra.Categories <> Category_def.Category_def1.Hom_comp var
+R1822:1827 Algebra.Cartesian <> couple def
+R1832:1837 Algebra.Categories <> Category_def.Category_def1.Hom_id var
+R1839:1839 Algebra.Categories <> a var
+R1829:1829 Algebra.Categories <> f var
+R1819:1819 Algebra.Categories <> b var
+R1817:1817 Algebra.Categories <> a var
+R1815:1815 Algebra.Categories <> a var
+R1851:1863 Algebra.Categories Category_def.Category_def1 <> sec
+rec 1874:1881 <> category
+proj 1897:1898 <> Ob
+proj 1912:1914 <> Hom
+proj 1941:1948 <> Hom_comp
+proj 2016:2021 <> Hom_id
+proj 2052:2069 <> Hom_comp_assoc_prf
+proj 2101:2119 <> Hom_comp_unit_l_prf
+proj 2159:2177 <> Hom_comp_unit_r_prf
+R1920:1923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1926:1929 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1930:1935 Algebra.Sets <> Setoid rec
+R1924:1925 Algebra.Categories <> Ob meth
+R1918:1919 Algebra.Categories <> Ob meth
+R1967:1968 Algebra.Categories <> Ob meth
+R1971:1973 Algebra.Sets <> MAP def
+R2003:2005 Algebra.Categories <> Hom meth
+R2009:2009 Algebra.Categories <> c var
+R2007:2007 Algebra.Categories <> a var
+R1976:1979 Algebra.Cartesian <> cart def
+R1992:1994 Algebra.Categories <> Hom meth
+R1998:1998 Algebra.Categories <> b var
+R1996:1996 Algebra.Categories <> a var
+R1982:1984 Algebra.Categories <> Hom meth
+R1988:1988 Algebra.Categories <> c var
+R1986:1986 Algebra.Categories <> b var
+R2036:2037 Algebra.Categories <> Ob meth
+R2040:2042 Algebra.Categories <> Hom meth
+R2046:2046 Algebra.Categories <> a var
+R2044:2044 Algebra.Categories <> a var
+R2073:2086 Algebra.Categories <> Hom_comp_assoc def
+R2088:2095 Algebra.Categories <> Hom_comp meth
+R2123:2137 Algebra.Categories <> Hom_comp_unit_l def
+R2148:2153 Algebra.Categories <> Hom_id meth
+R2139:2146 Algebra.Categories <> Hom_comp meth
+R2181:2195 Algebra.Categories <> Hom_comp_unit_r def
+R2206:2211 Algebra.Categories <> Hom_id meth
+R2197:2204 Algebra.Categories <> Hom_comp meth
+sec 2223:2235 Category_def Category_comp
+var 2247:2247 Category_def.Category_comp C
+R2251:2258 Algebra.Categories <> category rec
+def 2273:2280 <> comp_hom
+R2291:2291 Algebra.Categories <> Category_def.Category_comp.C var
+R2299:2301 Algebra.Categories <> Hom proj
+R2305:2305 Algebra.Categories <> c var
+R2303:2303 Algebra.Categories <> b var
+R2313:2315 Algebra.Categories <> Hom proj
+R2319:2319 Algebra.Categories <> b var
+R2317:2317 Algebra.Categories <> a var
+R2327:2334 Algebra.Categories <> Hom_comp proj
+R2343:2348 Algebra.Cartesian <> couple def
+R2352:2352 Algebra.Categories <> f var
+R2350:2350 Algebra.Categories <> g var
+R2340:2340 Algebra.Categories <> c var
+R2338:2338 Algebra.Categories <> b var
+R2336:2336 Algebra.Categories <> a var
+prf 2363:2381 <> comp_hom_compatible
+R2402:2402 Algebra.Categories <> Category_def.Category_comp.C var
+R2413:2415 Algebra.Categories <> Hom proj
+R2419:2419 Algebra.Categories <> c var
+R2417:2417 Algebra.Categories <> b var
+R2430:2432 Algebra.Categories <> Hom proj
+R2436:2436 Algebra.Categories <> b var
+R2434:2434 Algebra.Categories <> a var
+R2451:2454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2465:2468 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2469:2473 Algebra.Sets <> Equal proj
+R2491:2498 Algebra.Categories <> comp_hom def
+R2503:2504 Algebra.Categories <> y' var
+R2500:2501 Algebra.Categories <> x' var
+R2476:2483 Algebra.Categories <> comp_hom def
+R2487:2487 Algebra.Categories <> y var
+R2485:2485 Algebra.Categories <> x var
+R2455:2459 Algebra.Sets <> Equal proj
+R2463:2464 Algebra.Categories <> y' var
+R2461:2461 Algebra.Categories <> y var
+R2441:2445 Algebra.Sets <> Equal proj
+R2449:2450 Algebra.Categories <> x' var
+R2447:2447 Algebra.Categories <> x var
+R2562:2569 Algebra.Categories <> comp_hom def
+prf 2611:2624 <> comp_hom_assoc
+R2647:2647 Algebra.Categories <> Category_def.Category_comp.C var
+R2655:2657 Algebra.Categories <> Hom proj
+R2661:2661 Algebra.Categories <> b var
+R2659:2659 Algebra.Categories <> a var
+R2669:2671 Algebra.Categories <> Hom proj
+R2675:2675 Algebra.Categories <> c var
+R2673:2673 Algebra.Categories <> b var
+R2683:2685 Algebra.Categories <> Hom proj
+R2689:2689 Algebra.Categories <> d var
+R2687:2687 Algebra.Categories <> c var
+R2694:2698 Algebra.Sets <> Equal proj
+R2729:2736 Algebra.Categories <> comp_hom def
+R2741:2748 Algebra.Categories <> comp_hom def
+R2752:2752 Algebra.Categories <> f var
+R2750:2750 Algebra.Categories <> g var
+R2738:2738 Algebra.Categories <> h var
+R2701:2708 Algebra.Categories <> comp_hom def
+R2725:2725 Algebra.Categories <> f var
+R2711:2718 Algebra.Categories <> comp_hom def
+R2722:2722 Algebra.Categories <> g var
+R2720:2720 Algebra.Categories <> h var
+R2764:2781 Algebra.Categories <> Hom_comp_assoc_prf proj
+R2787:2787 Algebra.Categories <> Category_def.Category_comp.C var
+R2764:2781 Algebra.Categories <> Hom_comp_assoc_prf proj
+R2787:2787 Algebra.Categories <> Category_def.Category_comp.C var
+prf 2804:2818 <> comp_hom_unit_l
+R2837:2837 Algebra.Categories <> Category_def.Category_comp.C var
+R2845:2847 Algebra.Categories <> Hom proj
+R2851:2851 Algebra.Categories <> b var
+R2849:2849 Algebra.Categories <> a var
+R2855:2859 Algebra.Sets <> Equal proj
+R2885:2885 Algebra.Categories <> f var
+R2862:2869 Algebra.Categories <> comp_hom def
+R2882:2882 Algebra.Categories <> f var
+R2872:2877 Algebra.Categories <> Hom_id proj
+R2879:2879 Algebra.Categories <> b var
+R2895:2913 Algebra.Categories <> Hom_comp_unit_l_prf proj
+R2919:2919 Algebra.Categories <> Category_def.Category_comp.C var
+R2895:2913 Algebra.Categories <> Hom_comp_unit_l_prf proj
+R2919:2919 Algebra.Categories <> Category_def.Category_comp.C var
+prf 2936:2950 <> comp_hom_unit_r
+R2969:2969 Algebra.Categories <> Category_def.Category_comp.C var
+R2977:2979 Algebra.Categories <> Hom proj
+R2983:2983 Algebra.Categories <> b var
+R2981:2981 Algebra.Categories <> a var
+R2987:2991 Algebra.Sets <> Equal proj
+R3017:3017 Algebra.Categories <> f var
+R2994:3001 Algebra.Categories <> comp_hom def
+R3006:3011 Algebra.Categories <> Hom_id proj
+R3013:3013 Algebra.Categories <> a var
+R3003:3003 Algebra.Categories <> f var
+R3027:3045 Algebra.Categories <> Hom_comp_unit_r_prf proj
+R3051:3051 Algebra.Categories <> Category_def.Category_comp.C var
+R3027:3045 Algebra.Categories <> Hom_comp_unit_r_prf proj
+R3051:3051 Algebra.Categories <> Category_def.Category_comp.C var
+R3065:3077 Algebra.Categories Category_def.Category_comp <> sec
+sec 3180:3194 Category_def Full_subcat_def
+var 3206:3206 Category_def.Full_subcat_def C
+R3210:3217 Algebra.Categories <> category rec
+var 3229:3230 Category_def.Full_subcat_def C'
+var 3249:3249 Category_def.Full_subcat_def i
+R3255:3258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3259:3259 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R3253:3254 Algebra.Categories <> Category_def.Full_subcat_def.C' var
+def 3274:3284 <> fsubcat_Hom
+R3293:3294 Algebra.Categories <> Category_def.Full_subcat_def.C' var
+R3300:3302 Algebra.Categories <> Hom proj
+R3311:3311 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3313:3313 Algebra.Categories <> b var
+R3305:3305 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3307:3307 Algebra.Categories <> a var
+def 3329:3344 <> fsubcat_Hom_comp
+R3365:3366 Algebra.Categories <> Category_def.Full_subcat_def.C' var
+R3371:3373 Algebra.Sets <> MAP def
+R3419:3429 Algebra.Categories <> fsubcat_Hom def
+R3433:3433 Algebra.Categories <> c var
+R3431:3431 Algebra.Categories <> a var
+R3376:3379 Algebra.Cartesian <> cart def
+R3400:3410 Algebra.Categories <> fsubcat_Hom def
+R3414:3414 Algebra.Categories <> b var
+R3412:3412 Algebra.Categories <> a var
+R3382:3392 Algebra.Categories <> fsubcat_Hom def
+R3396:3396 Algebra.Categories <> c var
+R3394:3394 Algebra.Categories <> b var
+R3474:3481 Algebra.Categories <> Hom_comp proj
+R3496:3496 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3490:3490 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3484:3484 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3474:3481 Algebra.Categories <> Hom_comp proj
+R3496:3496 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3490:3490 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3484:3484 Algebra.Categories <> Category_def.Full_subcat_def.i var
+def 3524:3537 <> fsubcat_Hom_id
+R3544:3545 Algebra.Categories <> Category_def.Full_subcat_def.C' var
+R3551:3556 Algebra.Categories <> Hom_id proj
+R3559:3559 Algebra.Categories <> Category_def.Full_subcat_def.i var
+R3561:3561 Algebra.Categories <> a var
+def 3577:3587 <> full_subcat
+R3591:3598 Algebra.Categories <> category rec
+R3609:3622 Algebra.Categories <> Build_category constr
+R3694:3707 Algebra.Categories <> fsubcat_Hom_id def
+R3663:3678 Algebra.Categories <> fsubcat_Hom_comp def
+R3639:3649 Algebra.Categories <> fsubcat_Hom def
+R3629:3630 Algebra.Categories <> Category_def.Full_subcat_def.C' var
+R3609:3622 Algebra.Categories <> Build_category constr
+R3694:3707 Algebra.Categories <> fsubcat_Hom_id def
+R3663:3678 Algebra.Categories <> fsubcat_Hom_comp def
+R3639:3649 Algebra.Categories <> fsubcat_Hom def
+R3629:3630 Algebra.Categories <> Category_def.Full_subcat_def.C' var
+R3732:3742 Algebra.Categories <> fsubcat_Hom def
+R3745:3760 Algebra.Categories <> fsubcat_Hom_comp def
+R3831:3848 Algebra.Categories <> Hom_comp_assoc_prf proj
+R3854:3854 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R3831:3848 Algebra.Categories <> Hom_comp_assoc_prf proj
+R3854:3854 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R3879:3889 Algebra.Categories <> fsubcat_Hom def
+R3892:3907 Algebra.Categories <> fsubcat_Hom_comp def
+R3910:3923 Algebra.Categories <> fsubcat_Hom_id def
+R3986:4004 Algebra.Categories <> Hom_comp_unit_l_prf proj
+R4010:4010 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R3986:4004 Algebra.Categories <> Hom_comp_unit_l_prf proj
+R4010:4010 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R4035:4045 Algebra.Categories <> fsubcat_Hom def
+R4048:4063 Algebra.Categories <> fsubcat_Hom_comp def
+R4066:4079 Algebra.Categories <> fsubcat_Hom_id def
+R4142:4160 Algebra.Categories <> Hom_comp_unit_r_prf proj
+R4166:4166 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R4142:4160 Algebra.Categories <> Hom_comp_unit_r_prf proj
+R4166:4166 Algebra.Categories <> Category_def.Full_subcat_def.C var
+R4184:4198 Algebra.Categories Category_def.Full_subcat_def <> sec
+R4205:4216 Algebra.Categories Category_def <> sec

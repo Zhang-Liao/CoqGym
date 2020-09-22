@@ -1,0 +1,103 @@
+DIGEST bf6614a200875446edbdae78396778d4
+FSimpleIO.IO_UnsafeNat
+R247:262 Coq.extraction.ExtrOcamlIntConv <> <> lib
+R300:307 SimpleIO.IO_Monad <> <> lib
+R314:326 SimpleIO.IO_Pervasives <> <> lib
+def 435:443 <> print_nat
+R450:453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R454:455 SimpleIO.IO_Monad <> IO defax
+R457:460 Coq.Init.Datatypes <> unit ind
+R447:449 Coq.Init.Datatypes <> nat ind
+R476:484 SimpleIO.IO_Pervasives <> print_int defax
+R487:496 Coq.extraction.ExtrOcamlIntConv <> int_of_nat def
+R498:498 SimpleIO.IO_UnsafeNat <> n var
+def 514:522 <> prerr_nat
+R529:532 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R533:534 SimpleIO.IO_Monad <> IO defax
+R536:539 Coq.Init.Datatypes <> unit ind
+R526:528 Coq.Init.Datatypes <> nat ind
+R555:563 SimpleIO.IO_Pervasives <> prerr_int defax
+R566:575 Coq.extraction.ExtrOcamlIntConv <> int_of_nat def
+R577:577 SimpleIO.IO_UnsafeNat <> n var
+def 593:600 <> read_nat
+R604:605 SimpleIO.IO_Monad <> IO defax
+R607:609 Coq.Init.Datatypes <> nat ind
+R616:621 SimpleIO.IO_Monad IO map def
+R634:641 SimpleIO.IO_Pervasives <> read_int defax
+R623:632 Coq.extraction.ExtrOcamlIntConv <> nat_of_int def
+def 656:667 <> read_nat_opt
+R671:672 SimpleIO.IO_Monad <> IO defax
+R675:680 Coq.Init.Datatypes <> option ind
+R682:684 Coq.Init.Datatypes <> nat ind
+R692:697 SimpleIO.IO_Monad IO map def
+R723:734 SimpleIO.IO_Pervasives <> read_int_opt defax
+R700:709 Coq.Init.Datatypes <> option_map def
+R711:720 Coq.extraction.ExtrOcamlIntConv <> nat_of_int def
+def 749:758 <> output_nat
+R773:776 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R780:783 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R784:785 SimpleIO.IO_Monad <> IO defax
+R787:790 Coq.Init.Datatypes <> unit ind
+R777:779 Coq.Init.Datatypes <> nat ind
+R762:772 SimpleIO.IO_Pervasives <> out_channel defax
+R808:820 SimpleIO.IO_Pervasives <> output_string defax
+R825:838 SimpleIO.IO_Pervasives <> ostring_of_int defax
+R841:850 Coq.extraction.ExtrOcamlIntConv <> int_of_nat def
+R852:852 SimpleIO.IO_UnsafeNat <> n var
+R822:822 SimpleIO.IO_UnsafeNat <> h var
+def 869:883 <> output_byte_nat
+R898:901 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R905:908 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R909:910 SimpleIO.IO_Monad <> IO defax
+R912:915 Coq.Init.Datatypes <> unit ind
+R902:904 Coq.Init.Datatypes <> nat ind
+R887:897 SimpleIO.IO_Pervasives <> out_channel defax
+R933:943 SimpleIO.IO_Pervasives <> output_byte defax
+R948:957 Coq.extraction.ExtrOcamlIntConv <> int_of_nat def
+R959:959 SimpleIO.IO_UnsafeNat <> n var
+R945:945 SimpleIO.IO_UnsafeNat <> h var
+def 975:988 <> input_byte_nat
+R1002:1005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1006:1007 SimpleIO.IO_Monad <> IO defax
+R1009:1011 Coq.Init.Datatypes <> nat ind
+R992:1001 SimpleIO.IO_Pervasives <> in_channel defax
+R1027:1032 SimpleIO.IO_Monad IO map def
+R1046:1055 SimpleIO.IO_Pervasives <> input_byte defax
+R1057:1057 SimpleIO.IO_UnsafeNat <> h var
+R1034:1043 Coq.extraction.ExtrOcamlIntConv <> nat_of_int def
+def 1073:1084 <> incr_ref_nat
+R1095:1098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1099:1100 SimpleIO.IO_Monad <> IO defax
+R1102:1105 Coq.Init.Datatypes <> unit ind
+R1088:1090 SimpleIO.IO_Pervasives <> ref defax
+R1092:1094 Coq.Init.Datatypes <> nat ind
+R1126:1129 SimpleIO.IO_Monad IO.Notations ::io_scope:x_'<-'_x_';;'_x not
+R1140:1146 SimpleIO.IO_Monad IO.Notations ::io_scope:x_'<-'_x_';;'_x not
+R1130:1137 SimpleIO.IO_Pervasives <> read_ref defax
+R1139:1139 SimpleIO.IO_UnsafeNat <> r var
+R1147:1155 SimpleIO.IO_Pervasives <> write_ref defax
+R1160:1167 Coq.Init.Nat <> succ def
+R1169:1169 SimpleIO.IO_UnsafeNat <> n var
+R1157:1157 SimpleIO.IO_UnsafeNat <> r var
+def 1216:1227 <> decr_ref_nat
+R1238:1241 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1242:1243 SimpleIO.IO_Monad <> IO defax
+R1245:1248 Coq.Init.Datatypes <> unit ind
+R1231:1233 SimpleIO.IO_Pervasives <> ref defax
+R1235:1237 Coq.Init.Datatypes <> nat ind
+R1269:1272 SimpleIO.IO_Monad IO.Notations ::io_scope:x_'<-'_x_';;'_x not
+R1283:1289 SimpleIO.IO_Monad IO.Notations ::io_scope:x_'<-'_x_';;'_x not
+R1273:1280 SimpleIO.IO_Pervasives <> read_ref defax
+R1282:1282 SimpleIO.IO_UnsafeNat <> r var
+R1290:1298 SimpleIO.IO_Pervasives <> write_ref defax
+R1303:1310 Coq.Init.Nat <> pred def
+R1312:1312 SimpleIO.IO_UnsafeNat <> n var
+R1300:1300 SimpleIO.IO_UnsafeNat <> r var
+def 1328:1335 <> exit_nat
+R1346:1349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1350:1351 SimpleIO.IO_Monad <> IO defax
+R1353:1353 SimpleIO.IO_UnsafeNat <> a var
+R1343:1345 Coq.Init.Datatypes <> nat ind
+R1369:1372 SimpleIO.IO_Pervasives <> exit defax
+R1375:1384 Coq.extraction.ExtrOcamlIntConv <> int_of_nat def
+R1386:1386 SimpleIO.IO_UnsafeNat <> n var

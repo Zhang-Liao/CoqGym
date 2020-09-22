@@ -1,0 +1,436 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 13; Loc.bol_pos = 826; Loc.line_nb_last = 13; Loc.bol_pos_last = 826; Loc.bp = 826; Loc.ep = 853} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 14; Loc.bol_pos = 854; Loc.line_nb_last = 14; Loc.bol_pos_last = 854; Loc.bp = 854; Loc.ep = 883} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 15; Loc.bol_pos = 884; Loc.line_nb_last = 15; Loc.bol_pos_last = 884; Loc.bp = 884; Loc.ep = 906} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 16; Loc.bol_pos = 907; Loc.line_nb_last = 16; Loc.bol_pos_last = 907; Loc.bp = 907; Loc.ep = 934} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 17; Loc.bol_pos = 935; Loc.line_nb_last = 17; Loc.bol_pos_last = 935; Loc.bp = 935; Loc.ep = 957} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 19; Loc.bol_pos = 959; Loc.line_nb_last = 19; Loc.bol_pos_last = 959; Loc.bp = 959; Loc.ep = 984} **)
+(**VERNAC_TYPE** VernacImport **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 21; Loc.bol_pos = 986; Loc.line_nb_last = 21; Loc.bol_pos_last = 986; Loc.bp = 986; Loc.ep = 1009} **)
+(**VERNAC_TYPE** VernacSetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 23; Loc.bol_pos = 1011; Loc.line_nb_last = 23; Loc.bol_pos_last = 1011; Loc.bp = 1011; Loc.ep = 1035} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 25; Loc.bol_pos = 1037; Loc.line_nb_last = 25; Loc.bol_pos_last = 1037; Loc.bp = 1037; Loc.ep = 1055} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 26; Loc.bol_pos = 1056; Loc.line_nb_last = 26; Loc.bol_pos_last = 1056; Loc.bp = 1056; Loc.ep = 1076} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 27; Loc.bol_pos = 1077; Loc.line_nb_last = 27; Loc.bol_pos_last = 1077; Loc.bp = 1077; Loc.ep = 1120} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 28; Loc.bol_pos = 1121; Loc.line_nb_last = 28; Loc.bol_pos_last = 1121; Loc.bp = 1121; Loc.ep = 1144} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 29; Loc.bol_pos = 1145; Loc.line_nb_last = 29; Loc.bol_pos_last = 1145; Loc.bp = 1145; Loc.ep = 1184} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 31; Loc.bol_pos = 1186; Loc.line_nb_last = 31; Loc.bol_pos_last = 1186; Loc.bp = 1186; Loc.ep = 1248} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 33; Loc.bol_pos = 1250; Loc.line_nb_last = 33; Loc.bol_pos_last = 1250; Loc.bp = 1250; Loc.ep = 1269} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 34; Loc.bol_pos = 1270; Loc.line_nb_last = 34; Loc.bol_pos_last = 1270; Loc.bp = 1270; Loc.ep = 1289} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 35; Loc.bol_pos = 1290; Loc.line_nb_last = 35; Loc.bol_pos_last = 1290; Loc.bp = 1290; Loc.ep = 1322} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 36; Loc.bol_pos = 1323; Loc.line_nb_last = 36; Loc.bol_pos_last = 1323; Loc.bp = 1323; Loc.ep = 1357} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 37; Loc.bol_pos = 1358; Loc.line_nb_last = 37; Loc.bol_pos_last = 1358; Loc.bp = 1358; Loc.ep = 1392} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 38; Loc.bol_pos = 1393; Loc.line_nb_last = 38; Loc.bol_pos_last = 1393; Loc.bp = 1393; Loc.ep = 1420} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 39; Loc.bol_pos = 1421; Loc.line_nb_last = 39; Loc.bol_pos_last = 1421; Loc.bp = 1421; Loc.ep = 1452} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 40; Loc.bol_pos = 1453; Loc.line_nb_last = 40; Loc.bol_pos_last = 1453; Loc.bp = 1453; Loc.ep = 1486} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 41; Loc.bol_pos = 1487; Loc.line_nb_last = 41; Loc.bol_pos_last = 1487; Loc.bp = 1487; Loc.ep = 1518} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 42; Loc.bol_pos = 1519; Loc.line_nb_last = 42; Loc.bol_pos_last = 1519; Loc.bp = 1519; Loc.ep = 1549} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 44; Loc.bol_pos = 1551; Loc.line_nb_last = 44; Loc.bol_pos_last = 1551; Loc.bp = 1551; Loc.ep = 1586} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 45; Loc.bol_pos = 1587; Loc.line_nb_last = 45; Loc.bol_pos_last = 1587; Loc.bp = 1587; Loc.ep = 1593} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 46; Loc.bol_pos = 1594; Loc.line_nb_last = 46; Loc.bol_pos_last = 1594; Loc.bp = 1596; Loc.ep = 1652} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 47; Loc.bol_pos = 1653; Loc.line_nb_last = 47; Loc.bol_pos_last = 1653; Loc.bp = 1655; Loc.ep = 1683} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 48; Loc.bol_pos = 1684; Loc.line_nb_last = 48; Loc.bol_pos_last = 1684; Loc.bp = 1684; Loc.ep = 1688} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** req_refl **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 50; Loc.bol_pos = 1690; Loc.line_nb_last = 50; Loc.bol_pos_last = 1690; Loc.bp = 1690; Loc.ep = 1737} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 51; Loc.bol_pos = 1738; Loc.line_nb_last = 51; Loc.bol_pos_last = 1738; Loc.bp = 1738; Loc.ep = 1744} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 52; Loc.bol_pos = 1745; Loc.line_nb_last = 52; Loc.bol_pos_last = 1745; Loc.bp = 1747; Loc.ep = 1803} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 53; Loc.bol_pos = 1804; Loc.line_nb_last = 53; Loc.bol_pos_last = 1804; Loc.bp = 1806; Loc.ep = 1834} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 54; Loc.bol_pos = 1835; Loc.line_nb_last = 54; Loc.bol_pos_last = 1835; Loc.bp = 1835; Loc.ep = 1839} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** req_sym **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 56; Loc.bol_pos = 1841; Loc.line_nb_last = 56; Loc.bol_pos_last = 1841; Loc.bp = 1841; Loc.ep = 1903} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 57; Loc.bol_pos = 1904; Loc.line_nb_last = 57; Loc.bol_pos_last = 1904; Loc.bp = 1904; Loc.ep = 1910} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 58; Loc.bol_pos = 1911; Loc.line_nb_last = 58; Loc.bol_pos_last = 1911; Loc.bp = 1913; Loc.ep = 1970} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 59; Loc.bol_pos = 1971; Loc.line_nb_last = 59; Loc.bol_pos_last = 1971; Loc.bp = 1973; Loc.ep = 2002} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 60; Loc.bol_pos = 2003; Loc.line_nb_last = 60; Loc.bol_pos_last = 2003; Loc.bp = 2003; Loc.ep = 2007} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** req_trans **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 63; Loc.bol_pos = 2010; Loc.line_nb_last = 67; Loc.bol_pos_last = 2235; Loc.bp = 2010; Loc.ep = 2249} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 69; Loc.bol_pos = 2251; Loc.line_nb_last = 69; Loc.bol_pos_last = 2251; Loc.bp = 2251; Loc.ep = 2320} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 70; Loc.bol_pos = 2321; Loc.line_nb_last = 70; Loc.bol_pos_last = 2321; Loc.bp = 2321; Loc.ep = 2327} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 71; Loc.bol_pos = 2328; Loc.line_nb_last = 71; Loc.bol_pos_last = 2328; Loc.bp = 2328; Loc.ep = 2351} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 72; Loc.bol_pos = 2352; Loc.line_nb_last = 72; Loc.bol_pos_last = 2352; Loc.bp = 2352; Loc.ep = 2356} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** rplus_morph_Proper **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 73; Loc.bol_pos = 2357; Loc.line_nb_last = 73; Loc.bol_pos_last = 2357; Loc.bp = 2357; Loc.ep = 2428} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 74; Loc.bol_pos = 2429; Loc.line_nb_last = 74; Loc.bol_pos_last = 2429; Loc.bp = 2429; Loc.ep = 2435} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 75; Loc.bol_pos = 2436; Loc.line_nb_last = 75; Loc.bol_pos_last = 2436; Loc.bp = 2436; Loc.ep = 2460} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 76; Loc.bol_pos = 2461; Loc.line_nb_last = 76; Loc.bol_pos_last = 2461; Loc.bp = 2461; Loc.ep = 2465} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** rtimes_morph_Proper **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 77; Loc.bol_pos = 2466; Loc.line_nb_last = 77; Loc.bol_pos_last = 2466; Loc.bp = 2466; Loc.ep = 2525} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 78; Loc.bol_pos = 2526; Loc.line_nb_last = 78; Loc.bol_pos_last = 2526; Loc.bp = 2526; Loc.ep = 2532} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 79; Loc.bol_pos = 2533; Loc.line_nb_last = 79; Loc.bol_pos_last = 2533; Loc.bp = 2533; Loc.ep = 2555} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 80; Loc.bol_pos = 2556; Loc.line_nb_last = 80; Loc.bol_pos_last = 2556; Loc.bp = 2556; Loc.ep = 2560} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** ropp_morph_Proper **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 81; Loc.bol_pos = 2561; Loc.line_nb_last = 81; Loc.bol_pos_last = 2561; Loc.bp = 2561; Loc.ep = 2626} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 82; Loc.bol_pos = 2627; Loc.line_nb_last = 82; Loc.bol_pos_last = 2627; Loc.bp = 2627; Loc.ep = 2633} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 83; Loc.bol_pos = 2634; Loc.line_nb_last = 83; Loc.bol_pos_last = 2634; Loc.bp = 2634; Loc.ep = 2655} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 84; Loc.bol_pos = 2656; Loc.line_nb_last = 84; Loc.bol_pos_last = 2656; Loc.bp = 2656; Loc.ep = 2660} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** rle_morph_Proper **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 85; Loc.bol_pos = 2661; Loc.line_nb_last = 85; Loc.bol_pos_last = 2661; Loc.bp = 2661; Loc.ep = 2726} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 86; Loc.bol_pos = 2727; Loc.line_nb_last = 86; Loc.bol_pos_last = 2727; Loc.bp = 2727; Loc.ep = 2733} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 87; Loc.bol_pos = 2734; Loc.line_nb_last = 87; Loc.bol_pos_last = 2734; Loc.bp = 2734; Loc.ep = 2755} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 88; Loc.bol_pos = 2756; Loc.line_nb_last = 88; Loc.bol_pos_last = 2756; Loc.bp = 2756; Loc.ep = 2760} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** rlt_morph_Proper **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 89; Loc.bol_pos = 2761; Loc.line_nb_last = 89; Loc.bol_pos_last = 2761; Loc.bp = 2761; Loc.ep = 2832} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 90; Loc.bol_pos = 2833; Loc.line_nb_last = 90; Loc.bol_pos_last = 2833; Loc.bp = 2833; Loc.ep = 2839} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 91; Loc.bol_pos = 2840; Loc.line_nb_last = 91; Loc.bol_pos_last = 2840; Loc.bp = 2842; Loc.ep = 2867} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 92; Loc.bol_pos = 2868; Loc.line_nb_last = 92; Loc.bol_pos_last = 2868; Loc.bp = 2868; Loc.ep = 2872} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** rminus_morph_Proper **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 94; Loc.bol_pos = 2874; Loc.line_nb_last = 94; Loc.bol_pos_last = 2874; Loc.bp = 2874; Loc.ep = 2936} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 95; Loc.bol_pos = 2937; Loc.line_nb_last = 95; Loc.bol_pos_last = 2937; Loc.bp = 2937; Loc.ep = 3018} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 97; Loc.bol_pos = 3020; Loc.line_nb_last = 97; Loc.bol_pos_last = 3020; Loc.bp = 3020; Loc.ep = 3090} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 98; Loc.bol_pos = 3091; Loc.line_nb_last = 98; Loc.bol_pos_last = 3091; Loc.bp = 3091; Loc.ep = 3140} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 100; Loc.bol_pos = 3142; Loc.line_nb_last = 100; Loc.bol_pos_last = 3142; Loc.bp = 3142; Loc.ep = 3190} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 101; Loc.bol_pos = 3191; Loc.line_nb_last = 101; Loc.bol_pos_last = 3191; Loc.bp = 3191; Loc.ep = 3241} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 103; Loc.bol_pos = 3243; Loc.line_nb_last = 103; Loc.bol_pos_last = 3243; Loc.bp = 3243; Loc.ep = 3283} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 105; Loc.bol_pos = 3285; Loc.line_nb_last = 105; Loc.bol_pos_last = 3285; Loc.bp = 3285; Loc.ep = 3339} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 106; Loc.bol_pos = 3340; Loc.line_nb_last = 106; Loc.bol_pos_last = 3340; Loc.bp = 3340; Loc.ep = 3346} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 107; Loc.bol_pos = 3347; Loc.line_nb_last = 107; Loc.bol_pos_last = 3347; Loc.bp = 3347; Loc.ep = 3359} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 108; Loc.bol_pos = 3360; Loc.line_nb_last = 108; Loc.bol_pos_last = 3360; Loc.bp = 3360; Loc.ep = 3378} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 109; Loc.bol_pos = 3379; Loc.line_nb_last = 109; Loc.bol_pos_last = 3379; Loc.bp = 3379; Loc.ep = 3398} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 110; Loc.bol_pos = 3399; Loc.line_nb_last = 110; Loc.bol_pos_last = 3399; Loc.bp = 3399; Loc.ep = 3416} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 111; Loc.bol_pos = 3417; Loc.line_nb_last = 111; Loc.bol_pos_last = 3417; Loc.bp = 3417; Loc.ep = 3421} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** ring_ops_wd **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 113; Loc.bol_pos = 3423; Loc.line_nb_last = 116; Loc.bol_pos_last = 3534; Loc.bp = 3423; Loc.ep = 3572} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 117; Loc.bol_pos = 3573; Loc.line_nb_last = 117; Loc.bol_pos_last = 3573; Loc.bp = 3573; Loc.ep = 3579} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 118; Loc.bol_pos = 3580; Loc.line_nb_last = 118; Loc.bol_pos_last = 3580; Loc.bp = 3580; Loc.ep = 3643} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 119; Loc.bol_pos = 3644; Loc.line_nb_last = 119; Loc.bol_pos_last = 3644; Loc.bp = 3644; Loc.ep = 3648} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zring_morph **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 121; Loc.bol_pos = 3650; Loc.line_nb_last = 121; Loc.bol_pos_last = 3650; Loc.bp = 3650; Loc.ep = 3707} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 122; Loc.bol_pos = 3708; Loc.line_nb_last = 122; Loc.bol_pos_last = 3708; Loc.bp = 3708; Loc.ep = 3714} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 123; Loc.bol_pos = 3715; Loc.line_nb_last = 125; Loc.bol_pos_last = 3848; Loc.bp = 3715; Loc.ep = 3884} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 126; Loc.bol_pos = 3885; Loc.line_nb_last = 126; Loc.bol_pos_last = 3885; Loc.bp = 3885; Loc.ep = 3889} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** phi_pos1_pos **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 128; Loc.bol_pos = 3891; Loc.line_nb_last = 128; Loc.bol_pos_last = 3891; Loc.bp = 3891; Loc.ep = 3974} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 129; Loc.bol_pos = 3975; Loc.line_nb_last = 129; Loc.bol_pos_last = 3975; Loc.bp = 3975; Loc.ep = 3981} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 130; Loc.bol_pos = 3982; Loc.line_nb_last = 131; Loc.bol_pos_last = 4036; Loc.bp = 3982; Loc.ep = 4096} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 132; Loc.bol_pos = 4097; Loc.line_nb_last = 132; Loc.bol_pos_last = 4097; Loc.bp = 4097; Loc.ep = 4101} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** phi_pos1_succ **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 134; Loc.bol_pos = 4103; Loc.line_nb_last = 134; Loc.bol_pos_last = 4103; Loc.bp = 4103; Loc.ep = 4192} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 135; Loc.bol_pos = 4193; Loc.line_nb_last = 135; Loc.bol_pos_last = 4193; Loc.bp = 4193; Loc.ep = 4199} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 136; Loc.bol_pos = 4200; Loc.line_nb_last = 136; Loc.bol_pos_last = 4200; Loc.bp = 4200; Loc.ep = 4213} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 136; Loc.bol_pos = 4200; Loc.line_nb_last = 136; Loc.bol_pos_last = 4200; Loc.bp = 4214; Loc.ep = 4249} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 137; Loc.bol_pos = 4250; Loc.line_nb_last = 137; Loc.bol_pos_last = 4250; Loc.bp = 4250; Loc.ep = 4296} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 138; Loc.bol_pos = 4297; Loc.line_nb_last = 138; Loc.bol_pos_last = 4297; Loc.bp = 4297; Loc.ep = 4321} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 138; Loc.bol_pos = 4297; Loc.line_nb_last = 138; Loc.bol_pos_last = 4297; Loc.bp = 4322; Loc.ep = 4344} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 138; Loc.bol_pos = 4297; Loc.line_nb_last = 138; Loc.bol_pos_last = 4297; Loc.bp = 4345; Loc.ep = 4373} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 139; Loc.bol_pos = 4374; Loc.line_nb_last = 139; Loc.bol_pos_last = 4374; Loc.bp = 4374; Loc.ep = 4385} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 140; Loc.bol_pos = 4386; Loc.line_nb_last = 140; Loc.bol_pos_last = 4386; Loc.bp = 4386; Loc.ep = 4390} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** clt_pos_morph **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 142; Loc.bol_pos = 4392; Loc.line_nb_last = 142; Loc.bol_pos_last = 4392; Loc.bp = 4392; Loc.ep = 4449} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 143; Loc.bol_pos = 4450; Loc.line_nb_last = 143; Loc.bol_pos_last = 4450; Loc.bp = 4450; Loc.ep = 4456} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 144; Loc.bol_pos = 4457; Loc.line_nb_last = 144; Loc.bol_pos_last = 4457; Loc.bp = 4457; Loc.ep = 4470} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 145; Loc.bol_pos = 4471; Loc.line_nb_last = 146; Loc.bol_pos_last = 4537; Loc.bp = 4471; Loc.ep = 4590} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 147; Loc.bol_pos = 4591; Loc.line_nb_last = 147; Loc.bol_pos_last = 4591; Loc.bp = 4591; Loc.ep = 4610} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 148; Loc.bol_pos = 4611; Loc.line_nb_last = 148; Loc.bol_pos_last = 4611; Loc.bp = 4611; Loc.ep = 4635} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 149; Loc.bol_pos = 4636; Loc.line_nb_last = 149; Loc.bol_pos_last = 4636; Loc.bp = 4636; Loc.ep = 4684} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 150; Loc.bol_pos = 4685; Loc.line_nb_last = 150; Loc.bol_pos_last = 4685; Loc.bp = 4685; Loc.ep = 4714} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 150; Loc.bol_pos = 4685; Loc.line_nb_last = 150; Loc.bol_pos_last = 4685; Loc.bp = 4715; Loc.ep = 4763} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 151; Loc.bol_pos = 4764; Loc.line_nb_last = 151; Loc.bol_pos_last = 4764; Loc.bp = 4764; Loc.ep = 4783} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 152; Loc.bol_pos = 4784; Loc.line_nb_last = 152; Loc.bol_pos_last = 4784; Loc.bp = 4784; Loc.ep = 4833} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 153; Loc.bol_pos = 4834; Loc.line_nb_last = 153; Loc.bol_pos_last = 4834; Loc.bp = 4834; Loc.ep = 4838} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 153; Loc.bol_pos = 4834; Loc.line_nb_last = 153; Loc.bol_pos_last = 4834; Loc.bp = 4839; Loc.ep = 4871} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 154; Loc.bol_pos = 4872; Loc.line_nb_last = 154; Loc.bol_pos_last = 4872; Loc.bp = 4872; Loc.ep = 4876} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** clt_morph **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 156; Loc.bol_pos = 4878; Loc.line_nb_last = 156; Loc.bol_pos_last = 4878; Loc.bp = 4878; Loc.ep = 4945} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 157; Loc.bol_pos = 4946; Loc.line_nb_last = 157; Loc.bol_pos_last = 4946; Loc.bp = 4946; Loc.ep = 4952} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 158; Loc.bol_pos = 4953; Loc.line_nb_last = 158; Loc.bol_pos_last = 4953; Loc.bp = 4953; Loc.ep = 4980} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 159; Loc.bol_pos = 4981; Loc.line_nb_last = 159; Loc.bol_pos_last = 4981; Loc.bp = 4981; Loc.ep = 5027} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 160; Loc.bol_pos = 5028; Loc.line_nb_last = 160; Loc.bol_pos_last = 5028; Loc.bp = 5028; Loc.ep = 5037} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 160; Loc.bol_pos = 5028; Loc.line_nb_last = 160; Loc.bol_pos_last = 5028; Loc.bp = 5038; Loc.ep = 5067} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 160; Loc.bol_pos = 5028; Loc.line_nb_last = 160; Loc.bol_pos_last = 5028; Loc.bp = 5068; Loc.ep = 5100} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 161; Loc.bol_pos = 5101; Loc.line_nb_last = 161; Loc.bol_pos_last = 5101; Loc.bp = 5101; Loc.ep = 5109} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 161; Loc.bol_pos = 5101; Loc.line_nb_last = 161; Loc.bol_pos_last = 5101; Loc.bp = 5110; Loc.ep = 5130} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 162; Loc.bol_pos = 5131; Loc.line_nb_last = 162; Loc.bol_pos_last = 5131; Loc.bp = 5131; Loc.ep = 5144} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 163; Loc.bol_pos = 5145; Loc.line_nb_last = 163; Loc.bol_pos_last = 5145; Loc.bp = 5145; Loc.ep = 5149} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zcleb_morph **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 165; Loc.bol_pos = 5151; Loc.line_nb_last = 165; Loc.bol_pos_last = 5151; Loc.bp = 5151; Loc.ep = 5223} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 166; Loc.bol_pos = 5224; Loc.line_nb_last = 166; Loc.bol_pos_last = 5224; Loc.bp = 5224; Loc.ep = 5230} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 167; Loc.bol_pos = 5231; Loc.line_nb_last = 167; Loc.bol_pos_last = 5231; Loc.bp = 5231; Loc.ep = 5244} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 167; Loc.bol_pos = 5231; Loc.line_nb_last = 167; Loc.bol_pos_last = 5231; Loc.bp = 5245; Loc.ep = 5266} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 168; Loc.bol_pos = 5267; Loc.line_nb_last = 168; Loc.bol_pos_last = 5267; Loc.bp = 5267; Loc.ep = 5345} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 169; Loc.bol_pos = 5346; Loc.line_nb_last = 169; Loc.bol_pos_last = 5346; Loc.bp = 5346; Loc.ep = 5366} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 169; Loc.bol_pos = 5346; Loc.line_nb_last = 169; Loc.bol_pos_last = 5346; Loc.bp = 5367; Loc.ep = 5387} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 170; Loc.bol_pos = 5388; Loc.line_nb_last = 170; Loc.bol_pos_last = 5388; Loc.bp = 5388; Loc.ep = 5409} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 170; Loc.bol_pos = 5388; Loc.line_nb_last = 170; Loc.bol_pos_last = 5388; Loc.bp = 5410; Loc.ep = 5436} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 171; Loc.bol_pos = 5437; Loc.line_nb_last = 171; Loc.bol_pos_last = 5437; Loc.bp = 5437; Loc.ep = 5459} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 171; Loc.bol_pos = 5437; Loc.line_nb_last = 171; Loc.bol_pos_last = 5437; Loc.bp = 5460; Loc.ep = 5480} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 171; Loc.bol_pos = 5437; Loc.line_nb_last = 171; Loc.bol_pos_last = 5437; Loc.bp = 5481; Loc.ep = 5501} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 172; Loc.bol_pos = 5502; Loc.line_nb_last = 172; Loc.bol_pos_last = 5502; Loc.bp = 5502; Loc.ep = 5506} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zcneqb_morph **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/micromega/ZCoeff.v"; Loc.line_nb = 174; Loc.bol_pos = 5508; Loc.line_nb_last = 174; Loc.bol_pos_last = 5508; Loc.bp = 5508; Loc.ep = 5528} **)
+(**VERNAC_TYPE** VernacEndSegment **)

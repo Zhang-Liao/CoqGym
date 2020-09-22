@@ -1,0 +1,23 @@
+DIGEST 9df222c1b47e43846982e1c41b9809f2
+FExtLib.Structures.MonadZero
+R15:37 ExtLib.Structures.Monad <> <> lib
+rec 72:80 <> MonadZero
+proj 113:117 <> mzero
+R91:94 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R133:133 ExtLib.Structures.MonadZero <> m var
+R135:135 ExtLib.Structures.MonadZero <> T var
+sec 149:157 <> ZeroFuncs
+R179:182 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R211:215 ExtLib.Structures.Monad <> Monad class
+R217:217 ExtLib.Structures.MonadZero <> ZeroFuncs.m var
+R241:249 ExtLib.Structures.MonadZero <> MonadZero class
+R251:251 ExtLib.Structures.MonadZero <> ZeroFuncs.m var
+def 269:274 <> assert
+R281:284 Coq.Init.Datatypes <> bool ind
+R289:289 ExtLib.Structures.MonadZero <> ZeroFuncs.m var
+R291:294 Coq.Init.Datatypes <> unit ind
+R306:306 ExtLib.Structures.MonadZero <> b var
+R325:329 ExtLib.Structures.MonadZero <> mzero meth
+R313:315 ExtLib.Structures.Monad <> ret meth
+R317:318 Coq.Init.Datatypes <> tt constr
+R337:345 ExtLib.Structures.MonadZero ZeroFuncs <> sec

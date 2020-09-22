@@ -1,0 +1,72 @@
+DIGEST 39ae03d4a921bb0fbf6fbcac64ea8c10
+FLinAlg.support.empty
+R1129:1135 LinAlg.support.seq_set <> <> lib
+def 1247:1255 <> empty_seq
+R1270:1275 Algebra.Sets <> Setoid rec
+R1278:1280 LinAlg.support.finite <> seq def
+R1284:1284 LinAlg.support.empty <> A var
+R1302:1310 Algebra.Sets <> Build_Map constr
+R1329:1331 LinAlg.support.finite <> fin def
+R1353:1353 LinAlg.support.empty <> i var
+R1371:1383 LinAlg.support.finite <> Build_finiteT constr
+R1393:1402 Coq.Init.Logic <> False_rect scheme
+R1407:1412 Coq.Arith.Lt <> lt_n_O syndef
+R1302:1310 Algebra.Sets <> Build_Map constr
+R1329:1331 LinAlg.support.finite <> fin def
+R1353:1353 LinAlg.support.empty <> i var
+R1371:1383 LinAlg.support.finite <> Build_finiteT constr
+R1393:1402 Coq.Init.Logic <> False_rect scheme
+R1407:1412 Coq.Arith.Lt <> lt_n_O syndef
+R1482:1490 Coq.Init.Logic <> False_ind scheme
+R1482:1490 Coq.Init.Logic <> False_ind scheme
+prf 1528:1541 <> seq_O_is_empty
+R1558:1563 Algebra.Sets <> Setoid rec
+R1571:1573 LinAlg.support.finite <> seq def
+R1577:1577 LinAlg.support.empty <> A var
+R1582:1585 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1597:1600 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1581:1581 LinAlg.support.empty <> v var
+R1586:1594 LinAlg.support.empty <> empty_seq def
+R1596:1596 LinAlg.support.empty <> A var
+R1654:1662 Coq.Init.Logic <> False_ind scheme
+R1654:1662 Coq.Init.Logic <> False_ind scheme
+prf 1736:1761 <> seq_set_empty_seq_is_empty
+R1778:1783 Algebra.Sets <> Setoid rec
+R1791:1793 LinAlg.support.finite <> seq def
+R1797:1797 LinAlg.support.empty <> A var
+R1810:1813 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1821:1824 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1801:1807 LinAlg.support.seq_set <> seq_set def
+R1809:1809 LinAlg.support.empty <> v var
+R1814:1818 Algebra.Parts <> empty def
+R1820:1820 LinAlg.support.empty <> A var
+R1854:1860 LinAlg.support.seq_set <> seq_set def
+R1863:1871 LinAlg.support.empty <> empty_seq def
+R1842:1846 Algebra.Sets <> Trans thm
+R1854:1860 LinAlg.support.seq_set <> seq_set def
+R1863:1871 LinAlg.support.empty <> empty_seq def
+R1842:1846 Algebra.Sets <> Trans thm
+R1971:1979 Coq.Init.Logic <> False_ind scheme
+R1971:1979 Coq.Init.Logic <> False_ind scheme
+prf 2168:2181 <> no_seq_n_empty
+R2198:2200 LinAlg.support.finite <> Nat def
+R2208:2213 Algebra.Sets <> Setoid rec
+R2221:2228 Algebra.Parts <> part_set def
+R2230:2230 LinAlg.support.empty <> A var
+R2252:2255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2263:2266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2268:2271 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2273:2276 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2267:2267 LinAlg.support.empty <> n var
+R2256:2258 LinAlg.support.finite <> seq def
+R2262:2262 LinAlg.support.empty <> W var
+R2260:2260 LinAlg.support.empty <> n var
+R2236:2239 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2247:2250 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2235:2235 LinAlg.support.empty <> W var
+R2240:2244 Algebra.Parts <> empty def
+R2246:2246 LinAlg.support.empty <> A var
+R2350:2362 LinAlg.support.finite <> Build_finiteT constr
+R2365:2371 Coq.Arith.Lt <> lt_O_Sn syndef
+R2350:2362 LinAlg.support.finite <> Build_finiteT constr
+R2365:2371 Coq.Arith.Lt <> lt_O_Sn syndef

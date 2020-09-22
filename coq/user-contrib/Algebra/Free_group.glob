@@ -1,0 +1,224 @@
+DIGEST a89a70044589328b2e9c5ac1d40778ff
+FAlgebra.Free_group
+R1086:1095 Algebra.Group_util <> <> lib
+sec 1106:1119 <> Free_group_def
+var 1131:1131 Free_group_def V
+R1135:1137 Algebra.Set_cat <> SET def
+ind 1151:1152 <> FG
+constr 1168:1170 <> Var
+constr 1186:1188 <> Law
+constr 1211:1214 <> Unit
+constr 1225:1227 <> Inv
+R1175:1178 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1179:1180 Algebra.Free_group <> FG ind
+R1174:1174 Algebra.Free_group <> Free_group_def.V var
+R1194:1197 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1200:1203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1204:1205 Algebra.Free_group <> FG ind
+R1198:1199 Algebra.Free_group <> FG ind
+R1192:1193 Algebra.Free_group <> FG ind
+R1218:1219 Algebra.Free_group <> FG ind
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1237:1238 Algebra.Free_group <> FG ind
+R1231:1232 Algebra.Free_group <> FG ind
+ind 1252:1255 <> eqFG
+constr 1283:1290 <> eqFG_Var
+constr 1355:1362 <> eqFG_law
+constr 1465:1478 <> eqFG_law_assoc
+constr 1557:1566 <> eqFG_law0r
+constr 1614:1621 <> eqFG_inv
+constr 1679:1687 <> eqFG_invr
+constr 1736:1744 <> eqFG_refl
+constr 1781:1788 <> eqFG_sym
+constr 1841:1850 <> eqFG_trans
+R1261:1264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1267:1270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1265:1266 Algebra.Free_group <> FG ind
+R1259:1260 Algebra.Free_group <> FG ind
+R1307:1307 Algebra.Free_group <> Free_group_def.V var
+R1319:1323 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1349:1349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1324:1327 Algebra.Free_group <> eqFG ind
+R1338:1340 Algebra.Free_group <> Var constr
+R1342:1342 Algebra.Free_group <> y var
+R1330:1332 Algebra.Free_group <> Var constr
+R1334:1334 Algebra.Free_group <> x var
+R1310:1314 Algebra.Sets <> Equal proj
+R1318:1318 Algebra.Free_group <> y var
+R1316:1316 Algebra.Free_group <> x var
+R1391:1392 Algebra.Free_group <> FG ind
+R1410:1413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1423:1427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1459:1459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1428:1431 Algebra.Free_group <> eqFG ind
+R1444:1446 Algebra.Free_group <> Law constr
+R1451:1452 Algebra.Free_group <> y' var
+R1448:1449 Algebra.Free_group <> x' var
+R1434:1436 Algebra.Free_group <> Law constr
+R1440:1440 Algebra.Free_group <> y var
+R1438:1438 Algebra.Free_group <> x var
+R1414:1417 Algebra.Free_group <> eqFG ind
+R1421:1422 Algebra.Free_group <> y' var
+R1419:1419 Algebra.Free_group <> y var
+R1401:1404 Algebra.Free_group <> eqFG ind
+R1408:1409 Algebra.Free_group <> x' var
+R1406:1406 Algebra.Free_group <> x var
+R1503:1504 Algebra.Free_group <> FG ind
+R1507:1510 Algebra.Free_group <> eqFG ind
+R1531:1533 Algebra.Free_group <> Law constr
+R1538:1540 Algebra.Free_group <> Law constr
+R1544:1544 Algebra.Free_group <> z var
+R1542:1542 Algebra.Free_group <> y var
+R1535:1535 Algebra.Free_group <> x var
+R1513:1515 Algebra.Free_group <> Law constr
+R1527:1527 Algebra.Free_group <> z var
+R1518:1520 Algebra.Free_group <> Law constr
+R1524:1524 Algebra.Free_group <> y var
+R1522:1522 Algebra.Free_group <> x var
+R1581:1582 Algebra.Free_group <> FG ind
+R1585:1588 Algebra.Free_group <> eqFG ind
+R1603:1603 Algebra.Free_group <> x var
+R1591:1593 Algebra.Free_group <> Law constr
+R1597:1600 Algebra.Free_group <> Unit constr
+R1595:1595 Algebra.Free_group <> x var
+R1638:1639 Algebra.Free_group <> FG ind
+R1650:1653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1654:1657 Algebra.Free_group <> eqFG ind
+R1668:1670 Algebra.Free_group <> Inv constr
+R1672:1672 Algebra.Free_group <> y var
+R1660:1662 Algebra.Free_group <> Inv constr
+R1664:1664 Algebra.Free_group <> x var
+R1642:1645 Algebra.Free_group <> eqFG ind
+R1649:1649 Algebra.Free_group <> y var
+R1647:1647 Algebra.Free_group <> x var
+R1702:1703 Algebra.Free_group <> FG ind
+R1706:1709 Algebra.Free_group <> eqFG ind
+R1727:1730 Algebra.Free_group <> Unit constr
+R1712:1714 Algebra.Free_group <> Law constr
+R1719:1721 Algebra.Free_group <> Inv constr
+R1723:1723 Algebra.Free_group <> x var
+R1716:1716 Algebra.Free_group <> x var
+R1759:1760 Algebra.Free_group <> FG ind
+R1763:1766 Algebra.Free_group <> eqFG ind
+R1770:1770 Algebra.Free_group <> x var
+R1768:1768 Algebra.Free_group <> x var
+R1805:1806 Algebra.Free_group <> FG ind
+R1817:1821 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1835:1835 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1822:1825 Algebra.Free_group <> eqFG ind
+R1829:1829 Algebra.Free_group <> x var
+R1827:1827 Algebra.Free_group <> y var
+R1809:1812 Algebra.Free_group <> eqFG ind
+R1816:1816 Algebra.Free_group <> y var
+R1814:1814 Algebra.Free_group <> x var
+R1869:1870 Algebra.Free_group <> FG ind
+R1881:1884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1893:1897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1911:1911 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1898:1901 Algebra.Free_group <> eqFG ind
+R1905:1905 Algebra.Free_group <> z var
+R1903:1903 Algebra.Free_group <> x var
+R1885:1888 Algebra.Free_group <> eqFG ind
+R1892:1892 Algebra.Free_group <> z var
+R1890:1890 Algebra.Free_group <> y var
+R1873:1876 Algebra.Free_group <> eqFG ind
+R1880:1880 Algebra.Free_group <> y var
+R1878:1878 Algebra.Free_group <> x var
+prf 2044:2053 <> eqFG_Equiv
+R2057:2067 Algebra.Sets <> equivalence def
+R2069:2072 Algebra.Free_group <> eqFG ind
+R2129:2137 Algebra.Free_group <> eqFG_refl constr
+R2129:2137 Algebra.Free_group <> eqFG_refl constr
+R2194:2203 Algebra.Free_group <> eqFG_trans constr
+R2194:2203 Algebra.Free_group <> eqFG_trans constr
+R2212:2219 Algebra.Free_group <> eqFG_sym constr
+R2212:2219 Algebra.Free_group <> eqFG_sym constr
+def 2239:2244 <> FG_set
+R2249:2260 Algebra.Sets <> Build_Setoid constr
+R2262:2271 Algebra.Free_group <> eqFG_Equiv thm
+def 2286:2294 <> FreeGroup
+R2298:2302 Algebra.Group_cat <> GROUP def
+R2312:2322 Algebra.Group_util <> BUILD_GROUP def
+R2369:2371 Algebra.Free_group <> Inv constr
+R2354:2357 Algebra.Free_group <> Unit constr
+R2345:2347 Algebra.Free_group <> Law constr
+R2328:2333 Algebra.Free_group <> FG_set def
+R2312:2322 Algebra.Group_util <> BUILD_GROUP def
+R2369:2371 Algebra.Free_group <> Inv constr
+R2354:2357 Algebra.Free_group <> Unit constr
+R2345:2347 Algebra.Free_group <> Law constr
+R2328:2333 Algebra.Free_group <> FG_set def
+R2382:2389 Algebra.Free_group <> eqFG_law constr
+R2382:2389 Algebra.Free_group <> eqFG_law constr
+R2398:2411 Algebra.Free_group <> eqFG_law_assoc constr
+R2398:2411 Algebra.Free_group <> eqFG_law_assoc constr
+R2420:2429 Algebra.Free_group <> eqFG_law0r constr
+R2420:2429 Algebra.Free_group <> eqFG_law0r constr
+R2438:2445 Algebra.Free_group <> eqFG_inv constr
+R2438:2445 Algebra.Free_group <> eqFG_inv constr
+R2454:2462 Algebra.Free_group <> eqFG_invr constr
+R2454:2462 Algebra.Free_group <> eqFG_invr constr
+sec 2482:2495 Free_group_def Universal_prop
+var 2507:2507 Free_group_def.Universal_prop G
+R2511:2515 Algebra.Group_cat <> GROUP def
+var 2527:2527 Free_group_def.Universal_prop f
+R2531:2533 Algebra.Categories <> Hom proj
+R2537:2537 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R2535:2535 Algebra.Free_group <> Free_group_def.V var
+def 2550:2560 <> FG_lift_fun
+R2567:2575 Algebra.Free_group <> FreeGroup def
+R2580:2580 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R2593:2593 Algebra.Free_group <> p var
+R2604:2606 Algebra.Free_group <> Var constr
+R2613:2613 Algebra.Free_group <> Free_group_def.Universal_prop.f var
+R2621:2623 Algebra.Free_group <> Law constr
+R2634:2643 Algebra.Sgroup_cat <> sgroup_law def
+R2665:2675 Algebra.Free_group <> FG_lift_fun def
+R2648:2658 Algebra.Free_group <> FG_lift_fun def
+R2685:2688 Algebra.Free_group <> Unit constr
+R2693:2703 Algebra.Monoid_cat <> monoid_unit proj
+R2705:2705 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R2711:2713 Algebra.Free_group <> Inv constr
+R2721:2733 Algebra.Group_cat <> group_inverse def
+R2738:2748 Algebra.Free_group <> FG_lift_fun def
+R2735:2735 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+def 2773:2779 <> FG_lift
+R2783:2785 Algebra.Categories <> Hom proj
+R2797:2797 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R2787:2795 Algebra.Free_group <> FreeGroup def
+R2807:2821 Algebra.Group_util <> BUILD_HOM_GROUP def
+R2851:2861 Algebra.Free_group <> FG_lift_fun def
+R2843:2843 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R2827:2835 Algebra.Free_group <> FreeGroup def
+R2807:2821 Algebra.Group_util <> BUILD_HOM_GROUP def
+R2851:2861 Algebra.Free_group <> FG_lift_fun def
+R2843:2843 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R2827:2835 Algebra.Free_group <> FreeGroup def
+R3006:3016 Algebra.Free_group <> FG_lift_fun def
+R2994:2998 Algebra.Sets <> Trans thm
+R3006:3016 Algebra.Free_group <> FG_lift_fun def
+R2994:2998 Algebra.Sets <> Trans thm
+def 3131:3136 <> FG_var
+R3140:3142 Algebra.Categories <> Hom proj
+R3146:3154 Algebra.Free_group <> FreeGroup def
+R3144:3144 Algebra.Free_group <> Free_group_def.V var
+R3164:3172 Algebra.Sets <> Build_Map constr
+R3201:3203 Algebra.Free_group <> Var constr
+R3185:3193 Algebra.Free_group <> FreeGroup def
+R3178:3178 Algebra.Free_group <> Free_group_def.V var
+R3164:3172 Algebra.Sets <> Build_Map constr
+R3201:3203 Algebra.Free_group <> Var constr
+R3185:3193 Algebra.Free_group <> FreeGroup def
+R3178:3178 Algebra.Free_group <> Free_group_def.V var
+prf 3271:3282 <> FG_comp_prop
+R3287:3291 Algebra.Sets <> Equal proj
+R3296:3303 Algebra.Categories <> comp_hom def
+R3337:3342 Algebra.Free_group <> FG_var def
+R3314:3316 Algebra.Categories <> Hom proj
+R3334:3334 Algebra.Free_group <> Free_group_def.Universal_prop.G var
+R3329:3331 Algebra.Set_cat <> SET def
+R3319:3327 Algebra.Free_group <> FreeGroup def
+R3306:3312 Algebra.Free_group <> FG_lift def
+R3293:3293 Algebra.Free_group <> Free_group_def.Universal_prop.f var
+R3417:3430 Algebra.Free_group Free_group_def.Universal_prop <> sec
+R3437:3450 Algebra.Free_group Free_group_def <> sec

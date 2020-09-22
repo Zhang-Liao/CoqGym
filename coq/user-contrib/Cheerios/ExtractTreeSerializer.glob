@@ -1,0 +1,34 @@
+DIGEST 5eea92524f170cecb411dd6112b96a69
+FCheerios.ExtractTreeSerializer
+R15:48 Cheerios.ExtractTreeSerializerDeps <> <> lib
+R66:90 Cheerios.BasicSerializers <> <> lib
+R109:114 Coq.ZArith.ZArith <> <> lib
+R132:145 Coq.extraction.ExtrOcamlBasic <> <> lib
+R163:177 Coq.extraction.ExtrOcamlString <> <> lib
+def 192:205 <> tree_serialize
+R218:221 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R222:237 Cheerios.Core IOStreamWriter t defax
+R209:212 Cheerios.Tree <> tree ind
+R214:217 Coq.Init.Datatypes <> bool ind
+R242:250 Cheerios.Core <> serialize meth
+def 265:280 <> tree_deserialize
+R284:299 Cheerios.Core ByteListReader t defax
+R302:305 Cheerios.Tree <> tree ind
+R307:310 Coq.Init.Datatypes <> bool ind
+R316:326 Cheerios.Core <> deserialize meth
+def 341:358 <> tree_serialize_top
+R371:374 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R375:393 Cheerios.Core IOStreamWriter wire defax
+R362:365 Cheerios.Tree <> tree ind
+R367:370 Coq.Init.Datatypes <> bool ind
+R409:421 Cheerios.Core <> serialize_top def
+R424:432 Cheerios.Core <> serialize meth
+R434:434 Cheerios.ExtractTreeSerializer <> t var
+def 450:469 <> tree_deserialize_top
+R492:495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R496:501 Coq.Init.Datatypes <> option ind
+R504:507 Cheerios.Tree <> tree ind
+R509:512 Coq.Init.Datatypes <> bool ind
+R473:491 Cheerios.Core IOStreamWriter wire defax
+R520:534 Cheerios.Core <> deserialize_top def
+R536:546 Cheerios.Core <> deserialize meth

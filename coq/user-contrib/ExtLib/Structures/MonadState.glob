@@ -1,0 +1,84 @@
+DIGEST ccf5809a010f9ad172d384f9ef219841
+FExtLib.Structures.MonadState
+R15:37 ExtLib.Structures.Monad <> <> lib
+rec 99:108 <> MonadState
+proj 172:174 <> get
+proj 184:186 <> put
+R146:149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R178:178 ExtLib.Structures.MonadState <> m var
+R180:180 ExtLib.Structures.MonadState <> T var
+R191:194 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R195:195 ExtLib.Structures.MonadState <> m var
+R197:200 Coq.Init.Datatypes <> unit ind
+R190:190 ExtLib.Structures.MonadState <> T var
+R216:218 ExtLib.Structures.MonadState <> get meth
+R216:218 ExtLib.Structures.MonadState <> get meth
+R249:251 ExtLib.Structures.MonadState <> put meth
+R249:251 ExtLib.Structures.MonadState <> put meth
+sec 283:289 <> monadic
+R346:349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R376:380 ExtLib.Structures.Monad <> Monad class
+R388:388 ExtLib.Structures.MonadState <> monadic.m var
+R434:443 ExtLib.Structures.MonadState <> MonadState class
+R455:455 ExtLib.Structures.MonadState <> monadic.m var
+R453:453 ExtLib.Structures.MonadState <> monadic.T var
+def 473:478 <> modify
+R486:489 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R490:490 ExtLib.Structures.MonadState <> monadic.T var
+R485:485 ExtLib.Structures.MonadState <> monadic.T var
+R495:495 ExtLib.Structures.MonadState <> monadic.m var
+R497:497 ExtLib.Structures.MonadState <> monadic.T var
+R506:509 ExtLib.Structures.Monad <> bind meth
+R525:528 ExtLib.Structures.Monad <> bind meth
+R552:554 ExtLib.Structures.Monad <> ret meth
+R556:556 ExtLib.Structures.MonadState <> x var
+R531:533 ExtLib.Structures.MonadState <> put meth
+R536:536 ExtLib.Structures.MonadState <> f var
+R538:538 ExtLib.Structures.MonadState <> x var
+R511:513 ExtLib.Structures.MonadState <> get meth
+def 575:578 <> gets
+R590:593 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R594:594 ExtLib.Structures.MonadState <> U var
+R589:589 ExtLib.Structures.MonadState <> monadic.T var
+R599:599 ExtLib.Structures.MonadState <> monadic.m var
+R601:601 ExtLib.Structures.MonadState <> U var
+R610:613 ExtLib.Structures.Monad <> bind meth
+R629:631 ExtLib.Structures.Monad <> ret meth
+R634:634 ExtLib.Structures.MonadState <> f var
+R636:636 ExtLib.Structures.MonadState <> x var
+R615:617 ExtLib.Structures.MonadState <> get meth
+R646:652 ExtLib.Structures.MonadState monadic <> sec
+sec 664:671 <> SubState
+R728:731 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R758:762 ExtLib.Structures.Monad <> Monad class
+R770:770 ExtLib.Structures.MonadState <> SubState.m var
+R818:827 ExtLib.Structures.MonadState <> MonadState class
+R839:839 ExtLib.Structures.MonadState <> SubState.m var
+R837:837 ExtLib.Structures.MonadState <> SubState.T var
+def 857:865 <> StateProd
+R873:876 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R877:877 ExtLib.Structures.MonadState <> SubState.S var
+R872:872 ExtLib.Structures.MonadState <> SubState.T var
+R886:889 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R891:894 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R895:895 ExtLib.Structures.MonadState <> SubState.T var
+R890:890 ExtLib.Structures.MonadState <> SubState.T var
+R885:885 ExtLib.Structures.MonadState <> SubState.S var
+R904:913 ExtLib.Structures.MonadState <> MonadState class
+R917:917 ExtLib.Structures.MonadState <> SubState.m var
+R915:915 ExtLib.Structures.MonadState <> SubState.S var
+R927:1004 ExtLib.Structures.MonadState <> Build_MonadState constr
+R974:977 ExtLib.Structures.Monad <> bind meth
+R993:995 ExtLib.Structures.MonadState <> put meth
+R998:998 ExtLib.Structures.MonadState <> g var
+R1002:1002 ExtLib.Structures.MonadState <> s var
+R1000:1000 ExtLib.Structures.MonadState <> x var
+R979:981 ExtLib.Structures.MonadState <> get meth
+R935:938 ExtLib.Structures.MonadState <> gets def
+R951:951 ExtLib.Structures.MonadState <> f var
+R949:949 ExtLib.Structures.MonadState <> SubState.S var
+R946:947 ExtLib.Structures.MonadState <> SubState.MS var
+R944:944 ExtLib.Structures.MonadState <> SubState.T var
+R942:942 ExtLib.Structures.MonadState <> SubState.M var
+R940:940 ExtLib.Structures.MonadState <> SubState.m var
+R1017:1024 ExtLib.Structures.MonadState SubState <> sec

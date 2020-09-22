@@ -1,0 +1,26 @@
+DIGEST 7fbfa61835fb3e4ae76720a14413a04e
+FCoq.Compat.Coq88
+R756:771 Coq.Compat.Coq89 <> <> lib
+R946:962 Coq.Strings.Ascii <> <> lib
+R964:981 Coq.Strings.String <> <> lib
+R992:1011 Coq.ZArith.BinIntDef <> <> lib
+R1013:1032 Coq.PArith.BinPosDef <> <> lib
+R1034:1053 Coq.NArith.BinNatDef <> <> lib
+R1064:1085 Coq.Reals.Rdefinitions <> <> lib
+R1096:1125 Coq.Numbers.Cyclic.Int31.Int31 <> <> lib
+R1306:1314 Coq.Numbers.BinNums <> Z ind
+R1316:1333 Coq.ZArith.BinIntDef Z of_int def
+R1306:1314 Coq.Numbers.BinNums <> Z ind
+R1335:1352 Coq.ZArith.BinIntDef Z to_int def
+R1382:1397 Coq.Numbers.BinNums <> positive ind
+R1399:1418 Coq.PArith.BinPosDef Pos of_int def
+R1382:1397 Coq.Numbers.BinNums <> positive ind
+R1399:1418 Coq.PArith.BinPosDef Pos of_int def
+R1382:1397 Coq.Numbers.BinNums <> positive ind
+R1420:1439 Coq.PArith.BinPosDef Pos to_int def
+R1476:1484 Coq.Numbers.BinNums <> N ind
+R1486:1503 Coq.NArith.BinNatDef N of_int def
+R1476:1484 Coq.Numbers.BinNums <> N ind
+R1486:1503 Coq.NArith.BinNatDef N of_int def
+R1476:1484 Coq.Numbers.BinNums <> N ind
+R1505:1522 Coq.NArith.BinNatDef N to_int def

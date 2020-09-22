@@ -1,0 +1,738 @@
+DIGEST 48869fc289f3b854521618ce44e682c2
+FAlgebra.Sets
+sec 1187:1191 <> Sets1
+sec 1623:1631 Sets1 Relations
+var 1643:1643 Sets1.Relations E
+def 1665:1672 <> relation
+R1689:1692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1694:1697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1693:1693 Algebra.Sets <> E var
+R1688:1688 Algebra.Sets <> E var
+def 1716:1722 <> app_rel
+R1729:1736 Algebra.Sets <> relation def
+R1738:1738 Algebra.Sets <> Sets1.Relations.E var
+R1748:1748 Algebra.Sets <> Sets1.Relations.E var
+R1754:1754 Algebra.Sets <> R var
+R1758:1758 Algebra.Sets <> y var
+R1756:1756 Algebra.Sets <> x var
+def 1773:1781 <> reflexive
+R1788:1795 Algebra.Sets <> relation def
+R1797:1797 Algebra.Sets <> Sets1.Relations.E var
+R1821:1821 Algebra.Sets <> Sets1.Relations.E var
+R1824:1830 Algebra.Sets <> app_rel def
+R1836:1836 Algebra.Sets <> x var
+R1834:1834 Algebra.Sets <> x var
+R1832:1832 Algebra.Sets <> R var
+def 1851:1859 <> symmetric
+R1866:1873 Algebra.Sets <> relation def
+R1875:1875 Algebra.Sets <> Sets1.Relations.E var
+R1903:1903 Algebra.Sets <> Sets1.Relations.E var
+R1919:1922 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1923:1929 Algebra.Sets <> app_rel def
+R1935:1935 Algebra.Sets <> x var
+R1933:1933 Algebra.Sets <> y var
+R1931:1931 Algebra.Sets <> R var
+R1906:1912 Algebra.Sets <> app_rel def
+R1918:1918 Algebra.Sets <> y var
+R1916:1916 Algebra.Sets <> x var
+R1914:1914 Algebra.Sets <> R var
+def 1950:1959 <> transitive
+R1966:1973 Algebra.Sets <> relation def
+R1975:1975 Algebra.Sets <> Sets1.Relations.E var
+R2005:2005 Algebra.Sets <> Sets1.Relations.E var
+R2021:2024 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2038:2041 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2042:2048 Algebra.Sets <> app_rel def
+R2054:2054 Algebra.Sets <> z var
+R2052:2052 Algebra.Sets <> x var
+R2050:2050 Algebra.Sets <> R var
+R2025:2031 Algebra.Sets <> app_rel def
+R2037:2037 Algebra.Sets <> z var
+R2035:2035 Algebra.Sets <> y var
+R2033:2033 Algebra.Sets <> R var
+R2008:2014 Algebra.Sets <> app_rel def
+R2020:2020 Algebra.Sets <> y var
+R2018:2018 Algebra.Sets <> x var
+R2016:2016 Algebra.Sets <> R var
+def 2162:2180 <> partial_equivalence
+R2187:2194 Algebra.Sets <> relation def
+R2196:2196 Algebra.Sets <> Sets1.Relations.E var
+R2223:2226 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2211:2220 Algebra.Sets <> transitive def
+R2222:2222 Algebra.Sets <> R var
+R2227:2235 Algebra.Sets <> symmetric def
+R2237:2237 Algebra.Sets <> R var
+def 2328:2338 <> equivalence
+R2345:2352 Algebra.Sets <> relation def
+R2354:2354 Algebra.Sets <> Sets1.Relations.E var
+R2380:2383 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2369:2377 Algebra.Sets <> reflexive def
+R2379:2379 Algebra.Sets <> R var
+R2384:2402 Algebra.Sets <> partial_equivalence def
+R2404:2404 Algebra.Sets <> R var
+prf 2453:2462 <> equiv_refl
+R2477:2484 Algebra.Sets <> relation def
+R2486:2486 Algebra.Sets <> Sets1.Relations.E var
+R2502:2505 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2506:2514 Algebra.Sets <> reflexive def
+R2516:2516 Algebra.Sets <> R var
+R2489:2499 Algebra.Sets <> equivalence def
+R2501:2501 Algebra.Sets <> R var
+prf 2555:2563 <> equiv_sym
+R2578:2585 Algebra.Sets <> relation def
+R2587:2587 Algebra.Sets <> Sets1.Relations.E var
+R2603:2606 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2607:2615 Algebra.Sets <> symmetric def
+R2617:2617 Algebra.Sets <> R var
+R2590:2600 Algebra.Sets <> equivalence def
+R2602:2602 Algebra.Sets <> R var
+prf 2656:2666 <> equiv_trans
+R2681:2688 Algebra.Sets <> relation def
+R2690:2690 Algebra.Sets <> Sets1.Relations.E var
+R2706:2709 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2710:2719 Algebra.Sets <> transitive def
+R2721:2721 Algebra.Sets <> R var
+R2693:2703 Algebra.Sets <> equivalence def
+R2705:2705 Algebra.Sets <> R var
+R2757:2765 Algebra.Sets Sets1.Relations <> sec
+R2780:2788 Algebra.Sets <> reflexive def
+R2790:2799 Algebra.Sets <> transitive def
+R2801:2809 Algebra.Sets <> symmetric def
+R2811:2829 Algebra.Sets <> partial_equivalence def
+R2831:2841 Algebra.Sets <> equivalence def
+rec 2987:2992 <> Setoid
+proj 3008:3014 <> Carrier
+proj 3025:3029 <> Equal
+proj 3051:3059 <> Prf_equiv
+R3033:3040 Algebra.Sets <> relation def
+R3042:3048 Algebra.Sets <> Carrier meth
+R3064:3074 Algebra.Sets <> equivalence def
+R3076:3080 Algebra.Sets <> Equal meth
+prf 3352:3355 <> Refl
+R3371:3376 Algebra.Sets <> Setoid rec
+R3384:3384 Algebra.Sets <> E var
+R3388:3392 Algebra.Sets <> Equal proj
+R3396:3396 Algebra.Sets <> x var
+R3394:3394 Algebra.Sets <> x var
+R3430:3438 Algebra.Sets <> reflexive def
+R3441:3445 Algebra.Sets <> Equal proj
+R3430:3438 Algebra.Sets <> reflexive def
+R3441:3445 Algebra.Sets <> Equal proj
+prf 3488:3490 <> Sym
+R3506:3511 Algebra.Sets <> Setoid rec
+R3521:3521 Algebra.Sets <> E var
+R3534:3537 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3538:3542 Algebra.Sets <> Equal proj
+R3546:3546 Algebra.Sets <> x var
+R3544:3544 Algebra.Sets <> y var
+R3525:3529 Algebra.Sets <> Equal proj
+R3533:3533 Algebra.Sets <> y var
+R3531:3531 Algebra.Sets <> x var
+R3580:3588 Algebra.Sets <> symmetric def
+R3591:3595 Algebra.Sets <> Equal proj
+R3580:3588 Algebra.Sets <> symmetric def
+R3591:3595 Algebra.Sets <> Equal proj
+prf 3638:3642 <> Trans
+R3659:3664 Algebra.Sets <> Setoid rec
+R3676:3676 Algebra.Sets <> E var
+R3689:3692 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3702:3705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3706:3710 Algebra.Sets <> Equal proj
+R3714:3714 Algebra.Sets <> z var
+R3712:3712 Algebra.Sets <> x var
+R3693:3697 Algebra.Sets <> Equal proj
+R3701:3701 Algebra.Sets <> z var
+R3699:3699 Algebra.Sets <> y var
+R3680:3684 Algebra.Sets <> Equal proj
+R3688:3688 Algebra.Sets <> y var
+R3686:3686 Algebra.Sets <> x var
+R3748:3757 Algebra.Sets <> transitive def
+R3760:3764 Algebra.Sets <> Equal proj
+R3748:3757 Algebra.Sets <> transitive def
+R3760:3764 Algebra.Sets <> Equal proj
+var 3944:3952 Sets1 eqT_equiv
+R3973:3983 Algebra.Sets <> equivalence def
+R3986:3987 Coq.Init.Logic <> eq ind
+R3993:3993 Algebra.Sets <> A var
+R4092:4098 Algebra.Sets <> app_rel def
+R4196:4202 Algebra.Sets <> app_rel def
+R4320:4326 Algebra.Sets <> app_rel def
+def 4373:4384 <> Leibnitz_set
+R4399:4404 Algebra.Sets <> Setoid rec
+R4409:4420 Algebra.Sets <> Build_Setoid constr
+R4423:4431 Algebra.Sets <> Sets1.eqT_equiv var
+R4433:4433 Algebra.Sets <> A var
+prf 4444:4460 <> Leibnitz_set_prop
+R4490:4501 Algebra.Sets <> Leibnitz_set def
+R4503:4503 Algebra.Sets <> A var
+R4516:4519 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4521:4523 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4520:4520 Algebra.Sets <> x var
+R4524:4524 Algebra.Sets <> y var
+R4507:4511 Algebra.Sets <> Equal proj
+R4515:4515 Algebra.Sets <> y var
+R4513:4513 Algebra.Sets <> x var
+prf 4558:4578 <> Leibnitz_set_prop_rev
+R4608:4619 Algebra.Sets <> Leibnitz_set def
+R4621:4621 Algebra.Sets <> A var
+R4630:4633 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4634:4638 Algebra.Sets <> Equal proj
+R4642:4642 Algebra.Sets <> y var
+R4640:4640 Algebra.Sets <> x var
+R4626:4628 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4625:4625 Algebra.Sets <> x var
+R4629:4629 Algebra.Sets <> y var
+sec 4677:4685 Sets1 Quotient1
+var 4893:4893 Sets1.Quotient1 E
+R4897:4902 Algebra.Sets <> Setoid rec
+def 4917:4930 <> rel_compatible
+R4937:4944 Algebra.Sets <> relation def
+R4946:4946 Algebra.Sets <> Sets1.Quotient1.E var
+R4980:4980 Algebra.Sets <> Sets1.Quotient1.E var
+R4995:4998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5009:5012 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5026:5029 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5030:5036 Algebra.Sets <> app_rel def
+R5043:5044 Algebra.Sets <> y' var
+R5040:5041 Algebra.Sets <> x' var
+R5038:5038 Algebra.Sets <> R var
+R5013:5019 Algebra.Sets <> app_rel def
+R5025:5025 Algebra.Sets <> y var
+R5023:5023 Algebra.Sets <> x var
+R5021:5021 Algebra.Sets <> R var
+R4999:5003 Algebra.Sets <> Equal proj
+R5007:5008 Algebra.Sets <> y' var
+R5005:5005 Algebra.Sets <> y var
+R4985:4989 Algebra.Sets <> Equal proj
+R4993:4994 Algebra.Sets <> x' var
+R4991:4991 Algebra.Sets <> x var
+rec 5055:5062 <> Relation
+proj 5078:5084 <> Rel_fun
+proj 5101:5118 <> Rel_compatible_prf
+R5089:5096 Algebra.Sets <> relation def
+R5098:5098 Algebra.Sets <> Sets1.Quotient1.E var
+R5122:5135 Algebra.Sets <> rel_compatible def
+R5137:5143 Algebra.Sets <> Rel_fun meth
+prf 5154:5161 <> Rel_comp
+R5178:5185 Algebra.Sets <> Relation rec
+R5201:5201 Algebra.Sets <> Sets1.Quotient1.E var
+R5216:5219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5230:5233 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5247:5250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5251:5257 Algebra.Sets <> app_rel def
+R5264:5265 Algebra.Sets <> y' var
+R5261:5262 Algebra.Sets <> x' var
+R5259:5259 Algebra.Sets <> R var
+R5234:5240 Algebra.Sets <> app_rel def
+R5246:5246 Algebra.Sets <> y var
+R5244:5244 Algebra.Sets <> x var
+R5242:5242 Algebra.Sets <> R var
+R5220:5224 Algebra.Sets <> Equal proj
+R5228:5229 Algebra.Sets <> y' var
+R5226:5226 Algebra.Sets <> y var
+R5206:5210 Algebra.Sets <> Equal proj
+R5214:5215 Algebra.Sets <> x' var
+R5212:5212 Algebra.Sets <> x var
+R5301:5318 Algebra.Sets <> Rel_compatible_prf proj
+R5301:5318 Algebra.Sets <> Rel_compatible_prf proj
+var 5375:5375 Sets1.Quotient1 R
+R5379:5386 Algebra.Sets <> Relation rec
+var 5400:5406 Sets1.Quotient1 R_equiv
+R5410:5420 Algebra.Sets <> equivalence def
+R5422:5422 Algebra.Sets <> Sets1.Quotient1.R var
+def 5484:5491 <> quotient
+R5495:5500 Algebra.Sets <> Setoid rec
+R5505:5516 Algebra.Sets <> Build_Setoid constr
+R5518:5524 Algebra.Sets <> Sets1.Quotient1.R_equiv var
+R5578:5586 Algebra.Sets Sets1.Quotient1 <> sec
+sec 5597:5601 Sets1 Maps1
+sec 5700:5706 Sets1.Maps1 Maps1_1
+var 5718:5718 Sets1.Maps1.Maps1_1 A
+var 5720:5720 Sets1.Maps1.Maps1_1 B
+R5724:5729 Algebra.Sets <> Setoid rec
+def 5744:5757 <> fun_compatible
+R5765:5768 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5769:5769 Algebra.Sets <> Sets1.Maps1.Maps1_1.B var
+R5764:5764 Algebra.Sets <> Sets1.Maps1.Maps1_1.A var
+R5797:5797 Algebra.Sets <> Sets1.Maps1.Maps1_1.A var
+R5809:5812 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5813:5817 Algebra.Sets <> Equal proj
+R5826:5826 Algebra.Sets <> f var
+R5828:5828 Algebra.Sets <> y var
+R5820:5820 Algebra.Sets <> f var
+R5822:5822 Algebra.Sets <> x var
+R5800:5804 Algebra.Sets <> Equal proj
+R5808:5808 Algebra.Sets <> y var
+R5806:5806 Algebra.Sets <> x var
+rec 5840:5842 <> Map
+proj 5858:5859 <> Ap
+proj 5872:5889 <> Map_compatible_prf
+R5865:5868 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5869:5869 Algebra.Sets <> Sets1.Maps1.Maps1_1.B var
+R5864:5864 Algebra.Sets <> Sets1.Maps1.Maps1_1.A var
+R5894:5907 Algebra.Sets <> fun_compatible def
+R5909:5910 Algebra.Sets <> Ap meth
+def 5994:5999 <> Map_eq
+R6008:6010 Algebra.Sets <> Map rec
+R6034:6034 Algebra.Sets <> Sets1.Maps1.Maps1_1.A var
+R6037:6041 Algebra.Sets <> Equal proj
+R6050:6050 Algebra.Sets <> g var
+R6052:6052 Algebra.Sets <> x var
+R6044:6044 Algebra.Sets <> f var
+R6046:6046 Algebra.Sets <> x var
+var 6061:6072 Sets1.Maps1.Maps1_1 Map_eq_equiv
+R6076:6086 Algebra.Sets <> equivalence def
+R6088:6093 Algebra.Sets <> Map_eq def
+R6164:6169 Algebra.Sets <> Map_eq def
+R6172:6178 Algebra.Sets <> app_rel def
+R6291:6296 Algebra.Sets <> Map_eq def
+R6299:6305 Algebra.Sets <> app_rel def
+R6396:6400 Algebra.Sets <> Trans thm
+R6396:6400 Algebra.Sets <> Trans thm
+R6454:6459 Algebra.Sets <> Map_eq def
+R6462:6468 Algebra.Sets <> app_rel def
+def 6530:6532 <> MAP
+R6536:6541 Algebra.Sets <> Setoid rec
+R6546:6557 Algebra.Sets <> Build_Setoid constr
+R6559:6570 Algebra.Sets <> Sets1.Maps1.Maps1_1.Map_eq_equiv var
+R6643:6649 Algebra.Sets Sets1.Maps1.Maps1_1 <> sec
+prf 6706:6712 <> Ap_comp
+R6731:6736 Algebra.Sets <> Setoid rec
+R6746:6748 Algebra.Sets <> MAP def
+R6752:6752 Algebra.Sets <> B var
+R6750:6750 Algebra.Sets <> A var
+R6762:6762 Algebra.Sets <> A var
+R6776:6779 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6789:6792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6793:6797 Algebra.Sets <> Equal proj
+R6806:6806 Algebra.Sets <> g var
+R6808:6808 Algebra.Sets <> y var
+R6800:6800 Algebra.Sets <> f var
+R6802:6802 Algebra.Sets <> x var
+R6780:6784 Algebra.Sets <> Equal proj
+R6788:6788 Algebra.Sets <> g var
+R6786:6786 Algebra.Sets <> f var
+R6767:6771 Algebra.Sets <> Equal proj
+R6775:6775 Algebra.Sets <> y var
+R6773:6773 Algebra.Sets <> x var
+R6861:6865 Algebra.Sets <> Trans thm
+R6861:6865 Algebra.Sets <> Trans thm
+R6886:6903 Algebra.Sets <> Map_compatible_prf proj
+R6886:6903 Algebra.Sets <> Map_compatible_prf proj
+R6949:6954 Algebra.Sets <> Map_eq def
+prf 7026:7032 <> map_ext
+R7051:7056 Algebra.Sets <> Setoid rec
+R7066:7068 Algebra.Sets <> MAP def
+R7072:7072 Algebra.Sets <> B var
+R7070:7070 Algebra.Sets <> A var
+R7077:7077 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7109:7113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7114:7118 Algebra.Sets <> Equal proj
+R7122:7122 Algebra.Sets <> g var
+R7120:7120 Algebra.Sets <> f var
+R7089:7089 Algebra.Sets <> A var
+R7092:7096 Algebra.Sets <> Equal proj
+R7105:7105 Algebra.Sets <> g var
+R7107:7107 Algebra.Sets <> x var
+R7099:7099 Algebra.Sets <> f var
+R7101:7101 Algebra.Sets <> x var
+R7147:7152 Algebra.Sets <> Map_eq def
+sec 7226:7232 Sets1.Maps1 Maps1_2
+var 7310:7310 Sets1.Maps1.Maps1_2 A
+var 7312:7312 Sets1.Maps1.Maps1_2 B
+R7316:7321 Algebra.Sets <> Setoid rec
+def 7336:7344 <> injective
+R7351:7353 Algebra.Sets <> MAP def
+R7357:7357 Algebra.Sets <> Sets1.Maps1.Maps1_2.B var
+R7355:7355 Algebra.Sets <> Sets1.Maps1.Maps1_2.A var
+R7385:7385 Algebra.Sets <> Sets1.Maps1.Maps1_2.A var
+R7405:7408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7409:7413 Algebra.Sets <> Equal proj
+R7417:7417 Algebra.Sets <> y var
+R7415:7415 Algebra.Sets <> x var
+R7388:7392 Algebra.Sets <> Equal proj
+R7401:7401 Algebra.Sets <> f var
+R7403:7403 Algebra.Sets <> y var
+R7395:7395 Algebra.Sets <> f var
+R7397:7397 Algebra.Sets <> x var
+def 7432:7441 <> surjective
+R7448:7450 Algebra.Sets <> MAP def
+R7454:7454 Algebra.Sets <> Sets1.Maps1.Maps1_2.B var
+R7452:7452 Algebra.Sets <> Sets1.Maps1.Maps1_2.A var
+R7480:7480 Algebra.Sets <> Sets1.Maps1.Maps1_2.B var
+R7483:7489 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7495:7496 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R7494:7494 Algebra.Sets <> Sets1.Maps1.Maps1_2.A var
+R7497:7501 Algebra.Sets <> Equal proj
+R7506:7506 Algebra.Sets <> f var
+R7508:7508 Algebra.Sets <> x var
+R7503:7503 Algebra.Sets <> y var
+def 7524:7532 <> bijective
+R7539:7541 Algebra.Sets <> MAP def
+R7545:7545 Algebra.Sets <> Sets1.Maps1.Maps1_2.B var
+R7543:7543 Algebra.Sets <> Sets1.Maps1.Maps1_2.A var
+R7569:7572 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R7558:7566 Algebra.Sets <> injective def
+R7568:7568 Algebra.Sets <> f var
+R7573:7582 Algebra.Sets <> surjective def
+R7584:7584 Algebra.Sets <> f var
+R7591:7597 Algebra.Sets Sets1.Maps1.Maps1_2 <> sec
+prf 7673:7686 <> injective_comp
+R7705:7710 Algebra.Sets <> Setoid rec
+R7721:7723 Algebra.Sets <> MAP def
+R7727:7727 Algebra.Sets <> B var
+R7725:7725 Algebra.Sets <> A var
+R7743:7746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7757:7760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7761:7769 Algebra.Sets <> injective def
+R7771:7772 Algebra.Sets <> f' var
+R7747:7751 Algebra.Sets <> Equal proj
+R7755:7756 Algebra.Sets <> f' var
+R7753:7753 Algebra.Sets <> f var
+R7732:7740 Algebra.Sets <> injective def
+R7742:7742 Algebra.Sets <> f var
+R7782:7790 Algebra.Sets <> injective def
+R7877:7878 Algebra.Sets <> Ap proj
+R7865:7869 Algebra.Sets <> Trans thm
+R7877:7878 Algebra.Sets <> Ap proj
+R7865:7869 Algebra.Sets <> Trans thm
+R7924:7925 Algebra.Sets <> Ap proj
+R7912:7916 Algebra.Sets <> Trans thm
+R7924:7925 Algebra.Sets <> Ap proj
+R7912:7916 Algebra.Sets <> Trans thm
+prf 7965:7979 <> surjective_comp
+R7998:8003 Algebra.Sets <> Setoid rec
+R8014:8016 Algebra.Sets <> MAP def
+R8020:8020 Algebra.Sets <> B var
+R8018:8018 Algebra.Sets <> A var
+R8037:8040 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8051:8054 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8055:8064 Algebra.Sets <> surjective def
+R8066:8067 Algebra.Sets <> f' var
+R8041:8045 Algebra.Sets <> Equal proj
+R8049:8050 Algebra.Sets <> f' var
+R8047:8047 Algebra.Sets <> f var
+R8025:8034 Algebra.Sets <> surjective def
+R8036:8036 Algebra.Sets <> f var
+R8077:8086 Algebra.Sets <> surjective def
+R8221:8222 Algebra.Sets <> Ap proj
+R8209:8213 Algebra.Sets <> Trans thm
+R8221:8222 Algebra.Sets <> Ap proj
+R8209:8213 Algebra.Sets <> Trans thm
+prf 8261:8274 <> bijective_comp
+R8293:8298 Algebra.Sets <> Setoid rec
+R8309:8311 Algebra.Sets <> MAP def
+R8315:8315 Algebra.Sets <> B var
+R8313:8313 Algebra.Sets <> A var
+R8331:8334 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8345:8348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8349:8357 Algebra.Sets <> bijective def
+R8359:8360 Algebra.Sets <> f' var
+R8335:8339 Algebra.Sets <> Equal proj
+R8343:8344 Algebra.Sets <> f' var
+R8341:8341 Algebra.Sets <> f var
+R8320:8328 Algebra.Sets <> bijective def
+R8330:8330 Algebra.Sets <> f var
+R8370:8378 Algebra.Sets <> bijective def
+R8520:8533 Algebra.Sets <> injective_comp thm
+R8520:8533 Algebra.Sets <> injective_comp thm
+R8625:8639 Algebra.Sets <> surjective_comp thm
+R8625:8639 Algebra.Sets <> surjective_comp thm
+prf 8713:8731 <> bijective_injective
+R8750:8755 Algebra.Sets <> Setoid rec
+R8763:8765 Algebra.Sets <> MAP def
+R8769:8769 Algebra.Sets <> B var
+R8767:8767 Algebra.Sets <> A var
+R8784:8787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8788:8796 Algebra.Sets <> injective def
+R8798:8798 Algebra.Sets <> f var
+R8773:8781 Algebra.Sets <> bijective def
+R8783:8783 Algebra.Sets <> f var
+prf 8931:8950 <> bijective_surjective
+R8969:8974 Algebra.Sets <> Setoid rec
+R8982:8984 Algebra.Sets <> MAP def
+R8988:8988 Algebra.Sets <> B var
+R8986:8986 Algebra.Sets <> A var
+R9003:9006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9007:9016 Algebra.Sets <> surjective def
+R9018:9018 Algebra.Sets <> f var
+R8992:9000 Algebra.Sets <> bijective def
+R9002:9002 Algebra.Sets <> f var
+def 9204:9215 <> surj_set_quo
+R9233:9238 Algebra.Sets <> Setoid rec
+R9246:9253 Algebra.Sets <> Relation rec
+R9255:9255 Algebra.Sets <> E var
+R9263:9273 Algebra.Sets <> equivalence def
+R9275:9275 Algebra.Sets <> R var
+R9281:9283 Algebra.Sets <> MAP def
+R9288:9295 Algebra.Sets <> quotient def
+R9301:9301 Algebra.Sets <> p var
+R9299:9299 Algebra.Sets <> R var
+R9297:9297 Algebra.Sets <> E var
+R9285:9285 Algebra.Sets <> E var
+R9342:9350 Algebra.Sets <> Build_Map constr
+R9397:9397 Algebra.Sets <> x var
+R9363:9370 Algebra.Sets <> quotient def
+R9342:9350 Algebra.Sets <> Build_Map constr
+R9397:9397 Algebra.Sets <> x var
+R9363:9370 Algebra.Sets <> quotient def
+R9582:9588 Algebra.Sets <> app_rel def
+R9756:9762 Algebra.Sets <> app_rel def
+prf 9854:9876 <> surj_set_quo_surjective
+R9893:9898 Algebra.Sets <> Setoid rec
+R9906:9913 Algebra.Sets <> Relation rec
+R9915:9915 Algebra.Sets <> E var
+R9923:9933 Algebra.Sets <> equivalence def
+R9935:9935 Algebra.Sets <> R var
+R9940:9949 Algebra.Sets <> surjective def
+R9952:9963 Algebra.Sets <> surj_set_quo def
+R9969:9969 Algebra.Sets <> p var
+R9967:9967 Algebra.Sets <> R var
+R9965:9965 Algebra.Sets <> E var
+R10104:10110 Algebra.Sets <> app_rel def
+sec 10151:10157 Sets1.Maps1 Maps1_3
+var 10216:10216 Sets1.Maps1.Maps1_3 E
+var 10218:10218 Sets1.Maps1.Maps1_3 F
+var 10220:10220 Sets1.Maps1.Maps1_3 G
+R10224:10229 Algebra.Sets <> Setoid rec
+var 10241:10241 Sets1.Maps1.Maps1_3 g
+R10245:10247 Algebra.Sets <> MAP def
+R10251:10251 Algebra.Sets <> Sets1.Maps1.Maps1_3.G var
+R10249:10249 Algebra.Sets <> Sets1.Maps1.Maps1_3.F var
+var 10263:10263 Sets1.Maps1.Maps1_3 f
+R10267:10269 Algebra.Sets <> MAP def
+R10273:10273 Algebra.Sets <> Sets1.Maps1.Maps1_3.F var
+R10271:10271 Algebra.Sets <> Sets1.Maps1.Maps1_3.E var
+def 10388:10399 <> comp_map_fun
+R10406:10406 Algebra.Sets <> Sets1.Maps1.Maps1_3.E var
+R10412:10412 Algebra.Sets <> Sets1.Maps1.Maps1_3.g var
+R10415:10415 Algebra.Sets <> Sets1.Maps1.Maps1_3.f var
+R10417:10417 Algebra.Sets <> x var
+prf 10500:10522 <> comp_map_fun_compatible
+R10526:10539 Algebra.Sets <> fun_compatible def
+R10541:10552 Algebra.Sets <> comp_map_fun def
+R10575:10586 Algebra.Sets <> comp_map_fun def
+def 10694:10705 <> comp_map_map
+R10709:10711 Algebra.Sets <> MAP def
+R10715:10715 Algebra.Sets <> Sets1.Maps1.Maps1_3.G var
+R10713:10713 Algebra.Sets <> Sets1.Maps1.Maps1_3.E var
+R10720:10728 Algebra.Sets <> Build_Map constr
+R10730:10752 Algebra.Sets <> comp_map_fun_compatible thm
+R10759:10765 Algebra.Sets Sets1.Maps1.Maps1_3 <> sec
+prf 10906:10918 <> comp_map_comp
+R10939:10944 Algebra.Sets <> Setoid rec
+R10955:10957 Algebra.Sets <> MAP def
+R10961:10961 Algebra.Sets <> B var
+R10959:10959 Algebra.Sets <> A var
+R10972:10974 Algebra.Sets <> MAP def
+R10978:10978 Algebra.Sets <> C var
+R10976:10976 Algebra.Sets <> B var
+R10993:10996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11007:11010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11011:11015 Algebra.Sets <> Equal proj
+R11037:11048 Algebra.Sets <> comp_map_map def
+R11053:11054 Algebra.Sets <> f' var
+R11050:11051 Algebra.Sets <> g' var
+R11018:11029 Algebra.Sets <> comp_map_map def
+R11033:11033 Algebra.Sets <> f var
+R11031:11031 Algebra.Sets <> g var
+R10997:11001 Algebra.Sets <> Equal proj
+R11005:11006 Algebra.Sets <> g' var
+R11003:11003 Algebra.Sets <> g var
+R10983:10987 Algebra.Sets <> Equal proj
+R10991:10992 Algebra.Sets <> f' var
+R10989:10989 Algebra.Sets <> f var
+R11065:11076 Algebra.Sets <> comp_map_map def
+R11109:11114 Algebra.Sets <> Map_eq def
+R11166:11177 Algebra.Sets <> comp_map_fun def
+prf 11296:11309 <> comp_map_assoc
+R11332:11337 Algebra.Sets <> Setoid rec
+R11345:11347 Algebra.Sets <> MAP def
+R11351:11351 Algebra.Sets <> B var
+R11349:11349 Algebra.Sets <> A var
+R11359:11361 Algebra.Sets <> MAP def
+R11365:11365 Algebra.Sets <> C var
+R11363:11363 Algebra.Sets <> B var
+R11373:11375 Algebra.Sets <> MAP def
+R11379:11379 Algebra.Sets <> D var
+R11377:11377 Algebra.Sets <> C var
+R11384:11388 Algebra.Sets <> Equal proj
+R11430:11441 Algebra.Sets <> comp_map_map def
+R11462:11462 Algebra.Sets <> f var
+R11444:11455 Algebra.Sets <> comp_map_map def
+R11459:11459 Algebra.Sets <> g var
+R11457:11457 Algebra.Sets <> h var
+R11391:11402 Algebra.Sets <> comp_map_map def
+R11407:11418 Algebra.Sets <> comp_map_map def
+R11422:11422 Algebra.Sets <> f var
+R11420:11420 Algebra.Sets <> g var
+R11404:11404 Algebra.Sets <> h var
+R11473:11484 Algebra.Sets <> comp_map_map def
+R11517:11522 Algebra.Sets <> Map_eq def
+def 11666:11667 <> Id
+R11682:11687 Algebra.Sets <> Setoid rec
+R11690:11692 Algebra.Sets <> MAP def
+R11696:11696 Algebra.Sets <> A var
+R11694:11694 Algebra.Sets <> A var
+R11732:11740 Algebra.Sets <> Build_Map constr
+R11774:11774 Algebra.Sets <> x var
+R11732:11740 Algebra.Sets <> Build_Map constr
+R11774:11774 Algebra.Sets <> x var
+prf 11887:11895 <> Id_unit_r
+R11914:11919 Algebra.Sets <> Setoid rec
+R11927:11929 Algebra.Sets <> MAP def
+R11933:11933 Algebra.Sets <> B var
+R11931:11931 Algebra.Sets <> A var
+R11937:11941 Algebra.Sets <> Equal proj
+R11967:11967 Algebra.Sets <> f var
+R11944:11955 Algebra.Sets <> comp_map_map def
+R11960:11961 Algebra.Sets <> Id def
+R11963:11963 Algebra.Sets <> A var
+R11957:11957 Algebra.Sets <> f var
+R11977:11988 Algebra.Sets <> comp_map_map def
+R12021:12026 Algebra.Sets <> Map_eq def
+prf 12116:12124 <> Id_unit_l
+R12143:12148 Algebra.Sets <> Setoid rec
+R12156:12158 Algebra.Sets <> MAP def
+R12162:12162 Algebra.Sets <> B var
+R12160:12160 Algebra.Sets <> A var
+R12166:12170 Algebra.Sets <> Equal proj
+R12196:12196 Algebra.Sets <> f var
+R12173:12184 Algebra.Sets <> comp_map_map def
+R12193:12193 Algebra.Sets <> f var
+R12187:12188 Algebra.Sets <> Id def
+R12190:12190 Algebra.Sets <> B var
+R12206:12217 Algebra.Sets <> comp_map_map def
+R12250:12255 Algebra.Sets <> Map_eq def
+prf 12345:12359 <> Id_is_bijective
+R12374:12379 Algebra.Sets <> Setoid rec
+R12382:12390 Algebra.Sets <> bijective def
+R12393:12394 Algebra.Sets <> Id def
+R12396:12396 Algebra.Sets <> A var
+prf 12652:12665 <> comp_injective
+R12686:12691 Algebra.Sets <> Setoid rec
+R12699:12701 Algebra.Sets <> MAP def
+R12705:12705 Algebra.Sets <> B var
+R12703:12703 Algebra.Sets <> A var
+R12713:12715 Algebra.Sets <> MAP def
+R12719:12719 Algebra.Sets <> C var
+R12717:12717 Algebra.Sets <> B var
+R12752:12755 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12756:12764 Algebra.Sets <> injective def
+R12766:12766 Algebra.Sets <> f var
+R12724:12732 Algebra.Sets <> injective def
+R12735:12746 Algebra.Sets <> comp_map_map def
+R12750:12750 Algebra.Sets <> f var
+R12748:12748 Algebra.Sets <> g var
+R12776:12784 Algebra.Sets <> injective def
+R12857:12868 Algebra.Sets <> comp_map_map def
+R12901:12912 Algebra.Sets <> comp_map_fun def
+prf 12992:13006 <> comp_surjective
+R13027:13032 Algebra.Sets <> Setoid rec
+R13040:13042 Algebra.Sets <> MAP def
+R13046:13046 Algebra.Sets <> B var
+R13044:13044 Algebra.Sets <> A var
+R13054:13056 Algebra.Sets <> MAP def
+R13060:13060 Algebra.Sets <> C var
+R13058:13058 Algebra.Sets <> B var
+R13094:13097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13098:13107 Algebra.Sets <> surjective def
+R13109:13109 Algebra.Sets <> g var
+R13065:13074 Algebra.Sets <> surjective def
+R13077:13088 Algebra.Sets <> comp_map_map def
+R13092:13092 Algebra.Sets <> f var
+R13090:13090 Algebra.Sets <> g var
+R13119:13128 Algebra.Sets <> surjective def
+R13235:13246 Algebra.Sets <> comp_map_fun def
+R13262:13263 Algebra.Sets <> Ap proj
+R13262:13263 Algebra.Sets <> Ap proj
+prf 13318:13342 <> comp_is_id_then_bijective
+R13361:13366 Algebra.Sets <> Setoid rec
+R13374:13376 Algebra.Sets <> MAP def
+R13380:13380 Algebra.Sets <> B var
+R13378:13378 Algebra.Sets <> A var
+R13388:13390 Algebra.Sets <> MAP def
+R13394:13394 Algebra.Sets <> A var
+R13392:13392 Algebra.Sets <> B var
+R13430:13434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13466:13469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13470:13478 Algebra.Sets <> bijective def
+R13480:13480 Algebra.Sets <> f var
+R13435:13439 Algebra.Sets <> Equal proj
+R13461:13462 Algebra.Sets <> Id def
+R13464:13464 Algebra.Sets <> B var
+R13442:13453 Algebra.Sets <> comp_map_map def
+R13457:13457 Algebra.Sets <> g var
+R13455:13455 Algebra.Sets <> f var
+R13399:13403 Algebra.Sets <> Equal proj
+R13425:13426 Algebra.Sets <> Id def
+R13428:13428 Algebra.Sets <> A var
+R13406:13417 Algebra.Sets <> comp_map_map def
+R13421:13421 Algebra.Sets <> f var
+R13419:13419 Algebra.Sets <> g var
+R13529:13537 Algebra.Sets <> bijective def
+R13589:13602 Algebra.Sets <> comp_injective thm
+R13589:13602 Algebra.Sets <> comp_injective thm
+R13665:13666 Algebra.Sets <> Id def
+R13639:13652 Algebra.Sets <> injective_comp thm
+R13665:13666 Algebra.Sets <> Id def
+R13639:13652 Algebra.Sets <> injective_comp thm
+R13697:13711 Algebra.Sets <> comp_surjective thm
+R13697:13711 Algebra.Sets <> comp_surjective thm
+R13775:13776 Algebra.Sets <> Id def
+R13748:13762 Algebra.Sets <> surjective_comp thm
+R13775:13776 Algebra.Sets <> Id def
+R13748:13762 Algebra.Sets <> surjective_comp thm
+prf 13813:13837 <> comp_is_id_then_injective
+R13856:13861 Algebra.Sets <> Setoid rec
+R13869:13871 Algebra.Sets <> MAP def
+R13875:13875 Algebra.Sets <> B var
+R13873:13873 Algebra.Sets <> A var
+R13883:13885 Algebra.Sets <> MAP def
+R13889:13889 Algebra.Sets <> A var
+R13887:13887 Algebra.Sets <> B var
+R13925:13928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13929:13937 Algebra.Sets <> injective def
+R13939:13939 Algebra.Sets <> f var
+R13894:13898 Algebra.Sets <> Equal proj
+R13920:13921 Algebra.Sets <> Id def
+R13923:13923 Algebra.Sets <> A var
+R13901:13912 Algebra.Sets <> comp_map_map def
+R13916:13916 Algebra.Sets <> f var
+R13914:13914 Algebra.Sets <> g var
+R13983:13996 Algebra.Sets <> comp_injective thm
+R13983:13996 Algebra.Sets <> comp_injective thm
+R14059:14060 Algebra.Sets <> Id def
+R14033:14046 Algebra.Sets <> injective_comp thm
+R14059:14060 Algebra.Sets <> Id def
+R14033:14046 Algebra.Sets <> injective_comp thm
+prf 14097:14122 <> comp_is_id_then_surjective
+R14141:14146 Algebra.Sets <> Setoid rec
+R14154:14156 Algebra.Sets <> MAP def
+R14160:14160 Algebra.Sets <> B var
+R14158:14158 Algebra.Sets <> A var
+R14168:14170 Algebra.Sets <> MAP def
+R14174:14174 Algebra.Sets <> A var
+R14172:14172 Algebra.Sets <> B var
+R14210:14213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14214:14223 Algebra.Sets <> surjective def
+R14225:14225 Algebra.Sets <> f var
+R14179:14183 Algebra.Sets <> Equal proj
+R14205:14206 Algebra.Sets <> Id def
+R14208:14208 Algebra.Sets <> B var
+R14186:14197 Algebra.Sets <> comp_map_map def
+R14201:14201 Algebra.Sets <> g var
+R14199:14199 Algebra.Sets <> f var
+R14269:14283 Algebra.Sets <> comp_surjective thm
+R14269:14283 Algebra.Sets <> comp_surjective thm
+R14347:14348 Algebra.Sets <> Id def
+R14320:14334 Algebra.Sets <> surjective_comp thm
+R14347:14348 Algebra.Sets <> Id def
+R14320:14334 Algebra.Sets <> surjective_comp thm
+R14382:14386 Algebra.Sets Sets1.Maps1 <> sec
+R14393:14397 Algebra.Sets Sets1 <> sec
+R14441:14449 Algebra.Sets <> reflexive def
+R14451:14460 Algebra.Sets <> transitive def
+R14462:14470 Algebra.Sets <> symmetric def
+R14472:14490 Algebra.Sets <> partial_equivalence def
+R14492:14502 Algebra.Sets <> equivalence def

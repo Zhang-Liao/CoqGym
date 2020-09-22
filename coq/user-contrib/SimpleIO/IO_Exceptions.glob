@@ -1,0 +1,32 @@
+DIGEST 7240bbfaf1773ab1a6ad4ec287aa8899
+FSimpleIO.IO_Exceptions
+R79:88 Coq.extraction.Extraction <> <> lib
+R126:133 SimpleIO.IO_Monad <> <> lib
+ax 201:209 <> catch_eof
+R236:239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R240:241 SimpleIO.IO_Monad <> IO defax
+R244:249 Coq.Init.Datatypes <> option ind
+R251:251 SimpleIO.IO_Exceptions <> a var
+R232:233 SimpleIO.IO_Monad <> IO defax
+R235:235 SimpleIO.IO_Exceptions <> a var
+ax 440:456 <> catch_invalid_arg
+R483:486 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R487:488 SimpleIO.IO_Monad <> IO defax
+R491:496 Coq.Init.Datatypes <> option ind
+R498:498 SimpleIO.IO_Exceptions <> a var
+R479:480 SimpleIO.IO_Monad <> IO defax
+R482:482 SimpleIO.IO_Exceptions <> a var
+ax 693:705 <> catch_failure
+R732:735 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R736:737 SimpleIO.IO_Monad <> IO defax
+R740:745 Coq.Init.Datatypes <> option ind
+R747:747 SimpleIO.IO_Exceptions <> a var
+R728:729 SimpleIO.IO_Monad <> IO defax
+R731:731 SimpleIO.IO_Exceptions <> a var
+ax 929:943 <> catch_not_found
+R970:973 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R974:975 SimpleIO.IO_Monad <> IO defax
+R978:983 Coq.Init.Datatypes <> option ind
+R985:985 SimpleIO.IO_Exceptions <> a var
+R966:967 SimpleIO.IO_Monad <> IO defax
+R969:969 SimpleIO.IO_Exceptions <> a var

@@ -1,0 +1,92 @@
+DIGEST 6e0958da500f299f6fdf1b56e04ce5cc
+FErrorHandlers.All
+mod 7:12 <> Option
+def 28:31 Option bind
+R44:49 Coq.Init.Datatypes <> option ind
+R51:51 ErrorHandlers.All <> A var
+R60:63 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R64:69 Coq.Init.Datatypes <> option ind
+R71:71 ErrorHandlers.All <> B var
+R59:59 ErrorHandlers.All <> A var
+R76:81 Coq.Init.Datatypes <> option ind
+R83:83 ErrorHandlers.All <> B var
+R98:98 ErrorHandlers.All <> x var
+R111:114 Coq.Init.Datatypes <> Some constr
+R121:121 ErrorHandlers.All <> f var
+R123:123 ErrorHandlers.All <> x var
+R131:134 Coq.Init.Datatypes <> None constr
+R139:142 Coq.Init.Datatypes <> None constr
+def 167:169 Option map
+R182:187 Coq.Init.Datatypes <> option ind
+R189:189 ErrorHandlers.All <> A var
+R198:201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R202:202 ErrorHandlers.All <> B var
+R197:197 ErrorHandlers.All <> A var
+R207:212 Coq.Init.Datatypes <> option ind
+R214:214 ErrorHandlers.All <> B var
+R229:229 ErrorHandlers.All <> x var
+R242:245 Coq.Init.Datatypes <> Some constr
+R252:255 Coq.Init.Datatypes <> Some constr
+R258:258 ErrorHandlers.All <> f var
+R260:260 ErrorHandlers.All <> x var
+R269:272 Coq.Init.Datatypes <> None constr
+R277:280 Coq.Init.Datatypes <> None constr
+def 305:311 Option default
+R322:327 Coq.Init.Datatypes <> option ind
+R329:329 ErrorHandlers.All <> A var
+R337:337 ErrorHandlers.All <> A var
+R342:342 ErrorHandlers.All <> A var
+R357:357 ErrorHandlers.All <> x var
+R370:373 Coq.Init.Datatypes <> Some constr
+R380:380 ErrorHandlers.All <> x var
+R388:391 Coq.Init.Datatypes <> None constr
+R396:396 ErrorHandlers.All <> d var
+R411:416 ErrorHandlers.All Option <> mod
+mod 427:429 <> Sum
+def 445:448 Sum bind
+R464:466 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R463:463 ErrorHandlers.All <> A var
+R467:467 ErrorHandlers.All <> E var
+R476:479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R481:483 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R480:480 ErrorHandlers.All <> B var
+R484:484 ErrorHandlers.All <> E var
+R475:475 ErrorHandlers.All <> A var
+R490:492 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R489:489 ErrorHandlers.All <> B var
+R493:493 ErrorHandlers.All <> E var
+R508:508 ErrorHandlers.All <> x var
+R521:523 Coq.Init.Datatypes <> inl constr
+R530:530 ErrorHandlers.All <> f var
+R532:532 ErrorHandlers.All <> x var
+R540:542 Coq.Init.Datatypes <> inr constr
+R549:551 Coq.Init.Datatypes <> inr constr
+def 578:580 Sum map
+R596:598 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R595:595 ErrorHandlers.All <> A var
+R599:599 ErrorHandlers.All <> E var
+R608:611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R612:612 ErrorHandlers.All <> B var
+R607:607 ErrorHandlers.All <> A var
+R618:620 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R617:617 ErrorHandlers.All <> B var
+R621:621 ErrorHandlers.All <> E var
+R636:636 ErrorHandlers.All <> x var
+R649:651 Coq.Init.Datatypes <> inl constr
+R658:660 Coq.Init.Datatypes <> inl constr
+R663:663 ErrorHandlers.All <> f var
+R665:665 ErrorHandlers.All <> x var
+R674:676 Coq.Init.Datatypes <> inr constr
+R683:685 Coq.Init.Datatypes <> inr constr
+def 712:718 Sum default
+R732:734 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R731:731 ErrorHandlers.All <> A var
+R735:735 ErrorHandlers.All <> E var
+R743:743 ErrorHandlers.All <> A var
+R748:748 ErrorHandlers.All <> A var
+R763:763 ErrorHandlers.All <> x var
+R776:778 Coq.Init.Datatypes <> inl constr
+R785:785 ErrorHandlers.All <> x var
+R793:795 Coq.Init.Datatypes <> inr constr
+R802:802 ErrorHandlers.All <> d var
+R817:819 ErrorHandlers.All Sum <> mod

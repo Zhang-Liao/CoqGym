@@ -1,0 +1,47 @@
+DIGEST bfcc510b1510c05d83de45a1d2e6f603
+FExtLib.Structures.CoFunctor
+R15:29 ExtLib.Core.Any <> <> lib
+sec 87:93 <> functor
+rec 117:125 <> CoFunctor
+proj 174:179 <> cofmap
+R146:149 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R208:208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R215:219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R223:226 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R227:227 ExtLib.Structures.CoFunctor <> F var
+R229:229 ExtLib.Structures.CoFunctor <> B var
+R220:220 ExtLib.Structures.CoFunctor <> F var
+R222:222 ExtLib.Structures.CoFunctor <> A var
+R210:213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R214:214 ExtLib.Structures.CoFunctor <> A var
+R209:209 ExtLib.Structures.CoFunctor <> B var
+rec 255:264 <> CoPFunctor
+proj 315:320 <> CoFunP
+proj 349:355 <> copfmap
+R287:290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R332:335 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R388:393 ExtLib.Structures.CoFunctor <> CoFunP meth
+R395:395 ExtLib.Structures.CoFunctor <> B var
+R399:399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R406:410 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R414:417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R418:418 ExtLib.Structures.CoFunctor <> F var
+R420:420 ExtLib.Structures.CoFunctor <> B var
+R411:411 ExtLib.Structures.CoFunctor <> F var
+R413:413 ExtLib.Structures.CoFunctor <> A var
+R401:404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R405:405 ExtLib.Structures.CoFunctor <> A var
+R400:400 ExtLib.Structures.CoFunctor <> B var
+R471:476 ExtLib.Structures.CoFunctor <> CoFunP class
+def 561:585 <> CoPFunctor_From_CoFunctor
+R608:611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R628:636 ExtLib.Structures.CoFunctor <> CoFunctor class
+R644:644 ExtLib.Structures.CoFunctor <> F var
+R649:658 ExtLib.Structures.CoFunctor <> CoPFunctor class
+R668:668 ExtLib.Structures.CoFunctor <> F var
+R678:738 ExtLib.Structures.CoFunctor <> Build_CoPFunctor constr
+R729:734 ExtLib.Structures.CoFunctor <> cofmap meth
+R738:738 ExtLib.Structures.CoFunctor <> x var
+R736:736 ExtLib.Structures.CoFunctor <> f var
+R688:690 ExtLib.Core.Any <> Any class
+R805:811 ExtLib.Structures.CoFunctor functor <> sec

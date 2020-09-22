@@ -1,0 +1,44 @@
+DIGEST 5f1627e50a7543bb103fa7bedec6305e
+FAlgebra.Integral_domain_cat
+R1086:1093 Algebra.Ring_cat <> <> lib
+sec 1153:1159 <> Objects
+def 1174:1185 <> idomain_prop
+R1192:1196 Algebra.Ring_cat <> CRING def
+R1217:1217 Algebra.Integral_domain_cat <> R var
+R1247:1252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1278:1281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1282:1283 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1284:1288 Algebra.Sets <> Equal proj
+R1307:1317 Algebra.Monoid_cat <> monoid_unit proj
+R1319:1319 Algebra.Integral_domain_cat <> R var
+R1291:1299 Algebra.Ring_cat <> ring_mult def
+R1303:1303 Algebra.Integral_domain_cat <> y var
+R1301:1301 Algebra.Integral_domain_cat <> x var
+R1253:1254 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1255:1259 Algebra.Sets <> Equal proj
+R1264:1274 Algebra.Monoid_cat <> monoid_unit proj
+R1276:1276 Algebra.Integral_domain_cat <> R var
+R1261:1261 Algebra.Integral_domain_cat <> y var
+R1222:1223 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1224:1228 Algebra.Sets <> Equal proj
+R1233:1243 Algebra.Monoid_cat <> monoid_unit proj
+R1245:1245 Algebra.Integral_domain_cat <> R var
+R1230:1230 Algebra.Integral_domain_cat <> x var
+rec 1331:1340 <> idomain_on
+proj 1366:1376 <> idomain_prf
+R1347:1351 Algebra.Ring_cat <> cring rec
+R1380:1391 Algebra.Integral_domain_cat <> idomain_prop def
+R1393:1393 Algebra.Integral_domain_cat <> R var
+rec 1405:1411 <> idomain
+proj 1427:1438 <> idomain_ring
+proj 1450:1463 <> idomain_on_def
+R1443:1447 Algebra.Ring_cat <> cring rec
+R1468:1477 Algebra.Integral_domain_cat <> idomain_on rec
+R1479:1490 Algebra.Integral_domain_cat <> idomain_ring meth
+R1494:1540 Algebra.Integral_domain_cat <> Build_idomain constr
+def 1555:1569 <> INTEGRAL_DOMAIN
+R1576:1586 Algebra.Categories <> full_subcat def
+R1613:1624 Algebra.Integral_domain_cat <> idomain_ring proj
+R1604:1610 Algebra.Integral_domain_cat <> idomain rec
+R1592:1596 Algebra.Ring_cat <> CRING def
+R1631:1637 Algebra.Integral_domain_cat Objects <> sec

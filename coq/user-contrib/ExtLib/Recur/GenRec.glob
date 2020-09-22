@@ -1,0 +1,143 @@
+DIGEST c79a3993ba27048c3c684d0b66944f8a
+FExtLib.Recur.GenRec
+R15:41 Coq.Classes.RelationClasses <> <> lib
+def 100:104 <> guard
+R114:117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R119:122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R118:118 ExtLib.Recur.GenRec <> A var
+R113:113 ExtLib.Recur.GenRec <> A var
+R134:136 Coq.Init.Datatypes <> nat ind
+R146:157 Coq.Init.Wf <> well_founded def
+R159:159 ExtLib.Recur.GenRec <> R var
+R176:187 Coq.Init.Wf <> well_founded def
+R189:189 ExtLib.Recur.GenRec <> R var
+R202:202 ExtLib.Recur.GenRec <> n var
+R220:222 ExtLib.Recur.GenRec <> wfR var
+R230:230 Coq.Init.Datatypes <> S constr
+R246:254 Coq.Init.Wf <> Acc_intro constr
+R270:274 ExtLib.Recur.GenRec <> guard def
+R292:292 ExtLib.Recur.GenRec <> y var
+R279:283 ExtLib.Recur.GenRec <> guard def
+R287:289 ExtLib.Recur.GenRec <> wfR var
+R285:285 ExtLib.Recur.GenRec <> n var
+R276:276 ExtLib.Recur.GenRec <> n var
+R256:256 ExtLib.Recur.GenRec <> x var
+sec 311:320 <> setoid_fix
+var 336:336 setoid_fix A
+var 347:347 setoid_fix R
+var 368:370 setoid_fix Rwf
+R352:355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R357:360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R356:356 ExtLib.Recur.GenRec <> A var
+R351:351 ExtLib.Recur.GenRec <> A var
+R374:385 Coq.Init.Wf <> well_founded def
+R387:387 ExtLib.Recur.GenRec <> R var
+var 404:404 setoid_fix P
+var 432:432 setoid_fix F
+R409:412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R408:408 ExtLib.Recur.GenRec <> setoid_fix.A var
+R447:447 ExtLib.Recur.GenRec <> setoid_fix.A var
+R450:450 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R477:481 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R482:482 ExtLib.Recur.GenRec <> P var
+R484:484 ExtLib.Recur.GenRec <> x var
+R462:462 ExtLib.Recur.GenRec <> setoid_fix.A var
+R470:473 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R474:474 ExtLib.Recur.GenRec <> P var
+R476:476 ExtLib.Recur.GenRec <> y var
+R465:465 ExtLib.Recur.GenRec <> setoid_fix.R var
+R469:469 ExtLib.Recur.GenRec <> x var
+R467:467 ExtLib.Recur.GenRec <> y var
+var 499:499 setoid_fix r
+R514:514 ExtLib.Recur.GenRec <> setoid_fix.A var
+R520:523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R527:530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R524:524 ExtLib.Recur.GenRec <> setoid_fix.P var
+R526:526 ExtLib.Recur.GenRec <> x var
+R517:517 ExtLib.Recur.GenRec <> setoid_fix.P var
+R519:519 ExtLib.Recur.GenRec <> x var
+var 550:554 setoid_fix Hstep
+R570:570 ExtLib.Recur.GenRec <> setoid_fix.A var
+R591:591 ExtLib.Recur.GenRec <> setoid_fix.A var
+R599:602 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R603:603 ExtLib.Recur.GenRec <> setoid_fix.P var
+R605:605 ExtLib.Recur.GenRec <> y var
+R594:594 ExtLib.Recur.GenRec <> setoid_fix.R var
+R598:598 ExtLib.Recur.GenRec <> x var
+R596:596 ExtLib.Recur.GenRec <> y var
+R632:632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R678:705 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R706:706 ExtLib.Recur.GenRec <> setoid_fix.r var
+R719:719 ExtLib.Recur.GenRec <> setoid_fix.F var
+R723:723 ExtLib.Recur.GenRec <> g var
+R721:721 ExtLib.Recur.GenRec <> x var
+R710:710 ExtLib.Recur.GenRec <> setoid_fix.F var
+R714:714 ExtLib.Recur.GenRec <> f var
+R712:712 ExtLib.Recur.GenRec <> x var
+R645:645 ExtLib.Recur.GenRec <> setoid_fix.A var
+R653:653 ExtLib.Recur.GenRec <> setoid_fix.R var
+R657:657 ExtLib.Recur.GenRec <> x var
+R655:655 ExtLib.Recur.GenRec <> y var
+R661:661 ExtLib.Recur.GenRec <> setoid_fix.r var
+R672:672 ExtLib.Recur.GenRec <> g var
+R676:676 ExtLib.Recur.GenRec <> p var
+R674:674 ExtLib.Recur.GenRec <> y var
+R664:664 ExtLib.Recur.GenRec <> f var
+R668:668 ExtLib.Recur.GenRec <> p var
+R666:666 ExtLib.Recur.GenRec <> y var
+prf 736:750 <> Fix_F_equiv_inv
+R768:768 ExtLib.Recur.GenRec <> setoid_fix.A var
+R780:782 Coq.Init.Wf <> Acc ind
+R786:786 ExtLib.Recur.GenRec <> x var
+R784:784 ExtLib.Recur.GenRec <> setoid_fix.R var
+R796:796 ExtLib.Recur.GenRec <> setoid_fix.r var
+R814:818 Coq.Init.Wf <> Fix_F def
+R824:825 ExtLib.Recur.GenRec <> s' var
+R822:822 ExtLib.Recur.GenRec <> setoid_fix.F var
+R799:803 Coq.Init.Wf <> Fix_F def
+R809:810 ExtLib.Recur.GenRec <> r' var
+R807:807 ExtLib.Recur.GenRec <> setoid_fix.F var
+R862:864 ExtLib.Recur.GenRec <> setoid_fix.Rwf var
+R862:864 ExtLib.Recur.GenRec <> setoid_fix.Rwf var
+R894:901 Coq.Init.Wf <> Fix_F_eq thm
+R905:905 ExtLib.Recur.GenRec <> setoid_fix.F var
+R924:931 Coq.Init.Wf <> Fix_F_eq thm
+R935:935 ExtLib.Recur.GenRec <> setoid_fix.F var
+R894:901 Coq.Init.Wf <> Fix_F_eq thm
+R905:905 ExtLib.Recur.GenRec <> setoid_fix.F var
+R894:901 Coq.Init.Wf <> Fix_F_eq thm
+R905:905 ExtLib.Recur.GenRec <> setoid_fix.F var
+R924:931 Coq.Init.Wf <> Fix_F_eq thm
+R935:935 ExtLib.Recur.GenRec <> setoid_fix.F var
+R924:931 Coq.Init.Wf <> Fix_F_eq thm
+R935:935 ExtLib.Recur.GenRec <> setoid_fix.F var
+R961:965 ExtLib.Recur.GenRec <> setoid_fix.Hstep var
+R961:965 ExtLib.Recur.GenRec <> setoid_fix.Hstep var
+prf 997:1005 <> Fix_equiv
+R1022:1022 ExtLib.Recur.GenRec <> setoid_fix.A var
+R1031:1031 ExtLib.Recur.GenRec <> setoid_fix.r var
+R1051:1051 ExtLib.Recur.GenRec <> setoid_fix.F var
+R1065:1065 ExtLib.Recur.GenRec <> setoid_fix.A var
+R1073:1073 ExtLib.Recur.GenRec <> setoid_fix.R var
+R1077:1077 ExtLib.Recur.GenRec <> x var
+R1075:1075 ExtLib.Recur.GenRec <> y var
+R1083:1085 Coq.Init.Wf <> Fix def
+R1095:1095 ExtLib.Recur.GenRec <> y var
+R1093:1093 ExtLib.Recur.GenRec <> setoid_fix.F var
+R1091:1091 ExtLib.Recur.GenRec <> setoid_fix.P var
+R1087:1089 ExtLib.Recur.GenRec <> setoid_fix.Rwf var
+R1053:1053 ExtLib.Recur.GenRec <> x var
+R1034:1036 Coq.Init.Wf <> Fix def
+R1046:1046 ExtLib.Recur.GenRec <> x var
+R1044:1044 ExtLib.Recur.GenRec <> setoid_fix.F var
+R1042:1042 ExtLib.Recur.GenRec <> setoid_fix.P var
+R1038:1040 ExtLib.Recur.GenRec <> setoid_fix.Rwf var
+R1129:1131 Coq.Init.Wf <> Fix def
+R1149:1156 Coq.Init.Wf <> Fix_F_eq thm
+R1149:1156 Coq.Init.Wf <> Fix_F_eq thm
+R1149:1156 Coq.Init.Wf <> Fix_F_eq thm
+R1169:1173 ExtLib.Recur.GenRec <> setoid_fix.Hstep var
+R1169:1173 ExtLib.Recur.GenRec <> setoid_fix.Hstep var
+R1194:1208 ExtLib.Recur.GenRec <> Fix_F_equiv_inv thm
+R1194:1208 ExtLib.Recur.GenRec <> Fix_F_equiv_inv thm
+R1222:1231 ExtLib.Recur.GenRec setoid_fix <> sec

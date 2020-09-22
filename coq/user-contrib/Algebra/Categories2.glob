@@ -1,0 +1,142 @@
+DIGEST 1af6dd34dfe696f256a9aba16119f706
+FAlgebra.Categories2
+R1086:1095 Algebra.Categories <> <> lib
+sec 1106:1114 <> Foncteurs
+sec 1125:1129 Foncteurs Def_1
+var 1141:1142 Foncteurs.Def_1 C1
+var 1144:1145 Foncteurs.Def_1 C2
+R1149:1156 Algebra.Categories <> category rec
+rec 1167:1173 <> functor
+proj 1189:1195 <> fctr_ob
+proj 1219:1228 <> fctr_morph
+proj 1304:1315 <> im_of_id_prf
+proj 1409:1419 <> distrib_prf
+R1205:1208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1209:1210 Algebra.Categories <> Ob proj
+R1212:1213 Algebra.Categories2 <> Foncteurs.Def_1.C2 var
+R1200:1201 Algebra.Categories <> Ob proj
+R1203:1204 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1249:1250 Algebra.Categories <> Ob proj
+R1252:1253 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1256:1258 Algebra.Sets <> MAP def
+R1271:1273 Algebra.Categories <> Hom proj
+R1288:1294 Algebra.Categories2 <> fctr_ob meth
+R1296:1296 Algebra.Categories2 <> b var
+R1276:1282 Algebra.Categories2 <> fctr_ob meth
+R1284:1284 Algebra.Categories2 <> a var
+R1261:1263 Algebra.Categories <> Hom proj
+R1267:1267 Algebra.Categories2 <> b var
+R1265:1265 Algebra.Categories2 <> a var
+R1334:1335 Algebra.Categories <> Ob proj
+R1337:1338 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1345:1349 Algebra.Sets <> Equal proj
+R1380:1385 Algebra.Categories <> Hom_id proj
+R1388:1394 Algebra.Categories2 <> fctr_ob meth
+R1396:1396 Algebra.Categories2 <> a var
+R1352:1361 Algebra.Categories2 <> fctr_morph meth
+R1368:1373 Algebra.Categories <> Hom_id proj
+R1375:1375 Algebra.Categories2 <> a var
+R1365:1365 Algebra.Categories2 <> a var
+R1363:1363 Algebra.Categories2 <> a var
+R1443:1444 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1453:1455 Algebra.Categories <> Hom proj
+R1459:1459 Algebra.Categories2 <> b var
+R1457:1457 Algebra.Categories2 <> a var
+R1468:1470 Algebra.Categories <> Hom proj
+R1474:1474 Algebra.Categories2 <> c var
+R1472:1472 Algebra.Categories2 <> b var
+R1482:1486 Algebra.Sets <> Equal proj
+R1544:1551 Algebra.Categories <> Hom_comp proj
+R1599:1604 Algebra.Cartesian <> couple def
+R1627:1636 Algebra.Categories2 <> fctr_morph meth
+R1642:1643 Algebra.Categories2 <> fa var
+R1640:1640 Algebra.Categories2 <> b var
+R1638:1638 Algebra.Categories2 <> a var
+R1607:1616 Algebra.Categories2 <> fctr_morph meth
+R1622:1623 Algebra.Categories2 <> fb var
+R1620:1620 Algebra.Categories2 <> c var
+R1618:1618 Algebra.Categories2 <> b var
+R1578:1584 Algebra.Categories2 <> fctr_ob meth
+R1586:1586 Algebra.Categories2 <> c var
+R1566:1572 Algebra.Categories2 <> fctr_ob meth
+R1574:1574 Algebra.Categories2 <> b var
+R1554:1560 Algebra.Categories2 <> fctr_ob meth
+R1562:1562 Algebra.Categories2 <> a var
+R1489:1498 Algebra.Categories2 <> fctr_morph meth
+R1505:1512 Algebra.Categories <> Hom_comp proj
+R1521:1526 Algebra.Cartesian <> couple def
+R1531:1532 Algebra.Categories2 <> fa var
+R1528:1529 Algebra.Categories2 <> fb var
+R1518:1518 Algebra.Categories2 <> c var
+R1516:1516 Algebra.Categories2 <> b var
+R1514:1514 Algebra.Categories2 <> a var
+R1502:1502 Algebra.Categories2 <> c var
+R1500:1500 Algebra.Categories2 <> a var
+rec 1658:1665 <> Cfunctor
+proj 1681:1688 <> Cfctr_ob
+proj 1712:1722 <> Cfctr_morph
+proj 1800:1812 <> Cim_of_id_prf
+proj 1908:1919 <> Cdistrib_prf
+R1698:1701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1702:1703 Algebra.Categories <> Ob proj
+R1705:1706 Algebra.Categories2 <> Foncteurs.Def_1.C2 var
+R1693:1694 Algebra.Categories <> Ob proj
+R1696:1697 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1743:1744 Algebra.Categories <> Ob proj
+R1746:1747 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1750:1752 Algebra.Sets <> MAP def
+R1765:1767 Algebra.Categories <> Hom proj
+R1783:1790 Algebra.Categories2 <> Cfctr_ob meth
+R1792:1792 Algebra.Categories2 <> a var
+R1770:1777 Algebra.Categories2 <> Cfctr_ob meth
+R1779:1779 Algebra.Categories2 <> b var
+R1755:1757 Algebra.Categories <> Hom proj
+R1761:1761 Algebra.Categories2 <> b var
+R1759:1759 Algebra.Categories2 <> a var
+R1831:1832 Algebra.Categories <> Ob proj
+R1834:1835 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1842:1846 Algebra.Sets <> Equal proj
+R1878:1883 Algebra.Categories <> Hom_id proj
+R1886:1893 Algebra.Categories2 <> Cfctr_ob meth
+R1895:1895 Algebra.Categories2 <> a var
+R1849:1859 Algebra.Categories2 <> Cfctr_morph meth
+R1866:1871 Algebra.Categories <> Hom_id proj
+R1873:1873 Algebra.Categories2 <> a var
+R1863:1863 Algebra.Categories2 <> a var
+R1861:1861 Algebra.Categories2 <> a var
+R1943:1944 Algebra.Categories2 <> Foncteurs.Def_1.C1 var
+R1953:1955 Algebra.Categories <> Hom proj
+R1959:1959 Algebra.Categories2 <> b var
+R1957:1957 Algebra.Categories2 <> a var
+R1968:1970 Algebra.Categories <> Hom proj
+R1974:1974 Algebra.Categories2 <> c var
+R1972:1972 Algebra.Categories2 <> b var
+R1982:1986 Algebra.Sets <> Equal proj
+R2045:2052 Algebra.Categories <> Hom_comp proj
+R2103:2108 Algebra.Cartesian <> couple def
+R2132:2142 Algebra.Categories2 <> Cfctr_morph meth
+R2148:2149 Algebra.Categories2 <> fb var
+R2146:2146 Algebra.Categories2 <> c var
+R2144:2144 Algebra.Categories2 <> b var
+R2111:2121 Algebra.Categories2 <> Cfctr_morph meth
+R2127:2128 Algebra.Categories2 <> fa var
+R2125:2125 Algebra.Categories2 <> b var
+R2123:2123 Algebra.Categories2 <> a var
+R2081:2088 Algebra.Categories2 <> Cfctr_ob meth
+R2090:2090 Algebra.Categories2 <> a var
+R2068:2075 Algebra.Categories2 <> Cfctr_ob meth
+R2077:2077 Algebra.Categories2 <> b var
+R2055:2062 Algebra.Categories2 <> Cfctr_ob meth
+R2064:2064 Algebra.Categories2 <> c var
+R1989:1999 Algebra.Categories2 <> Cfctr_morph meth
+R2006:2013 Algebra.Categories <> Hom_comp proj
+R2022:2027 Algebra.Cartesian <> couple def
+R2032:2033 Algebra.Categories2 <> fa var
+R2029:2030 Algebra.Categories2 <> fb var
+R2019:2019 Algebra.Categories2 <> c var
+R2017:2017 Algebra.Categories2 <> b var
+R2015:2015 Algebra.Categories2 <> a var
+R2003:2003 Algebra.Categories2 <> c var
+R2001:2001 Algebra.Categories2 <> a var
+R2160:2164 Algebra.Categories2 Foncteurs.Def_1 <> sec
+R2171:2179 Algebra.Categories2 Foncteurs <> sec

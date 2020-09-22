@@ -1,0 +1,561 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 696} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 12; Loc.bol_pos = 697; Loc.line_nb_last = 12; Loc.bol_pos_last = 697; Loc.bp = 697; Loc.ep = 719} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 13; Loc.bol_pos = 720; Loc.line_nb_last = 13; Loc.bol_pos_last = 720; Loc.bp = 720; Loc.ep = 740} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 15; Loc.bol_pos = 742; Loc.line_nb_last = 15; Loc.bol_pos_last = 742; Loc.bp = 742; Loc.ep = 768} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 17; Loc.bol_pos = 770; Loc.line_nb_last = 17; Loc.bol_pos_last = 770; Loc.bp = 770; Loc.ep = 808} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 19; Loc.bol_pos = 810; Loc.line_nb_last = 20; Loc.bol_pos_last = 838; Loc.bp = 810; Loc.ep = 885} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 21; Loc.bol_pos = 886; Loc.line_nb_last = 21; Loc.bol_pos_last = 886; Loc.bp = 886; Loc.ep = 892} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 22; Loc.bol_pos = 893; Loc.line_nb_last = 22; Loc.bol_pos_last = 893; Loc.bp = 893; Loc.ep = 900} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 22; Loc.bol_pos = 893; Loc.line_nb_last = 22; Loc.bol_pos_last = 893; Loc.bp = 901; Loc.ep = 934} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 23; Loc.bol_pos = 935; Loc.line_nb_last = 23; Loc.bol_pos_last = 935; Loc.bp = 935; Loc.ep = 982} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 24; Loc.bol_pos = 983; Loc.line_nb_last = 24; Loc.bol_pos_last = 983; Loc.bp = 983; Loc.ep = 987} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Gt_Psucc **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 26; Loc.bol_pos = 989; Loc.line_nb_last = 27; Loc.bol_pos_last = 1016; Loc.bp = 989; Loc.ep = 1046} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 28; Loc.bol_pos = 1047; Loc.line_nb_last = 28; Loc.bol_pos_last = 1047; Loc.bp = 1047; Loc.ep = 1053} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 29; Loc.bol_pos = 1054; Loc.line_nb_last = 29; Loc.bol_pos_last = 1054; Loc.bp = 1054; Loc.ep = 1061} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 29; Loc.bol_pos = 1054; Loc.line_nb_last = 29; Loc.bol_pos_last = 1054; Loc.bp = 1062; Loc.ep = 1098} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 30; Loc.bol_pos = 1099; Loc.line_nb_last = 30; Loc.bol_pos_last = 1099; Loc.bp = 1099; Loc.ep = 1103} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Psucc_Gt **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 32; Loc.bol_pos = 1105; Loc.line_nb_last = 37; Loc.bol_pos_last = 1249; Loc.bp = 1105; Loc.ep = 1258} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 39; Loc.bol_pos = 1260; Loc.line_nb_last = 39; Loc.bol_pos_last = 1260; Loc.bp = 1260; Loc.ep = 1283} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 41; Loc.bol_pos = 1285; Loc.line_nb_last = 42; Loc.bol_pos_last = 1334; Loc.bp = 1285; Loc.ep = 1390} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 43; Loc.bol_pos = 1391; Loc.line_nb_last = 43; Loc.bol_pos_last = 1391; Loc.bp = 1391; Loc.ep = 1403} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 44; Loc.bol_pos = 1404; Loc.line_nb_last = 44; Loc.bol_pos_last = 1404; Loc.bp = 1404; Loc.ep = 1416} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 45; Loc.bol_pos = 1417; Loc.line_nb_last = 45; Loc.bol_pos_last = 1417; Loc.bp = 1417; Loc.ep = 1423} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 46; Loc.bol_pos = 1424; Loc.line_nb_last = 46; Loc.bol_pos_last = 1424; Loc.bp = 1424; Loc.ep = 1458} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 47; Loc.bol_pos = 1459; Loc.line_nb_last = 47; Loc.bol_pos_last = 1459; Loc.bp = 1459; Loc.ep = 1463} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** map_app **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 49; Loc.bol_pos = 1465; Loc.line_nb_last = 50; Loc.bol_pos_last = 1515; Loc.bp = 1465; Loc.ep = 1549} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 51; Loc.bol_pos = 1550; Loc.line_nb_last = 51; Loc.bol_pos_last = 1550; Loc.bp = 1550; Loc.ep = 1562} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 52; Loc.bol_pos = 1563; Loc.line_nb_last = 52; Loc.bol_pos_last = 1563; Loc.bp = 1563; Loc.ep = 1575} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 53; Loc.bol_pos = 1576; Loc.line_nb_last = 53; Loc.bol_pos_last = 1576; Loc.bp = 1576; Loc.ep = 1607} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 54; Loc.bol_pos = 1608; Loc.line_nb_last = 54; Loc.bol_pos_last = 1608; Loc.bp = 1608; Loc.ep = 1612} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** length_map **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 56; Loc.bol_pos = 1614; Loc.line_nb_last = 59; Loc.bol_pos_last = 1719; Loc.bp = 1614; Loc.ep = 1749} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 60; Loc.bol_pos = 1750; Loc.line_nb_last = 60; Loc.bol_pos_last = 1750; Loc.bp = 1750; Loc.ep = 1788} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 61; Loc.bol_pos = 1789; Loc.line_nb_last = 61; Loc.bol_pos_last = 1789; Loc.bp = 1789; Loc.ep = 1800} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 62; Loc.bol_pos = 1801; Loc.line_nb_last = 62; Loc.bol_pos_last = 1801; Loc.bp = 1801; Loc.ep = 1805} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Lget_map **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 64; Loc.bol_pos = 1807; Loc.line_nb_last = 65; Loc.bol_pos_last = 1850; Loc.bp = 1807; Loc.ep = 1937} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 66; Loc.bol_pos = 1938; Loc.line_nb_last = 66; Loc.bol_pos_last = 1938; Loc.bp = 1938; Loc.ep = 1944} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 67; Loc.bol_pos = 1945; Loc.line_nb_last = 67; Loc.bol_pos_last = 1945; Loc.bp = 1945; Loc.ep = 1981} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 68; Loc.bol_pos = 1982; Loc.line_nb_last = 68; Loc.bol_pos_last = 1982; Loc.bp = 1982; Loc.ep = 2014} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 69; Loc.bol_pos = 2015; Loc.line_nb_last = 69; Loc.bol_pos_last = 2015; Loc.bp = 2015; Loc.ep = 2035} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 70; Loc.bol_pos = 2036; Loc.line_nb_last = 70; Loc.bol_pos_last = 2036; Loc.bp = 2036; Loc.ep = 2048} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 71; Loc.bol_pos = 2049; Loc.line_nb_last = 71; Loc.bol_pos_last = 2049; Loc.bp = 2049; Loc.ep = 2054} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 72; Loc.bol_pos = 2055; Loc.line_nb_last = 72; Loc.bol_pos_last = 2055; Loc.bp = 2055; Loc.ep = 2059} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Lget_app **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 74; Loc.bol_pos = 2061; Loc.line_nb_last = 76; Loc.bol_pos_last = 2137; Loc.bp = 2061; Loc.ep = 2166} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 77; Loc.bol_pos = 2167; Loc.line_nb_last = 77; Loc.bol_pos_last = 2167; Loc.bp = 2167; Loc.ep = 2216} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 78; Loc.bol_pos = 2217; Loc.line_nb_last = 78; Loc.bol_pos_last = 2217; Loc.bp = 2217; Loc.ep = 2221} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Lget_app_Some **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 80; Loc.bol_pos = 2223; Loc.line_nb_last = 80; Loc.bol_pos_last = 2223; Loc.bp = 2223; Loc.ep = 2237} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 82; Loc.bol_pos = 2239; Loc.line_nb_last = 82; Loc.bol_pos_last = 2239; Loc.bp = 2239; Loc.ep = 2255} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 84; Loc.bol_pos = 2257; Loc.line_nb_last = 86; Loc.bol_pos_last = 2307; Loc.bp = 2257; Loc.ep = 2325} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 88; Loc.bol_pos = 2327; Loc.line_nb_last = 91; Loc.bol_pos_last = 2403; Loc.bp = 2327; Loc.ep = 2442} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 93; Loc.bol_pos = 2444; Loc.line_nb_last = 108; Loc.bol_pos_last = 2775; Loc.bp = 2444; Loc.ep = 2779} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 110; Loc.bol_pos = 2781; Loc.line_nb_last = 130; Loc.bol_pos_last = 3396; Loc.bp = 2781; Loc.ep = 3403} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 132; Loc.bol_pos = 3405; Loc.line_nb_last = 136; Loc.bol_pos_last = 3515; Loc.bp = 3405; Loc.ep = 3521} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 138; Loc.bol_pos = 3523; Loc.line_nb_last = 153; Loc.bol_pos_last = 3983; Loc.bp = 3523; Loc.ep = 3993} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 156; Loc.bol_pos = 3996; Loc.line_nb_last = 156; Loc.bol_pos_last = 3996; Loc.bp = 3996; Loc.ep = 4064} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 157; Loc.bol_pos = 4065; Loc.line_nb_last = 157; Loc.bol_pos_last = 4065; Loc.bp = 4065; Loc.ep = 4088} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 158; Loc.bol_pos = 4089; Loc.line_nb_last = 158; Loc.bol_pos_last = 4089; Loc.bp = 4089; Loc.ep = 4093} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Tget_Tempty **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 160; Loc.bol_pos = 4095; Loc.line_nb_last = 166; Loc.bol_pos_last = 4257; Loc.bp = 4095; Loc.ep = 4268} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 167; Loc.bol_pos = 4269; Loc.line_nb_last = 167; Loc.bol_pos_last = 4269; Loc.bp = 4269; Loc.ep = 4275} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 168; Loc.bol_pos = 4276; Loc.line_nb_last = 168; Loc.bol_pos_last = 4276; Loc.bp = 4276; Loc.ep = 4287} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 169; Loc.bol_pos = 4288; Loc.line_nb_last = 169; Loc.bol_pos_last = 4288; Loc.bp = 4288; Loc.ep = 4305} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 170; Loc.bol_pos = 4306; Loc.line_nb_last = 170; Loc.bol_pos_last = 4306; Loc.bp = 4306; Loc.ep = 4364} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 171; Loc.bol_pos = 4365; Loc.line_nb_last = 171; Loc.bol_pos_last = 4365; Loc.bp = 4365; Loc.ep = 4421} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 172; Loc.bol_pos = 4422; Loc.line_nb_last = 172; Loc.bol_pos_last = 4422; Loc.bp = 4422; Loc.ep = 4441} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 173; Loc.bol_pos = 4442; Loc.line_nb_last = 174; Loc.bol_pos_last = 4501; Loc.bp = 4442; Loc.ep = 4599} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 175; Loc.bol_pos = 4600; Loc.line_nb_last = 175; Loc.bol_pos_last = 4600; Loc.bp = 4600; Loc.ep = 4619} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 176; Loc.bol_pos = 4620; Loc.line_nb_last = 177; Loc.bol_pos_last = 4679; Loc.bp = 4620; Loc.ep = 4777} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 178; Loc.bol_pos = 4778; Loc.line_nb_last = 178; Loc.bol_pos_last = 4778; Loc.bp = 4778; Loc.ep = 4782} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Tget_Tadd **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 180; Loc.bol_pos = 4784; Loc.line_nb_last = 181; Loc.bol_pos_last = 4807; Loc.bp = 4784; Loc.ep = 4847} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 183; Loc.bol_pos = 4849; Loc.line_nb_last = 183; Loc.bol_pos_last = 4849; Loc.bp = 4849; Loc.ep = 4887} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 185; Loc.bol_pos = 4889; Loc.line_nb_last = 186; Loc.bol_pos_last = 4913; Loc.bp = 4889; Loc.ep = 4974} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 188; Loc.bol_pos = 4976; Loc.line_nb_last = 188; Loc.bol_pos_last = 4976; Loc.bp = 4976; Loc.ep = 5018} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 190; Loc.bol_pos = 5020; Loc.line_nb_last = 190; Loc.bol_pos_last = 5020; Loc.bp = 5020; Loc.ep = 5068} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 191; Loc.bol_pos = 5069; Loc.line_nb_last = 191; Loc.bol_pos_last = 5069; Loc.bp = 5069; Loc.ep = 5122} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 192; Loc.bol_pos = 5123; Loc.line_nb_last = 192; Loc.bol_pos_last = 5123; Loc.bp = 5123; Loc.ep = 5127} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** get_empty **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 194; Loc.bol_pos = 5129; Loc.line_nb_last = 196; Loc.bol_pos_last = 5187; Loc.bp = 5129; Loc.ep = 5238} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 198; Loc.bol_pos = 5240; Loc.line_nb_last = 199; Loc.bol_pos_last = 5282; Loc.bp = 5240; Loc.ep = 5338} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 200; Loc.bol_pos = 5339; Loc.line_nb_last = 200; Loc.bol_pos_last = 5339; Loc.bp = 5339; Loc.ep = 5345} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 201; Loc.bol_pos = 5346; Loc.line_nb_last = 201; Loc.bol_pos_last = 5346; Loc.bp = 5346; Loc.ep = 5369} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 202; Loc.bol_pos = 5370; Loc.line_nb_last = 202; Loc.bol_pos_last = 5370; Loc.bp = 5370; Loc.ep = 5427} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 203; Loc.bol_pos = 5428; Loc.line_nb_last = 203; Loc.bol_pos_last = 5428; Loc.bp = 5428; Loc.ep = 5450} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 203; Loc.bol_pos = 5428; Loc.line_nb_last = 203; Loc.bol_pos_last = 5428; Loc.bp = 5451; Loc.ep = 5467} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 204; Loc.bol_pos = 5468; Loc.line_nb_last = 204; Loc.bol_pos_last = 5468; Loc.bp = 5468; Loc.ep = 5497} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 205; Loc.bol_pos = 5498; Loc.line_nb_last = 205; Loc.bol_pos_last = 5498; Loc.bp = 5498; Loc.ep = 5523} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 206; Loc.bol_pos = 5524; Loc.line_nb_last = 206; Loc.bol_pos_last = 5524; Loc.bp = 5524; Loc.ep = 5542} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 207; Loc.bol_pos = 5543; Loc.line_nb_last = 207; Loc.bol_pos_last = 5543; Loc.bp = 5543; Loc.ep = 5579} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 208; Loc.bol_pos = 5580; Loc.line_nb_last = 208; Loc.bol_pos_last = 5580; Loc.bp = 5580; Loc.ep = 5584} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** get_Full_Gt **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 210; Loc.bol_pos = 5586; Loc.line_nb_last = 210; Loc.bol_pos_last = 5586; Loc.bp = 5586; Loc.ep = 5652} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 211; Loc.bol_pos = 5653; Loc.line_nb_last = 211; Loc.bol_pos_last = 5653; Loc.bp = 5653; Loc.ep = 5681} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 212; Loc.bol_pos = 5682; Loc.line_nb_last = 212; Loc.bol_pos_last = 5682; Loc.bp = 5682; Loc.ep = 5689} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 213; Loc.bol_pos = 5690; Loc.line_nb_last = 213; Loc.bol_pos_last = 5690; Loc.bp = 5690; Loc.ep = 5747} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 214; Loc.bol_pos = 5748; Loc.line_nb_last = 214; Loc.bol_pos_last = 5748; Loc.bp = 5748; Loc.ep = 5786} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 215; Loc.bol_pos = 5787; Loc.line_nb_last = 215; Loc.bol_pos_last = 5787; Loc.bp = 5787; Loc.ep = 5798} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 216; Loc.bol_pos = 5799; Loc.line_nb_last = 216; Loc.bol_pos_last = 5799; Loc.bp = 5799; Loc.ep = 5817} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 217; Loc.bol_pos = 5818; Loc.line_nb_last = 217; Loc.bol_pos_last = 5818; Loc.bp = 5818; Loc.ep = 5835} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 218; Loc.bol_pos = 5836; Loc.line_nb_last = 218; Loc.bol_pos_last = 5836; Loc.bp = 5836; Loc.ep = 5844} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 219; Loc.bol_pos = 5845; Loc.line_nb_last = 219; Loc.bol_pos_last = 5845; Loc.bp = 5845; Loc.ep = 5888} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 220; Loc.bol_pos = 5889; Loc.line_nb_last = 220; Loc.bol_pos_last = 5889; Loc.bp = 5889; Loc.ep = 5913} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 221; Loc.bol_pos = 5914; Loc.line_nb_last = 221; Loc.bol_pos_last = 5914; Loc.bp = 5914; Loc.ep = 5929} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 222; Loc.bol_pos = 5930; Loc.line_nb_last = 222; Loc.bol_pos_last = 5930; Loc.bp = 5930; Loc.ep = 5934} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** get_Full_Eq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 224; Loc.bol_pos = 5936; Loc.line_nb_last = 231; Loc.bol_pos_last = 6087; Loc.bp = 5936; Loc.ep = 6091} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 232; Loc.bol_pos = 6092; Loc.line_nb_last = 232; Loc.bol_pos_last = 6092; Loc.bp = 6092; Loc.ep = 6098} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 233; Loc.bol_pos = 6099; Loc.line_nb_last = 233; Loc.bol_pos_last = 6099; Loc.bp = 6099; Loc.ep = 6114} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 234; Loc.bol_pos = 6115; Loc.line_nb_last = 234; Loc.bol_pos_last = 6115; Loc.bp = 6115; Loc.ep = 6138} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 235; Loc.bol_pos = 6139; Loc.line_nb_last = 235; Loc.bol_pos_last = 6139; Loc.bp = 6139; Loc.ep = 6178} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 236; Loc.bol_pos = 6179; Loc.line_nb_last = 236; Loc.bol_pos_last = 6179; Loc.bp = 6179; Loc.ep = 6246} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 237; Loc.bol_pos = 6247; Loc.line_nb_last = 237; Loc.bol_pos_last = 6247; Loc.bp = 6247; Loc.ep = 6284} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 238; Loc.bol_pos = 6285; Loc.line_nb_last = 238; Loc.bol_pos_last = 6285; Loc.bp = 6285; Loc.ep = 6359} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 239; Loc.bol_pos = 6360; Loc.line_nb_last = 239; Loc.bol_pos_last = 6360; Loc.bp = 6360; Loc.ep = 6400} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 240; Loc.bol_pos = 6401; Loc.line_nb_last = 240; Loc.bol_pos_last = 6401; Loc.bp = 6401; Loc.ep = 6430} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 241; Loc.bol_pos = 6431; Loc.line_nb_last = 241; Loc.bol_pos_last = 6431; Loc.bp = 6431; Loc.ep = 6453} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 242; Loc.bol_pos = 6454; Loc.line_nb_last = 242; Loc.bol_pos_last = 6454; Loc.bp = 6454; Loc.ep = 6490} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 243; Loc.bol_pos = 6491; Loc.line_nb_last = 243; Loc.bol_pos_last = 6491; Loc.bp = 6491; Loc.ep = 6514} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 244; Loc.bol_pos = 6515; Loc.line_nb_last = 244; Loc.bol_pos_last = 6515; Loc.bp = 6515; Loc.ep = 6538} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 245; Loc.bol_pos = 6539; Loc.line_nb_last = 245; Loc.bol_pos_last = 6539; Loc.bp = 6539; Loc.ep = 6543} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** get_push_Full **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 247; Loc.bol_pos = 6545; Loc.line_nb_last = 249; Loc.bol_pos_last = 6625; Loc.bp = 6545; Loc.ep = 6653} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 250; Loc.bol_pos = 6654; Loc.line_nb_last = 250; Loc.bol_pos_last = 6654; Loc.bp = 6654; Loc.ep = 6660} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 251; Loc.bol_pos = 6661; Loc.line_nb_last = 251; Loc.bol_pos_last = 6661; Loc.bp = 6661; Loc.ep = 6680} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 252; Loc.bol_pos = 6681; Loc.line_nb_last = 252; Loc.bol_pos_last = 6681; Loc.bp = 6681; Loc.ep = 6715} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 253; Loc.bol_pos = 6716; Loc.line_nb_last = 253; Loc.bol_pos_last = 6716; Loc.bp = 6716; Loc.ep = 6755} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 254; Loc.bol_pos = 6756; Loc.line_nb_last = 254; Loc.bol_pos_last = 6756; Loc.bp = 6756; Loc.ep = 6798} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 255; Loc.bol_pos = 6799; Loc.line_nb_last = 255; Loc.bol_pos_last = 6799; Loc.bp = 6799; Loc.ep = 6812} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 256; Loc.bol_pos = 6813; Loc.line_nb_last = 256; Loc.bol_pos_last = 6813; Loc.bp = 6813; Loc.ep = 6841} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 257; Loc.bol_pos = 6842; Loc.line_nb_last = 257; Loc.bol_pos_last = 6842; Loc.bp = 6842; Loc.ep = 6867} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 258; Loc.bol_pos = 6868; Loc.line_nb_last = 258; Loc.bol_pos_last = 6868; Loc.bp = 6868; Loc.ep = 6879} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 259; Loc.bol_pos = 6880; Loc.line_nb_last = 259; Loc.bol_pos_last = 6880; Loc.bp = 6880; Loc.ep = 6922} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 260; Loc.bol_pos = 6923; Loc.line_nb_last = 260; Loc.bol_pos_last = 6923; Loc.bp = 6923; Loc.ep = 6927} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Full_push_compat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 262; Loc.bol_pos = 6929; Loc.line_nb_last = 262; Loc.bol_pos_last = 6929; Loc.bp = 6929; Loc.ep = 7001} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 263; Loc.bol_pos = 7002; Loc.line_nb_last = 263; Loc.bol_pos_last = 7002; Loc.bp = 7002; Loc.ep = 7039} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 264; Loc.bol_pos = 7040; Loc.line_nb_last = 264; Loc.bol_pos_last = 7040; Loc.bp = 7040; Loc.ep = 7052} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 265; Loc.bol_pos = 7053; Loc.line_nb_last = 265; Loc.bol_pos_last = 7053; Loc.bp = 7053; Loc.ep = 7110} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 266; Loc.bol_pos = 7111; Loc.line_nb_last = 266; Loc.bol_pos_last = 7111; Loc.bp = 7111; Loc.ep = 7122} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 267; Loc.bol_pos = 7123; Loc.line_nb_last = 267; Loc.bol_pos_last = 7123; Loc.bp = 7123; Loc.ep = 7127} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Full_index_one_empty **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 269; Loc.bol_pos = 7129; Loc.line_nb_last = 269; Loc.bol_pos_last = 7129; Loc.bp = 7129; Loc.ep = 7183} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 270; Loc.bol_pos = 7184; Loc.line_nb_last = 270; Loc.bol_pos_last = 7184; Loc.bp = 7184; Loc.ep = 7222} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 271; Loc.bol_pos = 7223; Loc.line_nb_last = 271; Loc.bol_pos_last = 7223; Loc.bp = 7223; Loc.ep = 7251} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 271; Loc.bol_pos = 7223; Loc.line_nb_last = 271; Loc.bol_pos_last = 7223; Loc.bp = 7252; Loc.ep = 7263} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 272; Loc.bol_pos = 7264; Loc.line_nb_last = 272; Loc.bol_pos_last = 7264; Loc.bp = 7264; Loc.ep = 7268} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** push_not_empty **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 274; Loc.bol_pos = 7270; Loc.line_nb_last = 278; Loc.bol_pos_last = 7397; Loc.bp = 7270; Loc.ep = 7401} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 280; Loc.bol_pos = 7403; Loc.line_nb_last = 281; Loc.bol_pos_last = 7456; Loc.bp = 7403; Loc.ep = 7486} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 282; Loc.bol_pos = 7487; Loc.line_nb_last = 282; Loc.bol_pos_last = 7487; Loc.bp = 7487; Loc.ep = 7499} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 283; Loc.bol_pos = 7500; Loc.line_nb_last = 283; Loc.bol_pos_last = 7500; Loc.bp = 7500; Loc.ep = 7538} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 284; Loc.bol_pos = 7539; Loc.line_nb_last = 284; Loc.bol_pos_last = 7539; Loc.bp = 7539; Loc.ep = 7577} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 285; Loc.bol_pos = 7578; Loc.line_nb_last = 285; Loc.bol_pos_last = 7578; Loc.bp = 7578; Loc.ep = 7607} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 286; Loc.bol_pos = 7608; Loc.line_nb_last = 286; Loc.bol_pos_last = 7608; Loc.bp = 7608; Loc.ep = 7624} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 287; Loc.bol_pos = 7625; Loc.line_nb_last = 287; Loc.bol_pos_last = 7625; Loc.bp = 7625; Loc.ep = 7637} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 288; Loc.bol_pos = 7638; Loc.line_nb_last = 288; Loc.bol_pos_last = 7638; Loc.bp = 7638; Loc.ep = 7649} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 289; Loc.bol_pos = 7650; Loc.line_nb_last = 289; Loc.bol_pos_last = 7650; Loc.bp = 7650; Loc.ep = 7654} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** get_In **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 291; Loc.bol_pos = 7656; Loc.line_nb_last = 291; Loc.bol_pos_last = 7656; Loc.bp = 7656; Loc.ep = 7666} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 293; Loc.bol_pos = 7668; Loc.line_nb_last = 293; Loc.bol_pos_last = 7668; Loc.bp = 7668; Loc.ep = 7688} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 294; Loc.bol_pos = 7689; Loc.line_nb_last = 294; Loc.bol_pos_last = 7689; Loc.bp = 7689; Loc.ep = 7711} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 296; Loc.bol_pos = 7713; Loc.line_nb_last = 296; Loc.bol_pos_last = 7713; Loc.bp = 7713; Loc.ep = 7734} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 297; Loc.bol_pos = 7735; Loc.line_nb_last = 297; Loc.bol_pos_last = 7735; Loc.bp = 7735; Loc.ep = 7761} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 298; Loc.bol_pos = 7762; Loc.line_nb_last = 298; Loc.bol_pos_last = 7762; Loc.bp = 7762; Loc.ep = 7790} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 300; Loc.bol_pos = 7792; Loc.line_nb_last = 300; Loc.bol_pos_last = 7792; Loc.bp = 7792; Loc.ep = 7815} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 301; Loc.bol_pos = 7816; Loc.line_nb_last = 301; Loc.bol_pos_last = 7816; Loc.bp = 7816; Loc.ep = 7841} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 303; Loc.bol_pos = 7843; Loc.line_nb_last = 303; Loc.bol_pos_last = 7843; Loc.bp = 7843; Loc.ep = 7871} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 304; Loc.bol_pos = 7872; Loc.line_nb_last = 304; Loc.bol_pos_last = 7872; Loc.bp = 7872; Loc.ep = 7904} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 306; Loc.bol_pos = 7906; Loc.line_nb_last = 306; Loc.bol_pos_last = 7906; Loc.bp = 7906; Loc.ep = 7943} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 307; Loc.bol_pos = 7944; Loc.line_nb_last = 307; Loc.bol_pos_last = 7944; Loc.bp = 7944; Loc.ep = 7966} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 308; Loc.bol_pos = 7967; Loc.line_nb_last = 308; Loc.bol_pos_last = 7967; Loc.bp = 7967; Loc.ep = 7992} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 310; Loc.bol_pos = 7994; Loc.line_nb_last = 310; Loc.bol_pos_last = 7994; Loc.bp = 7994; Loc.ep = 8014} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 311; Loc.bol_pos = 8015; Loc.line_nb_last = 311; Loc.bol_pos_last = 8015; Loc.bp = 8015; Loc.ep = 8037} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 312; Loc.bol_pos = 8038; Loc.line_nb_last = 312; Loc.bol_pos_last = 8038; Loc.bp = 8038; Loc.ep = 8061} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 314; Loc.bol_pos = 8063; Loc.line_nb_last = 314; Loc.bol_pos_last = 8063; Loc.bp = 8063; Loc.ep = 8089} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 315; Loc.bol_pos = 8090; Loc.line_nb_last = 315; Loc.bol_pos_last = 8090; Loc.bp = 8090; Loc.ep = 8126} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 317; Loc.bol_pos = 8128; Loc.line_nb_last = 317; Loc.bol_pos_last = 8128; Loc.bp = 8128; Loc.ep = 8149} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 318; Loc.bol_pos = 8150; Loc.line_nb_last = 318; Loc.bol_pos_last = 8150; Loc.bp = 8150; Loc.ep = 8172} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 319; Loc.bol_pos = 8173; Loc.line_nb_last = 319; Loc.bol_pos_last = 8173; Loc.bp = 8173; Loc.ep = 8200} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 320; Loc.bol_pos = 8201; Loc.line_nb_last = 320; Loc.bol_pos_last = 8201; Loc.bp = 8201; Loc.ep = 8224} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 322; Loc.bol_pos = 8226; Loc.line_nb_last = 322; Loc.bol_pos_last = 8226; Loc.bp = 8226; Loc.ep = 8238} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 324; Loc.bol_pos = 8240; Loc.line_nb_last = 324; Loc.bol_pos_last = 8240; Loc.bp = 8240; Loc.ep = 8258} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 326; Loc.bol_pos = 8260; Loc.line_nb_last = 326; Loc.bol_pos_last = 8260; Loc.bp = 8260; Loc.ep = 8279} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 328; Loc.bol_pos = 8281; Loc.line_nb_last = 333; Loc.bol_pos_last = 8451; Loc.bp = 8281; Loc.ep = 8455} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 335; Loc.bol_pos = 8457; Loc.line_nb_last = 337; Loc.bol_pos_last = 8538; Loc.bp = 8457; Loc.ep = 8567} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 338; Loc.bol_pos = 8568; Loc.line_nb_last = 338; Loc.bol_pos_last = 8568; Loc.bp = 8568; Loc.ep = 8606} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 339; Loc.bol_pos = 8607; Loc.line_nb_last = 339; Loc.bol_pos_last = 8607; Loc.bp = 8607; Loc.ep = 8615} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Tget_Tmap **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 341; Loc.bol_pos = 8617; Loc.line_nb_last = 342; Loc.bol_pos_last = 8648; Loc.bp = 8617; Loc.ep = 8690} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 343; Loc.bol_pos = 8691; Loc.line_nb_last = 343; Loc.bol_pos_last = 8691; Loc.bp = 8691; Loc.ep = 8770} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 344; Loc.bol_pos = 8771; Loc.line_nb_last = 344; Loc.bol_pos_last = 8771; Loc.bp = 8771; Loc.ep = 8779} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Tmap_Tadd **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 346; Loc.bol_pos = 8781; Loc.line_nb_last = 347; Loc.bol_pos_last = 8821; Loc.bp = 8781; Loc.ep = 8859} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 349; Loc.bol_pos = 8861; Loc.line_nb_last = 351; Loc.bol_pos_last = 8937; Loc.bp = 8861; Loc.ep = 8966} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 352; Loc.bol_pos = 8967; Loc.line_nb_last = 352; Loc.bol_pos_last = 8967; Loc.bp = 8967; Loc.ep = 9024} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 353; Loc.bol_pos = 9025; Loc.line_nb_last = 353; Loc.bol_pos_last = 9025; Loc.bp = 9025; Loc.ep = 9033} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** get_map **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 355; Loc.bol_pos = 9035; Loc.line_nb_last = 356; Loc.bol_pos_last = 9063; Loc.bp = 9035; Loc.ep = 9099} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 357; Loc.bol_pos = 9100; Loc.line_nb_last = 357; Loc.bol_pos_last = 9100; Loc.bp = 9100; Loc.ep = 9111} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 358; Loc.bol_pos = 9112; Loc.line_nb_last = 358; Loc.bol_pos_last = 9112; Loc.bp = 9112; Loc.ep = 9119} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 359; Loc.bol_pos = 9120; Loc.line_nb_last = 359; Loc.bol_pos_last = 9120; Loc.bp = 9120; Loc.ep = 9151} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 360; Loc.bol_pos = 9152; Loc.line_nb_last = 360; Loc.bol_pos_last = 9152; Loc.bp = 9152; Loc.ep = 9189} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 361; Loc.bol_pos = 9190; Loc.line_nb_last = 361; Loc.bol_pos_last = 9190; Loc.bp = 9190; Loc.ep = 9198} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** map_push **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 363; Loc.bol_pos = 9200; Loc.line_nb_last = 363; Loc.bol_pos_last = 9200; Loc.bp = 9200; Loc.ep = 9252} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 364; Loc.bol_pos = 9253; Loc.line_nb_last = 364; Loc.bol_pos_last = 9253; Loc.bp = 9253; Loc.ep = 9264} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 365; Loc.bol_pos = 9265; Loc.line_nb_last = 365; Loc.bol_pos_last = 9265; Loc.bp = 9265; Loc.ep = 9277} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 366; Loc.bol_pos = 9278; Loc.line_nb_last = 366; Loc.bol_pos_last = 9278; Loc.bp = 9278; Loc.ep = 9292} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 367; Loc.bol_pos = 9293; Loc.line_nb_last = 367; Loc.bol_pos_last = 9293; Loc.bp = 9293; Loc.ep = 9335} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 368; Loc.bol_pos = 9336; Loc.line_nb_last = 368; Loc.bol_pos_last = 9336; Loc.bp = 9336; Loc.ep = 9344} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Full_map **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 370; Loc.bol_pos = 9346; Loc.line_nb_last = 370; Loc.bol_pos_last = 9346; Loc.bp = 9346; Loc.ep = 9354} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 372; Loc.bol_pos = 9356; Loc.line_nb_last = 372; Loc.bol_pos_last = 9356; Loc.bp = 9356; Loc.ep = 9381} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 373; Loc.bol_pos = 9382; Loc.line_nb_last = 373; Loc.bol_pos_last = 9382; Loc.bp = 9382; Loc.ep = 9406} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 374; Loc.bol_pos = 9407; Loc.line_nb_last = 374; Loc.bol_pos_last = 9407; Loc.bp = 9407; Loc.ep = 9438} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./plugins/rtauto/Bintree.v"; Loc.line_nb = 376; Loc.bol_pos = 9440; Loc.line_nb_last = 376; Loc.bol_pos_last = 9440; Loc.bp = 9440; Loc.ep = 9510} **)
+(**VERNAC_TYPE** VernacNotation **)

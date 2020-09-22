@@ -1,0 +1,16 @@
+DIGEST ac6dc02aea8112ddd8ce3014c444fa76
+FAlgebra.Qfield
+R1118:1122 Algebra.Zring <> <> lib
+R1140:1153 Algebra.Fraction_field <> <> lib
+prf 1192:1206 <> Z_one_diff_zero
+R1210:1211 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1212:1216 Algebra.Sets <> Equal proj
+R1234:1244 Algebra.Monoid_cat <> monoid_unit proj
+R1246:1247 Algebra.Zring <> ZZ def
+R1219:1227 Algebra.Ring_cat <> ring_unit def
+R1229:1230 Algebra.Zring <> ZZ def
+R1273:1275 Coq.Init.Logic <> not def
+def 1324:1324 <> Q
+R1329:1343 Algebra.Fraction_field <> fraction_cfield def
+R1361:1369 Algebra.Zring <> Zzero_dec def
+R1345:1359 Algebra.Qfield <> Z_one_diff_zero thm

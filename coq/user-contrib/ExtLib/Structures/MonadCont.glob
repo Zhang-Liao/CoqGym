@@ -1,0 +1,20 @@
+DIGEST 62da294b873f8f77f5a281b6ff36f855
+FExtLib.Structures.MonadCont
+R45:67 ExtLib.Structures.Monad <> <> lib
+rec 77:80 <> Cont
+proj 113:118 <> callCC
+R91:94 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R134:134 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R152:156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R157:157 ExtLib.Structures.MonadCont <> m var
+R159:159 ExtLib.Structures.MonadCont <> a var
+R135:135 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R144:148 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R149:149 ExtLib.Structures.MonadCont <> m var
+R151:151 ExtLib.Structures.MonadCont <> a var
+R137:140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R141:141 ExtLib.Structures.MonadCont <> m var
+R143:143 ExtLib.Structures.MonadCont <> b var
+R136:136 ExtLib.Structures.MonadCont <> a var
+R175:180 ExtLib.Structures.MonadCont <> callCC meth
+R175:180 ExtLib.Structures.MonadCont <> callCC meth

@@ -1,0 +1,7 @@
+DIGEST 8846727b5e9f945880b478bc8d4f2a06
+FExtLib.Tactics.Cases
+R15:37 ExtLib.Tactics.Consider <> <> lib
+R1759:1761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1759:1761 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1938:1940 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1938:1940 Coq.Init.Logic <> ::type_scope:x_'='_x not

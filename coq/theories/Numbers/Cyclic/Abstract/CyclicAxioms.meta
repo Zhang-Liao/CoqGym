@@ -1,0 +1,540 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 18; Loc.bol_pos = 1023; Loc.line_nb_last = 18; Loc.bol_pos_last = 1023; Loc.bp = 1023; Loc.ep = 1046} **)
+(**VERNAC_TYPE** VernacSetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 20; Loc.bol_pos = 1048; Loc.line_nb_last = 20; Loc.bol_pos_last = 1048; Loc.bp = 1048; Loc.ep = 1070} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 21; Loc.bol_pos = 1071; Loc.line_nb_last = 21; Loc.bol_pos_last = 1071; Loc.bp = 1071; Loc.ep = 1097} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 22; Loc.bol_pos = 1098; Loc.line_nb_last = 22; Loc.bol_pos_last = 1098; Loc.bp = 1098; Loc.ep = 1124} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 23; Loc.bol_pos = 1125; Loc.line_nb_last = 23; Loc.bol_pos_last = 1125; Loc.bp = 1125; Loc.ep = 1151} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 25; Loc.bol_pos = 1153; Loc.line_nb_last = 25; Loc.bol_pos_last = 1153; Loc.bp = 1153; Loc.ep = 1178} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 29; Loc.bol_pos = 1251; Loc.line_nb_last = 29; Loc.bol_pos_last = 1251; Loc.bp = 1251; Loc.ep = 1262} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 31; Loc.bol_pos = 1264; Loc.line_nb_last = 97; Loc.bol_pos_last = 3333; Loc.bp = 1265; Loc.ep = 3365} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 99; Loc.bol_pos = 3368; Loc.line_nb_last = 99; Loc.bol_pos_last = 3368; Loc.bp = 3369; Loc.ep = 3383} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 100; Loc.bol_pos = 3384; Loc.line_nb_last = 100; Loc.bol_pos_last = 3384; Loc.bp = 3385; Loc.ep = 3417} **)
+(**VERNAC_TYPE** VernacContext **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 102; Loc.bol_pos = 3419; Loc.line_nb_last = 102; Loc.bol_pos_last = 3419; Loc.bp = 3420; Loc.ep = 3480} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 104; Loc.bol_pos = 3482; Loc.line_nb_last = 104; Loc.bol_pos_last = 3482; Loc.bp = 3483; Loc.ep = 3505} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 106; Loc.bol_pos = 3507; Loc.line_nb_last = 107; Loc.bol_pos_last = 3531; Loc.bp = 3508; Loc.ep = 3590} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 109; Loc.bol_pos = 3592; Loc.line_nb_last = 110; Loc.bol_pos_last = 3616; Loc.bp = 3593; Loc.ep = 3678} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 112; Loc.bol_pos = 3680; Loc.line_nb_last = 113; Loc.bol_pos_last = 3705; Loc.bp = 3681; Loc.ep = 3759} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 115; Loc.bol_pos = 3761; Loc.line_nb_last = 212; Loc.bol_pos_last = 7678; Loc.bp = 3762; Loc.ep = 7682} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 214; Loc.bol_pos = 7684; Loc.line_nb_last = 214; Loc.bol_pos_last = 7684; Loc.bp = 7685; Loc.ep = 7695} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 216; Loc.bol_pos = 7697; Loc.line_nb_last = 216; Loc.bol_pos_last = 7697; Loc.bp = 7698; Loc.ep = 7722} **)
+(**VERNAC_TYPE** VernacArguments **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 220; Loc.bol_pos = 7770; Loc.line_nb_last = 220; Loc.bol_pos_last = 7770; Loc.bp = 7771; Loc.ep = 7782} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 222; Loc.bol_pos = 7784; Loc.line_nb_last = 222; Loc.bol_pos_last = 7784; Loc.bp = 7785; Loc.ep = 7836} **)
+(**VERNAC_TYPE** VernacContext **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 224; Loc.bol_pos = 7838; Loc.line_nb_last = 224; Loc.bol_pos_last = 7838; Loc.bp = 7839; Loc.ep = 7861} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 226; Loc.bol_pos = 7863; Loc.line_nb_last = 227; Loc.bol_pos_last = 7903; Loc.bp = 7864; Loc.ep = 7937} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 229; Loc.bol_pos = 7939; Loc.line_nb_last = 232; Loc.bol_pos_last = 8039; Loc.bp = 7940; Loc.ep = 8055} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 234; Loc.bol_pos = 8057; Loc.line_nb_last = 235; Loc.bol_pos_last = 8097; Loc.bp = 8058; Loc.ep = 8131} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 237; Loc.bol_pos = 8133; Loc.line_nb_last = 240; Loc.bol_pos_last = 8233; Loc.bp = 8134; Loc.ep = 8249} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 242; Loc.bol_pos = 8251; Loc.line_nb_last = 243; Loc.bol_pos_last = 8294; Loc.bp = 8252; Loc.ep = 8337} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 245; Loc.bol_pos = 8339; Loc.line_nb_last = 248; Loc.bol_pos_last = 8443; Loc.bp = 8340; Loc.ep = 8459} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 250; Loc.bol_pos = 8461; Loc.line_nb_last = 251; Loc.bol_pos_last = 8488; Loc.bp = 8462; Loc.ep = 8530} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 252; Loc.bol_pos = 8531; Loc.line_nb_last = 252; Loc.bol_pos_last = 8531; Loc.bp = 8532; Loc.ep = 8538} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 253; Loc.bol_pos = 8539; Loc.line_nb_last = 253; Loc.bol_pos_last = 8539; Loc.bp = 8540; Loc.ep = 8576} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 254; Loc.bol_pos = 8577; Loc.line_nb_last = 254; Loc.bol_pos_last = 8577; Loc.bp = 8578; Loc.ep = 8602} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 255; Loc.bol_pos = 8603; Loc.line_nb_last = 255; Loc.bol_pos_last = 8603; Loc.bp = 8604; Loc.ep = 8633} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 256; Loc.bol_pos = 8634; Loc.line_nb_last = 256; Loc.bol_pos_last = 8634; Loc.bp = 8635; Loc.ep = 8668} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 257; Loc.bol_pos = 8669; Loc.line_nb_last = 257; Loc.bol_pos_last = 8669; Loc.bp = 8670; Loc.ep = 8674} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** spec_WO **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 259; Loc.bol_pos = 8676; Loc.line_nb_last = 260; Loc.bol_pos_last = 8703; Loc.bp = 8677; Loc.ep = 8740} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 261; Loc.bol_pos = 8741; Loc.line_nb_last = 261; Loc.bol_pos_last = 8741; Loc.bp = 8742; Loc.ep = 8748} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 262; Loc.bol_pos = 8749; Loc.line_nb_last = 262; Loc.bol_pos_last = 8749; Loc.bp = 8750; Loc.ep = 8786} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 263; Loc.bol_pos = 8787; Loc.line_nb_last = 263; Loc.bol_pos_last = 8787; Loc.bp = 8788; Loc.ep = 8812} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 264; Loc.bol_pos = 8813; Loc.line_nb_last = 264; Loc.bol_pos_last = 8813; Loc.bp = 8814; Loc.ep = 8843} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 265; Loc.bol_pos = 8844; Loc.line_nb_last = 265; Loc.bol_pos_last = 8844; Loc.bp = 8845; Loc.ep = 8878} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 266; Loc.bol_pos = 8879; Loc.line_nb_last = 266; Loc.bol_pos_last = 8879; Loc.bp = 8880; Loc.ep = 8884} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** spec_OW **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 268; Loc.bol_pos = 8886; Loc.line_nb_last = 269; Loc.bol_pos_last = 8915; Loc.bp = 8887; Loc.ep = 8967} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 270; Loc.bol_pos = 8968; Loc.line_nb_last = 270; Loc.bol_pos_last = 8968; Loc.bp = 8969; Loc.ep = 8975} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 271; Loc.bol_pos = 8976; Loc.line_nb_last = 271; Loc.bol_pos_last = 8976; Loc.bp = 8977; Loc.ep = 9002} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 272; Loc.bol_pos = 9003; Loc.line_nb_last = 272; Loc.bol_pos_last = 9003; Loc.bp = 9004; Loc.ep = 9028} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 273; Loc.bol_pos = 9029; Loc.line_nb_last = 273; Loc.bol_pos_last = 9029; Loc.bp = 9030; Loc.ep = 9059} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 274; Loc.bol_pos = 9060; Loc.line_nb_last = 274; Loc.bol_pos_last = 9060; Loc.bp = 9061; Loc.ep = 9073} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 275; Loc.bol_pos = 9074; Loc.line_nb_last = 275; Loc.bol_pos_last = 9074; Loc.bp = 9075; Loc.ep = 9097} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 276; Loc.bol_pos = 9098; Loc.line_nb_last = 276; Loc.bol_pos_last = 9098; Loc.bp = 9099; Loc.ep = 9111} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 277; Loc.bol_pos = 9112; Loc.line_nb_last = 277; Loc.bol_pos_last = 9112; Loc.bp = 9113; Loc.ep = 9117} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** spec_WW **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 279; Loc.bol_pos = 9119; Loc.line_nb_last = 279; Loc.bol_pos_last = 9119; Loc.bp = 9120; Loc.ep = 9127} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 283; Loc.bol_pos = 9184; Loc.line_nb_last = 283; Loc.bol_pos_last = 9184; Loc.bp = 9185; Loc.ep = 9198} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 285; Loc.bol_pos = 9200; Loc.line_nb_last = 285; Loc.bol_pos_last = 9200; Loc.bp = 9201; Loc.ep = 9252} **)
+(**VERNAC_TYPE** VernacContext **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 287; Loc.bol_pos = 9254; Loc.line_nb_last = 287; Loc.bol_pos_last = 9254; Loc.bp = 9255; Loc.ep = 9315} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 289; Loc.bol_pos = 9317; Loc.line_nb_last = 290; Loc.bol_pos_last = 9342; Loc.bp = 9318; Loc.ep = 9409} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 291; Loc.bol_pos = 9410; Loc.line_nb_last = 291; Loc.bol_pos_last = 9410; Loc.bp = 9411; Loc.ep = 9417} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 292; Loc.bol_pos = 9418; Loc.line_nb_last = 292; Loc.bol_pos_last = 9418; Loc.bp = 9419; Loc.ep = 9431} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 293; Loc.bol_pos = 9432; Loc.line_nb_last = 293; Loc.bol_pos_last = 9432; Loc.bp = 9433; Loc.ep = 9460} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 294; Loc.bol_pos = 9461; Loc.line_nb_last = 294; Loc.bol_pos_last = 9461; Loc.bp = 9462; Loc.ep = 9498} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 295; Loc.bol_pos = 9499; Loc.line_nb_last = 295; Loc.bol_pos_last = 9499; Loc.bp = 9500; Loc.ep = 9525} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 296; Loc.bol_pos = 9526; Loc.line_nb_last = 296; Loc.bol_pos_last = 9526; Loc.bp = 9527; Loc.ep = 9572} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 297; Loc.bol_pos = 9573; Loc.line_nb_last = 297; Loc.bol_pos_last = 9573; Loc.bp = 9574; Loc.ep = 9631} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 298; Loc.bol_pos = 9632; Loc.line_nb_last = 298; Loc.bol_pos_last = 9632; Loc.bp = 9633; Loc.ep = 9645} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 299; Loc.bol_pos = 9646; Loc.line_nb_last = 299; Loc.bol_pos_last = 9646; Loc.bp = 9647; Loc.ep = 9667} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 300; Loc.bol_pos = 9668; Loc.line_nb_last = 300; Loc.bol_pos_last = 9668; Loc.bp = 9669; Loc.ep = 9714} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 301; Loc.bol_pos = 9715; Loc.line_nb_last = 301; Loc.bol_pos_last = 9715; Loc.bp = 9716; Loc.ep = 9773} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 302; Loc.bol_pos = 9774; Loc.line_nb_last = 302; Loc.bol_pos_last = 9774; Loc.bp = 9775; Loc.ep = 9805} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 303; Loc.bol_pos = 9806; Loc.line_nb_last = 303; Loc.bol_pos_last = 9806; Loc.bp = 9807; Loc.ep = 9845} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 304; Loc.bol_pos = 9846; Loc.line_nb_last = 304; Loc.bol_pos_last = 9846; Loc.bp = 9847; Loc.ep = 9851} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** of_pos_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 306; Loc.bol_pos = 9853; Loc.line_nb_last = 310; Loc.bol_pos_last = 9930; Loc.bp = 9854; Loc.ep = 9935} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 312; Loc.bol_pos = 9937; Loc.line_nb_last = 313; Loc.bol_pos_last = 9960; Loc.bp = 9938; Loc.ep = 10012} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 314; Loc.bol_pos = 10013; Loc.line_nb_last = 314; Loc.bol_pos_last = 10013; Loc.bp = 10014; Loc.ep = 10020} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 315; Loc.bol_pos = 10021; Loc.line_nb_last = 315; Loc.bol_pos_last = 10021; Loc.bp = 10022; Loc.ep = 10072} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 316; Loc.bol_pos = 10073; Loc.line_nb_last = 316; Loc.bol_pos_last = 10073; Loc.bp = 10074; Loc.ep = 10123} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 317; Loc.bol_pos = 10124; Loc.line_nb_last = 317; Loc.bol_pos_last = 10124; Loc.bp = 10125; Loc.ep = 10192} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 318; Loc.bol_pos = 10193; Loc.line_nb_last = 318; Loc.bol_pos_last = 10193; Loc.bp = 10194; Loc.ep = 10198} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** of_Z_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 320; Loc.bol_pos = 10200; Loc.line_nb_last = 320; Loc.bol_pos_last = 10200; Loc.bp = 10201; Loc.ep = 10210} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 322; Loc.bol_pos = 10212; Loc.line_nb_last = 322; Loc.bol_pos_last = 10212; Loc.bp = 10212; Loc.ep = 10220} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 326; Loc.bol_pos = 10284; Loc.line_nb_last = 326; Loc.bol_pos_last = 10284; Loc.bp = 10284; Loc.ep = 10307} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 327; Loc.bol_pos = 10308; Loc.line_nb_last = 327; Loc.bol_pos_last = 10308; Loc.bp = 10309; Loc.ep = 10328} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 328; Loc.bol_pos = 10329; Loc.line_nb_last = 328; Loc.bol_pos_last = 10329; Loc.bp = 10330; Loc.ep = 10363} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 329; Loc.bol_pos = 10364; Loc.line_nb_last = 329; Loc.bol_pos_last = 10364; Loc.bp = 10365; Loc.ep = 10404} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 330; Loc.bol_pos = 10405; Loc.line_nb_last = 330; Loc.bol_pos_last = 10405; Loc.bp = 10405; Loc.ep = 10420} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 335; Loc.bol_pos = 10472; Loc.line_nb_last = 335; Loc.bol_pos_last = 10472; Loc.bp = 10472; Loc.ep = 10519} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 337; Loc.bol_pos = 10521; Loc.line_nb_last = 337; Loc.bol_pos_last = 10521; Loc.bp = 10521; Loc.ep = 10590} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 339; Loc.bol_pos = 10592; Loc.line_nb_last = 339; Loc.bol_pos_last = 10592; Loc.bp = 10592; Loc.ep = 10637} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 341; Loc.bol_pos = 10639; Loc.line_nb_last = 341; Loc.bol_pos_last = 10639; Loc.bp = 10639; Loc.ep = 10677} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 342; Loc.bol_pos = 10678; Loc.line_nb_last = 342; Loc.bol_pos_last = 10678; Loc.bp = 10678; Loc.ep = 10709} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 343; Loc.bol_pos = 10710; Loc.line_nb_last = 343; Loc.bol_pos_last = 10710; Loc.bp = 10710; Loc.ep = 10740} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 344; Loc.bol_pos = 10741; Loc.line_nb_last = 344; Loc.bol_pos_last = 10741; Loc.bp = 10741; Loc.ep = 10768} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 345; Loc.bol_pos = 10769; Loc.line_nb_last = 345; Loc.bol_pos_last = 10769; Loc.bp = 10769; Loc.ep = 10796} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 346; Loc.bol_pos = 10797; Loc.line_nb_last = 346; Loc.bol_pos_last = 10797; Loc.bp = 10797; Loc.ep = 10833} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 347; Loc.bol_pos = 10834; Loc.line_nb_last = 347; Loc.bol_pos_last = 10834; Loc.bp = 10834; Loc.ep = 10861} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 348; Loc.bol_pos = 10862; Loc.line_nb_last = 348; Loc.bol_pos_last = 10862; Loc.bp = 10862; Loc.ep = 10901} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 350; Loc.bol_pos = 10903; Loc.line_nb_last = 352; Loc.bol_pos_last = 10991; Loc.bp = 10903; Loc.ep = 11001} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 354; Loc.bol_pos = 11003; Loc.line_nb_last = 354; Loc.bol_pos_last = 11003; Loc.bp = 11003; Loc.ep = 11056} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 356; Loc.bol_pos = 11058; Loc.line_nb_last = 356; Loc.bol_pos_last = 11058; Loc.bp = 11058; Loc.ep = 11095} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 357; Loc.bol_pos = 11096; Loc.line_nb_last = 357; Loc.bol_pos_last = 11096; Loc.bp = 11096; Loc.ep = 11102} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 358; Loc.bol_pos = 11103; Loc.line_nb_last = 358; Loc.bol_pos_last = 11103; Loc.bp = 11103; Loc.ep = 11110} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 358; Loc.bol_pos = 11103; Loc.line_nb_last = 358; Loc.bol_pos_last = 11103; Loc.bp = 11111; Loc.ep = 11116} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 358; Loc.bol_pos = 11103; Loc.line_nb_last = 358; Loc.bol_pos_last = 11103; Loc.bp = 11117; Loc.ep = 11135} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 359; Loc.bol_pos = 11136; Loc.line_nb_last = 359; Loc.bol_pos_last = 11136; Loc.bp = 11136; Loc.ep = 11153} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 359; Loc.bol_pos = 11136; Loc.line_nb_last = 359; Loc.bol_pos_last = 11136; Loc.bp = 11154; Loc.ep = 11174} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 360; Loc.bol_pos = 11175; Loc.line_nb_last = 360; Loc.bol_pos_last = 11175; Loc.bp = 11175; Loc.ep = 11179} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_0_l **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 362; Loc.bol_pos = 11181; Loc.line_nb_last = 362; Loc.bol_pos_last = 11181; Loc.bp = 11181; Loc.ep = 11225} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 363; Loc.bol_pos = 11226; Loc.line_nb_last = 363; Loc.bol_pos_last = 11226; Loc.bp = 11226; Loc.ep = 11232} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 364; Loc.bol_pos = 11233; Loc.line_nb_last = 364; Loc.bol_pos_last = 11233; Loc.bp = 11233; Loc.ep = 11240} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 364; Loc.bol_pos = 11233; Loc.line_nb_last = 364; Loc.bol_pos_last = 11233; Loc.bp = 11241; Loc.ep = 11246} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 364; Loc.bol_pos = 11233; Loc.line_nb_last = 364; Loc.bol_pos_last = 11233; Loc.bp = 11247; Loc.ep = 11270} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 365; Loc.bol_pos = 11271; Loc.line_nb_last = 365; Loc.bol_pos_last = 11271; Loc.bp = 11271; Loc.ep = 11275} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_comm **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 367; Loc.bol_pos = 11277; Loc.line_nb_last = 367; Loc.bol_pos_last = 11277; Loc.bp = 11277; Loc.ep = 11334} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 368; Loc.bol_pos = 11335; Loc.line_nb_last = 368; Loc.bol_pos_last = 11335; Loc.bp = 11335; Loc.ep = 11341} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 369; Loc.bol_pos = 11342; Loc.line_nb_last = 369; Loc.bol_pos_last = 11342; Loc.bp = 11342; Loc.ep = 11349} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 369; Loc.bol_pos = 11342; Loc.line_nb_last = 369; Loc.bol_pos_last = 11342; Loc.bp = 11350; Loc.ep = 11355} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 369; Loc.bol_pos = 11342; Loc.line_nb_last = 369; Loc.bol_pos_last = 11342; Loc.bp = 11356; Loc.ep = 11418} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 370; Loc.bol_pos = 11419; Loc.line_nb_last = 370; Loc.bol_pos_last = 11419; Loc.bp = 11419; Loc.ep = 11423} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_assoc **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 372; Loc.bol_pos = 11425; Loc.line_nb_last = 372; Loc.bol_pos_last = 11425; Loc.bp = 11425; Loc.ep = 11462} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 373; Loc.bol_pos = 11463; Loc.line_nb_last = 373; Loc.bol_pos_last = 11463; Loc.bp = 11463; Loc.ep = 11469} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 374; Loc.bol_pos = 11470; Loc.line_nb_last = 374; Loc.bol_pos_last = 11470; Loc.bp = 11470; Loc.ep = 11477} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 374; Loc.bol_pos = 11470; Loc.line_nb_last = 374; Loc.bol_pos_last = 11470; Loc.bp = 11478; Loc.ep = 11483} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 374; Loc.bol_pos = 11470; Loc.line_nb_last = 374; Loc.bol_pos_last = 11470; Loc.bp = 11484; Loc.ep = 11502} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 375; Loc.bol_pos = 11503; Loc.line_nb_last = 375; Loc.bol_pos_last = 11503; Loc.bp = 11503; Loc.ep = 11520} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 375; Loc.bol_pos = 11503; Loc.line_nb_last = 375; Loc.bol_pos_last = 11503; Loc.bp = 11521; Loc.ep = 11541} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 376; Loc.bol_pos = 11542; Loc.line_nb_last = 376; Loc.bol_pos_last = 11542; Loc.bp = 11542; Loc.ep = 11546} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** mul_1_l **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 378; Loc.bol_pos = 11548; Loc.line_nb_last = 378; Loc.bol_pos_last = 11548; Loc.bp = 11548; Loc.ep = 11592} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 379; Loc.bol_pos = 11593; Loc.line_nb_last = 379; Loc.bol_pos_last = 11593; Loc.bp = 11593; Loc.ep = 11599} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 380; Loc.bol_pos = 11600; Loc.line_nb_last = 380; Loc.bol_pos_last = 11600; Loc.bp = 11600; Loc.ep = 11607} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 380; Loc.bol_pos = 11600; Loc.line_nb_last = 380; Loc.bol_pos_last = 11600; Loc.bp = 11608; Loc.ep = 11613} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 380; Loc.bol_pos = 11600; Loc.line_nb_last = 380; Loc.bol_pos_last = 11600; Loc.bp = 11614; Loc.ep = 11637} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 381; Loc.bol_pos = 11638; Loc.line_nb_last = 381; Loc.bol_pos_last = 11638; Loc.bp = 11638; Loc.ep = 11642} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** mul_comm **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 383; Loc.bol_pos = 11644; Loc.line_nb_last = 383; Loc.bol_pos_last = 11644; Loc.bp = 11644; Loc.ep = 11701} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 384; Loc.bol_pos = 11702; Loc.line_nb_last = 384; Loc.bol_pos_last = 11702; Loc.bp = 11702; Loc.ep = 11708} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 385; Loc.bol_pos = 11709; Loc.line_nb_last = 385; Loc.bol_pos_last = 11709; Loc.bp = 11709; Loc.ep = 11716} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 385; Loc.bol_pos = 11709; Loc.line_nb_last = 385; Loc.bol_pos_last = 11709; Loc.bp = 11717; Loc.ep = 11722} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 385; Loc.bol_pos = 11709; Loc.line_nb_last = 385; Loc.bol_pos_last = 11709; Loc.bp = 11723; Loc.ep = 11785} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 386; Loc.bol_pos = 11786; Loc.line_nb_last = 386; Loc.bol_pos_last = 11786; Loc.bp = 11786; Loc.ep = 11790} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** mul_assoc **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 388; Loc.bol_pos = 11792; Loc.line_nb_last = 388; Loc.bol_pos_last = 11792; Loc.bp = 11792; Loc.ep = 11851} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 389; Loc.bol_pos = 11852; Loc.line_nb_last = 389; Loc.bol_pos_last = 11852; Loc.bp = 11852; Loc.ep = 11858} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 390; Loc.bol_pos = 11859; Loc.line_nb_last = 390; Loc.bol_pos_last = 11859; Loc.bp = 11859; Loc.ep = 11866} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 390; Loc.bol_pos = 11859; Loc.line_nb_last = 390; Loc.bol_pos_last = 11859; Loc.bp = 11867; Loc.ep = 11872} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 390; Loc.bol_pos = 11859; Loc.line_nb_last = 390; Loc.bol_pos_last = 11859; Loc.bp = 11873; Loc.ep = 11936} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 391; Loc.bol_pos = 11937; Loc.line_nb_last = 391; Loc.bol_pos_last = 11937; Loc.bp = 11937; Loc.ep = 11941} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** mul_add_distr_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 393; Loc.bol_pos = 11943; Loc.line_nb_last = 393; Loc.bol_pos_last = 11943; Loc.bp = 11943; Loc.ep = 11988} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 394; Loc.bol_pos = 11989; Loc.line_nb_last = 394; Loc.bol_pos_last = 11989; Loc.bp = 11989; Loc.ep = 11995} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 395; Loc.bol_pos = 11996; Loc.line_nb_last = 395; Loc.bol_pos_last = 11996; Loc.bp = 11996; Loc.ep = 12003} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 395; Loc.bol_pos = 11996; Loc.line_nb_last = 395; Loc.bol_pos_last = 11996; Loc.bp = 12004; Loc.ep = 12009} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 395; Loc.bol_pos = 11996; Loc.line_nb_last = 395; Loc.bol_pos_last = 11996; Loc.bp = 12010; Loc.ep = 12040} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 395; Loc.bol_pos = 11996; Loc.line_nb_last = 395; Loc.bol_pos_last = 11996; Loc.bp = 12041; Loc.ep = 12054} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 396; Loc.bol_pos = 12055; Loc.line_nb_last = 396; Loc.bol_pos_last = 12055; Loc.bp = 12055; Loc.ep = 12104} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 397; Loc.bol_pos = 12105; Loc.line_nb_last = 397; Loc.bol_pos_last = 12105; Loc.bp = 12105; Loc.ep = 12156} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 398; Loc.bol_pos = 12157; Loc.line_nb_last = 398; Loc.bol_pos_last = 12157; Loc.bp = 12157; Loc.ep = 12191} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 399; Loc.bol_pos = 12192; Loc.line_nb_last = 399; Loc.bol_pos_last = 12192; Loc.bp = 12192; Loc.ep = 12244} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 400; Loc.bol_pos = 12245; Loc.line_nb_last = 400; Loc.bol_pos_last = 12245; Loc.bp = 12245; Loc.ep = 12269} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 400; Loc.bol_pos = 12245; Loc.line_nb_last = 400; Loc.bol_pos_last = 12245; Loc.bp = 12270; Loc.ep = 12276} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 400; Loc.bol_pos = 12245; Loc.line_nb_last = 400; Loc.bol_pos_last = 12245; Loc.bp = 12277; Loc.ep = 12307} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 401; Loc.bol_pos = 12308; Loc.line_nb_last = 401; Loc.bol_pos_last = 12308; Loc.bp = 12308; Loc.ep = 12312} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_opp_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 403; Loc.bol_pos = 12314; Loc.line_nb_last = 403; Loc.bol_pos_last = 12314; Loc.bp = 12314; Loc.ep = 12360} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 404; Loc.bol_pos = 12361; Loc.line_nb_last = 404; Loc.bol_pos_last = 12361; Loc.bp = 12361; Loc.ep = 12367} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 405; Loc.bol_pos = 12368; Loc.line_nb_last = 405; Loc.bol_pos_last = 12368; Loc.bp = 12368; Loc.ep = 12375} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 405; Loc.bol_pos = 12368; Loc.line_nb_last = 405; Loc.bol_pos_last = 12368; Loc.bp = 12376; Loc.ep = 12380} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 405; Loc.bol_pos = 12368; Loc.line_nb_last = 405; Loc.bol_pos_last = 12368; Loc.bp = 12381; Loc.ep = 12399} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 405; Loc.bol_pos = 12368; Loc.line_nb_last = 405; Loc.bol_pos_last = 12368; Loc.bp = 12400; Loc.ep = 12405} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 405; Loc.bol_pos = 12368; Loc.line_nb_last = 405; Loc.bol_pos_last = 12368; Loc.bp = 12406; Loc.ep = 12439} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 406; Loc.bol_pos = 12440; Loc.line_nb_last = 406; Loc.bol_pos_last = 12440; Loc.bp = 12440; Loc.ep = 12444} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_opp_diag_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 408; Loc.bol_pos = 12446; Loc.line_nb_last = 408; Loc.bol_pos_last = 12446; Loc.bp = 12446; Loc.ep = 12516} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 409; Loc.bol_pos = 12517; Loc.line_nb_last = 409; Loc.bol_pos_last = 12517; Loc.bp = 12517; Loc.ep = 12523} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 410; Loc.bol_pos = 12524; Loc.line_nb_last = 410; Loc.bol_pos_last = 12524; Loc.bp = 12524; Loc.ep = 12536} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 411; Loc.bol_pos = 12537; Loc.line_nb_last = 411; Loc.bol_pos_last = 12537; Loc.bp = 12537; Loc.ep = 12551} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 411; Loc.bol_pos = 12537; Loc.line_nb_last = 411; Loc.bol_pos_last = 12537; Loc.bp = 12552; Loc.ep = 12567} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 411; Loc.bol_pos = 12537; Loc.line_nb_last = 411; Loc.bol_pos_last = 12537; Loc.bp = 12568; Loc.ep = 12584} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 412; Loc.bol_pos = 12585; Loc.line_nb_last = 412; Loc.bol_pos_last = 12585; Loc.bp = 12585; Loc.ep = 12599} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 412; Loc.bol_pos = 12585; Loc.line_nb_last = 412; Loc.bol_pos_last = 12585; Loc.bp = 12600; Loc.ep = 12615} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 412; Loc.bol_pos = 12585; Loc.line_nb_last = 412; Loc.bol_pos_last = 12585; Loc.bp = 12616; Loc.ep = 12632} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 413; Loc.bol_pos = 12633; Loc.line_nb_last = 413; Loc.bol_pos_last = 12633; Loc.bp = 12633; Loc.ep = 12655} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 414; Loc.bol_pos = 12656; Loc.line_nb_last = 414; Loc.bol_pos_last = 12656; Loc.bp = 12656; Loc.ep = 12665} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 414; Loc.bol_pos = 12656; Loc.line_nb_last = 414; Loc.bol_pos_last = 12656; Loc.bp = 12666; Loc.ep = 12682} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 415; Loc.bol_pos = 12683; Loc.line_nb_last = 415; Loc.bol_pos_last = 12683; Loc.bp = 12683; Loc.ep = 12704} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 416; Loc.bol_pos = 12705; Loc.line_nb_last = 416; Loc.bol_pos_last = 12705; Loc.bp = 12705; Loc.ep = 12709} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** CyclicRing **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 418; Loc.bol_pos = 12711; Loc.line_nb_last = 419; Loc.bol_pos_last = 12733; Loc.bp = 12711; Loc.ep = 12789} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 421; Loc.bol_pos = 12791; Loc.line_nb_last = 421; Loc.bol_pos_last = 12791; Loc.bp = 12791; Loc.ep = 12844} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 422; Loc.bol_pos = 12845; Loc.line_nb_last = 422; Loc.bol_pos_last = 12845; Loc.bp = 12845; Loc.ep = 12851} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 423; Loc.bol_pos = 12852; Loc.line_nb_last = 423; Loc.bol_pos_last = 12852; Loc.bp = 12853; Loc.ep = 12860} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 423; Loc.bol_pos = 12852; Loc.line_nb_last = 423; Loc.bol_pos_last = 12852; Loc.bp = 12861; Loc.ep = 12876} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 424; Loc.bol_pos = 12877; Loc.line_nb_last = 424; Loc.bol_pos_last = 12877; Loc.bp = 12878; Loc.ep = 12903} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 425; Loc.bol_pos = 12904; Loc.line_nb_last = 425; Loc.bol_pos_last = 12904; Loc.bp = 12905; Loc.ep = 12954} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 426; Loc.bol_pos = 12955; Loc.line_nb_last = 426; Loc.bol_pos_last = 12955; Loc.bp = 12955; Loc.ep = 12959} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eqb_eq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 428; Loc.bol_pos = 12961; Loc.line_nb_last = 428; Loc.bol_pos_last = 12961; Loc.bp = 12961; Loc.ep = 13016} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 429; Loc.bol_pos = 13017; Loc.line_nb_last = 429; Loc.bol_pos_last = 13017; Loc.bp = 13017; Loc.ep = 13023} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 429; Loc.bol_pos = 13017; Loc.line_nb_last = 429; Loc.bol_pos_last = 13017; Loc.bp = 13024; Loc.ep = 13041} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 429; Loc.bol_pos = 13017; Loc.line_nb_last = 429; Loc.bol_pos_last = 13017; Loc.bp = 13042; Loc.ep = 13046} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eqb_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/CyclicAxioms.v"; Loc.line_nb = 431; Loc.bol_pos = 13048; Loc.line_nb_last = 431; Loc.bol_pos_last = 13048; Loc.bp = 13048; Loc.ep = 13063} **)
+(**VERNAC_TYPE** VernacEndSegment **)

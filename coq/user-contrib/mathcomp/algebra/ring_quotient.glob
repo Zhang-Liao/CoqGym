@@ -1,0 +1,1747 @@
+DIGEST 8ec84840260b38fc3f94ed56f99f549f
+Fmathcomp.algebra.ring_quotient
+R175:202 mathcomp.ssreflect.ssreflect <> <> lib
+R234:239 mathcomp.ssreflect.eqtype <> <> lib
+R241:246 mathcomp.ssreflect.choice <> <> lib
+R248:256 mathcomp.ssreflect.ssreflect <> <> lib
+R258:264 mathcomp.ssreflect.ssrbool <> <> lib
+R266:271 mathcomp.ssreflect.ssrnat <> <> lib
+R273:278 mathcomp.ssreflect.ssrfun <> <> lib
+R280:282 mathcomp.ssreflect.seq <> <> lib
+R314:319 mathcomp.algebra.ssralg <> <> lib
+R321:336 mathcomp.ssreflect.generic_quotient <> <> lib
+sec 6960:6967 <> ZmodQuot
+var 6981:6981 ZmodQuot T
+var 7001:7003 ZmodQuot eqT
+R7007:7009 Coq.ssr.ssrbool <> rel def
+R7011:7011 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+var 7025:7029 ZmodQuot zeroT
+var 7037:7040 ZmodQuot oppT
+var 7053:7056 ZmodQuot addT
+R7033:7033 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7045:7048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7049:7049 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7044:7044 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7061:7064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7066:7069 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7070:7070 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7065:7065 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7060:7060 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+constr 7174:7190 <> ZmodQuotMixinPack
+rec 7082:7099 <> zmod_quot_mixin_of
+proj 7198:7215 <> zmod_eq_quot_mixin
+R7118:7130 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R7134:7134 mathcomp.algebra.ring_quotient <> Q var
+R7132:7132 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7145:7166 mathcomp.algebra.ssralg GRing.Zmodule class_of rec
+R7168:7168 mathcomp.algebra.ring_quotient <> Q var
+R7220:7235 mathcomp.ssreflect.generic_quotient <> eq_quot_mixin_of def
+R7244:7245 mathcomp.algebra.ring_quotient <> zc var
+R7241:7242 mathcomp.algebra.ring_quotient <> qc var
+R7237:7239 mathcomp.algebra.ring_quotient <> ZmodQuot.eqT var
+R7283:7285 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R7287:7290 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R7291:7308 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R7310:7311 mathcomp.algebra.ring_quotient <> zc var
+R7256:7260 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R7276:7276 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R7261:7272 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R7274:7275 mathcomp.algebra.ring_quotient <> qc var
+R7278:7282 mathcomp.algebra.ring_quotient <> ZmodQuot.zeroT var
+R7322:7328 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R7350:7352 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R7354:7365 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R7372:7376 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R7413:7413 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R7329:7333 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R7349:7349 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R7334:7345 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R7347:7348 mathcomp.algebra.ring_quotient <> qc var
+R7366:7369 mathcomp.algebra.ring_quotient <> ZmodQuot.oppT var
+R7371:7371 mathcomp.algebra.ring_quotient <> x var
+R7378:7386 mathcomp.algebra.ssralg GRing opp def
+R7412:7412 mathcomp.algebra.ring_quotient <> x var
+R7389:7406 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R7408:7409 mathcomp.algebra.ring_quotient <> zc var
+R7424:7430 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R7452:7454 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R7456:7456 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R7458:7469 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R7478:7482 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R7521:7521 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R7431:7435 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R7451:7451 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R7436:7447 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R7449:7450 mathcomp.algebra.ring_quotient <> qc var
+R7470:7473 mathcomp.algebra.ring_quotient <> ZmodQuot.addT var
+R7477:7477 mathcomp.algebra.ring_quotient <> y var
+R7475:7475 mathcomp.algebra.ring_quotient <> x var
+R7484:7492 mathcomp.algebra.ssralg GRing add def
+R7520:7520 mathcomp.algebra.ring_quotient <> y var
+R7518:7518 mathcomp.algebra.ring_quotient <> x var
+R7495:7512 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R7514:7515 mathcomp.algebra.ring_quotient <> zc var
+constr 7574:7586 <> ZmodQuotClass
+rec 7534:7551 <> zmod_quot_class_of
+proj 7592:7611 <> zmod_quot_quot_class
+proj 7637:7656 <> zmod_quot_zmod_class
+proj 7689:7703 <> zmod_quot_mixin
+R7616:7628 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R7632:7632 mathcomp.algebra.ring_quotient <> Q var
+R7630:7630 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R7661:7682 mathcomp.algebra.ssralg GRing.Zmodule class_of rec
+R7684:7684 mathcomp.algebra.ring_quotient <> Q var
+R7708:7725 mathcomp.algebra.ring_quotient <> zmod_quot_mixin_of rec
+R7752:7771 mathcomp.algebra.ring_quotient <> zmod_quot_zmod_class meth
+R7731:7750 mathcomp.algebra.ring_quotient <> zmod_quot_quot_class meth
+constr 7810:7825 <> ZmodQuotTypePack
+rec 7787:7798 <> zmodQuotType
+proj 7831:7844 <> zmod_quot_sort
+R7861:7878 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R7880:7893 mathcomp.algebra.ring_quotient <> zmod_quot_sort meth
+R7922:7933 mathcomp.algebra.ring_quotient <> zmodQuotType rec
+def 7948:7962 <> zmod_quot_class
+R7970:7987 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R7989:7991 mathcomp.algebra.ring_quotient <> zqT var
+R8035:8037 mathcomp.algebra.ring_quotient <> zqT var
+R8046:8063 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R8065:8067 mathcomp.algebra.ring_quotient <> qT' var
+R8003:8018 mathcomp.algebra.ring_quotient <> ZmodQuotTypePack constr
+def 8088:8105 <> zmod_eq_quot_class
+R8118:8135 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R8137:8139 mathcomp.algebra.ring_quotient <> zqT var
+R8146:8161 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R8167:8169 mathcomp.algebra.ring_quotient <> zqT var
+R8163:8165 mathcomp.algebra.ring_quotient <> ZmodQuot.eqT var
+R8174:8184 mathcomp.ssreflect.generic_quotient <> EqQuotClass constr
+R8186:8188 mathcomp.algebra.ring_quotient <> zqc var
+R8229:8241 mathcomp.ssreflect.eqtype Equality Pack constr
+R8244:8258 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R8260:8262 mathcomp.algebra.ring_quotient <> zqT var
+R8309:8319 mathcomp.ssreflect.choice Choice Pack constr
+R8322:8336 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R8338:8340 mathcomp.algebra.ring_quotient <> zqT var
+R8385:8402 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R8405:8419 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R8421:8423 mathcomp.algebra.ring_quotient <> zqT var
+R8466:8477 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R8480:8494 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R8496:8498 mathcomp.algebra.ring_quotient <> zqT var
+R8543:8556 mathcomp.ssreflect.generic_quotient <> EqQuotTypePack constr
+R8561:8578 mathcomp.algebra.ring_quotient <> zmod_eq_quot_class def
+R8581:8595 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R8597:8599 mathcomp.algebra.ring_quotient <> zqT var
+R8605:8658 mathcomp.algebra.ring_quotient <> zmodQuotType_eqType canonstruc
+R8661:8722 mathcomp.algebra.ring_quotient <> zmodQuotType_choiceType canonstruc
+R8725:8782 mathcomp.algebra.ring_quotient <> zmodQuotType_zmodType canonstruc
+R8785:8842 mathcomp.algebra.ring_quotient <> zmodQuotType_quotType canonstruc
+R8845:8906 mathcomp.algebra.ring_quotient <> zmodQuotType_eqQuotType canonstruc
+def 8921:8937 <> ZmodQuotType_pack
+R8956:8963 mathcomp.ssreflect.generic_quotient <> quotType rec
+R8965:8965 mathcomp.algebra.ring_quotient <> ZmodQuot.T var
+R8974:8981 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType syndef
+R8995:9002 Coq.ssr.ssrfun <> phant_id def
+R9020:9021 mathcomp.algebra.ring_quotient <> qc var
+R9005:9014 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R9016:9017 mathcomp.algebra.ring_quotient <> qT var
+R9025:9032 Coq.ssr.ssrfun <> phant_id def
+R9059:9060 mathcomp.algebra.ring_quotient <> zc var
+R9035:9053 mathcomp.algebra.ssralg GRing.Zmodule class def
+R9055:9056 mathcomp.algebra.ring_quotient <> zT var
+R9078:9093 mathcomp.algebra.ring_quotient <> ZmodQuotTypePack constr
+R9097:9109 mathcomp.algebra.ring_quotient <> ZmodQuotClass constr
+R9119:9119 mathcomp.algebra.ring_quotient <> m var
+R9116:9117 mathcomp.algebra.ring_quotient <> zc var
+R9113:9114 mathcomp.algebra.ring_quotient <> qc var
+R9111:9111 mathcomp.algebra.ring_quotient <> Q var
+def 9135:9152 <> ZmodQuotMixin_pack
+R9171:9180 mathcomp.ssreflect.generic_quotient <> eqQuotType rec
+R9182:9184 mathcomp.algebra.ring_quotient <> ZmodQuot.eqT var
+R9193:9208 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R9214:9214 mathcomp.algebra.ring_quotient <> Q var
+R9210:9212 mathcomp.algebra.ring_quotient <> ZmodQuot.eqT var
+R9226:9233 Coq.ssr.ssrfun <> phant_id def
+R9254:9255 mathcomp.algebra.ring_quotient <> qc var
+R9236:9248 mathcomp.ssreflect.generic_quotient <> eq_quot_class def
+R9250:9251 mathcomp.algebra.ring_quotient <> qT var
+R9272:9279 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType syndef
+R9288:9295 Coq.ssr.ssrfun <> phant_id def
+R9322:9323 mathcomp.algebra.ring_quotient <> zc var
+R9298:9316 mathcomp.algebra.ssralg GRing.Zmodule class def
+R9318:9319 mathcomp.algebra.ring_quotient <> zT var
+R9351:9367 mathcomp.algebra.ring_quotient <> ZmodQuotMixinPack constr
+R9385:9386 mathcomp.algebra.ring_quotient <> mD var
+R9382:9383 mathcomp.algebra.ring_quotient <> mN var
+R9379:9380 mathcomp.algebra.ring_quotient <> m0 var
+R9377:9377 mathcomp.algebra.ring_quotient <> e var
+R9374:9375 mathcomp.algebra.ring_quotient <> zc var
+R9371:9372 mathcomp.algebra.ring_quotient <> qc var
+R9369:9369 mathcomp.algebra.ring_quotient <> Q var
+def 9401:9418 <> ZmodQuotType_clone
+R9442:9449 Coq.ssr.ssrfun <> phant_id def
+R9472:9473 mathcomp.algebra.ring_quotient <> cT var
+R9452:9466 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R9468:9469 mathcomp.algebra.ring_quotient <> qT var
+R9479:9494 mathcomp.algebra.ring_quotient <> ZmodQuotTypePack constr
+R9498:9499 mathcomp.algebra.ring_quotient <> cT var
+R9496:9496 mathcomp.algebra.ring_quotient <> Q var
+prf 9509:9524 <> zmod_quot_mixinP
+R9534:9551 mathcomp.algebra.ring_quotient <> zmod_quot_mixin_of rec
+R9576:9590 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R9592:9594 mathcomp.algebra.ring_quotient <> zqT var
+R9554:9568 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R9570:9572 mathcomp.algebra.ring_quotient <> zqT var
+prf 9649:9656 <> pi_zeror
+R9677:9679 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9664:9667 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9668:9670 mathcomp.algebra.ring_quotient <> zqT var
+R9672:9676 mathcomp.algebra.ring_quotient <> ZmodQuot.zeroT var
+prf 9734:9740 <> pi_oppr
+R9748:9754 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R9762:9764 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R9766:9768 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R9775:9779 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R9783:9783 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R9755:9758 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9759:9761 mathcomp.algebra.ring_quotient <> zqT var
+R9769:9772 mathcomp.algebra.ring_quotient <> ZmodQuot.oppT var
+R9774:9774 mathcomp.algebra.ring_quotient <> x var
+R9780:9781 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R9782:9782 mathcomp.algebra.ring_quotient <> x var
+prf 9837:9843 <> pi_addr
+R9851:9857 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R9865:9867 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R9869:9869 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R9871:9873 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R9882:9886 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R9892:9892 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R9858:9861 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R9862:9864 mathcomp.algebra.ring_quotient <> zqT var
+R9874:9877 mathcomp.algebra.ring_quotient <> ZmodQuot.addT var
+R9881:9881 mathcomp.algebra.ring_quotient <> y var
+R9879:9879 mathcomp.algebra.ring_quotient <> x var
+R9888:9890 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R9887:9887 mathcomp.algebra.ring_quotient <> x var
+R9891:9891 mathcomp.algebra.ring_quotient <> y var
+R9976:9982 mathcomp.ssreflect.generic_quotient <> PiMorph syndef
+R9985:9992 mathcomp.algebra.ring_quotient <> pi_zeror thm
+R9994:9996 mathcomp.algebra.ring_quotient <> zqT var
+R10035:10042 mathcomp.ssreflect.generic_quotient <> PiMorph1 syndef
+R10045:10051 mathcomp.algebra.ring_quotient <> pi_oppr thm
+R10053:10055 mathcomp.algebra.ring_quotient <> zqT var
+R10094:10101 mathcomp.ssreflect.generic_quotient <> PiMorph2 syndef
+R10104:10110 mathcomp.algebra.ring_quotient <> pi_addr thm
+R10112:10114 mathcomp.algebra.ring_quotient <> zqT var
+R10123:10130 mathcomp.algebra.ring_quotient ZmodQuot <> sec
+syndef 10143:10154 <> ZmodQuotType
+R10173:10189 mathcomp.algebra.ring_quotient <> ZmodQuotType_pack def
+R10214:10215 Coq.ssr.ssrfun <> id syndef
+R10211:10212 Coq.ssr.ssrfun <> id syndef
+R10275:10292 mathcomp.algebra.ring_quotient <> ZmodQuotType_clone def
+R10310:10311 Coq.ssr.ssrfun <> id syndef
+not 10230:10230 <> ::form_scope:'['_'zmodQuotType'_x_','_x_'&'_x_'of'_x_']'
+syndef 10404:10416 <> ZmodQuotMixin
+R10436:10453 mathcomp.algebra.ring_quotient <> ZmodQuotMixin_pack def
+R10482:10491 mathcomp.ssreflect.generic_quotient <> pi_eq_quot thm
+R10478:10479 Coq.ssr.ssrfun <> id syndef
+R10471:10472 Coq.ssr.ssrfun <> id syndef
+sec 10516:10525 <> PiAdditive
+var 10540:10540 PiAdditive V
+var 10555:10560 PiAdditive equivV
+var 10572:10576 PiAdditive zeroV
+R10544:10551 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType syndef
+R10564:10566 Coq.ssr.ssrbool <> rel def
+R10568:10568 mathcomp.algebra.ring_quotient <> V var
+R10580:10580 mathcomp.algebra.ring_quotient <> V var
+var 10593:10593 PiAdditive Q
+R10598:10609 mathcomp.algebra.ring_quotient <> zmodQuotType rec
+R10630:10632 mathcomp.algebra.ssralg <> :::'+%R' not
+R10626:10628 mathcomp.algebra.ssralg <> ::ring_scope:'-%R' not
+R10620:10624 mathcomp.algebra.ring_quotient <> PiAdditive.zeroV var
+R10613:10618 mathcomp.algebra.ring_quotient <> PiAdditive.equivV var
+R10611:10611 mathcomp.algebra.ring_quotient <> PiAdditive.V var
+prf 10642:10655 <> pi_is_additive
+R10659:10666 mathcomp.algebra.ssralg GRing.Additive.Exports additive syndef
+R10668:10671 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R10672:10672 mathcomp.algebra.ring_quotient <> PiAdditive.Q var
+R10709:10711 mathcomp.ssreflect.generic_quotient <> piE syndef
+R10709:10711 mathcomp.ssreflect.generic_quotient <> piE syndef
+R10709:10711 mathcomp.ssreflect.generic_quotient <> piE syndef
+R10709:10711 mathcomp.ssreflect.generic_quotient <> piE syndef
+R10709:10711 mathcomp.ssreflect.generic_quotient <> piE syndef
+R10745:10752 mathcomp.algebra.ssralg GRing.Additive.Exports Additive syndef
+R10754:10767 mathcomp.algebra.ring_quotient <> pi_is_additive thm
+R10775:10784 mathcomp.algebra.ring_quotient PiAdditive <> sec
+sec 10796:10803 <> RingQuot
+var 10817:10817 RingQuot T
+var 10837:10839 RingQuot eqT
+R10843:10845 Coq.ssr.ssrbool <> rel def
+R10847:10847 mathcomp.algebra.ring_quotient <> RingQuot.T var
+var 10861:10865 RingQuot zeroT
+var 10873:10876 RingQuot oppT
+var 10889:10892 RingQuot addT
+R10869:10869 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10881:10884 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10885:10885 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10880:10880 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10897:10900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10902:10905 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10906:10906 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10901:10901 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10896:10896 mathcomp.algebra.ring_quotient <> RingQuot.T var
+var 10921:10924 RingQuot oneT
+var 10932:10935 RingQuot mulT
+R10928:10928 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10940:10943 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10945:10948 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10949:10949 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10944:10944 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R10939:10939 mathcomp.algebra.ring_quotient <> RingQuot.T var
+constr 11050:11066 <> RingQuotMixinPack
+rec 10961:10978 <> ring_quot_mixin_of
+proj 11074:11093 <> ring_zmod_quot_mixin
+R10997:11009 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R11013:11013 mathcomp.algebra.ring_quotient <> Q var
+R11011:11011 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R11024:11042 mathcomp.algebra.ssralg GRing.Ring class_of rec
+R11044:11044 mathcomp.algebra.ring_quotient <> Q var
+R11098:11115 mathcomp.algebra.ring_quotient <> zmod_quot_mixin_of rec
+R11140:11141 mathcomp.algebra.ring_quotient <> rc var
+R11137:11138 mathcomp.algebra.ring_quotient <> qc var
+R11132:11135 mathcomp.algebra.ring_quotient <> RingQuot.addT var
+R11127:11130 mathcomp.algebra.ring_quotient <> RingQuot.oppT var
+R11121:11125 mathcomp.algebra.ring_quotient <> RingQuot.zeroT var
+R11117:11119 mathcomp.algebra.ring_quotient <> RingQuot.eqT var
+R11178:11180 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11182:11185 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R11186:11200 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R11202:11203 mathcomp.algebra.ring_quotient <> rc var
+R11152:11156 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R11172:11172 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R11157:11168 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R11170:11171 mathcomp.algebra.ring_quotient <> qc var
+R11174:11177 mathcomp.algebra.ring_quotient <> RingQuot.oneT var
+R11214:11220 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11242:11244 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11246:11246 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11248:11259 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11268:11272 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11308:11308 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R11221:11225 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R11241:11241 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R11226:11237 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R11239:11240 mathcomp.algebra.ring_quotient <> qc var
+R11260:11263 mathcomp.algebra.ring_quotient <> RingQuot.mulT var
+R11267:11267 mathcomp.algebra.ring_quotient <> y var
+R11265:11265 mathcomp.algebra.ring_quotient <> x var
+R11274:11282 mathcomp.algebra.ssralg GRing mul def
+R11307:11307 mathcomp.algebra.ring_quotient <> y var
+R11305:11305 mathcomp.algebra.ring_quotient <> x var
+R11285:11299 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R11301:11302 mathcomp.algebra.ring_quotient <> rc var
+constr 11361:11373 <> RingQuotClass
+rec 11321:11338 <> ring_quot_class_of
+proj 11379:11398 <> ring_quot_quot_class
+proj 11424:11443 <> ring_quot_ring_class
+proj 11473:11487 <> ring_quot_mixin
+R11403:11415 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R11419:11419 mathcomp.algebra.ring_quotient <> Q var
+R11417:11417 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R11448:11466 mathcomp.algebra.ssralg GRing.Ring class_of rec
+R11468:11468 mathcomp.algebra.ring_quotient <> Q var
+R11492:11509 mathcomp.algebra.ring_quotient <> ring_quot_mixin_of rec
+R11536:11555 mathcomp.algebra.ring_quotient <> ring_quot_ring_class meth
+R11515:11534 mathcomp.algebra.ring_quotient <> ring_quot_quot_class meth
+constr 11594:11609 <> RingQuotTypePack
+rec 11571:11582 <> ringQuotType
+proj 11615:11628 <> ring_quot_sort
+R11645:11662 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R11664:11677 mathcomp.algebra.ring_quotient <> ring_quot_sort meth
+R11706:11717 mathcomp.algebra.ring_quotient <> ringQuotType rec
+def 11732:11746 <> ring_quot_class
+R11754:11771 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R11773:11775 mathcomp.algebra.ring_quotient <> rqT var
+R11819:11821 mathcomp.algebra.ring_quotient <> rqT var
+R11830:11847 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R11849:11851 mathcomp.algebra.ring_quotient <> qT' var
+R11787:11802 mathcomp.algebra.ring_quotient <> RingQuotTypePack constr
+def 11872:11891 <> ring_zmod_quot_class
+R11904:11921 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R11923:11925 mathcomp.algebra.ring_quotient <> rqT var
+R11932:11949 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R11971:11973 mathcomp.algebra.ring_quotient <> rqT var
+R11966:11969 mathcomp.algebra.ring_quotient <> RingQuot.addT var
+R11961:11964 mathcomp.algebra.ring_quotient <> RingQuot.oppT var
+R11955:11959 mathcomp.algebra.ring_quotient <> RingQuot.zeroT var
+R11951:11953 mathcomp.algebra.ring_quotient <> RingQuot.eqT var
+R11978:11990 mathcomp.algebra.ring_quotient <> ZmodQuotClass constr
+R11992:11994 mathcomp.algebra.ring_quotient <> rqc var
+def 12008:12025 <> ring_eq_quot_class
+R12038:12055 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R12057:12059 mathcomp.algebra.ring_quotient <> rqT var
+R12066:12081 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R12087:12089 mathcomp.algebra.ring_quotient <> rqT var
+R12083:12085 mathcomp.algebra.ring_quotient <> RingQuot.eqT var
+R12094:12104 mathcomp.ssreflect.generic_quotient <> EqQuotClass constr
+R12106:12108 mathcomp.algebra.ring_quotient <> rqc var
+R12149:12161 mathcomp.ssreflect.eqtype Equality Pack constr
+R12164:12178 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12180:12182 mathcomp.algebra.ring_quotient <> rqT var
+R12227:12237 mathcomp.ssreflect.choice Choice Pack constr
+R12240:12254 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12256:12258 mathcomp.algebra.ring_quotient <> rqT var
+R12303:12320 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R12323:12337 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12339:12341 mathcomp.algebra.ring_quotient <> rqT var
+R12386:12400 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R12403:12417 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12419:12421 mathcomp.algebra.ring_quotient <> rqT var
+R12464:12475 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R12478:12492 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12494:12496 mathcomp.algebra.ring_quotient <> rqT var
+R12543:12556 mathcomp.ssreflect.generic_quotient <> EqQuotTypePack constr
+R12559:12576 mathcomp.algebra.ring_quotient <> ring_eq_quot_class def
+R12579:12593 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12595:12597 mathcomp.algebra.ring_quotient <> rqT var
+R12647:12662 mathcomp.algebra.ring_quotient <> ZmodQuotTypePack constr
+R12665:12684 mathcomp.algebra.ring_quotient <> ring_zmod_quot_class def
+R12687:12701 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R12703:12705 mathcomp.algebra.ring_quotient <> rqT var
+R12711:12764 mathcomp.algebra.ring_quotient <> ringQuotType_eqType canonstruc
+R12767:12828 mathcomp.algebra.ring_quotient <> ringQuotType_choiceType canonstruc
+R12831:12888 mathcomp.algebra.ring_quotient <> ringQuotType_zmodType canonstruc
+R12891:12948 mathcomp.algebra.ring_quotient <> ringQuotType_ringType canonstruc
+R12951:13008 mathcomp.algebra.ring_quotient <> ringQuotType_quotType canonstruc
+R13011:13072 mathcomp.algebra.ring_quotient <> ringQuotType_eqQuotType canonstruc
+R13075:13140 mathcomp.algebra.ring_quotient <> ringQuotType_zmodQuotType canonstruc
+def 13155:13171 <> RingQuotType_pack
+R13190:13197 mathcomp.ssreflect.generic_quotient <> quotType rec
+R13199:13199 mathcomp.algebra.ring_quotient <> RingQuot.T var
+R13208:13215 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R13229:13236 Coq.ssr.ssrfun <> phant_id def
+R13254:13255 mathcomp.algebra.ring_quotient <> qc var
+R13239:13248 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R13250:13251 mathcomp.algebra.ring_quotient <> qT var
+R13259:13266 Coq.ssr.ssrfun <> phant_id def
+R13290:13291 mathcomp.algebra.ring_quotient <> rc var
+R13269:13284 mathcomp.algebra.ssralg GRing.Ring class def
+R13286:13287 mathcomp.algebra.ring_quotient <> zT var
+R13309:13324 mathcomp.algebra.ring_quotient <> RingQuotTypePack constr
+R13328:13340 mathcomp.algebra.ring_quotient <> RingQuotClass constr
+R13350:13350 mathcomp.algebra.ring_quotient <> m var
+R13347:13348 mathcomp.algebra.ring_quotient <> rc var
+R13344:13345 mathcomp.algebra.ring_quotient <> qc var
+R13342:13342 mathcomp.algebra.ring_quotient <> Q var
+def 13366:13383 <> RingQuotMixin_pack
+R13402:13413 mathcomp.algebra.ring_quotient <> zmodQuotType rec
+R13430:13433 mathcomp.algebra.ring_quotient <> RingQuot.addT var
+R13425:13428 mathcomp.algebra.ring_quotient <> RingQuot.oppT var
+R13419:13423 mathcomp.algebra.ring_quotient <> RingQuot.zeroT var
+R13415:13417 mathcomp.algebra.ring_quotient <> RingQuot.eqT var
+R13451:13468 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R13490:13490 mathcomp.algebra.ring_quotient <> Q var
+R13485:13488 mathcomp.algebra.ring_quotient <> RingQuot.addT var
+R13480:13483 mathcomp.algebra.ring_quotient <> RingQuot.oppT var
+R13474:13478 mathcomp.algebra.ring_quotient <> RingQuot.zeroT var
+R13470:13472 mathcomp.algebra.ring_quotient <> RingQuot.eqT var
+R13502:13509 Coq.ssr.ssrfun <> phant_id def
+R13532:13533 mathcomp.algebra.ring_quotient <> qc var
+R13512:13526 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R13528:13529 mathcomp.algebra.ring_quotient <> qT var
+R13550:13557 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R13566:13573 Coq.ssr.ssrfun <> phant_id def
+R13597:13598 mathcomp.algebra.ring_quotient <> rc var
+R13576:13591 mathcomp.algebra.ssralg GRing.Ring class def
+R13593:13594 mathcomp.algebra.ring_quotient <> rT var
+R13624:13640 mathcomp.algebra.ring_quotient <> RingQuotMixinPack constr
+R13656:13657 mathcomp.algebra.ring_quotient <> mM var
+R13653:13654 mathcomp.algebra.ring_quotient <> m1 var
+R13650:13651 mathcomp.algebra.ring_quotient <> mZ var
+R13647:13648 mathcomp.algebra.ring_quotient <> rc var
+R13644:13645 mathcomp.algebra.ring_quotient <> qc var
+R13642:13642 mathcomp.algebra.ring_quotient <> Q var
+def 13672:13689 <> RingQuotType_clone
+R13713:13720 Coq.ssr.ssrfun <> phant_id def
+R13743:13744 mathcomp.algebra.ring_quotient <> cT var
+R13723:13737 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R13739:13740 mathcomp.algebra.ring_quotient <> qT var
+R13750:13765 mathcomp.algebra.ring_quotient <> RingQuotTypePack constr
+R13769:13770 mathcomp.algebra.ring_quotient <> cT var
+R13767:13767 mathcomp.algebra.ring_quotient <> Q var
+prf 13780:13795 <> ring_quot_mixinP
+R13805:13822 mathcomp.algebra.ring_quotient <> ring_quot_mixin_of rec
+R13847:13861 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R13863:13865 mathcomp.algebra.ring_quotient <> rqT var
+R13825:13839 mathcomp.algebra.ring_quotient <> ring_quot_class def
+R13841:13843 mathcomp.algebra.ring_quotient <> rqT var
+prf 13920:13926 <> pi_oner
+R13946:13948 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13934:13937 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R13938:13940 mathcomp.algebra.ring_quotient <> rqT var
+R13942:13945 mathcomp.algebra.ring_quotient <> RingQuot.oneT var
+prf 14003:14009 <> pi_mulr
+R14017:14023 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14031:14033 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14035:14035 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14037:14039 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14048:14052 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14058:14058 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R14024:14027 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R14028:14030 mathcomp.algebra.ring_quotient <> rqT var
+R14040:14043 mathcomp.algebra.ring_quotient <> RingQuot.mulT var
+R14047:14047 mathcomp.algebra.ring_quotient <> y var
+R14045:14045 mathcomp.algebra.ring_quotient <> x var
+R14054:14056 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R14053:14053 mathcomp.algebra.ring_quotient <> x var
+R14057:14057 mathcomp.algebra.ring_quotient <> y var
+R14141:14147 mathcomp.ssreflect.generic_quotient <> PiMorph syndef
+R14150:14156 mathcomp.algebra.ring_quotient <> pi_oner thm
+R14158:14160 mathcomp.algebra.ring_quotient <> rqT var
+R14199:14206 mathcomp.ssreflect.generic_quotient <> PiMorph2 syndef
+R14209:14215 mathcomp.algebra.ring_quotient <> pi_mulr thm
+R14217:14219 mathcomp.algebra.ring_quotient <> rqT var
+R14228:14235 mathcomp.algebra.ring_quotient RingQuot <> sec
+syndef 14248:14259 <> RingQuotType
+R14280:14296 mathcomp.algebra.ring_quotient <> RingQuotType_pack def
+R14327:14328 Coq.ssr.ssrfun <> id syndef
+R14324:14325 Coq.ssr.ssrfun <> id syndef
+R14386:14403 mathcomp.algebra.ring_quotient <> RingQuotType_clone def
+R14425:14426 Coq.ssr.ssrfun <> id syndef
+not 14345:14345 <> ::form_scope:'['_'ringQuotType'_x_'&'_x_'of'_x_']'
+syndef 14514:14526 <> RingQuotMixin
+R14543:14560 mathcomp.algebra.ring_quotient <> RingQuotMixin_pack def
+R14593:14608 mathcomp.algebra.ring_quotient <> zmod_quot_mixinP thm
+R14589:14590 Coq.ssr.ssrfun <> id syndef
+R14582:14583 Coq.ssr.ssrfun <> id syndef
+sec 14630:14640 <> PiRMorphism
+var 14655:14655 PiRMorphism R
+var 14670:14675 PiRMorphism equivR
+var 14687:14691 PiRMorphism zeroR
+R14659:14666 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R14679:14681 Coq.ssr.ssrbool <> rel def
+R14683:14683 mathcomp.algebra.ring_quotient <> R var
+R14695:14695 mathcomp.algebra.ring_quotient <> R var
+var 14709:14709 PiRMorphism Q
+R14714:14725 mathcomp.algebra.ring_quotient <> ringQuotType rec
+R14752:14754 mathcomp.algebra.ssralg <> :::'*%R' not
+R14746:14748 mathcomp.algebra.ssralg <> :::'+%R' not
+R14742:14744 mathcomp.algebra.ssralg <> ::ring_scope:'-%R' not
+R14736:14740 mathcomp.algebra.ring_quotient <> PiRMorphism.zeroR var
+R14729:14734 mathcomp.algebra.ring_quotient <> PiRMorphism.equivR var
+R14727:14727 mathcomp.algebra.ring_quotient <> PiRMorphism.R var
+prf 14764:14783 <> pi_is_multiplicative
+R14787:14800 mathcomp.algebra.ssralg GRing.RMorphism.Exports multiplicative syndef
+R14802:14805 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R14806:14806 mathcomp.algebra.ring_quotient <> PiRMorphism.Q var
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14854:14856 mathcomp.ssreflect.generic_quotient <> piE syndef
+R14891:14902 mathcomp.algebra.ssralg GRing.RMorphism.Exports AddRMorphism syndef
+R14904:14923 mathcomp.algebra.ring_quotient <> pi_is_multiplicative thm
+R14931:14941 mathcomp.algebra.ring_quotient PiRMorphism <> sec
+sec 14953:14964 <> UnitRingQuot
+var 14978:14978 UnitRingQuot T
+var 14998:15000 UnitRingQuot eqT
+R15004:15006 Coq.ssr.ssrbool <> rel def
+R15008:15008 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+var 15022:15026 UnitRingQuot zeroT
+var 15034:15037 UnitRingQuot oppT
+var 15050:15053 UnitRingQuot addT
+R15030:15030 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15042:15045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15046:15046 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15041:15041 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15058:15061 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15063:15066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15067:15067 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15062:15062 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15057:15057 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+var 15082:15085 UnitRingQuot oneT
+var 15093:15096 UnitRingQuot mulT
+R15089:15089 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15101:15104 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15106:15109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15110:15110 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15105:15105 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15100:15100 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+var 15125:15129 UnitRingQuot unitT
+var 15142:15145 UnitRingQuot invT
+R15133:15136 Coq.ssr.ssrbool <> pred def
+R15138:15138 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15150:15153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15154:15154 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15149:15149 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+constr 15264:15284 <> UnitRingQuotMixinPack
+rec 15166:15188 <> unit_ring_quot_mixin_of
+proj 15292:15316 <> unit_ring_zmod_quot_mixin
+R15207:15219 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R15223:15223 mathcomp.algebra.ring_quotient <> Q var
+R15221:15221 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15234:15256 mathcomp.algebra.ssralg GRing.UnitRing class_of rec
+R15258:15258 mathcomp.algebra.ring_quotient <> Q var
+R15329:15346 mathcomp.algebra.ring_quotient <> ring_quot_mixin_of rec
+R15381:15382 mathcomp.algebra.ring_quotient <> rc var
+R15378:15379 mathcomp.algebra.ring_quotient <> qc var
+R15373:15376 mathcomp.algebra.ring_quotient <> UnitRingQuot.mulT var
+R15368:15371 mathcomp.algebra.ring_quotient <> UnitRingQuot.oneT var
+R15363:15366 mathcomp.algebra.ring_quotient <> UnitRingQuot.addT var
+R15358:15361 mathcomp.algebra.ring_quotient <> UnitRingQuot.oppT var
+R15352:15356 mathcomp.algebra.ring_quotient <> UnitRingQuot.zeroT var
+R15348:15350 mathcomp.algebra.ring_quotient <> UnitRingQuot.eqT var
+R15393:15398 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15420:15422 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15424:15435 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15443:15447 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15490:15490 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15399:15403 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R15419:15419 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R15404:15415 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R15417:15418 mathcomp.algebra.ring_quotient <> qc var
+R15436:15440 mathcomp.algebra.ring_quotient <> UnitRingQuot.unitT var
+R15442:15442 mathcomp.algebra.ring_quotient <> x var
+R15449:15453 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R15448:15448 mathcomp.algebra.ring_quotient <> x var
+R15455:15464 mathcomp.algebra.ssralg GRing unit def
+R15467:15485 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R15487:15488 mathcomp.algebra.ring_quotient <> rc var
+R15501:15507 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15529:15531 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15533:15544 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15551:15555 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15593:15593 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R15508:15512 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R15528:15528 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R15513:15524 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R15526:15527 mathcomp.algebra.ring_quotient <> qc var
+R15545:15548 mathcomp.algebra.ring_quotient <> UnitRingQuot.invT var
+R15550:15550 mathcomp.algebra.ring_quotient <> x var
+R15557:15565 mathcomp.algebra.ssralg GRing inv def
+R15592:15592 mathcomp.algebra.ring_quotient <> x var
+R15568:15586 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R15588:15589 mathcomp.algebra.ring_quotient <> rc var
+constr 15651:15667 <> UnitRingQuotClass
+rec 15606:15628 <> unit_ring_quot_class_of
+proj 15673:15697 <> unit_ring_quot_quot_class
+proj 15723:15747 <> unit_ring_quot_ring_class
+proj 15781:15800 <> unit_ring_quot_mixin
+R15702:15714 mathcomp.ssreflect.generic_quotient <> quot_class_of syndef
+R15718:15718 mathcomp.algebra.ring_quotient <> Q var
+R15716:15716 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R15752:15774 mathcomp.algebra.ssralg GRing.UnitRing class_of rec
+R15776:15776 mathcomp.algebra.ring_quotient <> Q var
+R15805:15827 mathcomp.algebra.ring_quotient <> unit_ring_quot_mixin_of rec
+R15859:15883 mathcomp.algebra.ring_quotient <> unit_ring_quot_ring_class meth
+R15833:15857 mathcomp.algebra.ring_quotient <> unit_ring_quot_quot_class meth
+constr 15926:15945 <> UnitRingQuotTypePack
+rec 15899:15914 <> unitRingQuotType
+proj 15951:15969 <> unit_ring_quot_sort
+R15986:16008 mathcomp.algebra.ring_quotient <> unit_ring_quot_class_of rec
+R16010:16028 mathcomp.algebra.ring_quotient <> unit_ring_quot_sort meth
+R16057:16072 mathcomp.algebra.ring_quotient <> unitRingQuotType rec
+def 16087:16106 <> unit_ring_quot_class
+R16114:16136 mathcomp.algebra.ring_quotient <> unit_ring_quot_class_of rec
+R16138:16140 mathcomp.algebra.ring_quotient <> rqT var
+R16188:16190 mathcomp.algebra.ring_quotient <> rqT var
+R16203:16225 mathcomp.algebra.ring_quotient <> unit_ring_quot_class_of rec
+R16227:16229 mathcomp.algebra.ring_quotient <> qT' var
+R16152:16171 mathcomp.algebra.ring_quotient <> UnitRingQuotTypePack constr
+def 16250:16274 <> unit_ring_ring_quot_class
+R16287:16309 mathcomp.algebra.ring_quotient <> unit_ring_quot_class_of rec
+R16311:16313 mathcomp.algebra.ring_quotient <> rqT var
+R16320:16337 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R16369:16371 mathcomp.algebra.ring_quotient <> rqT var
+R16364:16367 mathcomp.algebra.ring_quotient <> UnitRingQuot.mulT var
+R16359:16362 mathcomp.algebra.ring_quotient <> UnitRingQuot.oneT var
+R16354:16357 mathcomp.algebra.ring_quotient <> UnitRingQuot.addT var
+R16349:16352 mathcomp.algebra.ring_quotient <> UnitRingQuot.oppT var
+R16343:16347 mathcomp.algebra.ring_quotient <> UnitRingQuot.zeroT var
+R16339:16341 mathcomp.algebra.ring_quotient <> UnitRingQuot.eqT var
+R16376:16388 mathcomp.algebra.ring_quotient <> RingQuotClass constr
+R16390:16392 mathcomp.algebra.ring_quotient <> rqc var
+def 16406:16430 <> unit_ring_zmod_quot_class
+R16443:16465 mathcomp.algebra.ring_quotient <> unit_ring_quot_class_of rec
+R16467:16469 mathcomp.algebra.ring_quotient <> rqT var
+R16476:16493 mathcomp.algebra.ring_quotient <> zmod_quot_class_of rec
+R16515:16517 mathcomp.algebra.ring_quotient <> rqT var
+R16510:16513 mathcomp.algebra.ring_quotient <> UnitRingQuot.addT var
+R16505:16508 mathcomp.algebra.ring_quotient <> UnitRingQuot.oppT var
+R16499:16503 mathcomp.algebra.ring_quotient <> UnitRingQuot.zeroT var
+R16495:16497 mathcomp.algebra.ring_quotient <> UnitRingQuot.eqT var
+R16522:16534 mathcomp.algebra.ring_quotient <> ZmodQuotClass constr
+R16536:16538 mathcomp.algebra.ring_quotient <> rqc var
+def 16552:16574 <> unit_ring_eq_quot_class
+R16587:16609 mathcomp.algebra.ring_quotient <> unit_ring_quot_class_of rec
+R16611:16613 mathcomp.algebra.ring_quotient <> rqT var
+R16620:16635 mathcomp.ssreflect.generic_quotient <> eq_quot_class_of rec
+R16641:16643 mathcomp.algebra.ring_quotient <> rqT var
+R16637:16639 mathcomp.algebra.ring_quotient <> UnitRingQuot.eqT var
+R16648:16658 mathcomp.ssreflect.generic_quotient <> EqQuotClass constr
+R16660:16662 mathcomp.algebra.ring_quotient <> rqc var
+R16709:16721 mathcomp.ssreflect.eqtype Equality Pack constr
+R16724:16743 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R16745:16747 mathcomp.algebra.ring_quotient <> rqT var
+R16798:16808 mathcomp.ssreflect.choice Choice Pack constr
+R16811:16830 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R16832:16834 mathcomp.algebra.ring_quotient <> rqT var
+R16883:16900 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R16903:16922 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R16924:16926 mathcomp.algebra.ring_quotient <> rqT var
+R16975:16989 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R16992:17011 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R17013:17015 mathcomp.algebra.ring_quotient <> rqT var
+R17068:17086 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R17089:17108 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R17110:17112 mathcomp.algebra.ring_quotient <> rqT var
+R17161:17172 mathcomp.ssreflect.generic_quotient <> QuotTypePack constr
+R17175:17194 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R17196:17198 mathcomp.algebra.ring_quotient <> rqT var
+R17249:17262 mathcomp.ssreflect.generic_quotient <> EqQuotTypePack constr
+R17265:17287 mathcomp.algebra.ring_quotient <> unit_ring_eq_quot_class def
+R17290:17309 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R17311:17313 mathcomp.algebra.ring_quotient <> rqT var
+R17367:17382 mathcomp.algebra.ring_quotient <> ZmodQuotTypePack constr
+R17385:17409 mathcomp.algebra.ring_quotient <> unit_ring_zmod_quot_class def
+R17412:17431 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R17433:17435 mathcomp.algebra.ring_quotient <> rqT var
+R17489:17504 mathcomp.algebra.ring_quotient <> RingQuotTypePack constr
+R17507:17531 mathcomp.algebra.ring_quotient <> unit_ring_ring_quot_class def
+R17534:17553 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R17555:17557 mathcomp.algebra.ring_quotient <> rqT var
+R17563:17624 mathcomp.algebra.ring_quotient <> unitRingQuotType_eqType canonstruc
+R17627:17696 mathcomp.algebra.ring_quotient <> unitRingQuotType_choiceType canonstruc
+R17699:17764 mathcomp.algebra.ring_quotient <> unitRingQuotType_zmodType canonstruc
+R17767:17832 mathcomp.algebra.ring_quotient <> unitRingQuotType_ringType canonstruc
+R17835:17908 mathcomp.algebra.ring_quotient <> unitRingQuotType_unitRingType canonstruc
+R17911:17976 mathcomp.algebra.ring_quotient <> unitRingQuotType_quotType canonstruc
+R17979:18048 mathcomp.algebra.ring_quotient <> unitRingQuotType_eqQuotType canonstruc
+R18051:18124 mathcomp.algebra.ring_quotient <> unitRingQuotType_zmodQuotType canonstruc
+R18127:18200 mathcomp.algebra.ring_quotient <> unitRingQuotType_ringQuotType canonstruc
+def 18215:18235 <> UnitRingQuotType_pack
+R18254:18261 mathcomp.ssreflect.generic_quotient <> quotType rec
+R18263:18263 mathcomp.algebra.ring_quotient <> UnitRingQuot.T var
+R18272:18283 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType syndef
+R18297:18304 Coq.ssr.ssrfun <> phant_id def
+R18322:18323 mathcomp.algebra.ring_quotient <> qc var
+R18307:18316 mathcomp.ssreflect.generic_quotient <> quot_class proj
+R18318:18319 mathcomp.algebra.ring_quotient <> qT var
+R18327:18334 Coq.ssr.ssrfun <> phant_id def
+R18362:18363 mathcomp.algebra.ring_quotient <> rc var
+R18337:18356 mathcomp.algebra.ssralg GRing.UnitRing class def
+R18358:18359 mathcomp.algebra.ring_quotient <> rT var
+R18381:18400 mathcomp.algebra.ring_quotient <> UnitRingQuotTypePack constr
+R18404:18420 mathcomp.algebra.ring_quotient <> UnitRingQuotClass constr
+R18430:18430 mathcomp.algebra.ring_quotient <> m var
+R18427:18428 mathcomp.algebra.ring_quotient <> rc var
+R18424:18425 mathcomp.algebra.ring_quotient <> qc var
+R18422:18422 mathcomp.algebra.ring_quotient <> Q var
+def 18446:18467 <> UnitRingQuotMixin_pack
+R18486:18497 mathcomp.algebra.ring_quotient <> ringQuotType rec
+R18524:18527 mathcomp.algebra.ring_quotient <> UnitRingQuot.mulT var
+R18519:18522 mathcomp.algebra.ring_quotient <> UnitRingQuot.oneT var
+R18514:18517 mathcomp.algebra.ring_quotient <> UnitRingQuot.addT var
+R18509:18512 mathcomp.algebra.ring_quotient <> UnitRingQuot.oppT var
+R18503:18507 mathcomp.algebra.ring_quotient <> UnitRingQuot.zeroT var
+R18499:18501 mathcomp.algebra.ring_quotient <> UnitRingQuot.eqT var
+R18545:18562 mathcomp.algebra.ring_quotient <> ring_quot_class_of rec
+R18594:18594 mathcomp.algebra.ring_quotient <> Q var
+R18589:18592 mathcomp.algebra.ring_quotient <> UnitRingQuot.mulT var
+R18584:18587 mathcomp.algebra.ring_quotient <> UnitRingQuot.oneT var
+R18579:18582 mathcomp.algebra.ring_quotient <> UnitRingQuot.addT var
+R18574:18577 mathcomp.algebra.ring_quotient <> UnitRingQuot.oppT var
+R18568:18572 mathcomp.algebra.ring_quotient <> UnitRingQuot.zeroT var
+R18564:18566 mathcomp.algebra.ring_quotient <> UnitRingQuot.eqT var
+R18606:18613 Coq.ssr.ssrfun <> phant_id def
+R18636:18637 mathcomp.algebra.ring_quotient <> qc var
+R18616:18630 mathcomp.algebra.ring_quotient <> zmod_quot_class def
+R18632:18633 mathcomp.algebra.ring_quotient <> qT var
+R18654:18665 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType syndef
+R18674:18681 Coq.ssr.ssrfun <> phant_id def
+R18709:18710 mathcomp.algebra.ring_quotient <> rc var
+R18684:18703 mathcomp.algebra.ssralg GRing.UnitRing class def
+R18705:18706 mathcomp.algebra.ring_quotient <> rT var
+R18736:18756 mathcomp.algebra.ring_quotient <> UnitRingQuotMixinPack constr
+R18772:18773 mathcomp.algebra.ring_quotient <> mV var
+R18769:18770 mathcomp.algebra.ring_quotient <> mU var
+R18766:18767 mathcomp.algebra.ring_quotient <> mR var
+R18763:18764 mathcomp.algebra.ring_quotient <> rc var
+R18760:18761 mathcomp.algebra.ring_quotient <> qc var
+R18758:18758 mathcomp.algebra.ring_quotient <> Q var
+def 18788:18809 <> UnitRingQuotType_clone
+R18833:18840 Coq.ssr.ssrfun <> phant_id def
+R18868:18869 mathcomp.algebra.ring_quotient <> cT var
+R18843:18862 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R18864:18865 mathcomp.algebra.ring_quotient <> qT var
+R18875:18894 mathcomp.algebra.ring_quotient <> UnitRingQuotTypePack constr
+R18898:18899 mathcomp.algebra.ring_quotient <> cT var
+R18896:18896 mathcomp.algebra.ring_quotient <> Q var
+prf 18909:18929 <> unit_ring_quot_mixinP
+R18939:18961 mathcomp.algebra.ring_quotient <> unit_ring_quot_mixin_of rec
+R18991:19010 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R19012:19014 mathcomp.algebra.ring_quotient <> rqT var
+R18964:18983 mathcomp.algebra.ring_quotient <> unit_ring_quot_class def
+R18985:18987 mathcomp.algebra.ring_quotient <> rqT var
+prf 19069:19076 <> pi_unitr
+R19084:19089 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19097:19099 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19101:19103 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19111:19115 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19132:19132 Coq.ssr.ssrfun <> ::type_scope:'{'_'mono'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19090:19093 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R19094:19096 mathcomp.algebra.ring_quotient <> rqT var
+R19104:19108 mathcomp.algebra.ring_quotient <> UnitRingQuot.unitT var
+R19110:19110 mathcomp.algebra.ring_quotient <> x var
+R19117:19121 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R19116:19116 mathcomp.algebra.ring_quotient <> x var
+R19122:19131 mathcomp.algebra.ssralg GRing unit def
+prf 19186:19192 <> pi_invr
+R19200:19206 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19214:19216 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19218:19220 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19227:19231 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19236:19236 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R19207:19210 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R19211:19213 mathcomp.algebra.ring_quotient <> rqT var
+R19221:19224 mathcomp.algebra.ring_quotient <> UnitRingQuot.invT var
+R19226:19226 mathcomp.algebra.ring_quotient <> x var
+R19233:19235 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R19232:19232 mathcomp.algebra.ring_quotient <> x var
+R19320:19326 mathcomp.ssreflect.generic_quotient <> PiMono1 syndef
+R19329:19336 mathcomp.algebra.ring_quotient <> pi_unitr thm
+R19338:19340 mathcomp.algebra.ring_quotient <> rqT var
+R19379:19386 mathcomp.ssreflect.generic_quotient <> PiMorph1 syndef
+R19389:19395 mathcomp.algebra.ring_quotient <> pi_invr thm
+R19397:19399 mathcomp.algebra.ring_quotient <> rqT var
+R19408:19419 mathcomp.algebra.ring_quotient UnitRingQuot <> sec
+syndef 19432:19447 <> UnitRingQuotType
+R19466:19486 mathcomp.algebra.ring_quotient <> UnitRingQuotType_pack def
+R19519:19520 Coq.ssr.ssrfun <> id syndef
+R19516:19517 Coq.ssr.ssrfun <> id syndef
+R19582:19603 mathcomp.algebra.ring_quotient <> UnitRingQuotType_clone def
+R19629:19630 Coq.ssr.ssrfun <> id syndef
+not 19537:19537 <> ::form_scope:'['_'unitRingQuotType'_x_'&'_x_'of'_x_']'
+syndef 19722:19738 <> UnitRingQuotMixin
+R19755:19776 mathcomp.algebra.ring_quotient <> UnitRingQuotMixin_pack def
+R19817:19832 mathcomp.algebra.ring_quotient <> zmod_quot_mixinP thm
+R19813:19814 Coq.ssr.ssrfun <> id syndef
+R19806:19807 Coq.ssr.ssrfun <> id syndef
+sec 19854:19861 <> IdealDef
+def 19876:19887 <> proper_ideal
+R19894:19901 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R19909:19920 Coq.ssr.ssrbool <> predPredType canonstruc
+R19922:19922 mathcomp.algebra.ring_quotient <> R var
+R19947:19950 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R19938:19945 Coq.ssr.ssrbool <> ::bool_scope:x_'\notin'_x not
+R19946:19946 mathcomp.algebra.ring_quotient <> S var
+R19961:19964 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R19966:19967 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R19989:19989 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R19965:19965 mathcomp.algebra.ring_quotient <> S var
+R19983:19987 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R19979:19981 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19978:19978 mathcomp.algebra.ring_quotient <> a var
+R19982:19982 mathcomp.algebra.ring_quotient <> u var
+R19988:19988 mathcomp.algebra.ring_quotient <> S var
+def 20004:20022 <> prime_idealr_closed
+R20029:20036 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R20044:20055 Coq.ssr.ssrbool <> predPredType canonstruc
+R20057:20057 mathcomp.algebra.ring_quotient <> R var
+R20095:20098 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20099:20099 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R20107:20112 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R20120:20120 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R20101:20105 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R20100:20100 mathcomp.algebra.ring_quotient <> u var
+R20106:20106 mathcomp.algebra.ring_quotient <> S var
+R20114:20118 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R20113:20113 mathcomp.algebra.ring_quotient <> v var
+R20119:20119 mathcomp.algebra.ring_quotient <> S var
+R20089:20093 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R20085:20087 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20084:20084 mathcomp.algebra.ring_quotient <> u var
+R20088:20088 mathcomp.algebra.ring_quotient <> v var
+R20094:20094 mathcomp.algebra.ring_quotient <> S var
+def 20135:20147 <> idealr_closed
+R20154:20161 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R20169:20180 Coq.ssr.ssrbool <> predPredType canonstruc
+R20182:20182 mathcomp.algebra.ring_quotient <> R var
+R20190:20193 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R20201:20202 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R20213:20215 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R20263:20263 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R20195:20199 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R20200:20200 mathcomp.algebra.ring_quotient <> S var
+R20204:20211 Coq.ssr.ssrbool <> ::bool_scope:x_'\notin'_x not
+R20212:20212 mathcomp.algebra.ring_quotient <> S var
+R20226:20229 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20231:20234 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20262:20262 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_'&'_','_x_'}' not
+R20230:20230 mathcomp.algebra.ring_quotient <> S var
+R20256:20260 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R20252:20254 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R20248:20250 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20247:20247 mathcomp.algebra.ring_quotient <> a var
+R20251:20251 mathcomp.algebra.ring_quotient <> u var
+R20255:20255 mathcomp.algebra.ring_quotient <> v var
+R20261:20261 mathcomp.algebra.ring_quotient <> S var
+prf 20273:20296 <> idealr_closed_nontrivial
+R20322:20325 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20326:20337 mathcomp.algebra.ring_quotient <> proper_ideal def
+R20339:20339 mathcomp.algebra.ring_quotient <> S var
+R20305:20317 mathcomp.algebra.ring_quotient <> idealr_closed def
+R20321:20321 mathcomp.algebra.ring_quotient <> S var
+R20319:20319 mathcomp.algebra.ring_quotient <> R var
+R20400:20402 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20405:20409 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R20405:20409 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R20400:20402 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20400:20402 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20405:20409 mathcomp.algebra.ssralg GRing.Theory addr0 def
+prf 20427:20440 <> idealr_closedB
+R20466:20469 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R20470:20480 mathcomp.algebra.ssralg GRing.Pred.Exports zmod_closed syndef
+R20482:20482 mathcomp.algebra.ring_quotient <> S var
+R20449:20461 mathcomp.algebra.ring_quotient <> idealr_closed def
+R20465:20465 mathcomp.algebra.ring_quotient <> S var
+R20463:20463 mathcomp.algebra.ring_quotient <> R var
+R20542:20547 mathcomp.algebra.ssralg GRing.Theory mulN1r def
+R20549:20553 mathcomp.algebra.ssralg GRing.Theory addrC def
+R20542:20547 mathcomp.algebra.ssralg GRing.Theory mulN1r def
+R20542:20547 mathcomp.algebra.ssralg GRing.Theory mulN1r def
+R20549:20553 mathcomp.algebra.ssralg GRing.Theory addrC def
+R20549:20553 mathcomp.algebra.ssralg GRing.Theory addrC def
+R20565:20619 mathcomp.algebra.ring_quotient <> idealr_closedB thm
+R20622:20687 mathcomp.algebra.ring_quotient <> idealr_closed_nontrivial thm
+constr 20747:20753 <> MkIdeal
+rec 20701:20706 <> idealr
+proj 20759:20769 <> idealr_zmod
+R20713:20720 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R20728:20739 Coq.ssr.ssrbool <> predPredType canonstruc
+R20741:20741 mathcomp.algebra.ring_quotient <> R var
+R20774:20781 mathcomp.algebra.ssralg GRing.Pred.Exports zmodPred syndef
+R20783:20783 mathcomp.algebra.ring_quotient <> S var
+R20792:20803 mathcomp.algebra.ring_quotient <> proper_ideal def
+R20805:20805 mathcomp.algebra.ring_quotient <> S var
+constr 20873:20884 <> MkPrimeIdeal
+rec 20821:20832 <> prime_idealr
+proj 20890:20906 <> prime_idealr_zmod
+R20839:20846 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R20854:20865 Coq.ssr.ssrbool <> predPredType canonstruc
+R20867:20867 mathcomp.algebra.ring_quotient <> R var
+R20911:20916 mathcomp.algebra.ring_quotient <> idealr rec
+R20918:20918 mathcomp.algebra.ring_quotient <> S var
+R20927:20945 mathcomp.algebra.ring_quotient <> prime_idealr_closed def
+R20947:20947 mathcomp.algebra.ring_quotient <> S var
+def 20964:20969 <> Idealr
+R20976:20983 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R20991:21002 Coq.ssr.ssrbool <> predPredType canonstruc
+R21004:21004 mathcomp.algebra.ring_quotient <> R var
+R21016:21023 mathcomp.algebra.ssralg GRing.Pred.Exports zmodPred syndef
+R21025:21025 mathcomp.algebra.ring_quotient <> I var
+R21046:21055 Coq.ssr.ssrbool <> keyed_pred rec
+R21057:21061 mathcomp.algebra.ring_quotient <> zmodI var
+R21080:21083 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21084:21089 mathcomp.algebra.ring_quotient <> idealr rec
+R21091:21091 mathcomp.algebra.ring_quotient <> I var
+R21066:21077 mathcomp.algebra.ring_quotient <> proper_ideal def
+R21079:21079 mathcomp.algebra.ring_quotient <> I var
+sec 21143:21153 IdealDef IdealTheory
+var 21167:21167 IdealDef.IdealTheory R
+var 21182:21182 IdealDef.IdealTheory I
+var 21213:21219 IdealDef.IdealTheory idealrI
+var 21234:21235 IdealDef.IdealTheory kI
+R21171:21178 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R21186:21197 Coq.ssr.ssrbool <> predPredType canonstruc
+R21199:21199 mathcomp.algebra.ring_quotient <> R var
+R21223:21228 mathcomp.algebra.ring_quotient <> idealr rec
+R21230:21230 mathcomp.algebra.ring_quotient <> I var
+R21239:21248 Coq.ssr.ssrbool <> keyed_pred rec
+R21250:21256 mathcomp.algebra.ring_quotient <> idealrI var
+prf 21267:21273 <> idealr1
+R21285:21287 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21278:21282 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21283:21284 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21288:21292 Coq.Init.Datatypes <> false constr
+R21312:21316 Coq.ssr.ssrbool <> negPf thm
+R21325:21331 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.idealrI var
+R21333:21334 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21312:21316 Coq.ssr.ssrbool <> negPf thm
+R21333:21334 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21333:21334 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21325:21331 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.idealrI var
+R21325:21331 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.idealrI var
+prf 21374:21380 <> idealMr
+R21396:21399 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21405:21409 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21401:21403 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R21400:21400 mathcomp.algebra.ring_quotient <> a var
+R21404:21404 mathcomp.algebra.ring_quotient <> u var
+R21410:21411 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21389:21393 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21388:21388 mathcomp.algebra.ring_quotient <> u var
+R21394:21395 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21430:21436 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.idealrI var
+R21438:21439 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21438:21439 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21438:21439 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21430:21436 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.idealrI var
+R21430:21436 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.idealrI var
+prf 21505:21511 <> idealr0
+R21516:21520 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21521:21522 mathcomp.algebra.ring_quotient <> IdealDef.IdealTheory.kI var
+R21539:21544 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R21539:21544 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R21557:21567 mathcomp.algebra.ring_quotient IdealDef.IdealTheory <> sec
+sec 21579:21594 IdealDef PrimeIdealTheory
+var 21609:21609 IdealDef.PrimeIdealTheory R
+var 21627:21627 IdealDef.PrimeIdealTheory I
+var 21658:21665 IdealDef.PrimeIdealTheory pidealrI
+var 21686:21687 IdealDef.PrimeIdealTheory kI
+R21613:21623 mathcomp.algebra.ssralg GRing.ComRing.Exports comRingType syndef
+R21631:21642 Coq.ssr.ssrbool <> predPredType canonstruc
+R21644:21644 mathcomp.algebra.ring_quotient <> R var
+R21669:21680 mathcomp.algebra.ring_quotient <> prime_idealr rec
+R21682:21682 mathcomp.algebra.ring_quotient <> I var
+R21691:21700 Coq.ssr.ssrbool <> keyed_pred rec
+R21702:21709 mathcomp.algebra.ring_quotient <> pidealrI var
+prf 21720:21732 <> prime_idealrM
+R21740:21740 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21753:21756 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R21746:21750 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21742:21744 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R21741:21741 mathcomp.algebra.ring_quotient <> u var
+R21745:21745 mathcomp.algebra.ring_quotient <> v var
+R21751:21752 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.kI var
+R21757:21757 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R21766:21771 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R21780:21780 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R21759:21763 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21758:21758 mathcomp.algebra.ring_quotient <> u var
+R21764:21765 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.kI var
+R21773:21777 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R21772:21772 mathcomp.algebra.ring_quotient <> v var
+R21778:21779 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.kI var
+R21796:21798 Coq.ssr.ssrbool <> idP thm
+R21800:21802 Coq.ssr.ssrbool <> idP thm
+R21849:21853 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R21796:21798 Coq.ssr.ssrbool <> idP thm
+R21800:21802 Coq.ssr.ssrbool <> idP thm
+R21818:21820 Coq.ssr.ssrbool <> orP thm
+R21826:21832 mathcomp.algebra.ring_quotient <> idealMr thm
+R21826:21832 mathcomp.algebra.ring_quotient <> idealMr thm
+R21849:21853 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R21849:21853 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R21865:21872 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.pidealrI var
+R21874:21875 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.kI var
+R21874:21875 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.kI var
+R21874:21875 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.kI var
+R21865:21872 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.pidealrI var
+R21865:21872 mathcomp.algebra.ring_quotient <> IdealDef.PrimeIdealTheory.pidealrI var
+R21935:21950 mathcomp.algebra.ring_quotient IdealDef.PrimeIdealTheory <> sec
+R21958:21965 mathcomp.algebra.ring_quotient IdealDef <> sec
+mod 21976:21983 <> Quotient
+sec 21994:22005 Quotient ZmodQuotient
+var 22019:22019 Quotient.ZmodQuotient R
+var 22034:22034 Quotient.ZmodQuotient I
+var 22065:22069 Quotient.ZmodQuotient zmodI
+var 22086:22087 Quotient.ZmodQuotient kI
+R22023:22030 mathcomp.algebra.ssralg GRing.Zmodule.Exports zmodType syndef
+R22038:22049 Coq.ssr.ssrbool <> predPredType canonstruc
+R22051:22051 mathcomp.algebra.ring_quotient <> R var
+R22073:22080 mathcomp.algebra.ssralg GRing.Pred.Exports zmodPred syndef
+R22082:22082 mathcomp.algebra.ring_quotient <> I var
+R22091:22100 Coq.ssr.ssrbool <> keyed_pred rec
+R22102:22106 mathcomp.algebra.ring_quotient <> zmodI var
+def 22122:22126 Quotient equiv
+R22135:22135 mathcomp.algebra.ring_quotient <> Quotient.ZmodQuotient.R var
+R22141:22141 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22147:22152 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22143:22145 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R22142:22142 mathcomp.algebra.ring_quotient <> x var
+R22146:22146 mathcomp.algebra.ring_quotient <> y var
+R22153:22154 mathcomp.algebra.ring_quotient <> Quotient.ZmodQuotient.kI var
+prf 22164:22169 Quotient equivE
+R22177:22177 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22187:22191 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22204:22204 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22178:22182 mathcomp.algebra.ring_quotient Quotient equiv def
+R22186:22186 mathcomp.algebra.ring_quotient <> y var
+R22184:22184 mathcomp.algebra.ring_quotient <> x var
+R22197:22201 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22193:22195 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R22192:22192 mathcomp.algebra.ring_quotient <> x var
+R22196:22196 mathcomp.algebra.ring_quotient <> y var
+R22202:22203 mathcomp.algebra.ring_quotient <> Quotient.ZmodQuotient.kI var
+prf 22233:22246 Quotient equiv_is_equiv
+R22250:22263 mathcomp.ssreflect.generic_quotient <> equiv_class_of variant
+R22265:22269 mathcomp.algebra.ring_quotient Quotient equiv def
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22311:22316 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22319:22323 mathcomp.algebra.ssralg GRing.Theory subrr def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22326:22331 mathcomp.algebra.ssralg GRing.Theory rpred0 def
+R22352:22356 mathcomp.algebra.ssralg GRing.Theory opprB def
+R22358:22363 mathcomp.algebra.ssralg GRing.Theory rpredN def
+R22352:22356 mathcomp.algebra.ssralg GRing.Theory opprB def
+R22352:22356 mathcomp.algebra.ssralg GRing.Theory opprB def
+R22358:22363 mathcomp.algebra.ssralg GRing.Theory rpredN def
+R22358:22363 mathcomp.algebra.ssralg GRing.Theory rpredN def
+R22392:22397 mathcomp.algebra.ssralg GRing.Theory addrNK def
+R22403:22407 mathcomp.algebra.ssralg GRing.Theory addrA def
+R22409:22414 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R22392:22397 mathcomp.algebra.ssralg GRing.Theory addrNK def
+R22392:22397 mathcomp.algebra.ssralg GRing.Theory addrNK def
+R22403:22407 mathcomp.algebra.ssralg GRing.Theory addrA def
+R22403:22407 mathcomp.algebra.ssralg GRing.Theory addrA def
+R22409:22414 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R22409:22414 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R22448:22459 mathcomp.ssreflect.generic_quotient <> EquivRelPack constr
+R22461:22474 mathcomp.algebra.ring_quotient Quotient equiv_is_equiv thm
+R22506:22521 mathcomp.ssreflect.generic_quotient <> defaultEncModRel canonstruc
+R22523:22527 mathcomp.algebra.ring_quotient Quotient equiv def
+def 22542:22545 Quotient type
+R22550:22558 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R22564:22564 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'{eq_quot'_x_'}' not
+R22559:22563 mathcomp.algebra.ring_quotient Quotient equiv def
+def 22578:22584 Quotient type_of
+R22589:22593 Coq.ssr.ssreflect <> phant variant
+R22595:22595 mathcomp.algebra.ring_quotient <> Quotient.ZmodQuotient.R var
+R22600:22603 mathcomp.algebra.ring_quotient Quotient type def
+R22635:22647 mathcomp.ssreflect.generic_quotient <> ::form_scope:'['_'quotType'_'of'_x_']' not
+R22652:22652 mathcomp.ssreflect.generic_quotient <> ::form_scope:'['_'quotType'_'of'_x_']' not
+R22648:22651 mathcomp.algebra.ring_quotient Quotient type def
+R22681:22691 mathcomp.ssreflect.eqtype Equality.Exports ::form_scope:'['_'eqType'_'of'_x_']' not
+R22696:22696 mathcomp.ssreflect.eqtype Equality.Exports ::form_scope:'['_'eqType'_'of'_x_']' not
+R22692:22695 mathcomp.algebra.ring_quotient Quotient type def
+R22729:22743 mathcomp.ssreflect.choice Choice.Exports ::form_scope:'['_'choiceType'_'of'_x_']' not
+R22748:22748 mathcomp.ssreflect.choice Choice.Exports ::form_scope:'['_'choiceType'_'of'_x_']' not
+R22744:22747 mathcomp.algebra.ring_quotient Quotient type def
+R22781:22792 mathcomp.ssreflect.generic_quotient <> ::form_scope:'['_'eqQuotType'_x_'of'_x_']' not
+R22798:22801 mathcomp.ssreflect.generic_quotient <> ::form_scope:'['_'eqQuotType'_x_'of'_x_']' not
+R22806:22806 mathcomp.ssreflect.generic_quotient <> ::form_scope:'['_'eqQuotType'_x_'of'_x_']' not
+R22793:22797 mathcomp.algebra.ring_quotient Quotient equiv def
+R22802:22805 mathcomp.algebra.ring_quotient Quotient type def
+prf 22816:22823 Quotient idealrBE
+R22845:22848 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22867:22867 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22831:22831 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22837:22842 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22833:22835 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R22832:22832 mathcomp.algebra.ring_quotient <> x var
+R22836:22836 mathcomp.algebra.ring_quotient <> y var
+R22843:22844 mathcomp.algebra.ring_quotient <> Quotient.ZmodQuotient.kI var
+R22850:22853 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R22855:22861 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R22866:22866 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R22862:22865 mathcomp.algebra.ring_quotient Quotient type def
+R22849:22849 mathcomp.algebra.ring_quotient <> x var
+R22862:22865 mathcomp.algebra.ring_quotient Quotient type def
+R22854:22854 mathcomp.algebra.ring_quotient <> y var
+R22888:22890 mathcomp.ssreflect.generic_quotient <> piE syndef
+R22892:22897 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22888:22890 mathcomp.ssreflect.generic_quotient <> piE syndef
+R22888:22890 mathcomp.ssreflect.generic_quotient <> piE syndef
+R22892:22897 mathcomp.algebra.ring_quotient Quotient equivE thm
+R22892:22897 mathcomp.algebra.ring_quotient Quotient equivE thm
+prf 22912:22919 Quotient idealrDE
+R22941:22944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22965:22965 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R22927:22927 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22933:22938 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R22929:22931 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R22928:22928 mathcomp.algebra.ring_quotient <> x var
+R22932:22932 mathcomp.algebra.ring_quotient <> y var
+R22939:22940 mathcomp.algebra.ring_quotient <> Quotient.ZmodQuotient.kI var
+R22946:22949 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R22953:22959 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R22964:22964 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R22960:22963 mathcomp.algebra.ring_quotient Quotient type def
+R22945:22945 mathcomp.algebra.ring_quotient <> x var
+R22960:22963 mathcomp.algebra.ring_quotient Quotient type def
+R22950:22951 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R22952:22952 mathcomp.algebra.ring_quotient <> y var
+R22987:22994 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R22996:23000 mathcomp.algebra.ssralg GRing.Theory opprK def
+R22987:22994 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R22987:22994 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R22996:23000 mathcomp.algebra.ssralg GRing.Theory opprK def
+R22996:23000 mathcomp.algebra.ssralg GRing.Theory opprK def
+def 23020:23023 Quotient zero
+R23027:23030 mathcomp.algebra.ring_quotient Quotient type def
+R23035:23042 mathcomp.ssreflect.generic_quotient <> lift_cst syndef
+R23044:23047 mathcomp.algebra.ring_quotient Quotient type def
+R23044:23047 mathcomp.algebra.ring_quotient Quotient type def
+def 23063:23065 Quotient add
+R23070:23077 mathcomp.ssreflect.generic_quotient <> lift_op2 syndef
+R23079:23082 mathcomp.algebra.ring_quotient Quotient type def
+R23079:23082 mathcomp.algebra.ring_quotient Quotient type def
+R23084:23086 mathcomp.algebra.ssralg <> :::'+%R' not
+R23079:23082 mathcomp.algebra.ring_quotient Quotient type def
+R23079:23082 mathcomp.algebra.ring_quotient Quotient type def
+def 23100:23102 Quotient opp
+R23107:23114 mathcomp.ssreflect.generic_quotient <> lift_op1 syndef
+R23116:23119 mathcomp.algebra.ring_quotient Quotient type def
+R23116:23119 mathcomp.algebra.ring_quotient Quotient type def
+R23121:23123 mathcomp.algebra.ssralg <> ::ring_scope:'-%R' not
+R23116:23119 mathcomp.algebra.ring_quotient Quotient type def
+R23154:23160 mathcomp.ssreflect.generic_quotient <> PiConst syndef
+R23162:23165 mathcomp.algebra.ring_quotient Quotient zero def
+prf 23175:23180 Quotient pi_opp
+R23184:23190 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R23194:23196 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R23198:23200 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R23204:23208 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R23214:23214 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_'/'_x_'>->'_x_'}' not
+R23191:23193 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R23201:23202 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R23203:23203 mathcomp.algebra.ring_quotient <> x var
+R23209:23211 mathcomp.algebra.ring_quotient Quotient opp def
+R23213:23213 mathcomp.algebra.ring_quotient <> x var
+R23241:23243 mathcomp.algebra.ring_quotient Quotient opp def
+R23252:23254 mathcomp.ssreflect.eqtype <> eqP thm
+R23265:23267 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23269:23274 mathcomp.algebra.ring_quotient Quotient equivE thm
+R23241:23243 mathcomp.algebra.ring_quotient Quotient opp def
+R23252:23254 mathcomp.ssreflect.eqtype <> eqP thm
+R23265:23267 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23265:23267 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23269:23274 mathcomp.algebra.ring_quotient Quotient equivE thm
+R23269:23274 mathcomp.algebra.ring_quotient Quotient equivE thm
+R23289:23293 mathcomp.algebra.ssralg GRing.Theory opprD def
+R23295:23300 mathcomp.algebra.ssralg GRing.Theory rpredN def
+R23302:23309 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23311:23315 mathcomp.algebra.ssralg GRing.Theory opprK def
+R23317:23321 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23289:23293 mathcomp.algebra.ssralg GRing.Theory opprD def
+R23289:23293 mathcomp.algebra.ssralg GRing.Theory opprD def
+R23295:23300 mathcomp.algebra.ssralg GRing.Theory rpredN def
+R23295:23300 mathcomp.algebra.ssralg GRing.Theory rpredN def
+R23302:23309 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23302:23309 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23311:23315 mathcomp.algebra.ssralg GRing.Theory opprK def
+R23311:23315 mathcomp.algebra.ssralg GRing.Theory opprK def
+R23317:23321 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23317:23321 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23356:23363 mathcomp.ssreflect.generic_quotient <> PiMorph1 syndef
+R23365:23370 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+prf 23380:23385 Quotient pi_add
+R23389:23395 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R23399:23401 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R23403:23403 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R23405:23407 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R23413:23417 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R23425:23425 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R23396:23398 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R23409:23411 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R23408:23408 mathcomp.algebra.ring_quotient <> x var
+R23412:23412 mathcomp.algebra.ring_quotient <> y var
+R23418:23420 mathcomp.algebra.ring_quotient Quotient add def
+R23424:23424 mathcomp.algebra.ring_quotient <> y var
+R23422:23422 mathcomp.algebra.ring_quotient <> x var
+R23457:23459 mathcomp.algebra.ring_quotient Quotient add def
+R23468:23470 mathcomp.ssreflect.eqtype <> eqP thm
+R23481:23483 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23485:23490 mathcomp.algebra.ring_quotient Quotient equivE thm
+R23457:23459 mathcomp.algebra.ring_quotient Quotient add def
+R23468:23470 mathcomp.ssreflect.eqtype <> eqP thm
+R23481:23483 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23481:23483 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23485:23490 mathcomp.algebra.ring_quotient Quotient equivE thm
+R23485:23490 mathcomp.algebra.ring_quotient Quotient equivE thm
+R23501:23505 mathcomp.algebra.ssralg GRing.Theory opprD def
+R23507:23512 mathcomp.algebra.ssralg GRing.Theory addrAC def
+R23514:23518 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23521:23525 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23501:23505 mathcomp.algebra.ssralg GRing.Theory opprD def
+R23501:23505 mathcomp.algebra.ssralg GRing.Theory opprD def
+R23507:23512 mathcomp.algebra.ssralg GRing.Theory addrAC def
+R23507:23512 mathcomp.algebra.ssralg GRing.Theory addrAC def
+R23514:23518 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23514:23518 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23521:23525 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23521:23525 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23539:23544 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23558:23559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23568:23568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23550:23557 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R23560:23567 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23539:23544 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R23539:23544 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23558:23559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23568:23568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23550:23557 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R23560:23567 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23558:23559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23568:23568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23550:23557 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R23560:23567 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23558:23559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23568:23568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23550:23557 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R23560:23567 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23549:23549 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23558:23559 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23568:23568 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R23550:23557 mathcomp.algebra.ring_quotient Quotient idealrBE thm
+R23560:23567 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23571:23576 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23579:23583 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23617:23624 mathcomp.ssreflect.generic_quotient <> PiMorph2 syndef
+R23626:23631 mathcomp.algebra.ring_quotient Quotient pi_add thm
+prf 23641:23645 Quotient addqA
+R23648:23658 Coq.ssr.ssrfun <> associative def
+R23660:23662 mathcomp.algebra.ring_quotient Quotient add def
+R23701:23705 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23711:23715 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23721:23725 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23728:23730 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23732:23736 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23701:23705 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23701:23705 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23711:23715 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23711:23715 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23721:23725 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23721:23725 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23728:23730 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23728:23730 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23728:23730 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23728:23730 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23732:23736 mathcomp.algebra.ssralg GRing.Theory addrA def
+R23732:23736 mathcomp.algebra.ssralg GRing.Theory addrA def
+prf 23751:23755 Quotient addqC
+R23758:23768 Coq.ssr.ssrfun <> commutative def
+R23770:23772 mathcomp.algebra.ring_quotient Quotient add def
+R23809:23813 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23819:23823 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23826:23828 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23830:23834 mathcomp.algebra.ssralg GRing.Theory addrC def
+R23809:23813 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23809:23813 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23819:23823 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23819:23823 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23826:23828 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23826:23828 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23826:23828 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23826:23828 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23830:23834 mathcomp.algebra.ssralg GRing.Theory addrC def
+R23830:23834 mathcomp.algebra.ssralg GRing.Theory addrC def
+prf 23849:23853 Quotient add0q
+R23856:23862 Coq.ssr.ssrfun <> left_id def
+R23869:23871 mathcomp.algebra.ring_quotient Quotient add def
+R23864:23867 mathcomp.algebra.ring_quotient Quotient zero def
+R23906:23910 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23913:23915 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23917:23921 mathcomp.algebra.ssralg GRing.Theory add0r def
+R23906:23910 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23906:23910 mathcomp.ssreflect.generic_quotient <> reprK thm
+R23913:23915 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23913:23915 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23913:23915 mathcomp.ssreflect.generic_quotient <> piE syndef
+R23917:23921 mathcomp.algebra.ssralg GRing.Theory add0r def
+R23917:23921 mathcomp.algebra.ssralg GRing.Theory add0r def
+prf 23936:23940 Quotient addNq
+R23943:23954 Coq.ssr.ssrfun <> left_inverse def
+R23965:23967 mathcomp.algebra.ring_quotient Quotient add def
+R23961:23963 mathcomp.algebra.ring_quotient Quotient opp def
+R23956:23959 mathcomp.algebra.ring_quotient Quotient zero def
+R24002:24006 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24009:24011 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24013:24017 mathcomp.algebra.ssralg GRing.Theory addNr def
+R24002:24006 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24002:24006 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24009:24011 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24009:24011 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24009:24011 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24009:24011 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24009:24011 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24013:24017 mathcomp.algebra.ssralg GRing.Theory addNr def
+R24013:24017 mathcomp.algebra.ssralg GRing.Theory addNr def
+def 24037:24051 Quotient rquot_zmodMixin
+R24056:24064 mathcomp.algebra.ssralg GRing.Zmodule.Exports ZmodMixin syndef
+R24084:24088 mathcomp.algebra.ring_quotient Quotient addNq thm
+R24078:24082 mathcomp.algebra.ring_quotient Quotient add0q thm
+R24072:24076 mathcomp.algebra.ring_quotient Quotient addqC thm
+R24066:24070 mathcomp.algebra.ring_quotient Quotient addqA thm
+R24131:24138 mathcomp.algebra.ssralg GRing.Zmodule.Exports ZmodType syndef
+R24140:24143 mathcomp.algebra.ring_quotient Quotient type def
+R24145:24159 mathcomp.algebra.ring_quotient Quotient rquot_zmodMixin def
+def 24174:24192 Quotient rquot_zmodQuotMixin
+R24197:24209 mathcomp.algebra.ring_quotient <> ZmodQuotMixin syndef
+R24211:24214 mathcomp.algebra.ring_quotient Quotient type def
+R24217:24220 Coq.ssr.ssreflect <> lock thm
+R24225:24230 mathcomp.algebra.ring_quotient Quotient pi_opp thm
+R24232:24237 mathcomp.algebra.ring_quotient Quotient pi_add thm
+R24272:24283 mathcomp.algebra.ring_quotient <> ZmodQuotType syndef
+R24287:24289 mathcomp.algebra.ssralg <> ::ring_scope:'-%R' not
+R24291:24293 mathcomp.algebra.ssralg <> :::'+%R' not
+R24295:24298 mathcomp.algebra.ring_quotient Quotient type def
+R24300:24318 mathcomp.algebra.ring_quotient Quotient rquot_zmodQuotMixin def
+R24326:24337 mathcomp.algebra.ring_quotient Quotient.ZmodQuotient <> sec
+R24367:24373 mathcomp.algebra.ring_quotient Quotient type_of def
+R24384:24388 Coq.ssr.ssreflect <> Phant constr
+not 24350:24350 Quotient :::'{quot'_x_'}'
+sec 24404:24415 Quotient RingQuotient
+var 24430:24430 Quotient.RingQuotient R
+var 24448:24448 Quotient.RingQuotient I
+var 24479:24484 Quotient.RingQuotient idealI
+var 24499:24500 Quotient.RingQuotient kI
+R24434:24444 mathcomp.algebra.ssralg GRing.ComRing.Exports comRingType syndef
+R24452:24463 Coq.ssr.ssrbool <> predPredType canonstruc
+R24465:24465 mathcomp.algebra.ring_quotient <> R var
+R24488:24493 mathcomp.algebra.ring_quotient <> idealr rec
+R24495:24495 mathcomp.algebra.ring_quotient <> I var
+R24504:24513 Coq.ssr.ssrbool <> keyed_pred rec
+R24515:24520 mathcomp.algebra.ring_quotient <> idealI var
+syndef 24540:24543 Quotient type
+R24548:24553 mathcomp.algebra.ring_quotient Quotient :::'{quot'_x_'}' not
+R24556:24556 mathcomp.algebra.ring_quotient Quotient :::'{quot'_x_'}' not
+R24554:24555 mathcomp.algebra.ring_quotient <> Quotient.RingQuotient.kI var
+def 24571:24573 Quotient one
+R24576:24579 mathcomp.algebra.ring_quotient Quotient type syndef
+R24584:24591 mathcomp.ssreflect.generic_quotient <> lift_cst syndef
+R24593:24596 mathcomp.algebra.ring_quotient Quotient type syndef
+R24593:24596 mathcomp.algebra.ring_quotient Quotient type syndef
+def 24612:24614 Quotient mul
+R24619:24626 mathcomp.ssreflect.generic_quotient <> lift_op2 syndef
+R24628:24631 mathcomp.algebra.ring_quotient Quotient type syndef
+R24628:24631 mathcomp.algebra.ring_quotient Quotient type syndef
+R24633:24635 mathcomp.algebra.ssralg <> :::'*%R' not
+R24628:24631 mathcomp.algebra.ring_quotient Quotient type syndef
+R24628:24631 mathcomp.algebra.ring_quotient Quotient type syndef
+R24665:24671 mathcomp.ssreflect.generic_quotient <> PiConst syndef
+R24673:24675 mathcomp.algebra.ring_quotient Quotient one def
+prf 24685:24690 Quotient pi_mul
+R24693:24699 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R24703:24705 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R24707:24707 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R24709:24711 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R24717:24721 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R24729:24729 Coq.ssr.ssrfun <> ::type_scope:'{'_'morph'_x_':'_x_x_'/'_x_'>->'_x_'}' not
+R24700:24702 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi' not
+R24713:24715 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24712:24712 mathcomp.algebra.ring_quotient <> x var
+R24716:24716 mathcomp.algebra.ring_quotient <> y var
+R24722:24724 mathcomp.algebra.ring_quotient Quotient mul def
+R24728:24728 mathcomp.algebra.ring_quotient <> y var
+R24726:24726 mathcomp.algebra.ring_quotient <> x var
+R24758:24760 mathcomp.algebra.ring_quotient Quotient mul def
+R24769:24771 mathcomp.ssreflect.eqtype <> eqP thm
+R24782:24784 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24786:24791 mathcomp.algebra.ring_quotient Quotient equivE thm
+R24758:24760 mathcomp.algebra.ring_quotient Quotient mul def
+R24769:24771 mathcomp.ssreflect.eqtype <> eqP thm
+R24782:24784 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24782:24784 mathcomp.ssreflect.generic_quotient <> piE syndef
+R24786:24791 mathcomp.algebra.ring_quotient Quotient equivE thm
+R24786:24791 mathcomp.algebra.ring_quotient Quotient equivE thm
+R24805:24807 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24811:24816 mathcomp.algebra.ssralg GRing.Theory addrNK def
+R24820:24822 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24823:24826 mathcomp.ssreflect.generic_quotient <> repr syndef
+R24829:24832 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R24833:24836 mathcomp.algebra.ring_quotient Quotient type syndef
+R24844:24849 mathcomp.algebra.ssralg GRing.Theory mulrBr def
+R24811:24816 mathcomp.algebra.ssralg GRing.Theory addrNK def
+R24820:24822 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24823:24826 mathcomp.ssreflect.generic_quotient <> repr syndef
+R24829:24832 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R24833:24836 mathcomp.algebra.ring_quotient Quotient type syndef
+R24805:24807 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24805:24807 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24811:24816 mathcomp.algebra.ssralg GRing.Theory addrNK def
+R24820:24822 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R24823:24826 mathcomp.ssreflect.generic_quotient <> repr syndef
+R24829:24832 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:'\pi_'_x not
+R24833:24836 mathcomp.algebra.ring_quotient Quotient type syndef
+R24844:24849 mathcomp.algebra.ssralg GRing.Theory mulrBr def
+R24844:24849 mathcomp.algebra.ssralg GRing.Theory mulrBr def
+R24861:24865 mathcomp.algebra.ssralg GRing.Theory addrA def
+R24868:24873 mathcomp.algebra.ssralg GRing.Theory mulrBl def
+R24875:24880 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R24861:24865 mathcomp.algebra.ssralg GRing.Theory addrA def
+R24861:24865 mathcomp.algebra.ssralg GRing.Theory addrA def
+R24868:24873 mathcomp.algebra.ssralg GRing.Theory mulrBl def
+R24868:24873 mathcomp.algebra.ssralg GRing.Theory mulrBl def
+R24875:24880 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R24875:24880 mathcomp.algebra.ssralg GRing.Theory rpredD def
+R24899:24905 mathcomp.algebra.ring_quotient <> idealMr thm
+R24910:24917 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R24919:24923 mathcomp.algebra.ssralg GRing.Theory opprK def
+R24925:24929 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24899:24905 mathcomp.algebra.ring_quotient <> idealMr thm
+R24899:24905 mathcomp.algebra.ring_quotient <> idealMr thm
+R24910:24917 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R24910:24917 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R24919:24923 mathcomp.algebra.ssralg GRing.Theory opprK def
+R24919:24923 mathcomp.algebra.ssralg GRing.Theory opprK def
+R24925:24929 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24925:24929 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24943:24947 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R24949:24955 mathcomp.algebra.ring_quotient <> idealMr thm
+R24960:24967 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R24969:24973 mathcomp.algebra.ssralg GRing.Theory opprK def
+R24975:24979 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24943:24947 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R24943:24947 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R24949:24955 mathcomp.algebra.ring_quotient <> idealMr thm
+R24949:24955 mathcomp.algebra.ring_quotient <> idealMr thm
+R24960:24967 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R24960:24967 mathcomp.algebra.ring_quotient Quotient idealrDE thm
+R24969:24973 mathcomp.algebra.ssralg GRing.Theory opprK def
+R24969:24973 mathcomp.algebra.ssralg GRing.Theory opprK def
+R24975:24979 mathcomp.ssreflect.generic_quotient <> reprK thm
+R24975:24979 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25013:25020 mathcomp.ssreflect.generic_quotient <> PiMorph2 syndef
+R25022:25027 mathcomp.algebra.ring_quotient Quotient pi_mul thm
+prf 25037:25041 Quotient mulqA
+R25044:25054 Coq.ssr.ssrfun <> associative def
+R25056:25058 mathcomp.algebra.ring_quotient Quotient mul def
+R25097:25101 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25107:25111 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25117:25121 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25124:25126 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25128:25132 mathcomp.algebra.ssralg GRing.Theory mulrA def
+R25097:25101 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25097:25101 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25107:25111 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25107:25111 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25117:25121 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25117:25121 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25124:25126 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25124:25126 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25124:25126 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25124:25126 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25128:25132 mathcomp.algebra.ssralg GRing.Theory mulrA def
+R25128:25132 mathcomp.algebra.ssralg GRing.Theory mulrA def
+prf 25147:25151 Quotient mulqC
+R25154:25164 Coq.ssr.ssrfun <> commutative def
+R25166:25168 mathcomp.algebra.ring_quotient Quotient mul def
+R25205:25209 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25215:25219 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25222:25224 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25226:25230 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R25205:25209 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25205:25209 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25215:25219 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25215:25219 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25222:25224 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25222:25224 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25222:25224 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25222:25224 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25226:25230 mathcomp.algebra.ssralg GRing.Theory mulrC def
+R25226:25230 mathcomp.algebra.ssralg GRing.Theory mulrC def
+prf 25245:25249 Quotient mul1q
+R25252:25258 Coq.ssr.ssrfun <> left_id def
+R25264:25266 mathcomp.algebra.ring_quotient Quotient mul def
+R25260:25262 mathcomp.algebra.ring_quotient Quotient one def
+R25301:25305 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25308:25310 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25312:25316 mathcomp.algebra.ssralg GRing.Theory mul1r def
+R25301:25305 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25301:25305 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25308:25310 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25308:25310 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25308:25310 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25312:25316 mathcomp.algebra.ssralg GRing.Theory mul1r def
+R25312:25316 mathcomp.algebra.ssralg GRing.Theory mul1r def
+prf 25331:25339 Quotient mulq_addl
+R25342:25358 Coq.ssr.ssrfun <> left_distributive def
+R25364:25366 mathcomp.algebra.ssralg <> :::'+%R' not
+R25360:25362 mathcomp.algebra.ring_quotient Quotient mul def
+R25402:25406 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25412:25416 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25422:25426 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25402:25406 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25402:25406 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25412:25416 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25412:25416 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25422:25426 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25422:25426 mathcomp.ssreflect.generic_quotient <> reprK thm
+R25438:25440 mathcomp.ssreflect.eqtype <> eqP thm
+R25451:25453 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25458:25463 mathcomp.algebra.ssralg GRing.Theory mulrDl def
+R25465:25474 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R25438:25440 mathcomp.ssreflect.eqtype <> eqP thm
+R25451:25453 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25451:25453 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25458:25463 mathcomp.algebra.ssralg GRing.Theory mulrDl def
+R25458:25463 mathcomp.algebra.ssralg GRing.Theory mulrDl def
+R25465:25474 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+R25465:25474 mathcomp.ssreflect.generic_quotient <> equiv_refl thm
+prf 25489:25497 Quotient nonzero1q
+R25503:25506 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R25500:25502 mathcomp.algebra.ring_quotient Quotient one def
+R25528:25530 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25532:25537 mathcomp.algebra.ring_quotient Quotient equivE thm
+R25539:25543 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R25545:25551 mathcomp.algebra.ring_quotient <> idealr1 thm
+R25528:25530 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25528:25530 mathcomp.ssreflect.generic_quotient <> piE syndef
+R25532:25537 mathcomp.algebra.ring_quotient Quotient equivE thm
+R25532:25537 mathcomp.algebra.ring_quotient Quotient equivE thm
+R25539:25543 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R25539:25543 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R25545:25551 mathcomp.algebra.ring_quotient <> idealr1 thm
+R25545:25551 mathcomp.algebra.ring_quotient <> idealr1 thm
+def 25571:25588 Quotient rquot_comRingMixin
+R25595:25606 mathcomp.algebra.ssralg GRing.ComRing.Exports ComRingMixin syndef
+R25636:25644 mathcomp.algebra.ring_quotient Quotient nonzero1q thm
+R25626:25634 mathcomp.algebra.ring_quotient Quotient mulq_addl thm
+R25620:25624 mathcomp.algebra.ring_quotient Quotient mul1q thm
+R25614:25618 mathcomp.algebra.ring_quotient Quotient mulqC thm
+R25608:25612 mathcomp.algebra.ring_quotient Quotient mulqA thm
+R25691:25698 mathcomp.algebra.ssralg GRing.Ring.Exports RingType syndef
+R25700:25703 mathcomp.algebra.ring_quotient Quotient type syndef
+R25705:25722 mathcomp.algebra.ring_quotient Quotient rquot_comRingMixin def
+R25768:25778 mathcomp.algebra.ssralg GRing.ComRing.Exports ComRingType syndef
+R25780:25783 mathcomp.algebra.ring_quotient Quotient type syndef
+R25785:25789 mathcomp.algebra.ring_quotient Quotient mulqC thm
+def 25804:25822 Quotient rquot_ringQuotMixin
+R25827:25839 mathcomp.algebra.ring_quotient <> RingQuotMixin syndef
+R25841:25844 mathcomp.algebra.ring_quotient Quotient type syndef
+R25847:25850 Coq.ssr.ssreflect <> lock thm
+R25855:25860 mathcomp.algebra.ring_quotient Quotient pi_mul thm
+R25895:25906 mathcomp.algebra.ring_quotient <> RingQuotType syndef
+R25910:25912 mathcomp.algebra.ssralg <> :::'*%R' not
+R25914:25917 mathcomp.algebra.ring_quotient Quotient type syndef
+R25919:25937 mathcomp.algebra.ring_quotient Quotient rquot_ringQuotMixin def
+R25945:25956 mathcomp.algebra.ring_quotient Quotient.RingQuotient <> sec
+sec 25968:25982 Quotient IDomainQuotient
+var 25997:25997 Quotient.IDomainQuotient R
+var 26015:26015 Quotient.IDomainQuotient I
+var 26046:26052 Quotient.IDomainQuotient pidealI
+var 26073:26074 Quotient.IDomainQuotient kI
+R26001:26011 mathcomp.algebra.ssralg GRing.ComRing.Exports comRingType syndef
+R26019:26030 Coq.ssr.ssrbool <> predPredType canonstruc
+R26032:26032 mathcomp.algebra.ring_quotient <> R var
+R26056:26067 mathcomp.algebra.ring_quotient <> prime_idealr rec
+R26069:26069 mathcomp.algebra.ring_quotient <> I var
+R26078:26087 Coq.ssr.ssrbool <> keyed_pred rec
+R26089:26095 mathcomp.algebra.ring_quotient <> pidealI var
+prf 26106:26123 Quotient rquot_IdomainAxiom
+R26132:26137 mathcomp.algebra.ring_quotient Quotient :::'{quot'_x_'}' not
+R26140:26140 mathcomp.algebra.ring_quotient Quotient :::'{quot'_x_'}' not
+R26138:26139 mathcomp.algebra.ring_quotient <> Quotient.IDomainQuotient.kI var
+R26153:26156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26157:26157 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R26164:26169 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R26176:26176 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R26159:26162 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R26158:26158 mathcomp.algebra.ring_quotient <> x var
+R26171:26174 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R26170:26170 mathcomp.algebra.ring_quotient <> y var
+R26149:26151 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R26145:26147 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R26144:26144 mathcomp.algebra.ring_quotient <> x var
+R26148:26148 mathcomp.algebra.ring_quotient <> y var
+R26214:26218 mathcomp.ssreflect.generic_quotient <> reprK thm
+R26224:26228 mathcomp.ssreflect.generic_quotient <> reprK thm
+R26231:26233 mathcomp.ssreflect.generic_quotient <> piE syndef
+R26236:26241 mathcomp.algebra.ring_quotient Quotient equivE thm
+R26244:26248 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R26250:26262 mathcomp.algebra.ring_quotient <> prime_idealrM thm
+R26197:26199 mathcomp.ssreflect.eqtype <> eqP thm
+R26214:26218 mathcomp.ssreflect.generic_quotient <> reprK thm
+R26214:26218 mathcomp.ssreflect.generic_quotient <> reprK thm
+R26224:26228 mathcomp.ssreflect.generic_quotient <> reprK thm
+R26224:26228 mathcomp.ssreflect.generic_quotient <> reprK thm
+R26231:26233 mathcomp.ssreflect.generic_quotient <> piE syndef
+R26231:26233 mathcomp.ssreflect.generic_quotient <> piE syndef
+R26231:26233 mathcomp.ssreflect.generic_quotient <> piE syndef
+R26231:26233 mathcomp.ssreflect.generic_quotient <> piE syndef
+R26231:26233 mathcomp.ssreflect.generic_quotient <> piE syndef
+R26236:26241 mathcomp.algebra.ring_quotient Quotient equivE thm
+R26236:26241 mathcomp.algebra.ring_quotient Quotient equivE thm
+R26236:26241 mathcomp.algebra.ring_quotient Quotient equivE thm
+R26236:26241 mathcomp.algebra.ring_quotient Quotient equivE thm
+R26236:26241 mathcomp.algebra.ring_quotient Quotient equivE thm
+R26244:26248 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R26244:26248 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R26244:26248 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R26244:26248 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R26244:26248 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R26250:26262 mathcomp.algebra.ring_quotient <> prime_idealrM thm
+R26250:26262 mathcomp.algebra.ring_quotient <> prime_idealrM thm
+R26275:26289 mathcomp.algebra.ring_quotient Quotient.IDomainQuotient <> sec
+R26297:26304 mathcomp.algebra.ring_quotient Quotient <> mod
+R26340:26355 mathcomp.algebra.ring_quotient <> type_of def
+R26366:26370 Coq.ssr.ssreflect <> Phant constr
+not 26317:26317 <> :::'{ideal_quot'_x_'}'
+R26418:26421 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R26423:26429 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R26444:26444 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'=='_x_'%[mod'_x_']' not
+R26430:26441 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26443:26443 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26430:26441 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26443:26443 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+not 26386:26386 <> ::quotient_scope:x_'=='_x_'%[mod_ideal'_x_']'
+R26505:26507 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R26509:26515 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R26530:26530 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'='_x_'%[mod'_x_']' not
+R26516:26527 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26529:26529 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26516:26527 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26529:26529 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+not 26474:26474 <> ::quotient_scope:x_'='_x_'%[mod_ideal'_x_']'
+R26592:26595 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'!='_x_'%[mod'_x_']' not
+R26597:26603 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'!='_x_'%[mod'_x_']' not
+R26618:26618 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'!='_x_'%[mod'_x_']' not
+R26604:26615 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26617:26617 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26604:26615 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26617:26617 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+not 26560:26560 <> ::quotient_scope:x_'!='_x_'%[mod_ideal'_x_']'
+R26680:26683 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']' not
+R26685:26691 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']' not
+R26706:26706 mathcomp.ssreflect.generic_quotient <> ::quotient_scope:x_'<>'_x_'%[mod'_x_']' not
+R26692:26703 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26705:26705 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26692:26703 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+R26705:26705 mathcomp.algebra.ring_quotient <> :::'{ideal_quot'_x_'}' not
+not 26648:26648 <> ::quotient_scope:x_'<>'_x_'%[mod_ideal'_x_']'

@@ -1,0 +1,79 @@
+DIGEST 073f9aeb39b47670ff1cc6b8aa36dd9e
+FSimpleIO.IO_String
+R277:290 Coq.Strings.String <> <> lib
+R297:309 Coq.Strings.Ascii <> <> lib
+R316:342 Coq.extraction.ExtrOcamlIntConv <> <> lib
+R380:392 SimpleIO.IO_Pervasives <> <> lib
+mod 466:472 <> OString
+ax 522:527 OString length
+R543:546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R547:549 Coq.extraction.ExtrOcamlIntConv <> int defax
+R531:542 SimpleIO.IO_Pervasives <> ocaml_string defax
+ax 689:695 OString get_opt
+R711:714 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R718:721 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R722:727 Coq.Init.Datatypes <> option ind
+R729:732 SimpleIO.IO_Pervasives <> char defax
+R715:717 Coq.extraction.ExtrOcamlIntConv <> int defax
+R699:710 SimpleIO.IO_Pervasives <> ocaml_string defax
+ax 908:913 OString concat
+R929:932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R950:953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R954:965 SimpleIO.IO_Pervasives <> ocaml_string defax
+R933:936 Coq.Init.Datatypes <> list ind
+R938:949 SimpleIO.IO_Pervasives <> ocaml_string defax
+R917:928 SimpleIO.IO_Pervasives <> ocaml_string defax
+mod 1056:1061 <> OString.Unsafe
+ax 1184:1186 OString.Unsafe get
+R1202:1205 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1209:1212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1213:1216 SimpleIO.IO_Pervasives <> char defax
+R1206:1208 Coq.extraction.ExtrOcamlIntConv <> int defax
+R1190:1201 SimpleIO.IO_Pervasives <> ocaml_string defax
+ax 1391:1394 OString.Unsafe make
+R1401:1404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1409:1412 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1413:1424 SimpleIO.IO_Pervasives <> ocaml_string defax
+R1405:1408 SimpleIO.IO_Pervasives <> char defax
+R1398:1400 Coq.extraction.ExtrOcamlIntConv <> int defax
+ax 1621:1624 OString.Unsafe init
+R1631:1634 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1635:1635 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1647:1651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1652:1663 SimpleIO.IO_Pervasives <> ocaml_string defax
+R1639:1642 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1643:1646 SimpleIO.IO_Pervasives <> char defax
+R1636:1638 Coq.extraction.ExtrOcamlIntConv <> int defax
+R1628:1630 Coq.extraction.ExtrOcamlIntConv <> int defax
+ax 1858:1860 OString.Unsafe sub
+R1876:1879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1883:1886 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1890:1893 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1894:1905 SimpleIO.IO_Pervasives <> ocaml_string defax
+R1887:1889 Coq.extraction.ExtrOcamlIntConv <> int defax
+R1880:1882 Coq.extraction.ExtrOcamlIntConv <> int defax
+R1864:1875 SimpleIO.IO_Pervasives <> ocaml_string defax
+R1959:1964 SimpleIO.IO_String OString.Unsafe <> mod
+ax 2053:2059 OString to_list
+R2075:2078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2079:2082 Coq.Init.Datatypes <> list ind
+R2084:2087 SimpleIO.IO_Pervasives <> char defax
+R2063:2074 SimpleIO.IO_Pervasives <> ocaml_string defax
+ax 2100:2106 OString of_list
+R2119:2122 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2123:2134 SimpleIO.IO_Pervasives <> ocaml_string defax
+R2110:2113 Coq.Init.Datatypes <> list ind
+R2115:2118 SimpleIO.IO_Pervasives <> char defax
+ax 2144:2155 OString from_to_list
+R2190:2192 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2171:2177 SimpleIO.IO_String OString to_list defax
+R2180:2186 SimpleIO.IO_String OString of_list defax
+R2188:2188 SimpleIO.IO_String <> s var
+R2193:2193 SimpleIO.IO_String <> s var
+ax 2202:2213 OString to_from_list
+R2248:2250 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2229:2235 SimpleIO.IO_String OString of_list defax
+R2238:2244 SimpleIO.IO_String OString to_list defax
+R2246:2246 SimpleIO.IO_String <> s var
+R2251:2251 SimpleIO.IO_String <> s var
+R2674:2680 SimpleIO.IO_String OString <> mod

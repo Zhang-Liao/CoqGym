@@ -1,0 +1,76 @@
+DIGEST d228621f19eedf05c719182f720b3a5d
+FSimpleIO.IO_RawChar
+R308:313 Coq.Strings.String <> <> lib
+R315:319 Coq.Strings.Ascii <> <> lib
+R363:378 Coq.extraction.ExtrOcamlIntConv <> <> lib
+R385:399 Coq.extraction.ExtrOcamlString <> <> lib
+R437:444 SimpleIO.IO_Monad <> <> lib
+R451:463 SimpleIO.IO_Pervasives <> <> lib
+ax 587:598 <> int_of_ascii
+R607:610 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R611:613 Coq.extraction.ExtrOcamlIntConv <> int defax
+R602:606 Coq.Strings.Ascii <> ascii ind
+ax 626:637 <> ascii_of_int
+R644:647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R648:652 Coq.Strings.Ascii <> ascii ind
+R641:643 Coq.extraction.ExtrOcamlIntConv <> int defax
+ax 662:674 <> char_is_ascii
+R682:684 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R678:681 SimpleIO.IO_Pervasives <> char defax
+R685:689 Coq.Strings.Ascii <> ascii ind
+def 730:742 <> char_of_ascii
+R751:754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R755:758 SimpleIO.IO_Pervasives <> char defax
+R746:750 Coq.Strings.Ascii <> ascii ind
+R771:783 SimpleIO.IO_RawChar <> char_is_ascii prfax
+R790:792 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R815:818 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R819:822 SimpleIO.IO_Pervasives <> char defax
+R809:814 SimpleIO.IO_RawChar <> _ascii var
+R834:840 Coq.Init.Logic <> eq_refl constr
+R854:854 SimpleIO.IO_RawChar <> c var
+def 875:887 <> ascii_of_char
+R895:898 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R899:903 Coq.Strings.Ascii <> ascii ind
+R891:894 SimpleIO.IO_Pervasives <> char defax
+R916:928 SimpleIO.IO_RawChar <> char_is_ascii prfax
+R935:937 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R958:961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R962:967 SimpleIO.IO_RawChar <> _ascii var
+R954:957 SimpleIO.IO_Pervasives <> char defax
+R979:985 Coq.Init.Logic <> eq_refl constr
+R999:999 SimpleIO.IO_RawChar <> x var
+ax 1189:1198 <> to_ostring
+R1208:1211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1212:1223 SimpleIO.IO_Pervasives <> ocaml_string defax
+R1202:1207 Coq.Strings.String <> string ind
+ax 1236:1247 <> from_ostring
+R1263:1266 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1267:1272 Coq.Strings.String <> string ind
+R1251:1262 SimpleIO.IO_Pervasives <> ocaml_string defax
+R1677:1715 SimpleIO.IO_RawChar <> char_of_ascii def
+R1718:1762 SimpleIO.IO_RawChar <> to_ostring defax
+def 2027:2036 <> read_line'
+R2040:2041 SimpleIO.IO_Monad <> IO defax
+R2043:2048 Coq.Strings.String <> string ind
+R2055:2060 SimpleIO.IO_Monad IO map def
+R2075:2083 SimpleIO.IO_Pervasives <> read_line defax
+R2062:2073 SimpleIO.IO_RawChar <> from_ostring defax
+def 2140:2150 <> input_ascii
+R2164:2167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2168:2169 SimpleIO.IO_Monad <> IO defax
+R2171:2175 Coq.Strings.Ascii <> ascii ind
+R2154:2163 SimpleIO.IO_Pervasives <> in_channel defax
+R2191:2196 SimpleIO.IO_Monad IO map def
+R2213:2222 SimpleIO.IO_Pervasives <> input_char defax
+R2224:2224 SimpleIO.IO_RawChar <> h var
+R2198:2210 SimpleIO.IO_RawChar <> ascii_of_char def
+def 2240:2250 <> input_line'
+R2264:2267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2268:2269 SimpleIO.IO_Monad <> IO defax
+R2271:2276 Coq.Strings.String <> string ind
+R2254:2263 SimpleIO.IO_Pervasives <> in_channel defax
+R2292:2297 SimpleIO.IO_Monad IO map def
+R2313:2322 SimpleIO.IO_Pervasives <> input_line defax
+R2324:2324 SimpleIO.IO_RawChar <> h var
+R2299:2310 SimpleIO.IO_RawChar <> from_ostring defax

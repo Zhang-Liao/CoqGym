@@ -1,0 +1,169 @@
+DIGEST 1920d349681089e27cbe5900fd39d245
+FAlgebra.Sub_sgroup
+R1086:1097 Algebra.Sgroup_facts <> <> lib
+R1115:1119 Algebra.Parts <> <> lib
+sec 1130:1132 <> Def
+var 1144:1144 Def G
+R1148:1153 Algebra.Sgroup_cat <> SGROUP def
+sec 1164:1173 Def Sub_sgroup
+var 1185:1185 Def.Sub_sgroup H
+R1189:1196 Algebra.Parts <> part_set def
+R1198:1198 Algebra.Sub_sgroup <> Def.G var
+var 1214:1218 Def.Sub_sgroup Hprop
+R1239:1239 Algebra.Sub_sgroup <> Def.G var
+R1257:1260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1272:1275 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1276:1282 Algebra.Parts <> in_part def
+R1303:1303 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1285:1294 Algebra.Sgroup_cat <> sgroup_law def
+R1300:1300 Algebra.Sub_sgroup <> y var
+R1298:1298 Algebra.Sub_sgroup <> x var
+R1261:1267 Algebra.Parts <> in_part def
+R1271:1271 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1269:1269 Algebra.Sub_sgroup <> y var
+R1246:1252 Algebra.Parts <> in_part def
+R1256:1256 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1254:1254 Algebra.Sub_sgroup <> x var
+def 1318:1330 <> subsgroup_law
+R1334:1351 Algebra.Sgroup_cat <> law_of_composition def
+R1353:1353 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1363:1380 Algebra.Sgroup_cat <> law_of_composition def
+R1399:1407 Algebra.Sets <> Build_Map constr
+R1526:1529 Algebra.Cartesian <> cart def
+R1581:1600 Algebra.Parts <> set_of_subtype_image def
+R1603:1606 Algebra.Parts <> part def
+R1608:1608 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1532:1551 Algebra.Parts <> set_of_subtype_image def
+R1554:1557 Algebra.Parts <> part def
+R1559:1559 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1624:1636 Algebra.Parts <> Build_subtype constr
+R1650:1654 Algebra.Sub_sgroup <> Def.Sub_sgroup.Hprop var
+R1681:1691 Algebra.Parts <> subtype_prf proj
+R1694:1698 Algebra.Cartesian <> proj2 def
+R1700:1700 Algebra.Sub_sgroup <> x var
+R1657:1667 Algebra.Parts <> subtype_prf proj
+R1670:1674 Algebra.Cartesian <> proj1 def
+R1676:1676 Algebra.Sub_sgroup <> x var
+R1495:1495 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1417:1420 Algebra.Cartesian <> cart def
+R1455:1474 Algebra.Parts <> set_of_subtype_image def
+R1477:1480 Algebra.Parts <> part def
+R1482:1482 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1423:1442 Algebra.Parts <> set_of_subtype_image def
+R1445:1448 Algebra.Parts <> part def
+R1450:1450 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1399:1407 Algebra.Sets <> Build_Map constr
+R1526:1529 Algebra.Cartesian <> cart def
+R1581:1600 Algebra.Parts <> set_of_subtype_image def
+R1603:1606 Algebra.Parts <> part def
+R1608:1608 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1532:1551 Algebra.Parts <> set_of_subtype_image def
+R1554:1557 Algebra.Parts <> part def
+R1559:1559 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1624:1636 Algebra.Parts <> Build_subtype constr
+R1650:1654 Algebra.Sub_sgroup <> Def.Sub_sgroup.Hprop var
+R1681:1691 Algebra.Parts <> subtype_prf proj
+R1694:1698 Algebra.Cartesian <> proj2 def
+R1700:1700 Algebra.Sub_sgroup <> x var
+R1657:1667 Algebra.Parts <> subtype_prf proj
+R1670:1674 Algebra.Cartesian <> proj1 def
+R1676:1676 Algebra.Sub_sgroup <> x var
+R1495:1495 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1417:1420 Algebra.Cartesian <> cart def
+R1455:1474 Algebra.Parts <> set_of_subtype_image def
+R1477:1480 Algebra.Parts <> part def
+R1482:1482 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1423:1442 Algebra.Parts <> set_of_subtype_image def
+R1445:1448 Algebra.Parts <> part def
+R1450:1450 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1743:1749 Algebra.Cartesian <> cart_eq def
+R1752:1770 Algebra.Parts <> subtype_image_equal def
+R1803:1809 Algebra.Cartesian <> cart_eq def
+R1812:1830 Algebra.Parts <> subtype_image_equal def
+def 1873:1888 <> subsgroup_sgroup
+R1892:1897 Algebra.Sgroup_cat <> sgroup rec
+R1907:1918 Algebra.Sgroup_cat <> Build_sgroup constr
+R1933:1933 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1907:1918 Algebra.Sgroup_cat <> Build_sgroup constr
+R1933:1933 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1945:1959 Algebra.Sgroup_cat <> Build_sgroup_on constr
+R1985:1997 Algebra.Sub_sgroup <> subsgroup_law def
+R1965:1965 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R1945:1959 Algebra.Sgroup_cat <> Build_sgroup_on constr
+R1985:1997 Algebra.Sub_sgroup <> subsgroup_law def
+R1965:1965 Algebra.Sub_sgroup <> Def.Sub_sgroup.H var
+R2037:2055 Algebra.Parts <> subtype_image_equal def
+R2113:2122 Algebra.Sub_sgroup Def.Sub_sgroup <> sec
+rec 2133:2141 <> subsgroup
+proj 2157:2170 <> subsgroup_part
+proj 2190:2203 <> subsgroup_prop
+R2174:2182 Algebra.Parts <> Predicate rec
+R2184:2184 Algebra.Sub_sgroup <> Def.G var
+R2224:2224 Algebra.Sub_sgroup <> Def.G var
+R2255:2262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2287:2290 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2291:2297 Algebra.Parts <> in_part def
+R2318:2331 Algebra.Sub_sgroup <> subsgroup_part meth
+R2300:2309 Algebra.Sgroup_cat <> sgroup_law def
+R2315:2315 Algebra.Sub_sgroup <> y var
+R2313:2313 Algebra.Sub_sgroup <> x var
+R2263:2269 Algebra.Parts <> in_part def
+R2273:2286 Algebra.Sub_sgroup <> subsgroup_part meth
+R2271:2271 Algebra.Sub_sgroup <> y var
+R2231:2237 Algebra.Parts <> in_part def
+R2241:2254 Algebra.Sub_sgroup <> subsgroup_part meth
+R2239:2239 Algebra.Sub_sgroup <> x var
+def 2347:2365 <> sgroup_of_subsgroup
+R2372:2380 Algebra.Sub_sgroup <> subsgroup rec
+R2388:2403 Algebra.Sub_sgroup <> subsgroup_sgroup def
+R2406:2419 Algebra.Sub_sgroup <> subsgroup_prop proj
+R2425:2425 Algebra.Sub_sgroup <> H var
+R2434:2436 Algebra.Sub_sgroup Def <> sec
+R2439:2489 Algebra.Sub_sgroup <> sgroup_of_subsgroup def
+R2492:2540 Algebra.Sub_sgroup <> subsgroup_part proj
+sec 2551:2559 <> Injection
+var 2571:2571 Injection G
+R2575:2580 Algebra.Sgroup_cat <> SGROUP def
+var 2592:2592 Injection H
+R2596:2604 Algebra.Sub_sgroup <> subsgroup rec
+R2606:2606 Algebra.Sub_sgroup <> Injection.G var
+prf 2616:2632 <> subsgroup_in_prop
+R2650:2650 Algebra.Sub_sgroup <> Injection.G var
+R2664:2667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2679:2682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2683:2689 Algebra.Parts <> in_part def
+R2710:2710 Algebra.Sub_sgroup <> Injection.H var
+R2692:2701 Algebra.Sgroup_cat <> sgroup_law def
+R2707:2707 Algebra.Sub_sgroup <> y var
+R2705:2705 Algebra.Sub_sgroup <> x var
+R2668:2674 Algebra.Parts <> in_part def
+R2678:2678 Algebra.Sub_sgroup <> Injection.H var
+R2676:2676 Algebra.Sub_sgroup <> y var
+R2653:2659 Algebra.Parts <> in_part def
+R2663:2663 Algebra.Sub_sgroup <> Injection.H var
+R2661:2661 Algebra.Sub_sgroup <> x var
+R2755:2768 Algebra.Sub_sgroup <> subsgroup_prop proj
+R2781:2781 Algebra.Sub_sgroup <> Injection.H var
+R2774:2774 Algebra.Sub_sgroup <> Injection.G var
+R2755:2768 Algebra.Sub_sgroup <> subsgroup_prop proj
+R2781:2781 Algebra.Sub_sgroup <> Injection.H var
+R2774:2774 Algebra.Sub_sgroup <> Injection.G var
+def 2822:2834 <> inj_subsgroup
+R2838:2840 Algebra.Categories <> Hom proj
+R2853:2853 Algebra.Sub_sgroup <> Injection.G var
+R2845:2850 Algebra.Sgroup_cat <> SGROUP def
+R2843:2843 Algebra.Sub_sgroup <> Injection.H var
+R2863:2878 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R2907:2914 Algebra.Parts <> inj_part def
+R2916:2916 Algebra.Sub_sgroup <> Injection.H var
+R2891:2891 Algebra.Sub_sgroup <> Injection.G var
+R2884:2884 Algebra.Sub_sgroup <> Injection.H var
+R2863:2878 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R2907:2914 Algebra.Parts <> inj_part def
+R2916:2916 Algebra.Sub_sgroup <> Injection.H var
+R2891:2891 Algebra.Sub_sgroup <> Injection.G var
+R2884:2884 Algebra.Sub_sgroup <> Injection.H var
+prf 2969:2990 <> inj_subgroup_injective
+R2994:3002 Algebra.Sets <> injective def
+R3004:3016 Algebra.Sub_sgroup <> inj_subsgroup def
+R3060:3068 Algebra.Sub_sgroup Injection <> sec

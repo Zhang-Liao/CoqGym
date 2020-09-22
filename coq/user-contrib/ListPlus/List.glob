@@ -1,0 +1,70 @@
+DIGEST 53e6d8998ebe4c52a5e76b58ffe4cbf8
+FListPlus.List
+R15:28 Coq.Lists.List <> <> lib
+def 64:73 <> repeat_aux
+R91:91 ListPlus.List <> A var
+R99:101 Coq.Init.Datatypes <> nat ind
+R109:112 Coq.Init.Datatypes <> list ind
+R114:114 ListPlus.List <> A var
+R119:122 Coq.Init.Datatypes <> list ind
+R124:124 ListPlus.List <> A var
+R137:137 ListPlus.List <> n var
+R148:148 Coq.Init.Datatypes <> O constr
+R153:153 ListPlus.List <> l var
+R159:159 Coq.Init.Datatypes <> S constr
+R166:175 ListPlus.List <> repeat_aux def
+R183:186 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R182:182 ListPlus.List <> x var
+R187:187 ListPlus.List <> l var
+R179:179 ListPlus.List <> n var
+R177:177 ListPlus.List <> x var
+def 249:254 <> repeat
+R272:272 ListPlus.List <> A var
+R280:282 Coq.Init.Datatypes <> nat ind
+R287:290 Coq.Init.Datatypes <> list ind
+R292:292 ListPlus.List <> A var
+R299:308 ListPlus.List <> repeat_aux def
+R314:315 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R312:312 ListPlus.List <> n var
+R310:310 ListPlus.List <> x var
+def 373:384 <> remove_nones
+R402:405 Coq.Init.Datatypes <> list ind
+R408:413 Coq.Init.Datatypes <> option ind
+R415:415 ListPlus.List <> A var
+R421:424 Coq.Init.Datatypes <> list ind
+R426:426 ListPlus.List <> A var
+R439:439 ListPlus.List <> l var
+R450:451 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R456:457 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R467:470 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R463:466 Coq.Init.Datatypes <> None constr
+R476:487 ListPlus.List <> remove_nones def
+R489:489 ListPlus.List <> l var
+R501:504 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R495:498 Coq.Init.Datatypes <> Some constr
+R511:514 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R515:526 ListPlus.List <> remove_nones def
+R528:528 ListPlus.List <> l var
+def 599:608 <> map_filter
+R629:632 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R633:638 Coq.Init.Datatypes <> option ind
+R640:640 ListPlus.List <> B var
+R628:628 ListPlus.List <> A var
+R648:651 Coq.Init.Datatypes <> list ind
+R653:653 ListPlus.List <> A var
+R658:661 Coq.Init.Datatypes <> list ind
+R663:663 ListPlus.List <> B var
+R676:676 ListPlus.List <> l var
+R687:688 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R693:694 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R701:704 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R720:720 ListPlus.List <> f var
+R735:738 Coq.Init.Datatypes <> None constr
+R743:752 ListPlus.List <> map_filter def
+R756:756 ListPlus.List <> l var
+R754:754 ListPlus.List <> f var
+R764:767 Coq.Init.Datatypes <> Some constr
+R775:778 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R779:788 ListPlus.List <> map_filter def
+R792:792 ListPlus.List <> l var
+R790:790 ListPlus.List <> f var

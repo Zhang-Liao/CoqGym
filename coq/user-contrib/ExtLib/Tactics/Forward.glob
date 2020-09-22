@@ -1,0 +1,12 @@
+DIGEST bde78b98da6d4715ffe15482490c07be
+FExtLib.Tactics.Forward
+R65:71 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R73:74 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R65:71 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R73:74 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R127:130 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R127:130 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R181:184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R181:184 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R309:312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R309:312 Coq.Init.Logic <> ::type_scope:x_'->'_x not

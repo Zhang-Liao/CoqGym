@@ -1,0 +1,284 @@
+DIGEST c9e211558bebdff26e367cacd94248b0
+FAlgebra.Ring_util
+R1086:1095 Algebra.Group_util <> <> lib
+R1113:1123 Algebra.Monoid_util <> <> lib
+R1141:1148 Algebra.Ring_cat <> <> lib
+sec 1200:1203 <> Ring
+var 1215:1215 Ring E
+R1219:1224 Algebra.Sets <> Setoid rec
+var 1236:1243 Ring ringplus
+R1248:1251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1253:1256 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1257:1257 Algebra.Ring_util <> Ring.E var
+R1252:1252 Algebra.Ring_util <> Ring.E var
+R1247:1247 Algebra.Ring_util <> Ring.E var
+var 1269:1276 Ring ringmult
+R1281:1284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1286:1289 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1290:1290 Algebra.Ring_util <> Ring.E var
+R1285:1285 Algebra.Ring_util <> Ring.E var
+R1280:1280 Algebra.Ring_util <> Ring.E var
+var 1302:1305 Ring zero
+R1309:1309 Algebra.Ring_util <> Ring.E var
+var 1321:1322 Ring un
+R1326:1326 Algebra.Ring_util <> Ring.E var
+var 1338:1344 Ring ringopp
+R1349:1352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1353:1353 Algebra.Ring_util <> Ring.E var
+R1348:1348 Algebra.Ring_util <> Ring.E var
+var 1369:1380 Ring ringpluscomp
+R1407:1407 Algebra.Ring_util <> Ring.E var
+R1424:1427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1438:1441 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1442:1446 Algebra.Sets <> Equal proj
+R1464:1471 Algebra.Ring_util <> Ring.ringplus var
+R1476:1477 Algebra.Ring_util <> y' var
+R1473:1474 Algebra.Ring_util <> x' var
+R1449:1456 Algebra.Ring_util <> Ring.ringplus var
+R1460:1460 Algebra.Ring_util <> y var
+R1458:1458 Algebra.Ring_util <> x var
+R1428:1432 Algebra.Sets <> Equal proj
+R1436:1437 Algebra.Ring_util <> y' var
+R1434:1434 Algebra.Ring_util <> y var
+R1414:1418 Algebra.Sets <> Equal proj
+R1422:1423 Algebra.Ring_util <> x' var
+R1420:1420 Algebra.Ring_util <> x var
+var 1494:1506 Ring ringplusassoc
+R1529:1529 Algebra.Ring_util <> Ring.E var
+R1536:1540 Algebra.Sets <> Equal proj
+R1571:1578 Algebra.Ring_util <> Ring.ringplus var
+R1583:1590 Algebra.Ring_util <> Ring.ringplus var
+R1594:1594 Algebra.Ring_util <> z var
+R1592:1592 Algebra.Ring_util <> y var
+R1580:1580 Algebra.Ring_util <> x var
+R1543:1550 Algebra.Ring_util <> Ring.ringplus var
+R1567:1567 Algebra.Ring_util <> z var
+R1553:1560 Algebra.Ring_util <> Ring.ringplus var
+R1564:1564 Algebra.Ring_util <> y var
+R1562:1562 Algebra.Ring_util <> x var
+var 1610:1626 Ring zerounitringplusr
+R1641:1641 Algebra.Ring_util <> Ring.E var
+R1644:1648 Algebra.Sets <> Equal proj
+R1668:1668 Algebra.Ring_util <> x var
+R1651:1658 Algebra.Ring_util <> Ring.ringplus var
+R1662:1665 Algebra.Ring_util <> Ring.zero var
+R1660:1660 Algebra.Ring_util <> x var
+var 1684:1690 Ring oppcomp
+R1707:1707 Algebra.Ring_util <> Ring.E var
+R1719:1722 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1723:1727 Algebra.Sets <> Equal proj
+R1742:1748 Algebra.Ring_util <> Ring.ringopp var
+R1750:1750 Algebra.Ring_util <> y var
+R1730:1736 Algebra.Ring_util <> Ring.ringopp var
+R1738:1738 Algebra.Ring_util <> x var
+R1710:1714 Algebra.Sets <> Equal proj
+R1718:1718 Algebra.Ring_util <> y var
+R1716:1716 Algebra.Ring_util <> x var
+var 1765:1772 Ring ringoppr
+R1787:1787 Algebra.Ring_util <> Ring.E var
+R1790:1794 Algebra.Sets <> Equal proj
+R1821:1824 Algebra.Ring_util <> Ring.zero var
+R1797:1804 Algebra.Ring_util <> Ring.ringplus var
+R1809:1815 Algebra.Ring_util <> Ring.ringopp var
+R1817:1817 Algebra.Ring_util <> x var
+R1806:1806 Algebra.Ring_util <> x var
+var 1838:1848 Ring ringpluscom
+R1865:1865 Algebra.Ring_util <> Ring.E var
+R1868:1872 Algebra.Sets <> Equal proj
+R1890:1897 Algebra.Ring_util <> Ring.ringplus var
+R1901:1901 Algebra.Ring_util <> x var
+R1899:1899 Algebra.Ring_util <> y var
+R1875:1882 Algebra.Ring_util <> Ring.ringplus var
+R1886:1886 Algebra.Ring_util <> y var
+R1884:1884 Algebra.Ring_util <> x var
+var 1918:1929 Ring ringmultcomp
+R1956:1956 Algebra.Ring_util <> Ring.E var
+R1973:1976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1987:1990 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1991:1995 Algebra.Sets <> Equal proj
+R2013:2020 Algebra.Ring_util <> Ring.ringmult var
+R2025:2026 Algebra.Ring_util <> y' var
+R2022:2023 Algebra.Ring_util <> x' var
+R1998:2005 Algebra.Ring_util <> Ring.ringmult var
+R2009:2009 Algebra.Ring_util <> y var
+R2007:2007 Algebra.Ring_util <> x var
+R1977:1981 Algebra.Sets <> Equal proj
+R1985:1986 Algebra.Ring_util <> y' var
+R1983:1983 Algebra.Ring_util <> y var
+R1963:1967 Algebra.Sets <> Equal proj
+R1971:1972 Algebra.Ring_util <> x' var
+R1969:1969 Algebra.Ring_util <> x var
+var 2043:2055 Ring ringmultassoc
+R2078:2078 Algebra.Ring_util <> Ring.E var
+R2085:2089 Algebra.Sets <> Equal proj
+R2120:2127 Algebra.Ring_util <> Ring.ringmult var
+R2132:2139 Algebra.Ring_util <> Ring.ringmult var
+R2143:2143 Algebra.Ring_util <> z var
+R2141:2141 Algebra.Ring_util <> y var
+R2129:2129 Algebra.Ring_util <> x var
+R2092:2099 Algebra.Ring_util <> Ring.ringmult var
+R2116:2116 Algebra.Ring_util <> z var
+R2102:2109 Algebra.Ring_util <> Ring.ringmult var
+R2113:2113 Algebra.Ring_util <> y var
+R2111:2111 Algebra.Ring_util <> x var
+var 2159:2173 Ring ununitringmultr
+R2188:2188 Algebra.Ring_util <> Ring.E var
+R2191:2195 Algebra.Sets <> Equal proj
+R2213:2213 Algebra.Ring_util <> x var
+R2198:2205 Algebra.Ring_util <> Ring.ringmult var
+R2209:2210 Algebra.Ring_util <> Ring.un var
+R2207:2207 Algebra.Ring_util <> x var
+var 2227:2241 Ring ununitlringmult
+R2256:2256 Algebra.Ring_util <> Ring.E var
+R2259:2263 Algebra.Sets <> Equal proj
+R2281:2281 Algebra.Ring_util <> x var
+R2266:2273 Algebra.Ring_util <> Ring.ringmult var
+R2278:2278 Algebra.Ring_util <> x var
+R2275:2276 Algebra.Ring_util <> Ring.un var
+var 2297:2305 Ring ringdistl
+R2328:2328 Algebra.Ring_util <> Ring.E var
+R2335:2339 Algebra.Sets <> Equal proj
+R2376:2383 Algebra.Ring_util <> Ring.ringplus var
+R2401:2408 Algebra.Ring_util <> Ring.ringmult var
+R2412:2412 Algebra.Ring_util <> z var
+R2410:2410 Algebra.Ring_util <> x var
+R2386:2393 Algebra.Ring_util <> Ring.ringmult var
+R2397:2397 Algebra.Ring_util <> y var
+R2395:2395 Algebra.Ring_util <> x var
+R2342:2349 Algebra.Ring_util <> Ring.ringmult var
+R2354:2361 Algebra.Ring_util <> Ring.ringplus var
+R2365:2365 Algebra.Ring_util <> z var
+R2363:2363 Algebra.Ring_util <> y var
+R2351:2351 Algebra.Ring_util <> x var
+var 2430:2438 Ring ringdistr
+R2461:2461 Algebra.Ring_util <> Ring.E var
+R2468:2472 Algebra.Sets <> Equal proj
+R2509:2516 Algebra.Ring_util <> Ring.ringplus var
+R2534:2541 Algebra.Ring_util <> Ring.ringmult var
+R2545:2545 Algebra.Ring_util <> z var
+R2543:2543 Algebra.Ring_util <> y var
+R2519:2526 Algebra.Ring_util <> Ring.ringmult var
+R2530:2530 Algebra.Ring_util <> z var
+R2528:2528 Algebra.Ring_util <> x var
+R2475:2482 Algebra.Ring_util <> Ring.ringmult var
+R2499:2499 Algebra.Ring_util <> z var
+R2485:2492 Algebra.Ring_util <> Ring.ringplus var
+R2496:2496 Algebra.Ring_util <> y var
+R2494:2494 Algebra.Ring_util <> x var
+def 2562:2562 <> G
+R2569:2587 Algebra.Group_util <> BUILD_ABELIAN_GROUP def
+R2655:2665 Algebra.Ring_util <> Ring.ringpluscom var
+R2646:2653 Algebra.Ring_util <> Ring.ringoppr var
+R2634:2640 Algebra.Ring_util <> Ring.oppcomp var
+R2616:2632 Algebra.Ring_util <> Ring.zerounitringplusr var
+R2602:2614 Algebra.Ring_util <> Ring.ringplusassoc var
+R2589:2600 Algebra.Ring_util <> Ring.ringpluscomp var
+def 2680:2680 <> M
+R2687:2698 Algebra.Monoid_util <> BUILD_MONOID def
+R2743:2757 Algebra.Ring_util <> Ring.ununitlringmult var
+R2727:2741 Algebra.Ring_util <> Ring.ununitringmultr var
+R2713:2725 Algebra.Ring_util <> Ring.ringmultassoc var
+R2700:2711 Algebra.Ring_util <> Ring.ringmultcomp var
+def 2772:2781 <> BUILD_RING
+R2785:2788 Algebra.Ring_cat <> RING def
+R2798:2807 Algebra.Ring_cat <> Build_ring constr
+R2822:2822 Algebra.Ring_util <> G def
+R2798:2807 Algebra.Ring_cat <> Build_ring constr
+R2822:2822 Algebra.Ring_util <> G def
+R2834:2846 Algebra.Ring_cat <> Build_ring_on constr
+R2899:2899 Algebra.Ring_util <> M def
+R2896:2896 Algebra.Ring_util <> M def
+R2874:2874 Algebra.Ring_util <> M def
+R2852:2852 Algebra.Ring_util <> G def
+R2834:2846 Algebra.Ring_cat <> Build_ring_on constr
+R2899:2899 Algebra.Ring_util <> M def
+R2896:2896 Algebra.Ring_util <> M def
+R2874:2874 Algebra.Ring_util <> M def
+R2852:2852 Algebra.Ring_util <> G def
+R2984:2991 Algebra.Ring_util <> Ring.ringmult var
+R2994:3001 Algebra.Ring_util <> Ring.ringplus var
+R2972:2976 Algebra.Sets <> Trans thm
+R2984:2991 Algebra.Ring_util <> Ring.ringmult var
+R2994:3001 Algebra.Ring_util <> Ring.ringplus var
+R2972:2976 Algebra.Sets <> Trans thm
+R3115:3118 Algebra.Ring_util Ring <> sec
+sec 3129:3131 <> Hom
+var 3143:3147 Hom Ring1
+var 3149:3153 Hom Ring2
+R3157:3160 Algebra.Ring_cat <> ring rec
+var 3172:3173 Hom ff
+R3182:3185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3186:3190 Algebra.Ring_util <> Hom.Ring2 var
+R3177:3181 Algebra.Ring_util <> Hom.Ring1 var
+var 3204:3209 Hom ffcomp
+R3226:3230 Algebra.Ring_util <> Hom.Ring1 var
+R3242:3245 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3246:3250 Algebra.Sets <> Equal proj
+R3260:3261 Algebra.Ring_util <> Hom.ff var
+R3263:3263 Algebra.Ring_util <> y var
+R3253:3254 Algebra.Ring_util <> Hom.ff var
+R3256:3256 Algebra.Ring_util <> x var
+R3233:3237 Algebra.Sets <> Equal proj
+R3241:3241 Algebra.Ring_util <> y var
+R3239:3239 Algebra.Ring_util <> x var
+var 3280:3285 Hom ffplus
+R3306:3310 Algebra.Ring_util <> Hom.Ring1 var
+R3317:3321 Algebra.Sets <> Equal proj
+R3352:3361 Algebra.Sgroup_cat <> sgroup_law def
+R3377:3378 Algebra.Ring_util <> Hom.ff var
+R3380:3380 Algebra.Ring_util <> y var
+R3370:3371 Algebra.Ring_util <> Hom.ff var
+R3373:3373 Algebra.Ring_util <> x var
+R3363:3367 Algebra.Ring_util <> Hom.Ring2 var
+R3324:3325 Algebra.Ring_util <> Hom.ff var
+R3328:3337 Algebra.Sgroup_cat <> sgroup_law def
+R3347:3347 Algebra.Ring_util <> y var
+R3345:3345 Algebra.Ring_util <> x var
+R3339:3343 Algebra.Ring_util <> Hom.Ring1 var
+var 3396:3401 Hom ffzero
+R3405:3409 Algebra.Sets <> Equal proj
+R3437:3447 Algebra.Monoid_cat <> monoid_unit proj
+R3449:3453 Algebra.Ring_util <> Hom.Ring2 var
+R3412:3413 Algebra.Ring_util <> Hom.ff var
+R3416:3426 Algebra.Monoid_cat <> monoid_unit proj
+R3428:3432 Algebra.Ring_util <> Hom.Ring1 var
+var 3470:3475 Hom ffmult
+R3496:3500 Algebra.Ring_util <> Hom.Ring1 var
+R3503:3507 Algebra.Sets <> Equal proj
+R3531:3539 Algebra.Ring_cat <> ring_mult def
+R3549:3550 Algebra.Ring_util <> Hom.ff var
+R3552:3552 Algebra.Ring_util <> y var
+R3542:3543 Algebra.Ring_util <> Hom.ff var
+R3545:3545 Algebra.Ring_util <> x var
+R3510:3511 Algebra.Ring_util <> Hom.ff var
+R3514:3522 Algebra.Ring_cat <> ring_mult def
+R3526:3526 Algebra.Ring_util <> y var
+R3524:3524 Algebra.Ring_util <> x var
+var 3568:3572 Hom ffone
+R3576:3580 Algebra.Sets <> Equal proj
+R3606:3614 Algebra.Ring_cat <> ring_unit def
+R3616:3620 Algebra.Ring_util <> Hom.Ring2 var
+R3583:3584 Algebra.Ring_util <> Hom.ff var
+R3587:3595 Algebra.Ring_cat <> ring_unit def
+R3597:3601 Algebra.Ring_util <> Hom.Ring1 var
+def 3636:3649 <> BUILD_HOM_RING
+R3653:3655 Algebra.Categories <> Hom proj
+R3677:3680 Algebra.Ring_cat <> RING def
+R3671:3675 Algebra.Ring_util <> Hom.Ring2 var
+R3664:3667 Algebra.Ring_cat <> RING def
+R3658:3662 Algebra.Ring_util <> Hom.Ring1 var
+R3692:3705 Algebra.Ring_cat <> Build_ring_hom constr
+R3749:3763 Algebra.Group_util <> BUILD_HOM_GROUP def
+R3779:3784 Algebra.Ring_util <> Hom.ffzero var
+R3772:3777 Algebra.Ring_util <> Hom.ffplus var
+R3765:3770 Algebra.Ring_util <> Hom.ffcomp var
+R3722:3726 Algebra.Ring_util <> Hom.Ring2 var
+R3711:3715 Algebra.Ring_util <> Hom.Ring1 var
+R3692:3705 Algebra.Ring_cat <> Build_ring_hom constr
+R3749:3763 Algebra.Group_util <> BUILD_HOM_GROUP def
+R3779:3784 Algebra.Ring_util <> Hom.ffzero var
+R3772:3777 Algebra.Ring_util <> Hom.ffplus var
+R3765:3770 Algebra.Ring_util <> Hom.ffcomp var
+R3722:3726 Algebra.Ring_util <> Hom.Ring2 var
+R3711:3715 Algebra.Ring_util <> Hom.Ring1 var
+R3861:3863 Algebra.Ring_util Hom <> sec

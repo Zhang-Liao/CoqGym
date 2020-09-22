@@ -1,0 +1,9 @@
+DIGEST b73bb3443d99c9aaf82506f7200150ed
+FExtLib.Structures.MonadLaws
+R15:20 Coq.Setoids.Setoid <> <> lib
+R38:58 Coq.Classes.Morphisms <> <> lib
+R76:91 ExtLib.Core.Type <> <> lib
+R109:132 ExtLib.Structures.Monads <> <> lib
+R150:173 ExtLib.Structures.Proper <> <> lib
+R191:205 ExtLib.Data.Fun <> <> lib
+R223:238 ExtLib.Data.Unit <> <> lib

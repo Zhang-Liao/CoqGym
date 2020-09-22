@@ -1,0 +1,434 @@
+DIGEST ae37e96ad84f39f20b5710416f360c4b
+FVerdi.FMapVeryWeak
+R15:20 Coq.ZArith.ZArith <> <> lib
+R39:51 Coq.FSets.FMapInterface <> <> lib
+R69:80 Coq.FSets.FMapPositive <> <> lib
+R98:105 Coq.FSets.FMapList <> <> lib
+R123:131 Coq.FSets.FMapFacts <> <> lib
+R150:155 Coq.Strings.String <> <> lib
+R173:177 Coq.Strings.Ascii <> <> lib
+R195:198 Coq.Lists.List <> <> lib
+R217:240 StructTact.StructTactics <> <> lib
+R258:280 StructTact.StringOrders <> <> lib
+modtype 344:346 <> VWS
+R370:382 Coq.Structures.DecidableType DecidableType <> mod
+mod 366:366 <> VWS.E
+def 399:401 VWS key
+R406:408 Verdi.FMapVeryWeak VWS t defax
+R430:432 Verdi.FMapVeryWeak VWS key def
+ax 448:448 VWS t
+R456:459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+sec 477:481 VWS Types
+var 497:499 VWS.Types elt
+ax 522:526 VWS empty
+R530:530 Verdi.FMapVeryWeak VWS t defax
+R532:534 Verdi.FMapVeryWeak <> VWS.Types.elt var
+ax 551:553 VWS add
+R560:563 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R567:570 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R576:579 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R580:580 Verdi.FMapVeryWeak VWS t defax
+R582:584 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R571:571 Verdi.FMapVeryWeak VWS t defax
+R573:575 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R564:566 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R557:559 Verdi.FMapVeryWeak VWS key def
+ax 601:604 VWS find
+R611:614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R620:623 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R624:629 Coq.Init.Datatypes <> option ind
+R631:633 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R615:615 Verdi.FMapVeryWeak VWS t defax
+R617:619 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R608:610 Verdi.FMapVeryWeak VWS key def
+ax 650:655 VWS remove
+R662:665 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R671:674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R675:675 Verdi.FMapVeryWeak VWS t defax
+R677:679 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R666:666 Verdi.FMapVeryWeak VWS t defax
+R668:670 Verdi.FMapVeryWeak <> VWS.Types.elt var
+R659:661 Verdi.FMapVeryWeak VWS key def
+ax 697:703 VWS empty_o
+R729:731 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R717:720 Verdi.FMapVeryWeak VWS find defax
+R724:728 Verdi.FMapVeryWeak VWS empty defax
+R722:722 Verdi.FMapVeryWeak <> x var
+R732:735 Coq.Init.Datatypes <> None constr
+ax 752:759 VWS add_eq_o
+R787:790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R809:811 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R791:794 Verdi.FMapVeryWeak VWS find defax
+R799:801 Verdi.FMapVeryWeak VWS add defax
+R807:807 Verdi.FMapVeryWeak <> m var
+R805:805 Verdi.FMapVeryWeak <> e var
+R803:803 Verdi.FMapVeryWeak <> x var
+R796:796 Verdi.FMapVeryWeak <> y var
+R812:815 Coq.Init.Datatypes <> Some constr
+R817:817 Verdi.FMapVeryWeak <> e var
+R779:782 Verdi.FMapVeryWeak VWS eq defax
+R786:786 Verdi.FMapVeryWeak <> y var
+R784:784 Verdi.FMapVeryWeak <> x var
+ax 834:842 VWS add_neq_o
+R872:875 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R894:896 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R876:879 Verdi.FMapVeryWeak VWS find defax
+R884:886 Verdi.FMapVeryWeak VWS add defax
+R892:892 Verdi.FMapVeryWeak <> m var
+R890:890 Verdi.FMapVeryWeak <> e var
+R888:888 Verdi.FMapVeryWeak <> x var
+R881:881 Verdi.FMapVeryWeak <> y var
+R897:900 Verdi.FMapVeryWeak VWS find defax
+R904:904 Verdi.FMapVeryWeak <> m var
+R902:902 Verdi.FMapVeryWeak <> y var
+R862:863 Coq.Init.Logic <> ::type_scope:'~'_x not
+R864:867 Verdi.FMapVeryWeak VWS eq defax
+R871:871 Verdi.FMapVeryWeak <> y var
+R869:869 Verdi.FMapVeryWeak <> x var
+ax 921:931 VWS remove_eq_o
+R957:960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R980:982 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R961:964 Verdi.FMapVeryWeak VWS find defax
+R969:974 Verdi.FMapVeryWeak VWS remove defax
+R978:978 Verdi.FMapVeryWeak <> m var
+R976:976 Verdi.FMapVeryWeak <> x var
+R966:966 Verdi.FMapVeryWeak <> y var
+R983:986 Coq.Init.Datatypes <> None constr
+R949:952 Verdi.FMapVeryWeak VWS eq defax
+R956:956 Verdi.FMapVeryWeak <> y var
+R954:954 Verdi.FMapVeryWeak <> x var
+ax 1003:1014 VWS remove_neq_o
+R1042:1045 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1065:1067 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1046:1049 Verdi.FMapVeryWeak VWS find defax
+R1054:1059 Verdi.FMapVeryWeak VWS remove defax
+R1063:1063 Verdi.FMapVeryWeak <> m var
+R1061:1061 Verdi.FMapVeryWeak <> x var
+R1051:1051 Verdi.FMapVeryWeak <> y var
+R1068:1071 Verdi.FMapVeryWeak VWS find defax
+R1075:1075 Verdi.FMapVeryWeak <> m var
+R1073:1073 Verdi.FMapVeryWeak <> y var
+R1032:1033 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1034:1037 Verdi.FMapVeryWeak VWS eq defax
+R1041:1041 Verdi.FMapVeryWeak <> y var
+R1039:1039 Verdi.FMapVeryWeak <> x var
+R1084:1088 Verdi.FMapVeryWeak VWS.Types <> sec
+R1095:1097 Verdi.FMapVeryWeak VWS <> modtype
+R1125:1126 Coq.FSets.FMapInterface WS <> mod
+R1132:1134 Verdi.FMapVeryWeak VWS <> mod
+mod 1108:1116 <> WS_to_VWS
+R1151:1155 Verdi.FMapVeryWeak Map.E <> modtype
+mod 1146:1146 <> WS_to_VWS.E
+R1172:1176 Coq.FSets.FMapFacts Facts <> modtype
+R1178:1180 Verdi.FMapVeryWeak Map <> modtype
+mod 1167:1167 <> WS_to_VWS.F
+def 1196:1198 WS_to_VWS key
+R1203:1205 Verdi.FMapVeryWeak WS_to_VWS t defax
+def 1221:1221 WS_to_VWS t
+R1226:1230 Verdi.FMapVeryWeak Map t defax
+def 1246:1250 WS_to_VWS empty
+R1255:1263 Verdi.FMapVeryWeak Map empty defax
+def 1279:1281 WS_to_VWS add
+R1286:1292 Verdi.FMapVeryWeak Map add defax
+def 1308:1311 WS_to_VWS find
+R1316:1323 Verdi.FMapVeryWeak Map find defax
+def 1339:1344 WS_to_VWS remove
+R1349:1358 Verdi.FMapVeryWeak Map remove defax
+def 1374:1380 WS_to_VWS empty_o
+R1385:1393 Verdi.FMapVeryWeak WS_to_VWS empty_o thm
+def 1409:1416 WS_to_VWS add_eq_o
+R1421:1430 Verdi.FMapVeryWeak WS_to_VWS add_eq_o thm
+def 1446:1454 WS_to_VWS add_neq_o
+R1459:1469 Verdi.FMapVeryWeak WS_to_VWS add_neq_o thm
+def 1485:1495 WS_to_VWS remove_eq_o
+R1500:1512 Verdi.FMapVeryWeak WS_to_VWS remove_eq_o thm
+def 1528:1539 WS_to_VWS remove_neq_o
+R1544:1557 Verdi.FMapVeryWeak WS_to_VWS remove_neq_o thm
+R1564:1572 Verdi.FMapVeryWeak WS_to_VWS <> mod
+R1600:1612 Coq.FSets.FMapList Make <> modtype
+R1614:1636 StructTact.StringOrders string_lex_as_OT_compat <> modtype
+mod 1583:1595 <> StringMapList
+R1669:1671 Verdi.FMapVeryWeak VWS <> mod
+R1676:1684 Verdi.FMapVeryWeak WS_to_VWS <> modtype
+R1686:1698 Verdi.FMapVeryWeak StringMapList <> modtype
+mod 1646:1664 <> LinearTimeStringMap
+modtype 1714:1724 <> IndexedType
+ax 1739:1739 IndexedType t
+ax 1760:1764 IndexedType index
+R1768:1771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1772:1779 Coq.Numbers.BinNums <> positive ind
+R1767:1767 Verdi.FMapVeryWeak IndexedType t defax
+ax 1794:1802 IndexedType index_inj
+R1818:1818 Verdi.FMapVeryWeak IndexedType t defax
+R1839:1842 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1844:1846 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1843:1843 Verdi.FMapVeryWeak <> x var
+R1847:1847 Verdi.FMapVeryWeak <> y var
+R1829:1831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1822:1826 Verdi.FMapVeryWeak IndexedType index defax
+R1828:1828 Verdi.FMapVeryWeak <> x var
+R1832:1836 Verdi.FMapVeryWeak IndexedType index defax
+R1838:1838 Verdi.FMapVeryWeak <> y var
+ax 1862:1863 IndexedType eq
+R1879:1879 Verdi.FMapVeryWeak IndexedType t defax
+R1883:1883 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1889:1893 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1900:1900 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1885:1887 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1884:1884 Verdi.FMapVeryWeak <> x var
+R1888:1888 Verdi.FMapVeryWeak <> y var
+R1895:1898 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1894:1894 Verdi.FMapVeryWeak <> x var
+R1899:1899 Verdi.FMapVeryWeak <> y var
+R1907:1917 Verdi.FMapVeryWeak IndexedType <> modtype
+R1942:1952 Verdi.FMapVeryWeak IndexedType <> mod
+R1958:1970 Coq.Structures.DecidableType DecidableType <> mod
+mod 1928:1935 <> IT_to_DT
+def 1986:1986 IT_to_DT t
+R1991:1993 Verdi.FMapVeryWeak I t defax
+def 2009:2010 IT_to_DT eq
+R2016:2017 Coq.Init.Logic <> eq ind
+R2019:2019 Verdi.FMapVeryWeak IT_to_DT t def
+def 2035:2041 IT_to_DT eq_refl
+R2047:2053 Coq.Init.Logic <> eq_refl constr
+R2055:2055 Verdi.FMapVeryWeak IT_to_DT t def
+def 2071:2076 IT_to_DT eq_sym
+R2082:2087 Coq.Init.Logic <> eq_sym thm
+R2089:2089 Verdi.FMapVeryWeak IT_to_DT t def
+def 2105:2112 IT_to_DT eq_trans
+R2118:2125 Coq.Init.Logic <> eq_trans thm
+R2127:2127 Verdi.FMapVeryWeak IT_to_DT t def
+def 2143:2148 IT_to_DT eq_dec
+R2153:2156 Verdi.FMapVeryWeak I eq defax
+R2163:2170 Verdi.FMapVeryWeak IT_to_DT <> mod
+R2205:2215 Verdi.FMapVeryWeak IndexedType <> mod
+R2221:2223 Verdi.FMapVeryWeak VWS <> mod
+mod 2181:2198 <> IndexedPositiveMap
+R2240:2247 Verdi.FMapVeryWeak IT_to_DT <> modtype
+R2249:2249 Verdi.FMapVeryWeak X <> modtype
+mod 2235:2235 <> IndexedPositiveMap.E
+R2266:2276 Coq.FSets.FMapPositive PositiveMap <> modtype
+mod 2261:2261 <> IndexedPositiveMap.M
+R2293:2297 Coq.FSets.FMapFacts Facts <> modtype
+R2299:2299 Verdi.FMapVeryWeak IndexedPositiveMap.M <> modtype
+mod 2288:2288 <> IndexedPositiveMap.F
+def 2316:2318 IndexedPositiveMap key
+R2323:2325 Verdi.FMapVeryWeak X t defax
+def 2342:2342 IndexedPositiveMap t
+R2347:2349 Verdi.FMapVeryWeak IndexedPositiveMap t def
+def 2366:2370 IndexedPositiveMap empty
+R2375:2381 Verdi.FMapVeryWeak IndexedPositiveMap empty def
+def 2398:2400 IndexedPositiveMap add
+R2418:2420 Verdi.FMapVeryWeak IndexedPositiveMap key def
+R2428:2428 Verdi.FMapVeryWeak <> A var
+R2436:2436 Verdi.FMapVeryWeak IndexedPositiveMap t def
+R2438:2438 Verdi.FMapVeryWeak <> A var
+R2443:2443 Verdi.FMapVeryWeak IndexedPositiveMap t def
+R2445:2445 Verdi.FMapVeryWeak <> A var
+R2454:2458 Verdi.FMapVeryWeak IndexedPositiveMap add def
+R2474:2474 Verdi.FMapVeryWeak <> m var
+R2472:2472 Verdi.FMapVeryWeak <> v var
+R2461:2467 Verdi.FMapVeryWeak X index defax
+R2469:2469 Verdi.FMapVeryWeak <> i var
+def 2491:2494 IndexedPositiveMap find
+R2512:2514 Verdi.FMapVeryWeak IndexedPositiveMap key def
+R2522:2522 Verdi.FMapVeryWeak IndexedPositiveMap t def
+R2524:2524 Verdi.FMapVeryWeak <> A var
+R2529:2534 Coq.Init.Datatypes <> option ind
+R2536:2536 Verdi.FMapVeryWeak <> A var
+R2545:2550 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R2564:2564 Verdi.FMapVeryWeak <> m var
+R2553:2559 Verdi.FMapVeryWeak X index defax
+R2561:2561 Verdi.FMapVeryWeak <> i var
+def 2581:2586 IndexedPositiveMap remove
+R2604:2606 Verdi.FMapVeryWeak IndexedPositiveMap key def
+R2614:2614 Verdi.FMapVeryWeak IndexedPositiveMap t def
+R2616:2616 Verdi.FMapVeryWeak <> A var
+R2621:2621 Verdi.FMapVeryWeak IndexedPositiveMap t def
+R2623:2623 Verdi.FMapVeryWeak <> A var
+R2632:2639 Verdi.FMapVeryWeak IndexedPositiveMap remove def
+R2653:2653 Verdi.FMapVeryWeak <> m var
+R2642:2648 Verdi.FMapVeryWeak X index defax
+R2650:2650 Verdi.FMapVeryWeak <> i var
+prf 2665:2671 IndexedPositiveMap empty_o
+R2703:2705 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2687:2690 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R2695:2699 Verdi.FMapVeryWeak IndexedPositiveMap empty def
+R2701:2701 Verdi.FMapVeryWeak <> A var
+R2692:2692 Verdi.FMapVeryWeak <> x var
+R2706:2709 Coq.Init.Datatypes <> None constr
+R2742:2745 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R2757:2765 Verdi.FMapVeryWeak IndexedPositiveMap empty_o thm
+R2757:2765 Verdi.FMapVeryWeak IndexedPositiveMap empty_o thm
+prf 2788:2795 IndexedPositiveMap add_eq_o
+R2825:2828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2850:2852 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2830:2833 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R2840:2842 Verdi.FMapVeryWeak IndexedPositiveMap add def
+R2848:2848 Verdi.FMapVeryWeak <> m var
+R2846:2846 Verdi.FMapVeryWeak <> e var
+R2844:2844 Verdi.FMapVeryWeak <> x var
+R2837:2837 Verdi.FMapVeryWeak <> y var
+R2835:2835 Verdi.FMapVeryWeak <> A var
+R2853:2856 Coq.Init.Datatypes <> Some constr
+R2858:2858 Verdi.FMapVeryWeak <> e var
+R2817:2820 Verdi.FMapVeryWeak IndexedPositiveMap eq def
+R2824:2824 Verdi.FMapVeryWeak <> y var
+R2822:2822 Verdi.FMapVeryWeak <> x var
+R2893:2896 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R2909:2918 Verdi.FMapVeryWeak IndexedPositiveMap add_eq_o thm
+R2909:2918 Verdi.FMapVeryWeak IndexedPositiveMap add_eq_o thm
+prf 2970:2978 IndexedPositiveMap add_neq_o
+R3010:3013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3032:3034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3014:3017 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3022:3024 Verdi.FMapVeryWeak IndexedPositiveMap add def
+R3030:3030 Verdi.FMapVeryWeak <> m var
+R3028:3028 Verdi.FMapVeryWeak <> e var
+R3026:3026 Verdi.FMapVeryWeak <> x var
+R3019:3019 Verdi.FMapVeryWeak <> y var
+R3036:3039 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3045:3045 Verdi.FMapVeryWeak <> m var
+R3043:3043 Verdi.FMapVeryWeak <> y var
+R3041:3041 Verdi.FMapVeryWeak <> A var
+R3000:3001 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3002:3005 Verdi.FMapVeryWeak IndexedPositiveMap eq def
+R3009:3009 Verdi.FMapVeryWeak <> y var
+R3007:3007 Verdi.FMapVeryWeak <> x var
+R3080:3083 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3096:3106 Verdi.FMapVeryWeak IndexedPositiveMap add_neq_o thm
+R3096:3106 Verdi.FMapVeryWeak IndexedPositiveMap add_neq_o thm
+R3153:3163 Verdi.FMapVeryWeak X index_inj defax
+R3153:3163 Verdi.FMapVeryWeak X index_inj defax
+prf 3206:3216 IndexedPositiveMap remove_eq_o
+R3244:3247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3270:3272 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3249:3252 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3259:3264 Verdi.FMapVeryWeak IndexedPositiveMap remove def
+R3268:3268 Verdi.FMapVeryWeak <> m var
+R3266:3266 Verdi.FMapVeryWeak <> x var
+R3256:3256 Verdi.FMapVeryWeak <> y var
+R3254:3254 Verdi.FMapVeryWeak <> A var
+R3273:3276 Coq.Init.Datatypes <> None constr
+R3236:3239 Verdi.FMapVeryWeak IndexedPositiveMap eq def
+R3243:3243 Verdi.FMapVeryWeak <> y var
+R3241:3241 Verdi.FMapVeryWeak <> x var
+R3311:3314 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3327:3339 Verdi.FMapVeryWeak IndexedPositiveMap remove_eq_o thm
+R3327:3339 Verdi.FMapVeryWeak IndexedPositiveMap remove_eq_o thm
+prf 3390:3401 IndexedPositiveMap remove_neq_o
+R3431:3434 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3454:3456 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3435:3438 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3443:3448 Verdi.FMapVeryWeak IndexedPositiveMap remove def
+R3452:3452 Verdi.FMapVeryWeak <> m var
+R3450:3450 Verdi.FMapVeryWeak <> x var
+R3440:3440 Verdi.FMapVeryWeak <> y var
+R3458:3461 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3467:3467 Verdi.FMapVeryWeak <> m var
+R3465:3465 Verdi.FMapVeryWeak <> y var
+R3463:3463 Verdi.FMapVeryWeak <> A var
+R3421:3422 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3423:3426 Verdi.FMapVeryWeak IndexedPositiveMap eq def
+R3430:3430 Verdi.FMapVeryWeak <> y var
+R3428:3428 Verdi.FMapVeryWeak <> x var
+R3502:3505 Verdi.FMapVeryWeak IndexedPositiveMap find def
+R3518:3531 Verdi.FMapVeryWeak IndexedPositiveMap remove_neq_o thm
+R3518:3531 Verdi.FMapVeryWeak IndexedPositiveMap remove_neq_o thm
+R3578:3588 Verdi.FMapVeryWeak X index_inj defax
+R3578:3588 Verdi.FMapVeryWeak X index_inj defax
+R3626:3643 Verdi.FMapVeryWeak IndexedPositiveMap <> mod
+R3671:3681 Verdi.FMapVeryWeak IndexedType <> mod
+mod 3654:3666 <> IndexedString
+def 3697:3697 IndexedString t
+R3702:3707 Coq.Strings.String <> string ind
+def 3723:3724 IndexedString eq
+R3729:3738 Coq.Strings.String <> string_dec def
+def 3753:3770 IndexedString positive_of_digits
+R3777:3780 Coq.Init.Datatypes <> list ind
+R3782:3785 Coq.Init.Datatypes <> bool ind
+R3793:3800 Coq.Numbers.BinNums <> positive ind
+R3805:3812 Coq.Numbers.BinNums <> positive ind
+R3827:3827 Verdi.FMapVeryWeak <> l var
+R3840:3841 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3846:3846 Verdi.FMapVeryWeak <> p var
+R3855:3858 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3909:3910 Coq.Numbers.BinNums <> xO constr
+R3913:3930 Verdi.FMapVeryWeak <> positive_of_digits def
+R3935:3935 Verdi.FMapVeryWeak <> p var
+R3875:3876 Coq.Numbers.BinNums <> xI constr
+R3879:3896 Verdi.FMapVeryWeak <> positive_of_digits def
+R3901:3901 Verdi.FMapVeryWeak <> p var
+def 3961:3978 IndexedString list_bool_of_ascii
+R3985:3989 Coq.Strings.Ascii <> ascii ind
+R3994:3997 Coq.Init.Datatypes <> list ind
+R3999:4002 Coq.Init.Datatypes <> bool ind
+R4044:4044 Verdi.FMapVeryWeak <> a var
+R4053:4053 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4056:4057 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4060:4061 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4064:4065 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4068:4069 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4072:4073 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4076:4077 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4080:4081 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4084:4084 Coq.Lists.List ListNotations ::list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R4054:4055 Verdi.FMapVeryWeak <> a0 var
+R4058:4059 Verdi.FMapVeryWeak <> a1 var
+R4062:4063 Verdi.FMapVeryWeak <> a2 var
+R4066:4067 Verdi.FMapVeryWeak <> a3 var
+R4070:4071 Verdi.FMapVeryWeak <> a4 var
+R4074:4075 Verdi.FMapVeryWeak <> a5 var
+R4078:4079 Verdi.FMapVeryWeak <> a6 var
+R4082:4083 Verdi.FMapVeryWeak <> a7 var
+def 4099:4103 IndexedString index
+R4110:4115 Coq.Strings.String <> string ind
+R4120:4127 Coq.Numbers.BinNums <> positive ind
+R4142:4142 Verdi.FMapVeryWeak <> s var
+R4155:4165 Coq.Strings.String <> EmptyString constr
+R4178:4183 Coq.Strings.String <> String constr
+R4193:4210 Verdi.FMapVeryWeak IndexedString positive_of_digits def
+R4236:4240 Verdi.FMapVeryWeak <> index def
+R4213:4230 Verdi.FMapVeryWeak IndexedString list_bool_of_ascii def
+prf 4264:4285 IndexedString positive_of_digits_inj
+R4347:4356 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4406:4415 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4422:4425 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4417:4419 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4416:4416 Verdi.FMapVeryWeak <> l var
+R4420:4421 Verdi.FMapVeryWeak <> l' var
+R4427:4429 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4426:4426 Verdi.FMapVeryWeak <> p var
+R4430:4431 Verdi.FMapVeryWeak <> p' var
+R4379:4381 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4357:4374 Verdi.FMapVeryWeak IndexedString positive_of_digits def
+R4378:4378 Verdi.FMapVeryWeak <> p var
+R4376:4376 Verdi.FMapVeryWeak <> l var
+R4382:4399 Verdi.FMapVeryWeak IndexedString positive_of_digits def
+R4404:4405 Verdi.FMapVeryWeak <> p' var
+R4401:4402 Verdi.FMapVeryWeak <> l' var
+R4330:4332 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4317:4327 Coq.Lists.List <> length syndef
+R4329:4329 Verdi.FMapVeryWeak <> l var
+R4333:4343 Coq.Lists.List <> length syndef
+R4345:4346 Verdi.FMapVeryWeak <> l' var
+prf 4651:4659 IndexedString index_inj
+R4681:4681 Verdi.FMapVeryWeak IndexedString t def
+R4708:4717 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4719:4721 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4718:4718 Verdi.FMapVeryWeak <> x var
+R4722:4722 Verdi.FMapVeryWeak <> y var
+R4698:4700 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4691:4695 Verdi.FMapVeryWeak IndexedString index def
+R4697:4697 Verdi.FMapVeryWeak <> x var
+R4701:4705 Verdi.FMapVeryWeak IndexedString index def
+R4707:4707 Verdi.FMapVeryWeak <> y var
+R4815:4832 Verdi.FMapVeryWeak IndexedString list_bool_of_ascii def
+R4927:4944 Verdi.FMapVeryWeak IndexedString list_bool_of_ascii def
+R5038:5055 Verdi.FMapVeryWeak IndexedString list_bool_of_ascii def
+R5106:5127 Verdi.FMapVeryWeak IndexedString positive_of_digits_inj thm
+R5244:5256 Verdi.FMapVeryWeak IndexedString <> mod
+R5287:5289 Verdi.FMapVeryWeak VWS <> mod
+R5294:5311 Verdi.FMapVeryWeak IndexedPositiveMap <> modtype
+R5313:5325 Verdi.FMapVeryWeak IndexedString <> modtype
+mod 5267:5282 <> LogTimeStringMap

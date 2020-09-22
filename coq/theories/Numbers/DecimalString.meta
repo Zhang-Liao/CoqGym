@@ -1,0 +1,441 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 712} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 22; Loc.bol_pos = 1184; Loc.line_nb_last = 22; Loc.bol_pos_last = 1184; Loc.bp = 1184; Loc.ep = 1214} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 26; Loc.bol_pos = 1241; Loc.line_nb_last = 43; Loc.bol_pos_last = 1614; Loc.bp = 1241; Loc.ep = 1624} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 45; Loc.bol_pos = 1626; Loc.line_nb_last = 56; Loc.bol_pos_last = 1933; Loc.bp = 1626; Loc.ep = 1962} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 57; Loc.bol_pos = 1963; Loc.line_nb_last = 57; Loc.bol_pos_last = 1963; Loc.bp = 1963; Loc.ep = 1969} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 58; Loc.bol_pos = 1970; Loc.line_nb_last = 59; Loc.bol_pos_last = 2020; Loc.bp = 1971; Loc.ep = 2046} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 60; Loc.bol_pos = 2047; Loc.line_nb_last = 60; Loc.bol_pos_last = 2047; Loc.bp = 2047; Loc.ep = 2051} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** uint_of_char_spec **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 64; Loc.bol_pos = 2107; Loc.line_nb_last = 64; Loc.bol_pos_last = 2107; Loc.bp = 2107; Loc.ep = 2123} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 66; Loc.bol_pos = 2125; Loc.line_nb_last = 79; Loc.bol_pos_last = 2607; Loc.bp = 2125; Loc.ep = 2612} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 81; Loc.bol_pos = 2614; Loc.line_nb_last = 85; Loc.bol_pos_last = 2735; Loc.bp = 2614; Loc.ep = 2740} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 87; Loc.bol_pos = 2742; Loc.line_nb_last = 91; Loc.bol_pos_last = 2863; Loc.bp = 2742; Loc.ep = 2868} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 93; Loc.bol_pos = 2870; Loc.line_nb_last = 99; Loc.bol_pos_last = 3069; Loc.bp = 2870; Loc.ep = 3074} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 110; Loc.bol_pos = 3369; Loc.line_nb_last = 111; Loc.bol_pos_last = 3383; Loc.bp = 3369; Loc.ep = 3428} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 112; Loc.bol_pos = 3429; Loc.line_nb_last = 112; Loc.bol_pos_last = 3429; Loc.bp = 3429; Loc.ep = 3435} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 113; Loc.bol_pos = 3436; Loc.line_nb_last = 113; Loc.bol_pos_last = 3436; Loc.bp = 3437; Loc.ep = 3483} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 114; Loc.bol_pos = 3484; Loc.line_nb_last = 114; Loc.bol_pos_last = 3484; Loc.bp = 3484; Loc.ep = 3488} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** usu **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 116; Loc.bol_pos = 3490; Loc.line_nb_last = 117; Loc.bol_pos_last = 3506; Loc.bp = 3490; Loc.ep = 3558} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 118; Loc.bol_pos = 3559; Loc.line_nb_last = 118; Loc.bol_pos_last = 3559; Loc.bp = 3559; Loc.ep = 3565} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 119; Loc.bol_pos = 3566; Loc.line_nb_last = 119; Loc.bol_pos_last = 3566; Loc.bp = 3567; Loc.ep = 3576} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 120; Loc.bol_pos = 3577; Loc.line_nb_last = 120; Loc.bol_pos_last = 3577; Loc.bp = 3578; Loc.ep = 3597} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 121; Loc.bol_pos = 3598; Loc.line_nb_last = 121; Loc.bol_pos_last = 3598; Loc.bp = 3599; Loc.ep = 3600} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 121; Loc.bol_pos = 3598; Loc.line_nb_last = 121; Loc.bol_pos_last = 3598; Loc.bp = 3601; Loc.ep = 3621} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 122; Loc.bol_pos = 3622; Loc.line_nb_last = 122; Loc.bol_pos_last = 3622; Loc.bp = 3623; Loc.ep = 3624} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 122; Loc.bol_pos = 3622; Loc.line_nb_last = 122; Loc.bol_pos_last = 3622; Loc.bp = 3625; Loc.ep = 3634} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 123; Loc.bol_pos = 3635; Loc.line_nb_last = 123; Loc.bol_pos_last = 3635; Loc.bp = 3638; Loc.ep = 3691} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 124; Loc.bol_pos = 3692; Loc.line_nb_last = 124; Loc.bol_pos_last = 3692; Loc.bp = 3695; Loc.ep = 3724} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 125; Loc.bol_pos = 3725; Loc.line_nb_last = 125; Loc.bol_pos_last = 3725; Loc.bp = 3728; Loc.ep = 3766} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 126; Loc.bol_pos = 3767; Loc.line_nb_last = 126; Loc.bol_pos_last = 3767; Loc.bp = 3767; Loc.ep = 3771} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sus **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 128; Loc.bol_pos = 3773; Loc.line_nb_last = 128; Loc.bol_pos_last = 3773; Loc.bp = 3773; Loc.ep = 3828} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 129; Loc.bol_pos = 3829; Loc.line_nb_last = 129; Loc.bol_pos_last = 3829; Loc.bp = 3829; Loc.ep = 3835} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 130; Loc.bol_pos = 3836; Loc.line_nb_last = 130; Loc.bol_pos_last = 3836; Loc.bp = 3837; Loc.ep = 3855} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 131; Loc.bol_pos = 3856; Loc.line_nb_last = 131; Loc.bol_pos_last = 3856; Loc.bp = 3857; Loc.ep = 3858} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 131; Loc.bol_pos = 3856; Loc.line_nb_last = 131; Loc.bol_pos_last = 3856; Loc.bp = 3859; Loc.ep = 3880} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 132; Loc.bol_pos = 3881; Loc.line_nb_last = 132; Loc.bol_pos_last = 3881; Loc.bp = 3884; Loc.ep = 3919} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 133; Loc.bol_pos = 3920; Loc.line_nb_last = 133; Loc.bol_pos_last = 3920; Loc.bp = 3923; Loc.ep = 3924} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 133; Loc.bol_pos = 3920; Loc.line_nb_last = 133; Loc.bol_pos_last = 3920; Loc.bp = 3925; Loc.ep = 3940} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 134; Loc.bol_pos = 3941; Loc.line_nb_last = 134; Loc.bol_pos_last = 3941; Loc.bp = 3944; Loc.ep = 3945} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 134; Loc.bol_pos = 3941; Loc.line_nb_last = 134; Loc.bol_pos_last = 3941; Loc.bp = 3946; Loc.ep = 3966} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 135; Loc.bol_pos = 3967; Loc.line_nb_last = 135; Loc.bol_pos_last = 3967; Loc.bp = 3972; Loc.ep = 3973} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 135; Loc.bol_pos = 3967; Loc.line_nb_last = 135; Loc.bol_pos_last = 3967; Loc.bp = 3974; Loc.ep = 3984} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 135; Loc.bol_pos = 3967; Loc.line_nb_last = 135; Loc.bol_pos_last = 3967; Loc.bp = 3985; Loc.ep = 4000} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 136; Loc.bol_pos = 4001; Loc.line_nb_last = 136; Loc.bol_pos_last = 4001; Loc.bp = 4006; Loc.ep = 4007} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 136; Loc.bol_pos = 4001; Loc.line_nb_last = 136; Loc.bol_pos_last = 4001; Loc.bp = 4008; Loc.ep = 4033} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 137; Loc.bol_pos = 4034; Loc.line_nb_last = 137; Loc.bol_pos_last = 4034; Loc.bp = 4035; Loc.ep = 4036} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 137; Loc.bol_pos = 4034; Loc.line_nb_last = 137; Loc.bol_pos_last = 4034; Loc.bp = 4037; Loc.ep = 4055} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 138; Loc.bol_pos = 4056; Loc.line_nb_last = 138; Loc.bol_pos_last = 4056; Loc.bp = 4056; Loc.ep = 4060} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** isi **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 140; Loc.bol_pos = 4062; Loc.line_nb_last = 141; Loc.bol_pos_last = 4078; Loc.bp = 4062; Loc.ep = 4127} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 142; Loc.bol_pos = 4128; Loc.line_nb_last = 142; Loc.bol_pos_last = 4128; Loc.bp = 4128; Loc.ep = 4134} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 143; Loc.bol_pos = 4135; Loc.line_nb_last = 143; Loc.bol_pos_last = 4135; Loc.bp = 4136; Loc.ep = 4182} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 144; Loc.bol_pos = 4183; Loc.line_nb_last = 144; Loc.bol_pos_last = 4183; Loc.bp = 4184; Loc.ep = 4204} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 145; Loc.bol_pos = 4205; Loc.line_nb_last = 145; Loc.bol_pos_last = 4205; Loc.bp = 4206; Loc.ep = 4207} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 145; Loc.bol_pos = 4205; Loc.line_nb_last = 145; Loc.bol_pos_last = 4205; Loc.bp = 4208; Loc.ep = 4218} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 145; Loc.bol_pos = 4205; Loc.line_nb_last = 145; Loc.bol_pos_last = 4205; Loc.bp = 4219; Loc.ep = 4276} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 146; Loc.bol_pos = 4277; Loc.line_nb_last = 146; Loc.bol_pos_last = 4277; Loc.bp = 4280; Loc.ep = 4295} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 146; Loc.bol_pos = 4277; Loc.line_nb_last = 146; Loc.bol_pos_last = 4277; Loc.bp = 4296; Loc.ep = 4310} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 147; Loc.bol_pos = 4311; Loc.line_nb_last = 147; Loc.bol_pos_last = 4311; Loc.bp = 4312; Loc.ep = 4313} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 147; Loc.bol_pos = 4311; Loc.line_nb_last = 147; Loc.bol_pos_last = 4311; Loc.bp = 4314; Loc.ep = 4357} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 148; Loc.bol_pos = 4358; Loc.line_nb_last = 148; Loc.bol_pos_last = 4358; Loc.bp = 4361; Loc.ep = 4381} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 149; Loc.bol_pos = 4382; Loc.line_nb_last = 149; Loc.bol_pos_last = 4382; Loc.bp = 4385; Loc.ep = 4392} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 149; Loc.bol_pos = 4382; Loc.line_nb_last = 149; Loc.bol_pos_last = 4382; Loc.bp = 4393; Loc.ep = 4410} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 150; Loc.bol_pos = 4411; Loc.line_nb_last = 150; Loc.bol_pos_last = 4411; Loc.bp = 4414; Loc.ep = 4460} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 151; Loc.bol_pos = 4461; Loc.line_nb_last = 151; Loc.bol_pos_last = 4461; Loc.bp = 4461; Loc.ep = 4465} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sis **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 153; Loc.bol_pos = 4467; Loc.line_nb_last = 153; Loc.bol_pos_last = 4467; Loc.bp = 4467; Loc.ep = 4480} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 157; Loc.bol_pos = 4538; Loc.line_nb_last = 157; Loc.bol_pos_last = 4538; Loc.bp = 4538; Loc.ep = 4553} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 159; Loc.bol_pos = 4555; Loc.line_nb_last = 163; Loc.bol_pos_last = 4655; Loc.bp = 4555; Loc.ep = 4660} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 165; Loc.bol_pos = 4662; Loc.line_nb_last = 169; Loc.bol_pos_last = 4764; Loc.bp = 4662; Loc.ep = 4769} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 171; Loc.bol_pos = 4771; Loc.line_nb_last = 175; Loc.bol_pos_last = 4892; Loc.bp = 4771; Loc.ep = 4897} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 177; Loc.bol_pos = 4899; Loc.line_nb_last = 183; Loc.bol_pos_last = 5088; Loc.bp = 4899; Loc.ep = 5093} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 187; Loc.bol_pos = 5124; Loc.line_nb_last = 187; Loc.bol_pos_last = 5124; Loc.bp = 5124; Loc.ep = 5185} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 188; Loc.bol_pos = 5186; Loc.line_nb_last = 188; Loc.bol_pos_last = 5186; Loc.bp = 5186; Loc.ep = 5192} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 189; Loc.bol_pos = 5193; Loc.line_nb_last = 189; Loc.bol_pos_last = 5193; Loc.bp = 5194; Loc.ep = 5212} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 190; Loc.bol_pos = 5213; Loc.line_nb_last = 190; Loc.bol_pos_last = 5213; Loc.bp = 5214; Loc.ep = 5215} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 190; Loc.bol_pos = 5213; Loc.line_nb_last = 190; Loc.bol_pos_last = 5213; Loc.bp = 5216; Loc.ep = 5221} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 191; Loc.bol_pos = 5222; Loc.line_nb_last = 191; Loc.bol_pos_last = 5222; Loc.bp = 5223; Loc.ep = 5224} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 191; Loc.bol_pos = 5222; Loc.line_nb_last = 191; Loc.bol_pos_last = 5222; Loc.bp = 5225; Loc.ep = 5287} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 192; Loc.bol_pos = 5288; Loc.line_nb_last = 192; Loc.bol_pos_last = 5288; Loc.bp = 5291; Loc.ep = 5320} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 193; Loc.bol_pos = 5321; Loc.line_nb_last = 193; Loc.bol_pos_last = 5321; Loc.bp = 5324; Loc.ep = 5344} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 194; Loc.bol_pos = 5345; Loc.line_nb_last = 194; Loc.bol_pos_last = 5345; Loc.bp = 5345; Loc.ep = 5349} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** uint_of_string_nonnil **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 196; Loc.bol_pos = 5351; Loc.line_nb_last = 197; Loc.bol_pos_last = 5367; Loc.bp = 5351; Loc.ep = 5419} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 198; Loc.bol_pos = 5420; Loc.line_nb_last = 198; Loc.bol_pos_last = 5420; Loc.bp = 5420; Loc.ep = 5426} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 199; Loc.bol_pos = 5427; Loc.line_nb_last = 199; Loc.bol_pos_last = 5427; Loc.bp = 5428; Loc.ep = 5464} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 200; Loc.bol_pos = 5465; Loc.line_nb_last = 200; Loc.bol_pos_last = 5465; Loc.bp = 5466; Loc.ep = 5490} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 200; Loc.bol_pos = 5465; Loc.line_nb_last = 200; Loc.bol_pos_last = 5465; Loc.bp = 5491; Loc.ep = 5506} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 201; Loc.bol_pos = 5507; Loc.line_nb_last = 201; Loc.bol_pos_last = 5507; Loc.bp = 5507; Loc.ep = 5511} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sus **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 203; Loc.bol_pos = 5513; Loc.line_nb_last = 204; Loc.bol_pos_last = 5527; Loc.bp = 5513; Loc.ep = 5582} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 205; Loc.bol_pos = 5583; Loc.line_nb_last = 205; Loc.bol_pos_last = 5583; Loc.bp = 5583; Loc.ep = 5589} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 206; Loc.bol_pos = 5590; Loc.line_nb_last = 206; Loc.bol_pos_last = 5590; Loc.bp = 5591; Loc.ep = 5654} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 207; Loc.bol_pos = 5655; Loc.line_nb_last = 207; Loc.bol_pos_last = 5655; Loc.bp = 5655; Loc.ep = 5659} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** usu **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 209; Loc.bol_pos = 5661; Loc.line_nb_last = 210; Loc.bol_pos_last = 5677; Loc.bp = 5661; Loc.ep = 5735} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 211; Loc.bol_pos = 5736; Loc.line_nb_last = 211; Loc.bol_pos_last = 5736; Loc.bp = 5736; Loc.ep = 5742} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 212; Loc.bol_pos = 5743; Loc.line_nb_last = 212; Loc.bol_pos_last = 5743; Loc.bp = 5744; Loc.ep = 5756} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 213; Loc.bol_pos = 5757; Loc.line_nb_last = 213; Loc.bol_pos_last = 5757; Loc.bp = 5757; Loc.ep = 5761} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** usu_nil **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 215; Loc.bol_pos = 5763; Loc.line_nb_last = 217; Loc.bol_pos_last = 5829; Loc.bp = 5763; Loc.ep = 5885} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 218; Loc.bol_pos = 5886; Loc.line_nb_last = 218; Loc.bol_pos_last = 5886; Loc.bp = 5886; Loc.ep = 5892} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 219; Loc.bol_pos = 5893; Loc.line_nb_last = 219; Loc.bol_pos_last = 5893; Loc.bp = 5894; Loc.ep = 5943} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 220; Loc.bol_pos = 5944; Loc.line_nb_last = 220; Loc.bol_pos_last = 5944; Loc.bp = 5944; Loc.ep = 5948} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** usu_gen **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 222; Loc.bol_pos = 5950; Loc.line_nb_last = 224; Loc.bol_pos_last = 5994; Loc.bp = 5950; Loc.ep = 6037} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 225; Loc.bol_pos = 6038; Loc.line_nb_last = 225; Loc.bol_pos_last = 6038; Loc.bp = 6038; Loc.ep = 6044} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 226; Loc.bol_pos = 6045; Loc.line_nb_last = 226; Loc.bol_pos_last = 6045; Loc.bp = 6046; Loc.ep = 6064} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 227; Loc.bol_pos = 6065; Loc.line_nb_last = 227; Loc.bol_pos_last = 6065; Loc.bp = 6066; Loc.ep = 6067} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 227; Loc.bol_pos = 6065; Loc.line_nb_last = 227; Loc.bol_pos_last = 6065; Loc.bp = 6068; Loc.ep = 6079} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 228; Loc.bol_pos = 6080; Loc.line_nb_last = 228; Loc.bol_pos_last = 6080; Loc.bp = 6083; Loc.ep = 6104} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 229; Loc.bol_pos = 6105; Loc.line_nb_last = 229; Loc.bol_pos_last = 6105; Loc.bp = 6108; Loc.ep = 6143} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 230; Loc.bol_pos = 6144; Loc.line_nb_last = 230; Loc.bol_pos_last = 6144; Loc.bp = 6147; Loc.ep = 6148} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 230; Loc.bol_pos = 6144; Loc.line_nb_last = 230; Loc.bol_pos_last = 6144; Loc.bp = 6149; Loc.ep = 6164} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 231; Loc.bol_pos = 6165; Loc.line_nb_last = 231; Loc.bol_pos_last = 6165; Loc.bp = 6168; Loc.ep = 6169} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 231; Loc.bol_pos = 6165; Loc.line_nb_last = 231; Loc.bol_pos_last = 6165; Loc.bp = 6170; Loc.ep = 6190} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 232; Loc.bol_pos = 6191; Loc.line_nb_last = 232; Loc.bol_pos_last = 6191; Loc.bp = 6196; Loc.ep = 6197} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 232; Loc.bol_pos = 6191; Loc.line_nb_last = 232; Loc.bol_pos_last = 6191; Loc.bp = 6198; Loc.ep = 6208} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 232; Loc.bol_pos = 6191; Loc.line_nb_last = 232; Loc.bol_pos_last = 6191; Loc.bp = 6209; Loc.ep = 6224} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 233; Loc.bol_pos = 6225; Loc.line_nb_last = 233; Loc.bol_pos_last = 6225; Loc.bp = 6230; Loc.ep = 6231} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 233; Loc.bol_pos = 6225; Loc.line_nb_last = 233; Loc.bol_pos_last = 6225; Loc.bp = 6232; Loc.ep = 6257} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 233; Loc.bol_pos = 6225; Loc.line_nb_last = 233; Loc.bol_pos_last = 6225; Loc.bp = 6258; Loc.ep = 6272} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 234; Loc.bol_pos = 6273; Loc.line_nb_last = 234; Loc.bol_pos_last = 6273; Loc.bp = 6274; Loc.ep = 6275} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 234; Loc.bol_pos = 6273; Loc.line_nb_last = 234; Loc.bol_pos_last = 6273; Loc.bp = 6276; Loc.ep = 6287} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 235; Loc.bol_pos = 6288; Loc.line_nb_last = 235; Loc.bol_pos_last = 6288; Loc.bp = 6291; Loc.ep = 6309} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 235; Loc.bol_pos = 6288; Loc.line_nb_last = 235; Loc.bol_pos_last = 6288; Loc.bp = 6310; Loc.ep = 6324} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 236; Loc.bol_pos = 6325; Loc.line_nb_last = 236; Loc.bol_pos_last = 6325; Loc.bp = 6325; Loc.ep = 6329} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** isi **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 238; Loc.bol_pos = 6331; Loc.line_nb_last = 239; Loc.bol_pos_last = 6350; Loc.bp = 6331; Loc.ep = 6417} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 240; Loc.bol_pos = 6418; Loc.line_nb_last = 240; Loc.bol_pos_last = 6418; Loc.bp = 6418; Loc.ep = 6424} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 241; Loc.bol_pos = 6425; Loc.line_nb_last = 241; Loc.bol_pos_last = 6425; Loc.bp = 6426; Loc.ep = 6438} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 242; Loc.bol_pos = 6439; Loc.line_nb_last = 242; Loc.bol_pos_last = 6439; Loc.bp = 6439; Loc.ep = 6443} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** isi_posnil **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 246; Loc.bol_pos = 6519; Loc.line_nb_last = 247; Loc.bol_pos_last = 6538; Loc.bp = 6519; Loc.ep = 6601} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 248; Loc.bol_pos = 6602; Loc.line_nb_last = 248; Loc.bol_pos_last = 6602; Loc.bp = 6602; Loc.ep = 6608} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 249; Loc.bol_pos = 6609; Loc.line_nb_last = 249; Loc.bol_pos_last = 6609; Loc.bp = 6610; Loc.ep = 6622} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 250; Loc.bol_pos = 6623; Loc.line_nb_last = 250; Loc.bol_pos_last = 6623; Loc.bp = 6623; Loc.ep = 6627} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** isi_negnil **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 252; Loc.bol_pos = 6629; Loc.line_nb_last = 253; Loc.bol_pos_last = 6645; Loc.bp = 6629; Loc.ep = 6694} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 254; Loc.bol_pos = 6695; Loc.line_nb_last = 254; Loc.bol_pos_last = 6695; Loc.bp = 6695; Loc.ep = 6701} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 255; Loc.bol_pos = 6702; Loc.line_nb_last = 255; Loc.bol_pos_last = 6702; Loc.bp = 6703; Loc.ep = 6737} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 256; Loc.bol_pos = 6738; Loc.line_nb_last = 256; Loc.bol_pos_last = 6738; Loc.bp = 6739; Loc.ep = 6759} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 257; Loc.bol_pos = 6760; Loc.line_nb_last = 257; Loc.bol_pos_last = 6760; Loc.bp = 6761; Loc.ep = 6762} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 257; Loc.bol_pos = 6760; Loc.line_nb_last = 257; Loc.bol_pos_last = 6760; Loc.bp = 6763; Loc.ep = 6773} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 257; Loc.bol_pos = 6760; Loc.line_nb_last = 257; Loc.bol_pos_last = 6760; Loc.bp = 6774; Loc.ep = 6831} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 258; Loc.bol_pos = 6832; Loc.line_nb_last = 258; Loc.bol_pos_last = 6832; Loc.bp = 6835; Loc.ep = 6850} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 258; Loc.bol_pos = 6832; Loc.line_nb_last = 258; Loc.bol_pos_last = 6832; Loc.bp = 6851; Loc.ep = 6865} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 259; Loc.bol_pos = 6866; Loc.line_nb_last = 259; Loc.bol_pos_last = 6866; Loc.bp = 6867; Loc.ep = 6868} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 259; Loc.bol_pos = 6866; Loc.line_nb_last = 259; Loc.bol_pos_last = 6866; Loc.bp = 6869; Loc.ep = 6912} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 260; Loc.bol_pos = 6913; Loc.line_nb_last = 260; Loc.bol_pos_last = 6913; Loc.bp = 6916; Loc.ep = 6936} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 261; Loc.bol_pos = 6937; Loc.line_nb_last = 261; Loc.bol_pos_last = 6937; Loc.bp = 6940; Loc.ep = 6947} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 261; Loc.bol_pos = 6937; Loc.line_nb_last = 261; Loc.bol_pos_last = 6937; Loc.bp = 6948; Loc.ep = 6965} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 262; Loc.bol_pos = 6966; Loc.line_nb_last = 262; Loc.bol_pos_last = 6966; Loc.bp = 6969; Loc.ep = 7015} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 263; Loc.bol_pos = 7016; Loc.line_nb_last = 263; Loc.bol_pos_last = 7016; Loc.bp = 7016; Loc.ep = 7020} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sis **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/DecimalString.v"; Loc.line_nb = 265; Loc.bol_pos = 7022; Loc.line_nb_last = 265; Loc.bol_pos_last = 7022; Loc.bp = 7022; Loc.ep = 7034} **)
+(**VERNAC_TYPE** VernacEndSegment **)

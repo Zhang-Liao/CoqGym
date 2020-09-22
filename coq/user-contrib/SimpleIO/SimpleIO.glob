@@ -1,0 +1,8 @@
+DIGEST 06ee9179fc3eed9c3d88b848160b3b69
+FSimpleIO.SimpleIO
+R34:41 SimpleIO.IO_Monad <> <> lib
+R48:60 SimpleIO.IO_Pervasives <> <> lib
+R67:85 SimpleIO.IO_PervasivesAxioms <> <> lib
+R92:104 SimpleIO.IO_Exceptions <> <> lib
+R111:120 SimpleIO.IO_RawChar <> <> lib
+R127:135 SimpleIO.IO_String <> <> lib

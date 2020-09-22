@@ -1,0 +1,580 @@
+DIGEST 31e76a03c7bb11b923a06e5fada006f4
+Ffcsl.pcm.lift
+R593:601 Coq.ssr.ssreflect <> <> lib
+R603:609 Coq.ssr.ssrbool <> <> lib
+R611:616 Coq.ssr.ssrfun <> <> lib
+R648:653 mathcomp.ssreflect.ssrnat <> <> lib
+R655:660 mathcomp.ssreflect.eqtype <> <> lib
+R688:694 fcsl.pcm.prelude <> <> lib
+R696:698 fcsl.pcm.pcm <> <> lib
+mod 1197:1204 <> Unlifted
+constr 1238:1242 Unlifted Mixin
+rec 1215:1222 Unlifted mixin_of
+proj 1248:1255 Unlifted ounit_op
+proj 1264:1271 Unlifted ojoin_op
+proj 1297:1305 Unlifted ojoinC_op
+proj 1352:1360 Unlifted ojoinA_op
+proj 1458:1466 Unlifted ounitL_op
+R1259:1259 fcsl.pcm.lift <> T var
+R1276:1279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1281:1284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1285:1290 Coq.Init.Datatypes <> option ind
+R1292:1292 fcsl.pcm.lift <> T var
+R1280:1280 fcsl.pcm.lift <> T var
+R1275:1275 fcsl.pcm.lift <> T var
+R1333:1335 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1321:1328 fcsl.pcm.lift <> ojoin_op meth
+R1332:1332 fcsl.pcm.lift <> y var
+R1330:1330 fcsl.pcm.lift <> x var
+R1336:1343 fcsl.pcm.lift <> ojoin_op meth
+R1347:1347 fcsl.pcm.lift <> x var
+R1345:1345 fcsl.pcm.lift <> y var
+R1416:1418 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1383:1387 Coq.ssr.ssrfun <> obind syndef
+R1403:1410 fcsl.pcm.lift <> ojoin_op meth
+R1414:1414 fcsl.pcm.lift <> z var
+R1412:1412 fcsl.pcm.lift <> y var
+R1390:1397 fcsl.pcm.lift <> ojoin_op meth
+R1399:1399 fcsl.pcm.lift <> x var
+R1419:1423 Coq.ssr.ssrfun <> obind syndef
+R1441:1448 fcsl.pcm.lift <> ojoin_op meth
+R1452:1452 fcsl.pcm.lift <> y var
+R1450:1450 fcsl.pcm.lift <> x var
+R1434:1436 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R1437:1437 fcsl.pcm.lift <> z var
+R1426:1433 fcsl.pcm.lift <> ojoin_op meth
+R1499:1501 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1480:1487 fcsl.pcm.lift <> ojoin_op meth
+R1498:1498 fcsl.pcm.lift <> x var
+R1489:1496 fcsl.pcm.lift <> ounit_op meth
+R1502:1505 Coq.Init.Datatypes <> Some constr
+R1507:1507 fcsl.pcm.lift <> x var
+sec 1520:1527 Unlifted ClassDef
+syndef 1540:1547 Unlifted class_of
+R1552:1559 fcsl.pcm.lift Unlifted mixin_of rec
+constr 1603:1606 Unlifted Pack
+rec 1588:1591 Unlifted type
+proj 1609:1612 Unlifted sort
+R1626:1633 fcsl.pcm.lift Unlifted class_of syndef
+R1635:1638 fcsl.pcm.lift <> sort meth
+R1648:1681 fcsl.pcm.lift Unlifted sort proj
+var 1696:1696 Unlifted.ClassDef T
+var 1707:1708 Unlifted.ClassDef cT
+R1712:1715 fcsl.pcm.lift Unlifted type rec
+def 1730:1734 Unlifted class
+R1763:1764 fcsl.pcm.lift <> Unlifted.ClassDef.cT var
+R1773:1780 fcsl.pcm.lift Unlifted class_of syndef
+R1782:1784 fcsl.pcm.lift <> cT' var
+R1744:1747 fcsl.pcm.lift Unlifted Pack constr
+def 1803:1806 Unlifted pack
+R1814:1817 fcsl.pcm.lift Unlifted Pack constr
+R1821:1821 fcsl.pcm.lift <> c var
+R1819:1819 fcsl.pcm.lift <> Unlifted.ClassDef.T var
+def 1835:1839 Unlifted clone
+R1854:1857 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1858:1858 fcsl.pcm.lift <> Unlifted.ClassDef.T var
+R1852:1853 fcsl.pcm.lift <> Unlifted.ClassDef.cT var
+R1862:1869 Coq.ssr.ssrfun <> phant_id def
+R1880:1881 fcsl.pcm.lift <> Unlifted.ClassDef.cT var
+R1872:1875 fcsl.pcm.lift Unlifted pack def
+R1877:1877 fcsl.pcm.lift <> c var
+R1886:1889 fcsl.pcm.lift Unlifted pack def
+R1891:1891 fcsl.pcm.lift <> c var
+def 1906:1910 Unlifted ounit
+R1915:1922 fcsl.pcm.lift Unlifted ounit_op proj
+R1924:1928 fcsl.pcm.lift Unlifted class def
+def 1942:1946 Unlifted ojoin
+R1951:1958 fcsl.pcm.lift Unlifted ojoin_op proj
+R1960:1964 fcsl.pcm.lift Unlifted class def
+R1972:1979 fcsl.pcm.lift Unlifted.ClassDef <> sec
+mod 1990:1996 <> Unlifted.Exports
+R1999:2032 fcsl.pcm.lift Unlifted sort proj
+syndef 2044:2051 Unlifted.Exports unlifted
+R2056:2059 fcsl.pcm.lift Unlifted type rec
+syndef 2071:2083 Unlifted.Exports UnliftedMixin
+R2088:2092 fcsl.pcm.lift Unlifted Mixin constr
+syndef 2104:2111 Unlifted.Exports Unlifted
+R2122:2125 fcsl.pcm.lift Unlifted pack def
+R2183:2185 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R2186:2193 fcsl.pcm.lift Unlifted mixin_of rec
+R2176:2180 fcsl.pcm.lift Unlifted class def
+not 2143:2143 Unlifted.Exports ::form_scope:'['_'unliftedMixin'_'of'_x_']'
+R2312:2316 fcsl.pcm.lift Unlifted clone def
+R2330:2331 Coq.ssr.ssrfun <> id syndef
+R2324:2328 Coq.ssr.ssrfun <> idfun syndef
+not 2275:2275 Unlifted.Exports ::form_scope:'['_'unlifted'_'of'_x_'for'_x_']'
+R2445:2449 fcsl.pcm.lift Unlifted clone def
+R2460:2461 Coq.ssr.ssrfun <> id syndef
+R2457:2458 Coq.ssr.ssrfun <> id syndef
+not 2416:2416 Unlifted.Exports ::form_scope:'['_'unlifted'_'of'_x_']'
+syndef 2537:2541 Unlifted.Exports ounit
+R2546:2550 fcsl.pcm.lift Unlifted ounit def
+syndef 2563:2567 Unlifted.Exports ojoin
+R2572:2576 fcsl.pcm.lift Unlifted ojoin def
+R2590:2594 fcsl.pcm.lift Unlifted ounit def
+R2590:2594 fcsl.pcm.lift Unlifted ounit def
+prf 2609:2614 Unlifted.Exports ojoinC
+R2621:2628 fcsl.pcm.lift Unlifted.Exports unlifted syndef
+R2638:2638 fcsl.pcm.lift <> U var
+R2652:2654 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2643:2647 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2651:2651 fcsl.pcm.lift <> y var
+R2649:2649 fcsl.pcm.lift <> x var
+R2655:2659 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2663:2663 fcsl.pcm.lift <> x var
+R2661:2661 fcsl.pcm.lift <> y var
+prf 2716:2721 Unlifted.Exports ojoinA
+R2728:2735 fcsl.pcm.lift Unlifted.Exports unlifted syndef
+R2747:2747 fcsl.pcm.lift <> U var
+R2788:2790 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2761:2765 Coq.ssr.ssrfun <> obind syndef
+R2778:2782 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2786:2786 fcsl.pcm.lift <> z var
+R2784:2784 fcsl.pcm.lift <> y var
+R2768:2772 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2774:2774 fcsl.pcm.lift <> x var
+R2791:2795 Coq.ssr.ssrfun <> obind syndef
+R2813:2817 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2821:2821 fcsl.pcm.lift <> y var
+R2819:2819 fcsl.pcm.lift <> x var
+R2806:2808 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R2809:2809 fcsl.pcm.lift <> z var
+R2799:2803 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2805:2805 fcsl.pcm.lift <> U var
+prf 2881:2886 Unlifted.Exports ounitL
+R2893:2900 fcsl.pcm.lift Unlifted.Exports unlifted syndef
+R2908:2908 fcsl.pcm.lift <> U var
+R2926:2928 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2913:2917 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R2925:2925 fcsl.pcm.lift <> x var
+R2919:2923 fcsl.pcm.lift Unlifted.Exports ounit syndef
+R2929:2932 Coq.Init.Datatypes <> Some constr
+R2934:2934 fcsl.pcm.lift <> x var
+R2991:2997 fcsl.pcm.lift Unlifted.Exports <> mod
+R3005:3012 fcsl.pcm.lift Unlifted <> mod
+ind 3212:3215 <> lift
+constr 3222:3225 <> down
+constr 3229:3230 <> up
+R3226:3226 fcsl.pcm.lift <> lift ind
+R3226:3226 fcsl.pcm.lift <> A var
+R3235:3235 fcsl.pcm.lift <> A var
+R3236:3236 fcsl.pcm.lift <> lift ind
+R3236:3236 fcsl.pcm.lift <> A var
+mod 3246:3249 <> Lift
+sec 3262:3265 Lift Lift
+var 3279:3279 Lift.Lift A
+R3283:3290 fcsl.pcm.lift Unlifted.Exports unlifted syndef
+var 3299:3302 Lift.Lift unit
+R3307:3308 fcsl.pcm.lift <> up constr
+R3312:3316 fcsl.pcm.lift Unlifted.Exports ounit syndef
+R3318:3318 fcsl.pcm.lift <> Lift.Lift.A var
+var 3327:3331 Lift.Lift valid
+R3339:3343 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R3345:3347 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R3354:3357 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R3391:3391 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_':'_x_'=>'_x_']' not
+R3361:3361 fcsl.pcm.lift <> x var
+R3366:3367 fcsl.pcm.lift <> up constr
+R3376:3379 Coq.Init.Datatypes <> true constr
+R3386:3390 Coq.Init.Datatypes <> false constr
+R3348:3351 fcsl.pcm.lift <> lift ind
+R3353:3353 fcsl.pcm.lift <> Lift.Lift.A var
+var 3399:3402 Lift.Lift join
+R3410:3414 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R3416:3416 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R3418:3420 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R3427:3436 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R3547:3547 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_x_':'_x_'=>'_x_']' not
+R3440:3440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3442:3443 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3445:3445 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3441:3441 fcsl.pcm.lift <> x var
+R3444:3444 fcsl.pcm.lift <> y var
+R3450:3450 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3455:3456 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3461:3461 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3451:3452 fcsl.pcm.lift <> up constr
+R3457:3458 fcsl.pcm.lift <> up constr
+R3479:3483 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3492:3495 Coq.Init.Datatypes <> Some constr
+R3504:3505 fcsl.pcm.lift <> up constr
+R3522:3525 fcsl.pcm.lift <> down constr
+R3527:3527 fcsl.pcm.lift <> Lift.Lift.A var
+R3541:3544 fcsl.pcm.lift <> down constr
+R3546:3546 fcsl.pcm.lift <> Lift.Lift.A var
+R3421:3424 fcsl.pcm.lift <> lift ind
+R3426:3426 fcsl.pcm.lift <> Lift.Lift.A var
+R3421:3424 fcsl.pcm.lift <> lift ind
+R3426:3426 fcsl.pcm.lift <> Lift.Lift.A var
+prf 3557:3561 Lift joinC
+R3570:3573 fcsl.pcm.lift <> lift ind
+R3575:3575 fcsl.pcm.lift <> Lift.Lift.A var
+R3588:3590 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3580:3583 fcsl.pcm.lift <> Lift.Lift.join var
+R3587:3587 fcsl.pcm.lift <> y var
+R3585:3585 fcsl.pcm.lift <> x var
+R3591:3594 fcsl.pcm.lift <> Lift.Lift.join var
+R3598:3598 fcsl.pcm.lift <> x var
+R3596:3596 fcsl.pcm.lift <> y var
+R3644:3649 fcsl.pcm.lift Unlifted.Exports ojoinC thm
+R3644:3649 fcsl.pcm.lift Unlifted.Exports ojoinC thm
+R3644:3649 fcsl.pcm.lift Unlifted.Exports ojoinC thm
+prf 3664:3668 Lift joinA
+R3679:3682 fcsl.pcm.lift <> lift ind
+R3684:3684 fcsl.pcm.lift <> Lift.Lift.A var
+R3706:3708 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3689:3692 fcsl.pcm.lift <> Lift.Lift.join var
+R3697:3700 fcsl.pcm.lift <> Lift.Lift.join var
+R3704:3704 fcsl.pcm.lift <> z var
+R3702:3702 fcsl.pcm.lift <> y var
+R3694:3694 fcsl.pcm.lift <> x var
+R3709:3712 fcsl.pcm.lift <> Lift.Lift.join var
+R3725:3725 fcsl.pcm.lift <> z var
+R3715:3718 fcsl.pcm.lift <> Lift.Lift.join var
+R3722:3722 fcsl.pcm.lift <> y var
+R3720:3720 fcsl.pcm.lift <> x var
+R3784:3788 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3784:3788 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3784:3788 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3806:3810 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3806:3810 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3806:3810 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3837:3841 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3868:3873 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3837:3841 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3837:3841 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3868:3873 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3868:3873 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3868:3873 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3868:3873 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3921:3925 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3921:3925 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3921:3925 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R3953:3958 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3953:3958 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+R3953:3958 fcsl.pcm.lift Unlifted.Exports ojoinA thm
+prf 4004:4008 Lift unitL
+R4025:4027 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4014:4017 fcsl.pcm.lift <> Lift.Lift.join var
+R4024:4024 fcsl.pcm.lift <> x var
+R4019:4022 fcsl.pcm.lift <> Lift.Lift.unit var
+R4028:4028 fcsl.pcm.lift <> x var
+R4068:4073 fcsl.pcm.lift Unlifted.Exports ounitL thm
+R4068:4073 fcsl.pcm.lift Unlifted.Exports ounitL thm
+R4068:4073 fcsl.pcm.lift Unlifted.Exports ounitL thm
+prf 4088:4093 Lift validL
+R4117:4120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4121:4125 fcsl.pcm.lift <> Lift.Lift.valid var
+R4127:4127 fcsl.pcm.lift <> x var
+R4101:4105 fcsl.pcm.lift <> Lift.Lift.valid var
+R4108:4111 fcsl.pcm.lift <> Lift.Lift.join var
+R4115:4115 fcsl.pcm.lift <> y var
+R4113:4113 fcsl.pcm.lift <> x var
+prf 4173:4178 Lift validU
+R4182:4186 fcsl.pcm.lift <> Lift.Lift.valid var
+R4188:4191 fcsl.pcm.lift <> Lift.Lift.unit var
+R4218:4221 fcsl.pcm.lift Lift.Lift <> sec
+sec 4272:4281 Lift LiftEqType
+var 4293:4293 Lift.LiftEqType A
+R4297:4302 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+def 4317:4323 Lift lift_eq
+R4332:4335 fcsl.pcm.lift <> lift ind
+R4337:4337 fcsl.pcm.lift <> Lift.LiftEqType.A var
+R4355:4355 fcsl.pcm.lift <> v var
+R4352:4352 fcsl.pcm.lift <> u var
+R4366:4367 fcsl.pcm.lift <> up constr
+R4372:4373 fcsl.pcm.lift <> up constr
+R4381:4384 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R4391:4394 fcsl.pcm.lift <> down constr
+R4397:4400 fcsl.pcm.lift <> down constr
+R4405:4408 Coq.Init.Datatypes <> true constr
+R4422:4426 Coq.Init.Datatypes <> false constr
+prf 4442:4449 Lift lift_eqP
+R4453:4466 mathcomp.ssreflect.eqtype Equality axiom def
+R4468:4474 fcsl.pcm.lift Lift lift_eq def
+R4534:4537 Coq.ssr.ssrbool <> iffP thm
+R4539:4541 mathcomp.ssreflect.eqtype <> eqP thm
+R4534:4537 Coq.ssr.ssrbool <> iffP thm
+R4539:4541 mathcomp.ssreflect.eqtype <> eqP thm
+def 4571:4581 Lift liftEqMixin
+R4586:4592 mathcomp.ssreflect.eqtype Equality.Exports EqMixin syndef
+R4594:4612 fcsl.pcm.lift Lift lift_eqP thm
+R4651:4656 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R4660:4670 fcsl.pcm.lift Lift liftEqMixin def
+R4678:4687 fcsl.pcm.lift Lift.LiftEqType <> sec
+mod 4698:4704 <> Lift.Exports
+R4717:4720 fcsl.pcm.lift <> down constr
+R4717:4720 fcsl.pcm.lift <> down constr
+R4737:4738 fcsl.pcm.lift <> up constr
+R4737:4738 fcsl.pcm.lift <> up constr
+sec 4776:4782 Lift.Exports Exports
+ind 4843:4851 Lift.Exports lift_spec
+constr 4891:4897 Lift.Exports up_spec
+constr 4936:4945 Lift.Exports undef_spec
+R4860:4863 fcsl.pcm.lift <> lift ind
+R4865:4865 fcsl.pcm.lift <> A var
+R4876:4879 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4870:4873 fcsl.pcm.lift <> lift ind
+R4905:4907 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4904:4904 fcsl.pcm.lift <> x var
+R4908:4909 fcsl.pcm.lift <> up constr
+R4911:4911 fcsl.pcm.lift <> n var
+R4915:4923 fcsl.pcm.lift <> lift_spec ind
+R4928:4929 fcsl.pcm.lift <> up constr
+R4931:4931 fcsl.pcm.lift <> n var
+R4925:4925 fcsl.pcm.lift <> x var
+R4915:4923 fcsl.pcm.lift <> A var
+R4951:4953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4950:4950 fcsl.pcm.lift <> x var
+R4954:4957 fcsl.pcm.lift <> down constr
+R4961:4969 fcsl.pcm.lift <> lift_spec ind
+R4973:4976 fcsl.pcm.lift <> down constr
+R4971:4971 fcsl.pcm.lift <> x var
+R4961:4969 fcsl.pcm.lift <> A var
+prf 4986:4990 Lift.Exports liftP
+R4999:5002 fcsl.pcm.lift <> lift ind
+R5004:5004 fcsl.pcm.lift <> A var
+R5009:5017 fcsl.pcm.lift Lift.Exports lift_spec coind
+R5021:5021 fcsl.pcm.lift <> x var
+R5019:5019 fcsl.pcm.lift <> x var
+R5057:5066 fcsl.pcm.lift Lift.Exports undef_spec constr
+R5077:5083 fcsl.pcm.lift Lift.Exports up_spec constr
+R5057:5066 fcsl.pcm.lift Lift.Exports undef_spec constr
+R5077:5083 fcsl.pcm.lift Lift.Exports up_spec constr
+var 5102:5102 Lift.Exports.Exports A
+R5106:5113 fcsl.pcm.lift Unlifted.Exports unlifted syndef
+def 5128:5139 Lift.Exports liftPCMMixin
+R5147:5154 fcsl.pcm.pcm PCM.Exports PCMMixin syndef
+R5235:5245 fcsl.pcm.lift Lift validU thm
+R5247:5247 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5218:5228 fcsl.pcm.lift Lift validL thm
+R5230:5230 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5202:5211 fcsl.pcm.lift Lift unitL thm
+R5213:5213 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5174:5183 fcsl.pcm.lift Lift joinA thm
+R5185:5185 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5158:5167 fcsl.pcm.lift Lift joinC thm
+R5169:5169 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5284:5286 fcsl.pcm.pcm PCM.Exports PCM syndef
+R5289:5292 fcsl.pcm.lift <> lift ind
+R5294:5294 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5297:5308 fcsl.pcm.lift Lift.Exports liftPCMMixin def
+prf 5318:5320 Lift.Exports upE
+R5331:5331 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5359:5361 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5350:5353 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5345:5346 fcsl.pcm.lift <> up constr
+R5348:5349 fcsl.pcm.lift <> a1 var
+R5354:5355 fcsl.pcm.lift <> up constr
+R5357:5358 fcsl.pcm.lift <> a2 var
+R5365:5369 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R5374:5375 fcsl.pcm.lift <> a2 var
+R5371:5372 fcsl.pcm.lift <> a1 var
+R5380:5383 Coq.Init.Datatypes <> Some constr
+R5392:5393 fcsl.pcm.lift <> up constr
+R5402:5405 fcsl.pcm.lift <> down constr
+prf 5435:5444 Lift.Exports valid_down
+R5463:5465 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5448:5452 fcsl.pcm.pcm PCM.Exports valid syndef
+R5456:5459 fcsl.pcm.lift <> down constr
+R5461:5461 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5466:5470 Coq.Init.Datatypes <> false constr
+prf 5499:5507 Lift.Exports down_join
+R5514:5517 fcsl.pcm.lift <> lift ind
+R5519:5519 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5533:5535 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5528:5531 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5524:5527 fcsl.pcm.lift <> down constr
+R5532:5532 fcsl.pcm.lift <> x var
+R5536:5539 fcsl.pcm.lift <> down constr
+prf 5568:5576 Lift.Exports join_down
+R5583:5586 fcsl.pcm.lift <> lift ind
+R5588:5588 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5602:5604 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5594:5597 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5593:5593 fcsl.pcm.lift <> x var
+R5598:5601 fcsl.pcm.lift <> down constr
+R5605:5608 fcsl.pcm.lift <> down constr
+def 5647:5651 Lift.Exports downE
+R5656:5656 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5666:5667 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5678:5679 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5690:5690 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5657:5665 fcsl.pcm.lift Lift.Exports down_join thm
+R5668:5677 fcsl.pcm.pcm TPCM.Exports join_undef thm
+R5680:5689 fcsl.pcm.lift Lift.Exports valid_down thm
+ind 5706:5718 Lift.Exports liftjoin_spec
+constr 5763:5769 Lift.Exports upcase1
+constr 5881:5888 Lift.Exports invalid1
+R5727:5730 fcsl.pcm.lift <> lift ind
+R5732:5732 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5738:5741 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5743:5746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5748:5751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5781:5783 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5780:5780 fcsl.pcm.lift <> x var
+R5784:5785 fcsl.pcm.lift <> up constr
+R5787:5788 fcsl.pcm.lift <> n1 var
+R5793:5795 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5792:5792 fcsl.pcm.lift <> y var
+R5796:5797 fcsl.pcm.lift <> up constr
+R5799:5800 fcsl.pcm.lift <> n2 var
+R5809:5821 fcsl.pcm.lift <> liftjoin_spec ind
+R5876:5876 fcsl.pcm.lift <> y var
+R5874:5874 fcsl.pcm.lift <> x var
+R5831:5835 fcsl.pcm.lift Unlifted.Exports ojoin syndef
+R5840:5841 fcsl.pcm.lift <> n2 var
+R5837:5838 fcsl.pcm.lift <> n1 var
+R5846:5849 Coq.Init.Datatypes <> Some constr
+R5858:5859 fcsl.pcm.lift <> up constr
+R5868:5871 fcsl.pcm.lift <> down constr
+R5825:5825 fcsl.pcm.lift <> y var
+R5823:5823 fcsl.pcm.lift <> x var
+R5893:5895 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R5896:5900 fcsl.pcm.pcm PCM.Exports valid syndef
+R5904:5907 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5903:5903 fcsl.pcm.lift <> x var
+R5908:5908 fcsl.pcm.lift <> y var
+R5913:5925 fcsl.pcm.lift <> liftjoin_spec ind
+R5938:5938 fcsl.pcm.lift <> y var
+R5936:5936 fcsl.pcm.lift <> x var
+R5931:5934 fcsl.pcm.lift <> down constr
+R5929:5929 fcsl.pcm.lift <> y var
+R5927:5927 fcsl.pcm.lift <> x var
+prf 5948:5953 Lift.Exports liftPJ
+R5962:5965 fcsl.pcm.lift <> lift ind
+R5967:5967 fcsl.pcm.lift <> Lift.Exports.Exports.A var
+R5972:5984 fcsl.pcm.lift Lift.Exports liftjoin_spec coind
+R6001:6001 fcsl.pcm.lift <> y var
+R5999:5999 fcsl.pcm.lift <> x var
+R5992:5995 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R5991:5991 fcsl.pcm.lift <> x var
+R5996:5996 fcsl.pcm.lift <> y var
+R5988:5988 fcsl.pcm.lift <> y var
+R5986:5986 fcsl.pcm.lift <> x var
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6044:6048 fcsl.pcm.lift Lift.Exports downE def
+R6074:6080 fcsl.pcm.lift Lift.Exports.Exports <> sec
+R6087:6093 fcsl.pcm.lift Lift.Exports <> mod
+R6100:6103 fcsl.pcm.lift Lift <> mod
+mod 6137:6145 <> NatUnlift
+def 6166:6170 NatUnlift ojoin
+R6179:6181 Coq.Init.Datatypes <> nat ind
+R6187:6190 Coq.Init.Datatypes <> Some constr
+R6194:6196 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'+'_x not
+R6193:6193 fcsl.pcm.lift <> x var
+R6197:6197 fcsl.pcm.lift <> y var
+def 6218:6222 NatUnlift ounit
+prf 6237:6242 NatUnlift ojoinC
+R6259:6261 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6250:6254 fcsl.pcm.lift NatUnlift ojoin def
+R6258:6258 fcsl.pcm.lift <> y var
+R6256:6256 fcsl.pcm.lift <> x var
+R6262:6266 fcsl.pcm.lift NatUnlift ojoin def
+R6270:6270 fcsl.pcm.lift <> x var
+R6268:6268 fcsl.pcm.lift <> y var
+R6292:6296 fcsl.pcm.lift NatUnlift ojoin def
+R6298:6302 mathcomp.ssreflect.ssrnat <> addnC thm
+R6292:6296 fcsl.pcm.lift NatUnlift ojoin def
+R6292:6296 fcsl.pcm.lift NatUnlift ojoin def
+R6298:6302 mathcomp.ssreflect.ssrnat <> addnC thm
+R6298:6302 mathcomp.ssreflect.ssrnat <> addnC thm
+prf 6317:6322 NatUnlift ojoinA
+R6368:6370 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6341:6345 Coq.ssr.ssrfun <> obind syndef
+R6358:6362 fcsl.pcm.lift NatUnlift ojoin def
+R6366:6366 fcsl.pcm.lift <> z var
+R6364:6364 fcsl.pcm.lift <> y var
+R6348:6352 fcsl.pcm.lift NatUnlift ojoin def
+R6354:6354 fcsl.pcm.lift <> x var
+R6371:6375 Coq.ssr.ssrfun <> obind syndef
+R6390:6394 fcsl.pcm.lift NatUnlift ojoin def
+R6398:6398 fcsl.pcm.lift <> y var
+R6396:6396 fcsl.pcm.lift <> x var
+R6383:6385 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R6386:6386 fcsl.pcm.lift <> z var
+R6378:6382 fcsl.pcm.lift NatUnlift ojoin def
+R6421:6425 Coq.ssr.ssrfun <> obind syndef
+R6427:6431 fcsl.pcm.lift NatUnlift ojoin def
+R6436:6440 mathcomp.ssreflect.ssrnat <> addnA thm
+R6421:6425 Coq.ssr.ssrfun <> obind syndef
+R6421:6425 Coq.ssr.ssrfun <> obind syndef
+R6427:6431 fcsl.pcm.lift NatUnlift ojoin def
+R6427:6431 fcsl.pcm.lift NatUnlift ojoin def
+R6436:6440 mathcomp.ssreflect.ssrnat <> addnA thm
+R6436:6440 mathcomp.ssreflect.ssrnat <> addnA thm
+prf 6455:6460 NatUnlift ounitL
+R6479:6481 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6466:6470 fcsl.pcm.lift NatUnlift ojoin def
+R6478:6478 fcsl.pcm.lift <> x var
+R6472:6476 fcsl.pcm.lift NatUnlift ounit def
+R6482:6485 Coq.Init.Datatypes <> Some constr
+R6487:6487 fcsl.pcm.lift <> x var
+R6519:6527 fcsl.pcm.lift NatUnlift <> mod
+def 6542:6555 <> natUnliftedMix
+R6563:6575 fcsl.pcm.lift <> UnliftedMixin syndef
+R6611:6626 fcsl.pcm.lift <> ounitL thm
+R6594:6609 fcsl.pcm.lift <> ojoinA thm
+R6577:6592 fcsl.pcm.lift <> ojoinC thm
+R6666:6673 fcsl.pcm.lift <> Unlifted syndef
+R6675:6677 Coq.Init.Datatypes <> nat ind
+R6679:6692 fcsl.pcm.lift <> natUnliftedMix def
+prf 6737:6739 <> nxV
+R6750:6753 fcsl.pcm.lift <> lift ind
+R6755:6765 fcsl.pcm.lift <> natUnlifted canonstruc
+R6795:6798 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6799:6805 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6811:6812 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R6823:6826 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R6815:6817 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6813:6814 fcsl.pcm.lift <> m1 var
+R6818:6819 fcsl.pcm.lift <> up constr
+R6821:6822 fcsl.pcm.lift <> n1 var
+R6829:6831 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6827:6828 fcsl.pcm.lift <> m2 var
+R6832:6833 fcsl.pcm.lift <> up constr
+R6835:6836 fcsl.pcm.lift <> n2 var
+R6779:6783 fcsl.pcm.pcm PCM.Exports valid syndef
+R6788:6791 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6786:6787 fcsl.pcm.lift <> m1 var
+R6792:6793 fcsl.pcm.lift <> m2 var
+prf 6911:6914 <> nxE0
+R6925:6928 fcsl.pcm.lift <> lift ind
+R6930:6940 fcsl.pcm.lift <> natUnlifted canonstruc
+R6969:6972 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6973:6973 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6983:6987 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6997:6997 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R6976:6978 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6974:6975 fcsl.pcm.lift <> n1 var
+R6979:6980 fcsl.pcm.lift <> up constr
+R6990:6992 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6988:6989 fcsl.pcm.lift <> n2 var
+R6993:6994 fcsl.pcm.lift <> up constr
+R6962:6964 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6956:6959 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R6954:6955 fcsl.pcm.lift <> n1 var
+R6960:6961 fcsl.pcm.lift <> n2 var
+R6965:6966 fcsl.pcm.lift <> up constr
+R7043:7045 fcsl.pcm.lift <> upE thm
+R7048:7052 fcsl.pcm.lift <> ojoin syndef
+R7043:7045 fcsl.pcm.lift <> upE thm
+R7043:7045 fcsl.pcm.lift <> upE thm
+R7048:7052 fcsl.pcm.lift <> ojoin syndef
+R7048:7052 fcsl.pcm.lift <> ojoin syndef
+R7082:7089 mathcomp.ssreflect.ssrnat <> addn_eq0 thm
+R7069:7071 mathcomp.ssreflect.eqtype <> eqP thm
+R7082:7089 mathcomp.ssreflect.ssrnat <> addn_eq0 thm
+R7082:7089 mathcomp.ssreflect.ssrnat <> addn_eq0 thm
+R7093:7096 Coq.ssr.ssrbool <> andP thm
+R7100:7102 mathcomp.ssreflect.eqtype <> eqP thm
+R7108:7110 mathcomp.ssreflect.eqtype <> eqP thm

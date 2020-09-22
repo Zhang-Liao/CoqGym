@@ -1,0 +1,335 @@
+DIGEST c91c245e45b955bc07e64cf8dadcc38a
+FAlgebra.Ring_cat
+R1086:1102 Algebra.Abelian_group_cat <> <> lib
+sec 1161:1167 <> Objects
+def 1182:1187 <> dist_r
+R1194:1196 Algebra.Set_cat <> SET def
+R1206:1223 Algebra.Sgroup_cat <> law_of_composition def
+R1225:1225 Algebra.Ring_cat <> E var
+R1248:1248 Algebra.Ring_cat <> E var
+R1253:1257 Algebra.Sets <> Equal proj
+R1296:1296 Algebra.Ring_cat <> g var
+R1299:1304 Algebra.Cartesian <> couple def
+R1324:1324 Algebra.Ring_cat <> f var
+R1327:1332 Algebra.Cartesian <> couple def
+R1336:1336 Algebra.Ring_cat <> z var
+R1334:1334 Algebra.Ring_cat <> y var
+R1307:1307 Algebra.Ring_cat <> f var
+R1310:1315 Algebra.Cartesian <> couple def
+R1319:1319 Algebra.Ring_cat <> z var
+R1317:1317 Algebra.Ring_cat <> x var
+R1260:1260 Algebra.Ring_cat <> f var
+R1263:1268 Algebra.Cartesian <> couple def
+R1287:1287 Algebra.Ring_cat <> z var
+R1271:1271 Algebra.Ring_cat <> g var
+R1274:1279 Algebra.Cartesian <> couple def
+R1283:1283 Algebra.Ring_cat <> y var
+R1281:1281 Algebra.Ring_cat <> x var
+def 1355:1360 <> dist_l
+R1367:1369 Algebra.Set_cat <> SET def
+R1379:1396 Algebra.Sgroup_cat <> law_of_composition def
+R1398:1398 Algebra.Ring_cat <> E var
+R1421:1421 Algebra.Ring_cat <> E var
+R1426:1430 Algebra.Sets <> Equal proj
+R1469:1469 Algebra.Ring_cat <> g var
+R1472:1477 Algebra.Cartesian <> couple def
+R1497:1497 Algebra.Ring_cat <> f var
+R1500:1505 Algebra.Cartesian <> couple def
+R1509:1509 Algebra.Ring_cat <> z var
+R1507:1507 Algebra.Ring_cat <> x var
+R1480:1480 Algebra.Ring_cat <> f var
+R1483:1488 Algebra.Cartesian <> couple def
+R1492:1492 Algebra.Ring_cat <> y var
+R1490:1490 Algebra.Ring_cat <> x var
+R1433:1433 Algebra.Ring_cat <> f var
+R1436:1441 Algebra.Cartesian <> couple def
+R1446:1446 Algebra.Ring_cat <> g var
+R1449:1454 Algebra.Cartesian <> couple def
+R1458:1458 Algebra.Ring_cat <> z var
+R1456:1456 Algebra.Ring_cat <> y var
+R1443:1443 Algebra.Ring_cat <> x var
+rec 1524:1530 <> ring_on
+proj 1566:1581 <> ring_mult_sgroup
+proj 1601:1616 <> ring_mult_monoid
+proj 1651:1661 <> ring_monoid
+proj 1697:1711 <> ring_dist_r_prf
+proj 1783:1797 <> ring_dist_l_prf
+R1537:1549 Algebra.Abelian_group_cat <> abelian_group rec
+R1585:1593 Algebra.Sgroup_cat <> sgroup_on rec
+R1595:1595 Algebra.Ring_cat <> R var
+R1620:1628 Algebra.Monoid_cat <> monoid_on rec
+R1630:1645 Algebra.Ring_cat <> ring_mult_sgroup meth
+R1666:1674 Algebra.Monoid_cat <> monoid_on rec
+R1676:1691 Algebra.Ring_cat <> ring_mult_monoid meth
+R1719:1724 Algebra.Ring_cat <> dist_r def
+R1761:1774 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1776:1776 Algebra.Ring_cat <> R var
+R1727:1740 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1742:1757 Algebra.Ring_cat <> ring_mult_sgroup meth
+R1805:1810 Algebra.Ring_cat <> dist_l def
+R1847:1860 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1862:1862 Algebra.Ring_cat <> R var
+R1813:1826 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1828:1843 Algebra.Ring_cat <> ring_mult_sgroup meth
+rec 1875:1878 <> ring
+proj 1894:1903 <> ring_group
+proj 1923:1933 <> ring_on_def
+R1908:1920 Algebra.Abelian_group_cat <> abelian_group rec
+R1938:1944 Algebra.Ring_cat <> ring_on rec
+R1946:1955 Algebra.Ring_cat <> ring_group meth
+R1959:1996 Algebra.Ring_cat <> Build_ring constr
+def 2011:2019 <> ring_mult
+R2026:2029 Algebra.Ring_cat <> ring rec
+R2039:2039 Algebra.Ring_cat <> R var
+R2044:2044 Algebra.Ring_cat <> R var
+R2051:2064 Algebra.Sgroup_cat <> sgroup_law_map proj
+R2088:2093 Algebra.Cartesian <> couple def
+R2097:2097 Algebra.Ring_cat <> y var
+R2095:2095 Algebra.Ring_cat <> x var
+R2067:2082 Algebra.Ring_cat <> ring_mult_sgroup proj
+R2084:2084 Algebra.Ring_cat <> R var
+def 2113:2121 <> ring_unit
+R2128:2131 Algebra.Ring_cat <> ring rec
+R2136:2136 Algebra.Ring_cat <> R var
+R2141:2151 Algebra.Monoid_cat <> monoid_unit proj
+R2154:2164 Algebra.Ring_cat <> ring_monoid proj
+R2166:2166 Algebra.Ring_cat <> R var
+rec 2178:2185 <> cring_on
+proj 2212:2224 <> cring_com_prf
+R2192:2195 Algebra.Ring_cat <> ring rec
+R2228:2238 Algebra.Abelian_group_cat <> commutative def
+R2241:2254 Algebra.Sgroup_cat <> sgroup_law_map proj
+R2257:2272 Algebra.Ring_cat <> ring_mult_monoid proj
+R2274:2274 Algebra.Ring_cat <> R var
+rec 2288:2292 <> cring
+proj 2308:2317 <> cring_ring
+proj 2328:2339 <> cring_on_def
+R2322:2325 Algebra.Ring_cat <> ring rec
+R2344:2351 Algebra.Ring_cat <> cring_on rec
+R2353:2362 Algebra.Ring_cat <> cring_ring meth
+R2366:2406 Algebra.Ring_cat <> Build_cring constr
+def 2421:2432 <> cring_monoid
+R2441:2444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2445:2458 Algebra.Abelian_group_cat <> abelian_monoid rec
+R2436:2440 Algebra.Ring_cat <> cring rec
+R2494:2513 Algebra.Abelian_group_cat <> Build_abelian_monoid constr
+R2539:2549 Algebra.Ring_cat <> ring_monoid proj
+R2494:2513 Algebra.Abelian_group_cat <> Build_abelian_monoid constr
+R2539:2549 Algebra.Ring_cat <> ring_monoid proj
+R2563:2585 Algebra.Abelian_group_cat <> Build_abelian_monoid_on constr
+R2591:2601 Algebra.Ring_cat <> ring_monoid proj
+R2563:2585 Algebra.Abelian_group_cat <> Build_abelian_monoid_on constr
+R2591:2601 Algebra.Ring_cat <> ring_monoid proj
+R2615:2637 Algebra.Abelian_group_cat <> Build_abelian_sgroup_on constr
+R2643:2653 Algebra.Ring_cat <> ring_monoid proj
+R2615:2637 Algebra.Abelian_group_cat <> Build_abelian_sgroup_on constr
+R2643:2653 Algebra.Ring_cat <> ring_monoid proj
+R2667:2679 Algebra.Ring_cat <> cring_com_prf proj
+R2667:2679 Algebra.Ring_cat <> cring_com_prf proj
+R2698:2704 Algebra.Ring_cat Objects <> sec
+sec 2715:2717 <> Hom
+var 2729:2729 Hom E
+var 2731:2731 Hom F
+R2735:2738 Algebra.Ring_cat <> ring rec
+def 2753:2775 <> ring_mult_hom_unit_prop
+R2782:2784 Algebra.Sets <> Map rec
+R2788:2788 Algebra.Ring_cat <> Hom.F var
+R2786:2786 Algebra.Ring_cat <> Hom.E var
+R2796:2800 Algebra.Sets <> Equal proj
+R2821:2829 Algebra.Ring_cat <> ring_unit def
+R2831:2831 Algebra.Ring_cat <> Hom.F var
+R2803:2803 Algebra.Ring_cat <> f var
+R2806:2814 Algebra.Ring_cat <> ring_unit def
+R2816:2816 Algebra.Ring_cat <> Hom.E var
+def 2847:2864 <> ring_mult_hom_prop
+R2871:2873 Algebra.Sets <> Map rec
+R2877:2877 Algebra.Ring_cat <> Hom.F var
+R2875:2875 Algebra.Ring_cat <> Hom.E var
+R2898:2898 Algebra.Ring_cat <> Hom.E var
+R2901:2905 Algebra.Sets <> Equal proj
+R2928:2936 Algebra.Ring_cat <> ring_mult def
+R2945:2945 Algebra.Ring_cat <> f var
+R2947:2947 Algebra.Ring_cat <> y var
+R2939:2939 Algebra.Ring_cat <> f var
+R2941:2941 Algebra.Ring_cat <> x var
+R2908:2908 Algebra.Ring_cat <> f var
+R2911:2919 Algebra.Ring_cat <> ring_mult def
+R2923:2923 Algebra.Ring_cat <> y var
+R2921:2921 Algebra.Ring_cat <> x var
+rec 2960:2967 <> ring_hom
+proj 2983:2995 <> ring_plus_hom
+proj 3019:3036 <> ring_mult_hom_unit
+proj 3082:3098 <> ring_mult_hom_prf
+R3000:3009 Algebra.Monoid_cat <> monoid_hom rec
+R3013:3013 Algebra.Ring_cat <> Hom.F var
+R3011:3011 Algebra.Ring_cat <> Hom.E var
+R3040:3062 Algebra.Ring_cat <> ring_mult_hom_unit_prop def
+R3064:3076 Algebra.Ring_cat <> ring_plus_hom meth
+R3102:3119 Algebra.Ring_cat <> ring_mult_hom_prop def
+R3121:3133 Algebra.Ring_cat <> ring_plus_hom meth
+R3141:3143 Algebra.Ring_cat Hom <> sec
+def 3158:3170 <> ring_hom_comp
+R3191:3194 Algebra.Ring_cat <> ring rec
+R3209:3212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3225:3228 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3229:3236 Algebra.Ring_cat <> ring_hom rec
+R3240:3240 Algebra.Ring_cat <> G var
+R3238:3238 Algebra.Ring_cat <> E var
+R3213:3220 Algebra.Ring_cat <> ring_hom rec
+R3224:3224 Algebra.Ring_cat <> F var
+R3222:3222 Algebra.Ring_cat <> E var
+R3197:3204 Algebra.Ring_cat <> ring_hom rec
+R3208:3208 Algebra.Ring_cat <> G var
+R3206:3206 Algebra.Ring_cat <> F var
+R3284:3297 Algebra.Ring_cat <> Build_ring_hom constr
+R3315:3329 Algebra.Monoid_cat <> monoid_hom_comp def
+R3284:3297 Algebra.Ring_cat <> Build_ring_hom constr
+R3315:3329 Algebra.Monoid_cat <> monoid_hom_comp def
+R3345:3367 Algebra.Ring_cat <> ring_mult_hom_unit_prop def
+R3419:3430 Algebra.Sets <> comp_map_fun def
+R3462:3463 Algebra.Sets <> Ap proj
+R3517:3525 Algebra.Ring_cat <> ring_unit def
+R3466:3475 Algebra.Sgroup_cat <> sgroup_map proj
+R3478:3494 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3497:3509 Algebra.Ring_cat <> ring_plus_hom proj
+R3448:3452 Algebra.Sets <> Trans thm
+R3462:3463 Algebra.Sets <> Ap proj
+R3517:3525 Algebra.Ring_cat <> ring_unit def
+R3466:3475 Algebra.Sgroup_cat <> sgroup_map proj
+R3478:3494 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3497:3509 Algebra.Ring_cat <> ring_plus_hom proj
+R3448:3452 Algebra.Sets <> Trans thm
+R3558:3562 Algebra.Sets <> Equal proj
+R3639:3647 Algebra.Ring_cat <> ring_unit def
+R3565:3566 Algebra.Sets <> Ap proj
+R3620:3628 Algebra.Ring_cat <> ring_unit def
+R3569:3578 Algebra.Sgroup_cat <> sgroup_map proj
+R3581:3597 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3600:3612 Algebra.Ring_cat <> ring_plus_hom proj
+R3558:3562 Algebra.Sets <> Equal proj
+R3639:3647 Algebra.Ring_cat <> ring_unit def
+R3565:3566 Algebra.Sets <> Ap proj
+R3620:3628 Algebra.Ring_cat <> ring_unit def
+R3569:3578 Algebra.Sgroup_cat <> sgroup_map proj
+R3581:3597 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3600:3612 Algebra.Ring_cat <> ring_plus_hom proj
+R3680:3697 Algebra.Ring_cat <> ring_mult_hom_unit proj
+R3680:3697 Algebra.Ring_cat <> ring_mult_hom_unit proj
+R3710:3727 Algebra.Ring_cat <> ring_mult_hom_unit proj
+R3710:3727 Algebra.Ring_cat <> ring_mult_hom_unit proj
+R3740:3757 Algebra.Ring_cat <> ring_mult_hom_prop def
+R3809:3820 Algebra.Sets <> comp_map_fun def
+R3884:3885 Algebra.Sets <> Ap proj
+R3946:3954 Algebra.Ring_cat <> ring_mult def
+R4025:4026 Algebra.Sets <> Ap proj
+R4029:4038 Algebra.Sgroup_cat <> sgroup_map proj
+R4041:4057 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4060:4072 Algebra.Ring_cat <> ring_plus_hom proj
+R3957:3958 Algebra.Sets <> Ap proj
+R3961:3970 Algebra.Sgroup_cat <> sgroup_map proj
+R3973:3989 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3992:4004 Algebra.Ring_cat <> ring_plus_hom proj
+R3888:3897 Algebra.Sgroup_cat <> sgroup_map proj
+R3900:3916 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3919:3931 Algebra.Ring_cat <> ring_plus_hom proj
+R3866:3870 Algebra.Sets <> Trans thm
+R3884:3885 Algebra.Sets <> Ap proj
+R3946:3954 Algebra.Ring_cat <> ring_mult def
+R4025:4026 Algebra.Sets <> Ap proj
+R4029:4038 Algebra.Sgroup_cat <> sgroup_map proj
+R4041:4057 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4060:4072 Algebra.Ring_cat <> ring_plus_hom proj
+R3957:3958 Algebra.Sets <> Ap proj
+R3961:3970 Algebra.Sgroup_cat <> sgroup_map proj
+R3973:3989 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3992:4004 Algebra.Ring_cat <> ring_plus_hom proj
+R3888:3897 Algebra.Sgroup_cat <> sgroup_map proj
+R3900:3916 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R3919:3931 Algebra.Ring_cat <> ring_plus_hom proj
+R3866:3870 Algebra.Sets <> Trans thm
+R4111:4115 Algebra.Sets <> Equal proj
+R4198:4206 Algebra.Ring_cat <> ring_mult def
+R4274:4275 Algebra.Sets <> Ap proj
+R4278:4287 Algebra.Sgroup_cat <> sgroup_map proj
+R4290:4306 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4309:4321 Algebra.Ring_cat <> ring_plus_hom proj
+R4209:4210 Algebra.Sets <> Ap proj
+R4213:4222 Algebra.Sgroup_cat <> sgroup_map proj
+R4225:4241 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4244:4256 Algebra.Ring_cat <> ring_plus_hom proj
+R4122:4123 Algebra.Sets <> Ap proj
+R4177:4185 Algebra.Ring_cat <> ring_mult def
+R4126:4135 Algebra.Sgroup_cat <> sgroup_map proj
+R4138:4154 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4157:4169 Algebra.Ring_cat <> ring_plus_hom proj
+R4111:4115 Algebra.Sets <> Equal proj
+R4198:4206 Algebra.Ring_cat <> ring_mult def
+R4274:4275 Algebra.Sets <> Ap proj
+R4278:4287 Algebra.Sgroup_cat <> sgroup_map proj
+R4290:4306 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4309:4321 Algebra.Ring_cat <> ring_plus_hom proj
+R4209:4210 Algebra.Sets <> Ap proj
+R4213:4222 Algebra.Sgroup_cat <> sgroup_map proj
+R4225:4241 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4244:4256 Algebra.Ring_cat <> ring_plus_hom proj
+R4122:4123 Algebra.Sets <> Ap proj
+R4177:4185 Algebra.Ring_cat <> ring_mult def
+R4126:4135 Algebra.Sgroup_cat <> sgroup_map proj
+R4138:4154 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R4157:4169 Algebra.Ring_cat <> ring_plus_hom proj
+R4360:4376 Algebra.Ring_cat <> ring_mult_hom_prf proj
+R4360:4376 Algebra.Ring_cat <> ring_mult_hom_prf proj
+R4389:4405 Algebra.Ring_cat <> ring_mult_hom_prf proj
+R4389:4405 Algebra.Ring_cat <> ring_mult_hom_prf proj
+def 4432:4438 <> ring_id
+R4453:4456 Algebra.Ring_cat <> ring rec
+R4459:4466 Algebra.Ring_cat <> ring_hom rec
+R4470:4470 Algebra.Ring_cat <> E var
+R4468:4468 Algebra.Ring_cat <> E var
+R4506:4519 Algebra.Ring_cat <> Build_ring_hom constr
+R4537:4545 Algebra.Monoid_cat <> monoid_id def
+R4506:4519 Algebra.Ring_cat <> Build_ring_hom constr
+R4537:4545 Algebra.Monoid_cat <> monoid_id def
+def 4667:4670 <> RING
+R4674:4681 Algebra.Categories <> category rec
+R4692:4697 Algebra.Subcat <> subcat def
+R4971:4977 Algebra.Ring_cat <> ring_id def
+R4945:4957 Algebra.Ring_cat <> ring_hom_comp def
+R4767:4770 Algebra.Ring_cat <> ring rec
+R4787:4805 Algebra.Parts <> Build_subtype_image constr
+R4906:4918 Algebra.Ring_cat <> ring_plus_hom proj
+R4931:4931 Algebra.Ring_cat <> F var
+R4924:4924 Algebra.Ring_cat <> E var
+R4877:4884 Algebra.Ring_cat <> ring_hom rec
+R4888:4888 Algebra.Ring_cat <> F var
+R4886:4886 Algebra.Ring_cat <> E var
+R4811:4813 Algebra.Categories <> Hom proj
+R4836:4836 Algebra.Ring_cat <> F var
+R4834:4834 Algebra.Ring_cat <> E var
+R4819:4831 Algebra.Abelian_group_cat <> ABELIAN_GROUP def
+R4733:4742 Algebra.Ring_cat <> ring_group proj
+R4723:4726 Algebra.Ring_cat <> ring rec
+R4703:4715 Algebra.Abelian_group_cat <> ABELIAN_GROUP def
+R4692:4697 Algebra.Subcat <> subcat def
+R4971:4977 Algebra.Ring_cat <> ring_id def
+R4945:4957 Algebra.Ring_cat <> ring_hom_comp def
+R4767:4770 Algebra.Ring_cat <> ring rec
+R4787:4805 Algebra.Parts <> Build_subtype_image constr
+R4906:4918 Algebra.Ring_cat <> ring_plus_hom proj
+R4931:4931 Algebra.Ring_cat <> F var
+R4924:4924 Algebra.Ring_cat <> E var
+R4877:4884 Algebra.Ring_cat <> ring_hom rec
+R4888:4888 Algebra.Ring_cat <> F var
+R4886:4886 Algebra.Ring_cat <> E var
+R4811:4813 Algebra.Categories <> Hom proj
+R4836:4836 Algebra.Ring_cat <> F var
+R4834:4834 Algebra.Ring_cat <> E var
+R4819:4831 Algebra.Abelian_group_cat <> ABELIAN_GROUP def
+R4733:4742 Algebra.Ring_cat <> ring_group proj
+R4723:4726 Algebra.Ring_cat <> ring rec
+R4703:4715 Algebra.Abelian_group_cat <> ABELIAN_GROUP def
+def 5157:5161 <> CRING
+R5166:5176 Algebra.Categories <> full_subcat def
+R5200:5209 Algebra.Ring_cat <> cring_ring proj
+R5193:5197 Algebra.Ring_cat <> cring rec
+R5182:5185 Algebra.Ring_cat <> RING def

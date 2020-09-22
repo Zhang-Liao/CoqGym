@@ -1,0 +1,172 @@
+DIGEST 84e5a8bacc9efc519848c02fcba872fa
+FExtLib.Programming.With
+R15:28 Coq.Lists.List <> <> lib
+def 67:70 <> Ctor
+R89:92 Coq.Init.Datatypes <> list ind
+R94:94 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R96:98 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R103:105 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R112:112 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R107:110 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R111:111 ExtLib.Programming.With <> x var
+R106:106 ExtLib.Programming.With <> T var
+R133:134 ExtLib.Programming.With <> ls var
+R147:149 Coq.Init.Datatypes <> nil constr
+R157:157 ExtLib.Programming.With <> T var
+R166:169 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R175:175 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R184:188 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R189:192 ExtLib.Programming.With <> Ctor def
+R176:181 Coq.Init.Specif <> projT1 def
+rec 210:215 <> Struct
+proj 242:247 <> fields
+proj 280:283 <> ctor
+R251:254 Coq.Init.Datatypes <> list ind
+R256:256 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R258:260 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R265:267 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R274:274 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R269:272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R273:273 ExtLib.Programming.With <> x var
+R268:268 ExtLib.Programming.With <> T var
+R289:292 ExtLib.Programming.With <> Ctor def
+R294:299 ExtLib.Programming.With <> fields meth
+sec 313:316 <> With
+var 330:330 With T
+var 351:354 With strt
+R358:363 ExtLib.Programming.With <> Struct class
+R365:365 ExtLib.Programming.With <> With.T var
+var 379:381 With rec
+R385:385 ExtLib.Programming.With <> With.T var
+sec 399:404 With Member
+var 420:420 With.Member U
+ind 445:447 <> Mem
+constr 493:496 <> Here
+constr 547:550 <> Next
+R475:478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R451:454 Coq.Init.Datatypes <> list ind
+R456:456 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R458:460 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R465:467 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R474:474 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R469:472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R473:473 ExtLib.Programming.With <> x var
+R468:468 ExtLib.Programming.With <> With.T var
+R512:514 ExtLib.Programming.With <> Mem ind
+R517:517 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R533:537 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R519:524 Coq.Init.Specif <> existT constr
+R532:532 ExtLib.Programming.With <> a var
+R530:530 ExtLib.Programming.With <> With.Member.U var
+R538:538 ExtLib.Programming.With <> b var
+R571:574 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R575:577 ExtLib.Programming.With <> Mem ind
+R581:584 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R580:580 ExtLib.Programming.With <> a var
+R585:585 ExtLib.Programming.With <> b var
+R566:568 ExtLib.Programming.With <> Mem ind
+R570:570 ExtLib.Programming.With <> b var
+R595:600 ExtLib.Programming.With With.Member <> sec
+def 615:623 <> applyRest
+R630:633 Coq.Init.Datatypes <> list ind
+R635:635 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R637:639 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R644:646 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R653:653 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R648:651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R652:652 ExtLib.Programming.With <> x var
+R647:647 ExtLib.Programming.With <> With.T var
+R664:667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R668:668 ExtLib.Programming.With <> With.T var
+R658:661 ExtLib.Programming.With <> Ctor def
+R663:663 ExtLib.Programming.With <> f var
+R683:683 ExtLib.Programming.With <> f var
+R703:706 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R707:707 ExtLib.Programming.With <> With.T var
+R697:700 ExtLib.Programming.With <> Ctor def
+R702:702 ExtLib.Programming.With <> f var
+R722:724 Coq.Init.Datatypes <> nil constr
+R738:738 ExtLib.Programming.With <> x var
+R749:752 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R769:777 ExtLib.Programming.With <> applyRest def
+R782:784 ExtLib.Programming.With <> acc var
+R788:793 Coq.Init.Specif <> projT2 def
+R798:800 ExtLib.Programming.With <> With.rec var
+sec 824:828 With Until
+var 869:869 With.Until v
+R873:873 ExtLib.Programming.With <> With.Until.U var
+def 891:900 <> applyUntil
+R907:910 Coq.Init.Datatypes <> list ind
+R912:912 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R914:916 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R921:923 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R930:930 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R925:928 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R929:929 ExtLib.Programming.With <> x var
+R924:924 ExtLib.Programming.With <> With.T var
+R938:940 ExtLib.Programming.With <> Mem ind
+R944:944 ExtLib.Programming.With <> f var
+R942:942 ExtLib.Programming.With <> With.Until.U var
+R955:958 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R959:959 ExtLib.Programming.With <> With.T var
+R949:952 ExtLib.Programming.With <> Ctor def
+R954:954 ExtLib.Programming.With <> f var
+R976:976 ExtLib.Programming.With <> n var
+R981:983 ExtLib.Programming.With <> Mem ind
+R1002:1005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1006:1006 ExtLib.Programming.With <> With.T var
+R996:999 ExtLib.Programming.With <> Ctor def
+R1001:1001 ExtLib.Programming.With <> f var
+R1023:1026 ExtLib.Programming.With <> Here constr
+R1047:1055 ExtLib.Programming.With <> applyRest def
+R1060:1063 ExtLib.Programming.With <> ctor var
+R1065:1065 ExtLib.Programming.With <> With.Until.v var
+R1078:1081 ExtLib.Programming.With <> Next constr
+R1104:1113 ExtLib.Programming.With <> applyUntil def
+R1120:1123 ExtLib.Programming.With <> ctor var
+R1127:1132 Coq.Init.Specif <> projT2 def
+R1137:1139 ExtLib.Programming.With <> With.rec var
+R1160:1164 ExtLib.Programming.With With.Until <> sec
+def 1181:1190 <> structWith
+R1208:1208 ExtLib.Programming.With <> U var
+R1216:1218 ExtLib.Programming.With <> Mem ind
+R1222:1227 ExtLib.Programming.With <> fields meth
+R1220:1220 ExtLib.Programming.With <> U var
+R1232:1232 ExtLib.Programming.With <> With.T var
+R1241:1250 ExtLib.Programming.With <> applyUntil def
+R1263:1266 ExtLib.Programming.With <> ctor meth
+R1261:1261 ExtLib.Programming.With <> n var
+R1254:1259 ExtLib.Programming.With <> fields meth
+R1252:1252 ExtLib.Programming.With <> v var
+R1274:1277 ExtLib.Programming.With With <> sec
+rec 1287:1294 <> Accessor
+proj 1354:1356 <> acc
+R1317:1322 ExtLib.Programming.With <> Struct class
+R1324:1324 ExtLib.Programming.With <> T var
+R1333:1336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1337:1337 ExtLib.Programming.With <> U var
+R1332:1332 ExtLib.Programming.With <> T var
+R1360:1362 ExtLib.Programming.With <> Mem ind
+R1368:1373 ExtLib.Programming.With <> fields meth
+R1366:1366 ExtLib.Programming.With <> U var
+R1364:1364 ExtLib.Programming.With <> T var
+def 1390:1397 <> wrapWith
+R1417:1417 ExtLib.Programming.With <> T var
+R1426:1429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1430:1430 ExtLib.Programming.With <> U var
+R1425:1425 ExtLib.Programming.With <> T var
+R1438:1438 ExtLib.Programming.With <> U var
+R1452:1457 ExtLib.Programming.With <> Struct class
+R1459:1459 ExtLib.Programming.With <> T var
+R1470:1477 ExtLib.Programming.With <> Accessor class
+R1479:1479 ExtLib.Programming.With <> f var
+R1488:1497 ExtLib.Programming.With <> structWith def
+R1509:1511 ExtLib.Programming.With <> acc meth
+R1507:1507 ExtLib.Programming.With <> v var
+R1503:1503 ExtLib.Programming.With <> t var
+R1596:1603 ExtLib.Programming.With <> wrapWith def
+not 1565:1565 <> ::struct_scope:'{$'_x_'with'_x_':='_x_'$}'
+R1647:1650 ExtLib.Programming.With <> Next constr
+R1647:1650 ExtLib.Programming.With <> Next constr
+R1675:1678 ExtLib.Programming.With <> Here constr
+R1675:1678 ExtLib.Programming.With <> Here constr

@@ -1,0 +1,35 @@
+DIGEST bdda48faaaf7c199fc809348a6a9e846
+FAlgebra.Set_cat
+R1086:1095 Algebra.Categories <> <> lib
+sec 1143:1145 <> Def
+prf 1155:1177 <> comp_map_map_compatible
+R1197:1202 Algebra.Sets <> Setoid rec
+R1205:1219 Algebra.Cartesian <> fun2_compatible def
+R1222:1233 Algebra.Sets <> comp_map_map def
+R1253:1253 Algebra.Set_cat <> G var
+R1246:1246 Algebra.Set_cat <> F var
+R1239:1239 Algebra.Set_cat <> E var
+def 1321:1323 <> SET
+R1327:1334 Algebra.Categories <> category rec
+R1345:1358 Algebra.Categories <> Build_category constr
+R1505:1506 Algebra.Sets <> Id def
+R1411:1416 Algebra.Sets <> Setoid rec
+R1436:1442 Algebra.Cartesian <> uncurry def
+R1445:1467 Algebra.Set_cat <> comp_map_map_compatible thm
+R1487:1487 Algebra.Set_cat <> G var
+R1480:1480 Algebra.Set_cat <> F var
+R1473:1473 Algebra.Set_cat <> E var
+R1379:1381 Algebra.Sets <> MAP def
+R1365:1370 Algebra.Sets <> Setoid rec
+R1546:1551 Algebra.Sets <> Map_eq def
+R1345:1358 Algebra.Categories <> Build_category constr
+R1505:1506 Algebra.Sets <> Id def
+R1411:1416 Algebra.Sets <> Setoid rec
+R1436:1442 Algebra.Cartesian <> uncurry def
+R1445:1467 Algebra.Set_cat <> comp_map_map_compatible thm
+R1487:1487 Algebra.Set_cat <> G var
+R1480:1480 Algebra.Set_cat <> F var
+R1473:1473 Algebra.Set_cat <> E var
+R1379:1381 Algebra.Sets <> MAP def
+R1365:1370 Algebra.Sets <> Setoid rec
+R1595:1597 Algebra.Set_cat Def <> sec

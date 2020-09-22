@@ -1,0 +1,12 @@
+DIGEST d7c0408da5bb12d99ba4e3b07aec22d4
+FExtLib.Structures.MonadTrans
+R15:37 ExtLib.Structures.Monad <> <> lib
+rec 72:77 <> MonadT
+proj 130:133 <> lift
+R88:91 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R108:111 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R153:156 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R157:157 ExtLib.Structures.MonadTrans <> m var
+R159:159 ExtLib.Structures.MonadTrans <> t var
+R149:150 ExtLib.Structures.MonadTrans <> mt var
+R152:152 ExtLib.Structures.MonadTrans <> t var

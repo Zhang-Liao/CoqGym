@@ -1,0 +1,7 @@
+DIGEST 1db757cdbbc46bdb987739095f06ce80
+FListString.LString
+R15:28 Coq.Lists.List <> <> lib
+R46:62 Coq.Strings.Ascii <> <> lib
+def 118:118 <> t
+R129:132 Coq.Init.Datatypes <> list ind
+R134:144 Coq.Strings.Ascii <> ascii ind

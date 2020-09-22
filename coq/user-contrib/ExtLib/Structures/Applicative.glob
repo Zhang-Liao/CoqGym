@@ -1,0 +1,85 @@
+DIGEST 9117f6a5835893e71766d530c4e843f0
+FExtLib.Structures.Applicative
+rec 75:86 <> PApplicative
+proj 128:131 <> AppP
+proj 158:162 <> ppure
+proj 213:215 <> pap
+R109:112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R143:146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R193:196 ExtLib.Structures.Applicative <> AppP meth
+R198:198 ExtLib.Structures.Applicative <> A var
+R203:206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R207:207 ExtLib.Structures.Applicative <> T var
+R209:209 ExtLib.Structures.Applicative <> A var
+R202:202 ExtLib.Structures.Applicative <> A var
+R248:251 ExtLib.Structures.Applicative <> AppP meth
+R253:253 ExtLib.Structures.Applicative <> B var
+R267:270 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R274:277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R278:278 ExtLib.Structures.Applicative <> T var
+R280:280 ExtLib.Structures.Applicative <> B var
+R271:271 ExtLib.Structures.Applicative <> T var
+R273:273 ExtLib.Structures.Applicative <> A var
+R257:257 ExtLib.Structures.Applicative <> T var
+R261:264 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R265:265 ExtLib.Structures.Applicative <> B var
+R260:260 ExtLib.Structures.Applicative <> A var
+rec 304:314 <> Applicative
+proj 354:357 <> pure
+proj 395:396 <> ap
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R385:388 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R389:389 ExtLib.Structures.Applicative <> T var
+R391:391 ExtLib.Structures.Applicative <> A var
+R384:384 ExtLib.Structures.Applicative <> A var
+R435:438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R442:445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R446:446 ExtLib.Structures.Applicative <> T var
+R448:448 ExtLib.Structures.Applicative <> B var
+R439:439 ExtLib.Structures.Applicative <> T var
+R441:441 ExtLib.Structures.Applicative <> A var
+R425:425 ExtLib.Structures.Applicative <> T var
+R429:432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R433:433 ExtLib.Structures.Applicative <> B var
+R428:428 ExtLib.Structures.Applicative <> A var
+mod 461:479 <> ApplicativeNotation
+R507:508 ExtLib.Structures.Applicative <> ap meth
+not 493:493 ApplicativeNotation :::x_'<*>'_x
+R555:573 ExtLib.Structures.Applicative ApplicativeNotation <> mod
+sec 613:623 <> applicative
+def 651:655 <> liftA
+R676:679 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R694:704 ExtLib.Structures.Applicative <> Applicative class
+R712:712 ExtLib.Structures.Applicative <> T var
+R736:739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R740:740 ExtLib.Structures.Applicative <> B var
+R735:735 ExtLib.Structures.Applicative <> A var
+R747:747 ExtLib.Structures.Applicative <> T var
+R749:749 ExtLib.Structures.Applicative <> A var
+R754:754 ExtLib.Structures.Applicative <> T var
+R756:756 ExtLib.Structures.Applicative <> B var
+R767:771 ExtLib.Structures.Applicative ApplicativeNotation :::x_'<*>'_x not
+R761:764 ExtLib.Structures.Applicative <> pure meth
+R766:766 ExtLib.Structures.Applicative <> f var
+R772:773 ExtLib.Structures.Applicative <> aT var
+def 801:806 <> liftA2
+R827:830 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R845:855 ExtLib.Structures.Applicative <> Applicative class
+R863:863 ExtLib.Structures.Applicative <> T var
+R889:892 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R894:897 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R898:898 ExtLib.Structures.Applicative <> C var
+R893:893 ExtLib.Structures.Applicative <> B var
+R888:888 ExtLib.Structures.Applicative <> A var
+R905:905 ExtLib.Structures.Applicative <> T var
+R907:907 ExtLib.Structures.Applicative <> A var
+R914:914 ExtLib.Structures.Applicative <> T var
+R916:916 ExtLib.Structures.Applicative <> B var
+R921:921 ExtLib.Structures.Applicative <> T var
+R923:923 ExtLib.Structures.Applicative <> C var
+R938:942 ExtLib.Structures.Applicative ApplicativeNotation :::x_'<*>'_x not
+R928:932 ExtLib.Structures.Applicative <> liftA def
+R936:937 ExtLib.Structures.Applicative <> aT var
+R934:934 ExtLib.Structures.Applicative <> f var
+R943:944 ExtLib.Structures.Applicative <> bT var
+R951:961 ExtLib.Structures.Applicative applicative <> sec

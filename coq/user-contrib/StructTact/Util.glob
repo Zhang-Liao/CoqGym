@@ -1,0 +1,18 @@
+DIGEST 191a4917aa1135bac81b0d3c27aebba2
+FStructTact.Util
+R15:36 StructTact.ListTactics <> <> lib
+R54:72 StructTact.ListUtil <> <> lib
+R91:106 StructTact.Assoc <> <> lib
+R124:140 StructTact.Before <> <> lib
+R158:178 StructTact.BeforeFunc <> <> lib
+R196:215 StructTact.BeforeAll <> <> lib
+R233:248 StructTact.Dedup <> <> lib
+R266:285 StructTact.FilterMap <> <> lib
+R303:316 StructTact.Nth <> <> lib
+R334:350 StructTact.Prefix <> <> lib
+R368:387 StructTact.RemoveAll <> <> lib
+R405:421 StructTact.Subseq <> <> lib
+R440:458 StructTact.BoolUtil <> <> lib
+R476:494 StructTact.PropUtil <> <> lib
+R513:529 StructTact.Update <> <> lib
+R547:564 StructTact.Update2 <> <> lib

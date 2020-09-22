@@ -1,0 +1,94 @@
+DIGEST 38c77f899529a3e9054b1b3d89f17ab6
+FVerdi.InverseTraceRelations
+R15:18 Coq.Lists.List <> <> lib
+R37:45 Verdi.Net <> <> lib
+R63:86 StructTact.StructTactics <> <> lib
+rec 96:115 <> InverseTraceRelation
+proj 195:198 <> init
+proj 213:213 <> T
+proj 243:243 <> R
+proj 266:270 <> R_dec
+proj 305:315 <> T_monotonic
+proj 357:368 <> R_false_init
+proj 386:396 <> R_implies_T
+R157:169 Verdi.Net <> step_relation def
+R177:181 Verdi.InverseTraceRelations <> Event var
+R171:175 Verdi.InverseTraceRelations <> State var
+R202:206 Verdi.InverseTraceRelations <> State var
+R217:217 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R228:232 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R218:221 Coq.Init.Datatypes <> list ind
+R223:227 Verdi.InverseTraceRelations <> Event var
+R252:255 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R247:251 Verdi.InverseTraceRelations <> State var
+R284:284 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R288:292 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R298:298 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R285:285 Verdi.InverseTraceRelations <> R meth
+R287:287 Verdi.InverseTraceRelations <> s var
+R293:294 Coq.Init.Logic <> ::type_scope:'~'_x not
+R295:295 Verdi.InverseTraceRelations <> R meth
+R297:297 Verdi.InverseTraceRelations <> s var
+R336:339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R340:340 Verdi.InverseTraceRelations <> T meth
+R345:348 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R343:344 Verdi.InverseTraceRelations <> tr var
+R349:349 Verdi.InverseTraceRelations <> o var
+R332:332 Verdi.InverseTraceRelations <> T meth
+R334:335 Verdi.InverseTraceRelations <> tr var
+R372:373 Coq.Init.Logic <> ::type_scope:'~'_x not
+R374:374 Verdi.InverseTraceRelations <> R meth
+R376:379 Verdi.InverseTraceRelations <> init meth
+R472:495 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R501:524 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R536:559 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R564:587 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R588:588 Verdi.InverseTraceRelations <> T meth
+R593:596 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R591:592 Verdi.InverseTraceRelations <> tr var
+R597:597 Verdi.InverseTraceRelations <> o var
+R560:560 Verdi.InverseTraceRelations <> R meth
+R562:563 Verdi.InverseTraceRelations <> s' var
+R525:528 Verdi.InverseTraceRelations <> step var
+R535:535 Verdi.InverseTraceRelations <> o var
+R532:533 Verdi.InverseTraceRelations <> s' var
+R530:530 Verdi.InverseTraceRelations <> s var
+R496:497 Coq.Init.Logic <> ::type_scope:'~'_x not
+R498:498 Verdi.InverseTraceRelations <> R meth
+R500:500 Verdi.InverseTraceRelations <> s var
+R438:456 Verdi.Net <> refl_trans_1n_trace ind
+R470:471 Verdi.InverseTraceRelations <> tr var
+R468:468 Verdi.InverseTraceRelations <> s var
+R463:466 Verdi.InverseTraceRelations <> init meth
+R458:461 Verdi.InverseTraceRelations <> step var
+sec 614:634 <> InverseTraceRelations
+R655:674 Verdi.InverseTraceRelations <> InverseTraceRelation class
+prf 691:718 <> inverse_trace_relations_work
+R779:788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R792:801 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R802:802 Verdi.InverseTraceRelations <> T meth
+R804:805 Verdi.InverseTraceRelations <> tr var
+R789:789 Verdi.InverseTraceRelations <> R meth
+R791:791 Verdi.InverseTraceRelations <> s var
+R745:763 Verdi.Net <> refl_trans_1n_trace ind
+R777:778 Verdi.InverseTraceRelations <> tr var
+R775:775 Verdi.InverseTraceRelations <> s var
+R770:773 Verdi.InverseTraceRelations <> init meth
+R765:768 Verdi.InverseTraceRelations <> InverseTraceRelations.step var
+R854:875 Verdi.Net <> refl_trans_1n_n1_trace thm
+R891:894 Verdi.InverseTraceRelations <> init meth
+R891:894 Verdi.InverseTraceRelations <> init meth
+R954:965 Verdi.InverseTraceRelations <> R_false_init meth
+R954:965 Verdi.InverseTraceRelations <> R_false_init meth
+R1008:1012 Verdi.InverseTraceRelations <> R_dec meth
+R1049:1059 Verdi.InverseTraceRelations <> T_monotonic meth
+R1062:1083 Verdi.Net <> refl_trans_n1_1n_trace thm
+R1086:1096 Verdi.InverseTraceRelations <> R_implies_T meth
+R1008:1012 Verdi.InverseTraceRelations <> R_dec meth
+R1049:1059 Verdi.InverseTraceRelations <> T_monotonic meth
+R1062:1083 Verdi.Net <> refl_trans_n1_1n_trace thm
+R1086:1096 Verdi.InverseTraceRelations <> R_implies_T meth
+R1049:1059 Verdi.InverseTraceRelations <> T_monotonic meth
+R1062:1083 Verdi.Net <> refl_trans_n1_1n_trace thm
+R1086:1096 Verdi.InverseTraceRelations <> R_implies_T meth
+R1110:1130 Verdi.InverseTraceRelations InverseTraceRelations <> sec

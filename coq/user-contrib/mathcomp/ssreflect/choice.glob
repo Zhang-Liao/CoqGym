@@ -1,0 +1,1831 @@
+DIGEST 13d3ef23c21402087f4ee58cabc2dc25
+Fmathcomp.ssreflect.choice
+R175:202 mathcomp.ssreflect.ssreflect <> <> lib
+R234:239 mathcomp.ssreflect.ssrfun <> <> lib
+R241:247 mathcomp.ssreflect.ssrbool <> <> lib
+R249:254 mathcomp.ssreflect.eqtype <> <> lib
+R256:261 mathcomp.ssreflect.ssrnat <> <> lib
+R263:265 mathcomp.ssreflect.seq <> <> lib
+mod 4492:4498 <> CodeSeq
+def 4919:4922 CodeSeq code
+R4927:4931 mathcomp.ssreflect.seq <> foldr def
+R4950:4952 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R4946:4948 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R4949:4949 mathcomp.ssreflect.choice <> n var
+R4957:4959 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R4954:4956 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.*2' not
+R4953:4953 mathcomp.ssreflect.choice <> m var
+def 4975:4984 CodeSeq decode_rec
+R4995:4997 Coq.Init.Datatypes <> nat ind
+R4995:4997 Coq.Init.Datatypes <> nat ind
+R5213:5222 mathcomp.ssreflect.choice <> decode_rec def
+R5025:5025 mathcomp.ssreflect.choice <> r var
+R5022:5022 mathcomp.ssreflect.choice <> q var
+R5052:5055 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R5057:5057 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R5056:5056 mathcomp.ssreflect.choice <> v var
+R5065:5067 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5080:5083 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R5079:5079 mathcomp.ssreflect.choice <> v var
+R5084:5088 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5090:5091 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5094:5095 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5098:5098 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5106:5108 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5120:5124 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5129:5130 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5133:5134 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5137:5137 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5126:5128 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5125:5125 mathcomp.ssreflect.choice <> v var
+R5145:5147 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5152:5154 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+2' not
+R5159:5163 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5165:5166 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5169:5170 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5173:5173 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5164:5164 mathcomp.ssreflect.choice <> v var
+R5213:5222 mathcomp.ssreflect.choice CodeSeq decode_rec def
+not 5187:5187 CodeSeq :::'['_'rec'_x_','_x_','_x_']'
+def 5244:5249 CodeSeq decode
+R5259:5259 mathcomp.ssreflect.choice <> n var
+R5271:5274 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R5281:5285 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5287:5288 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5293:5294 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5299:5299 mathcomp.ssreflect.choice CodeSeq :::'['_'rec'_x_','_x_','_x_']' not
+R5290:5292 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5289:5289 mathcomp.ssreflect.choice <> n var
+R5296:5298 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5295:5295 mathcomp.ssreflect.choice <> n var
+prf 5309:5315 CodeSeq decodeK
+R5319:5324 Coq.ssr.ssrfun <> cancel def
+R5333:5336 mathcomp.ssreflect.choice CodeSeq code def
+R5326:5331 mathcomp.ssreflect.choice CodeSeq decode def
+R5401:5405 mathcomp.ssreflect.ssrnat <> addnn thm
+R5407:5411 mathcomp.ssreflect.ssrnat <> addnK thm
+R5374:5376 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5370:5372 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'-'_x not
+R5367:5369 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.*2' not
+R5366:5366 mathcomp.ssreflect.choice <> n var
+R5373:5373 mathcomp.ssreflect.choice <> n var
+R5377:5377 mathcomp.ssreflect.choice <> n var
+R5401:5405 mathcomp.ssreflect.ssrnat <> addnn thm
+R5401:5405 mathcomp.ssreflect.ssrnat <> addnn thm
+R5407:5411 mathcomp.ssreflect.ssrnat <> addnK thm
+R5407:5411 mathcomp.ssreflect.ssrnat <> addnK thm
+R5439:5441 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5443:5447 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5451:5455 mathcomp.ssreflect.ssrnat <> expn0 thm
+R5443:5447 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5439:5441 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5439:5441 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R5443:5447 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5451:5455 mathcomp.ssreflect.ssrnat <> expn0 thm
+R5451:5455 mathcomp.ssreflect.ssrnat <> expn0 thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5536:5540 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5562:5567 mathcomp.ssreflect.ssrnat <> expnSr thm
+R5570:5574 mathcomp.ssreflect.ssrnat <> mulnA thm
+R5576:5580 mathcomp.ssreflect.ssrnat <> mul2n thm
+R5562:5567 mathcomp.ssreflect.ssrnat <> expnSr thm
+R5562:5567 mathcomp.ssreflect.ssrnat <> expnSr thm
+R5570:5574 mathcomp.ssreflect.ssrnat <> mulnA thm
+R5570:5574 mathcomp.ssreflect.ssrnat <> mulnA thm
+R5576:5580 mathcomp.ssreflect.ssrnat <> mul2n thm
+R5576:5580 mathcomp.ssreflect.ssrnat <> mul2n thm
+prf 5595:5599 CodeSeq codeK
+R5603:5608 Coq.ssr.ssrfun <> cancel def
+R5615:5620 mathcomp.ssreflect.choice CodeSeq decode def
+R5610:5613 mathcomp.ssreflect.choice CodeSeq code def
+R5661:5663 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R5666:5671 mathcomp.ssreflect.ssrnat <> prednK thm
+R5674:5681 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5684:5691 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5666:5671 mathcomp.ssreflect.ssrnat <> prednK thm
+R5661:5663 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R5661:5663 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R5666:5671 mathcomp.ssreflect.ssrnat <> prednK thm
+R5674:5681 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5674:5681 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5684:5691 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5684:5691 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5674:5681 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5674:5681 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5674:5681 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5684:5691 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5684:5691 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5684:5691 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5713:5717 mathcomp.ssreflect.ssrnat <> addn0 thm
+R5713:5717 mathcomp.ssreflect.ssrnat <> addn0 thm
+R5713:5717 mathcomp.ssreflect.ssrnat <> addn0 thm
+R5766:5770 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5779:5783 mathcomp.ssreflect.ssrnat <> addnn thm
+R5766:5770 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5766:5770 mathcomp.ssreflect.ssrnat <> mul1n thm
+R5779:5783 mathcomp.ssreflect.ssrnat <> addnn thm
+R5779:5783 mathcomp.ssreflect.ssrnat <> addnn thm
+R5861:5865 mathcomp.ssreflect.ssrnat <> expnS thm
+R5868:5872 mathcomp.ssreflect.ssrnat <> mulnA thm
+R5874:5878 mathcomp.ssreflect.ssrnat <> mul2n thm
+R5884:5888 mathcomp.ssreflect.ssrnat <> addnn thm
+R5893:5895 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R5898:5903 mathcomp.ssreflect.ssrnat <> prednK thm
+R5906:5913 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5916:5923 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5861:5865 mathcomp.ssreflect.ssrnat <> expnS thm
+R5861:5865 mathcomp.ssreflect.ssrnat <> expnS thm
+R5868:5872 mathcomp.ssreflect.ssrnat <> mulnA thm
+R5868:5872 mathcomp.ssreflect.ssrnat <> mulnA thm
+R5874:5878 mathcomp.ssreflect.ssrnat <> mul2n thm
+R5874:5878 mathcomp.ssreflect.ssrnat <> mul2n thm
+R5884:5888 mathcomp.ssreflect.ssrnat <> addnn thm
+R5884:5888 mathcomp.ssreflect.ssrnat <> addnn thm
+R5898:5903 mathcomp.ssreflect.ssrnat <> prednK thm
+R5893:5895 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R5893:5895 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R5898:5903 mathcomp.ssreflect.ssrnat <> prednK thm
+R5906:5913 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5906:5913 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5916:5923 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5916:5923 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5906:5913 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5906:5913 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5906:5913 mathcomp.ssreflect.ssrnat <> muln_gt0 thm
+R5916:5923 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5916:5923 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5916:5923 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R5940:5946 mathcomp.ssreflect.ssrnat <> doubleS thm
+R5948:5952 mathcomp.ssreflect.ssrnat <> addSn thm
+R5957:5963 mathcomp.ssreflect.ssrnat <> addSnnS thm
+R5977:5979 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5940:5946 mathcomp.ssreflect.ssrnat <> doubleS thm
+R5940:5946 mathcomp.ssreflect.ssrnat <> doubleS thm
+R5948:5952 mathcomp.ssreflect.ssrnat <> addSn thm
+R5948:5952 mathcomp.ssreflect.ssrnat <> addSn thm
+R5957:5963 mathcomp.ssreflect.ssrnat <> addSnnS thm
+R5957:5963 mathcomp.ssreflect.ssrnat <> addSnnS thm
+R5977:5979 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5977:5979 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5977:5979 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5977:5979 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+prf 6001:6008 CodeSeq ltn_code
+R6014:6016 mathcomp.ssreflect.seq <> all def
+R6040:6040 mathcomp.ssreflect.choice <> s var
+R6029:6031 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R6028:6028 mathcomp.ssreflect.choice <> j var
+R6032:6035 mathcomp.ssreflect.choice CodeSeq code def
+R6037:6037 mathcomp.ssreflect.choice <> s var
+R6085:6087 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R6089:6093 mathcomp.ssreflect.ssrnat <> muln1 thm
+R6095:6101 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6089:6093 mathcomp.ssreflect.ssrnat <> muln1 thm
+R6085:6087 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R6085:6087 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R6089:6093 mathcomp.ssreflect.ssrnat <> muln1 thm
+R6095:6101 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6095:6101 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6105:6112 mathcomp.ssreflect.ssrnat <> ltn_expl thm
+R6126:6132 mathcomp.ssreflect.seq <> sub_all thm
+R6166:6168 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R6170:6174 mathcomp.ssreflect.ssrnat <> mul1n thm
+R6176:6182 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6126:6132 mathcomp.ssreflect.seq <> sub_all thm
+R6144:6147 mathcomp.ssreflect.ssrnat <> leqW thm
+R6170:6174 mathcomp.ssreflect.ssrnat <> mul1n thm
+R6166:6168 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R6166:6168 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R6170:6174 mathcomp.ssreflect.ssrnat <> mul1n thm
+R6176:6182 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6176:6182 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6185:6192 mathcomp.ssreflect.ssrnat <> expn_gt0 thm
+R6209:6212 mathcomp.ssreflect.ssrnat <> ltnS thm
+R6218:6222 mathcomp.ssreflect.ssrnat <> mul1n thm
+R6225:6229 mathcomp.ssreflect.ssrnat <> mul2n thm
+R6231:6237 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6209:6212 mathcomp.ssreflect.ssrnat <> ltnS thm
+R6209:6212 mathcomp.ssreflect.ssrnat <> ltnS thm
+R6218:6222 mathcomp.ssreflect.ssrnat <> mul1n thm
+R6218:6222 mathcomp.ssreflect.ssrnat <> mul1n thm
+R6225:6229 mathcomp.ssreflect.ssrnat <> mul2n thm
+R6225:6229 mathcomp.ssreflect.ssrnat <> mul2n thm
+R6231:6237 mathcomp.ssreflect.ssrnat <> leq_mul thm
+R6231:6237 mathcomp.ssreflect.ssrnat <> leq_mul thm
+prf 6252:6261 CodeSeq gtn_decode
+R6267:6269 mathcomp.ssreflect.seq <> all def
+R6282:6287 mathcomp.ssreflect.choice CodeSeq decode def
+R6289:6289 mathcomp.ssreflect.choice <> n var
+R6275:6277 Coq.ssr.ssrfun <> ::fun_scope:x_'^~'_x not
+R6278:6278 mathcomp.ssreflect.choice <> n var
+R6272:6274 mathcomp.ssreflect.ssrnat <> ltn def
+R6318:6324 mathcomp.ssreflect.choice CodeSeq decodeK thm
+R6326:6333 mathcomp.ssreflect.choice CodeSeq ltn_code thm
+R6318:6324 mathcomp.ssreflect.choice CodeSeq decodeK thm
+R6318:6324 mathcomp.ssreflect.choice CodeSeq decodeK thm
+R6326:6333 mathcomp.ssreflect.choice CodeSeq ltn_code thm
+R6326:6333 mathcomp.ssreflect.choice CodeSeq ltn_code thm
+R6346:6352 mathcomp.ssreflect.choice CodeSeq <> mod
+sec 6364:6377 <> OtherEncodings
+var 6958:6958 OtherEncodings T
+var 6960:6961 OtherEncodings T1
+var 6963:6964 OtherEncodings T2
+def 6986:6995 <> seq_of_opt
+R7001:7004 Coq.ssr.ssrfun <> oapp syndef
+R7019:7022 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R7011:7014 mathcomp.ssreflect.seq <> nseq def
+R7006:7006 mathcomp.ssreflect.choice <> OtherEncodings.T var
+prf 7031:7041 <> seq_of_optK
+R7045:7050 Coq.ssr.ssrfun <> cancel def
+R7063:7067 mathcomp.ssreflect.seq <> ohead def
+R7052:7061 mathcomp.ssreflect.choice <> seq_of_opt def
+def 7103:7113 <> tag_of_pair
+R7122:7124 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R7120:7121 mathcomp.ssreflect.choice <> OtherEncodings.T1 var
+R7125:7126 mathcomp.ssreflect.choice <> OtherEncodings.T2 var
+R7133:7138 Coq.ssr.ssrfun <> Tagged def
+R7162:7163 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R7161:7161 mathcomp.ssreflect.choice <> p var
+R7157:7158 mathcomp.ssreflect.choice <> OtherEncodings.T2 var
+R7144:7145 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R7143:7143 mathcomp.ssreflect.choice <> p var
+R7140:7141 mathcomp.ssreflect.choice <> OtherEncodings.T1 var
+def 7177:7187 <> pair_of_tag
+R7194:7194 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7196:7198 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7201:7203 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7206:7206 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R7199:7200 mathcomp.ssreflect.choice <> OtherEncodings.T1 var
+R7204:7205 mathcomp.ssreflect.choice <> OtherEncodings.T2 var
+R7212:7212 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7218:7219 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7228:7228 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7213:7215 Coq.ssr.ssrfun <> tag def
+R7217:7217 mathcomp.ssreflect.choice <> u var
+R7220:7225 Coq.ssr.ssrfun <> tagged def
+R7227:7227 mathcomp.ssreflect.choice <> u var
+prf 7237:7248 <> tag_of_pairK
+R7252:7257 Coq.ssr.ssrfun <> cancel def
+R7271:7281 mathcomp.ssreflect.choice <> pair_of_tag def
+R7259:7269 mathcomp.ssreflect.choice <> tag_of_pair def
+prf 7311:7322 <> pair_of_tagK
+R7326:7331 Coq.ssr.ssrfun <> cancel def
+R7345:7355 mathcomp.ssreflect.choice <> tag_of_pair def
+R7333:7343 mathcomp.ssreflect.choice <> pair_of_tag def
+def 7391:7402 <> opair_of_sum
+R7411:7413 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R7409:7410 mathcomp.ssreflect.choice <> OtherEncodings.T1 var
+R7414:7415 mathcomp.ssreflect.choice <> OtherEncodings.T2 var
+R7429:7429 mathcomp.ssreflect.choice <> s var
+R7436:7438 Coq.Init.Datatypes <> inl constr
+R7445:7445 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7452:7453 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7458:7458 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7446:7449 Coq.Init.Datatypes <> Some constr
+R7454:7457 Coq.Init.Datatypes <> None constr
+R7462:7464 Coq.Init.Datatypes <> inr constr
+R7471:7471 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7476:7477 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7484:7484 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7472:7475 Coq.Init.Datatypes <> None constr
+R7478:7481 Coq.Init.Datatypes <> Some constr
+def 7502:7513 <> sum_of_opair
+R7522:7525 Coq.ssr.ssrfun <> oapp syndef
+R7572:7573 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R7571:7571 mathcomp.ssreflect.choice <> p var
+R7549:7552 Coq.ssr.ssrfun <> omap syndef
+R7567:7568 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R7566:7566 mathcomp.ssreflect.choice <> p var
+R7556:7558 Coq.Init.Datatypes <> inl constr
+R7562:7563 mathcomp.ssreflect.choice <> OtherEncodings.T2 var
+R7532:7535 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R7528:7531 Coq.ssr.ssrfun <> some syndef
+R7537:7539 Coq.Init.Datatypes <> inr constr
+R7544:7545 mathcomp.ssreflect.choice <> OtherEncodings.T2 var
+R7541:7542 mathcomp.ssreflect.choice <> OtherEncodings.T1 var
+prf 7582:7594 <> opair_of_sumK
+R7598:7604 Coq.ssr.ssrfun <> pcancel def
+R7619:7630 mathcomp.ssreflect.choice <> sum_of_opair def
+R7606:7617 mathcomp.ssreflect.choice <> opair_of_sum def
+prf 7661:7673 <> bool_of_unitK
+R7677:7682 Coq.ssr.ssrfun <> cancel def
+R7710:7711 Coq.Init.Datatypes <> tt constr
+R7694:7697 Coq.Init.Datatypes <> true constr
+R7741:7754 mathcomp.ssreflect.choice OtherEncodings <> sec
+mod 8158:8164 <> GenTree
+sec 8176:8178 GenTree Def
+var 8191:8191 GenTree.Def T
+ind 8239:8242 GenTree tree
+constr 8247:8250 GenTree Leaf
+constr 8259:8262 GenTree Node
+R8255:8255 mathcomp.ssreflect.choice <> GenTree.Def.T var
+R8256:8256 mathcomp.ssreflect.choice <> tree ind
+R8267:8269 Coq.Init.Datatypes <> nat ind
+R8273:8275 mathcomp.ssreflect.seq <> seq syndef
+R8277:8280 mathcomp.ssreflect.choice <> tree ind
+R8281:8281 mathcomp.ssreflect.choice <> tree ind
+def 8295:8303 GenTree tree_rect
+R8341:8341 mathcomp.ssreflect.choice <> K var
+R8343:8343 mathcomp.ssreflect.choice <> t var
+R8354:8354 mathcomp.ssreflect.choice <> t var
+R8365:8368 mathcomp.ssreflect.choice GenTree Leaf constr
+R8375:8381 mathcomp.ssreflect.choice <> IH_leaf var
+R8389:8392 mathcomp.ssreflect.choice GenTree Node constr
+R8428:8432 mathcomp.ssreflect.seq <> foldr def
+R8461:8461 mathcomp.ssreflect.choice <> f var
+R8456:8459 Coq.Init.Datatypes <> unit ind
+R8444:8447 Coq.Init.Datatypes <> prod ind
+R8450:8450 mathcomp.ssreflect.choice <> K var
+R8452:8452 mathcomp.ssreflect.choice <> t var
+R8475:8475 mathcomp.ssreflect.choice <> f var
+R8481:8484 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R8493:8493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8500:8501 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8514:8514 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R8494:8497 mathcomp.ssreflect.choice <> loop var
+R8499:8499 mathcomp.ssreflect.choice <> t var
+R8502:8510 mathcomp.ssreflect.choice <> iter_pair var
+R8521:8522 Coq.Init.Datatypes <> tt constr
+R8531:8537 mathcomp.ssreflect.choice <> IH_node var
+R8545:8553 mathcomp.ssreflect.choice <> iter_pair var
+def 8577:8584 GenTree tree_rec
+R8595:8598 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8591:8594 mathcomp.ssreflect.choice GenTree tree ind
+R8608:8616 mathcomp.ssreflect.choice GenTree tree_rect def
+R8618:8618 mathcomp.ssreflect.choice <> K var
+def 8632:8639 GenTree tree_ind
+R8680:8686 Coq.ssr.ssreflect <> ::core_scope:x_':'_'Prop' not
+R8677:8677 mathcomp.ssreflect.choice <> K var
+R8679:8679 mathcomp.ssreflect.choice <> t var
+R8697:8697 mathcomp.ssreflect.choice <> t var
+R8708:8711 mathcomp.ssreflect.choice GenTree Leaf constr
+R8718:8724 mathcomp.ssreflect.choice <> IH_leaf var
+R8732:8735 mathcomp.ssreflect.choice GenTree Node constr
+R8771:8775 mathcomp.ssreflect.seq <> foldr def
+R8803:8803 mathcomp.ssreflect.choice <> f var
+R8798:8801 Coq.Init.Logic <> True ind
+R8787:8789 Coq.Init.Logic <> and ind
+R8792:8792 mathcomp.ssreflect.choice <> K var
+R8794:8794 mathcomp.ssreflect.choice <> t var
+R8819:8819 mathcomp.ssreflect.choice <> f var
+R8825:8828 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R8837:8840 Coq.Init.Logic <> conj constr
+R8852:8860 mathcomp.ssreflect.choice <> iter_conj var
+R8843:8846 mathcomp.ssreflect.choice <> loop var
+R8848:8848 mathcomp.ssreflect.choice <> t var
+R8871:8877 Coq.Init.Logic <> I constr
+R8888:8894 mathcomp.ssreflect.choice <> IH_node var
+R8902:8910 mathcomp.ssreflect.choice <> iter_conj var
+def 8935:8940 GenTree encode
+R8946:8948 mathcomp.ssreflect.seq <> seq syndef
+R8954:8956 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R8951:8953 Coq.Init.Datatypes <> nat ind
+R8957:8957 mathcomp.ssreflect.choice <> GenTree.Def.T var
+R8971:8971 mathcomp.ssreflect.choice <> t var
+R8982:8985 mathcomp.ssreflect.choice GenTree Leaf constr
+R8992:8995 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R9003:9003 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R8996:8998 Coq.Init.Datatypes <> inr constr
+R9009:9012 mathcomp.ssreflect.choice GenTree Node constr
+R9031:9034 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R9021:9023 Coq.Init.Datatypes <> inl constr
+R9028:9030 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R9035:9039 mathcomp.ssreflect.seq <> rcons def
+R9067:9069 Coq.Init.Datatypes <> inl constr
+R9042:9048 mathcomp.ssreflect.seq <> flatten def
+R9051:9053 mathcomp.ssreflect.seq <> map def
+R9055:9060 mathcomp.ssreflect.choice <> encode def
+def 9095:9105 GenTree decode_step
+R9124:9124 mathcomp.ssreflect.choice <> c var
+R9135:9137 Coq.Init.Datatypes <> inr constr
+R9144:9144 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9159:9160 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9165:9165 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9151:9154 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R9145:9148 mathcomp.ssreflect.choice GenTree Leaf constr
+R9157:9158 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9155:9156 mathcomp.ssreflect.choice <> fs var
+R9163:9164 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9161:9162 mathcomp.ssreflect.choice <> fs var
+R9171:9173 Coq.Init.Datatypes <> inl constr
+R9180:9180 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9185:9186 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9199:9199 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9181:9184 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R9191:9194 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R9189:9190 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9187:9188 mathcomp.ssreflect.choice <> fs var
+R9197:9198 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9195:9196 mathcomp.ssreflect.choice <> fs var
+R9205:9207 Coq.Init.Datatypes <> inl constr
+R9210:9212 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R9217:9217 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9247:9248 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9260:9260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9229:9232 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R9218:9221 mathcomp.ssreflect.choice GenTree Node constr
+R9227:9228 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9225:9226 mathcomp.ssreflect.choice <> fs var
+R9233:9236 mathcomp.ssreflect.seq <> head def
+R9245:9246 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9243:9244 mathcomp.ssreflect.choice <> fs var
+R9238:9241 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R9249:9254 mathcomp.ssreflect.seq <> behead def
+R9258:9259 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9256:9257 mathcomp.ssreflect.choice <> fs var
+def 9281:9286 GenTree decode
+R9293:9297 mathcomp.ssreflect.seq <> ohead def
+R9299:9299 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9332:9334 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9300:9304 mathcomp.ssreflect.seq <> foldr def
+R9331:9331 mathcomp.ssreflect.choice <> c var
+R9318:9318 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9323:9324 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9329:9329 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9319:9322 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R9325:9328 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R9306:9316 mathcomp.ssreflect.choice GenTree decode_step def
+prf 9344:9348 GenTree codeK
+R9352:9358 Coq.ssr.ssrfun <> pcancel def
+R9367:9372 mathcomp.ssreflect.choice GenTree decode def
+R9360:9365 mathcomp.ssreflect.choice GenTree encode def
+R9401:9406 mathcomp.ssreflect.choice GenTree decode def
+R9419:9419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9421:9422 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9424:9424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9401:9406 mathcomp.ssreflect.choice GenTree decode def
+R9401:9406 mathcomp.ssreflect.choice GenTree decode def
+R9419:9419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9421:9422 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9424:9424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9419:9419 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9421:9422 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9424:9424 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9471:9473 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9440:9444 mathcomp.ssreflect.seq <> foldr def
+R9462:9467 mathcomp.ssreflect.choice GenTree encode def
+R9446:9456 mathcomp.ssreflect.choice GenTree decode_step def
+R9474:9474 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9484:9485 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9490:9490 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R9476:9479 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R9482:9483 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R9488:9489 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R9575:9583 mathcomp.ssreflect.seq <> rcons_cat thm
+R9585:9593 mathcomp.ssreflect.seq <> foldr_cat thm
+R9575:9583 mathcomp.ssreflect.seq <> rcons_cat thm
+R9575:9583 mathcomp.ssreflect.seq <> rcons_cat thm
+R9585:9593 mathcomp.ssreflect.seq <> foldr_cat thm
+R9585:9593 mathcomp.ssreflect.seq <> foldr_cat thm
+R9630:9632 mathcomp.ssreflect.choice GenTree.Def <> sec
+R9640:9646 mathcomp.ssreflect.choice GenTree <> mod
+R9659:9671 mathcomp.ssreflect.choice <> codeK thm
+R9659:9671 mathcomp.ssreflect.choice <> codeK thm
+def 9704:9715 <> tree_eqMixin
+R9722:9727 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R9733:9743 mathcomp.ssreflect.eqtype <> PcanEqMixin def
+R9746:9758 mathcomp.ssreflect.choice <> codeK thm
+R9760:9760 mathcomp.ssreflect.choice <> T var
+R9791:9796 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R9802:9807 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R9810:9821 mathcomp.ssreflect.choice <> tree ind
+R9823:9823 mathcomp.ssreflect.choice <> T var
+R9827:9838 mathcomp.ssreflect.choice <> tree_eqMixin def
+R9840:9840 mathcomp.ssreflect.choice <> T var
+mod 12931:12936 <> Choice
+sec 12948:12955 Choice ClassDef
+constr 12980:12984 Choice Mixin
+rec 12966:12973 Choice mixin_of
+proj 12990:12993 Choice find
+R13003:13006 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13010:13013 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13014:13019 Coq.Init.Datatypes <> option ind
+R13021:13021 mathcomp.ssreflect.choice <> T var
+R13007:13009 Coq.Init.Datatypes <> nat ind
+R12997:13000 Coq.ssr.ssrbool <> pred def
+R13002:13002 mathcomp.ssreflect.choice <> T var
+R13061:13064 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13065:13065 mathcomp.ssreflect.choice <> P var
+R13067:13067 mathcomp.ssreflect.choice <> x var
+R13052:13054 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13044:13047 mathcomp.ssreflect.choice <> find meth
+R13051:13051 mathcomp.ssreflect.choice <> n var
+R13049:13049 mathcomp.ssreflect.choice <> P var
+R13055:13058 Coq.Init.Datatypes <> Some constr
+R13060:13060 mathcomp.ssreflect.choice <> x var
+R13087:13090 Coq.ssr.ssrbool <> pred def
+R13092:13092 mathcomp.ssreflect.choice <> T var
+R13095:13095 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13109:13113 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13114:13120 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13122:13123 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13124:13127 mathcomp.ssreflect.choice <> find meth
+R13131:13131 mathcomp.ssreflect.choice <> n var
+R13129:13129 mathcomp.ssreflect.choice <> P var
+R13096:13102 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13104:13105 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R13106:13106 mathcomp.ssreflect.choice <> P var
+R13108:13108 mathcomp.ssreflect.choice <> x var
+R13153:13156 Coq.ssr.ssrbool <> pred def
+R13158:13158 mathcomp.ssreflect.choice <> T var
+R13167:13170 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13177:13180 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R13171:13174 mathcomp.ssreflect.choice <> find meth
+R13176:13176 mathcomp.ssreflect.choice <> P var
+R13181:13184 mathcomp.ssreflect.choice <> find meth
+R13186:13186 mathcomp.ssreflect.choice <> Q var
+R13162:13165 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R13161:13161 mathcomp.ssreflect.choice <> P var
+R13166:13166 mathcomp.ssreflect.choice <> Q var
+constr 13213:13217 Choice Class
+rec 13199:13206 Choice class_of
+proj 13220:13223 Choice base
+proj 13248:13252 Choice mixin
+R13227:13243 mathcomp.ssreflect.eqtype Equality class_of syndef
+R13245:13245 mathcomp.ssreflect.choice <> T var
+R13256:13263 mathcomp.ssreflect.choice Choice mixin_of rec
+R13265:13265 mathcomp.ssreflect.choice <> T var
+R13275:13321 mathcomp.ssreflect.choice Choice base proj
+constr 13343:13346 Choice Pack
+rec 13335:13338 Choice type
+proj 13349:13352 Choice sort
+R13359:13366 mathcomp.ssreflect.choice Choice class_of rec
+R13368:13371 mathcomp.ssreflect.choice <> sort meth
+R13381:13414 mathcomp.ssreflect.choice Choice sort proj
+var 13428:13428 Choice.ClassDef T
+var 13439:13440 Choice.ClassDef cT
+R13444:13447 mathcomp.ssreflect.choice Choice type rec
+def 13462:13466 Choice class
+R13495:13496 mathcomp.ssreflect.choice <> Choice.ClassDef.cT var
+R13505:13512 mathcomp.ssreflect.choice Choice class_of rec
+R13514:13516 mathcomp.ssreflect.choice <> cT' var
+R13476:13479 mathcomp.ssreflect.choice Choice Pack constr
+def 13535:13539 Choice clone
+R13546:13553 Coq.ssr.ssrfun <> phant_id def
+R13561:13561 mathcomp.ssreflect.choice <> c var
+R13555:13559 mathcomp.ssreflect.choice Choice class def
+R13567:13570 mathcomp.ssreflect.choice Choice Pack constr
+R13574:13574 mathcomp.ssreflect.choice <> c var
+R13572:13572 mathcomp.ssreflect.choice <> Choice.ClassDef.T var
+var 13581:13582 Choice.ClassDef xT
+R13604:13605 mathcomp.ssreflect.choice <> Choice.ClassDef.cT var
+R13592:13595 mathcomp.ssreflect.choice Choice Pack constr
+syndef 13622:13627 Choice xclass
+R13638:13640 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R13641:13648 mathcomp.ssreflect.choice Choice class_of rec
+R13650:13651 mathcomp.ssreflect.choice <> Choice.ClassDef.xT var
+R13633:13637 mathcomp.ssreflect.choice Choice class def
+def 13667:13670 Choice pack
+R13690:13697 Coq.ssr.ssrfun <> phant_id def
+R13719:13719 mathcomp.ssreflect.choice <> b var
+R13700:13713 mathcomp.ssreflect.eqtype Equality class def
+R13715:13716 mathcomp.ssreflect.choice <> bT var
+R13724:13727 mathcomp.ssreflect.choice Choice Pack constr
+R13731:13735 mathcomp.ssreflect.choice Choice Class constr
+R13741:13741 mathcomp.ssreflect.choice <> m var
+R13739:13739 mathcomp.ssreflect.choice <> b var
+R13737:13737 mathcomp.ssreflect.choice <> Choice.ClassDef.T var
+def 13775:13780 Choice eqType
+R13786:13798 mathcomp.ssreflect.eqtype Equality Pack constr
+R13803:13808 mathcomp.ssreflect.choice Choice xclass syndef
+R13800:13801 mathcomp.ssreflect.choice <> Choice.ClassDef.cT var
+R13816:13823 mathcomp.ssreflect.choice Choice.ClassDef <> sec
+mod 13841:13847 <> Choice.Exports
+R13850:13895 mathcomp.ssreflect.choice Choice base proj
+R13898:13931 mathcomp.ssreflect.choice Choice sort proj
+R13934:13973 mathcomp.ssreflect.choice Choice eqType def
+syndef 14003:14012 Choice.Exports choiceType
+R14017:14020 mathcomp.ssreflect.choice Choice type rec
+syndef 14032:14042 Choice.Exports choiceMixin
+R14047:14054 mathcomp.ssreflect.choice Choice mixin_of rec
+syndef 14066:14075 Choice.Exports ChoiceType
+R14086:14089 mathcomp.ssreflect.choice Choice pack def
+R14099:14100 Coq.ssr.ssrfun <> id syndef
+R14154:14158 mathcomp.ssreflect.choice Choice clone def
+R14167:14171 Coq.ssr.ssrfun <> idfun syndef
+not 14113:14113 Choice.Exports ::form_scope:'['_'choiceType'_'of'_x_'for'_x_']'
+R14290:14294 mathcomp.ssreflect.choice Choice clone def
+R14302:14303 Coq.ssr.ssrfun <> id syndef
+not 14259:14259 Choice.Exports ::form_scope:'['_'choiceType'_'of'_x_']'
+R14376:14382 mathcomp.ssreflect.choice Choice.Exports <> mod
+mod 14393:14406 <> Choice.InternalTheory
+sec 14417:14430 Choice.InternalTheory InternalTheory
+def 14473:14476 Choice.InternalTheory find
+R14483:14486 mathcomp.ssreflect.choice Choice find proj
+R14489:14493 mathcomp.ssreflect.choice Choice mixin proj
+R14496:14500 mathcomp.ssreflect.choice Choice class def
+R14502:14502 mathcomp.ssreflect.choice <> T var
+var 14517:14517 Choice.InternalTheory.InternalTheory T
+R14521:14530 mathcomp.ssreflect.choice Choice.Exports choiceType syndef
+R14554:14557 Coq.ssr.ssrbool <> pred def
+R14559:14559 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+prf 14569:14575 Choice.InternalTheory correct
+R14602:14605 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14606:14606 mathcomp.ssreflect.choice <> P var
+R14608:14608 mathcomp.ssreflect.choice <> x var
+R14593:14595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14585:14588 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R14592:14592 mathcomp.ssreflect.choice <> n var
+R14590:14590 mathcomp.ssreflect.choice <> P var
+R14596:14599 Coq.Init.Datatypes <> Some constr
+R14601:14601 mathcomp.ssreflect.choice <> x var
+R14627:14627 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+R14627:14627 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+R14627:14627 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+prf 14669:14676 Choice.InternalTheory complete
+R14682:14682 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14696:14701 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14720:14720 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14702:14708 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14710:14711 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14712:14715 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R14719:14719 mathcomp.ssreflect.choice <> n var
+R14717:14717 mathcomp.ssreflect.choice <> P var
+R14683:14689 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14691:14692 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14693:14693 mathcomp.ssreflect.choice <> P var
+R14695:14695 mathcomp.ssreflect.choice <> x var
+R14739:14739 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+R14739:14739 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+R14739:14739 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+prf 14777:14787 Choice.InternalTheory extensional
+R14801:14804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14811:14814 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R14805:14808 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R14810:14810 mathcomp.ssreflect.choice <> P var
+R14815:14818 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R14820:14820 mathcomp.ssreflect.choice <> Q var
+R14796:14799 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R14795:14795 mathcomp.ssreflect.choice <> P var
+R14800:14800 mathcomp.ssreflect.choice <> Q var
+R14839:14839 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+R14839:14839 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+R14839:14839 mathcomp.ssreflect.choice <> Choice.InternalTheory.InternalTheory.T var
+prf 14878:14893 Choice.InternalTheory xchoose_subproof
+R14903:14903 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R14905:14907 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R14951:14951 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R14942:14944 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R14908:14911 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R14916:14922 mathcomp.ssreflect.ssrnat <> ex_minn def
+R14926:14933 mathcomp.ssreflect.choice Choice.InternalTheory complete thm
+R14937:14939 mathcomp.ssreflect.choice <> exP var
+R14935:14935 mathcomp.ssreflect.choice <> P var
+R14913:14913 mathcomp.ssreflect.choice <> P var
+R14945:14948 Coq.Init.Datatypes <> Some constr
+R14950:14950 mathcomp.ssreflect.choice <> x var
+R14971:14978 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R14981:14988 mathcomp.ssreflect.choice Choice.InternalTheory complete thm
+R15009:15012 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R14971:14978 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R14981:14988 mathcomp.ssreflect.choice Choice.InternalTheory complete thm
+R14971:14978 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R14981:14988 mathcomp.ssreflect.choice Choice.InternalTheory complete thm
+R15009:15012 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R15009:15012 mathcomp.ssreflect.choice Choice.InternalTheory find def
+R15048:15061 mathcomp.ssreflect.choice Choice.InternalTheory.InternalTheory <> sec
+R15068:15081 mathcomp.ssreflect.choice Choice.InternalTheory <> mod
+R15089:15094 mathcomp.ssreflect.choice Choice <> mod
+sec 15129:15140 <> ChoiceTheory
+R15162:15171 mathcomp.ssreflect.choice <> choiceType syndef
+syndef 15227:15228 <> dc
+R15233:15238 mathcomp.ssreflect.choice <> decode def
+sec 15250:15256 ChoiceTheory OneType
+var 15269:15269 ChoiceTheory.OneType T
+R15273:15282 mathcomp.ssreflect.choice <> choiceType syndef
+R15306:15309 Coq.ssr.ssrbool <> pred def
+R15311:15311 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+def 15326:15332 <> xchoose
+R15343:15346 mathcomp.ssreflect.eqtype <> sval syndef
+R15350:15365 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15371:15373 mathcomp.ssreflect.choice <> exP var
+R15369:15369 mathcomp.ssreflect.choice <> P var
+R15367:15367 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+prf 15384:15391 <> xchooseP
+R15401:15401 mathcomp.ssreflect.choice <> P var
+R15405:15411 mathcomp.ssreflect.choice <> xchoose def
+R15415:15417 mathcomp.ssreflect.choice <> exP var
+R15413:15413 mathcomp.ssreflect.choice <> P var
+R15440:15446 mathcomp.ssreflect.choice <> xchoose def
+R15456:15471 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15440:15446 mathcomp.ssreflect.choice <> xchoose def
+R15440:15446 mathcomp.ssreflect.choice <> xchoose def
+R15456:15471 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15456:15471 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15487:15493 mathcomp.ssreflect.choice <> correct thm
+prf 15508:15517 <> eq_xchoose
+R15539:15542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15557:15559 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R15544:15550 mathcomp.ssreflect.choice <> xchoose def
+R15554:15556 mathcomp.ssreflect.choice <> exP var
+R15552:15552 mathcomp.ssreflect.choice <> P var
+R15561:15567 mathcomp.ssreflect.choice <> xchoose def
+R15571:15573 mathcomp.ssreflect.choice <> exQ var
+R15569:15569 mathcomp.ssreflect.choice <> Q var
+R15534:15537 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R15533:15533 mathcomp.ssreflect.choice <> P var
+R15538:15538 mathcomp.ssreflect.choice <> Q var
+R15592:15598 mathcomp.ssreflect.choice <> xchoose def
+R15592:15598 mathcomp.ssreflect.choice <> xchoose def
+R15592:15598 mathcomp.ssreflect.choice <> xchoose def
+R15616:15631 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15651:15666 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15616:15631 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15616:15631 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15651:15666 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15651:15666 mathcomp.ssreflect.choice <> xchoose_subproof thm
+R15688:15695 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R15709:15716 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R15688:15695 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R15688:15695 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R15709:15716 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R15709:15716 mathcomp.ssreflect.ssrnat <> ex_minnP thm
+R15734:15744 mathcomp.ssreflect.choice <> extensional thm
+R15756:15766 mathcomp.ssreflect.choice <> extensional thm
+R15734:15744 mathcomp.ssreflect.choice <> extensional thm
+R15734:15744 mathcomp.ssreflect.choice <> extensional thm
+R15756:15766 mathcomp.ssreflect.choice <> extensional thm
+R15756:15766 mathcomp.ssreflect.choice <> extensional thm
+R15819:15822 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R15811:15813 mathcomp.ssreflect.eqtype <> eqP thm
+R15853:15859 mathcomp.ssreflect.ssrnat <> eqn_leq thm
+R15853:15859 mathcomp.ssreflect.ssrnat <> eqn_leq thm
+R15853:15859 mathcomp.ssreflect.ssrnat <> eqn_leq thm
+prf 15887:15890 <> sigW
+R15896:15896 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15910:15914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15915:15915 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R15917:15919 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R15923:15923 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R15920:15920 mathcomp.ssreflect.choice <> P var
+R15922:15922 mathcomp.ssreflect.choice <> x var
+R15897:15903 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15905:15906 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R15907:15907 mathcomp.ssreflect.choice <> P var
+R15909:15909 mathcomp.ssreflect.choice <> x var
+R15956:15962 mathcomp.ssreflect.choice <> xchoose def
+R15977:15984 mathcomp.ssreflect.choice <> xchooseP thm
+R15956:15962 mathcomp.ssreflect.choice <> xchoose def
+R15977:15984 mathcomp.ssreflect.choice <> xchooseP thm
+prf 15999:16003 <> sig2W
+R16011:16011 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16032:16036 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16037:16037 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16039:16041 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16045:16047 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16051:16051 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16042:16042 mathcomp.ssreflect.choice <> P var
+R16044:16044 mathcomp.ssreflect.choice <> x var
+R16048:16048 mathcomp.ssreflect.choice <> Q var
+R16050:16050 mathcomp.ssreflect.choice <> x var
+R16012:16019 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R16021:16022 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R16026:16028 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R16023:16023 mathcomp.ssreflect.choice <> P var
+R16025:16025 mathcomp.ssreflect.choice <> x var
+R16029:16029 mathcomp.ssreflect.choice <> Q var
+R16031:16031 mathcomp.ssreflect.choice <> x var
+R16096:16099 mathcomp.ssreflect.choice <> sigW thm
+R16102:16106 Coq.ssr.ssrbool <> predI def
+R16084:16087 Coq.ssr.ssrbool <> andP thm
+R16175:16178 Coq.ssr.ssrbool <> andP thm
+R16175:16178 Coq.ssr.ssrbool <> andP thm
+prf 16193:16199 <> sig_eqW
+R16207:16212 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R16227:16230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16231:16232 mathcomp.ssreflect.choice <> vT var
+R16226:16226 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R16239:16239 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16263:16267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16268:16268 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R16270:16272 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R16286:16286 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R16278:16280 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16273:16275 mathcomp.ssreflect.choice <> lhs var
+R16277:16277 mathcomp.ssreflect.choice <> x var
+R16281:16283 mathcomp.ssreflect.choice <> rhs var
+R16285:16285 mathcomp.ssreflect.choice <> x var
+R16240:16246 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16248:16249 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R16255:16257 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16250:16252 mathcomp.ssreflect.choice <> lhs var
+R16254:16254 mathcomp.ssreflect.choice <> x var
+R16258:16260 mathcomp.ssreflect.choice <> rhs var
+R16262:16262 mathcomp.ssreflect.choice <> x var
+R16330:16330 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R16332:16334 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R16349:16349 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R16340:16343 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R16339:16339 mathcomp.ssreflect.choice <> x var
+R16348:16348 mathcomp.ssreflect.choice <> x var
+R16321:16323 mathcomp.ssreflect.eqtype <> eqP thm
+R16374:16377 mathcomp.ssreflect.choice <> sigW thm
+R16374:16377 mathcomp.ssreflect.choice <> sigW thm
+R16389:16391 mathcomp.ssreflect.eqtype <> eqP thm
+prf 16427:16434 <> sig2_eqW
+R16442:16447 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R16455:16458 Coq.ssr.ssrbool <> pred def
+R16460:16460 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R16475:16478 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16479:16480 mathcomp.ssreflect.choice <> vT var
+R16474:16474 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R16487:16487 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16518:16522 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16523:16523 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16525:16527 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16531:16533 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16547:16547 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16528:16528 mathcomp.ssreflect.choice <> P var
+R16530:16530 mathcomp.ssreflect.choice <> x var
+R16539:16541 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16534:16536 mathcomp.ssreflect.choice <> lhs var
+R16538:16538 mathcomp.ssreflect.choice <> x var
+R16542:16544 mathcomp.ssreflect.choice <> rhs var
+R16546:16546 mathcomp.ssreflect.choice <> x var
+R16488:16495 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R16497:16498 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R16502:16504 Coq.Init.Logic <> ::type_scope:'exists2'_x_','_x_'&'_x not
+R16499:16499 mathcomp.ssreflect.choice <> P var
+R16501:16501 mathcomp.ssreflect.choice <> x var
+R16510:16512 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16505:16507 mathcomp.ssreflect.choice <> lhs var
+R16509:16509 mathcomp.ssreflect.choice <> x var
+R16513:16515 mathcomp.ssreflect.choice <> rhs var
+R16517:16517 mathcomp.ssreflect.choice <> x var
+R16594:16594 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16596:16598 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16602:16604 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16619:16619 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'&'_x_'}' not
+R16601:16601 mathcomp.ssreflect.choice <> x var
+R16610:16613 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R16609:16609 mathcomp.ssreflect.choice <> x var
+R16618:16618 mathcomp.ssreflect.choice <> x var
+R16585:16587 mathcomp.ssreflect.eqtype <> eqP thm
+R16644:16648 mathcomp.ssreflect.choice <> sig2W thm
+R16644:16648 mathcomp.ssreflect.choice <> sig2W thm
+R16663:16665 mathcomp.ssreflect.eqtype <> eqP thm
+def 16706:16711 <> choose
+R16734:16736 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R16737:16739 mathcomp.ssreflect.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R16741:16743 mathcomp.ssreflect.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R16747:16747 mathcomp.ssreflect.eqtype <> ::type_scope:'{'_'?'_x_'|'_x_'}' not
+R16744:16744 mathcomp.ssreflect.choice <> P var
+R16746:16746 mathcomp.ssreflect.choice <> x var
+R16726:16730 mathcomp.ssreflect.eqtype <> insub def
+R16732:16733 mathcomp.ssreflect.choice <> x0 var
+R16752:16755 Coq.Init.Datatypes <> Some constr
+R16758:16762 Coq.Init.Specif <> exist constr
+R16779:16785 mathcomp.ssreflect.choice <> xchoose def
+R16788:16795 Coq.Init.Logic <> ex_intro constr
+R16797:16801 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R16803:16803 Coq.ssr.ssrfun <> ::fun_scope:'['_'eta'_x_']' not
+R16802:16802 mathcomp.ssreflect.choice <> P var
+R16818:16819 mathcomp.ssreflect.choice <> x0 var
+prf 16829:16835 <> chooseP
+R16848:16851 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16852:16852 mathcomp.ssreflect.choice <> P var
+R16855:16860 mathcomp.ssreflect.choice <> choose def
+R16864:16865 mathcomp.ssreflect.choice <> x0 var
+R16862:16862 mathcomp.ssreflect.choice <> P var
+R16844:16844 mathcomp.ssreflect.choice <> P var
+R16846:16847 mathcomp.ssreflect.choice <> x0 var
+R16900:16905 mathcomp.ssreflect.choice <> choose def
+R16907:16912 mathcomp.ssreflect.eqtype <> insubT thm
+R16914:16921 mathcomp.ssreflect.choice <> xchooseP thm
+R16900:16905 mathcomp.ssreflect.choice <> choose def
+R16900:16905 mathcomp.ssreflect.choice <> choose def
+R16907:16912 mathcomp.ssreflect.eqtype <> insubT thm
+R16907:16912 mathcomp.ssreflect.eqtype <> insubT thm
+R16914:16921 mathcomp.ssreflect.choice <> xchooseP thm
+R16914:16921 mathcomp.ssreflect.choice <> xchooseP thm
+prf 16936:16944 <> choose_id
+R16960:16963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16968:16971 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16983:16985 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16972:16977 mathcomp.ssreflect.choice <> choose def
+R16981:16982 mathcomp.ssreflect.choice <> x0 var
+R16979:16979 mathcomp.ssreflect.choice <> P var
+R16986:16991 mathcomp.ssreflect.choice <> choose def
+R16995:16996 mathcomp.ssreflect.choice <> y0 var
+R16993:16993 mathcomp.ssreflect.choice <> P var
+R16964:16964 mathcomp.ssreflect.choice <> P var
+R16966:16967 mathcomp.ssreflect.choice <> y0 var
+R16956:16956 mathcomp.ssreflect.choice <> P var
+R16958:16959 mathcomp.ssreflect.choice <> x0 var
+R17034:17039 mathcomp.ssreflect.choice <> choose def
+R17042:17047 mathcomp.ssreflect.eqtype <> insubT thm
+R17060:17069 mathcomp.ssreflect.choice <> eq_xchoose thm
+R17034:17039 mathcomp.ssreflect.choice <> choose def
+R17034:17039 mathcomp.ssreflect.choice <> choose def
+R17042:17047 mathcomp.ssreflect.eqtype <> insubT thm
+R17042:17047 mathcomp.ssreflect.eqtype <> insubT thm
+R17042:17047 mathcomp.ssreflect.eqtype <> insubT thm
+R17042:17047 mathcomp.ssreflect.eqtype <> insubT thm
+R17060:17069 mathcomp.ssreflect.choice <> eq_xchoose thm
+prf 17084:17092 <> eq_choose
+R17106:17109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17118:17121 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R17110:17115 mathcomp.ssreflect.choice <> choose def
+R17117:17117 mathcomp.ssreflect.choice <> P var
+R17122:17127 mathcomp.ssreflect.choice <> choose def
+R17129:17129 mathcomp.ssreflect.choice <> Q var
+R17101:17104 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R17100:17100 mathcomp.ssreflect.choice <> P var
+R17105:17105 mathcomp.ssreflect.choice <> Q var
+R17148:17153 mathcomp.ssreflect.choice <> choose def
+R17148:17153 mathcomp.ssreflect.choice <> choose def
+R17148:17153 mathcomp.ssreflect.choice <> choose def
+R17177:17182 mathcomp.ssreflect.eqtype <> insubP thm
+R17237:17242 mathcomp.ssreflect.eqtype <> insubN thm
+R17177:17182 mathcomp.ssreflect.eqtype <> insubP thm
+R17177:17182 mathcomp.ssreflect.eqtype <> insubP thm
+R17237:17242 mathcomp.ssreflect.eqtype <> insubN thm
+R17237:17242 mathcomp.ssreflect.eqtype <> insubN thm
+R17256:17261 mathcomp.ssreflect.eqtype <> insubT thm
+R17271:17280 mathcomp.ssreflect.choice <> eq_xchoose thm
+R17256:17261 mathcomp.ssreflect.eqtype <> insubT thm
+R17256:17261 mathcomp.ssreflect.eqtype <> insubT thm
+R17271:17280 mathcomp.ssreflect.choice <> eq_xchoose thm
+sec 17297:17305 ChoiceTheory.OneType CanChoice
+var 17320:17321 ChoiceTheory.OneType.CanChoice sT
+var 17332:17332 ChoiceTheory.OneType.CanChoice f
+R17338:17341 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17342:17342 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R17336:17337 mathcomp.ssreflect.choice <> sT var
+prf 17353:17367 <> PcanChoiceMixin
+R17386:17389 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R17390:17400 mathcomp.ssreflect.choice <> choiceMixin syndef
+R17402:17403 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.CanChoice.sT var
+R17374:17380 Coq.ssr.ssrfun <> pcancel def
+R17384:17385 mathcomp.ssreflect.choice <> f' var
+R17382:17382 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.CanChoice.f var
+R17441:17446 Coq.ssr.ssrbool <> ::fun_scope:'['_'pred'_x_'|'_x_']' not
+R17448:17450 Coq.ssr.ssrbool <> ::fun_scope:'['_'pred'_x_'|'_x_']' not
+R17471:17471 Coq.ssr.ssrbool <> ::fun_scope:'['_'pred'_x_'|'_x_']' not
+R17451:17454 Coq.ssr.ssrfun <> oapp syndef
+R17469:17469 mathcomp.ssreflect.choice <> x var
+R17459:17463 Coq.Init.Datatypes <> false constr
+R17456:17457 mathcomp.ssreflect.choice <> sP var
+R17488:17492 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17494:17497 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17526:17526 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R17498:17502 Coq.ssr.ssrfun <> obind syndef
+R17508:17511 mathcomp.ssreflect.choice <> find def
+R17524:17524 mathcomp.ssreflect.choice <> n var
+R17520:17521 mathcomp.ssreflect.choice <> sP var
+R17598:17601 mathcomp.ssreflect.choice <> find def
+R17598:17601 mathcomp.ssreflect.choice <> find def
+R17598:17601 mathcomp.ssreflect.choice <> find def
+R17630:17636 mathcomp.ssreflect.choice <> correct thm
+R17716:17716 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.CanChoice.f var
+R17676:17683 mathcomp.ssreflect.choice <> complete thm
+R17685:17685 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R17716:17716 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.CanChoice.f var
+R17759:17762 mathcomp.ssreflect.choice <> find def
+R17759:17762 mathcomp.ssreflect.choice <> find def
+R17759:17762 mathcomp.ssreflect.choice <> find def
+R17798:17804 mathcomp.ssreflect.choice <> correct thm
+R17840:17844 Coq.ssr.ssrfun <> obind syndef
+R17859:17869 mathcomp.ssreflect.choice <> extensional thm
+R17840:17844 Coq.ssr.ssrfun <> obind syndef
+R17859:17869 mathcomp.ssreflect.choice <> extensional thm
+def 17917:17930 <> CanChoiceMixin
+R17941:17946 Coq.ssr.ssrfun <> cancel def
+R17950:17951 mathcomp.ssreflect.choice <> f' var
+R17948:17948 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.CanChoice.f var
+R17959:17973 mathcomp.ssreflect.choice <> PcanChoiceMixin thm
+R17976:17983 Coq.ssr.ssrfun <> can_pcan thm
+R17985:17986 mathcomp.ssreflect.choice <> fK var
+R17995:18003 mathcomp.ssreflect.choice ChoiceTheory.OneType.CanChoice <> sec
+sec 18015:18023 ChoiceTheory.OneType SubChoice
+var 18038:18038 ChoiceTheory.OneType.SubChoice P
+var 18051:18052 ChoiceTheory.OneType.SubChoice sT
+R18042:18045 Coq.ssr.ssrbool <> pred def
+R18047:18047 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R18056:18062 mathcomp.ssreflect.eqtype <> subType rec
+R18064:18064 mathcomp.ssreflect.choice <> P var
+def 18080:18094 <> sub_choiceMixin
+R18099:18113 mathcomp.ssreflect.choice <> PcanChoiceMixin thm
+R18117:18120 mathcomp.ssreflect.eqtype <> valK thm
+R18126:18127 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.SubChoice.sT var
+R18124:18124 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.SubChoice.P var
+R18122:18122 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+def 18142:18156 <> sub_choiceClass
+R18162:18173 mathcomp.ssreflect.choice <> Class constr
+R18195:18209 mathcomp.ssreflect.choice <> sub_choiceMixin def
+R18179:18189 mathcomp.ssreflect.eqtype <> sub_eqMixin def
+R18191:18192 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.SubChoice.sT var
+R18175:18176 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.SubChoice.sT var
+R18240:18250 mathcomp.ssreflect.choice <> Pack constr
+R18252:18266 mathcomp.ssreflect.choice <> sub_choiceClass def
+R18274:18282 mathcomp.ssreflect.choice ChoiceTheory.OneType.SubChoice <> sec
+prf 18291:18305 <> seq_choiceMixin
+R18309:18319 mathcomp.ssreflect.choice <> choiceMixin syndef
+R18322:18324 mathcomp.ssreflect.seq <> seq syndef
+R18326:18326 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R18349:18353 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R18356:18359 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R18401:18401 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_x_'=>'_x_']' not
+R18368:18368 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R18384:18386 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18387:18392 Coq.Init.Datatypes <> option ind
+R18395:18397 mathcomp.ssreflect.seq <> seq syndef
+R18399:18399 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R18373:18373 mathcomp.ssreflect.choice <> f var
+R18377:18380 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R18376:18376 mathcomp.ssreflect.choice <> x var
+R18381:18382 mathcomp.ssreflect.choice <> xs var
+R18444:18445 mathcomp.ssreflect.choice <> ns var
+R18451:18454 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R18487:18488 mathcomp.ssreflect.choice <> xs var
+R18477:18477 mathcomp.ssreflect.choice <> f var
+R18479:18480 mathcomp.ssreflect.choice <> sP var
+R18493:18497 Coq.ssr.ssrfun <> obind syndef
+R18503:18506 mathcomp.ssreflect.choice <> find def
+R18508:18509 mathcomp.ssreflect.choice <> fr var
+R18499:18500 mathcomp.ssreflect.choice <> fr var
+R18521:18523 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18529:18534 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18542:18547 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R18524:18525 mathcomp.ssreflect.choice <> sP var
+R18527:18528 mathcomp.ssreflect.choice <> xs var
+R18535:18538 Coq.Init.Datatypes <> Some constr
+R18540:18541 mathcomp.ssreflect.choice <> xs var
+R18548:18551 Coq.Init.Datatypes <> None constr
+R18588:18590 Coq.Init.Datatypes <> nil constr
+R18581:18582 mathcomp.ssreflect.choice <> dc syndef
+R18584:18585 mathcomp.ssreflect.choice <> nn var
+R18577:18578 mathcomp.ssreflect.choice <> sP var
+R18588:18590 Coq.Init.Datatypes <> nil constr
+R18581:18582 mathcomp.ssreflect.choice <> dc syndef
+R18584:18585 mathcomp.ssreflect.choice <> nn var
+R18577:18578 mathcomp.ssreflect.choice <> sP var
+R18644:18645 mathcomp.ssreflect.choice <> dc syndef
+R18650:18652 Coq.Init.Datatypes <> nil constr
+R18691:18693 Coq.ssr.ssrbool <> ifP thm
+R18650:18652 Coq.Init.Datatypes <> nil constr
+R18650:18652 Coq.Init.Datatypes <> nil constr
+R18644:18645 mathcomp.ssreflect.choice <> dc syndef
+R18644:18645 mathcomp.ssreflect.choice <> dc syndef
+R18644:18645 mathcomp.ssreflect.choice <> dc syndef
+R18644:18645 mathcomp.ssreflect.choice <> dc syndef
+R18691:18693 Coq.ssr.ssrbool <> ifP thm
+R18691:18693 Coq.ssr.ssrbool <> ifP thm
+R18724:18727 mathcomp.ssreflect.choice <> find def
+R18724:18727 mathcomp.ssreflect.choice <> find def
+R18724:18727 mathcomp.ssreflect.choice <> find def
+R18770:18774 mathcomp.ssreflect.seq <> cats0 thm
+R18799:18801 Coq.Init.Datatypes <> nil constr
+R18770:18774 mathcomp.ssreflect.seq <> cats0 thm
+R18770:18774 mathcomp.ssreflect.seq <> cats0 thm
+R18799:18801 Coq.Init.Datatypes <> nil constr
+R18799:18801 Coq.Init.Datatypes <> nil constr
+R18786:18793 mathcomp.ssreflect.seq <> last_ind thm
+R18882:18890 mathcomp.ssreflect.seq <> cat_rcons thm
+R18882:18890 mathcomp.ssreflect.seq <> cat_rcons thm
+R18882:18890 mathcomp.ssreflect.seq <> cat_rcons thm
+R18937:18943 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18945:18946 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R18962:18965 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R18961:18961 mathcomp.ssreflect.choice <> z var
+R18953:18954 mathcomp.ssreflect.choice <> dc syndef
+R18924:18931 mathcomp.ssreflect.choice <> complete thm
+R18995:18998 mathcomp.ssreflect.choice <> find def
+R19025:19028 mathcomp.ssreflect.choice <> code def
+R19032:19035 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R19036:19037 mathcomp.ssreflect.choice <> dc syndef
+R18995:18998 mathcomp.ssreflect.choice <> find def
+R18995:18998 mathcomp.ssreflect.choice <> find def
+R19025:19028 mathcomp.ssreflect.choice <> code def
+R19032:19035 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R19036:19037 mathcomp.ssreflect.choice <> dc syndef
+R19058:19062 mathcomp.ssreflect.choice <> codeK thm
+R19074:19080 mathcomp.ssreflect.choice <> correct thm
+R19058:19062 mathcomp.ssreflect.choice <> codeK thm
+R19058:19062 mathcomp.ssreflect.choice <> codeK thm
+R19074:19080 mathcomp.ssreflect.choice <> correct thm
+R19074:19080 mathcomp.ssreflect.choice <> correct thm
+R19097:19098 mathcomp.ssreflect.choice <> dc syndef
+R19103:19105 Coq.Init.Datatypes <> nil constr
+R19103:19105 Coq.Init.Datatypes <> nil constr
+R19103:19105 Coq.Init.Datatypes <> nil constr
+R19097:19098 mathcomp.ssreflect.choice <> dc syndef
+R19097:19098 mathcomp.ssreflect.choice <> dc syndef
+R19097:19098 mathcomp.ssreflect.choice <> dc syndef
+R19097:19098 mathcomp.ssreflect.choice <> dc syndef
+R19162:19172 mathcomp.ssreflect.choice <> extensional thm
+R19162:19172 mathcomp.ssreflect.choice <> extensional thm
+R19162:19172 mathcomp.ssreflect.choice <> extensional thm
+R19235:19238 mathcomp.ssreflect.choice <> find def
+R19235:19238 mathcomp.ssreflect.choice <> find def
+R19235:19238 mathcomp.ssreflect.choice <> find def
+R19292:19301 mathcomp.ssreflect.choice <> ChoiceType syndef
+R19304:19306 mathcomp.ssreflect.seq <> seq syndef
+R19308:19308 mathcomp.ssreflect.choice <> ChoiceTheory.OneType.T var
+R19311:19325 mathcomp.ssreflect.choice <> seq_choiceMixin thm
+R19333:19339 mathcomp.ssreflect.choice ChoiceTheory.OneType <> sec
+sec 19351:19359 ChoiceTheory TagChoice
+var 19374:19374 ChoiceTheory.TagChoice I
+var 19391:19392 ChoiceTheory.TagChoice T_
+R19378:19387 mathcomp.ssreflect.choice <> choiceType syndef
+R19397:19400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R19401:19410 mathcomp.ssreflect.choice <> choiceType syndef
+R19396:19396 mathcomp.ssreflect.choice <> I var
+prf 19420:19437 <> tagged_choiceMixin
+R19441:19451 mathcomp.ssreflect.choice <> choiceMixin syndef
+R19453:19453 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R19455:19457 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R19459:19461 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R19466:19466 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R19458:19458 mathcomp.ssreflect.choice <> ChoiceTheory.TagChoice.I var
+R19462:19463 mathcomp.ssreflect.choice <> ChoiceTheory.TagChoice.T_ var
+R19465:19465 mathcomp.ssreflect.choice <> i var
+R19492:19493 mathcomp.ssreflect.choice <> ChoiceTheory.TagChoice.T_ var
+R19495:19495 mathcomp.ssreflect.choice <> i var
+R19501:19506 Coq.ssr.ssrfun <> Tagged def
+R19511:19511 mathcomp.ssreflect.choice <> x var
+R19508:19509 mathcomp.ssreflect.choice <> ChoiceTheory.TagChoice.T_ var
+R19532:19535 Coq.ssr.ssrfun <> omap syndef
+R19546:19549 mathcomp.ssreflect.choice <> find def
+R19565:19565 mathcomp.ssreflect.choice <> n var
+R19554:19557 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R19552:19553 mathcomp.ssreflect.choice <> tP var
+R19562:19562 mathcomp.ssreflect.choice <> i var
+R19542:19542 mathcomp.ssreflect.choice <> i var
+R19589:19593 Coq.ssr.ssrfun <> obind syndef
+R19607:19610 mathcomp.ssreflect.choice <> find def
+R19623:19624 mathcomp.ssreflect.choice <> ni var
+R19619:19620 mathcomp.ssreflect.choice <> nt var
+R19616:19617 mathcomp.ssreflect.choice <> tP var
+R19602:19603 mathcomp.ssreflect.choice <> nt var
+R19599:19600 mathcomp.ssreflect.choice <> tP var
+R19646:19647 mathcomp.ssreflect.choice <> dc syndef
+R19649:19649 mathcomp.ssreflect.choice <> n var
+R19654:19657 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19660:19661 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19664:19664 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R19674:19675 mathcomp.ssreflect.choice <> tP var
+R19688:19691 Coq.Init.Datatypes <> None constr
+R19774:19775 mathcomp.ssreflect.choice <> dc syndef
+R19774:19775 mathcomp.ssreflect.choice <> dc syndef
+R19774:19775 mathcomp.ssreflect.choice <> dc syndef
+R19812:19815 mathcomp.ssreflect.choice <> find def
+R19812:19815 mathcomp.ssreflect.choice <> find def
+R19812:19815 mathcomp.ssreflect.choice <> find def
+R19862:19865 mathcomp.ssreflect.choice <> find def
+R19862:19865 mathcomp.ssreflect.choice <> find def
+R19862:19865 mathcomp.ssreflect.choice <> find def
+R19896:19902 mathcomp.ssreflect.choice <> correct thm
+R19935:19941 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19943:19944 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19948:19951 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R19959:19959 mathcomp.ssreflect.choice <> y var
+R19916:19923 mathcomp.ssreflect.choice <> complete thm
+R20041:20044 mathcomp.ssreflect.choice <> find def
+R19988:19994 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R19996:19997 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R20007:20007 mathcomp.ssreflect.choice <> j var
+R20041:20044 mathcomp.ssreflect.choice <> find def
+R20041:20044 mathcomp.ssreflect.choice <> find def
+R20086:20089 mathcomp.ssreflect.choice <> code def
+R20091:20094 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R20097:20098 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R20101:20101 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R20116:20120 mathcomp.ssreflect.choice <> codeK thm
+R20059:20066 mathcomp.ssreflect.choice <> complete thm
+R20086:20089 mathcomp.ssreflect.choice <> code def
+R20091:20094 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R20097:20098 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R20101:20101 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R20116:20120 mathcomp.ssreflect.choice <> codeK thm
+R20116:20120 mathcomp.ssreflect.choice <> codeK thm
+R20141:20144 mathcomp.ssreflect.choice <> find def
+R20141:20144 mathcomp.ssreflect.choice <> find def
+R20141:20144 mathcomp.ssreflect.choice <> find def
+R20171:20177 mathcomp.ssreflect.choice <> correct thm
+R20206:20207 mathcomp.ssreflect.choice <> dc syndef
+R20206:20207 mathcomp.ssreflect.choice <> dc syndef
+R20206:20207 mathcomp.ssreflect.choice <> dc syndef
+R20245:20255 mathcomp.ssreflect.choice <> extensional thm
+R20245:20255 mathcomp.ssreflect.choice <> extensional thm
+R20245:20255 mathcomp.ssreflect.choice <> extensional thm
+R20293:20296 mathcomp.ssreflect.choice <> find def
+R20315:20318 Coq.ssr.ssrfun <> omap syndef
+R20333:20343 mathcomp.ssreflect.choice <> extensional thm
+R20293:20296 mathcomp.ssreflect.choice <> find def
+R20293:20296 mathcomp.ssreflect.choice <> find def
+R20315:20318 Coq.ssr.ssrfun <> omap syndef
+R20333:20343 mathcomp.ssreflect.choice <> extensional thm
+R20364:20367 Coq.ssr.ssrfun <> omap syndef
+R20382:20392 mathcomp.ssreflect.choice <> extensional thm
+R20364:20367 Coq.ssr.ssrfun <> omap syndef
+R20382:20392 mathcomp.ssreflect.choice <> extensional thm
+R20453:20462 mathcomp.ssreflect.choice <> ChoiceType syndef
+R20464:20464 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R20466:20468 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R20470:20472 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R20477:20477 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R20469:20469 mathcomp.ssreflect.choice <> ChoiceTheory.TagChoice.I var
+R20473:20474 mathcomp.ssreflect.choice <> ChoiceTheory.TagChoice.T_ var
+R20476:20476 mathcomp.ssreflect.choice <> i var
+R20479:20496 mathcomp.ssreflect.choice <> tagged_choiceMixin thm
+R20504:20512 mathcomp.ssreflect.choice ChoiceTheory.TagChoice <> sec
+prf 20521:20535 <> nat_choiceMixin
+R20539:20549 mathcomp.ssreflect.choice <> choiceMixin syndef
+R20551:20553 Coq.Init.Datatypes <> nat ind
+R20573:20578 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_x_'=>'_x_']' not
+R20580:20582 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_x_'=>'_x_']' not
+R20591:20592 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_x_'=>'_x_']' not
+R20594:20597 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_x_'=>'_x_']' not
+R20626:20626 Coq.ssr.ssrfun <> ::fun_scope:'['_'fun'_'('_x_':'_x_')'_x_'=>'_x_']' not
+R20598:20600 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R20604:20609 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R20616:20621 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R20601:20601 mathcomp.ssreflect.choice <> P var
+R20603:20603 mathcomp.ssreflect.choice <> n var
+R20610:20613 Coq.Init.Datatypes <> Some constr
+R20615:20615 mathcomp.ssreflect.choice <> n var
+R20622:20625 Coq.Init.Datatypes <> None constr
+R20583:20586 Coq.ssr.ssrbool <> pred def
+R20588:20590 Coq.Init.Datatypes <> nat ind
+R20710:20712 Coq.ssr.ssrbool <> ifP thm
+R20710:20712 Coq.ssr.ssrbool <> ifP thm
+R20710:20712 Coq.ssr.ssrbool <> ifP thm
+R20799:20808 mathcomp.ssreflect.choice <> ChoiceType syndef
+R20810:20812 Coq.Init.Datatypes <> nat ind
+R20814:20828 mathcomp.ssreflect.choice <> nat_choiceMixin thm
+def 20843:20858 <> bool_choiceMixin
+R20863:20876 mathcomp.ssreflect.choice <> CanChoiceMixin def
+R20878:20881 mathcomp.ssreflect.ssrnat <> oddb thm
+R20925:20934 mathcomp.ssreflect.choice <> ChoiceType syndef
+R20936:20939 Coq.Init.Datatypes <> bool ind
+R20941:20956 mathcomp.ssreflect.choice <> bool_choiceMixin def
+R21002:21016 mathcomp.ssreflect.choice Choice.Exports ::form_scope:'['_'choiceType'_'of'_x_']' not
+R21023:21023 mathcomp.ssreflect.choice Choice.Exports ::form_scope:'['_'choiceType'_'of'_x_']' not
+R21017:21022 mathcomp.ssreflect.seq <> bitseq def
+def 21038:21053 <> unit_choiceMixin
+R21058:21071 mathcomp.ssreflect.choice <> CanChoiceMixin def
+R21073:21085 mathcomp.ssreflect.choice <> bool_of_unitK thm
+R21129:21138 mathcomp.ssreflect.choice <> ChoiceType syndef
+R21140:21143 Coq.Init.Datatypes <> unit ind
+R21145:21160 mathcomp.ssreflect.choice <> unit_choiceMixin def
+def 21175:21192 <> option_choiceMixin
+R21199:21212 mathcomp.ssreflect.choice <> CanChoiceMixin def
+R21216:21226 mathcomp.ssreflect.choice <> seq_of_optK thm
+R21228:21228 mathcomp.ssreflect.choice <> T var
+R21279:21288 mathcomp.ssreflect.choice <> ChoiceType syndef
+R21291:21296 Coq.Init.Datatypes <> option ind
+R21298:21298 mathcomp.ssreflect.choice <> T var
+R21302:21319 mathcomp.ssreflect.choice <> option_choiceMixin def
+R21321:21321 mathcomp.ssreflect.choice <> T var
+def 21337:21351 <> sig_choiceMixin
+R21360:21363 Coq.ssr.ssrbool <> pred def
+R21365:21365 mathcomp.ssreflect.choice <> T var
+R21370:21380 mathcomp.ssreflect.choice <> choiceMixin syndef
+R21382:21382 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R21384:21386 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R21390:21390 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R21387:21387 mathcomp.ssreflect.choice <> P var
+R21389:21389 mathcomp.ssreflect.choice <> x var
+R21398:21412 mathcomp.ssreflect.choice <> sub_choiceMixin def
+R21449:21452 Coq.ssr.ssrbool <> pred def
+R21454:21454 mathcomp.ssreflect.choice <> T var
+R21473:21482 mathcomp.ssreflect.choice <> ChoiceType syndef
+R21484:21484 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R21486:21488 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R21492:21492 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R21489:21489 mathcomp.ssreflect.choice <> P var
+R21491:21491 mathcomp.ssreflect.choice <> x var
+R21495:21509 mathcomp.ssreflect.choice <> sig_choiceMixin def
+R21511:21511 mathcomp.ssreflect.choice <> P var
+def 21527:21542 <> prod_choiceMixin
+R21553:21566 mathcomp.ssreflect.choice <> CanChoiceMixin def
+R21570:21581 mathcomp.ssreflect.choice <> tag_of_pairK thm
+R21586:21587 mathcomp.ssreflect.choice <> T2 var
+R21583:21584 mathcomp.ssreflect.choice <> T1 var
+R21640:21649 mathcomp.ssreflect.choice <> ChoiceType syndef
+R21654:21656 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R21652:21653 mathcomp.ssreflect.choice <> T1 var
+R21657:21658 mathcomp.ssreflect.choice <> T2 var
+R21662:21677 mathcomp.ssreflect.choice <> prod_choiceMixin def
+R21682:21683 mathcomp.ssreflect.choice <> T2 var
+R21679:21680 mathcomp.ssreflect.choice <> T1 var
+def 21699:21713 <> sum_choiceMixin
+R21724:21738 mathcomp.ssreflect.choice <> PcanChoiceMixin thm
+R21742:21754 mathcomp.ssreflect.choice <> opair_of_sumK thm
+R21759:21760 mathcomp.ssreflect.choice <> T2 var
+R21756:21757 mathcomp.ssreflect.choice <> T1 var
+R21812:21821 mathcomp.ssreflect.choice <> ChoiceType syndef
+R21826:21828 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R21824:21825 mathcomp.ssreflect.choice <> T1 var
+R21829:21830 mathcomp.ssreflect.choice <> T2 var
+R21834:21848 mathcomp.ssreflect.choice <> sum_choiceMixin def
+R21853:21854 mathcomp.ssreflect.choice <> T2 var
+R21850:21851 mathcomp.ssreflect.choice <> T1 var
+def 21870:21885 <> tree_choiceMixin
+R21892:21906 mathcomp.ssreflect.choice <> PcanChoiceMixin thm
+R21909:21921 mathcomp.ssreflect.choice <> codeK thm
+R21923:21923 mathcomp.ssreflect.choice <> T var
+R21958:21967 mathcomp.ssreflect.choice <> ChoiceType syndef
+R21970:21981 mathcomp.ssreflect.choice <> tree ind
+R21983:21983 mathcomp.ssreflect.choice <> T var
+R21987:22002 mathcomp.ssreflect.choice <> tree_choiceMixin def
+R22004:22004 mathcomp.ssreflect.choice <> T var
+R22013:22024 mathcomp.ssreflect.choice ChoiceTheory <> sec
+R22128:22130 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R22131:22141 mathcomp.ssreflect.choice <> choiceMixin syndef
+R22111:22125 mathcomp.ssreflect.choice <> sub_choiceMixin def
+not 22070:22070 <> ::form_scope:'['_'choiceMixin'_'of'_x_'by'_'<:'_']'
+mod 22230:22238 <> Countable
+constr 22279:22283 Countable Mixin
+rec 22249:22256 Countable mixin_of
+proj 22289:22294 Countable pickle
+proj 22310:22317 Countable unpickle
+proj 22340:22346 Countable pickleK
+R22299:22302 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22303:22305 Coq.Init.Datatypes <> nat ind
+R22298:22298 mathcomp.ssreflect.choice <> T var
+R22324:22327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R22328:22333 Coq.Init.Datatypes <> option ind
+R22335:22335 mathcomp.ssreflect.choice <> T var
+R22321:22323 Coq.Init.Datatypes <> nat ind
+R22350:22356 Coq.ssr.ssrfun <> pcancel def
+R22365:22372 mathcomp.ssreflect.choice <> unpickle meth
+R22358:22363 mathcomp.ssreflect.choice <> pickle meth
+def 22389:22395 Countable EqMixin
+R22404:22414 mathcomp.ssreflect.eqtype <> PcanEqMixin def
+R22418:22424 mathcomp.ssreflect.choice Countable pickleK proj
+R22428:22428 mathcomp.ssreflect.choice <> m var
+R22426:22426 mathcomp.ssreflect.choice <> T var
+def 22443:22453 Countable ChoiceMixin
+R22462:22476 mathcomp.ssreflect.choice <> PcanChoiceMixin thm
+R22480:22486 mathcomp.ssreflect.choice Countable pickleK proj
+R22490:22490 mathcomp.ssreflect.choice <> m var
+R22488:22488 mathcomp.ssreflect.choice <> T var
+sec 22503:22510 Countable ClassDef
+constr 22535:22539 Countable Class
+rec 22521:22528 Countable class_of
+proj 22543:22546 Countable base
+proj 22569:22573 Countable mixin
+R22550:22564 mathcomp.ssreflect.choice Choice class_of rec
+R22566:22566 mathcomp.ssreflect.choice <> T var
+R22577:22584 mathcomp.ssreflect.choice Countable mixin_of rec
+R22586:22586 mathcomp.ssreflect.choice <> T var
+R22597:22640 mathcomp.ssreflect.choice Countable base proj
+constr 22669:22672 Countable Pack
+rec 22654:22657 Countable type
+proj 22675:22678 Countable sort
+R22692:22699 mathcomp.ssreflect.choice Countable class_of rec
+R22701:22704 mathcomp.ssreflect.choice <> sort meth
+R22714:22747 mathcomp.ssreflect.choice Countable sort proj
+var 22761:22761 Countable.ClassDef T
+var 22772:22773 Countable.ClassDef cT
+R22777:22780 mathcomp.ssreflect.choice Countable type rec
+def 22795:22799 Countable class
+R22828:22829 mathcomp.ssreflect.choice <> Countable.ClassDef.cT var
+R22838:22845 mathcomp.ssreflect.choice Countable class_of rec
+R22847:22849 mathcomp.ssreflect.choice <> cT' var
+R22809:22812 mathcomp.ssreflect.choice Countable Pack constr
+def 22868:22872 Countable clone
+R22879:22886 Coq.ssr.ssrfun <> phant_id def
+R22894:22894 mathcomp.ssreflect.choice <> c var
+R22888:22892 mathcomp.ssreflect.choice Countable class def
+R22900:22903 mathcomp.ssreflect.choice Countable Pack constr
+R22907:22907 mathcomp.ssreflect.choice <> c var
+R22905:22905 mathcomp.ssreflect.choice <> Countable.ClassDef.T var
+var 22914:22915 Countable.ClassDef xT
+R22937:22938 mathcomp.ssreflect.choice <> Countable.ClassDef.cT var
+R22925:22928 mathcomp.ssreflect.choice Countable Pack constr
+syndef 22955:22960 Countable xclass
+R22971:22973 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R22974:22981 mathcomp.ssreflect.choice Countable class_of rec
+R22983:22984 mathcomp.ssreflect.choice <> Countable.ClassDef.xT var
+R22966:22970 mathcomp.ssreflect.choice Countable class def
+def 23000:23003 Countable pack
+R23023:23030 Coq.ssr.ssrfun <> phant_id def
+R23050:23050 mathcomp.ssreflect.choice <> b var
+R23033:23044 mathcomp.ssreflect.choice Choice class def
+R23046:23047 mathcomp.ssreflect.choice <> bT var
+R23055:23058 mathcomp.ssreflect.choice Countable Pack constr
+R23062:23066 mathcomp.ssreflect.choice Countable Class constr
+R23072:23072 mathcomp.ssreflect.choice <> m var
+R23070:23070 mathcomp.ssreflect.choice <> b var
+R23068:23068 mathcomp.ssreflect.choice <> Countable.ClassDef.T var
+def 23088:23093 Countable eqType
+R23099:23111 mathcomp.ssreflect.eqtype Equality Pack constr
+R23116:23121 mathcomp.ssreflect.choice Countable xclass syndef
+R23113:23114 mathcomp.ssreflect.choice <> Countable.ClassDef.cT var
+def 23135:23144 Countable choiceType
+R23150:23160 mathcomp.ssreflect.choice Choice Pack constr
+R23165:23170 mathcomp.ssreflect.choice Countable xclass syndef
+R23162:23163 mathcomp.ssreflect.choice <> Countable.ClassDef.cT var
+R23178:23185 mathcomp.ssreflect.choice Countable.ClassDef <> sec
+mod 23196:23202 <> Countable.Exports
+R23205:23248 mathcomp.ssreflect.choice Countable base proj
+R23251:23288 mathcomp.ssreflect.choice Countable mixin proj
+R23291:23324 mathcomp.ssreflect.choice Countable sort proj
+R23327:23366 mathcomp.ssreflect.choice Countable eqType def
+R23387:23428 mathcomp.ssreflect.choice Countable choiceType def
+syndef 23462:23470 Countable.Exports countType
+R23475:23478 mathcomp.ssreflect.choice Countable type rec
+syndef 23490:23498 Countable.Exports CountType
+R23509:23512 mathcomp.ssreflect.choice Countable pack def
+R23522:23523 Coq.ssr.ssrfun <> id syndef
+syndef 23536:23545 Countable.Exports CountMixin
+R23550:23554 mathcomp.ssreflect.choice Countable Mixin constr
+syndef 23566:23581 Countable.Exports CountChoiceMixin
+R23586:23596 mathcomp.ssreflect.choice Countable ChoiceMixin def
+R23647:23651 mathcomp.ssreflect.choice Countable clone def
+R23660:23664 Coq.ssr.ssrfun <> idfun syndef
+not 23608:23608 Countable.Exports ::form_scope:'['_'countType'_'of'_x_'for'_x_']'
+R23780:23784 mathcomp.ssreflect.choice Countable clone def
+R23792:23793 Coq.ssr.ssrfun <> id syndef
+not 23750:23750 Countable.Exports ::form_scope:'['_'countType'_'of'_x_']'
+R23865:23871 mathcomp.ssreflect.choice Countable.Exports <> mod
+R23879:23887 mathcomp.ssreflect.choice Countable <> mod
+def 23928:23935 <> unpickle
+R23942:23959 mathcomp.ssreflect.choice <> unpickle proj
+R23962:23976 mathcomp.ssreflect.choice <> class def
+R23978:23978 mathcomp.ssreflect.choice <> T var
+def 23993:23998 <> pickle
+R24005:24020 mathcomp.ssreflect.choice <> pickle proj
+R24023:24037 mathcomp.ssreflect.choice <> class def
+R24039:24039 mathcomp.ssreflect.choice <> T var
+R24053:24060 mathcomp.ssreflect.choice <> unpickle def
+R24053:24060 mathcomp.ssreflect.choice <> unpickle def
+R24079:24084 mathcomp.ssreflect.choice <> pickle def
+R24079:24084 mathcomp.ssreflect.choice <> pickle def
+sec 24102:24116 <> CountableTheory
+var 24129:24129 CountableTheory T
+R24133:24141 mathcomp.ssreflect.choice <> countType syndef
+prf 24151:24157 <> pickleK
+R24162:24168 Coq.ssr.ssrfun <> pcancel def
+R24183:24190 mathcomp.ssreflect.choice <> unpickle def
+R24176:24181 mathcomp.ssreflect.choice <> pickle def
+R24174:24174 mathcomp.ssreflect.choice <> CountableTheory.T var
+R24170:24172 Coq.Init.Datatypes <> nat ind
+R24207:24223 mathcomp.ssreflect.choice <> pickleK proj
+R24207:24223 mathcomp.ssreflect.choice <> pickleK proj
+def 24243:24252 <> pickle_inv
+R24261:24265 Coq.ssr.ssrfun <> obind syndef
+R24322:24329 mathcomp.ssreflect.choice <> unpickle def
+R24331:24331 mathcomp.ssreflect.choice <> n var
+R24276:24276 mathcomp.ssreflect.choice <> CountableTheory.T var
+R24281:24283 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R24297:24302 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R24309:24314 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R24292:24295 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R24284:24289 mathcomp.ssreflect.choice <> pickle def
+R24291:24291 mathcomp.ssreflect.choice <> x var
+R24296:24296 mathcomp.ssreflect.choice <> n var
+R24303:24306 Coq.Init.Datatypes <> Some constr
+R24308:24308 mathcomp.ssreflect.choice <> x var
+R24315:24318 Coq.Init.Datatypes <> None constr
+prf 24342:24352 <> pickle_invK
+R24356:24362 Coq.ssr.ssrfun <> ocancel def
+R24375:24380 mathcomp.ssreflect.choice <> pickle def
+R24364:24373 mathcomp.ssreflect.choice <> pickle_inv def
+R24402:24411 mathcomp.ssreflect.choice <> pickle_inv def
+R24432:24439 mathcomp.ssreflect.choice <> unpickle def
+R24462:24464 mathcomp.ssreflect.eqtype <> eqP thm
+R24402:24411 mathcomp.ssreflect.choice <> pickle_inv def
+R24402:24411 mathcomp.ssreflect.choice <> pickle_inv def
+R24432:24439 mathcomp.ssreflect.choice <> unpickle def
+R24432:24439 mathcomp.ssreflect.choice <> unpickle def
+R24462:24464 mathcomp.ssreflect.eqtype <> eqP thm
+R24462:24464 mathcomp.ssreflect.eqtype <> eqP thm
+prf 24479:24489 <> pickleK_inv
+R24493:24499 Coq.ssr.ssrfun <> pcancel def
+R24508:24517 mathcomp.ssreflect.choice <> pickle_inv def
+R24501:24506 mathcomp.ssreflect.choice <> pickle def
+R24539:24548 mathcomp.ssreflect.choice <> pickle_inv def
+R24564:24570 mathcomp.ssreflect.choice <> pickleK thm
+R24575:24578 mathcomp.ssreflect.eqtype <> eqxx syndef
+R24539:24548 mathcomp.ssreflect.choice <> pickle_inv def
+R24539:24548 mathcomp.ssreflect.choice <> pickle_inv def
+R24564:24570 mathcomp.ssreflect.choice <> pickleK thm
+R24564:24570 mathcomp.ssreflect.choice <> pickleK thm
+R24575:24578 mathcomp.ssreflect.eqtype <> eqxx syndef
+R24575:24578 mathcomp.ssreflect.eqtype <> eqxx syndef
+prf 24593:24604 <> pcan_pickleK
+R24636:24639 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24640:24646 Coq.ssr.ssrfun <> pcancel def
+R24663:24667 Coq.ssr.ssrfun <> pcomp def
+R24672:24679 mathcomp.ssreflect.choice <> unpickle def
+R24669:24670 mathcomp.ssreflect.choice <> f' var
+R24655:24658 Coq.ssr.ssrfun <> ::fun_scope:x_'\o'_x not
+R24649:24654 mathcomp.ssreflect.choice <> pickle def
+R24659:24659 mathcomp.ssreflect.choice <> f var
+R24619:24625 Coq.ssr.ssrfun <> pcancel def
+R24634:24635 mathcomp.ssreflect.choice <> f' var
+R24632:24632 mathcomp.ssreflect.choice <> f var
+R24629:24630 mathcomp.ssreflect.choice <> sT var
+R24627:24627 mathcomp.ssreflect.choice <> CountableTheory.T var
+R24715:24719 Coq.ssr.ssrfun <> pcomp def
+R24721:24727 mathcomp.ssreflect.choice <> pickleK thm
+R24715:24719 Coq.ssr.ssrfun <> pcomp def
+R24715:24719 Coq.ssr.ssrfun <> pcomp def
+R24721:24727 mathcomp.ssreflect.choice <> pickleK thm
+R24721:24727 mathcomp.ssreflect.choice <> pickleK thm
+def 24753:24766 <> PcanCountMixin
+R24782:24788 Coq.ssr.ssrfun <> pcancel def
+R24792:24793 mathcomp.ssreflect.choice <> f' var
+R24790:24790 mathcomp.ssreflect.choice <> f var
+R24802:24811 mathcomp.ssreflect.choice <> CountMixin syndef
+R24821:24832 mathcomp.ssreflect.choice <> pcan_pickleK thm
+R24834:24835 mathcomp.ssreflect.choice <> fK var
+R24813:24814 mathcomp.ssreflect.choice <> sT var
+def 24851:24863 <> CanCountMixin
+R24879:24884 Coq.ssr.ssrfun <> cancel def
+R24888:24889 mathcomp.ssreflect.choice <> f' var
+R24886:24886 mathcomp.ssreflect.choice <> f var
+R24898:24911 mathcomp.ssreflect.choice <> PcanCountMixin def
+R24921:24928 Coq.ssr.ssrfun <> can_pcan thm
+R24930:24931 mathcomp.ssreflect.choice <> fK var
+R24913:24914 mathcomp.ssreflect.choice <> sT var
+def 24947:24960 <> sub_countMixin
+R24970:24983 mathcomp.ssreflect.choice <> PcanCountMixin def
+R24987:24990 mathcomp.ssreflect.eqtype <> valK thm
+R24996:24997 mathcomp.ssreflect.choice <> sT var
+R24994:24994 mathcomp.ssreflect.choice <> P var
+R24992:24992 mathcomp.ssreflect.choice <> CountableTheory.T var
+def 25013:25022 <> pickle_seq
+R25029:25040 mathcomp.ssreflect.choice <> code def
+R25043:25045 mathcomp.ssreflect.seq <> map def
+R25059:25059 mathcomp.ssreflect.choice <> s var
+R25049:25054 mathcomp.ssreflect.choice <> pickle def
+R25056:25056 mathcomp.ssreflect.choice <> CountableTheory.T var
+def 25074:25085 <> unpickle_seq
+R25092:25095 Coq.Init.Datatypes <> Some constr
+R25098:25101 mathcomp.ssreflect.seq <> pmap def
+R25118:25131 mathcomp.ssreflect.choice <> decode def
+R25133:25133 mathcomp.ssreflect.choice <> n var
+R25105:25112 mathcomp.ssreflect.choice <> unpickle def
+R25114:25114 mathcomp.ssreflect.choice <> CountableTheory.T var
+prf 25144:25154 <> pickle_seqK
+R25158:25164 Coq.ssr.ssrfun <> pcancel def
+R25177:25188 mathcomp.ssreflect.choice <> unpickle_seq def
+R25166:25175 mathcomp.ssreflect.choice <> pickle_seq def
+R25220:25231 mathcomp.ssreflect.choice <> unpickle_seq def
+R25233:25245 mathcomp.ssreflect.choice <> codeK thm
+R25248:25253 mathcomp.ssreflect.seq <> map_pK thm
+R25255:25261 mathcomp.ssreflect.choice <> pickleK thm
+R25220:25231 mathcomp.ssreflect.choice <> unpickle_seq def
+R25220:25231 mathcomp.ssreflect.choice <> unpickle_seq def
+R25233:25245 mathcomp.ssreflect.choice <> codeK thm
+R25233:25245 mathcomp.ssreflect.choice <> codeK thm
+R25248:25253 mathcomp.ssreflect.seq <> map_pK thm
+R25255:25261 mathcomp.ssreflect.choice <> pickleK thm
+R25248:25253 mathcomp.ssreflect.seq <> map_pK thm
+R25255:25261 mathcomp.ssreflect.choice <> pickleK thm
+def 25282:25295 <> seq_countMixin
+R25300:25309 mathcomp.ssreflect.choice <> CountMixin syndef
+R25311:25321 mathcomp.ssreflect.choice <> pickle_seqK thm
+R25363:25371 mathcomp.ssreflect.choice <> CountType syndef
+R25374:25376 mathcomp.ssreflect.seq <> seq syndef
+R25378:25378 mathcomp.ssreflect.choice <> CountableTheory.T var
+R25381:25394 mathcomp.ssreflect.choice <> seq_countMixin def
+R25402:25416 mathcomp.ssreflect.choice CountableTheory <> sec
+R25487:25489 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R25490:25507 mathcomp.ssreflect.choice <> mixin_of rec
+R25471:25484 mathcomp.ssreflect.choice <> sub_countMixin def
+not 25429:25429 <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']'
+R25598:25607 mathcomp.ssreflect.choice <> pickle_inv def
+R25598:25607 mathcomp.ssreflect.choice <> pickle_inv def
+R25626:25632 mathcomp.ssreflect.choice <> pickleK thm
+R25626:25632 mathcomp.ssreflect.choice <> pickleK thm
+R25651:25661 mathcomp.ssreflect.choice <> pickleK_inv thm
+R25651:25661 mathcomp.ssreflect.choice <> pickleK_inv thm
+R25680:25690 mathcomp.ssreflect.choice <> pickle_invK thm
+R25680:25690 mathcomp.ssreflect.choice <> pickle_invK thm
+sec 25717:25728 <> SubCountType
+var 25743:25743 SubCountType T
+var 25760:25760 SubCountType P
+R25747:25756 mathcomp.ssreflect.choice <> choiceType syndef
+R25764:25767 Coq.ssr.ssrbool <> pred def
+R25769:25769 mathcomp.ssreflect.choice <> T var
+constr 25827:25838 <> SubCountType
+rec 25802:25813 <> subCountType
+proj 25841:25853 <> subCount_sort
+R25858:25864 mathcomp.ssreflect.eqtype <> subType rec
+R25866:25866 mathcomp.ssreflect.choice <> SubCountType.P var
+R25873:25880 mathcomp.ssreflect.choice <> mixin_of rec
+R25882:25894 mathcomp.ssreflect.choice <> subCount_sort meth
+R25928:25939 mathcomp.ssreflect.choice <> subCountType rec
+R25959:25962 mathcomp.ssreflect.choice <> pack def
+R26018:26019 Coq.ssr.ssrfun <> id syndef
+R25990:25991 mathcomp.ssreflect.choice <> sT var
+R26000:26007 mathcomp.ssreflect.choice <> mixin_of rec
+R26009:26010 mathcomp.ssreflect.choice <> sT var
+R25970:25981 mathcomp.ssreflect.choice <> SubCountType constr
+def 26059:26075 <> pack_subCountType
+R26117:26120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26122:26124 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26121:26121 mathcomp.ssreflect.choice <> U var
+R26125:26125 mathcomp.ssreflect.choice <> U var
+R26107:26109 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R26096:26103 mathcomp.ssreflect.eqtype <> sub_sort proj
+R26105:26106 mathcomp.ssreflect.choice <> sT var
+R26110:26113 mathcomp.ssreflect.choice <> sort proj
+R26115:26116 mathcomp.ssreflect.choice <> cT var
+R26144:26151 Coq.ssr.ssrfun <> phant_id def
+R26166:26170 mathcomp.ssreflect.choice <> class def
+R26172:26173 mathcomp.ssreflect.choice <> cT var
+R26154:26158 mathcomp.ssreflect.choice <> Class constr
+R26162:26162 mathcomp.ssreflect.choice <> m var
+R26160:26160 mathcomp.ssreflect.choice <> b var
+R26180:26191 mathcomp.ssreflect.choice <> SubCountType constr
+R26196:26196 mathcomp.ssreflect.choice <> m var
+R26193:26194 mathcomp.ssreflect.choice <> sT var
+R26204:26215 mathcomp.ssreflect.choice SubCountType <> sec
+R26334:26350 mathcomp.ssreflect.choice <> pack_subCountType def
+R26369:26370 Coq.ssr.ssrfun <> id syndef
+R26362:26363 Coq.ssr.ssrfun <> id syndef
+not 26297:26297 <> ::form_scope:'['_'subCountType'_'of'_x_']'
+sec 26449:26460 <> TagCountType
+var 26475:26475 TagCountType I
+var 26491:26492 TagCountType T_
+R26479:26487 mathcomp.ssreflect.choice <> countType syndef
+R26497:26500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26501:26509 mathcomp.ssreflect.choice <> countType syndef
+R26496:26496 mathcomp.ssreflect.choice <> I var
+def 26525:26537 <> pickle_tagged
+R26544:26544 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26546:26548 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26550:26552 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26557:26557 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R26549:26549 mathcomp.ssreflect.choice <> TagCountType.I var
+R26553:26554 mathcomp.ssreflect.choice <> TagCountType.T_ var
+R26556:26556 mathcomp.ssreflect.choice <> i var
+R26565:26576 mathcomp.ssreflect.choice <> code def
+R26578:26581 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26596:26597 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26615:26615 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26582:26587 mathcomp.ssreflect.choice <> pickle def
+R26590:26592 Coq.ssr.ssrfun <> tag def
+R26594:26594 mathcomp.ssreflect.choice <> u var
+R26598:26603 mathcomp.ssreflect.choice <> pickle def
+R26606:26611 Coq.ssr.ssrfun <> tagged def
+R26613:26613 mathcomp.ssreflect.choice <> u var
+def 26629:26643 <> unpickle_tagged
+R26655:26668 mathcomp.ssreflect.choice <> decode def
+R26670:26670 mathcomp.ssreflect.choice <> s var
+R26675:26678 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26681:26682 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26685:26685 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_';'_x_';'_'..'_';'_x_']' not
+R26696:26700 Coq.ssr.ssrfun <> obind syndef
+R26750:26757 mathcomp.ssreflect.choice <> unpickle def
+R26712:26715 Coq.ssr.ssrfun <> omap syndef
+R26735:26742 mathcomp.ssreflect.choice <> unpickle def
+R26719:26724 Coq.ssr.ssrfun <> Tagged def
+R26730:26731 mathcomp.ssreflect.choice <> TagCountType.T_ var
+R26728:26728 mathcomp.ssreflect.choice <> i var
+R26726:26726 mathcomp.ssreflect.choice <> TagCountType.I var
+R26770:26773 Coq.Init.Datatypes <> None constr
+prf 26782:26795 <> pickle_taggedK
+R26799:26805 Coq.ssr.ssrfun <> pcancel def
+R26821:26835 mathcomp.ssreflect.choice <> unpickle_tagged def
+R26807:26819 mathcomp.ssreflect.choice <> pickle_tagged def
+R26869:26883 mathcomp.ssreflect.choice <> unpickle_tagged def
+R26885:26897 mathcomp.ssreflect.choice <> codeK thm
+R26902:26908 mathcomp.ssreflect.choice <> pickleK thm
+R26913:26919 mathcomp.ssreflect.choice <> pickleK thm
+R26869:26883 mathcomp.ssreflect.choice <> unpickle_tagged def
+R26869:26883 mathcomp.ssreflect.choice <> unpickle_tagged def
+R26885:26897 mathcomp.ssreflect.choice <> codeK thm
+R26885:26897 mathcomp.ssreflect.choice <> codeK thm
+R26902:26908 mathcomp.ssreflect.choice <> pickleK thm
+R26902:26908 mathcomp.ssreflect.choice <> pickleK thm
+R26913:26919 mathcomp.ssreflect.choice <> pickleK thm
+R26913:26919 mathcomp.ssreflect.choice <> pickleK thm
+def 26939:26952 <> tag_countMixin
+R26957:26966 mathcomp.ssreflect.choice <> CountMixin syndef
+R26968:26981 mathcomp.ssreflect.choice <> pickle_taggedK thm
+R27023:27031 mathcomp.ssreflect.choice <> CountType syndef
+R27033:27033 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R27035:27037 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R27039:27041 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R27046:27046 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'&'_x_'}' not
+R27038:27038 mathcomp.ssreflect.choice <> TagCountType.I var
+R27042:27043 mathcomp.ssreflect.choice <> TagCountType.T_ var
+R27045:27045 mathcomp.ssreflect.choice <> i var
+R27048:27061 mathcomp.ssreflect.choice <> tag_countMixin def
+R27069:27080 mathcomp.ssreflect.choice TagCountType <> sec
+sec 27147:27164 <> CountableDataTypes
+R27186:27194 mathcomp.ssreflect.choice <> countType syndef
+prf 27204:27214 <> nat_pickleK
+R27218:27224 Coq.ssr.ssrfun <> pcancel def
+R27231:27234 Coq.Init.Datatypes <> Some constr
+R27236:27238 Coq.Init.Datatypes <> nat ind
+R27226:27227 Coq.ssr.ssrfun <> id syndef
+def 27272:27285 <> nat_countMixin
+R27290:27299 mathcomp.ssreflect.choice <> CountMixin syndef
+R27301:27311 mathcomp.ssreflect.choice <> nat_pickleK thm
+R27353:27361 mathcomp.ssreflect.choice <> CountType syndef
+R27363:27365 Coq.Init.Datatypes <> nat ind
+R27367:27380 mathcomp.ssreflect.choice <> nat_countMixin def
+def 27395:27409 <> bool_countMixin
+R27414:27426 mathcomp.ssreflect.choice <> CanCountMixin def
+R27428:27431 mathcomp.ssreflect.ssrnat <> oddb thm
+R27474:27482 mathcomp.ssreflect.choice <> CountType syndef
+R27484:27487 Coq.Init.Datatypes <> bool ind
+R27489:27503 mathcomp.ssreflect.choice <> bool_countMixin def
+R27549:27562 mathcomp.ssreflect.choice Countable.Exports ::form_scope:'['_'countType'_'of'_x_']' not
+R27569:27569 mathcomp.ssreflect.choice Countable.Exports ::form_scope:'['_'countType'_'of'_x_']' not
+R27563:27568 mathcomp.ssreflect.seq <> bitseq def
+def 27584:27598 <> unit_countMixin
+R27603:27615 mathcomp.ssreflect.choice <> CanCountMixin def
+R27617:27629 mathcomp.ssreflect.choice <> bool_of_unitK thm
+R27672:27680 mathcomp.ssreflect.choice <> CountType syndef
+R27682:27685 Coq.Init.Datatypes <> unit ind
+R27687:27701 mathcomp.ssreflect.choice <> unit_countMixin def
+def 27716:27732 <> option_countMixin
+R27739:27751 mathcomp.ssreflect.choice <> CanCountMixin def
+R27755:27765 mathcomp.ssreflect.choice <> seq_of_optK thm
+R27767:27767 mathcomp.ssreflect.choice <> T var
+R27817:27825 mathcomp.ssreflect.choice <> CountType syndef
+R27828:27833 Coq.Init.Datatypes <> option ind
+R27835:27835 mathcomp.ssreflect.choice <> T var
+R27839:27855 mathcomp.ssreflect.choice <> option_countMixin def
+R27857:27857 mathcomp.ssreflect.choice <> T var
+def 27873:27886 <> sig_countMixin
+R27895:27898 Coq.ssr.ssrbool <> pred def
+R27900:27900 mathcomp.ssreflect.choice <> T var
+R27906:27920 mathcomp.ssreflect.choice <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']' not
+R27930:27936 mathcomp.ssreflect.choice <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']' not
+R27921:27921 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R27923:27925 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R27929:27929 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R27926:27926 mathcomp.ssreflect.choice <> P var
+R27928:27928 mathcomp.ssreflect.choice <> x var
+R27970:27973 Coq.ssr.ssrbool <> pred def
+R27975:27975 mathcomp.ssreflect.choice <> T var
+R27995:28003 mathcomp.ssreflect.choice <> CountType syndef
+R28005:28005 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R28007:28009 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R28013:28013 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R28010:28010 mathcomp.ssreflect.choice <> P var
+R28012:28012 mathcomp.ssreflect.choice <> x var
+R28016:28029 mathcomp.ssreflect.choice <> sig_countMixin def
+R28031:28031 mathcomp.ssreflect.choice <> P var
+R28069:28072 Coq.ssr.ssrbool <> pred def
+R28074:28074 mathcomp.ssreflect.choice <> T var
+R28094:28110 mathcomp.ssreflect.choice <> ::form_scope:'['_'subCountType'_'of'_x_']' not
+R28120:28120 mathcomp.ssreflect.choice <> ::form_scope:'['_'subCountType'_'of'_x_']' not
+R28111:28111 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R28113:28115 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R28119:28119 Coq.Init.Specif <> ::type_scope:'{'_x_'|'_x_'}' not
+R28116:28116 mathcomp.ssreflect.choice <> P var
+R28118:28118 mathcomp.ssreflect.choice <> x var
+def 28135:28149 <> prod_countMixin
+R28160:28172 mathcomp.ssreflect.choice <> CanCountMixin def
+R28176:28187 mathcomp.ssreflect.choice <> tag_of_pairK thm
+R28192:28193 mathcomp.ssreflect.choice <> T2 var
+R28189:28190 mathcomp.ssreflect.choice <> T1 var
+R28245:28253 mathcomp.ssreflect.choice <> CountType syndef
+R28258:28260 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R28256:28257 mathcomp.ssreflect.choice <> T1 var
+R28261:28262 mathcomp.ssreflect.choice <> T2 var
+R28266:28280 mathcomp.ssreflect.choice <> prod_countMixin def
+R28285:28286 mathcomp.ssreflect.choice <> T2 var
+R28282:28283 mathcomp.ssreflect.choice <> T1 var
+def 28302:28315 <> sum_countMixin
+R28326:28339 mathcomp.ssreflect.choice <> PcanCountMixin def
+R28343:28355 mathcomp.ssreflect.choice <> opair_of_sumK thm
+R28360:28361 mathcomp.ssreflect.choice <> T2 var
+R28357:28358 mathcomp.ssreflect.choice <> T1 var
+R28412:28420 mathcomp.ssreflect.choice <> CountType syndef
+R28425:28427 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R28423:28424 mathcomp.ssreflect.choice <> T1 var
+R28428:28429 mathcomp.ssreflect.choice <> T2 var
+R28433:28446 mathcomp.ssreflect.choice <> sum_countMixin def
+R28451:28452 mathcomp.ssreflect.choice <> T2 var
+R28448:28449 mathcomp.ssreflect.choice <> T1 var
+def 28468:28482 <> tree_countMixin
+R28489:28502 mathcomp.ssreflect.choice <> PcanCountMixin def
+R28505:28517 mathcomp.ssreflect.choice <> codeK thm
+R28519:28519 mathcomp.ssreflect.choice <> T var
+R28553:28561 mathcomp.ssreflect.choice <> CountType syndef
+R28564:28575 mathcomp.ssreflect.choice <> tree ind
+R28577:28577 mathcomp.ssreflect.choice <> T var
+R28581:28595 mathcomp.ssreflect.choice <> tree_countMixin def
+R28597:28597 mathcomp.ssreflect.choice <> T var
+R28606:28623 mathcomp.ssreflect.choice CountableDataTypes <> sec

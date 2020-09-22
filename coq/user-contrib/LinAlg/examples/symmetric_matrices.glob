@@ -1,0 +1,109 @@
+DIGEST 9d29f3d1a3af5305c7607342432245b5
+FLinAlg.examples.symmetric_matrices
+R1144:1155 LinAlg.examples.vecspace_Mmn <> <> lib
+R1173:1181 LinAlg.LinAlg.subspaces <> <> lib
+sec 1443:1446 <> defs
+def 1460:1471 <> is_symmetric
+R1478:1482 Algebra.Field_cat <> field rec
+R1490:1492 LinAlg.support.finite <> Nat def
+R1500:1505 LinAlg.examples.Matrices <> matrix def
+R1511:1511 LinAlg.examples.symmetric_matrices <> n var
+R1509:1509 LinAlg.examples.symmetric_matrices <> n var
+R1507:1507 LinAlg.examples.symmetric_matrices <> F var
+R1532:1534 LinAlg.support.finite <> fin def
+R1536:1536 LinAlg.examples.symmetric_matrices <> n var
+R1544:1547 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1553:1556 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1539:1539 LinAlg.examples.symmetric_matrices <> M var
+R1543:1543 LinAlg.examples.symmetric_matrices <> j var
+R1541:1541 LinAlg.examples.symmetric_matrices <> i var
+R1548:1548 LinAlg.examples.symmetric_matrices <> M var
+R1552:1552 LinAlg.examples.symmetric_matrices <> i var
+R1550:1550 LinAlg.examples.symmetric_matrices <> j var
+def 1571:1583 <> is_symmetric'
+R1590:1594 Algebra.Field_cat <> field rec
+R1602:1604 LinAlg.support.finite <> Nat def
+R1612:1617 LinAlg.examples.Matrices <> matrix def
+R1623:1623 LinAlg.examples.symmetric_matrices <> n var
+R1621:1621 LinAlg.examples.symmetric_matrices <> n var
+R1619:1619 LinAlg.examples.symmetric_matrices <> F var
+R1632:1635 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1647:1650 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1631:1631 LinAlg.examples.symmetric_matrices <> M var
+R1636:1644 LinAlg.examples.Matrices <> transpose def
+R1646:1646 LinAlg.examples.symmetric_matrices <> M var
+def 1666:1682 <> is_symmetric_pred
+R1700:1704 Algebra.Field_cat <> field rec
+R1712:1714 LinAlg.support.finite <> Nat def
+R1718:1726 Algebra.Parts <> Predicate rec
+R1729:1731 LinAlg.examples.vecspace_Mmn <> Mmn def
+R1737:1737 LinAlg.examples.symmetric_matrices <> n var
+R1735:1735 LinAlg.examples.symmetric_matrices <> n var
+R1733:1733 LinAlg.examples.symmetric_matrices <> F var
+R1756:1770 Algebra.Parts <> Build_Predicate constr
+R1783:1794 LinAlg.examples.symmetric_matrices <> is_symmetric def
+R1756:1770 Algebra.Parts <> Build_Predicate constr
+R1783:1794 LinAlg.examples.symmetric_matrices <> is_symmetric def
+R1878:1882 Algebra.Sets <> Trans thm
+R1878:1882 Algebra.Sets <> Trans thm
+R1923:1927 Algebra.Sets <> Trans thm
+R1923:1927 Algebra.Sets <> Trans thm
+R1968:1970 Algebra.Sets <> Sym thm
+R1968:1970 Algebra.Sets <> Sym thm
+def 2013:2030 <> is_symmetric'_pred
+R2048:2052 Algebra.Field_cat <> field rec
+R2060:2062 LinAlg.support.finite <> Nat def
+R2066:2074 Algebra.Parts <> Predicate rec
+R2077:2079 LinAlg.examples.vecspace_Mmn <> Mmn def
+R2085:2085 LinAlg.examples.symmetric_matrices <> n var
+R2083:2083 LinAlg.examples.symmetric_matrices <> n var
+R2081:2081 LinAlg.examples.symmetric_matrices <> F var
+R2104:2118 Algebra.Parts <> Build_Predicate constr
+R2131:2143 LinAlg.examples.symmetric_matrices <> is_symmetric' def
+R2104:2118 Algebra.Parts <> Build_Predicate constr
+R2131:2143 LinAlg.examples.symmetric_matrices <> is_symmetric' def
+R2290:2294 Algebra.Sets <> Trans thm
+R2290:2294 Algebra.Sets <> Trans thm
+R2337:2341 Algebra.Sets <> Trans thm
+R2337:2341 Algebra.Sets <> Trans thm
+R2384:2388 Algebra.Sets <> Trans thm
+R2384:2388 Algebra.Sets <> Trans thm
+R2431:2433 Algebra.Sets <> Sym thm
+R2431:2433 Algebra.Sets <> Sym thm
+prf 2546:2558 <> symm_defs_eqv
+R2575:2579 Algebra.Field_cat <> field rec
+R2587:2589 LinAlg.support.finite <> Nat def
+R2615:2618 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2641:2644 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R2645:2652 Algebra.Parts <> part_set def
+R2655:2657 LinAlg.examples.vecspace_Mmn <> Mmn def
+R2663:2663 LinAlg.examples.symmetric_matrices <> n var
+R2661:2661 LinAlg.examples.symmetric_matrices <> n var
+R2659:2659 LinAlg.examples.symmetric_matrices <> F var
+R2594:2610 LinAlg.examples.symmetric_matrices <> is_symmetric_pred def
+R2614:2614 LinAlg.examples.symmetric_matrices <> n var
+R2612:2612 LinAlg.examples.symmetric_matrices <> F var
+R2619:2636 LinAlg.examples.symmetric_matrices <> is_symmetric'_pred def
+R2640:2640 LinAlg.examples.symmetric_matrices <> n var
+R2638:2638 LinAlg.examples.symmetric_matrices <> F var
+R2762:2770 LinAlg.examples.Matrices <> transpose def
+R2835:2839 Algebra.Sets <> Trans thm
+R2835:2839 Algebra.Sets <> Trans thm
+R2884:2892 LinAlg.examples.Matrices <> transpose def
+R2975:2978 LinAlg.examples.symmetric_matrices defs <> sec
+prf 2988:3005 <> symm_matr_subspace
+R3022:3024 LinAlg.support.finite <> Nat def
+R3032:3036 Algebra.Field_cat <> field rec
+R3040:3050 LinAlg.LinAlg.subspaces <> is_subspace def
+R3053:3069 LinAlg.examples.symmetric_matrices <> is_symmetric_pred def
+R3073:3073 LinAlg.examples.symmetric_matrices <> n var
+R3071:3071 LinAlg.examples.symmetric_matrices <> F var
+R3282:3292 Algebra.Sgroup_facts <> SGROUP_comp thm
+R3282:3292 Algebra.Sgroup_facts <> SGROUP_comp thm
+R3398:3406 Algebra.Ring_facts <> RING_comp thm
+R3398:3406 Algebra.Ring_facts <> RING_comp thm
+def 3476:3488 <> symm_subspace
+R3497:3514 LinAlg.LinAlg.subspaces <> alt_Build_subspace def
+R3517:3534 LinAlg.examples.symmetric_matrices <> symm_matr_subspace thm
+R3538:3538 LinAlg.examples.symmetric_matrices <> F var
+R3536:3536 LinAlg.examples.symmetric_matrices <> n var

@@ -1,0 +1,822 @@
+DIGEST fc7666f94e39f759d576cf877bcf8a20
+FCheerios.Types
+R15:18 Coq.Lists.List <> <> lib
+ind 54:63 <> fold_state
+constr 74:77 <> Done
+constr 89:92 <> More
+constr 104:108 <> Error
+R84:84 Cheerios.Types <> A var
+R86:86 Cheerios.Types <> fold_state ind
+R86:86 Cheerios.Types <> A var
+R86:86 Cheerios.Types <> S var
+R99:99 Cheerios.Types <> S var
+R101:101 Cheerios.Types <> fold_state ind
+R101:101 Cheerios.Types <> A var
+R101:101 Cheerios.Types <> S var
+R109:109 Cheerios.Types <> fold_state ind
+R109:109 Cheerios.Types <> A var
+R109:109 Cheerios.Types <> S var
+R121:124 Cheerios.Types <> Done constr
+R121:124 Cheerios.Types <> Done constr
+R147:150 Cheerios.Types <> More constr
+R147:150 Cheerios.Types <> More constr
+R173:177 Cheerios.Types <> Error constr
+R173:177 Cheerios.Types <> Error constr
+ind 199:202 <> byte
+constr 209:211 <> x00
+constr 215:217 <> x01
+constr 221:223 <> x02
+constr 227:229 <> x03
+constr 233:235 <> x04
+constr 239:241 <> x05
+constr 245:247 <> x06
+constr 251:253 <> x07
+constr 257:259 <> x08
+constr 263:265 <> x09
+constr 269:271 <> x0a
+constr 275:277 <> x0b
+constr 281:283 <> x0c
+constr 287:289 <> x0d
+constr 293:295 <> x0e
+constr 299:301 <> x0f
+constr 305:307 <> x10
+constr 311:313 <> x11
+constr 317:319 <> x12
+constr 323:325 <> x13
+constr 329:331 <> x14
+constr 335:337 <> x15
+constr 341:343 <> x16
+constr 347:349 <> x17
+constr 353:355 <> x18
+constr 359:361 <> x19
+constr 365:367 <> x1a
+constr 371:373 <> x1b
+constr 377:379 <> x1c
+constr 383:385 <> x1d
+constr 389:391 <> x1e
+constr 395:397 <> x1f
+constr 401:403 <> x20
+constr 407:409 <> x21
+constr 413:415 <> x22
+constr 419:421 <> x23
+constr 425:427 <> x24
+constr 431:433 <> x25
+constr 437:439 <> x26
+constr 443:445 <> x27
+constr 449:451 <> x28
+constr 455:457 <> x29
+constr 461:463 <> x2a
+constr 467:469 <> x2b
+constr 473:475 <> x2c
+constr 479:481 <> x2d
+constr 485:487 <> x2e
+constr 491:493 <> x2f
+constr 497:499 <> x30
+constr 503:505 <> x31
+constr 509:511 <> x32
+constr 515:517 <> x33
+constr 521:523 <> x34
+constr 527:529 <> x35
+constr 533:535 <> x36
+constr 539:541 <> x37
+constr 545:547 <> x38
+constr 551:553 <> x39
+constr 557:559 <> x3a
+constr 563:565 <> x3b
+constr 569:571 <> x3c
+constr 575:577 <> x3d
+constr 581:583 <> x3e
+constr 587:589 <> x3f
+constr 593:595 <> x40
+constr 599:601 <> x41
+constr 605:607 <> x42
+constr 611:613 <> x43
+constr 617:619 <> x44
+constr 623:625 <> x45
+constr 629:631 <> x46
+constr 635:637 <> x47
+constr 641:643 <> x48
+constr 647:649 <> x49
+constr 653:655 <> x4a
+constr 659:661 <> x4b
+constr 665:667 <> x4c
+constr 671:673 <> x4d
+constr 677:679 <> x4e
+constr 683:685 <> x4f
+constr 689:691 <> x50
+constr 695:697 <> x51
+constr 701:703 <> x52
+constr 707:709 <> x53
+constr 713:715 <> x54
+constr 719:721 <> x55
+constr 725:727 <> x56
+constr 731:733 <> x57
+constr 737:739 <> x58
+constr 743:745 <> x59
+constr 749:751 <> x5a
+constr 755:757 <> x5b
+constr 761:763 <> x5c
+constr 767:769 <> x5d
+constr 773:775 <> x5e
+constr 779:781 <> x5f
+constr 785:787 <> x60
+constr 791:793 <> x61
+constr 797:799 <> x62
+constr 803:805 <> x63
+constr 809:811 <> x64
+constr 815:817 <> x65
+constr 821:823 <> x66
+constr 827:829 <> x67
+constr 833:835 <> x68
+constr 839:841 <> x69
+constr 845:847 <> x6a
+constr 851:853 <> x6b
+constr 857:859 <> x6c
+constr 863:865 <> x6d
+constr 869:871 <> x6e
+constr 875:877 <> x6f
+constr 881:883 <> x70
+constr 887:889 <> x71
+constr 893:895 <> x72
+constr 899:901 <> x73
+constr 905:907 <> x74
+constr 911:913 <> x75
+constr 917:919 <> x76
+constr 923:925 <> x77
+constr 929:931 <> x78
+constr 935:937 <> x79
+constr 941:943 <> x7a
+constr 947:949 <> x7b
+constr 953:955 <> x7c
+constr 959:961 <> x7d
+constr 965:967 <> x7e
+constr 971:973 <> x7f
+constr 977:979 <> x80
+constr 983:985 <> x81
+constr 989:991 <> x82
+constr 995:997 <> x83
+constr 1001:1003 <> x84
+constr 1007:1009 <> x85
+constr 1013:1015 <> x86
+constr 1019:1021 <> x87
+constr 1025:1027 <> x88
+constr 1031:1033 <> x89
+constr 1037:1039 <> x8a
+constr 1043:1045 <> x8b
+constr 1049:1051 <> x8c
+constr 1055:1057 <> x8d
+constr 1061:1063 <> x8e
+constr 1067:1069 <> x8f
+constr 1073:1075 <> x90
+constr 1079:1081 <> x91
+constr 1085:1087 <> x92
+constr 1091:1093 <> x93
+constr 1097:1099 <> x94
+constr 1103:1105 <> x95
+constr 1109:1111 <> x96
+constr 1115:1117 <> x97
+constr 1121:1123 <> x98
+constr 1127:1129 <> x99
+constr 1133:1135 <> x9a
+constr 1139:1141 <> x9b
+constr 1145:1147 <> x9c
+constr 1151:1153 <> x9d
+constr 1157:1159 <> x9e
+constr 1163:1165 <> x9f
+constr 1169:1171 <> xa0
+constr 1175:1177 <> xa1
+constr 1181:1183 <> xa2
+constr 1187:1189 <> xa3
+constr 1193:1195 <> xa4
+constr 1199:1201 <> xa5
+constr 1205:1207 <> xa6
+constr 1211:1213 <> xa7
+constr 1217:1219 <> xa8
+constr 1223:1225 <> xa9
+constr 1229:1231 <> xaa
+constr 1235:1237 <> xab
+constr 1241:1243 <> xac
+constr 1247:1249 <> xad
+constr 1253:1255 <> xae
+constr 1259:1261 <> xaf
+constr 1265:1267 <> xb0
+constr 1271:1273 <> xb1
+constr 1277:1279 <> xb2
+constr 1283:1285 <> xb3
+constr 1289:1291 <> xb4
+constr 1295:1297 <> xb5
+constr 1301:1303 <> xb6
+constr 1307:1309 <> xb7
+constr 1313:1315 <> xb8
+constr 1319:1321 <> xb9
+constr 1325:1327 <> xba
+constr 1331:1333 <> xbb
+constr 1337:1339 <> xbc
+constr 1343:1345 <> xbd
+constr 1349:1351 <> xbe
+constr 1355:1357 <> xbf
+constr 1361:1363 <> xc0
+constr 1367:1369 <> xc1
+constr 1373:1375 <> xc2
+constr 1379:1381 <> xc3
+constr 1385:1387 <> xc4
+constr 1391:1393 <> xc5
+constr 1397:1399 <> xc6
+constr 1403:1405 <> xc7
+constr 1409:1411 <> xc8
+constr 1415:1417 <> xc9
+constr 1421:1423 <> xca
+constr 1427:1429 <> xcb
+constr 1433:1435 <> xcc
+constr 1439:1441 <> xcd
+constr 1445:1447 <> xce
+constr 1451:1453 <> xcf
+constr 1457:1459 <> xd0
+constr 1463:1465 <> xd1
+constr 1469:1471 <> xd2
+constr 1475:1477 <> xd3
+constr 1481:1483 <> xd4
+constr 1487:1489 <> xd5
+constr 1493:1495 <> xd6
+constr 1499:1501 <> xd7
+constr 1505:1507 <> xd8
+constr 1511:1513 <> xd9
+constr 1517:1519 <> xda
+constr 1523:1525 <> xdb
+constr 1529:1531 <> xdc
+constr 1535:1537 <> xdd
+constr 1541:1543 <> xde
+constr 1547:1549 <> xdf
+constr 1553:1555 <> xe0
+constr 1559:1561 <> xe1
+constr 1565:1567 <> xe2
+constr 1571:1573 <> xe3
+constr 1577:1579 <> xe4
+constr 1583:1585 <> xe5
+constr 1589:1591 <> xe6
+constr 1595:1597 <> xe7
+constr 1601:1603 <> xe8
+constr 1607:1609 <> xe9
+constr 1613:1615 <> xea
+constr 1619:1621 <> xeb
+constr 1625:1627 <> xec
+constr 1631:1633 <> xed
+constr 1637:1639 <> xee
+constr 1643:1645 <> xef
+constr 1649:1651 <> xf0
+constr 1655:1657 <> xf1
+constr 1661:1663 <> xf2
+constr 1667:1669 <> xf3
+constr 1673:1675 <> xf4
+constr 1679:1681 <> xf5
+constr 1685:1687 <> xf6
+constr 1691:1693 <> xf7
+constr 1697:1699 <> xf8
+constr 1703:1705 <> xf9
+constr 1709:1711 <> xfa
+constr 1715:1717 <> xfb
+constr 1721:1723 <> xfc
+constr 1727:1729 <> xfd
+constr 1733:1735 <> xfe
+constr 1739:1741 <> xff
+R212:212 Cheerios.Types <> byte ind
+R218:218 Cheerios.Types <> byte ind
+R224:224 Cheerios.Types <> byte ind
+R230:230 Cheerios.Types <> byte ind
+R236:236 Cheerios.Types <> byte ind
+R242:242 Cheerios.Types <> byte ind
+R248:248 Cheerios.Types <> byte ind
+R254:254 Cheerios.Types <> byte ind
+R260:260 Cheerios.Types <> byte ind
+R266:266 Cheerios.Types <> byte ind
+R272:272 Cheerios.Types <> byte ind
+R278:278 Cheerios.Types <> byte ind
+R284:284 Cheerios.Types <> byte ind
+R290:290 Cheerios.Types <> byte ind
+R296:296 Cheerios.Types <> byte ind
+R302:302 Cheerios.Types <> byte ind
+R308:308 Cheerios.Types <> byte ind
+R314:314 Cheerios.Types <> byte ind
+R320:320 Cheerios.Types <> byte ind
+R326:326 Cheerios.Types <> byte ind
+R332:332 Cheerios.Types <> byte ind
+R338:338 Cheerios.Types <> byte ind
+R344:344 Cheerios.Types <> byte ind
+R350:350 Cheerios.Types <> byte ind
+R356:356 Cheerios.Types <> byte ind
+R362:362 Cheerios.Types <> byte ind
+R368:368 Cheerios.Types <> byte ind
+R374:374 Cheerios.Types <> byte ind
+R380:380 Cheerios.Types <> byte ind
+R386:386 Cheerios.Types <> byte ind
+R392:392 Cheerios.Types <> byte ind
+R398:398 Cheerios.Types <> byte ind
+R404:404 Cheerios.Types <> byte ind
+R410:410 Cheerios.Types <> byte ind
+R416:416 Cheerios.Types <> byte ind
+R422:422 Cheerios.Types <> byte ind
+R428:428 Cheerios.Types <> byte ind
+R434:434 Cheerios.Types <> byte ind
+R440:440 Cheerios.Types <> byte ind
+R446:446 Cheerios.Types <> byte ind
+R452:452 Cheerios.Types <> byte ind
+R458:458 Cheerios.Types <> byte ind
+R464:464 Cheerios.Types <> byte ind
+R470:470 Cheerios.Types <> byte ind
+R476:476 Cheerios.Types <> byte ind
+R482:482 Cheerios.Types <> byte ind
+R488:488 Cheerios.Types <> byte ind
+R494:494 Cheerios.Types <> byte ind
+R500:500 Cheerios.Types <> byte ind
+R506:506 Cheerios.Types <> byte ind
+R512:512 Cheerios.Types <> byte ind
+R518:518 Cheerios.Types <> byte ind
+R524:524 Cheerios.Types <> byte ind
+R530:530 Cheerios.Types <> byte ind
+R536:536 Cheerios.Types <> byte ind
+R542:542 Cheerios.Types <> byte ind
+R548:548 Cheerios.Types <> byte ind
+R554:554 Cheerios.Types <> byte ind
+R560:560 Cheerios.Types <> byte ind
+R566:566 Cheerios.Types <> byte ind
+R572:572 Cheerios.Types <> byte ind
+R578:578 Cheerios.Types <> byte ind
+R584:584 Cheerios.Types <> byte ind
+R590:590 Cheerios.Types <> byte ind
+R596:596 Cheerios.Types <> byte ind
+R602:602 Cheerios.Types <> byte ind
+R608:608 Cheerios.Types <> byte ind
+R614:614 Cheerios.Types <> byte ind
+R620:620 Cheerios.Types <> byte ind
+R626:626 Cheerios.Types <> byte ind
+R632:632 Cheerios.Types <> byte ind
+R638:638 Cheerios.Types <> byte ind
+R644:644 Cheerios.Types <> byte ind
+R650:650 Cheerios.Types <> byte ind
+R656:656 Cheerios.Types <> byte ind
+R662:662 Cheerios.Types <> byte ind
+R668:668 Cheerios.Types <> byte ind
+R674:674 Cheerios.Types <> byte ind
+R680:680 Cheerios.Types <> byte ind
+R686:686 Cheerios.Types <> byte ind
+R692:692 Cheerios.Types <> byte ind
+R698:698 Cheerios.Types <> byte ind
+R704:704 Cheerios.Types <> byte ind
+R710:710 Cheerios.Types <> byte ind
+R716:716 Cheerios.Types <> byte ind
+R722:722 Cheerios.Types <> byte ind
+R728:728 Cheerios.Types <> byte ind
+R734:734 Cheerios.Types <> byte ind
+R740:740 Cheerios.Types <> byte ind
+R746:746 Cheerios.Types <> byte ind
+R752:752 Cheerios.Types <> byte ind
+R758:758 Cheerios.Types <> byte ind
+R764:764 Cheerios.Types <> byte ind
+R770:770 Cheerios.Types <> byte ind
+R776:776 Cheerios.Types <> byte ind
+R782:782 Cheerios.Types <> byte ind
+R788:788 Cheerios.Types <> byte ind
+R794:794 Cheerios.Types <> byte ind
+R800:800 Cheerios.Types <> byte ind
+R806:806 Cheerios.Types <> byte ind
+R812:812 Cheerios.Types <> byte ind
+R818:818 Cheerios.Types <> byte ind
+R824:824 Cheerios.Types <> byte ind
+R830:830 Cheerios.Types <> byte ind
+R836:836 Cheerios.Types <> byte ind
+R842:842 Cheerios.Types <> byte ind
+R848:848 Cheerios.Types <> byte ind
+R854:854 Cheerios.Types <> byte ind
+R860:860 Cheerios.Types <> byte ind
+R866:866 Cheerios.Types <> byte ind
+R872:872 Cheerios.Types <> byte ind
+R878:878 Cheerios.Types <> byte ind
+R884:884 Cheerios.Types <> byte ind
+R890:890 Cheerios.Types <> byte ind
+R896:896 Cheerios.Types <> byte ind
+R902:902 Cheerios.Types <> byte ind
+R908:908 Cheerios.Types <> byte ind
+R914:914 Cheerios.Types <> byte ind
+R920:920 Cheerios.Types <> byte ind
+R926:926 Cheerios.Types <> byte ind
+R932:932 Cheerios.Types <> byte ind
+R938:938 Cheerios.Types <> byte ind
+R944:944 Cheerios.Types <> byte ind
+R950:950 Cheerios.Types <> byte ind
+R956:956 Cheerios.Types <> byte ind
+R962:962 Cheerios.Types <> byte ind
+R968:968 Cheerios.Types <> byte ind
+R974:974 Cheerios.Types <> byte ind
+R980:980 Cheerios.Types <> byte ind
+R986:986 Cheerios.Types <> byte ind
+R992:992 Cheerios.Types <> byte ind
+R998:998 Cheerios.Types <> byte ind
+R1004:1004 Cheerios.Types <> byte ind
+R1010:1010 Cheerios.Types <> byte ind
+R1016:1016 Cheerios.Types <> byte ind
+R1022:1022 Cheerios.Types <> byte ind
+R1028:1028 Cheerios.Types <> byte ind
+R1034:1034 Cheerios.Types <> byte ind
+R1040:1040 Cheerios.Types <> byte ind
+R1046:1046 Cheerios.Types <> byte ind
+R1052:1052 Cheerios.Types <> byte ind
+R1058:1058 Cheerios.Types <> byte ind
+R1064:1064 Cheerios.Types <> byte ind
+R1070:1070 Cheerios.Types <> byte ind
+R1076:1076 Cheerios.Types <> byte ind
+R1082:1082 Cheerios.Types <> byte ind
+R1088:1088 Cheerios.Types <> byte ind
+R1094:1094 Cheerios.Types <> byte ind
+R1100:1100 Cheerios.Types <> byte ind
+R1106:1106 Cheerios.Types <> byte ind
+R1112:1112 Cheerios.Types <> byte ind
+R1118:1118 Cheerios.Types <> byte ind
+R1124:1124 Cheerios.Types <> byte ind
+R1130:1130 Cheerios.Types <> byte ind
+R1136:1136 Cheerios.Types <> byte ind
+R1142:1142 Cheerios.Types <> byte ind
+R1148:1148 Cheerios.Types <> byte ind
+R1154:1154 Cheerios.Types <> byte ind
+R1160:1160 Cheerios.Types <> byte ind
+R1166:1166 Cheerios.Types <> byte ind
+R1172:1172 Cheerios.Types <> byte ind
+R1178:1178 Cheerios.Types <> byte ind
+R1184:1184 Cheerios.Types <> byte ind
+R1190:1190 Cheerios.Types <> byte ind
+R1196:1196 Cheerios.Types <> byte ind
+R1202:1202 Cheerios.Types <> byte ind
+R1208:1208 Cheerios.Types <> byte ind
+R1214:1214 Cheerios.Types <> byte ind
+R1220:1220 Cheerios.Types <> byte ind
+R1226:1226 Cheerios.Types <> byte ind
+R1232:1232 Cheerios.Types <> byte ind
+R1238:1238 Cheerios.Types <> byte ind
+R1244:1244 Cheerios.Types <> byte ind
+R1250:1250 Cheerios.Types <> byte ind
+R1256:1256 Cheerios.Types <> byte ind
+R1262:1262 Cheerios.Types <> byte ind
+R1268:1268 Cheerios.Types <> byte ind
+R1274:1274 Cheerios.Types <> byte ind
+R1280:1280 Cheerios.Types <> byte ind
+R1286:1286 Cheerios.Types <> byte ind
+R1292:1292 Cheerios.Types <> byte ind
+R1298:1298 Cheerios.Types <> byte ind
+R1304:1304 Cheerios.Types <> byte ind
+R1310:1310 Cheerios.Types <> byte ind
+R1316:1316 Cheerios.Types <> byte ind
+R1322:1322 Cheerios.Types <> byte ind
+R1328:1328 Cheerios.Types <> byte ind
+R1334:1334 Cheerios.Types <> byte ind
+R1340:1340 Cheerios.Types <> byte ind
+R1346:1346 Cheerios.Types <> byte ind
+R1352:1352 Cheerios.Types <> byte ind
+R1358:1358 Cheerios.Types <> byte ind
+R1364:1364 Cheerios.Types <> byte ind
+R1370:1370 Cheerios.Types <> byte ind
+R1376:1376 Cheerios.Types <> byte ind
+R1382:1382 Cheerios.Types <> byte ind
+R1388:1388 Cheerios.Types <> byte ind
+R1394:1394 Cheerios.Types <> byte ind
+R1400:1400 Cheerios.Types <> byte ind
+R1406:1406 Cheerios.Types <> byte ind
+R1412:1412 Cheerios.Types <> byte ind
+R1418:1418 Cheerios.Types <> byte ind
+R1424:1424 Cheerios.Types <> byte ind
+R1430:1430 Cheerios.Types <> byte ind
+R1436:1436 Cheerios.Types <> byte ind
+R1442:1442 Cheerios.Types <> byte ind
+R1448:1448 Cheerios.Types <> byte ind
+R1454:1454 Cheerios.Types <> byte ind
+R1460:1460 Cheerios.Types <> byte ind
+R1466:1466 Cheerios.Types <> byte ind
+R1472:1472 Cheerios.Types <> byte ind
+R1478:1478 Cheerios.Types <> byte ind
+R1484:1484 Cheerios.Types <> byte ind
+R1490:1490 Cheerios.Types <> byte ind
+R1496:1496 Cheerios.Types <> byte ind
+R1502:1502 Cheerios.Types <> byte ind
+R1508:1508 Cheerios.Types <> byte ind
+R1514:1514 Cheerios.Types <> byte ind
+R1520:1520 Cheerios.Types <> byte ind
+R1526:1526 Cheerios.Types <> byte ind
+R1532:1532 Cheerios.Types <> byte ind
+R1538:1538 Cheerios.Types <> byte ind
+R1544:1544 Cheerios.Types <> byte ind
+R1550:1550 Cheerios.Types <> byte ind
+R1556:1556 Cheerios.Types <> byte ind
+R1562:1562 Cheerios.Types <> byte ind
+R1568:1568 Cheerios.Types <> byte ind
+R1574:1574 Cheerios.Types <> byte ind
+R1580:1580 Cheerios.Types <> byte ind
+R1586:1586 Cheerios.Types <> byte ind
+R1592:1592 Cheerios.Types <> byte ind
+R1598:1598 Cheerios.Types <> byte ind
+R1604:1604 Cheerios.Types <> byte ind
+R1610:1610 Cheerios.Types <> byte ind
+R1616:1616 Cheerios.Types <> byte ind
+R1622:1622 Cheerios.Types <> byte ind
+R1628:1628 Cheerios.Types <> byte ind
+R1634:1634 Cheerios.Types <> byte ind
+R1640:1640 Cheerios.Types <> byte ind
+R1646:1646 Cheerios.Types <> byte ind
+R1652:1652 Cheerios.Types <> byte ind
+R1658:1658 Cheerios.Types <> byte ind
+R1664:1664 Cheerios.Types <> byte ind
+R1670:1670 Cheerios.Types <> byte ind
+R1676:1676 Cheerios.Types <> byte ind
+R1682:1682 Cheerios.Types <> byte ind
+R1688:1688 Cheerios.Types <> byte ind
+R1694:1694 Cheerios.Types <> byte ind
+R1700:1700 Cheerios.Types <> byte ind
+R1706:1706 Cheerios.Types <> byte ind
+R1712:1712 Cheerios.Types <> byte ind
+R1718:1718 Cheerios.Types <> byte ind
+R1724:1724 Cheerios.Types <> byte ind
+R1730:1730 Cheerios.Types <> byte ind
+R1736:1736 Cheerios.Types <> byte ind
+R1742:1742 Cheerios.Types <> byte ind
+modtype 1757:1762 <> WRITER
+ax 1777:1777 WRITER t
+ax 1799:1802 WRITER wire
+ax 1824:1834 WRITER wire_eq_dec
+R1852:1855 Cheerios.Types WRITER wire defax
+R1858:1858 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1865:1867 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1875:1875 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1860:1862 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1859:1859 Cheerios.Types <> w var
+R1863:1864 Cheerios.Types <> w' var
+R1869:1872 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1868:1868 Cheerios.Types <> w var
+R1873:1874 Cheerios.Types <> w' var
+ax 1890:1900 WRITER out_channel
+ax 1922:1931 WRITER in_channel
+ax 1954:1958 WRITER empty
+R1962:1962 Cheerios.Types WRITER t defax
+ax 1977:1982 WRITER append
+R1986:1986 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1996:2000 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2001:2001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2011:2015 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2016:2016 Cheerios.Types WRITER t defax
+R2006:2009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2010:2010 Cheerios.Types WRITER t defax
+R2002:2005 Coq.Init.Datatypes <> unit ind
+R1991:1994 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1995:1995 Cheerios.Types WRITER t defax
+R1987:1990 Coq.Init.Datatypes <> unit ind
+ax 2031:2037 WRITER putByte
+R2045:2048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2049:2049 Cheerios.Types WRITER t defax
+R2041:2044 Cheerios.Types <> byte ind
+ax 2119:2124 WRITER unwrap
+R2129:2132 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2133:2136 Coq.Init.Datatypes <> list ind
+R2138:2141 Cheerios.Types <> byte ind
+R2128:2128 Cheerios.Types WRITER t defax
+ax 2156:2164 WRITER wire_wrap
+R2169:2172 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2173:2176 Cheerios.Types WRITER wire defax
+R2168:2168 Cheerios.Types WRITER t defax
+ax 2191:2201 WRITER wire_unwrap
+R2209:2212 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2213:2216 Coq.Init.Datatypes <> list ind
+R2218:2221 Cheerios.Types <> byte ind
+R2205:2208 Cheerios.Types WRITER wire defax
+ax 2237:2252 WRITER out_channel_wrap
+R2257:2260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2261:2271 Cheerios.Types WRITER out_channel defax
+R2256:2256 Cheerios.Types WRITER t defax
+ax 2286:2297 WRITER channel_send
+R2312:2315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2316:2325 Cheerios.Types WRITER in_channel defax
+R2301:2311 Cheerios.Types WRITER out_channel defax
+ax 2340:2356 WRITER in_channel_unwrap
+R2370:2373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2374:2377 Coq.Init.Datatypes <> list ind
+R2379:2382 Cheerios.Types <> byte ind
+R2360:2369 Cheerios.Types WRITER in_channel defax
+ax 2397:2415 WRITER channel_wrap_unwrap
+R2488:2490 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2435:2451 Cheerios.Types WRITER in_channel_unwrap defax
+R2454:2465 Cheerios.Types WRITER channel_send defax
+R2468:2483 Cheerios.Types WRITER out_channel_wrap defax
+R2485:2485 Cheerios.Types <> x var
+R2491:2496 Cheerios.Types WRITER unwrap defax
+R2498:2498 Cheerios.Types <> x var
+ax 2514:2525 WRITER empty_unwrap
+R2541:2543 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2529:2534 Cheerios.Types WRITER unwrap defax
+R2536:2540 Cheerios.Types WRITER empty defax
+R2544:2545 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+ax 2560:2572 WRITER append_unwrap
+R2597:2600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2601:2601 Cheerios.Types WRITER t defax
+R2593:2596 Coq.Init.Datatypes <> unit ind
+R2629:2631 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2610:2615 Cheerios.Types WRITER unwrap defax
+R2618:2623 Cheerios.Types WRITER append defax
+R2627:2627 Cheerios.Types <> y var
+R2625:2625 Cheerios.Types <> x var
+R2645:2648 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R2632:2637 Cheerios.Types WRITER unwrap defax
+R2640:2640 Cheerios.Types <> x var
+R2642:2643 Coq.Init.Datatypes <> tt constr
+R2649:2654 Cheerios.Types WRITER unwrap defax
+R2657:2657 Cheerios.Types <> y var
+R2659:2660 Coq.Init.Datatypes <> tt constr
+ax 2676:2689 WRITER putByte_unwrap
+R2705:2708 Cheerios.Types <> byte ind
+R2730:2732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2712:2717 Cheerios.Types WRITER unwrap defax
+R2720:2726 Cheerios.Types WRITER putByte defax
+R2728:2728 Cheerios.Types <> a var
+R2733:2733 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2735:2735 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R2734:2734 Cheerios.Types <> a var
+ax 2750:2765 WRITER wire_wrap_unwrap
+R2804:2806 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2779:2789 Cheerios.Types WRITER wire_unwrap defax
+R2792:2800 Cheerios.Types WRITER wire_wrap defax
+R2802:2802 Cheerios.Types <> x var
+R2807:2812 Cheerios.Types WRITER unwrap defax
+R2814:2814 Cheerios.Types <> x var
+R2821:2826 Cheerios.Types WRITER <> modtype
+modtype 2842:2847 <> READER
+ax 2862:2862 READER t
+R2870:2873 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+ax 2893:2899 READER getByte
+R2903:2903 Cheerios.Types READER t defax
+R2905:2908 Cheerios.Types <> byte ind
+ax 2923:2928 READER unwrap
+R2947:2950 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2960:2963 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2964:2969 Coq.Init.Datatypes <> option ind
+R2973:2975 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2972:2972 Cheerios.Types <> A var
+R2976:2979 Coq.Init.Datatypes <> list ind
+R2981:2984 Cheerios.Types <> byte ind
+R2951:2954 Coq.Init.Datatypes <> list ind
+R2956:2959 Cheerios.Types <> byte ind
+R2944:2944 Cheerios.Types READER t defax
+R2946:2946 Cheerios.Types <> A var
+ax 3001:3014 READER getByte_unwrap
+R3050:3052 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3034:3039 Cheerios.Types READER unwrap defax
+R3049:3049 Cheerios.Types <> l var
+R3041:3047 Cheerios.Types READER getByte defax
+R3059:3059 Cheerios.Types <> l var
+R3093:3094 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3099:3102 Coq.Init.Datatypes <> None constr
+R3132:3135 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3141:3144 Coq.Init.Datatypes <> Some constr
+R3146:3146 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3148:3149 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3151:3151 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3150:3150 Cheerios.Types <> l var
+ax 3196:3199 READER bind
+R3220:3223 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3224:3224 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3233:3237 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3238:3238 Cheerios.Types READER t defax
+R3240:3240 Cheerios.Types <> B var
+R3226:3229 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3230:3230 Cheerios.Types READER t defax
+R3232:3232 Cheerios.Types <> B var
+R3225:3225 Cheerios.Types <> A var
+R3217:3217 Cheerios.Types READER t defax
+R3219:3219 Cheerios.Types <> A var
+ax 3255:3257 READER ret
+R3274:3277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3278:3278 Cheerios.Types READER t defax
+R3280:3280 Cheerios.Types <> A var
+R3273:3273 Cheerios.Types <> A var
+ax 3295:3297 READER map
+R3315:3315 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3322:3326 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3330:3333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3334:3334 Cheerios.Types READER t defax
+R3336:3336 Cheerios.Types <> B var
+R3327:3327 Cheerios.Types READER t defax
+R3329:3329 Cheerios.Types <> A var
+R3317:3320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3321:3321 Cheerios.Types <> B var
+R3316:3316 Cheerios.Types <> A var
+ax 3351:3355 READER error
+R3371:3371 Cheerios.Types READER t defax
+R3373:3373 Cheerios.Types <> A var
+ax 3389:3392 READER fold
+R3416:3416 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3444:3448 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3450:3453 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3454:3454 Cheerios.Types READER t defax
+R3456:3456 Cheerios.Types <> A var
+R3449:3449 Cheerios.Types <> S var
+R3421:3424 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3426:3429 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3430:3439 Cheerios.Types <> fold_state ind
+R3443:3443 Cheerios.Types <> A var
+R3441:3441 Cheerios.Types <> S var
+R3425:3425 Cheerios.Types <> S var
+R3417:3420 Cheerios.Types <> byte ind
+ax 3472:3482 READER bind_unwrap
+R3502:3502 Cheerios.Types READER t defax
+R3504:3504 Cheerios.Types <> A var
+R3542:3545 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3546:3546 Cheerios.Types READER t defax
+R3548:3548 Cheerios.Types <> B var
+R3541:3541 Cheerios.Types <> A var
+R3587:3589 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3564:3569 Cheerios.Types READER unwrap defax
+R3582:3586 Cheerios.Types <> bytes var
+R3572:3575 Cheerios.Types READER bind defax
+R3579:3579 Cheerios.Types <> f var
+R3577:3577 Cheerios.Types <> m var
+R3596:3601 Cheerios.Types READER unwrap defax
+R3605:3609 Cheerios.Types <> bytes var
+R3603:3603 Cheerios.Types <> m var
+R3650:3653 Coq.Init.Datatypes <> None constr
+R3658:3661 Coq.Init.Datatypes <> None constr
+R3697:3700 Coq.Init.Datatypes <> Some constr
+R3702:3702 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3704:3705 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3711:3711 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3716:3721 Cheerios.Types READER unwrap defax
+R3729:3733 Cheerios.Types <> bytes var
+R3724:3724 Cheerios.Types <> f var
+ax 3782:3791 READER ret_unwrap
+R3808:3808 Cheerios.Types <> A var
+R3838:3840 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3818:3823 Cheerios.Types READER unwrap defax
+R3833:3837 Cheerios.Types <> bytes var
+R3826:3828 Cheerios.Types READER ret defax
+R3830:3830 Cheerios.Types <> x var
+R3841:3844 Coq.Init.Datatypes <> Some constr
+R3846:3846 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3848:3849 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3855:3855 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3847:3847 Cheerios.Types <> x var
+R3850:3854 Cheerios.Types <> bytes var
+ax 3871:3880 READER map_unwrap
+R3899:3902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3903:3903 Cheerios.Types <> B var
+R3898:3898 Cheerios.Types <> A var
+R3910:3910 Cheerios.Types READER t defax
+R3912:3912 Cheerios.Types <> A var
+R3946:3954 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3926:3931 Cheerios.Types READER unwrap defax
+R3943:3945 Cheerios.Types <> bin var
+R3934:3936 Cheerios.Types READER map defax
+R3940:3940 Cheerios.Types <> d var
+R3938:3938 Cheerios.Types <> f var
+R3962:3967 Cheerios.Types READER unwrap defax
+R3971:3973 Cheerios.Types <> bin var
+R3969:3969 Cheerios.Types <> d var
+R3989:3992 Coq.Init.Datatypes <> None constr
+R3997:4000 Coq.Init.Datatypes <> None constr
+R4010:4013 Coq.Init.Datatypes <> Some constr
+R4015:4015 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4017:4018 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4022:4022 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4027:4030 Coq.Init.Datatypes <> Some constr
+R4032:4032 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4036:4037 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4041:4041 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4033:4033 Cheerios.Types <> f var
+R4038:4040 Cheerios.Types <> bin var
+ax 4067:4077 READER fold_unwrap
+R4139:4142 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4144:4147 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4148:4157 Cheerios.Types <> fold_state ind
+R4161:4161 Cheerios.Types <> A var
+R4159:4159 Cheerios.Types <> S var
+R4143:4143 Cheerios.Types <> S var
+R4135:4138 Cheerios.Types <> byte ind
+R4169:4169 Cheerios.Types <> S var
+R4200:4208 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4181:4186 Cheerios.Types READER unwrap defax
+R4199:4199 Cheerios.Types <> l var
+R4189:4192 Cheerios.Types READER fold defax
+R4196:4196 Cheerios.Types <> s var
+R4194:4194 Cheerios.Types <> f var
+R4215:4215 Cheerios.Types <> l var
+R4230:4231 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R4236:4239 Coq.Init.Datatypes <> None constr
+R4250:4253 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4265:4265 Cheerios.Types <> f var
+R4269:4269 Cheerios.Types <> s var
+R4296:4299 Cheerios.Types <> Done constr
+R4306:4309 Coq.Init.Datatypes <> Some constr
+R4311:4311 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4313:4314 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4316:4316 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4315:4315 Cheerios.Types <> l var
+R4338:4341 Cheerios.Types <> More constr
+R4348:4353 Cheerios.Types READER unwrap defax
+R4366:4366 Cheerios.Types <> l var
+R4356:4359 Cheerios.Types READER fold defax
+R4363:4363 Cheerios.Types <> s var
+R4361:4361 Cheerios.Types <> f var
+R4388:4392 Cheerios.Types <> Error constr
+R4397:4400 Coq.Init.Datatypes <> None constr
+R4439:4444 Cheerios.Types READER <> modtype

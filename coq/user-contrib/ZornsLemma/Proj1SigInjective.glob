@@ -1,0 +1,47 @@
+DIGEST 18836d1d0cdc6b42919b7ec71cb08030
+FZornsLemma.Proj1SigInjective
+R15:30 Coq.Logic.ProofIrrelevance <> <> lib
+prf 194:210 <> subset_eq_compatT
+R233:234 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R232:232 ZornsLemma.Proj1SigInjective <> U var
+R246:246 ZornsLemma.Proj1SigInjective <> U var
+R254:254 ZornsLemma.Proj1SigInjective <> P var
+R256:256 ZornsLemma.Proj1SigInjective <> x var
+R262:262 ZornsLemma.Proj1SigInjective <> P var
+R264:264 ZornsLemma.Proj1SigInjective <> y var
+R273:276 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R288:290 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R277:281 Coq.Init.Specif <> exist constr
+R287:287 ZornsLemma.Proj1SigInjective <> p var
+R285:285 ZornsLemma.Proj1SigInjective <> x var
+R283:283 ZornsLemma.Proj1SigInjective <> P var
+R291:295 Coq.Init.Specif <> exist constr
+R301:301 ZornsLemma.Proj1SigInjective <> q var
+R299:299 ZornsLemma.Proj1SigInjective <> y var
+R297:297 ZornsLemma.Proj1SigInjective <> P var
+R269:271 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R268:268 ZornsLemma.Proj1SigInjective <> x var
+R272:272 ZornsLemma.Proj1SigInjective <> y var
+R346:362 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+R346:362 Coq.Logic.ProofIrrelevance <> proof_irrelevance prfax
+prf 377:395 <> proj1_sig_injective
+R418:419 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R417:417 ZornsLemma.Proj1SigInjective <> A var
+R435:435 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R437:437 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R439:441 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R445:445 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R438:438 ZornsLemma.Proj1SigInjective <> A var
+R442:442 ZornsLemma.Proj1SigInjective <> P var
+R444:444 ZornsLemma.Proj1SigInjective <> x var
+R476:479 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R482:484 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R480:481 ZornsLemma.Proj1SigInjective <> a1 var
+R485:486 ZornsLemma.Proj1SigInjective <> a2 var
+R461:463 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R449:457 Coq.Init.Specif <> proj1_sig def
+R459:460 ZornsLemma.Proj1SigInjective <> a1 var
+R464:472 Coq.Init.Specif <> proj1_sig def
+R474:475 ZornsLemma.Proj1SigInjective <> a2 var
+R548:564 ZornsLemma.Proj1SigInjective <> subset_eq_compatT thm
+R548:564 ZornsLemma.Proj1SigInjective <> subset_eq_compatT thm

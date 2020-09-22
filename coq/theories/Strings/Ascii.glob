@@ -1,0 +1,271 @@
+DIGEST 5cec18157ecadf7f2f61a707899da546
+FCoq.Strings.Ascii
+R863:866 Coq.Bool.Bool <> <> lib
+R868:873 Coq.PArith.BinPos <> <> lib
+R875:880 Coq.NArith.BinNat <> <> lib
+R882:889 Coq.Arith.PeanoNat <> <> lib
+R891:894 Coq.NArith.Nnat <> <> lib
+ind 1052:1056 <> ascii
+constr 1067:1071 <> Ascii
+R1092:1095 Coq.Init.Datatypes <> bool ind
+R1097:1097 Coq.Strings.Ascii <> ascii ind
+def 1182:1185 <> zero
+R1190:1194 Coq.Strings.Ascii <> Ascii constr
+R1238:1242 Coq.Init.Datatypes <> false constr
+R1232:1236 Coq.Init.Datatypes <> false constr
+R1226:1230 Coq.Init.Datatypes <> false constr
+R1220:1224 Coq.Init.Datatypes <> false constr
+R1214:1218 Coq.Init.Datatypes <> false constr
+R1208:1212 Coq.Init.Datatypes <> false constr
+R1202:1206 Coq.Init.Datatypes <> false constr
+R1196:1200 Coq.Init.Datatypes <> false constr
+def 1257:1259 <> one
+R1264:1268 Coq.Strings.Ascii <> Ascii constr
+R1311:1315 Coq.Init.Datatypes <> false constr
+R1305:1309 Coq.Init.Datatypes <> false constr
+R1299:1303 Coq.Init.Datatypes <> false constr
+R1293:1297 Coq.Init.Datatypes <> false constr
+R1287:1291 Coq.Init.Datatypes <> false constr
+R1281:1285 Coq.Init.Datatypes <> false constr
+R1275:1279 Coq.Init.Datatypes <> false constr
+R1270:1273 Coq.Init.Datatypes <> true constr
+def 1330:1334 <> shift
+R1341:1344 Coq.Init.Datatypes <> bool ind
+R1352:1356 Coq.Strings.Ascii <> ascii ind
+R1370:1370 Coq.Strings.Ascii <> a var
+R1383:1387 Coq.Strings.Ascii <> Ascii constr
+R1416:1420 Coq.Strings.Ascii <> Ascii constr
+R1422:1422 Coq.Strings.Ascii <> c var
+def 1525:1533 <> ascii_dec
+R1550:1554 Coq.Strings.Ascii <> ascii ind
+R1557:1557 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1563:1567 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1574:1574 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1559:1561 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1558:1558 Coq.Strings.Ascii <> a var
+R1562:1562 Coq.Strings.Ascii <> b var
+R1569:1572 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1568:1568 Coq.Strings.Ascii <> a var
+R1573:1573 Coq.Strings.Ascii <> b var
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+R1609:1616 Coq.Bool.Bool <> bool_dec thm
+def 1675:1677 <> eqb
+R1686:1690 Coq.Strings.Ascii <> ascii ind
+R1695:1698 Coq.Init.Datatypes <> bool ind
+R1713:1713 Coq.Strings.Ascii <> b var
+R1710:1710 Coq.Strings.Ascii <> a var
+R1723:1727 Coq.Strings.Ascii <> Ascii constr
+R1757:1761 Coq.Strings.Ascii <> Ascii constr
+R1926:1930 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1931:1938 Coq.Bool.Bool <> eqb def
+R1907:1911 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1912:1919 Coq.Bool.Bool <> eqb def
+R1888:1892 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1893:1900 Coq.Bool.Bool <> eqb def
+R1865:1873 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1874:1881 Coq.Bool.Bool <> eqb def
+R1846:1850 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1851:1858 Coq.Bool.Bool <> eqb def
+R1827:1831 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1832:1839 Coq.Bool.Bool <> eqb def
+R1808:1812 Coq.Bool.Bool <> ::lazy_bool_scope:x_'&&&'_x not
+R1813:1820 Coq.Bool.Bool <> eqb def
+R1794:1801 Coq.Bool.Bool <> eqb def
+R1967:1969 Coq.Strings.Ascii <> eqb def
+not 1959:1959 <> ::char_scope:x_'=?'_x
+prf 1992:1999 <> eqb_spec
+R2008:2012 Coq.Strings.Ascii <> ascii ind
+R2017:2023 Coq.Bool.Bool <> reflect ind
+R2035:2038 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R2034:2034 Coq.Strings.Ascii <> a var
+R2039:2039 Coq.Strings.Ascii <> b var
+R2027:2029 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2026:2026 Coq.Strings.Ascii <> a var
+R2030:2030 Coq.Strings.Ascii <> b var
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2090:2102 Coq.Bool.Bool <> eqb_spec thm
+R2279:2282 Coq.Init.Logic <> conj constr
+R2349:2351 Coq.Strings.Ascii <> eqb def
+R2349:2351 Coq.Strings.Ascii <> eqb def
+R2375:2382 Coq.Strings.Ascii <> eqb_spec thm
+prf 2442:2449 <> eqb_refl
+R2468:2470 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2457:2460 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R2456:2456 Coq.Strings.Ascii <> x var
+R2461:2461 Coq.Strings.Ascii <> x var
+R2471:2474 Coq.Init.Datatypes <> true constr
+prf 2502:2508 <> eqb_sym
+R2529:2531 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2518:2521 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R2517:2517 Coq.Strings.Ascii <> x var
+R2522:2522 Coq.Strings.Ascii <> y var
+R2534:2537 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R2533:2533 Coq.Strings.Ascii <> y var
+R2538:2538 Coq.Strings.Ascii <> x var
+prf 2572:2577 <> eqb_eq
+R2605:2609 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2598:2600 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2587:2590 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R2586:2586 Coq.Strings.Ascii <> n var
+R2591:2591 Coq.Strings.Ascii <> m var
+R2601:2604 Coq.Init.Datatypes <> true constr
+R2611:2613 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2610:2610 Coq.Strings.Ascii <> n var
+R2614:2614 Coq.Strings.Ascii <> m var
+prf 2642:2648 <> eqb_neq
+R2677:2681 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R2669:2671 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2658:2661 Coq.Strings.Ascii <> ::char_scope:x_'=?'_x not
+R2657:2657 Coq.Strings.Ascii <> x var
+R2662:2662 Coq.Strings.Ascii <> y var
+R2672:2676 Coq.Init.Datatypes <> false constr
+R2683:2686 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2682:2682 Coq.Strings.Ascii <> x var
+R2687:2687 Coq.Strings.Ascii <> y var
+prf 2715:2724 <> eqb_compat
+R2727:2742 Coq.Classes.Morphisms <> Proper class
+R2799:2801 Coq.Strings.Ascii <> eqb def
+R2745:2764 Coq.Classes.Morphisms <> respectful def
+R2770:2789 Coq.Classes.Morphisms <> respectful def
+R2794:2795 Coq.Init.Logic <> eq ind
+R2791:2792 Coq.Init.Logic <> eq ind
+R2766:2767 Coq.Init.Logic <> eq ind
+def 3022:3033 <> ascii_of_pos
+R3045:3048 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3049:3053 Coq.Strings.Ascii <> ascii ind
+R3037:3044 Coq.Numbers.BinNums <> positive ind
+R3096:3096 Coq.Strings.Ascii <> n var
+R3110:3110 Coq.Init.Datatypes <> O constr
+R3115:3118 Coq.Strings.Ascii <> zero def
+R3127:3127 Coq.Init.Datatypes <> S constr
+R3148:3148 Coq.Strings.Ascii <> p var
+R3166:3167 Coq.Numbers.BinNums <> xH constr
+R3172:3174 Coq.Strings.Ascii <> one def
+R3187:3188 Coq.Numbers.BinNums <> xI constr
+R3196:3200 Coq.Strings.Ascii <> shift def
+R3208:3211 Coq.Strings.Ascii <> loop var
+R3202:3205 Coq.Init.Datatypes <> true constr
+R3231:3232 Coq.Numbers.BinNums <> xO constr
+R3240:3244 Coq.Strings.Ascii <> shift def
+R3253:3256 Coq.Strings.Ascii <> loop var
+R3246:3250 Coq.Init.Datatypes <> false constr
+R3287:3290 Coq.Strings.Ascii <> loop var
+def 3346:3355 <> ascii_of_N
+R3362:3362 Coq.Numbers.BinNums <> N ind
+R3376:3376 Coq.Strings.Ascii <> n var
+R3389:3390 Coq.Numbers.BinNums <> N0 constr
+R3395:3398 Coq.Strings.Ascii <> zero def
+R3406:3409 Coq.Numbers.BinNums <> Npos constr
+R3416:3427 Coq.Strings.Ascii <> ascii_of_pos def
+def 3473:3484 <> ascii_of_nat
+R3491:3493 Coq.Init.Datatypes <> nat ind
+R3499:3508 Coq.Strings.Ascii <> ascii_of_N def
+R3511:3518 Coq.NArith.BinNat N of_nat def
+R3520:3520 Coq.Strings.Ascii <> a var
+def 3595:3605 <> N_of_digits
+R3610:3613 Coq.Init.Datatypes <> list ind
+R3615:3618 Coq.Init.Datatypes <> bool ind
+R3623:3623 Coq.Numbers.BinNums <> N ind
+R3635:3635 Coq.Strings.Ascii <> l var
+R3646:3648 Coq.Init.Datatypes <> nil constr
+R3660:3663 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3670:3670 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3689:3692 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R3694:3695 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3710:3710 Coq.NArith.BinNat <> ::N_scope:x_'*'_x not
+R3696:3706 Coq.Strings.Ascii <> N_of_digits def
+def 3732:3741 <> N_of_ascii
+R3748:3752 Coq.Strings.Ascii <> ascii ind
+R3757:3757 Coq.Numbers.BinNums <> N ind
+R3796:3796 Coq.Strings.Ascii <> a var
+R3802:3812 Coq.Strings.Ascii <> N_of_digits def
+R3817:3818 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3815:3816 Coq.Strings.Ascii <> a0 var
+R3821:3822 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3819:3820 Coq.Strings.Ascii <> a1 var
+R3825:3826 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3823:3824 Coq.Strings.Ascii <> a2 var
+R3829:3830 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3827:3828 Coq.Strings.Ascii <> a3 var
+R3833:3834 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3831:3832 Coq.Strings.Ascii <> a4 var
+R3837:3838 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3835:3836 Coq.Strings.Ascii <> a5 var
+R3841:3842 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3839:3840 Coq.Strings.Ascii <> a6 var
+R3845:3846 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3843:3844 Coq.Strings.Ascii <> a7 var
+R3847:3849 Coq.Init.Datatypes <> nil constr
+def 3865:3876 <> nat_of_ascii
+R3883:3887 Coq.Strings.Ascii <> ascii ind
+R3892:3894 Coq.Init.Datatypes <> nat ind
+R3899:3906 Coq.NArith.BinNat N to_nat def
+R3909:3918 Coq.Strings.Ascii <> N_of_ascii def
+R3920:3920 Coq.Strings.Ascii <> a var
+prf 3998:4014 <> ascii_N_embedding
+R4031:4035 Coq.Strings.Ascii <> ascii ind
+R4063:4065 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4038:4047 Coq.Strings.Ascii <> ascii_of_N def
+R4050:4059 Coq.Strings.Ascii <> N_of_ascii def
+R4061:4061 Coq.Strings.Ascii <> a var
+R4066:4066 Coq.Strings.Ascii <> a var
+prf 4159:4175 <> N_ascii_embedding
+R4190:4190 Coq.Numbers.BinNums <> N ind
+R4204:4207 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4233:4235 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4208:4217 Coq.Strings.Ascii <> N_of_ascii def
+R4220:4229 Coq.Strings.Ascii <> ascii_of_N def
+R4231:4231 Coq.Strings.Ascii <> n var
+R4236:4236 Coq.Strings.Ascii <> n var
+R4195:4197 Coq.NArith.BinNat <> ::N_scope:x_'<'_x not
+R4194:4194 Coq.Strings.Ascii <> n var
+prf 4398:4416 <> ascii_nat_embedding
+R4433:4437 Coq.Strings.Ascii <> ascii ind
+R4469:4471 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4440:4451 Coq.Strings.Ascii <> ascii_of_nat def
+R4454:4465 Coq.Strings.Ascii <> nat_of_ascii def
+R4467:4467 Coq.Strings.Ascii <> a var
+R4472:4472 Coq.Strings.Ascii <> a var
+prf 4562:4580 <> nat_ascii_embedding
+R4597:4599 Coq.Init.Datatypes <> nat ind
+R4609:4612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4642:4644 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4613:4624 Coq.Strings.Ascii <> nat_of_ascii def
+R4627:4638 Coq.Strings.Ascii <> ascii_of_nat def
+R4640:4640 Coq.Strings.Ascii <> n var
+R4645:4645 Coq.Strings.Ascii <> n var
+R4603:4605 Coq.Init.Peano <> ::nat_scope:x_'<'_x not
+R4602:4602 Coq.Strings.Ascii <> n var
+R4671:4682 Coq.Strings.Ascii <> nat_of_ascii def
+R4685:4696 Coq.Strings.Ascii <> ascii_of_nat def
+R4708:4724 Coq.Strings.Ascii <> N_ascii_embedding thm
+R4708:4724 Coq.Strings.Ascii <> N_ascii_embedding thm
+R4708:4724 Coq.Strings.Ascii <> N_ascii_embedding thm
+R4708:4724 Coq.Strings.Ascii <> N_ascii_embedding thm
+R4734:4741 Coq.NArith.Nnat Nat2N id thm
+R4734:4741 Coq.NArith.Nnat Nat2N id thm
+R4752:4755 Coq.NArith.BinNat N lt def
+R4778:4785 Coq.NArith.BinNat N of_nat def
+R4778:4785 Coq.NArith.BinNat N of_nat def
+R4805:4821 Coq.NArith.Nnat Nat2N inj_compare thm
+R4805:4821 Coq.NArith.Nnat Nat2N inj_compare thm
+R4805:4821 Coq.NArith.Nnat Nat2N inj_compare thm
+R4835:4852 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+R4835:4852 Coq.Arith.PeanoNat Nat compare_lt_iff thm
+def 5616:5620 <> Space
+def 5638:5648 <> DoubleQuote
+def 5667:5670 <> Beep

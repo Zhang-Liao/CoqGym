@@ -1,0 +1,113 @@
+DIGEST 51f63bb0f8256463215c3e9ca4b1e30e
+FAlgebra.Generated_group
+R1086:1097 Algebra.Group_kernel <> <> lib
+R1115:1124 Algebra.Free_group <> <> lib
+sec 1135:1153 <> Generated_group_def
+var 1165:1165 Generated_group_def G
+R1169:1173 Algebra.Group_cat <> GROUP def
+var 1185:1185 Generated_group_def A
+R1189:1196 Algebra.Parts <> part_set def
+R1198:1198 Algebra.Generated_group <> Generated_group_def.G var
+def 1213:1227 <> generated_group
+R1231:1238 Algebra.Sub_group <> subgroup rec
+R1240:1240 Algebra.Generated_group <> Generated_group_def.G var
+R1245:1249 Algebra.Group_kernel <> coKer def
+R1252:1258 Algebra.Free_group <> FG_lift def
+R1261:1268 Algebra.Parts <> inj_part def
+R1270:1270 Algebra.Generated_group <> Generated_group_def.A var
+R1279:1297 Algebra.Generated_group Generated_group_def <> sec
+prf 1307:1329 <> generated_group_minimal
+R1346:1350 Algebra.Group_cat <> GROUP def
+R1358:1365 Algebra.Parts <> part_set def
+R1367:1367 Algebra.Generated_group <> G var
+R1375:1382 Algebra.Sub_group <> subgroup rec
+R1384:1384 Algebra.Generated_group <> G var
+R1401:1404 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1405:1412 Algebra.Parts <> included def
+R1434:1434 Algebra.Generated_group <> H var
+R1415:1429 Algebra.Generated_group <> generated_group def
+R1431:1431 Algebra.Generated_group <> A var
+R1389:1396 Algebra.Parts <> included def
+R1400:1400 Algebra.Generated_group <> H var
+R1398:1398 Algebra.Generated_group <> A var
+R1444:1451 Algebra.Parts <> included def
+R1716:1729 Algebra.Parts <> in_part_comp_l thm
+R1716:1729 Algebra.Parts <> in_part_comp_l thm
+R1885:1894 Algebra.Sgroup_cat <> sgroup_law def
+R1928:1938 Algebra.Free_group <> FG_lift_fun def
+R1941:1948 Algebra.Parts <> inj_part def
+R1899:1909 Algebra.Free_group <> FG_lift_fun def
+R1912:1919 Algebra.Parts <> inj_part def
+R1858:1871 Algebra.Parts <> in_part_comp_l thm
+R1885:1894 Algebra.Sgroup_cat <> sgroup_law def
+R1928:1938 Algebra.Free_group <> FG_lift_fun def
+R1941:1948 Algebra.Parts <> inj_part def
+R1899:1909 Algebra.Free_group <> FG_lift_fun def
+R1912:1919 Algebra.Parts <> inj_part def
+R1858:1871 Algebra.Parts <> in_part_comp_l thm
+R2087:2097 Algebra.Monoid_cat <> monoid_unit proj
+R2066:2079 Algebra.Parts <> in_part_comp_l thm
+R2087:2097 Algebra.Monoid_cat <> monoid_unit proj
+R2066:2079 Algebra.Parts <> in_part_comp_l thm
+R2236:2248 Algebra.Group_cat <> group_inverse def
+R2253:2263 Algebra.Free_group <> FG_lift_fun def
+R2266:2273 Algebra.Parts <> inj_part def
+R2215:2228 Algebra.Parts <> in_part_comp_l thm
+R2236:2248 Algebra.Group_cat <> group_inverse def
+R2253:2263 Algebra.Free_group <> FG_lift_fun def
+R2266:2273 Algebra.Parts <> inj_part def
+R2215:2228 Algebra.Parts <> in_part_comp_l thm
+prf 2315:2343 <> generated_group_prop_included
+R2360:2364 Algebra.Group_cat <> GROUP def
+R2372:2379 Algebra.Parts <> part_set def
+R2381:2381 Algebra.Generated_group <> G var
+R2385:2392 Algebra.Parts <> included def
+R2397:2411 Algebra.Generated_group <> generated_group def
+R2413:2413 Algebra.Generated_group <> A var
+R2394:2394 Algebra.Generated_group <> A var
+R2424:2431 Algebra.Parts <> included def
+R2498:2500 Algebra.Free_group <> Var constr
+R2510:2522 Algebra.Parts <> Build_subtype constr
+R2498:2500 Algebra.Free_group <> Var constr
+R2510:2522 Algebra.Parts <> Build_subtype constr
+prf 2662:2681 <> generated_group_prop
+R2698:2702 Algebra.Group_cat <> GROUP def
+R2710:2717 Algebra.Parts <> part_set def
+R2719:2719 Algebra.Generated_group <> G var
+R2727:2727 Algebra.Generated_group <> G var
+R2761:2765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2766:2772 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2781:2782 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2777:2778 Algebra.Free_group <> FG ind
+R2780:2780 Algebra.Generated_group <> A var
+R2783:2787 Algebra.Sets <> Equal proj
+R2792:2798 Algebra.Free_group <> FG_lift def
+R2813:2813 Algebra.Generated_group <> x var
+R2801:2808 Algebra.Parts <> inj_part def
+R2810:2810 Algebra.Generated_group <> A var
+R2789:2789 Algebra.Generated_group <> y var
+R2732:2738 Algebra.Parts <> in_part def
+R2743:2757 Algebra.Generated_group <> generated_group def
+R2759:2759 Algebra.Generated_group <> A var
+R2740:2740 Algebra.Generated_group <> y var
+prf 2994:3017 <> generated_group_prop_rev
+R3034:3038 Algebra.Group_cat <> GROUP def
+R3046:3053 Algebra.Parts <> part_set def
+R3055:3055 Algebra.Generated_group <> G var
+R3063:3063 Algebra.Generated_group <> G var
+R3068:3068 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3118:3123 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3124:3130 Algebra.Parts <> in_part def
+R3135:3149 Algebra.Generated_group <> generated_group def
+R3151:3151 Algebra.Generated_group <> A var
+R3132:3132 Algebra.Generated_group <> y var
+R3069:3075 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3084:3085 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3080:3081 Algebra.Free_group <> FG ind
+R3083:3083 Algebra.Generated_group <> A var
+R3086:3090 Algebra.Sets <> Equal proj
+R3095:3101 Algebra.Free_group <> FG_lift def
+R3116:3116 Algebra.Generated_group <> x var
+R3104:3111 Algebra.Parts <> inj_part def
+R3113:3113 Algebra.Generated_group <> A var
+R3092:3092 Algebra.Generated_group <> y var

@@ -1,0 +1,81 @@
+DIGEST 39009e026751dd5a0f1100433e7e744a
+FAlgebra.Group_power
+R1118:1122 Algebra.Zring <> <> lib
+sec 1133:1141 <> Int_power
+var 1153:1153 Int_power G
+R1157:1161 Algebra.Group_cat <> GROUP def
+def 1223:1234 <> group_square
+R1241:1241 Algebra.Group_power <> Int_power.G var
+R1246:1246 Algebra.Group_power <> Int_power.G var
+R1251:1260 Algebra.Sgroup_cat <> sgroup_law def
+R1266:1266 Algebra.Group_power <> x var
+R1264:1264 Algebra.Group_power <> x var
+R1262:1262 Algebra.Group_power <> Int_power.G var
+def 1326:1340 <> group_power_pos
+R1347:1347 Algebra.Group_power <> Int_power.G var
+R1355:1362 Coq.Numbers.BinNums <> positive ind
+R1378:1378 Algebra.Group_power <> Int_power.G var
+R1391:1391 Algebra.Group_power <> p var
+R1402:1403 Coq.Numbers.BinNums <> xH constr
+R1408:1408 Algebra.Group_power <> g var
+R1414:1415 Coq.Numbers.BinNums <> xO constr
+R1423:1434 Algebra.Group_power <> group_square def
+R1437:1451 Algebra.Group_power <> group_power_pos def
+R1453:1453 Algebra.Group_power <> g var
+R1463:1464 Coq.Numbers.BinNums <> xI constr
+R1472:1481 Algebra.Sgroup_cat <> sgroup_law def
+R1523:1523 Algebra.Group_power <> g var
+R1486:1497 Algebra.Group_power <> group_square def
+R1500:1514 Algebra.Group_power <> group_power_pos def
+R1516:1516 Algebra.Group_power <> g var
+R1483:1483 Algebra.Group_power <> Int_power.G var
+def 1591:1601 <> group_power
+R1608:1608 Algebra.Group_power <> Int_power.G var
+R1616:1617 Algebra.Zring <> ZZ def
+R1622:1622 Algebra.Group_power <> Int_power.G var
+R1635:1635 Algebra.Group_power <> z var
+R1646:1647 Coq.Numbers.BinNums <> Z0 constr
+R1652:1662 Algebra.Monoid_cat <> monoid_unit proj
+R1664:1664 Algebra.Group_power <> Int_power.G var
+R1670:1673 Coq.Numbers.BinNums <> Zpos constr
+R1680:1694 Algebra.Group_power <> group_power_pos def
+R1696:1696 Algebra.Group_power <> g var
+R1704:1707 Coq.Numbers.BinNums <> Zneg constr
+R1714:1728 Algebra.Group_power <> group_power_pos def
+R1731:1743 Algebra.Group_cat <> group_inverse def
+R1747:1747 Algebra.Group_power <> g var
+R1745:1745 Algebra.Group_power <> Int_power.G var
+R1810:1818 Algebra.Group_power Int_power <> sec
+sec 1829:1834 <> Lemmas
+var 1846:1846 Lemmas G
+R1850:1854 Algebra.Group_cat <> GROUP def
+prf 1864:1879 <> group_power_zero
+R1895:1895 Algebra.Group_power <> Lemmas.G var
+R1898:1902 Algebra.Sets <> Equal proj
+R1940:1950 Algebra.Monoid_cat <> monoid_unit proj
+R1952:1952 Algebra.Group_power <> Lemmas.G var
+R1905:1915 Algebra.Group_power <> group_power def
+R1922:1932 Algebra.Monoid_cat <> monoid_unit proj
+R1934:1935 Algebra.Zring <> ZZ def
+R1919:1919 Algebra.Group_power <> g var
+R1917:1917 Algebra.Group_power <> Lemmas.G var
+ax 2018:2030 <> group_power_S
+R2050:2050 Algebra.Group_power <> Lemmas.G var
+R2058:2059 Algebra.Zring <> ZZ def
+R2067:2071 Algebra.Sets <> Equal proj
+R2131:2140 Algebra.Sgroup_cat <> sgroup_law def
+R2164:2164 Algebra.Group_power <> g var
+R2145:2155 Algebra.Group_power <> group_power def
+R2161:2161 Algebra.Group_power <> n var
+R2159:2159 Algebra.Group_power <> g var
+R2157:2157 Algebra.Group_power <> Lemmas.G var
+R2142:2142 Algebra.Group_power <> Lemmas.G var
+R2074:2084 Algebra.Group_power <> group_power def
+R2091:2100 Algebra.Sgroup_cat <> sgroup_law def
+R2108:2116 Algebra.Ring_cat <> ring_unit def
+R2118:2119 Algebra.Zring <> ZZ def
+R2105:2105 Algebra.Group_power <> n var
+R2102:2103 Algebra.Zring <> ZZ def
+R2088:2088 Algebra.Group_power <> g var
+R2086:2086 Algebra.Group_power <> Lemmas.G var
+R2172:2177 Algebra.Group_power Lemmas <> sec

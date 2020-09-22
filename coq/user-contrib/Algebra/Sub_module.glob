@@ -1,0 +1,200 @@
+DIGEST 27e73006d2b2a8a645cd1fc52d6debb8
+FAlgebra.Sub_module
+R1086:1094 Algebra.Sub_group <> <> lib
+R1112:1123 Algebra.Module_facts <> <> lib
+R1141:1151 Algebra.Module_util <> <> lib
+R1169:1179 Algebra.Monoid_util <> <> lib
+R1197:1206 Algebra.Group_util <> <> lib
+sec 1217:1219 <> Def
+var 1231:1231 Def R
+R1235:1238 Algebra.Ring_cat <> RING def
+var 1250:1250 Def M
+R1254:1259 Algebra.Module_cat <> MODULE def
+R1261:1261 Algebra.Sub_module <> Def.R var
+sec 1272:1281 Def Sub_module
+var 1293:1293 Def.Sub_module N
+R1297:1304 Algebra.Sub_group <> subgroup rec
+R1306:1306 Algebra.Sub_module <> Def.M var
+var 1322:1324 Def.Sub_module Nop
+R1340:1340 Algebra.Sub_module <> Def.R var
+R1348:1348 Algebra.Sub_module <> Def.M var
+R1363:1366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1367:1373 Algebra.Parts <> in_part def
+R1393:1393 Algebra.Sub_module <> Def.Sub_module.N var
+R1376:1386 Algebra.Module_cat <> module_mult def
+R1390:1390 Algebra.Sub_module <> x var
+R1388:1388 Algebra.Sub_module <> a var
+R1352:1358 Algebra.Parts <> in_part def
+R1362:1362 Algebra.Sub_module <> Def.Sub_module.N var
+R1360:1360 Algebra.Sub_module <> x var
+var 1401:1402 Def.Sub_module Na
+R1406:1418 Algebra.Abelian_group_cat <> ABELIAN_GROUP def
+R1429:1447 Algebra.Group_util <> BUILD_ABELIAN_GROUP def
+R1512:1528 Algebra.Group_cat <> group_inverse_map proj
+R1530:1530 Algebra.Sub_module <> Def.Sub_module.N var
+R1488:1498 Algebra.Monoid_cat <> monoid_unit proj
+R1500:1500 Algebra.Sub_module <> Def.Sub_module.N var
+R1465:1474 Algebra.Sgroup_cat <> sgroup_law def
+R1476:1476 Algebra.Sub_module <> Def.Sub_module.N var
+R1453:1453 Algebra.Sub_module <> Def.Sub_module.N var
+R1429:1447 Algebra.Group_util <> BUILD_ABELIAN_GROUP def
+R1512:1528 Algebra.Group_cat <> group_inverse_map proj
+R1530:1530 Algebra.Sub_module <> Def.Sub_module.N var
+R1488:1498 Algebra.Monoid_cat <> monoid_unit proj
+R1500:1500 Algebra.Sub_module <> Def.Sub_module.N var
+R1465:1474 Algebra.Sgroup_cat <> sgroup_law def
+R1476:1476 Algebra.Sub_module <> Def.Sub_module.N var
+R1453:1453 Algebra.Sub_module <> Def.Sub_module.N var
+R1578:1596 Algebra.Parts <> subtype_image_equal def
+R1663:1681 Algebra.Parts <> subtype_image_equal def
+var 1740:1746 Def.Sub_module endofun
+R1751:1754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1755:1762 Algebra.Endo_set <> Endo_SET def
+R1764:1765 Algebra.Sub_module <> Def.Sub_module.Na var
+R1750:1750 Algebra.Sub_module <> Def.R var
+R1817:1825 Algebra.Sets <> Build_Map constr
+R1858:1858 Algebra.Sub_module <> Def.Sub_module.N var
+R1863:1875 Algebra.Parts <> Build_subtype constr
+R1878:1880 Algebra.Sub_module <> Def.Sub_module.Nop var
+R1885:1895 Algebra.Parts <> subtype_prf proj
+R1897:1897 Algebra.Sub_module <> x var
+R1838:1838 Algebra.Sub_module <> Def.Sub_module.N var
+R1831:1831 Algebra.Sub_module <> Def.Sub_module.N var
+R1817:1825 Algebra.Sets <> Build_Map constr
+R1858:1858 Algebra.Sub_module <> Def.Sub_module.N var
+R1863:1875 Algebra.Parts <> Build_subtype constr
+R1878:1880 Algebra.Sub_module <> Def.Sub_module.Nop var
+R1885:1895 Algebra.Parts <> subtype_prf proj
+R1897:1897 Algebra.Sub_module <> x var
+R1838:1838 Algebra.Sub_module <> Def.Sub_module.N var
+R1831:1831 Algebra.Sub_module <> Def.Sub_module.N var
+R1939:1957 Algebra.Parts <> subtype_image_equal def
+def 2023:2034 <> submodule_op
+R2038:2046 Algebra.Operation_of_monoid <> operation def
+R2064:2065 Algebra.Sub_module <> Def.Sub_module.Na var
+R2049:2059 Algebra.Ring_cat <> ring_monoid proj
+R2061:2061 Algebra.Sub_module <> Def.R var
+R2090:2105 Algebra.Monoid_util <> BUILD_HOM_MONOID def
+R2148:2154 Algebra.Sub_module <> Def.Sub_module.endofun var
+R2131:2138 Algebra.Endo_set <> Endo_SET def
+R2140:2140 Algebra.Sub_module <> Def.Sub_module.N var
+R2111:2121 Algebra.Ring_cat <> ring_monoid proj
+R2123:2123 Algebra.Sub_module <> Def.R var
+R2090:2105 Algebra.Monoid_util <> BUILD_HOM_MONOID def
+R2148:2154 Algebra.Sub_module <> Def.Sub_module.endofun var
+R2131:2138 Algebra.Endo_set <> Endo_SET def
+R2140:2140 Algebra.Sub_module <> Def.Sub_module.N var
+R2111:2121 Algebra.Ring_cat <> ring_monoid proj
+R2123:2123 Algebra.Sub_module <> Def.R var
+R2224:2242 Algebra.Parts <> subtype_image_equal def
+R2349:2367 Algebra.Parts <> subtype_image_equal def
+R2427:2438 Algebra.Module_facts <> MODULE_assoc thm
+R2445:2455 Algebra.Parts <> subtype_elt proj
+R2427:2438 Algebra.Module_facts <> MODULE_assoc thm
+R2445:2455 Algebra.Parts <> subtype_elt proj
+R2513:2531 Algebra.Parts <> subtype_image_equal def
+R2590:2602 Algebra.Module_facts <> MODULE_unit_l thm
+R2605:2615 Algebra.Parts <> subtype_elt proj
+R2590:2602 Algebra.Module_facts <> MODULE_unit_l thm
+R2605:2615 Algebra.Parts <> subtype_elt proj
+def 2643:2658 <> submodule_module
+R2662:2667 Algebra.Module_cat <> module rec
+R2669:2669 Algebra.Sub_module <> Def.R var
+R2679:2690 Algebra.Module_cat <> Build_module constr
+R2716:2717 Algebra.Sub_module <> Def.Sub_module.Na var
+R2696:2696 Algebra.Sub_module <> Def.R var
+R2679:2690 Algebra.Module_cat <> Build_module constr
+R2716:2717 Algebra.Sub_module <> Def.Sub_module.Na var
+R2696:2696 Algebra.Sub_module <> Def.R var
+R2729:2743 Algebra.Module_cat <> Build_module_on constr
+R2772:2783 Algebra.Sub_module <> submodule_op def
+R2756:2757 Algebra.Sub_module <> Def.Sub_module.Na var
+R2749:2749 Algebra.Sub_module <> Def.R var
+R2729:2743 Algebra.Module_cat <> Build_module_on constr
+R2772:2783 Algebra.Sub_module <> submodule_op def
+R2756:2757 Algebra.Sub_module <> Def.Sub_module.Na var
+R2749:2749 Algebra.Sub_module <> Def.R var
+R2823:2841 Algebra.Parts <> subtype_image_equal def
+R2921:2939 Algebra.Parts <> subtype_image_equal def
+R2997:3006 Algebra.Sub_module Def.Sub_module <> sec
+rec 3017:3025 <> submodule
+proj 3041:3058 <> submodule_subgroup
+proj 3077:3090 <> submodule_prop
+R3062:3069 Algebra.Sub_group <> subgroup rec
+R3071:3071 Algebra.Sub_module <> Def.M var
+R3110:3110 Algebra.Sub_module <> Def.R var
+R3118:3118 Algebra.Sub_module <> Def.M var
+R3154:3161 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3162:3168 Algebra.Parts <> in_part def
+R3188:3205 Algebra.Sub_module <> submodule_subgroup meth
+R3171:3181 Algebra.Module_cat <> module_mult def
+R3185:3185 Algebra.Sub_module <> x var
+R3183:3183 Algebra.Sub_module <> a var
+R3126:3132 Algebra.Parts <> in_part def
+R3136:3153 Algebra.Sub_module <> submodule_subgroup meth
+R3134:3134 Algebra.Sub_module <> x var
+def 3221:3239 <> module_of_submodule
+R3246:3254 Algebra.Sub_module <> submodule rec
+R3262:3277 Algebra.Sub_module <> submodule_module def
+R3280:3293 Algebra.Sub_module <> submodule_prop proj
+R3299:3299 Algebra.Sub_module <> N var
+R3308:3310 Algebra.Sub_module Def <> sec
+R3313:3363 Algebra.Sub_module <> module_of_submodule def
+R3366:3417 Algebra.Sub_module <> submodule_subgroup proj
+sec 3428:3436 <> Injection
+var 3448:3448 Injection R
+R3452:3455 Algebra.Ring_cat <> RING def
+var 3467:3467 Injection M
+R3471:3476 Algebra.Module_cat <> MODULE def
+R3478:3478 Algebra.Sub_module <> Injection.R var
+var 3490:3490 Injection N
+R3494:3502 Algebra.Sub_module <> submodule rec
+R3504:3504 Algebra.Sub_module <> Injection.M var
+prf 3514:3530 <> submodule_in_prop
+R3547:3547 Algebra.Sub_module <> Injection.R var
+R3555:3555 Algebra.Sub_module <> Injection.M var
+R3570:3573 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3574:3580 Algebra.Parts <> in_part def
+R3600:3600 Algebra.Sub_module <> Injection.N var
+R3583:3593 Algebra.Module_cat <> module_mult def
+R3597:3597 Algebra.Sub_module <> x var
+R3595:3595 Algebra.Sub_module <> a var
+R3559:3565 Algebra.Parts <> in_part def
+R3569:3569 Algebra.Sub_module <> Injection.N var
+R3567:3567 Algebra.Sub_module <> x var
+R3641:3654 Algebra.Sub_module <> submodule_prop proj
+R3674:3674 Algebra.Sub_module <> Injection.N var
+R3667:3667 Algebra.Sub_module <> Injection.M var
+R3660:3660 Algebra.Sub_module <> Injection.R var
+R3641:3654 Algebra.Sub_module <> submodule_prop proj
+R3674:3674 Algebra.Sub_module <> Injection.N var
+R3667:3667 Algebra.Sub_module <> Injection.M var
+R3660:3660 Algebra.Sub_module <> Injection.R var
+def 3715:3727 <> inj_submodule
+R3731:3733 Algebra.Categories <> Hom proj
+R3748:3748 Algebra.Sub_module <> Injection.M var
+R3738:3743 Algebra.Module_cat <> MODULE def
+R3745:3745 Algebra.Sub_module <> Injection.R var
+R3736:3736 Algebra.Sub_module <> Injection.N var
+R3759:3774 Algebra.Module_util <> BUILD_HOM_MODULE def
+R3828:3828 Algebra.Sub_module <> Injection.N var
+R3833:3843 Algebra.Parts <> subtype_elt proj
+R3845:3845 Algebra.Sub_module <> x var
+R3808:3808 Algebra.Sub_module <> Injection.M var
+R3791:3796 Algebra.Module_cat <> MODULE def
+R3798:3798 Algebra.Sub_module <> Injection.R var
+R3789:3789 Algebra.Sub_module <> Injection.N var
+R3780:3780 Algebra.Sub_module <> Injection.R var
+R3759:3774 Algebra.Module_util <> BUILD_HOM_MODULE def
+R3828:3828 Algebra.Sub_module <> Injection.N var
+R3833:3843 Algebra.Parts <> subtype_elt proj
+R3845:3845 Algebra.Sub_module <> x var
+R3808:3808 Algebra.Sub_module <> Injection.M var
+R3791:3796 Algebra.Module_cat <> MODULE def
+R3798:3798 Algebra.Sub_module <> Injection.R var
+R3789:3789 Algebra.Sub_module <> Injection.N var
+R3780:3780 Algebra.Sub_module <> Injection.R var
+prf 3885:3907 <> inj_submodule_injective
+R3911:3919 Algebra.Sets <> injective def
+R3921:3933 Algebra.Sub_module <> inj_submodule def
+R3977:3985 Algebra.Sub_module Injection <> sec

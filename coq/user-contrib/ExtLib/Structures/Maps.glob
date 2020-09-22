@@ -1,0 +1,207 @@
+DIGEST a0423a36004865d5b7ba2c1b58714af5
+FExtLib.Structures.Maps
+R15:29 Coq.Classes.RelationClasses <> <> lib
+R47:69 ExtLib.Structures.Monad <> <> lib
+R87:113 ExtLib.Structures.Reducible <> <> lib
+sec 196:199 <> Maps
+var 214:214 Maps K
+var 216:216 Maps V
+var 237:239 Maps map
+rec 281:283 <> Map
+proj 299:303 <> empty
+proj 318:320 <> add
+proj 354:359 <> remove
+proj 385:390 <> lookup
+proj 421:425 <> union
+R310:312 ExtLib.Structures.Maps <> Maps.map var
+R330:333 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R335:338 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R342:345 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R346:348 ExtLib.Structures.Maps <> Maps.map var
+R339:341 ExtLib.Structures.Maps <> Maps.map var
+R334:334 ExtLib.Structures.Maps <> Maps.V var
+R329:329 ExtLib.Structures.Maps <> Maps.K var
+R366:369 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R373:376 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R377:379 ExtLib.Structures.Maps <> Maps.map var
+R370:372 ExtLib.Structures.Maps <> Maps.map var
+R365:365 ExtLib.Structures.Maps <> Maps.K var
+R397:400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R404:407 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R408:413 Coq.Init.Datatypes <> option ind
+R415:415 ExtLib.Structures.Maps <> Maps.V var
+R401:403 ExtLib.Structures.Maps <> Maps.map var
+R396:396 ExtLib.Structures.Maps <> Maps.K var
+R435:438 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R442:445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R446:448 ExtLib.Structures.Maps <> Maps.map var
+R439:441 ExtLib.Structures.Maps <> Maps.map var
+R432:434 ExtLib.Structures.Maps <> Maps.map var
+var 467:467 Maps R
+R472:475 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R477:480 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R476:476 ExtLib.Structures.Maps <> Maps.K var
+R471:471 ExtLib.Structures.Maps <> Maps.K var
+rec 496:500 <> MapOk
+proj 526:531 <> mapsto
+proj 561:572 <> mapsto_empty
+proj 610:622 <> mapsto_lookup
+proj 681:693 <> mapsto_add_eq
+proj 738:751 <> mapsto_add_neq
+R507:509 ExtLib.Structures.Maps <> Map class
+R536:539 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R541:544 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R548:551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R545:547 ExtLib.Structures.Maps <> Maps.map var
+R540:540 ExtLib.Structures.Maps <> Maps.V var
+R535:535 ExtLib.Structures.Maps <> Maps.K var
+R588:588 Coq.Init.Logic <> ::type_scope:'~'_x not
+R589:594 ExtLib.Structures.Maps <> mapsto meth
+R600:604 ExtLib.Structures.Maps <> empty meth
+R598:598 ExtLib.Structures.Maps <> v var
+R596:596 ExtLib.Structures.Maps <> k var
+R659:663 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R650:652 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R640:645 ExtLib.Structures.Maps <> lookup meth
+R649:649 ExtLib.Structures.Maps <> m var
+R647:647 ExtLib.Structures.Maps <> k var
+R653:656 Coq.Init.Datatypes <> Some constr
+R658:658 ExtLib.Structures.Maps <> v var
+R664:669 ExtLib.Structures.Maps <> mapsto meth
+R675:675 ExtLib.Structures.Maps <> m var
+R673:673 ExtLib.Structures.Maps <> v var
+R671:671 ExtLib.Structures.Maps <> k var
+R711:716 ExtLib.Structures.Maps <> mapsto meth
+R723:725 ExtLib.Structures.Maps <> add meth
+R731:731 ExtLib.Structures.Maps <> m var
+R729:729 ExtLib.Structures.Maps <> v var
+R727:727 ExtLib.Structures.Maps <> k var
+R720:720 ExtLib.Structures.Maps <> v var
+R718:718 ExtLib.Structures.Maps <> k var
+R802:828 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R855:859 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R841:846 ExtLib.Structures.Maps <> mapsto meth
+R854:854 ExtLib.Structures.Maps <> m var
+R851:852 ExtLib.Structures.Maps <> v' var
+R848:849 ExtLib.Structures.Maps <> k' var
+R860:865 ExtLib.Structures.Maps <> mapsto meth
+R874:876 ExtLib.Structures.Maps <> add meth
+R882:882 ExtLib.Structures.Maps <> m var
+R880:880 ExtLib.Structures.Maps <> v var
+R878:878 ExtLib.Structures.Maps <> k var
+R870:871 ExtLib.Structures.Maps <> v' var
+R867:868 ExtLib.Structures.Maps <> k' var
+R795:795 Coq.Init.Logic <> ::type_scope:'~'_x not
+R796:796 ExtLib.Structures.Maps <> Maps.R var
+R800:801 ExtLib.Structures.Maps <> k' var
+R798:798 ExtLib.Structures.Maps <> k var
+var 903:903 Maps M
+R907:909 ExtLib.Structures.Maps <> Map class
+def 926:933 <> contains
+R940:940 ExtLib.Structures.Maps <> Maps.K var
+R948:950 ExtLib.Structures.Maps <> Maps.map var
+R955:958 Coq.Init.Datatypes <> bool ind
+R973:978 ExtLib.Structures.Maps <> lookup meth
+R982:982 ExtLib.Structures.Maps <> m var
+R980:980 ExtLib.Structures.Maps <> k var
+R997:1000 Coq.Init.Datatypes <> None constr
+R1005:1009 Coq.Init.Datatypes <> false constr
+R1019:1022 Coq.Init.Datatypes <> Some constr
+R1029:1032 Coq.Init.Datatypes <> true constr
+def 1057:1065 <> singleton
+R1072:1072 ExtLib.Structures.Maps <> Maps.K var
+R1080:1080 ExtLib.Structures.Maps <> Maps.V var
+R1085:1087 ExtLib.Structures.Maps <> Maps.map var
+R1096:1098 ExtLib.Structures.Maps <> add meth
+R1104:1108 ExtLib.Structures.Maps <> empty meth
+R1102:1102 ExtLib.Structures.Maps <> v var
+R1100:1100 ExtLib.Structures.Maps <> k var
+R1147:1154 ExtLib.Structures.Reducible <> Foldable class
+R1162:1164 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R1161:1161 ExtLib.Structures.Maps <> Maps.K var
+R1165:1165 ExtLib.Structures.Maps <> Maps.V var
+R1156:1158 ExtLib.Structures.Maps <> Maps.map var
+def 1184:1190 <> combine
+R1198:1201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1203:1206 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1208:1211 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1212:1212 ExtLib.Structures.Maps <> Maps.V var
+R1207:1207 ExtLib.Structures.Maps <> Maps.V var
+R1202:1202 ExtLib.Structures.Maps <> Maps.V var
+R1197:1197 ExtLib.Structures.Maps <> Maps.K var
+R1224:1226 ExtLib.Structures.Maps <> Maps.map var
+R1231:1233 ExtLib.Structures.Maps <> Maps.map var
+R1242:1245 ExtLib.Structures.Reducible <> fold def
+R1406:1407 ExtLib.Structures.Maps <> m1 var
+R1403:1404 ExtLib.Structures.Maps <> m2 var
+R1283:1285 ExtLib.Structures.Maps <> k_v var
+R1274:1274 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1276:1276 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1278:1278 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1302:1307 ExtLib.Structures.Maps <> lookup meth
+R1311:1313 ExtLib.Structures.Maps <> acc var
+R1330:1333 Coq.Init.Datatypes <> None constr
+R1338:1340 ExtLib.Structures.Maps <> add meth
+R1346:1348 ExtLib.Structures.Maps <> acc var
+R1360:1363 Coq.Init.Datatypes <> Some constr
+R1371:1373 ExtLib.Structures.Maps <> add meth
+R1388:1390 ExtLib.Structures.Maps <> acc var
+R1378:1378 ExtLib.Structures.Maps <> f var
+def 1424:1429 <> filter
+R1437:1440 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1442:1445 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1446:1449 Coq.Init.Datatypes <> bool ind
+R1441:1441 ExtLib.Structures.Maps <> Maps.V var
+R1436:1436 ExtLib.Structures.Maps <> Maps.K var
+R1457:1459 ExtLib.Structures.Maps <> Maps.map var
+R1464:1466 ExtLib.Structures.Maps <> Maps.map var
+R1475:1478 ExtLib.Structures.Reducible <> fold def
+R1587:1587 ExtLib.Structures.Maps <> m var
+R1581:1585 ExtLib.Structures.Maps <> empty meth
+R1516:1518 ExtLib.Structures.Maps <> k_v var
+R1507:1507 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1509:1509 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1511:1511 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1532:1532 ExtLib.Structures.Maps <> f var
+R1576:1578 ExtLib.Structures.Maps <> acc var
+R1551:1553 ExtLib.Structures.Maps <> add meth
+R1559:1561 ExtLib.Structures.Maps <> acc var
+def 1604:1614 <> submap_with
+R1623:1626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1628:1631 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1632:1635 Coq.Init.Datatypes <> bool ind
+R1627:1627 ExtLib.Structures.Maps <> Maps.V var
+R1622:1622 ExtLib.Structures.Maps <> Maps.V var
+R1647:1649 ExtLib.Structures.Maps <> Maps.map var
+R1654:1657 Coq.Init.Datatypes <> bool ind
+R1666:1669 ExtLib.Structures.Reducible <> fold def
+R1868:1869 ExtLib.Structures.Maps <> m1 var
+R1863:1866 Coq.Init.Datatypes <> true constr
+R1687:1690 Coq.Init.Datatypes <> bool ind
+R1706:1708 ExtLib.Structures.Maps <> acc var
+R1856:1860 Coq.Init.Datatypes <> false constr
+R1738:1740 ExtLib.Structures.Maps <> k_v var
+R1729:1729 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1731:1731 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1733:1733 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1759:1764 ExtLib.Structures.Maps <> lookup meth
+R1768:1769 ExtLib.Structures.Maps <> m2 var
+R1788:1791 Coq.Init.Datatypes <> None constr
+R1796:1800 Coq.Init.Datatypes <> false constr
+R1814:1817 Coq.Init.Datatypes <> Some constr
+R1825:1826 ExtLib.Structures.Maps <> le var
+R2161:2164 ExtLib.Structures.Maps Maps <> sec
+R2178:2182 ExtLib.Structures.Maps <> empty meth
+R2178:2182 ExtLib.Structures.Maps <> empty meth
+R2212:2214 ExtLib.Structures.Maps <> add meth
+R2212:2214 ExtLib.Structures.Maps <> add meth
+R2251:2256 ExtLib.Structures.Maps <> remove meth
+R2251:2256 ExtLib.Structures.Maps <> remove meth
+R2291:2296 ExtLib.Structures.Maps <> lookup meth
+R2291:2296 ExtLib.Structures.Maps <> lookup meth
+R2331:2338 ExtLib.Structures.Maps <> contains def
+R2331:2338 ExtLib.Structures.Maps <> contains def
+R2371:2379 ExtLib.Structures.Maps <> singleton def
+R2371:2379 ExtLib.Structures.Maps <> singleton def
+R2412:2418 ExtLib.Structures.Maps <> combine def
+R2412:2418 ExtLib.Structures.Maps <> combine def

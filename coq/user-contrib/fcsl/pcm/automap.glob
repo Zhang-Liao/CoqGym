@@ -1,0 +1,2080 @@
+DIGEST f60ff9f3152b59f700c35aa5f1395bc3
+Ffcsl.pcm.automap
+R593:601 Coq.ssr.ssreflect <> <> lib
+R603:609 Coq.ssr.ssrbool <> <> lib
+R611:616 Coq.ssr.ssrfun <> <> lib
+R648:653 mathcomp.ssreflect.ssrnat <> <> lib
+R655:660 mathcomp.ssreflect.eqtype <> <> lib
+R662:664 mathcomp.ssreflect.seq <> <> lib
+R692:695 fcsl.pcm.pred <> <> lib
+R697:703 fcsl.finmap.ordtype <> <> lib
+R705:707 fcsl.pcm.pcm <> <> lib
+R709:716 fcsl.pcm.unionmap <> <> lib
+sec 2839:2845 <> Helpers
+var 2857:2857 Helpers A
+def 2877:2880 <> onth
+R2887:2889 mathcomp.ssreflect.seq <> seq syndef
+R2891:2891 fcsl.pcm.automap <> Helpers.A var
+R2898:2903 Coq.Init.Datatypes <> option ind
+R2905:2905 fcsl.pcm.automap <> Helpers.A var
+R2916:2916 fcsl.pcm.automap <> s var
+R2922:2923 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R2935:2935 fcsl.pcm.automap <> n var
+R2942:2944 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R2951:2954 fcsl.pcm.automap <> onth def
+R2967:2970 Coq.Init.Datatypes <> Some constr
+R2979:2982 Coq.Init.Datatypes <> None constr
+def 2997:3002 <> prefix
+R3046:3049 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3059:3061 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3050:3053 fcsl.pcm.automap <> onth def
+R3058:3058 fcsl.pcm.automap <> n var
+R3055:3056 fcsl.pcm.automap <> s2 var
+R3062:3065 Coq.ssr.ssrfun <> some syndef
+R3067:3067 fcsl.pcm.automap <> x var
+R3037:3039 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3028:3031 fcsl.pcm.automap <> onth def
+R3036:3036 fcsl.pcm.automap <> n var
+R3033:3034 fcsl.pcm.automap <> s1 var
+R3040:3043 Coq.ssr.ssrfun <> some syndef
+R3045:3045 fcsl.pcm.automap <> x var
+prf 3091:3099 <> size_onth
+R3117:3120 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3121:3127 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3129:3130 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R3139:3141 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3131:3134 fcsl.pcm.automap <> onth def
+R3138:3138 fcsl.pcm.automap <> n var
+R3136:3136 fcsl.pcm.automap <> s var
+R3142:3145 Coq.Init.Datatypes <> Some constr
+R3147:3147 fcsl.pcm.automap <> x var
+R3108:3110 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R3107:3107 fcsl.pcm.automap <> n var
+R3111:3114 mathcomp.ssreflect.seq <> size def
+R3116:3116 fcsl.pcm.automap <> s var
+R3221:3225 mathcomp.ssreflect.ssrnat <> addn1 thm
+R3232:3236 mathcomp.ssreflect.ssrnat <> addn1 thm
+R3239:3242 mathcomp.ssreflect.seq <> size def
+R3248:3256 mathcomp.ssreflect.ssrnat <> ltn_add2r thm
+R3221:3225 mathcomp.ssreflect.ssrnat <> addn1 thm
+R3221:3225 mathcomp.ssreflect.ssrnat <> addn1 thm
+R3232:3236 mathcomp.ssreflect.ssrnat <> addn1 thm
+R3239:3242 mathcomp.ssreflect.seq <> size def
+R3232:3236 mathcomp.ssreflect.ssrnat <> addn1 thm
+R3239:3242 mathcomp.ssreflect.seq <> size def
+R3248:3256 mathcomp.ssreflect.ssrnat <> ltn_add2r thm
+R3248:3256 mathcomp.ssreflect.ssrnat <> ltn_add2r thm
+prf 3282:3290 <> onth_size
+R3317:3320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3322:3324 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R3321:3321 fcsl.pcm.automap <> n var
+R3325:3328 mathcomp.ssreflect.seq <> size def
+R3330:3330 fcsl.pcm.automap <> s var
+R3308:3310 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3300:3303 fcsl.pcm.automap <> onth def
+R3307:3307 fcsl.pcm.automap <> n var
+R3305:3305 fcsl.pcm.automap <> s var
+R3311:3314 Coq.Init.Datatypes <> Some constr
+R3316:3316 fcsl.pcm.automap <> x var
+prf 3397:3407 <> prefix_refl
+R3413:3418 fcsl.pcm.automap <> prefix def
+R3422:3422 fcsl.pcm.automap <> s var
+R3420:3420 fcsl.pcm.automap <> s var
+prf 3461:3472 <> prefix_trans
+R3497:3500 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3513:3516 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3517:3522 fcsl.pcm.automap <> prefix def
+R3527:3528 fcsl.pcm.automap <> s3 var
+R3524:3525 fcsl.pcm.automap <> s1 var
+R3501:3506 fcsl.pcm.automap <> prefix def
+R3511:3512 fcsl.pcm.automap <> s3 var
+R3508:3509 fcsl.pcm.automap <> s2 var
+R3485:3490 fcsl.pcm.automap <> prefix def
+R3495:3496 fcsl.pcm.automap <> s2 var
+R3492:3493 fcsl.pcm.automap <> s1 var
+prf 3594:3604 <> prefix_cons
+R3642:3646 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R3616:3621 fcsl.pcm.automap <> prefix def
+R3635:3638 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R3634:3634 fcsl.pcm.automap <> x var
+R3639:3640 fcsl.pcm.automap <> s2 var
+R3625:3628 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R3624:3624 fcsl.pcm.automap <> x var
+R3629:3630 fcsl.pcm.automap <> s1 var
+R3647:3652 fcsl.pcm.automap <> prefix def
+R3657:3658 fcsl.pcm.automap <> s2 var
+R3654:3655 fcsl.pcm.automap <> s1 var
+R3695:3697 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R3695:3697 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+prf 3724:3735 <> prefix_cons'
+R3784:3787 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3793:3796 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3789:3791 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3788:3788 fcsl.pcm.automap <> x var
+R3792:3792 fcsl.pcm.automap <> y var
+R3797:3802 fcsl.pcm.automap <> prefix def
+R3807:3808 fcsl.pcm.automap <> s2 var
+R3804:3805 fcsl.pcm.automap <> s1 var
+R3758:3763 fcsl.pcm.automap <> prefix def
+R3777:3780 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R3776:3776 fcsl.pcm.automap <> y var
+R3781:3782 fcsl.pcm.automap <> s2 var
+R3767:3770 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R3766:3766 fcsl.pcm.automap <> x var
+R3771:3772 fcsl.pcm.automap <> s1 var
+R3844:3848 Coq.ssr.ssrfun <> erefl syndef
+R3844:3848 Coq.ssr.ssrfun <> erefl syndef
+R3844:3848 Coq.ssr.ssrfun <> erefl syndef
+R3863:3873 fcsl.pcm.automap <> prefix_cons thm
+prf 3888:3898 <> prefix_size
+R3920:3923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3931:3934 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<='_x not
+R3924:3927 mathcomp.ssreflect.seq <> size def
+R3929:3930 fcsl.pcm.automap <> s1 var
+R3935:3938 mathcomp.ssreflect.seq <> size def
+R3940:3941 fcsl.pcm.automap <> s2 var
+R3908:3913 fcsl.pcm.automap <> prefix def
+R3918:3919 fcsl.pcm.automap <> s2 var
+R3915:3916 fcsl.pcm.automap <> s1 var
+R4011:4015 Coq.ssr.ssrfun <> erefl syndef
+R4011:4015 Coq.ssr.ssrfun <> erefl syndef
+R4011:4015 Coq.ssr.ssrfun <> erefl syndef
+R4033:4036 mathcomp.ssreflect.ssrnat <> ltnS thm
+R4053:4057 Coq.Init.Logic <> proj2 thm
+R4060:4071 fcsl.pcm.automap <> prefix_cons' thm
+R4033:4036 mathcomp.ssreflect.ssrnat <> ltnS thm
+R4033:4036 mathcomp.ssreflect.ssrnat <> ltnS thm
+R4053:4057 Coq.Init.Logic <> proj2 thm
+R4060:4071 fcsl.pcm.automap <> prefix_cons' thm
+prf 4091:4101 <> prefix_onth
+R4121:4124 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4135:4138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4147:4149 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4139:4142 fcsl.pcm.automap <> onth def
+R4146:4146 fcsl.pcm.automap <> x var
+R4144:4144 fcsl.pcm.automap <> s var
+R4150:4153 fcsl.pcm.automap <> onth def
+R4157:4157 fcsl.pcm.automap <> x var
+R4155:4155 fcsl.pcm.automap <> t var
+R4125:4130 fcsl.pcm.automap <> prefix def
+R4134:4134 fcsl.pcm.automap <> t var
+R4132:4132 fcsl.pcm.automap <> s var
+R4112:4114 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R4111:4111 fcsl.pcm.automap <> x var
+R4115:4118 mathcomp.ssreflect.seq <> size def
+R4120:4120 fcsl.pcm.automap <> s var
+R4232:4236 Coq.ssr.ssrfun <> erefl syndef
+R4232:4236 Coq.ssr.ssrfun <> erefl syndef
+R4232:4236 Coq.ssr.ssrfun <> erefl syndef
+R4251:4262 fcsl.pcm.automap <> prefix_cons' thm
+R4322:4328 fcsl.pcm.automap Helpers <> sec
+prf 4372:4379 <> onth_mem
+R4386:4391 mathcomp.ssreflect.eqtype Equality.Exports eqType syndef
+R4399:4401 mathcomp.ssreflect.seq <> seq syndef
+R4403:4403 fcsl.pcm.automap <> A var
+R4429:4432 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4434:4438 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R4433:4433 fcsl.pcm.automap <> x var
+R4439:4439 fcsl.pcm.automap <> s var
+R4420:4422 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4412:4415 fcsl.pcm.automap <> onth def
+R4419:4419 fcsl.pcm.automap <> n var
+R4417:4417 fcsl.pcm.automap <> s var
+R4423:4426 Coq.Init.Datatypes <> Some constr
+R4428:4428 fcsl.pcm.automap <> x var
+R4496:4498 mathcomp.ssreflect.seq <> inE def
+R4501:4507 mathcomp.ssreflect.eqtype <> eq_refl thm
+R4512:4515 Coq.ssr.ssrbool <> orbC thm
+R4496:4498 mathcomp.ssreflect.seq <> inE def
+R4496:4498 mathcomp.ssreflect.seq <> inE def
+R4501:4507 mathcomp.ssreflect.eqtype <> eq_refl thm
+R4501:4507 mathcomp.ssreflect.eqtype <> eq_refl thm
+R4501:4507 mathcomp.ssreflect.eqtype <> eq_refl thm
+R4496:4498 mathcomp.ssreflect.seq <> inE def
+R4496:4498 mathcomp.ssreflect.seq <> inE def
+R4501:4507 mathcomp.ssreflect.eqtype <> eq_refl thm
+R4501:4507 mathcomp.ssreflect.eqtype <> eq_refl thm
+R4512:4515 Coq.ssr.ssrbool <> orbC thm
+R4512:4515 Coq.ssr.ssrbool <> orbC thm
+sec 4996:5013 <> ReflectionContexts
+var 5027:5027 ReflectionContexts K
+var 5041:5041 ReflectionContexts T
+var 5052:5052 ReflectionContexts U
+R5031:5037 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R5056:5070 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R5074:5074 fcsl.pcm.automap <> T var
+R5072:5072 fcsl.pcm.automap <> K var
+constr 5096:5102 <> Context
+rec 5089:5091 <> ctx
+proj 5105:5108 <> keyx
+proj 5119:5122 <> varx
+R5112:5114 mathcomp.ssreflect.seq <> seq syndef
+R5116:5116 fcsl.pcm.automap <> ReflectionContexts.K var
+R5126:5128 mathcomp.ssreflect.seq <> seq syndef
+R5130:5130 fcsl.pcm.automap <> ReflectionContexts.U var
+def 5146:5149 <> empx
+R5154:5160 fcsl.pcm.automap <> Context constr
+R5167:5170 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R5162:5165 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+def 5273:5279 <> sub_ctx
+R5312:5315 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R5288:5293 fcsl.pcm.automap <> prefix def
+R5305:5308 fcsl.pcm.automap <> keyx proj
+R5310:5310 fcsl.pcm.automap <> j var
+R5296:5299 fcsl.pcm.automap <> keyx proj
+R5301:5301 fcsl.pcm.automap <> i var
+R5316:5321 fcsl.pcm.automap <> prefix def
+R5333:5336 fcsl.pcm.automap <> varx proj
+R5338:5338 fcsl.pcm.automap <> j var
+R5324:5327 fcsl.pcm.automap <> varx proj
+R5329:5329 fcsl.pcm.automap <> i var
+prf 5349:5355 <> sc_refl
+R5361:5367 fcsl.pcm.automap <> sub_ctx def
+R5371:5371 fcsl.pcm.automap <> i var
+R5369:5369 fcsl.pcm.automap <> i var
+prf 5400:5407 <> sc_trans
+R5428:5431 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5443:5446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5447:5453 fcsl.pcm.automap <> sub_ctx def
+R5457:5457 fcsl.pcm.automap <> k var
+R5455:5455 fcsl.pcm.automap <> i var
+R5432:5438 fcsl.pcm.automap <> sub_ctx def
+R5442:5442 fcsl.pcm.automap <> k var
+R5440:5440 fcsl.pcm.automap <> j var
+R5417:5423 fcsl.pcm.automap <> sub_ctx def
+R5427:5427 fcsl.pcm.automap <> j var
+R5425:5425 fcsl.pcm.automap <> i var
+R5528:5539 fcsl.pcm.automap <> prefix_trans thm
+R5528:5539 fcsl.pcm.automap <> prefix_trans thm
+R5528:5539 fcsl.pcm.automap <> prefix_trans thm
+R5552:5569 fcsl.pcm.automap ReflectionContexts <> sec
+sec 7580:7592 <> OneShotFilter
+var 7606:7606 OneShotFilter A
+var 7617:7617 OneShotFilter p
+R7621:7624 Coq.ssr.ssrbool <> pred def
+R7626:7626 fcsl.pcm.automap <> A var
+def 7640:7646 <> rfilter
+R7653:7655 mathcomp.ssreflect.seq <> seq syndef
+R7657:7657 fcsl.pcm.automap <> OneShotFilter.A var
+R7668:7669 fcsl.pcm.automap <> ts var
+R7675:7678 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R7688:7690 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R7694:7699 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R7703:7708 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R7691:7691 fcsl.pcm.automap <> OneShotFilter.p var
+R7710:7713 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R7714:7720 fcsl.pcm.automap <> rfilter def
+R7731:7734 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R7741:7753 fcsl.pcm.automap OneShotFilter <> sec
+sec 7791:7800 <> Reflection
+var 7814:7814 Reflection K
+var 7828:7828 Reflection T
+var 7839:7839 Reflection U
+R7818:7824 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R7843:7857 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R7861:7861 fcsl.pcm.automap <> T var
+R7859:7859 fcsl.pcm.automap <> K var
+R7883:7885 fcsl.pcm.automap <> ctx rec
+R7887:7887 fcsl.pcm.automap <> Reflection.U var
+ind 7901:7904 <> term
+constr 7909:7911 <> Pts
+constr 7926:7928 <> Var
+R7916:7918 Coq.Init.Datatypes <> nat ind
+R7922:7922 fcsl.pcm.automap <> Reflection.T var
+R7923:7923 fcsl.pcm.automap <> term ind
+R7933:7935 Coq.Init.Datatypes <> nat ind
+R7936:7936 fcsl.pcm.automap <> term ind
+def 7993:7999 <> interp'
+R8017:8017 fcsl.pcm.automap <> t var
+R8028:8030 fcsl.pcm.automap <> Pts constr
+R8042:8045 fcsl.pcm.automap <> onth def
+R8048:8051 fcsl.pcm.automap <> keyx proj
+R8053:8053 fcsl.pcm.automap <> i var
+R8061:8064 Coq.Init.Datatypes <> Some constr
+R8073:8075 fcsl.pcm.unionmap UMC.Exports pts syndef
+R8086:8093 fcsl.pcm.unionmap UMC.Exports um_undef syndef
+R8099:8101 fcsl.pcm.automap <> Var constr
+R8111:8114 fcsl.pcm.automap <> onth def
+R8117:8120 fcsl.pcm.automap <> varx proj
+R8122:8122 fcsl.pcm.automap <> i var
+R8130:8133 Coq.Init.Datatypes <> Some constr
+R8149:8156 fcsl.pcm.unionmap UMC.Exports um_undef syndef
+syndef 8210:8211 <> fx
+R8241:8244 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R8230:8236 fcsl.pcm.automap <> interp' def
+R8240:8240 fcsl.pcm.automap <> t var
+R8245:8245 fcsl.pcm.automap <> f var
+def 8260:8265 <> interp
+R8275:8279 mathcomp.ssreflect.seq <> foldr def
+R8293:8294 fcsl.pcm.automap <> ts var
+R8288:8291 fcsl.pcm.pcm PCM.Exports Unit syndef
+R8282:8283 fcsl.pcm.automap <> fx syndef
+R8285:8285 fcsl.pcm.automap <> i var
+prf 8304:8305 <> fE
+R8334:8336 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8317:8321 mathcomp.ssreflect.seq <> foldr def
+R8332:8333 fcsl.pcm.automap <> ts var
+R8330:8330 fcsl.pcm.automap <> x var
+R8324:8325 fcsl.pcm.automap <> fx syndef
+R8327:8327 fcsl.pcm.automap <> i var
+R8338:8341 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R8337:8337 fcsl.pcm.automap <> x var
+R8342:8347 fcsl.pcm.automap <> interp def
+R8351:8352 fcsl.pcm.automap <> ts var
+R8349:8349 fcsl.pcm.automap <> i var
+R8403:8407 fcsl.pcm.pcm PCM.Exports unitR thm
+R8415:8420 fcsl.pcm.pcm PCM.Exports joinCA thm
+R8403:8407 fcsl.pcm.pcm PCM.Exports unitR thm
+R8403:8407 fcsl.pcm.pcm PCM.Exports unitR thm
+R8403:8407 fcsl.pcm.pcm PCM.Exports unitR thm
+R8403:8407 fcsl.pcm.pcm PCM.Exports unitR thm
+R8403:8407 fcsl.pcm.pcm PCM.Exports unitR thm
+R8415:8420 fcsl.pcm.pcm PCM.Exports joinCA thm
+R8415:8420 fcsl.pcm.pcm PCM.Exports joinCA thm
+prf 8435:8444 <> interp_rev
+R8470:8472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8453:8458 fcsl.pcm.automap <> interp def
+R8463:8465 mathcomp.ssreflect.seq <> rev def
+R8467:8468 fcsl.pcm.automap <> ts var
+R8460:8460 fcsl.pcm.automap <> i var
+R8473:8478 fcsl.pcm.automap <> interp def
+R8482:8483 fcsl.pcm.automap <> ts var
+R8480:8480 fcsl.pcm.automap <> i var
+R8528:8535 mathcomp.ssreflect.seq <> rev_cons thm
+R8538:8542 mathcomp.ssreflect.seq <> cats1 thm
+R8528:8535 mathcomp.ssreflect.seq <> rev_cons thm
+R8528:8535 mathcomp.ssreflect.seq <> rev_cons thm
+R8538:8542 mathcomp.ssreflect.seq <> cats1 thm
+R8538:8542 mathcomp.ssreflect.seq <> cats1 thm
+R8558:8563 fcsl.pcm.automap <> interp def
+R8565:8573 mathcomp.ssreflect.seq <> foldr_cat thm
+R8575:8576 fcsl.pcm.automap <> fE thm
+R8581:8585 fcsl.pcm.pcm PCM.Exports unitR thm
+R8558:8563 fcsl.pcm.automap <> interp def
+R8558:8563 fcsl.pcm.automap <> interp def
+R8565:8573 mathcomp.ssreflect.seq <> foldr_cat thm
+R8565:8573 mathcomp.ssreflect.seq <> foldr_cat thm
+R8575:8576 fcsl.pcm.automap <> fE thm
+R8575:8576 fcsl.pcm.automap <> fE thm
+R8581:8585 fcsl.pcm.pcm PCM.Exports unitR thm
+R8581:8585 fcsl.pcm.pcm PCM.Exports unitR thm
+def 8710:8715 <> pprint
+R8731:8732 fcsl.pcm.automap <> ts var
+R8738:8741 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R8766:8769 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R8776:8782 fcsl.pcm.automap <> interp' def
+R8784:8784 fcsl.pcm.automap <> i var
+R8804:8807 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R8793:8799 fcsl.pcm.automap <> interp' def
+R8801:8801 fcsl.pcm.automap <> i var
+R8808:8813 fcsl.pcm.automap <> pprint def
+R8815:8815 fcsl.pcm.automap <> i var
+R8829:8832 fcsl.pcm.pcm PCM.Exports Unit syndef
+prf 8842:8850 <> pp_interp
+R8870:8872 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R8859:8864 fcsl.pcm.automap <> pprint def
+R8868:8869 fcsl.pcm.automap <> ts var
+R8866:8866 fcsl.pcm.automap <> i var
+R8873:8878 fcsl.pcm.automap <> interp def
+R8882:8883 fcsl.pcm.automap <> ts var
+R8880:8880 fcsl.pcm.automap <> i var
+R8946:8950 fcsl.pcm.pcm PCM.Exports unitR thm
+R8946:8950 fcsl.pcm.pcm PCM.Exports unitR thm
+R8946:8950 fcsl.pcm.pcm PCM.Exports unitR thm
+def 8970:8972 <> key
+R8984:8984 fcsl.pcm.automap <> t var
+R8989:8991 fcsl.pcm.automap <> Pts constr
+R9003:9006 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R9002:9002 fcsl.pcm.automap <> n var
+R9014:9018 Coq.Init.Datatypes <> false constr
+def 9032:9034 <> var
+R9046:9046 fcsl.pcm.automap <> t var
+R9051:9053 fcsl.pcm.automap <> Var constr
+R9063:9066 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R9062:9062 fcsl.pcm.automap <> n var
+R9074:9078 Coq.Init.Datatypes <> false constr
+def 9093:9097 <> kfree
+R9106:9112 fcsl.pcm.automap <> rfilter def
+R9122:9122 fcsl.pcm.automap <> t var
+R9115:9117 fcsl.pcm.automap <> key def
+R9119:9119 fcsl.pcm.automap <> n var
+def 9136:9140 <> vfree
+R9149:9155 fcsl.pcm.automap <> rfilter def
+R9165:9165 fcsl.pcm.automap <> t var
+R9158:9160 fcsl.pcm.automap <> var def
+R9162:9162 fcsl.pcm.automap <> n var
+prf 9175:9178 <> keyN
+R9206:9209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9231:9233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9210:9215 fcsl.pcm.automap <> interp def
+R9220:9224 fcsl.pcm.automap <> kfree def
+R9228:9229 fcsl.pcm.automap <> ts var
+R9226:9226 fcsl.pcm.automap <> n var
+R9217:9217 fcsl.pcm.automap <> i var
+R9234:9239 fcsl.pcm.automap <> interp def
+R9243:9244 fcsl.pcm.automap <> ts var
+R9241:9241 fcsl.pcm.automap <> i var
+R9189:9191 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R9192:9194 mathcomp.ssreflect.seq <> has def
+R9204:9205 fcsl.pcm.automap <> ts var
+R9197:9199 fcsl.pcm.automap <> key def
+R9201:9201 fcsl.pcm.automap <> n var
+R9289:9291 Coq.ssr.ssrbool <> ifP thm
+R9289:9291 Coq.ssr.ssrbool <> ifP thm
+R9289:9291 Coq.ssr.ssrbool <> ifP thm
+prf 9320:9323 <> varN
+R9351:9354 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9376:9378 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9355:9360 fcsl.pcm.automap <> interp def
+R9365:9369 fcsl.pcm.automap <> vfree def
+R9373:9374 fcsl.pcm.automap <> ts var
+R9371:9371 fcsl.pcm.automap <> n var
+R9362:9362 fcsl.pcm.automap <> i var
+R9379:9384 fcsl.pcm.automap <> interp def
+R9388:9389 fcsl.pcm.automap <> ts var
+R9386:9386 fcsl.pcm.automap <> i var
+R9334:9336 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R9337:9339 mathcomp.ssreflect.seq <> has def
+R9349:9350 fcsl.pcm.automap <> ts var
+R9342:9344 fcsl.pcm.automap <> var def
+R9346:9346 fcsl.pcm.automap <> n var
+R9434:9436 Coq.ssr.ssrbool <> ifP thm
+R9434:9436 Coq.ssr.ssrbool <> ifP thm
+R9434:9436 Coq.ssr.ssrbool <> ifP thm
+prf 9465:9468 <> keyP
+R9504:9507 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9532:9543 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9544:9550 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9552:9553 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R9565:9567 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9554:9559 fcsl.pcm.automap <> interp def
+R9563:9564 fcsl.pcm.automap <> ts var
+R9561:9561 fcsl.pcm.automap <> i var
+R9575:9578 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R9568:9570 fcsl.pcm.unionmap UMC.Exports pts syndef
+R9574:9574 fcsl.pcm.automap <> v var
+R9572:9572 fcsl.pcm.automap <> k var
+R9579:9584 fcsl.pcm.automap <> interp def
+R9589:9593 fcsl.pcm.automap <> kfree def
+R9597:9598 fcsl.pcm.automap <> ts var
+R9595:9595 fcsl.pcm.automap <> n var
+R9586:9586 fcsl.pcm.automap <> i var
+R9523:9525 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9508:9511 fcsl.pcm.automap <> onth def
+R9522:9522 fcsl.pcm.automap <> n var
+R9514:9517 fcsl.pcm.automap <> keyx proj
+R9519:9519 fcsl.pcm.automap <> i var
+R9526:9529 Coq.Init.Datatypes <> Some constr
+R9531:9531 fcsl.pcm.automap <> k var
+R9490:9492 mathcomp.ssreflect.seq <> has def
+R9502:9503 fcsl.pcm.automap <> ts var
+R9495:9497 fcsl.pcm.automap <> key def
+R9499:9499 fcsl.pcm.automap <> n var
+R9641:9643 Coq.ssr.ssrbool <> ifP thm
+R9641:9643 Coq.ssr.ssrbool <> ifP thm
+R9641:9643 Coq.ssr.ssrbool <> ifP thm
+R9677:9679 mathcomp.ssreflect.eqtype <> eqP thm
+R9741:9746 fcsl.pcm.pcm PCM.Exports joinCA thm
+R9741:9746 fcsl.pcm.pcm PCM.Exports joinCA thm
+R9741:9746 fcsl.pcm.pcm PCM.Exports joinCA thm
+prf 9762:9765 <> varP
+R9801:9804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9829:9840 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9852:9854 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9841:9846 fcsl.pcm.automap <> interp def
+R9850:9851 fcsl.pcm.automap <> ts var
+R9848:9848 fcsl.pcm.automap <> i var
+R9856:9859 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R9855:9855 fcsl.pcm.automap <> u var
+R9860:9865 fcsl.pcm.automap <> interp def
+R9870:9874 fcsl.pcm.automap <> vfree def
+R9878:9879 fcsl.pcm.automap <> ts var
+R9876:9876 fcsl.pcm.automap <> n var
+R9867:9867 fcsl.pcm.automap <> i var
+R9820:9822 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9805:9808 fcsl.pcm.automap <> onth def
+R9819:9819 fcsl.pcm.automap <> n var
+R9811:9814 fcsl.pcm.automap <> varx proj
+R9816:9816 fcsl.pcm.automap <> i var
+R9823:9826 Coq.Init.Datatypes <> Some constr
+R9828:9828 fcsl.pcm.automap <> u var
+R9787:9789 mathcomp.ssreflect.seq <> has def
+R9799:9800 fcsl.pcm.automap <> ts var
+R9792:9794 fcsl.pcm.automap <> var def
+R9796:9796 fcsl.pcm.automap <> n var
+R9922:9924 Coq.ssr.ssrbool <> ifP thm
+R9922:9924 Coq.ssr.ssrbool <> ifP thm
+R9922:9924 Coq.ssr.ssrbool <> ifP thm
+R9956:9958 mathcomp.ssreflect.eqtype <> eqP thm
+R9997:10002 fcsl.pcm.pcm PCM.Exports joinCA thm
+R9997:10002 fcsl.pcm.pcm PCM.Exports joinCA thm
+R9997:10002 fcsl.pcm.pcm PCM.Exports joinCA thm
+def 10146:10147 <> wf
+R10165:10165 fcsl.pcm.automap <> t var
+R10177:10179 fcsl.pcm.automap <> Pts constr
+R10189:10191 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R10192:10195 mathcomp.ssreflect.seq <> size def
+R10198:10201 fcsl.pcm.automap <> keyx proj
+R10203:10203 fcsl.pcm.automap <> i var
+R10211:10213 fcsl.pcm.automap <> Var constr
+R10221:10223 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R10224:10227 mathcomp.ssreflect.seq <> size def
+R10230:10233 fcsl.pcm.automap <> varx proj
+R10235:10235 fcsl.pcm.automap <> i var
+prf 10252:10256 <> sc_wf
+R10278:10281 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10295:10298 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10299:10301 mathcomp.ssreflect.seq <> all def
+R10310:10311 fcsl.pcm.automap <> ts var
+R10304:10305 fcsl.pcm.automap <> wf def
+R10307:10307 fcsl.pcm.automap <> j var
+R10282:10284 mathcomp.ssreflect.seq <> all def
+R10293:10294 fcsl.pcm.automap <> ts var
+R10287:10288 fcsl.pcm.automap <> wf def
+R10290:10290 fcsl.pcm.automap <> i var
+R10267:10273 fcsl.pcm.automap <> sub_ctx def
+R10277:10277 fcsl.pcm.automap <> j var
+R10275:10275 fcsl.pcm.automap <> i var
+R10328:10338 fcsl.pcm.automap <> prefix_size thm
+R10344:10354 fcsl.pcm.automap <> prefix_size thm
+R10415:10419 Coq.ssr.ssrbool <> andbT thm
+R10391:10394 Coq.ssr.ssrbool <> andP thm
+R10415:10419 Coq.ssr.ssrbool <> andbT thm
+R10415:10419 Coq.ssr.ssrbool <> andbT thm
+R10454:10462 mathcomp.ssreflect.ssrnat <> leq_trans thm
+R10454:10462 mathcomp.ssreflect.ssrnat <> leq_trans thm
+R10454:10462 mathcomp.ssreflect.ssrnat <> leq_trans thm
+prf 10481:10489 <> sc_interp
+R10520:10523 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10537:10540 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10552:10554 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10541:10546 fcsl.pcm.automap <> interp def
+R10550:10551 fcsl.pcm.automap <> ts var
+R10548:10548 fcsl.pcm.automap <> i var
+R10555:10560 fcsl.pcm.automap <> interp def
+R10564:10565 fcsl.pcm.automap <> ts var
+R10562:10562 fcsl.pcm.automap <> j var
+R10524:10526 mathcomp.ssreflect.seq <> all def
+R10535:10536 fcsl.pcm.automap <> ts var
+R10529:10530 fcsl.pcm.automap <> wf def
+R10532:10532 fcsl.pcm.automap <> i var
+R10509:10515 fcsl.pcm.automap <> sub_ctx def
+R10519:10519 fcsl.pcm.automap <> j var
+R10517:10517 fcsl.pcm.automap <> i var
+R10614:10617 Coq.ssr.ssrbool <> andP thm
+R10657:10667 fcsl.pcm.automap <> prefix_onth thm
+R10657:10667 fcsl.pcm.automap <> prefix_onth thm
+prf 10685:10692 <> valid_wf
+R10720:10723 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10724:10726 mathcomp.ssreflect.seq <> all def
+R10735:10736 fcsl.pcm.automap <> ts var
+R10729:10730 fcsl.pcm.automap <> wf def
+R10732:10732 fcsl.pcm.automap <> i var
+R10701:10705 fcsl.pcm.pcm PCM.Exports valid syndef
+R10708:10713 fcsl.pcm.automap <> interp def
+R10717:10718 fcsl.pcm.automap <> ts var
+R10715:10715 fcsl.pcm.automap <> i var
+R10787:10792 fcsl.pcm.pcm PCM.Exports validR thm
+R10798:10802 Coq.ssr.ssrbool <> andbT thm
+R10787:10792 fcsl.pcm.pcm PCM.Exports validR thm
+R10787:10792 fcsl.pcm.pcm PCM.Exports validR thm
+R10798:10802 Coq.ssr.ssrbool <> andbT thm
+R10798:10802 Coq.ssr.ssrbool <> andbT thm
+R10821:10826 fcsl.pcm.pcm PCM.Exports validL thm
+R10857:10860 fcsl.pcm.automap <> onth def
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10900:10910 fcsl.pcm.unionmap <> valid_undef thm
+R10821:10826 fcsl.pcm.pcm PCM.Exports validL thm
+R10821:10826 fcsl.pcm.pcm PCM.Exports validL thm
+R10857:10860 fcsl.pcm.automap <> onth def
+R10857:10860 fcsl.pcm.automap <> onth def
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10900:10910 fcsl.pcm.unionmap <> valid_undef thm
+R10900:10910 fcsl.pcm.unionmap <> valid_undef thm
+R10857:10860 fcsl.pcm.automap <> onth def
+R10857:10860 fcsl.pcm.automap <> onth def
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10884:10892 fcsl.pcm.automap <> onth_size thm
+R10900:10910 fcsl.pcm.unionmap <> valid_undef thm
+R10900:10910 fcsl.pcm.unionmap <> valid_undef thm
+prf 10926:10933 <> wf_kfree
+R10957:10960 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10961:10963 mathcomp.ssreflect.seq <> all def
+R10973:10977 fcsl.pcm.automap <> kfree def
+R10981:10982 fcsl.pcm.automap <> ts var
+R10979:10979 fcsl.pcm.automap <> n var
+R10966:10967 fcsl.pcm.automap <> wf def
+R10969:10969 fcsl.pcm.automap <> i var
+R10944:10946 mathcomp.ssreflect.seq <> all def
+R10955:10956 fcsl.pcm.automap <> ts var
+R10949:10950 fcsl.pcm.automap <> wf def
+R10952:10952 fcsl.pcm.automap <> i var
+R11025:11027 Coq.ssr.ssrbool <> ifP thm
+R11025:11027 Coq.ssr.ssrbool <> ifP thm
+R11025:11027 Coq.ssr.ssrbool <> ifP thm
+R11033:11036 Coq.ssr.ssrbool <> andP thm
+R11033:11036 Coq.ssr.ssrbool <> andP thm
+prf 11068:11075 <> wf_vfree
+R11099:11102 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11103:11105 mathcomp.ssreflect.seq <> all def
+R11115:11119 fcsl.pcm.automap <> vfree def
+R11123:11124 fcsl.pcm.automap <> ts var
+R11121:11121 fcsl.pcm.automap <> n var
+R11108:11109 fcsl.pcm.automap <> wf def
+R11111:11111 fcsl.pcm.automap <> i var
+R11086:11088 mathcomp.ssreflect.seq <> all def
+R11097:11098 fcsl.pcm.automap <> ts var
+R11091:11092 fcsl.pcm.automap <> wf def
+R11094:11094 fcsl.pcm.automap <> i var
+R11167:11169 Coq.ssr.ssrbool <> ifP thm
+R11167:11169 Coq.ssr.ssrbool <> ifP thm
+R11167:11169 Coq.ssr.ssrbool <> ifP thm
+R11175:11178 Coq.ssr.ssrbool <> andP thm
+R11175:11178 Coq.ssr.ssrbool <> andP thm
+def 11282:11288 <> getkeys
+R11296:11300 mathcomp.ssreflect.seq <> foldr def
+R11353:11356 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R11318:11318 fcsl.pcm.automap <> t var
+R11323:11325 fcsl.pcm.automap <> Pts constr
+R11337:11340 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R11341:11342 fcsl.pcm.automap <> ks var
+R11349:11350 fcsl.pcm.automap <> ks var
+prf 11366:11376 <> has_getkeys
+R11401:11403 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11386:11390 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R11385:11385 fcsl.pcm.automap <> n var
+R11391:11397 fcsl.pcm.automap <> getkeys def
+R11399:11400 fcsl.pcm.automap <> ts var
+R11404:11406 mathcomp.ssreflect.seq <> has def
+R11416:11417 fcsl.pcm.automap <> ts var
+R11409:11411 fcsl.pcm.automap <> key def
+R11413:11413 fcsl.pcm.automap <> n var
+R11482:11484 mathcomp.ssreflect.seq <> inE def
+R11482:11484 mathcomp.ssreflect.seq <> inE def
+R11482:11484 mathcomp.ssreflect.seq <> inE def
+R11500:11509 fcsl.pcm.automap Reflection <> sec
+sec 12123:12129 <> Subterm
+var 12143:12143 Subterm K
+var 12157:12157 Subterm T
+var 12168:12168 Subterm U
+R12147:12153 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R12172:12186 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R12190:12190 fcsl.pcm.automap <> T var
+R12188:12188 fcsl.pcm.automap <> K var
+R12214:12216 fcsl.pcm.automap <> ctx rec
+R12218:12218 fcsl.pcm.automap <> Subterm.U var
+R12227:12229 mathcomp.ssreflect.seq <> seq syndef
+R12232:12235 fcsl.pcm.automap <> term ind
+R12237:12237 fcsl.pcm.automap <> Subterm.T var
+def 12252:12258 <> subterm
+R12280:12282 fcsl.pcm.automap <> ts1 var
+R12301:12304 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R12294:12296 fcsl.pcm.automap <> Pts constr
+R12320:12322 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R12338:12343 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R12370:12375 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R12323:12325 mathcomp.ssreflect.seq <> has def
+R12335:12337 fcsl.pcm.automap <> ts2 var
+R12328:12330 fcsl.pcm.automap <> key def
+R12344:12350 fcsl.pcm.automap <> subterm def
+R12358:12362 fcsl.pcm.automap <> kfree def
+R12366:12368 fcsl.pcm.automap <> ts2 var
+R12376:12380 Coq.Init.Datatypes <> false constr
+R12391:12394 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R12386:12388 fcsl.pcm.automap <> Var constr
+R12410:12412 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R12428:12433 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R12460:12465 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R12413:12415 mathcomp.ssreflect.seq <> has def
+R12425:12427 fcsl.pcm.automap <> ts2 var
+R12418:12420 fcsl.pcm.automap <> var def
+R12434:12440 fcsl.pcm.automap <> subterm def
+R12448:12452 fcsl.pcm.automap <> vfree def
+R12456:12458 fcsl.pcm.automap <> ts2 var
+R12466:12470 Coq.Init.Datatypes <> false constr
+R12476:12479 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R12484:12487 Coq.Init.Datatypes <> true constr
+prf 12557:12569 <> subterm_sound
+R12605:12608 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12623:12626 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12642:12653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12654:12660 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12662:12663 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12664:12669 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R12692:12697 fcsl.pcm.automap <> interp def
+R12701:12703 fcsl.pcm.automap <> ts2 var
+R12699:12699 fcsl.pcm.automap <> i var
+R12684:12687 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R12672:12677 fcsl.pcm.automap <> interp def
+R12681:12683 fcsl.pcm.automap <> ts1 var
+R12679:12679 fcsl.pcm.automap <> i var
+R12688:12688 fcsl.pcm.automap <> u var
+R12627:12633 fcsl.pcm.automap <> subterm def
+R12639:12641 fcsl.pcm.automap <> ts2 var
+R12635:12637 fcsl.pcm.automap <> ts1 var
+R12609:12611 mathcomp.ssreflect.seq <> all def
+R12620:12622 fcsl.pcm.automap <> ts2 var
+R12614:12615 fcsl.pcm.automap <> wf def
+R12617:12617 fcsl.pcm.automap <> i var
+R12591:12593 mathcomp.ssreflect.seq <> all def
+R12602:12604 fcsl.pcm.automap <> ts1 var
+R12596:12597 fcsl.pcm.automap <> wf def
+R12599:12599 fcsl.pcm.automap <> i var
+R12768:12773 fcsl.pcm.automap <> interp def
+R12791:12795 fcsl.pcm.pcm PCM.Exports unitL thm
+R12768:12773 fcsl.pcm.automap <> interp def
+R12791:12795 fcsl.pcm.pcm PCM.Exports unitL thm
+R12791:12795 fcsl.pcm.pcm PCM.Exports unitL thm
+R12873:12875 Coq.ssr.ssrbool <> ifP thm
+R12804:12807 Coq.ssr.ssrbool <> andP thm
+R12835:12843 fcsl.pcm.automap <> size_onth thm
+R12835:12843 fcsl.pcm.automap <> size_onth thm
+R12873:12875 Coq.ssr.ssrbool <> ifP thm
+R12873:12875 Coq.ssr.ssrbool <> ifP thm
+R12873:12875 Coq.ssr.ssrbool <> ifP thm
+R12873:12875 Coq.ssr.ssrbool <> ifP thm
+R12893:12896 fcsl.pcm.automap <> keyP thm
+R12893:12896 fcsl.pcm.automap <> keyP thm
+R12893:12896 fcsl.pcm.automap <> keyP thm
+R12920:12927 fcsl.pcm.automap <> wf_kfree thm
+R12970:12974 fcsl.pcm.pcm PCM.Exports joinA thm
+R12984:12990 fcsl.pcm.unionmap <> domeqUn thm
+R12970:12974 fcsl.pcm.pcm PCM.Exports joinA thm
+R12970:12974 fcsl.pcm.pcm PCM.Exports joinA thm
+R12984:12990 fcsl.pcm.unionmap <> domeqUn thm
+R13002:13005 fcsl.pcm.automap <> varP thm
+R13002:13005 fcsl.pcm.automap <> varP thm
+R13002:13005 fcsl.pcm.automap <> varP thm
+R13027:13034 fcsl.pcm.automap <> wf_vfree thm
+R13075:13079 fcsl.pcm.pcm PCM.Exports joinA thm
+R13089:13095 fcsl.pcm.unionmap <> domeqUn thm
+R13075:13079 fcsl.pcm.pcm PCM.Exports joinA thm
+R13075:13079 fcsl.pcm.pcm PCM.Exports joinA thm
+R13089:13095 fcsl.pcm.unionmap <> domeqUn thm
+R13110:13116 fcsl.pcm.automap Subterm <> sec
+sec 13190:13197 <> Subtract
+var 13211:13211 Subtract K
+var 13225:13225 Subtract T
+var 13236:13236 Subtract U
+R13215:13221 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R13240:13254 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R13258:13258 fcsl.pcm.automap <> T var
+R13256:13256 fcsl.pcm.automap <> K var
+R13282:13284 fcsl.pcm.automap <> ctx rec
+R13286:13286 fcsl.pcm.automap <> Subtract.U var
+R13295:13297 mathcomp.ssreflect.seq <> seq syndef
+R13300:13303 fcsl.pcm.automap <> term ind
+R13305:13305 fcsl.pcm.automap <> Subtract.T var
+def 13465:13472 <> subtract
+R13497:13499 fcsl.pcm.automap <> ts1 var
+R13518:13521 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R13511:13513 fcsl.pcm.automap <> Pts constr
+R13537:13539 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13555:13560 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13591:13603 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13540:13542 mathcomp.ssreflect.seq <> has def
+R13552:13554 fcsl.pcm.automap <> ts2 var
+R13545:13547 fcsl.pcm.automap <> key def
+R13561:13568 fcsl.pcm.automap <> subtract def
+R13589:13590 fcsl.pcm.automap <> xs var
+R13576:13580 fcsl.pcm.automap <> kfree def
+R13584:13586 fcsl.pcm.automap <> ts2 var
+R13604:13611 fcsl.pcm.automap <> subtract def
+R13630:13633 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R13623:13625 fcsl.pcm.automap <> Pts constr
+R13634:13635 fcsl.pcm.automap <> xs var
+R13618:13620 fcsl.pcm.automap <> ts2 var
+R13647:13650 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R13642:13644 fcsl.pcm.automap <> Var constr
+R13666:13668 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13684:13689 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13720:13732 Coq.ssr.ssreflect <> ::boolean_if_scope:'if'_x_'then'_x_'else'_x not
+R13669:13671 mathcomp.ssreflect.seq <> has def
+R13681:13683 fcsl.pcm.automap <> ts2 var
+R13674:13676 fcsl.pcm.automap <> var def
+R13690:13697 fcsl.pcm.automap <> subtract def
+R13718:13719 fcsl.pcm.automap <> xs var
+R13705:13709 fcsl.pcm.automap <> vfree def
+R13713:13715 fcsl.pcm.automap <> ts2 var
+R13733:13740 fcsl.pcm.automap <> subtract def
+R13759:13762 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R13752:13754 fcsl.pcm.automap <> Var constr
+R13756:13756 fcsl.pcm.automap <> Subtract.T var
+R13763:13764 fcsl.pcm.automap <> xs var
+R13747:13749 fcsl.pcm.automap <> ts2 var
+R13771:13774 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R13779:13779 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13782:13783 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13787:13787 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13780:13781 fcsl.pcm.automap <> xs var
+R13784:13786 fcsl.pcm.automap <> ts2 var
+prf 13869:13882 <> subtract_sound
+R13929:13932 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13947:13959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13992:14003 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14004:14010 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14012:14013 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R14070:14091 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R14014:14019 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R14064:14067 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14052:14057 fcsl.pcm.automap <> interp def
+R14061:14063 fcsl.pcm.automap <> rs1 var
+R14059:14059 fcsl.pcm.automap <> i var
+R14068:14068 fcsl.pcm.automap <> u var
+R14034:14037 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14022:14027 fcsl.pcm.automap <> interp def
+R14031:14033 fcsl.pcm.automap <> ts1 var
+R14029:14029 fcsl.pcm.automap <> i var
+R14038:14043 fcsl.pcm.automap <> interp def
+R14047:14048 fcsl.pcm.automap <> xs var
+R14045:14045 fcsl.pcm.automap <> i var
+R14092:14097 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R14127:14130 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14115:14120 fcsl.pcm.automap <> interp def
+R14124:14126 fcsl.pcm.automap <> rs2 var
+R14122:14122 fcsl.pcm.automap <> i var
+R14131:14131 fcsl.pcm.automap <> u var
+R14100:14105 fcsl.pcm.automap <> interp def
+R14109:14111 fcsl.pcm.automap <> ts2 var
+R14107:14107 fcsl.pcm.automap <> i var
+R13979:13981 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R13960:13967 fcsl.pcm.automap <> subtract def
+R13977:13978 fcsl.pcm.automap <> xs var
+R13973:13975 fcsl.pcm.automap <> ts2 var
+R13969:13971 fcsl.pcm.automap <> ts1 var
+R13982:13982 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13986:13987 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13991:13991 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R13983:13985 fcsl.pcm.automap <> rs1 var
+R13988:13990 fcsl.pcm.automap <> rs2 var
+R13933:13935 mathcomp.ssreflect.seq <> all def
+R13944:13946 fcsl.pcm.automap <> ts2 var
+R13938:13939 fcsl.pcm.automap <> wf def
+R13941:13941 fcsl.pcm.automap <> i var
+R13915:13917 mathcomp.ssreflect.seq <> all def
+R13926:13928 fcsl.pcm.automap <> ts1 var
+R13920:13921 fcsl.pcm.automap <> wf def
+R13923:13923 fcsl.pcm.automap <> i var
+R14214:14217 fcsl.pcm.pcm PCM.Exports Unit syndef
+R14228:14232 fcsl.pcm.pcm PCM.Exports unitL thm
+R14235:14239 fcsl.pcm.pcm PCM.Exports unitR thm
+R14214:14217 fcsl.pcm.pcm PCM.Exports Unit syndef
+R14228:14232 fcsl.pcm.pcm PCM.Exports unitL thm
+R14228:14232 fcsl.pcm.pcm PCM.Exports unitL thm
+R14235:14239 fcsl.pcm.pcm PCM.Exports unitR thm
+R14235:14239 fcsl.pcm.pcm PCM.Exports unitR thm
+R14235:14239 fcsl.pcm.pcm PCM.Exports unitR thm
+R14235:14239 fcsl.pcm.pcm PCM.Exports unitR thm
+R14317:14319 Coq.ssr.ssrbool <> ifP thm
+R14249:14252 Coq.ssr.ssrbool <> andP thm
+R14280:14288 fcsl.pcm.automap <> size_onth thm
+R14280:14288 fcsl.pcm.automap <> size_onth thm
+R14317:14319 Coq.ssr.ssrbool <> ifP thm
+R14317:14319 Coq.ssr.ssrbool <> ifP thm
+R14317:14319 Coq.ssr.ssrbool <> ifP thm
+R14317:14319 Coq.ssr.ssrbool <> ifP thm
+R14334:14337 fcsl.pcm.automap <> keyP thm
+R14334:14337 fcsl.pcm.automap <> keyP thm
+R14334:14337 fcsl.pcm.automap <> keyP thm
+R14363:14370 fcsl.pcm.automap <> wf_kfree thm
+R14408:14411 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14401:14403 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14425:14429 fcsl.pcm.pcm PCM.Exports joinA thm
+R14433:14436 fcsl.pcm.pcm PCM.Exports pull def
+R14439:14441 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14408:14411 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14401:14403 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14425:14429 fcsl.pcm.pcm PCM.Exports joinA thm
+R14425:14429 fcsl.pcm.pcm PCM.Exports joinA thm
+R14433:14436 fcsl.pcm.pcm PCM.Exports pull def
+R14439:14441 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14433:14436 fcsl.pcm.pcm PCM.Exports pull def
+R14439:14441 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14433:14436 fcsl.pcm.pcm PCM.Exports pull def
+R14439:14441 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14433:14436 fcsl.pcm.pcm PCM.Exports pull def
+R14439:14441 fcsl.pcm.unionmap UMC.Exports pts syndef
+R14474:14480 fcsl.pcm.unionmap <> domeqUn thm
+R14474:14480 fcsl.pcm.unionmap <> domeqUn thm
+R14474:14480 fcsl.pcm.unionmap <> domeqUn thm
+R14533:14538 fcsl.pcm.pcm PCM.Exports joinCA thm
+R14540:14544 fcsl.pcm.pcm PCM.Exports joinA thm
+R14533:14538 fcsl.pcm.pcm PCM.Exports joinCA thm
+R14533:14538 fcsl.pcm.pcm PCM.Exports joinCA thm
+R14540:14544 fcsl.pcm.pcm PCM.Exports joinA thm
+R14540:14544 fcsl.pcm.pcm PCM.Exports joinA thm
+R14572:14575 fcsl.pcm.automap <> varP thm
+R14572:14575 fcsl.pcm.automap <> varP thm
+R14572:14575 fcsl.pcm.automap <> varP thm
+R14599:14606 fcsl.pcm.automap <> wf_vfree thm
+R14641:14644 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14658:14662 fcsl.pcm.pcm PCM.Exports joinA thm
+R14666:14669 fcsl.pcm.pcm PCM.Exports pull def
+R14693:14699 fcsl.pcm.unionmap <> domeqUn thm
+R14641:14644 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R14658:14662 fcsl.pcm.pcm PCM.Exports joinA thm
+R14658:14662 fcsl.pcm.pcm PCM.Exports joinA thm
+R14666:14669 fcsl.pcm.pcm PCM.Exports pull def
+R14666:14669 fcsl.pcm.pcm PCM.Exports pull def
+R14666:14669 fcsl.pcm.pcm PCM.Exports pull def
+R14666:14669 fcsl.pcm.pcm PCM.Exports pull def
+R14693:14699 fcsl.pcm.unionmap <> domeqUn thm
+R14693:14699 fcsl.pcm.unionmap <> domeqUn thm
+R14750:14755 fcsl.pcm.pcm PCM.Exports joinCA thm
+R14757:14761 fcsl.pcm.pcm PCM.Exports joinA thm
+R14750:14755 fcsl.pcm.pcm PCM.Exports joinCA thm
+R14750:14755 fcsl.pcm.pcm PCM.Exports joinCA thm
+R14757:14761 fcsl.pcm.pcm PCM.Exports joinA thm
+R14757:14761 fcsl.pcm.pcm PCM.Exports joinA thm
+R14791:14798 fcsl.pcm.automap Subtract <> sec
+sec 14874:14880 <> Invalid
+var 14894:14894 Invalid K
+var 14908:14908 Invalid T
+var 14919:14919 Invalid U
+R14898:14904 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R14923:14937 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R14941:14941 fcsl.pcm.automap <> T var
+R14939:14939 fcsl.pcm.automap <> K var
+R14965:14967 fcsl.pcm.automap <> ctx rec
+R14969:14969 fcsl.pcm.automap <> Invalid.U var
+R14977:14980 fcsl.pcm.automap <> term ind
+R14982:14982 fcsl.pcm.automap <> Invalid.T var
+R14991:14993 mathcomp.ssreflect.seq <> seq syndef
+R14996:14999 fcsl.pcm.automap <> term ind
+R15001:15001 fcsl.pcm.automap <> Invalid.T var
+def 15018:15023 <> undefx
+R15038:15038 fcsl.pcm.automap <> t var
+R15043:15045 fcsl.pcm.automap <> Var constr
+R15062:15065 fcsl.pcm.automap <> onth def
+R15068:15071 fcsl.pcm.automap <> varx proj
+R15073:15073 fcsl.pcm.automap <> i var
+R15081:15084 Coq.Init.Datatypes <> Some constr
+R15093:15098 fcsl.pcm.unionmap UMC.Exports undefb syndef
+R15107:15111 Coq.Init.Datatypes <> false constr
+R15120:15124 Coq.Init.Datatypes <> false constr
+def 15139:15145 <> isundef
+R15175:15178 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R15155:15157 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R15158:15161 mathcomp.ssreflect.seq <> uniq def
+R15164:15170 fcsl.pcm.automap <> getkeys def
+R15172:15173 fcsl.pcm.automap <> ts var
+R15179:15181 mathcomp.ssreflect.seq <> has def
+R15194:15195 fcsl.pcm.automap <> ts var
+R15184:15189 fcsl.pcm.automap <> undefx def
+R15191:15191 fcsl.pcm.automap <> i var
+prf 15205:15217 <> isundef_sound
+R15248:15251 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15264:15267 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15268:15270 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R15271:15275 fcsl.pcm.pcm PCM.Exports valid syndef
+R15278:15283 fcsl.pcm.automap <> interp def
+R15287:15288 fcsl.pcm.automap <> ts var
+R15285:15285 fcsl.pcm.automap <> i var
+R15252:15258 fcsl.pcm.automap <> isundef def
+R15262:15263 fcsl.pcm.automap <> ts var
+R15260:15260 fcsl.pcm.automap <> i var
+R15235:15237 mathcomp.ssreflect.seq <> all def
+R15246:15247 fcsl.pcm.automap <> ts var
+R15240:15241 fcsl.pcm.automap <> wf def
+R15243:15243 fcsl.pcm.automap <> i var
+R15325:15328 Coq.ssr.ssrbool <> andP thm
+R15386:15392 fcsl.pcm.automap <> isundef def
+R15360:15368 fcsl.pcm.automap <> size_onth thm
+R15360:15368 fcsl.pcm.automap <> size_onth thm
+R15386:15392 fcsl.pcm.automap <> isundef def
+R15386:15392 fcsl.pcm.automap <> isundef def
+R15386:15392 fcsl.pcm.automap <> isundef def
+R15386:15392 fcsl.pcm.automap <> isundef def
+R15422:15426 Coq.ssr.ssrbool <> orbCA thm
+R15438:15444 fcsl.pcm.unionmap <> validUn thm
+R15462:15467 Coq.ssr.ssrbool <> negbTE thm
+R15422:15426 Coq.ssr.ssrbool <> orbCA thm
+R15422:15426 Coq.ssr.ssrbool <> orbCA thm
+R15438:15444 fcsl.pcm.unionmap <> validUn thm
+R15438:15444 fcsl.pcm.unionmap <> validUn thm
+R15462:15467 Coq.ssr.ssrbool <> negbTE thm
+R15462:15467 Coq.ssr.ssrbool <> negbTE thm
+R15527:15537 fcsl.pcm.unionmap <> valid_undef thm
+R15493:15495 Coq.ssr.ssrbool <> orP thm
+R15507:15513 fcsl.pcm.unionmap <> undefbE thm
+R15527:15537 fcsl.pcm.unionmap <> valid_undef thm
+R15527:15537 fcsl.pcm.unionmap <> valid_undef thm
+R15549:15556 Coq.ssr.ssrbool <> negb_and thm
+R15558:15562 Coq.ssr.ssrbool <> negbK thm
+R15564:15574 fcsl.pcm.automap <> has_getkeys thm
+R15577:15580 Coq.ssr.ssrbool <> orbA thm
+R15549:15556 Coq.ssr.ssrbool <> negb_and thm
+R15549:15556 Coq.ssr.ssrbool <> negb_and thm
+R15558:15562 Coq.ssr.ssrbool <> negbK thm
+R15558:15562 Coq.ssr.ssrbool <> negbK thm
+R15564:15574 fcsl.pcm.automap <> has_getkeys thm
+R15564:15574 fcsl.pcm.automap <> has_getkeys thm
+R15577:15580 Coq.ssr.ssrbool <> orbA thm
+R15577:15580 Coq.ssr.ssrbool <> orbA thm
+R15618:15626 fcsl.pcm.unionmap <> validPtUn thm
+R15628:15633 Coq.ssr.ssrbool <> andbCA thm
+R15636:15641 Coq.ssr.ssrbool <> negbTE thm
+R15591:15593 Coq.ssr.ssrbool <> orP thm
+R15618:15626 fcsl.pcm.unionmap <> validPtUn thm
+R15618:15626 fcsl.pcm.unionmap <> validPtUn thm
+R15628:15633 Coq.ssr.ssrbool <> andbCA thm
+R15628:15633 Coq.ssr.ssrbool <> andbCA thm
+R15636:15641 Coq.ssr.ssrbool <> negbTE thm
+R15636:15641 Coq.ssr.ssrbool <> negbTE thm
+R15664:15667 fcsl.pcm.automap <> keyP thm
+R15689:15693 fcsl.pcm.pcm PCM.Exports joinA thm
+R15695:15703 fcsl.pcm.unionmap <> pts_undef thm
+R15705:15715 fcsl.pcm.unionmap <> join_undefL thm
+R15717:15727 fcsl.pcm.unionmap <> valid_undef thm
+R15664:15667 fcsl.pcm.automap <> keyP thm
+R15664:15667 fcsl.pcm.automap <> keyP thm
+R15689:15693 fcsl.pcm.pcm PCM.Exports joinA thm
+R15689:15693 fcsl.pcm.pcm PCM.Exports joinA thm
+R15695:15703 fcsl.pcm.unionmap <> pts_undef thm
+R15695:15703 fcsl.pcm.unionmap <> pts_undef thm
+R15705:15715 fcsl.pcm.unionmap <> join_undefL thm
+R15705:15715 fcsl.pcm.unionmap <> join_undefL thm
+R15717:15727 fcsl.pcm.unionmap <> valid_undef thm
+R15717:15727 fcsl.pcm.unionmap <> valid_undef thm
+R15741:15747 fcsl.pcm.automap Invalid <> sec
+sec 16004:16008 <> XFind
+var 16020:16020 XFind A
+constr 16056:16059 <> XTag
+rec 16041:16051 <> tagged_elem
+proj 16062:16067 <> xuntag
+R16072:16072 fcsl.pcm.automap <> XFind.A var
+def 16137:16146 <> extend_tag
+R16151:16154 fcsl.pcm.automap <> XTag constr
+def 16168:16178 <> recurse_tag
+R16183:16192 fcsl.pcm.automap <> extend_tag def
+R16220:16230 fcsl.pcm.automap <> recurse_tag def
+R16232:16232 fcsl.pcm.automap <> x var
+def 16603:16607 <> axiom
+R16628:16638 fcsl.pcm.automap <> tagged_elem rec
+R16679:16682 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R16657:16659 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16647:16650 fcsl.pcm.automap <> onth def
+R16656:16656 fcsl.pcm.automap <> i var
+R16652:16654 fcsl.pcm.automap <> xs2 var
+R16660:16663 Coq.Init.Datatypes <> Some constr
+R16666:16671 fcsl.pcm.automap <> xuntag proj
+R16673:16677 fcsl.pcm.automap <> pivot var
+R16683:16688 fcsl.pcm.automap <> prefix def
+R16694:16696 fcsl.pcm.automap <> xs2 var
+R16690:16692 fcsl.pcm.automap <> xs1 var
+constr 16749:16752 <> Form
+rec 16709:16713 <> xfind
+proj 16755:16759 <> pivot
+R16726:16728 mathcomp.ssreflect.seq <> seq syndef
+R16730:16730 fcsl.pcm.automap <> XFind.A var
+R16738:16740 Coq.Init.Datatypes <> nat ind
+R16764:16774 fcsl.pcm.automap <> tagged_elem rec
+R16781:16785 fcsl.pcm.automap <> axiom def
+R16797:16801 fcsl.pcm.automap <> pivot meth
+R16795:16795 fcsl.pcm.automap <> i var
+R16791:16793 fcsl.pcm.automap <> xs2 var
+R16787:16789 fcsl.pcm.automap <> xs1 var
+prf 16837:16844 <> found_pf
+R16852:16856 fcsl.pcm.automap <> axiom def
+R16879:16887 fcsl.pcm.automap <> found_tag canonstruc
+R16889:16889 fcsl.pcm.automap <> x var
+R16869:16872 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R16868:16868 fcsl.pcm.automap <> x var
+R16873:16873 fcsl.pcm.automap <> t var
+R16860:16863 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R16859:16859 fcsl.pcm.automap <> x var
+R16864:16864 fcsl.pcm.automap <> t var
+R16941:16944 fcsl.pcm.automap <> Form constr
+R16948:16955 fcsl.pcm.automap <> found_pf thm
+R16959:16959 fcsl.pcm.automap <> t var
+R16957:16957 fcsl.pcm.automap <> x var
+prf 16985:16994 <> recurse_pf
+R17013:17017 fcsl.pcm.automap <> xfind rec
+R17027:17027 fcsl.pcm.automap <> i var
+R17023:17025 fcsl.pcm.automap <> xs2 var
+R17019:17021 fcsl.pcm.automap <> xs1 var
+R17040:17044 fcsl.pcm.automap <> axiom def
+R17074:17084 fcsl.pcm.automap <> recurse_tag def
+R17087:17092 fcsl.pcm.automap <> xuntag proj
+R17094:17094 fcsl.pcm.automap <> f var
+R17069:17071 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.+1' not
+R17068:17068 fcsl.pcm.automap <> i var
+R17059:17062 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R17058:17058 fcsl.pcm.automap <> x var
+R17063:17065 fcsl.pcm.automap <> xs2 var
+R17048:17051 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R17047:17047 fcsl.pcm.automap <> x var
+R17052:17054 fcsl.pcm.automap <> xs1 var
+R17147:17157 fcsl.pcm.automap <> prefix_cons thm
+R17147:17157 fcsl.pcm.automap <> prefix_cons thm
+R17205:17208 fcsl.pcm.automap <> Form constr
+R17212:17221 fcsl.pcm.automap <> recurse_pf thm
+R17235:17235 fcsl.pcm.automap <> f var
+R17231:17233 fcsl.pcm.automap <> xs2 var
+R17227:17229 fcsl.pcm.automap <> xs1 var
+R17225:17225 fcsl.pcm.automap <> x var
+R17223:17223 fcsl.pcm.automap <> i var
+prf 17298:17306 <> extend_pf
+R17312:17316 fcsl.pcm.automap <> axiom def
+R17333:17342 fcsl.pcm.automap <> extend_tag def
+R17344:17344 fcsl.pcm.automap <> x var
+R17323:17326 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R17328:17328 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R17327:17327 fcsl.pcm.automap <> x var
+R17318:17321 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R17394:17397 fcsl.pcm.automap <> Form constr
+R17401:17409 fcsl.pcm.automap <> extend_pf thm
+R17411:17411 fcsl.pcm.automap <> x var
+R17420:17424 fcsl.pcm.automap XFind <> sec
+mod 18084:18093 <> Syntactify
+sec 18104:18113 Syntactify Syntactify
+var 18127:18127 Syntactify.Syntactify K
+var 18141:18141 Syntactify.Syntactify T
+var 18152:18152 Syntactify.Syntactify U
+R18131:18137 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R18156:18170 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R18174:18174 fcsl.pcm.automap <> T var
+R18172:18172 fcsl.pcm.automap <> K var
+R18198:18200 fcsl.pcm.automap <> ctx rec
+R18202:18202 fcsl.pcm.automap <> Syntactify.Syntactify.U var
+R18211:18213 mathcomp.ssreflect.seq <> seq syndef
+R18216:18219 fcsl.pcm.automap <> term ind
+R18221:18221 fcsl.pcm.automap <> Syntactify.Syntactify.T var
+constr 18312:18314 Syntactify Tag
+rec 18298:18307 Syntactify tagged_map
+proj 18317:18321 Syntactify untag
+R18325:18325 fcsl.pcm.automap <> Syntactify.Syntactify.U var
+R18336:18375 fcsl.pcm.automap Syntactify untag proj
+def 18463:18469 Syntactify var_tag
+R18474:18476 fcsl.pcm.automap Syntactify Tag constr
+def 18490:18496 Syntactify key_tag
+R18501:18507 fcsl.pcm.automap Syntactify var_tag def
+def 18521:18529 Syntactify empty_tag
+R18534:18540 fcsl.pcm.automap Syntactify key_tag def
+R18579:18587 fcsl.pcm.automap Syntactify empty_tag def
+R18589:18590 fcsl.pcm.automap <> hc var
+def 18831:18835 Syntactify axiom
+R18853:18862 fcsl.pcm.automap Syntactify tagged_map rec
+R18871:18874 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R18899:18900 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R18912:18914 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R18928:18928 Coq.ssr.ssrbool <> ::type_scope:'['_'/\'_x_','_x_'&'_x_']' not
+R18886:18888 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18894:18897 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R18898:18898 fcsl.pcm.automap <> Syntactify.Syntactify.U var
+R18875:18880 fcsl.pcm.automap <> interp def
+R18884:18885 fcsl.pcm.automap <> ts var
+R18882:18882 fcsl.pcm.automap <> j var
+R18889:18893 fcsl.pcm.automap <> pivot var
+R18901:18907 fcsl.pcm.automap <> sub_ctx def
+R18911:18911 fcsl.pcm.automap <> j var
+R18909:18909 fcsl.pcm.automap <> i var
+R18915:18917 mathcomp.ssreflect.seq <> all def
+R18926:18927 fcsl.pcm.automap <> ts var
+R18920:18921 fcsl.pcm.automap <> wf def
+R18923:18923 fcsl.pcm.automap <> j var
+constr 18956:18959 Syntactify Form
+rec 18941:18944 Syntactify form
+proj 18962:18966 Syntactify pivot
+R18970:18979 fcsl.pcm.automap Syntactify tagged_map rec
+R18986:18990 fcsl.pcm.automap Syntactify axiom def
+R18999:19003 fcsl.pcm.automap <> pivot meth
+R18996:18997 fcsl.pcm.automap <> ts var
+R18994:18994 fcsl.pcm.automap <> j var
+R18992:18992 fcsl.pcm.automap <> i var
+R19014:19049 fcsl.pcm.automap Syntactify pivot proj
+prf 19083:19090 Syntactify union_pf
+R19112:19115 fcsl.pcm.automap Syntactify form rec
+R19121:19123 fcsl.pcm.automap <> ts1 var
+R19119:19119 fcsl.pcm.automap <> j var
+R19117:19117 fcsl.pcm.automap <> i var
+R19132:19135 fcsl.pcm.automap Syntactify form rec
+R19141:19143 fcsl.pcm.automap <> ts2 var
+R19139:19139 fcsl.pcm.automap <> k var
+R19137:19137 fcsl.pcm.automap <> j var
+R19157:19161 fcsl.pcm.automap Syntactify axiom def
+R19181:19189 fcsl.pcm.automap Syntactify union_tag canonstruc
+R19200:19203 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R19192:19196 fcsl.pcm.automap Syntactify untag proj
+R19198:19199 fcsl.pcm.automap <> f1 var
+R19204:19208 fcsl.pcm.automap Syntactify untag proj
+R19210:19211 fcsl.pcm.automap <> f2 var
+R19171:19174 mathcomp.ssreflect.seq <> ::seq_scope:x_'++'_x not
+R19168:19170 fcsl.pcm.automap <> ts1 var
+R19175:19177 fcsl.pcm.automap <> ts2 var
+R19165:19165 fcsl.pcm.automap <> k var
+R19163:19163 fcsl.pcm.automap <> i var
+R19284:19289 fcsl.pcm.automap <> interp def
+R19291:19299 mathcomp.ssreflect.seq <> foldr_cat thm
+R19301:19302 fcsl.pcm.automap <> fE thm
+R19304:19308 fcsl.pcm.pcm PCM.Exports joinC thm
+R19312:19320 fcsl.pcm.automap <> sc_interp thm
+R19284:19289 fcsl.pcm.automap <> interp def
+R19284:19289 fcsl.pcm.automap <> interp def
+R19291:19299 mathcomp.ssreflect.seq <> foldr_cat thm
+R19291:19299 mathcomp.ssreflect.seq <> foldr_cat thm
+R19301:19302 fcsl.pcm.automap <> fE thm
+R19301:19302 fcsl.pcm.automap <> fE thm
+R19304:19308 fcsl.pcm.pcm PCM.Exports joinC thm
+R19304:19308 fcsl.pcm.pcm PCM.Exports joinC thm
+R19312:19320 fcsl.pcm.automap <> sc_interp thm
+R19312:19320 fcsl.pcm.automap <> sc_interp thm
+R19343:19350 fcsl.pcm.automap <> sc_trans thm
+R19343:19350 fcsl.pcm.automap <> sc_trans thm
+R19370:19376 mathcomp.ssreflect.seq <> all_cat thm
+R19379:19383 fcsl.pcm.automap <> sc_wf thm
+R19370:19376 mathcomp.ssreflect.seq <> all_cat thm
+R19370:19376 mathcomp.ssreflect.seq <> all_cat thm
+R19379:19383 fcsl.pcm.automap <> sc_wf thm
+R19379:19383 fcsl.pcm.automap <> sc_wf thm
+R19450:19453 fcsl.pcm.automap Syntactify Form constr
+R19457:19464 fcsl.pcm.automap Syntactify union_pf thm
+R19483:19484 fcsl.pcm.automap <> f2 var
+R19480:19481 fcsl.pcm.automap <> f1 var
+R19476:19478 fcsl.pcm.automap <> ts2 var
+R19472:19474 fcsl.pcm.automap <> ts1 var
+R19470:19470 fcsl.pcm.automap <> k var
+R19468:19468 fcsl.pcm.automap <> j var
+R19466:19466 fcsl.pcm.automap <> i var
+prf 19525:19532 Syntactify empty_pf
+R19538:19542 fcsl.pcm.automap Syntactify axiom def
+R19554:19562 fcsl.pcm.automap Syntactify empty_tag def
+R19564:19567 fcsl.pcm.pcm PCM.Exports Unit syndef
+R19548:19551 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R19546:19546 fcsl.pcm.automap <> i var
+R19544:19544 fcsl.pcm.automap <> i var
+R19617:19620 fcsl.pcm.automap Syntactify Form constr
+R19624:19631 fcsl.pcm.automap Syntactify empty_pf thm
+R19633:19633 fcsl.pcm.automap <> i var
+prf 19669:19674 Syntactify pts_pf
+R19702:19706 fcsl.pcm.automap <> xfind rec
+R19720:19720 fcsl.pcm.automap <> k var
+R19714:19718 fcsl.pcm.automap <> keys2 var
+R19708:19712 fcsl.pcm.automap <> keys1 var
+R19732:19736 fcsl.pcm.automap Syntactify axiom def
+R19809:19815 fcsl.pcm.automap Syntactify key_tag def
+R19818:19820 fcsl.pcm.unionmap UMC.Exports pts syndef
+R19833:19833 fcsl.pcm.automap <> v var
+R19823:19828 fcsl.pcm.automap <> xuntag proj
+R19830:19830 fcsl.pcm.automap <> f var
+R19795:19798 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R19806:19806 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R19799:19801 fcsl.pcm.automap <> Pts constr
+R19805:19805 fcsl.pcm.automap <> v var
+R19803:19803 fcsl.pcm.automap <> k var
+R19760:19766 fcsl.pcm.automap <> Context constr
+R19774:19777 fcsl.pcm.automap <> vars var
+R19768:19772 fcsl.pcm.automap <> keys2 var
+R19739:19745 fcsl.pcm.automap <> Context constr
+R19753:19756 fcsl.pcm.automap <> vars var
+R19747:19751 fcsl.pcm.automap <> keys1 var
+R19890:19894 fcsl.pcm.pcm PCM.Exports unitR thm
+R19900:19908 fcsl.pcm.automap <> onth_size thm
+R19890:19894 fcsl.pcm.pcm PCM.Exports unitR thm
+R19890:19894 fcsl.pcm.pcm PCM.Exports unitR thm
+R19890:19894 fcsl.pcm.pcm PCM.Exports unitR thm
+R19890:19894 fcsl.pcm.pcm PCM.Exports unitR thm
+R19890:19894 fcsl.pcm.pcm PCM.Exports unitR thm
+R19900:19908 fcsl.pcm.automap <> onth_size thm
+R19900:19908 fcsl.pcm.automap <> onth_size thm
+R19968:19971 fcsl.pcm.automap Syntactify Form constr
+R19975:19980 fcsl.pcm.automap Syntactify pts_pf thm
+R20003:20003 fcsl.pcm.automap <> f var
+R20001:20001 fcsl.pcm.automap <> v var
+R19999:19999 fcsl.pcm.automap <> k var
+R19993:19997 fcsl.pcm.automap <> keys2 var
+R19987:19991 fcsl.pcm.automap <> keys1 var
+R19982:19985 fcsl.pcm.automap <> vars var
+prf 20035:20040 Syntactify var_pf
+R20066:20070 fcsl.pcm.automap <> xfind rec
+R20084:20084 fcsl.pcm.automap <> n var
+R20078:20082 fcsl.pcm.automap <> vars2 var
+R20072:20076 fcsl.pcm.automap <> vars1 var
+R20098:20102 fcsl.pcm.automap Syntactify axiom def
+R20175:20181 fcsl.pcm.automap Syntactify var_tag def
+R20184:20189 fcsl.pcm.automap <> xuntag proj
+R20191:20191 fcsl.pcm.automap <> f var
+R20161:20164 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R20172:20172 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_x_']' not
+R20165:20167 fcsl.pcm.automap <> Var constr
+R20171:20171 fcsl.pcm.automap <> n var
+R20169:20169 fcsl.pcm.automap <> Syntactify.Syntactify.T var
+R20126:20132 fcsl.pcm.automap <> Context constr
+R20139:20143 fcsl.pcm.automap <> vars2 var
+R20134:20137 fcsl.pcm.automap <> keys var
+R20105:20111 fcsl.pcm.automap <> Context constr
+R20118:20122 fcsl.pcm.automap <> vars1 var
+R20113:20116 fcsl.pcm.automap <> keys var
+R20248:20252 fcsl.pcm.pcm PCM.Exports unitR thm
+R20258:20266 fcsl.pcm.automap <> onth_size thm
+R20248:20252 fcsl.pcm.pcm PCM.Exports unitR thm
+R20248:20252 fcsl.pcm.pcm PCM.Exports unitR thm
+R20248:20252 fcsl.pcm.pcm PCM.Exports unitR thm
+R20248:20252 fcsl.pcm.pcm PCM.Exports unitR thm
+R20248:20252 fcsl.pcm.pcm PCM.Exports unitR thm
+R20258:20266 fcsl.pcm.automap <> onth_size thm
+R20258:20266 fcsl.pcm.automap <> onth_size thm
+R20321:20324 fcsl.pcm.automap Syntactify Form constr
+R20328:20333 fcsl.pcm.automap Syntactify var_pf thm
+R20354:20354 fcsl.pcm.automap <> f var
+R20352:20352 fcsl.pcm.automap <> v var
+R20346:20350 fcsl.pcm.automap <> vars2 var
+R20340:20344 fcsl.pcm.automap <> vars1 var
+R20335:20338 fcsl.pcm.automap <> keys var
+R20363:20372 fcsl.pcm.automap Syntactify.Syntactify <> sec
+mod 20383:20389 <> Syntactify.Exports
+R20392:20431 fcsl.pcm.automap Syntactify untag proj
+R20434:20469 fcsl.pcm.automap Syntactify pivot proj
+R20581:20587 fcsl.pcm.automap Syntactify.Exports <> mod
+R20594:20603 fcsl.pcm.automap Syntactify <> mod
+sec 21019:21024 <> ValidO
+var 21038:21038 ValidO K
+var 21052:21052 ValidO T
+var 21063:21063 ValidO U
+R21042:21048 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R21067:21081 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R21085:21085 fcsl.pcm.automap <> T var
+R21083:21083 fcsl.pcm.automap <> K var
+R21109:21111 fcsl.pcm.automap <> ctx rec
+R21113:21113 fcsl.pcm.automap <> ValidO.U var
+R21122:21124 mathcomp.ssreflect.seq <> seq syndef
+R21127:21130 fcsl.pcm.automap <> term ind
+R21132:21132 fcsl.pcm.automap <> ValidO.T var
+syndef 21146:21149 <> form
+R21154:21168 fcsl.pcm.automap <> form rec
+syndef 21180:21184 <> untag
+R21189:21204 fcsl.pcm.automap <> untag proj
+prf 21214:21219 <> validO
+R21239:21242 fcsl.pcm.automap <> form syndef
+R21260:21262 fcsl.pcm.automap <> ts1 var
+R21258:21258 fcsl.pcm.automap <> j var
+R21246:21249 fcsl.pcm.automap <> empx def
+R21255:21255 fcsl.pcm.automap <> ValidO.U var
+R21253:21253 fcsl.pcm.automap <> ValidO.T var
+R21251:21251 fcsl.pcm.automap <> ValidO.K var
+R21303:21306 fcsl.pcm.automap <> form syndef
+R21312:21314 fcsl.pcm.automap <> ts2 var
+R21310:21310 fcsl.pcm.automap <> k var
+R21308:21308 fcsl.pcm.automap <> j var
+R21344:21347 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21363:21366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21367:21371 fcsl.pcm.pcm PCM.Exports valid syndef
+R21374:21378 fcsl.pcm.automap <> untag syndef
+R21380:21381 fcsl.pcm.automap <> f2 var
+R21348:21354 fcsl.pcm.automap <> subterm def
+R21360:21362 fcsl.pcm.automap <> ts1 var
+R21356:21358 fcsl.pcm.automap <> ts2 var
+R21328:21332 fcsl.pcm.pcm PCM.Exports valid syndef
+R21335:21339 fcsl.pcm.automap <> untag syndef
+R21341:21342 fcsl.pcm.automap <> f1 var
+R21447:21455 fcsl.pcm.automap <> sc_interp thm
+R21447:21455 fcsl.pcm.automap <> sc_interp thm
+R21447:21455 fcsl.pcm.automap <> sc_interp thm
+R21479:21491 fcsl.pcm.automap <> subterm_sound thm
+R21497:21501 fcsl.pcm.automap <> sc_wf thm
+R21516:21521 fcsl.pcm.unionmap <> domeqP thm
+R21539:21544 fcsl.pcm.pcm PCM.Exports validL thm
+R21560:21565 fcsl.pcm.automap ValidO <> sec
+R21580:21585 fcsl.pcm.automap <> validO thm
+R21580:21585 fcsl.pcm.automap <> validO thm
+def 21627:21629 <> ex0
+R21640:21642 Coq.Init.Datatypes <> nat ind
+R21654:21656 Coq.Init.Datatypes <> nat ind
+R21716:21730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R21731:21735 fcsl.pcm.pcm PCM.Exports valid syndef
+R21747:21750 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R21739:21744 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R21738:21738 fcsl.pcm.automap <> x var
+R21745:21746 fcsl.pcm.automap <> v2 var
+R21751:21754 fcsl.pcm.pcm PCM.Exports Unit syndef
+R21673:21677 fcsl.pcm.pcm PCM.Exports valid syndef
+R21702:21705 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R21697:21700 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R21684:21687 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R21680:21683 fcsl.pcm.pcm PCM.Exports Unit syndef
+R21689:21694 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R21688:21688 fcsl.pcm.automap <> y var
+R21695:21696 fcsl.pcm.automap <> v1 var
+R21701:21701 fcsl.pcm.automap <> h var
+R21707:21712 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R21706:21706 fcsl.pcm.automap <> x var
+R21713:21714 fcsl.pcm.automap <> v1 var
+R21786:21791 fcsl.pcm.automap <> validO thm
+R21786:21791 fcsl.pcm.automap <> validO thm
+R21786:21791 fcsl.pcm.automap <> validO thm
+mod 21941:21946 <> ValidX
+sec 21957:21962 ValidX ValidX
+var 21976:21976 ValidX.ValidX K
+var 21990:21990 ValidX.ValidX T
+var 22001:22001 ValidX.ValidX U
+R21980:21986 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R22005:22019 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R22023:22023 fcsl.pcm.automap <> T var
+R22021:22021 fcsl.pcm.automap <> K var
+R22047:22049 fcsl.pcm.automap <> ctx rec
+R22051:22051 fcsl.pcm.automap <> ValidX.ValidX.U var
+R22060:22062 mathcomp.ssreflect.seq <> seq syndef
+R22065:22068 fcsl.pcm.automap <> term ind
+R22070:22070 fcsl.pcm.automap <> ValidX.ValidX.T var
+syndef 22084:22087 ValidX form
+R22092:22106 fcsl.pcm.automap Syntactify form rec
+syndef 22118:22122 ValidX untag
+R22127:22142 fcsl.pcm.automap Syntactify untag proj
+constr 23026:23029 ValidX Pack
+rec 23004:23013 ValidX packed_map
+proj 23032:23037 ValidX unpack
+R23020:23020 fcsl.pcm.automap <> ValidX.ValidX.U var
+R23041:23041 fcsl.pcm.automap <> ValidX.ValidX.U var
+R23067:23067 fcsl.pcm.automap <> ValidX.ValidX.U var
+R23073:23076 fcsl.pcm.automap ValidX Pack constr
+R23080:23080 fcsl.pcm.automap <> m var
+R23078:23078 fcsl.pcm.automap <> m var
+def 23095:23100 ValidX raxiom
+R23115:23118 Coq.Init.Datatypes <> bool ind
+R23130:23139 fcsl.pcm.automap ValidX packed_map rec
+R23141:23141 fcsl.pcm.automap <> m var
+R23164:23167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23188:23191 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23193:23196 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R23197:23201 fcsl.pcm.pcm PCM.Exports valid syndef
+R23204:23209 fcsl.pcm.automap ValidX unpack proj
+R23211:23215 fcsl.pcm.automap <> pivot var
+R23192:23192 fcsl.pcm.automap <> b var
+R23168:23172 fcsl.pcm.pcm PCM.Exports valid syndef
+R23175:23180 fcsl.pcm.automap <> interp def
+R23184:23186 fcsl.pcm.automap <> ts1 var
+R23182:23182 fcsl.pcm.automap <> j var
+R23150:23152 mathcomp.ssreflect.seq <> all def
+R23161:23163 fcsl.pcm.automap <> ts1 var
+R23155:23156 fcsl.pcm.automap <> wf def
+R23158:23158 fcsl.pcm.automap <> j var
+constr 23252:23256 ValidX RForm
+rec 23230:23234 ValidX rform
+proj 23259:23263 ValidX pivot
+R23268:23277 fcsl.pcm.automap ValidX packed_map rec
+R23279:23279 fcsl.pcm.automap <> m var
+R23286:23291 fcsl.pcm.automap ValidX raxiom def
+R23301:23305 fcsl.pcm.automap <> pivot meth
+R23299:23299 fcsl.pcm.automap <> b var
+R23295:23297 fcsl.pcm.automap <> ts1 var
+R23293:23293 fcsl.pcm.automap <> j var
+prf 23417:23424 ValidX start_pf
+R23444:23447 fcsl.pcm.automap ValidX form syndef
+R23453:23455 fcsl.pcm.automap <> ts2 var
+R23451:23451 fcsl.pcm.automap <> k var
+R23449:23449 fcsl.pcm.automap <> j var
+R23470:23475 fcsl.pcm.automap ValidX raxiom def
+R23513:23518 fcsl.pcm.automap ValidX equate canonstruc
+R23520:23521 fcsl.pcm.automap <> f2 var
+R23495:23501 fcsl.pcm.automap <> subterm def
+R23507:23509 fcsl.pcm.automap <> ts1 var
+R23503:23505 fcsl.pcm.automap <> ts2 var
+R23484:23488 fcsl.pcm.automap ValidX untag syndef
+R23490:23491 fcsl.pcm.automap <> f2 var
+R23479:23481 fcsl.pcm.automap <> ts1 var
+R23477:23477 fcsl.pcm.automap <> j var
+R23568:23576 fcsl.pcm.automap <> sc_interp thm
+R23578:23578 Coq.Init.Datatypes <> S constr
+R23568:23576 fcsl.pcm.automap <> sc_interp thm
+R23568:23576 fcsl.pcm.automap <> sc_interp thm
+R23594:23606 fcsl.pcm.automap <> subterm_sound thm
+R23612:23616 fcsl.pcm.automap <> sc_wf thm
+R23639:23644 fcsl.pcm.unionmap <> domeqP thm
+R23659:23664 fcsl.pcm.pcm PCM.Exports validL thm
+R23710:23714 fcsl.pcm.automap ValidX RForm constr
+R23718:23725 fcsl.pcm.automap ValidX start_pf thm
+R23739:23740 fcsl.pcm.automap <> f2 var
+R23735:23737 fcsl.pcm.automap <> ts2 var
+R23731:23733 fcsl.pcm.automap <> ts1 var
+R23729:23729 fcsl.pcm.automap <> k var
+R23727:23727 fcsl.pcm.automap <> j var
+R23749:23754 fcsl.pcm.automap ValidX.ValidX <> sec
+mod 23766:23772 <> ValidX.Exports
+sec 23819:23825 ValidX.Exports Exports
+var 23839:23839 ValidX.Exports.Exports K
+var 23853:23853 ValidX.Exports.Exports T
+var 23864:23864 ValidX.Exports.Exports U
+R23843:23849 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R23868:23882 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R23886:23886 fcsl.pcm.automap <> T var
+R23884:23884 fcsl.pcm.automap <> K var
+R23910:23912 fcsl.pcm.automap <> ctx rec
+R23914:23914 fcsl.pcm.automap <> ValidX.Exports.Exports.U var
+R23923:23925 mathcomp.ssreflect.seq <> seq syndef
+R23928:23931 fcsl.pcm.automap <> term ind
+R23933:23933 fcsl.pcm.automap <> ValidX.Exports.Exports.T var
+syndef 23947:23950 ValidX.Exports form
+R23955:23969 fcsl.pcm.automap Syntactify form rec
+syndef 23981:23985 ValidX.Exports untag
+R23990:24005 fcsl.pcm.automap Syntactify untag proj
+prf 24093:24098 ValidX.Exports validX
+R24114:24117 fcsl.pcm.automap ValidX.Exports form syndef
+R24130:24132 fcsl.pcm.automap <> ts1 var
+R24128:24128 fcsl.pcm.automap <> j var
+R24120:24123 fcsl.pcm.automap <> empx def
+R24125:24125 fcsl.pcm.automap <> ValidX.Exports.Exports.U var
+R24139:24143 fcsl.pcm.automap ValidX rform rec
+R24153:24156 Coq.Init.Datatypes <> true constr
+R24151:24151 fcsl.pcm.automap <> m var
+R24147:24149 fcsl.pcm.automap <> ts1 var
+R24145:24145 fcsl.pcm.automap <> j var
+R24186:24189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24190:24194 fcsl.pcm.pcm PCM.Exports valid syndef
+R24197:24202 fcsl.pcm.automap ValidX unpack proj
+R24205:24209 fcsl.pcm.automap ValidX pivot proj
+R24211:24211 fcsl.pcm.automap <> g var
+R24170:24174 fcsl.pcm.pcm PCM.Exports valid syndef
+R24177:24181 fcsl.pcm.automap ValidX.Exports untag syndef
+R24183:24184 fcsl.pcm.automap <> f1 var
+R24291:24297 fcsl.pcm.automap ValidX.Exports.Exports <> sec
+R24311:24316 fcsl.pcm.automap ValidX.Exports validX thm
+R24311:24316 fcsl.pcm.automap ValidX.Exports validX thm
+def 24351:24353 ValidX.Exports ex0
+R24364:24366 Coq.Init.Datatypes <> nat ind
+R24378:24380 Coq.Init.Datatypes <> nat ind
+R24440:24454 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R24455:24459 fcsl.pcm.pcm PCM.Exports valid syndef
+R24471:24474 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R24463:24468 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R24462:24462 fcsl.pcm.automap <> x var
+R24469:24470 fcsl.pcm.automap <> v2 var
+R24475:24478 fcsl.pcm.pcm PCM.Exports Unit syndef
+R24397:24401 fcsl.pcm.pcm PCM.Exports valid syndef
+R24426:24429 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R24421:24424 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R24408:24411 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R24404:24407 fcsl.pcm.pcm PCM.Exports Unit syndef
+R24413:24418 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R24412:24412 fcsl.pcm.automap <> y var
+R24419:24420 fcsl.pcm.automap <> v1 var
+R24425:24425 fcsl.pcm.automap <> h var
+R24431:24436 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R24430:24430 fcsl.pcm.automap <> x var
+R24437:24438 fcsl.pcm.automap <> v1 var
+R24496:24501 fcsl.pcm.automap ValidX.Exports validX thm
+R24496:24501 fcsl.pcm.automap ValidX.Exports validX thm
+R24516:24522 fcsl.pcm.automap ValidX.Exports <> mod
+R24529:24534 fcsl.pcm.automap ValidX <> mod
+sec 24690:24695 <> DomeqO
+var 24709:24709 DomeqO K
+var 24723:24723 DomeqO T
+var 24734:24734 DomeqO U
+R24713:24719 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R24738:24752 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R24756:24756 fcsl.pcm.automap <> T var
+R24754:24754 fcsl.pcm.automap <> K var
+R24780:24782 fcsl.pcm.automap <> ctx rec
+R24784:24784 fcsl.pcm.automap <> DomeqO.U var
+R24793:24795 mathcomp.ssreflect.seq <> seq syndef
+R24798:24801 fcsl.pcm.automap <> term ind
+R24803:24803 fcsl.pcm.automap <> DomeqO.T var
+syndef 24817:24820 <> form
+R24825:24839 fcsl.pcm.automap <> form rec
+syndef 24851:24855 <> untag
+R24860:24875 fcsl.pcm.automap <> untag proj
+prf 24885:24890 <> domeqO
+R24927:24930 fcsl.pcm.automap <> form syndef
+R24943:24945 fcsl.pcm.automap <> ts1 var
+R24941:24941 fcsl.pcm.automap <> j var
+R24933:24936 fcsl.pcm.automap <> empx def
+R24938:24938 fcsl.pcm.automap <> DomeqO.U var
+R24954:24957 fcsl.pcm.automap <> form syndef
+R24963:24965 fcsl.pcm.automap <> ts2 var
+R24961:24961 fcsl.pcm.automap <> k var
+R24959:24959 fcsl.pcm.automap <> j var
+R25013:25026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25069:25082 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R25083:25088 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R25102:25106 fcsl.pcm.automap <> untag syndef
+R25108:25109 fcsl.pcm.automap <> f2 var
+R25091:25095 fcsl.pcm.automap <> untag syndef
+R25097:25098 fcsl.pcm.automap <> f1 var
+R25027:25032 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R25056:25061 fcsl.pcm.automap <> pprint def
+R25065:25067 fcsl.pcm.automap <> rs2 var
+R25063:25063 fcsl.pcm.automap <> k var
+R25035:25040 fcsl.pcm.automap <> pprint def
+R25045:25047 mathcomp.ssreflect.seq <> rev def
+R25049:25051 fcsl.pcm.automap <> rs1 var
+R25042:25042 fcsl.pcm.automap <> k var
+R25000:25002 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R24979:24986 fcsl.pcm.automap <> subtract def
+R24996:24999 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R24992:24994 fcsl.pcm.automap <> ts2 var
+R24988:24990 fcsl.pcm.automap <> ts1 var
+R25003:25003 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25007:25008 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25012:25012 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R25004:25006 fcsl.pcm.automap <> rs1 var
+R25009:25011 fcsl.pcm.automap <> rs2 var
+R25168:25181 fcsl.pcm.automap <> subtract_sound thm
+R25184:25188 fcsl.pcm.automap <> sc_wf thm
+R25227:25231 fcsl.pcm.pcm PCM.Exports unitR thm
+R25249:25257 fcsl.pcm.automap <> sc_interp thm
+R25227:25231 fcsl.pcm.pcm PCM.Exports unitR thm
+R25227:25231 fcsl.pcm.pcm PCM.Exports unitR thm
+R25249:25257 fcsl.pcm.automap <> sc_interp thm
+R25249:25257 fcsl.pcm.automap <> sc_interp thm
+R25275:25283 fcsl.pcm.automap <> pp_interp thm
+R25285:25294 fcsl.pcm.automap <> interp_rev thm
+R25309:25319 fcsl.pcm.unionmap <> domeq_trans thm
+R25275:25283 fcsl.pcm.automap <> pp_interp thm
+R25275:25283 fcsl.pcm.automap <> pp_interp thm
+R25275:25283 fcsl.pcm.automap <> pp_interp thm
+R25275:25283 fcsl.pcm.automap <> pp_interp thm
+R25285:25294 fcsl.pcm.automap <> interp_rev thm
+R25285:25294 fcsl.pcm.automap <> interp_rev thm
+R25309:25319 fcsl.pcm.unionmap <> domeq_trans thm
+R25335:25343 fcsl.pcm.unionmap <> domeq_sym thm
+R25353:25363 fcsl.pcm.unionmap <> domeq_trans thm
+R25335:25343 fcsl.pcm.unionmap <> domeq_sym thm
+R25335:25343 fcsl.pcm.unionmap <> domeq_sym thm
+R25353:25363 fcsl.pcm.unionmap <> domeq_trans thm
+R25383:25391 fcsl.pcm.unionmap <> domeq_sym thm
+R25401:25407 fcsl.pcm.unionmap <> domeqUn thm
+R25383:25391 fcsl.pcm.unionmap <> domeq_sym thm
+R25383:25391 fcsl.pcm.unionmap <> domeq_sym thm
+R25401:25407 fcsl.pcm.unionmap <> domeqUn thm
+R25420:25425 fcsl.pcm.automap DomeqO <> sec
+def 25438:25440 <> ex0
+R25451:25453 Coq.Init.Datatypes <> nat ind
+R25465:25467 Coq.Init.Datatypes <> nat ind
+R25484:25489 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R25539:25542 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R25531:25536 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R25530:25530 fcsl.pcm.automap <> x var
+R25537:25538 fcsl.pcm.automap <> v2 var
+R25543:25546 fcsl.pcm.pcm PCM.Exports Unit syndef
+R25514:25517 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R25509:25512 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R25496:25499 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R25492:25495 fcsl.pcm.pcm PCM.Exports Unit syndef
+R25501:25506 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R25500:25500 fcsl.pcm.automap <> y var
+R25507:25508 fcsl.pcm.automap <> v1 var
+R25513:25513 fcsl.pcm.automap <> h var
+R25519:25524 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R25518:25518 fcsl.pcm.automap <> x var
+R25525:25526 fcsl.pcm.automap <> v1 var
+R25564:25569 fcsl.pcm.automap <> domeqO thm
+R25564:25569 fcsl.pcm.automap <> domeqO thm
+mod 25592:25597 <> DomeqX
+sec 25608:25613 DomeqX DomeqX
+var 25627:25627 DomeqX.DomeqX K
+var 25641:25641 DomeqX.DomeqX T
+var 25652:25652 DomeqX.DomeqX U
+R25631:25637 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R25656:25670 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R25674:25674 fcsl.pcm.automap <> T var
+R25672:25672 fcsl.pcm.automap <> K var
+R25698:25700 fcsl.pcm.automap <> ctx rec
+R25702:25702 fcsl.pcm.automap <> DomeqX.DomeqX.U var
+R25711:25713 mathcomp.ssreflect.seq <> seq syndef
+R25716:25719 fcsl.pcm.automap <> term ind
+R25721:25721 fcsl.pcm.automap <> DomeqX.DomeqX.T var
+syndef 25735:25738 DomeqX form
+R25743:25757 fcsl.pcm.automap Syntactify form rec
+syndef 25769:25773 DomeqX untag
+R25778:25793 fcsl.pcm.automap Syntactify untag proj
+constr 25829:25832 DomeqX Pack
+rec 25807:25816 DomeqX packed_map
+proj 25835:25840 DomeqX unpack
+R25823:25823 fcsl.pcm.automap <> DomeqX.DomeqX.U var
+R25844:25844 fcsl.pcm.automap <> DomeqX.DomeqX.U var
+R25870:25870 fcsl.pcm.automap <> DomeqX.DomeqX.U var
+R25876:25879 fcsl.pcm.automap DomeqX Pack constr
+R25883:25883 fcsl.pcm.automap <> m var
+R25881:25881 fcsl.pcm.automap <> m var
+def 25936:25941 DomeqX raxiom
+R25964:25973 fcsl.pcm.automap DomeqX packed_map rec
+R25975:25975 fcsl.pcm.automap <> m var
+R25998:26001 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26013:26019 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26099:26099 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R26002:26008 fcsl.pcm.automap <> sub_ctx def
+R26012:26012 fcsl.pcm.automap <> k var
+R26010:26010 fcsl.pcm.automap <> j var
+R26056:26062 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R26063:26068 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R26086:26091 fcsl.pcm.automap DomeqX unpack proj
+R26093:26097 fcsl.pcm.automap <> pivot var
+R26071:26076 fcsl.pcm.automap <> interp def
+R26080:26082 fcsl.pcm.automap <> ts1 var
+R26078:26078 fcsl.pcm.automap <> k var
+R26020:26025 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R26043:26048 fcsl.pcm.automap <> interp def
+R26053:26054 Coq.ssr.ssrfun <> ::pair_scope:x_'.2' not
+R26052:26052 fcsl.pcm.automap <> b var
+R26050:26050 fcsl.pcm.automap <> k var
+R26028:26033 fcsl.pcm.automap <> interp def
+R26038:26039 Coq.ssr.ssrfun <> ::pair_scope:x_'.1' not
+R26037:26037 fcsl.pcm.automap <> b var
+R26035:26035 fcsl.pcm.automap <> k var
+R25984:25986 mathcomp.ssreflect.seq <> all def
+R25995:25997 fcsl.pcm.automap <> ts1 var
+R25989:25990 fcsl.pcm.automap <> wf def
+R25992:25992 fcsl.pcm.automap <> j var
+constr 26137:26141 DomeqX RForm
+rec 26113:26117 DomeqX rform
+proj 26144:26148 DomeqX pivot
+R26153:26162 fcsl.pcm.automap DomeqX packed_map rec
+R26164:26164 fcsl.pcm.automap <> m var
+R26171:26176 fcsl.pcm.automap DomeqX raxiom def
+R26188:26192 fcsl.pcm.automap <> pivot meth
+R26186:26186 fcsl.pcm.automap <> b var
+R26182:26184 fcsl.pcm.automap <> ts1 var
+R26180:26180 fcsl.pcm.automap <> k var
+R26178:26178 fcsl.pcm.automap <> j var
+prf 26336:26343 DomeqX start_pf
+R26363:26366 fcsl.pcm.automap DomeqX form syndef
+R26372:26374 fcsl.pcm.automap <> ts2 var
+R26370:26370 fcsl.pcm.automap <> k var
+R26368:26368 fcsl.pcm.automap <> j var
+R26389:26394 fcsl.pcm.automap DomeqX raxiom def
+R26440:26445 fcsl.pcm.automap DomeqX equate canonstruc
+R26447:26448 fcsl.pcm.automap <> f2 var
+R26416:26423 fcsl.pcm.automap <> subtract def
+R26433:26436 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R26429:26431 fcsl.pcm.automap <> ts2 var
+R26425:26427 fcsl.pcm.automap <> ts1 var
+R26405:26409 fcsl.pcm.automap DomeqX untag syndef
+R26411:26412 fcsl.pcm.automap <> f2 var
+R26400:26402 fcsl.pcm.automap <> ts1 var
+R26398:26398 fcsl.pcm.automap <> k var
+R26396:26396 fcsl.pcm.automap <> j var
+R26493:26500 fcsl.pcm.automap <> subtract def
+R26493:26500 fcsl.pcm.automap <> subtract def
+R26493:26500 fcsl.pcm.automap <> subtract def
+R26541:26554 fcsl.pcm.automap <> subtract_sound thm
+R26557:26561 fcsl.pcm.automap <> sc_wf thm
+R26602:26606 fcsl.pcm.pcm PCM.Exports unitR thm
+R26622:26632 fcsl.pcm.unionmap <> domeq_trans thm
+R26602:26606 fcsl.pcm.pcm PCM.Exports unitR thm
+R26602:26606 fcsl.pcm.pcm PCM.Exports unitR thm
+R26622:26632 fcsl.pcm.unionmap <> domeq_trans thm
+R26648:26656 fcsl.pcm.unionmap <> domeq_sym thm
+R26666:26676 fcsl.pcm.unionmap <> domeq_trans thm
+R26648:26656 fcsl.pcm.unionmap <> domeq_sym thm
+R26648:26656 fcsl.pcm.unionmap <> domeq_sym thm
+R26666:26676 fcsl.pcm.unionmap <> domeq_trans thm
+R26695:26703 fcsl.pcm.unionmap <> domeq_sym thm
+R26713:26719 fcsl.pcm.unionmap <> domeqUn thm
+R26695:26703 fcsl.pcm.unionmap <> domeq_sym thm
+R26695:26703 fcsl.pcm.unionmap <> domeq_sym thm
+R26713:26719 fcsl.pcm.unionmap <> domeqUn thm
+R26762:26766 fcsl.pcm.automap DomeqX RForm constr
+R26770:26777 fcsl.pcm.automap DomeqX start_pf thm
+R26791:26792 fcsl.pcm.automap <> f2 var
+R26787:26789 fcsl.pcm.automap <> ts2 var
+R26783:26785 fcsl.pcm.automap <> ts1 var
+R26781:26781 fcsl.pcm.automap <> k var
+R26779:26779 fcsl.pcm.automap <> j var
+R26801:26806 fcsl.pcm.automap DomeqX.DomeqX <> sec
+mod 26817:26823 <> DomeqX.Exports
+sec 26870:26876 DomeqX.Exports Exports
+var 26890:26890 DomeqX.Exports.Exports K
+var 26904:26904 DomeqX.Exports.Exports T
+var 26915:26915 DomeqX.Exports.Exports U
+R26894:26900 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R26919:26933 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R26937:26937 fcsl.pcm.automap <> T var
+R26935:26935 fcsl.pcm.automap <> K var
+R26961:26963 fcsl.pcm.automap <> ctx rec
+R26965:26965 fcsl.pcm.automap <> DomeqX.Exports.Exports.U var
+R26974:26976 mathcomp.ssreflect.seq <> seq syndef
+R26979:26982 fcsl.pcm.automap <> term ind
+R26984:26984 fcsl.pcm.automap <> DomeqX.Exports.Exports.T var
+syndef 26998:27001 DomeqX.Exports form
+R27006:27020 fcsl.pcm.automap Syntactify form rec
+syndef 27032:27036 DomeqX.Exports untag
+R27041:27056 fcsl.pcm.automap Syntactify untag proj
+prf 27146:27151 DomeqX.Exports domeqX
+R27177:27180 fcsl.pcm.automap DomeqX.Exports form syndef
+R27193:27195 fcsl.pcm.automap <> ts1 var
+R27191:27191 fcsl.pcm.automap <> j var
+R27183:27186 fcsl.pcm.automap <> empx def
+R27188:27188 fcsl.pcm.automap <> DomeqX.Exports.Exports.U var
+R27235:27239 fcsl.pcm.automap DomeqX rform rec
+R27251:27251 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27255:27256 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27260:27260 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R27252:27254 fcsl.pcm.automap <> rs1 var
+R27257:27259 fcsl.pcm.automap <> rs2 var
+R27249:27249 fcsl.pcm.automap <> m var
+R27245:27247 fcsl.pcm.automap <> ts1 var
+R27243:27243 fcsl.pcm.automap <> k var
+R27241:27241 fcsl.pcm.automap <> j var
+R27315:27327 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R27328:27333 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R27347:27352 fcsl.pcm.automap DomeqX unpack proj
+R27355:27359 fcsl.pcm.automap DomeqX pivot proj
+R27361:27361 fcsl.pcm.automap <> g var
+R27336:27340 fcsl.pcm.automap DomeqX.Exports untag syndef
+R27342:27343 fcsl.pcm.automap <> f1 var
+R27273:27278 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R27302:27307 fcsl.pcm.automap <> pprint def
+R27311:27313 fcsl.pcm.automap <> rs2 var
+R27309:27309 fcsl.pcm.automap <> k var
+R27281:27286 fcsl.pcm.automap <> pprint def
+R27291:27293 mathcomp.ssreflect.seq <> rev def
+R27295:27297 fcsl.pcm.automap <> rs1 var
+R27288:27288 fcsl.pcm.automap <> k var
+R27452:27460 fcsl.pcm.automap <> pp_interp thm
+R27462:27471 fcsl.pcm.automap <> interp_rev thm
+R27474:27482 fcsl.pcm.automap <> sc_interp thm
+R27452:27460 fcsl.pcm.automap <> pp_interp thm
+R27452:27460 fcsl.pcm.automap <> pp_interp thm
+R27452:27460 fcsl.pcm.automap <> pp_interp thm
+R27452:27460 fcsl.pcm.automap <> pp_interp thm
+R27462:27471 fcsl.pcm.automap <> interp_rev thm
+R27462:27471 fcsl.pcm.automap <> interp_rev thm
+R27474:27482 fcsl.pcm.automap <> sc_interp thm
+R27474:27482 fcsl.pcm.automap <> sc_interp thm
+R27502:27508 fcsl.pcm.automap DomeqX.Exports.Exports <> sec
+R27522:27527 fcsl.pcm.automap DomeqX.Exports domeqX thm
+R27522:27527 fcsl.pcm.automap DomeqX.Exports domeqX thm
+def 27572:27574 DomeqX.Exports ex0
+R27585:27587 Coq.Init.Datatypes <> nat ind
+R27599:27601 Coq.Init.Datatypes <> nat ind
+R27618:27623 fcsl.pcm.unionmap UMC.Exports dom_eq syndef
+R27673:27676 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R27665:27670 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R27664:27664 fcsl.pcm.automap <> x var
+R27671:27672 fcsl.pcm.automap <> v2 var
+R27677:27680 fcsl.pcm.pcm PCM.Exports Unit syndef
+R27648:27651 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R27643:27646 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R27630:27633 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R27626:27629 fcsl.pcm.pcm PCM.Exports Unit syndef
+R27635:27640 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R27634:27634 fcsl.pcm.automap <> y var
+R27641:27642 fcsl.pcm.automap <> v1 var
+R27647:27647 fcsl.pcm.automap <> h var
+R27653:27658 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R27652:27652 fcsl.pcm.automap <> x var
+R27659:27660 fcsl.pcm.automap <> v1 var
+R27698:27703 fcsl.pcm.automap DomeqX.Exports domeqX thm
+R27698:27703 fcsl.pcm.automap DomeqX.Exports domeqX thm
+R27722:27728 fcsl.pcm.automap DomeqX.Exports <> mod
+R27735:27740 fcsl.pcm.automap DomeqX <> mod
+sec 27908:27915 <> InvalidO
+var 27929:27929 InvalidO K
+var 27943:27943 InvalidO T
+var 27954:27954 InvalidO U
+R27933:27939 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R27958:27972 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R27976:27976 fcsl.pcm.automap <> T var
+R27974:27974 fcsl.pcm.automap <> K var
+R28000:28002 fcsl.pcm.automap <> ctx rec
+R28004:28004 fcsl.pcm.automap <> InvalidO.U var
+R28013:28015 mathcomp.ssreflect.seq <> seq syndef
+R28018:28021 fcsl.pcm.automap <> term ind
+R28023:28023 fcsl.pcm.automap <> InvalidO.T var
+syndef 28037:28040 <> form
+R28045:28059 fcsl.pcm.automap <> form rec
+syndef 28071:28075 <> untag
+R28080:28095 fcsl.pcm.automap <> untag proj
+prf 28105:28110 <> undefO
+R28122:28125 fcsl.pcm.automap <> form syndef
+R28138:28139 fcsl.pcm.automap <> ts var
+R28136:28136 fcsl.pcm.automap <> i var
+R28128:28131 fcsl.pcm.automap <> empx def
+R28133:28133 fcsl.pcm.automap <> InvalidO.U var
+R28164:28167 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28175:28177 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28168:28172 fcsl.pcm.automap <> untag syndef
+R28174:28174 fcsl.pcm.automap <> f var
+R28178:28185 fcsl.pcm.unionmap UMC.Exports um_undef syndef
+R28152:28158 fcsl.pcm.automap <> isundef def
+R28162:28163 fcsl.pcm.automap <> ts var
+R28160:28160 fcsl.pcm.automap <> i var
+R28221:28233 fcsl.pcm.automap <> isundef_sound thm
+R28238:28245 fcsl.pcm.unionmap <> invalidE thm
+prf 28260:28267 <> invalidO
+R28279:28282 fcsl.pcm.automap <> form syndef
+R28295:28296 fcsl.pcm.automap <> ts var
+R28293:28293 fcsl.pcm.automap <> i var
+R28285:28288 fcsl.pcm.automap <> empx def
+R28290:28290 fcsl.pcm.automap <> InvalidO.U var
+R28321:28324 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R28340:28342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28325:28329 fcsl.pcm.pcm PCM.Exports valid syndef
+R28332:28336 fcsl.pcm.automap <> untag syndef
+R28338:28338 fcsl.pcm.automap <> f var
+R28343:28347 Coq.Init.Datatypes <> false constr
+R28309:28315 fcsl.pcm.automap <> isundef def
+R28319:28320 fcsl.pcm.automap <> ts var
+R28317:28317 fcsl.pcm.automap <> i var
+R28385:28395 fcsl.pcm.unionmap <> valid_undef thm
+R28365:28370 fcsl.pcm.automap <> undefO thm
+R28385:28395 fcsl.pcm.unionmap <> valid_undef thm
+R28385:28395 fcsl.pcm.unionmap <> valid_undef thm
+R28408:28415 fcsl.pcm.automap InvalidO <> sec
+def 28428:28430 <> ex0
+R28441:28443 Coq.Init.Datatypes <> nat ind
+R28455:28457 Coq.Init.Datatypes <> nat ind
+R28474:28474 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28510:28513 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R28497:28500 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R28492:28495 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R28479:28482 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R28475:28478 fcsl.pcm.pcm PCM.Exports Unit syndef
+R28484:28489 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R28483:28483 fcsl.pcm.automap <> y var
+R28490:28491 fcsl.pcm.automap <> v1 var
+R28496:28496 fcsl.pcm.automap <> h var
+R28502:28507 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R28501:28501 fcsl.pcm.automap <> y var
+R28508:28509 fcsl.pcm.automap <> v1 var
+R28514:28521 fcsl.pcm.unionmap UMC.Exports um_undef syndef
+R28541:28546 fcsl.pcm.automap <> undefO thm
+R28541:28546 fcsl.pcm.automap <> undefO thm
+mod 28597:28604 <> InvalidX
+sec 28615:28622 InvalidX InvalidX
+var 28636:28636 InvalidX.InvalidX K
+var 28650:28650 InvalidX.InvalidX T
+var 28661:28661 InvalidX.InvalidX U
+R28640:28646 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R28665:28679 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R28683:28683 fcsl.pcm.automap <> T var
+R28681:28681 fcsl.pcm.automap <> K var
+R28707:28709 fcsl.pcm.automap <> ctx rec
+R28711:28711 fcsl.pcm.automap <> InvalidX.InvalidX.U var
+R28720:28722 mathcomp.ssreflect.seq <> seq syndef
+R28725:28728 fcsl.pcm.automap <> term ind
+R28730:28730 fcsl.pcm.automap <> InvalidX.InvalidX.T var
+syndef 28744:28747 InvalidX form
+R28752:28766 fcsl.pcm.automap Syntactify form rec
+syndef 28778:28782 InvalidX untag
+R28787:28802 fcsl.pcm.automap Syntactify untag proj
+constr 28838:28841 InvalidX Pack
+rec 28816:28825 InvalidX packed_map
+proj 28844:28849 InvalidX unpack
+R28832:28832 fcsl.pcm.automap <> InvalidX.InvalidX.U var
+R28853:28853 fcsl.pcm.automap <> InvalidX.InvalidX.U var
+R28879:28879 fcsl.pcm.automap <> InvalidX.InvalidX.U var
+R28885:28888 fcsl.pcm.automap InvalidX Pack constr
+R28892:28892 fcsl.pcm.automap <> m var
+R28890:28890 fcsl.pcm.automap <> m var
+def 28965:28970 InvalidX raxiom
+R28990:28999 fcsl.pcm.automap InvalidX packed_map rec
+R29001:29001 fcsl.pcm.automap <> m var
+R29011:29014 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R29035:29037 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29015:29019 fcsl.pcm.pcm PCM.Exports valid syndef
+R29022:29027 fcsl.pcm.automap InvalidX unpack proj
+R29029:29033 fcsl.pcm.automap <> pivot var
+R29038:29042 Coq.Init.Datatypes <> false constr
+R29010:29010 fcsl.pcm.automap <> b var
+constr 29078:29082 InvalidX RForm
+rec 29057:29061 InvalidX rform
+proj 29085:29089 InvalidX pivot
+R29094:29103 fcsl.pcm.automap InvalidX packed_map rec
+R29105:29105 fcsl.pcm.automap <> m var
+R29112:29117 fcsl.pcm.automap InvalidX raxiom def
+R29126:29130 fcsl.pcm.automap <> pivot meth
+R29124:29124 fcsl.pcm.automap <> b var
+R29121:29122 fcsl.pcm.automap <> ts var
+R29119:29119 fcsl.pcm.automap <> i var
+prf 29280:29287 InvalidX start_pf
+R29299:29302 fcsl.pcm.automap InvalidX form syndef
+R29315:29316 fcsl.pcm.automap <> ts var
+R29313:29313 fcsl.pcm.automap <> i var
+R29305:29308 fcsl.pcm.automap <> empx def
+R29310:29310 fcsl.pcm.automap <> InvalidX.InvalidX.U var
+R29331:29336 fcsl.pcm.automap InvalidX raxiom def
+R29369:29374 fcsl.pcm.automap InvalidX equate canonstruc
+R29376:29376 fcsl.pcm.automap <> f var
+R29354:29360 fcsl.pcm.automap <> isundef def
+R29364:29365 fcsl.pcm.automap <> ts var
+R29362:29362 fcsl.pcm.automap <> i var
+R29344:29348 fcsl.pcm.automap InvalidX untag syndef
+R29350:29350 fcsl.pcm.automap <> f var
+R29340:29341 fcsl.pcm.automap <> ts var
+R29338:29338 fcsl.pcm.automap <> i var
+R29412:29424 fcsl.pcm.automap <> isundef_sound thm
+R29430:29435 Coq.ssr.ssrbool <> negbTE thm
+R29470:29474 fcsl.pcm.automap InvalidX RForm constr
+R29478:29485 fcsl.pcm.automap InvalidX start_pf thm
+R29492:29492 fcsl.pcm.automap <> f var
+R29489:29490 fcsl.pcm.automap <> ts var
+R29487:29487 fcsl.pcm.automap <> i var
+R29501:29508 fcsl.pcm.automap InvalidX.InvalidX <> sec
+mod 29519:29525 <> InvalidX.Exports
+sec 29572:29578 InvalidX.Exports Exports
+var 29592:29592 InvalidX.Exports.Exports K
+var 29606:29606 InvalidX.Exports.Exports T
+var 29617:29617 InvalidX.Exports.Exports U
+R29596:29602 fcsl.finmap.ordtype Ordered.Exports ordType syndef
+R29621:29635 fcsl.pcm.unionmap UMC.Exports union_map_class syndef
+R29639:29639 fcsl.pcm.automap <> T var
+R29637:29637 fcsl.pcm.automap <> K var
+R29663:29665 fcsl.pcm.automap <> ctx rec
+R29667:29667 fcsl.pcm.automap <> InvalidX.Exports.Exports.U var
+R29676:29678 mathcomp.ssreflect.seq <> seq syndef
+R29681:29684 fcsl.pcm.automap <> term ind
+R29686:29686 fcsl.pcm.automap <> InvalidX.Exports.Exports.T var
+syndef 29700:29703 InvalidX.Exports form
+R29708:29722 fcsl.pcm.automap Syntactify form rec
+syndef 29734:29738 InvalidX.Exports untag
+R29743:29758 fcsl.pcm.automap Syntactify untag proj
+prf 29791:29796 InvalidX.Exports undefX
+R29810:29814 fcsl.pcm.automap InvalidX rform rec
+R29823:29826 Coq.Init.Datatypes <> true constr
+R29821:29821 fcsl.pcm.automap <> m var
+R29818:29819 fcsl.pcm.automap <> ts var
+R29816:29816 fcsl.pcm.automap <> i var
+R29847:29849 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29831:29836 fcsl.pcm.automap InvalidX unpack proj
+R29839:29843 fcsl.pcm.automap InvalidX pivot proj
+R29845:29845 fcsl.pcm.automap <> g var
+R29850:29857 fcsl.pcm.unionmap UMC.Exports um_undef syndef
+R29899:29903 Coq.ssr.ssrfun <> erefl syndef
+R29909:29913 Coq.ssr.ssrbool <> negbT thm
+R29915:29922 fcsl.pcm.unionmap <> invalidE thm
+prf 29937:29944 InvalidX.Exports invalidX
+R29958:29962 fcsl.pcm.automap InvalidX rform rec
+R29971:29974 Coq.Init.Datatypes <> true constr
+R29969:29969 fcsl.pcm.automap <> m var
+R29966:29967 fcsl.pcm.automap <> ts var
+R29964:29964 fcsl.pcm.automap <> i var
+R30012:30014 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R29988:29992 fcsl.pcm.pcm PCM.Exports valid syndef
+R29995:30000 fcsl.pcm.automap InvalidX unpack proj
+R30003:30007 fcsl.pcm.automap InvalidX pivot proj
+R30009:30009 fcsl.pcm.automap <> g var
+R30015:30019 Coq.Init.Datatypes <> false constr
+R30040:30045 fcsl.pcm.automap InvalidX.Exports undefX thm
+R30047:30057 fcsl.pcm.unionmap <> valid_undef thm
+R30040:30045 fcsl.pcm.automap InvalidX.Exports undefX thm
+R30040:30045 fcsl.pcm.automap InvalidX.Exports undefX thm
+R30047:30057 fcsl.pcm.unionmap <> valid_undef thm
+R30047:30057 fcsl.pcm.unionmap <> valid_undef thm
+R30070:30076 fcsl.pcm.automap InvalidX.Exports.Exports <> sec
+R30090:30097 fcsl.pcm.automap InvalidX.Exports invalidX thm
+R30090:30097 fcsl.pcm.automap InvalidX.Exports invalidX thm
+def 30126:30128 InvalidX.Exports ex0
+R30139:30141 Coq.Init.Datatypes <> nat ind
+R30153:30155 Coq.Init.Datatypes <> nat ind
+R30172:30176 fcsl.pcm.pcm PCM.Exports valid syndef
+R30201:30204 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R30196:30199 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R30183:30186 fcsl.pcm.pcm PCM.Exports ::pcm_scope:x_'\+'_x not
+R30179:30182 fcsl.pcm.pcm PCM.Exports Unit syndef
+R30188:30193 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R30187:30187 fcsl.pcm.automap <> y var
+R30194:30195 fcsl.pcm.automap <> v1 var
+R30200:30200 fcsl.pcm.automap <> h var
+R30206:30211 fcsl.pcm.unionmap <> :::x_'\\->'_x not
+R30205:30205 fcsl.pcm.automap <> y var
+R30212:30213 fcsl.pcm.automap <> v1 var
+R30232:30239 fcsl.pcm.automap InvalidX.Exports invalidX thm
+R30232:30239 fcsl.pcm.automap InvalidX.Exports invalidX thm
+R30232:30239 fcsl.pcm.automap InvalidX.Exports invalidX thm
+R30254:30260 fcsl.pcm.automap InvalidX.Exports <> mod
+R30267:30274 fcsl.pcm.automap InvalidX <> mod

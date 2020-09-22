@@ -1,0 +1,213 @@
+DIGEST a236789dbfbc3f8a5a9e9239168cf320
+Fmathcomp.bigenough.bigenough
+R175:202 mathcomp.ssreflect.ssreflect <> <> lib
+R234:239 mathcomp.ssreflect.ssrfun <> <> lib
+R241:247 mathcomp.ssreflect.ssrbool <> <> lib
+R249:254 mathcomp.ssreflect.eqtype <> <> lib
+R256:261 mathcomp.ssreflect.ssrnat <> <> lib
+R263:265 mathcomp.ssreflect.seq <> <> lib
+R267:272 mathcomp.ssreflect.choice <> <> lib
+R274:280 mathcomp.ssreflect.fintype <> <> lib
+mod 1560:1568 <> BigEnough
+constr 1617:1627 BigEnough BigRelClass
+rec 1579:1594 BigEnough big_rel_class_of
+proj 1637:1655 BigEnough leq_big_internal_op
+proj 1672:1685 BigEnough bigger_than_op
+R1605:1607 Coq.ssr.ssrbool <> rel def
+R1609:1609 mathcomp.bigenough.bigenough <> T var
+R1659:1661 Coq.ssr.ssrbool <> rel def
+R1663:1663 mathcomp.bigenough.bigenough <> T var
+R1694:1697 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1698:1698 mathcomp.bigenough.bigenough <> T var
+R1689:1691 mathcomp.ssreflect.seq <> seq syndef
+R1693:1693 mathcomp.bigenough.bigenough <> T var
+R1730:1732 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1711:1729 mathcomp.bigenough.bigenough <> leq_big_internal_op meth
+R1733:1735 mathcomp.bigenough.bigenough <> leq var
+R1760:1778 mathcomp.bigenough.bigenough <> leq_big_internal_op meth
+R1783:1796 mathcomp.bigenough.bigenough <> bigger_than_op meth
+R1800:1803 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R1799:1799 mathcomp.bigenough.bigenough <> i var
+R1804:1804 mathcomp.bigenough.bigenough <> s var
+R1780:1780 mathcomp.bigenough.bigenough <> i var
+R1873:1900 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1901:1919 mathcomp.bigenough.bigenough <> leq_big_internal_op meth
+R1924:1937 mathcomp.bigenough.bigenough <> bigger_than_op meth
+R1941:1944 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R1940:1940 mathcomp.bigenough.bigenough <> j var
+R1945:1945 mathcomp.bigenough.bigenough <> s var
+R1921:1921 mathcomp.bigenough.bigenough <> i var
+R1833:1851 mathcomp.bigenough.bigenough <> leq_big_internal_op meth
+R1856:1869 mathcomp.bigenough.bigenough <> bigger_than_op meth
+R1871:1871 mathcomp.bigenough.bigenough <> s var
+R1853:1853 mathcomp.bigenough.bigenough <> i var
+constr 1976:1983 BigEnough BigRelOf
+rec 1960:1969 BigEnough big_rel_of
+proj 1989:1995 BigEnough leq_big
+proj 2009:2021 BigEnough big_rel_class
+R2000:2002 Coq.ssr.ssrbool <> rel def
+R2004:2004 mathcomp.bigenough.bigenough <> T var
+R2025:2040 mathcomp.bigenough.bigenough BigEnough big_rel_class_of rec
+R2042:2048 mathcomp.bigenough.bigenough <> leq_big meth
+def 2065:2078 BigEnough bigger_than_of
+R2087:2096 mathcomp.bigenough.bigenough BigEnough big_rel_of rec
+R2098:2098 mathcomp.bigenough.bigenough <> T var
+R2119:2125 Coq.ssr.ssreflect <> phantom variant
+R2135:2135 mathcomp.bigenough.bigenough <> b var
+R2128:2130 Coq.ssr.ssrbool <> rel def
+R2132:2132 mathcomp.bigenough.bigenough <> T var
+R2143:2156 mathcomp.bigenough.bigenough BigEnough bigger_than_op proj
+R2159:2171 mathcomp.bigenough.bigenough BigEnough big_rel_class proj
+R2173:2173 mathcomp.bigenough.bigenough <> b var
+syndef 2186:2196 BigEnough bigger_than
+R2207:2220 mathcomp.bigenough.bigenough BigEnough bigger_than_of def
+R2227:2233 Coq.ssr.ssreflect <> Phantom constr
+R2236:2238 Coq.ssr.ssrbool <> rel def
+def 2262:2280 BigEnough leq_big_internal_of
+R2289:2298 mathcomp.bigenough.bigenough BigEnough big_rel_of rec
+R2300:2300 mathcomp.bigenough.bigenough <> T var
+R2321:2327 Coq.ssr.ssreflect <> phantom variant
+R2337:2337 mathcomp.bigenough.bigenough <> b var
+R2330:2332 Coq.ssr.ssrbool <> rel def
+R2334:2334 mathcomp.bigenough.bigenough <> T var
+R2345:2363 mathcomp.bigenough.bigenough BigEnough leq_big_internal_op proj
+R2366:2378 mathcomp.bigenough.bigenough BigEnough big_rel_class proj
+R2380:2380 mathcomp.bigenough.bigenough <> b var
+syndef 2393:2408 BigEnough leq_big_internal
+R2419:2437 mathcomp.bigenough.bigenough BigEnough leq_big_internal_of def
+R2444:2450 Coq.ssr.ssreflect <> Phantom constr
+R2453:2455 Coq.ssr.ssrbool <> rel def
+prf 2474:2489 BigEnough next_bigger_than
+R2498:2507 mathcomp.bigenough.bigenough BigEnough big_rel_of rec
+R2509:2509 mathcomp.bigenough.bigenough <> T var
+R2560:2565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2566:2581 mathcomp.bigenough.bigenough BigEnough leq_big_internal syndef
+R2583:2583 mathcomp.bigenough.bigenough <> b var
+R2588:2598 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R2600:2600 mathcomp.bigenough.bigenough <> b var
+R2604:2607 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R2603:2603 mathcomp.bigenough.bigenough <> j var
+R2608:2608 mathcomp.bigenough.bigenough <> s var
+R2585:2585 mathcomp.bigenough.bigenough <> i var
+R2522:2537 mathcomp.bigenough.bigenough BigEnough leq_big_internal syndef
+R2539:2539 mathcomp.bigenough.bigenough <> b var
+R2544:2554 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R2556:2556 mathcomp.bigenough.bigenough <> b var
+R2558:2558 mathcomp.bigenough.bigenough <> s var
+R2541:2541 mathcomp.bigenough.bigenough <> i var
+prf 2660:2682 BigEnough instantiate_bigger_than
+R2691:2700 mathcomp.bigenough.bigenough BigEnough big_rel_of rec
+R2702:2702 mathcomp.bigenough.bigenough <> T var
+R2713:2728 mathcomp.bigenough.bigenough BigEnough leq_big_internal syndef
+R2730:2730 mathcomp.bigenough.bigenough <> b var
+R2735:2745 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R2747:2747 mathcomp.bigenough.bigenough <> b var
+R2751:2754 mathcomp.ssreflect.seq <> ::seq_scope:x_'::'_x not
+R2750:2750 mathcomp.bigenough.bigenough <> i var
+R2755:2755 mathcomp.bigenough.bigenough <> s var
+R2732:2732 mathcomp.bigenough.bigenough <> i var
+prf 2805:2821 BigEnough leq_big_internalE
+R2830:2839 mathcomp.bigenough.bigenough BigEnough big_rel_of rec
+R2841:2841 mathcomp.bigenough.bigenough <> T var
+R2864:2866 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2846:2861 mathcomp.bigenough.bigenough BigEnough leq_big_internal syndef
+R2863:2863 mathcomp.bigenough.bigenough <> b var
+R2867:2873 mathcomp.bigenough.bigenough BigEnough leq_big proj
+R2875:2875 mathcomp.bigenough.bigenough <> b var
+prf 3108:3125 BigEnough context_big_enough
+R3136:3145 mathcomp.bigenough.bigenough BigEnough big_rel_of rec
+R3147:3147 mathcomp.bigenough.bigenough <> T var
+R3196:3201 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3208:3213 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3214:3214 mathcomp.bigenough.bigenough <> P var
+R3217:3223 mathcomp.bigenough.bigenough BigEnough leq_big proj
+R3230:3240 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R3242:3242 mathcomp.bigenough.bigenough <> b var
+R3244:3244 mathcomp.bigenough.bigenough <> s var
+R3227:3227 mathcomp.bigenough.bigenough <> i var
+R3225:3225 mathcomp.bigenough.bigenough <> b var
+R3202:3202 mathcomp.bigenough.bigenough <> P var
+R3204:3207 Coq.Init.Datatypes <> true constr
+R3158:3173 mathcomp.bigenough.bigenough BigEnough leq_big_internal syndef
+R3175:3175 mathcomp.bigenough.bigenough <> b var
+R3180:3190 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R3192:3192 mathcomp.bigenough.bigenough <> b var
+R3194:3194 mathcomp.bigenough.bigenough <> s var
+R3177:3177 mathcomp.bigenough.bigenough <> i var
+R3267:3283 mathcomp.bigenough.bigenough BigEnough leq_big_internalE thm
+R3267:3283 mathcomp.bigenough.bigenough BigEnough leq_big_internalE thm
+R3267:3283 mathcomp.bigenough.bigenough BigEnough leq_big_internalE thm
+def 3309:3325 BigEnough big_rel_leq_class
+R3329:3344 mathcomp.bigenough.bigenough BigEnough big_rel_class_of rec
+R3346:3348 mathcomp.ssreflect.ssrnat <> leq def
+R3365:3367 mathcomp.ssreflect.ssrnat <> leq def
+R3370:3374 mathcomp.ssreflect.seq <> foldr def
+R3376:3379 mathcomp.ssreflect.ssrnat <> maxn def
+R3430:3430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3439:3440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3449:3449 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3438 mathcomp.ssreflect.ssrnat <> leq_maxl thm
+R3441:3448 mathcomp.ssreflect.ssrnat <> leq_maxr thm
+R3365:3367 mathcomp.ssreflect.ssrnat <> leq def
+R3370:3374 mathcomp.ssreflect.seq <> foldr def
+R3376:3379 mathcomp.ssreflect.ssrnat <> maxn def
+R3402:3410 mathcomp.ssreflect.ssrnat <> leq_trans thm
+R3430:3430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3439:3440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3449:3449 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3438 mathcomp.ssreflect.ssrnat <> leq_maxl thm
+R3441:3448 mathcomp.ssreflect.ssrnat <> leq_maxr thm
+R3430:3430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3439:3440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3449:3449 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3438 mathcomp.ssreflect.ssrnat <> leq_maxl thm
+R3441:3448 mathcomp.ssreflect.ssrnat <> leq_maxr thm
+R3430:3430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3439:3440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3449:3449 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3438 mathcomp.ssreflect.ssrnat <> leq_maxl thm
+R3441:3448 mathcomp.ssreflect.ssrnat <> leq_maxr thm
+R3430:3430 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3439:3440 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3449:3449 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3431:3438 mathcomp.ssreflect.ssrnat <> leq_maxl thm
+R3441:3448 mathcomp.ssreflect.ssrnat <> leq_maxr thm
+R3485:3492 mathcomp.bigenough.bigenough BigEnough BigRelOf constr
+R3494:3510 mathcomp.bigenough.bigenough BigEnough big_rel_leq_class def
+def 3525:3530 BigEnough closed
+R3539:3539 mathcomp.bigenough.bigenough <> T var
+R3545:3545 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3547:3549 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3551:3553 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3559:3559 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R3550:3550 mathcomp.bigenough.bigenough <> T var
+R3555:3557 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3554:3554 mathcomp.bigenough.bigenough <> j var
+R3558:3558 mathcomp.bigenough.bigenough <> i var
+R3624:3629 mathcomp.bigenough.bigenough BigEnough closed def
+R3624:3629 mathcomp.bigenough.bigenough BigEnough closed def
+R3675:3678 mathcomp.ssreflect.seq <> ::seq_scope:'['_'::'_']' not
+R3766:3768 Coq.Init.Datatypes <> nat ind
+R3831:3841 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R3843:3845 mathcomp.ssreflect.ssrnat <> leq def
+R3911:3914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3915:3917 Coq.Init.Datatypes <> nat ind
+R3990:4000 mathcomp.bigenough.bigenough BigEnough bigger_than syndef
+R4002:4004 mathcomp.ssreflect.ssrnat <> leq def
+R4180:4188 Coq.Init.Logic <> sym_equal syndef
+R4259:4282 Coq.ssr.ssreflect <> not_locked_false_eq_true thm
+R4321:4322 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4321:4322 Coq.Init.Logic <> ::type_scope:'~'_x not
+R4397:4414 mathcomp.bigenough.bigenough BigEnough context_big_enough thm
+R4451:4473 mathcomp.bigenough.bigenough BigEnough instantiate_bigger_than thm
+R4505:4520 mathcomp.bigenough.bigenough BigEnough next_bigger_than thm
+R4586:4592 Coq.Init.Datatypes <> is_true def
+R4597:4600 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<='_x not
+R4586:4592 Coq.Init.Datatypes <> is_true def
+R4597:4600 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<='_x not
+R4610:4616 Coq.Init.Datatypes <> is_true def
+R4621:4624 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<='_x not
+R4610:4616 Coq.Init.Datatypes <> is_true def
+R4621:4624 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<='_x not
+R4648:4656 mathcomp.ssreflect.ssrnat <> leq_trans thm
+R4774:4782 mathcomp.bigenough.bigenough BigEnough <> mod

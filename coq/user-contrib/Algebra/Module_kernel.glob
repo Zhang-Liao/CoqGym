@@ -1,0 +1,95 @@
+DIGEST 378f4a986f28befb5b042a310da5cb74
+FAlgebra.Module_kernel
+R1086:1096 Algebra.Module_util <> <> lib
+R1114:1123 Algebra.Sub_module <> <> lib
+R1141:1152 Algebra.Group_kernel <> <> lib
+sec 1221:1223 <> Def
+var 1235:1235 Def R
+R1239:1242 Algebra.Ring_cat <> RING def
+var 1254:1256 Def Mod
+var 1258:1261 Def Mod2
+R1265:1270 Algebra.Module_cat <> MODULE def
+R1272:1272 Algebra.Module_kernel <> Def.R var
+var 1284:1284 Def f
+R1288:1290 Algebra.Categories <> Hom proj
+R1296:1299 Algebra.Module_kernel <> Def.Mod2 var
+R1292:1294 Algebra.Module_kernel <> Def.Mod var
+def 1314:1316 <> Ker
+R1320:1328 Algebra.Sub_module <> submodule rec
+R1330:1332 Algebra.Module_kernel <> Def.Mod var
+R1342:1356 Algebra.Sub_module <> Build_submodule constr
+R1395:1397 Algebra.Group_kernel <> Ker def
+R1399:1399 Algebra.Module_kernel <> Def.f var
+R1369:1371 Algebra.Module_kernel <> Def.Mod var
+R1362:1362 Algebra.Module_kernel <> Def.R var
+R1342:1356 Algebra.Sub_module <> Build_submodule constr
+R1395:1397 Algebra.Group_kernel <> Ker def
+R1399:1399 Algebra.Module_kernel <> Def.f var
+R1369:1371 Algebra.Module_kernel <> Def.Mod var
+R1362:1362 Algebra.Module_kernel <> Def.R var
+R1468:1478 Algebra.Module_cat <> module_mult def
+R1483:1483 Algebra.Module_kernel <> Def.f var
+R1456:1460 Algebra.Sets <> Trans thm
+R1468:1478 Algebra.Module_cat <> module_mult def
+R1483:1483 Algebra.Module_kernel <> Def.f var
+R1456:1460 Algebra.Sets <> Trans thm
+R1527:1537 Algebra.Module_cat <> module_mult def
+R1542:1552 Algebra.Monoid_cat <> monoid_unit proj
+R1555:1568 Algebra.Module_cat <> module_carrier proj
+R1570:1573 Algebra.Module_kernel <> Def.Mod2 var
+R1515:1519 Algebra.Sets <> Trans thm
+R1527:1537 Algebra.Module_cat <> module_mult def
+R1542:1552 Algebra.Monoid_cat <> monoid_unit proj
+R1555:1568 Algebra.Module_cat <> module_carrier proj
+R1570:1573 Algebra.Module_kernel <> Def.Mod2 var
+R1515:1519 Algebra.Sets <> Trans thm
+def 1620:1624 <> coKer
+R1628:1636 Algebra.Sub_module <> submodule rec
+R1638:1641 Algebra.Module_kernel <> Def.Mod2 var
+R1651:1665 Algebra.Sub_module <> Build_submodule constr
+R1705:1709 Algebra.Group_kernel <> coKer def
+R1711:1711 Algebra.Module_kernel <> Def.f var
+R1678:1681 Algebra.Module_kernel <> Def.Mod2 var
+R1671:1671 Algebra.Module_kernel <> Def.R var
+R1651:1665 Algebra.Sub_module <> Build_submodule constr
+R1705:1709 Algebra.Group_kernel <> coKer def
+R1711:1711 Algebra.Module_kernel <> Def.f var
+R1678:1681 Algebra.Module_kernel <> Def.Mod2 var
+R1671:1671 Algebra.Module_kernel <> Def.R var
+R1843:1853 Algebra.Module_cat <> module_mult def
+R1843:1853 Algebra.Module_cat <> module_mult def
+R1915:1925 Algebra.Module_cat <> module_mult def
+R1930:1930 Algebra.Module_kernel <> Def.f var
+R1903:1907 Algebra.Sets <> Trans thm
+R1915:1925 Algebra.Module_cat <> module_mult def
+R1930:1930 Algebra.Module_kernel <> Def.f var
+R1903:1907 Algebra.Sets <> Trans thm
+prf 1973:1980 <> Ker_prop
+R1996:1998 Algebra.Module_kernel <> Def.Mod var
+R2014:2017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2018:2022 Algebra.Sets <> Equal proj
+R2031:2041 Algebra.Monoid_cat <> monoid_unit proj
+R2043:2046 Algebra.Module_kernel <> Def.Mod2 var
+R2025:2025 Algebra.Module_kernel <> Def.f var
+R2027:2027 Algebra.Module_kernel <> x var
+R2001:2007 Algebra.Parts <> in_part def
+R2011:2013 Algebra.Module_kernel <> Ker def
+R2009:2009 Algebra.Module_kernel <> x var
+prf 2081:2092 <> Ker_prop_rev
+R2108:2110 Algebra.Module_kernel <> Def.Mod var
+R2143:2146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2147:2153 Algebra.Parts <> in_part def
+R2157:2159 Algebra.Module_kernel <> Ker def
+R2155:2155 Algebra.Module_kernel <> x var
+R2113:2117 Algebra.Sets <> Equal proj
+R2126:2136 Algebra.Monoid_cat <> monoid_unit proj
+R2138:2141 Algebra.Module_kernel <> Def.Mod2 var
+R2120:2120 Algebra.Module_kernel <> Def.f var
+R2122:2122 Algebra.Module_kernel <> x var
+prf 2193:2202 <> coKer_prop
+R2217:2219 Algebra.Module_kernel <> Def.Mod var
+R2222:2228 Algebra.Parts <> in_part def
+R2236:2240 Algebra.Module_kernel <> coKer def
+R2231:2231 Algebra.Module_kernel <> Def.f var
+R2233:2233 Algebra.Module_kernel <> x var
+R2341:2343 Algebra.Module_kernel Def <> sec

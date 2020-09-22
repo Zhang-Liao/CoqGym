@@ -1,0 +1,216 @@
+DIGEST e2d2390c8bec0ef590b702e794604824
+FAlgebra.Parts3
+R1086:1091 Algebra.Parts2 <> <> lib
+sec 1147:1159 <> Restrictions1
+var 1171:1171 Restrictions1 E
+var 1173:1173 Restrictions1 F
+R1177:1182 Algebra.Sets <> Setoid rec
+var 1194:1194 Restrictions1 f
+R1198:1200 Algebra.Sets <> MAP def
+R1204:1204 Algebra.Parts3 <> Restrictions1.F var
+R1202:1202 Algebra.Parts3 <> Restrictions1.E var
+def 1219:1226 <> restrict
+R1241:1248 Algebra.Parts <> part_set def
+R1250:1250 Algebra.Parts3 <> Restrictions1.E var
+R1253:1255 Algebra.Sets <> MAP def
+R1259:1259 Algebra.Parts3 <> Restrictions1.F var
+R1257:1257 Algebra.Parts3 <> A var
+R1295:1303 Algebra.Sets <> Build_Map constr
+R1323:1323 Algebra.Parts3 <> Restrictions1.f var
+R1328:1328 Algebra.Parts3 <> x var
+R1295:1303 Algebra.Sets <> Build_Map constr
+R1323:1323 Algebra.Parts3 <> Restrictions1.f var
+R1328:1328 Algebra.Parts3 <> x var
+prf 1441:1453 <> restrict_prop
+R1470:1477 Algebra.Parts <> part_set def
+R1479:1479 Algebra.Parts3 <> Restrictions1.E var
+R1487:1487 Algebra.Parts3 <> Restrictions1.E var
+R1495:1501 Algebra.Parts <> in_part def
+R1505:1505 Algebra.Parts3 <> A var
+R1503:1503 Algebra.Parts3 <> x var
+R1510:1514 Algebra.Sets <> Equal proj
+R1565:1565 Algebra.Parts3 <> Restrictions1.f var
+R1567:1567 Algebra.Parts3 <> x var
+R1517:1524 Algebra.Parts3 <> restrict def
+R1529:1541 Algebra.Parts <> Build_subtype constr
+R1560:1560 Algebra.Parts3 <> p var
+R1557:1557 Algebra.Parts3 <> x var
+R1526:1526 Algebra.Parts3 <> A var
+prf 1617:1637 <> restrict_prop_in_part
+R1654:1661 Algebra.Parts <> part_set def
+R1663:1663 Algebra.Parts3 <> Restrictions1.E var
+R1671:1671 Algebra.Parts3 <> A var
+R1675:1679 Algebra.Sets <> Equal proj
+R1697:1697 Algebra.Parts3 <> Restrictions1.f var
+R1700:1700 Algebra.Parts3 <> A var
+R1702:1702 Algebra.Parts3 <> x var
+R1682:1689 Algebra.Parts3 <> restrict def
+R1693:1693 Algebra.Parts3 <> x var
+R1691:1691 Algebra.Parts3 <> A var
+R1750:1762 Algebra.Parts3 Restrictions1 <> sec
+sec 1810:1823 <> Inverse_image1
+var 1835:1835 Inverse_image1 E
+var 1837:1837 Inverse_image1 F
+R1841:1846 Algebra.Sets <> Setoid rec
+sec 1857:1872 Inverse_image1 Inverse_image1_1
+var 1884:1884 Inverse_image1.Inverse_image1_1 f
+R1888:1890 Algebra.Sets <> MAP def
+R1894:1894 Algebra.Parts3 <> Inverse_image1.F var
+R1892:1892 Algebra.Parts3 <> Inverse_image1.E var
+def 1909:1916 <> invimage
+R1930:1933 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1934:1941 Algebra.Parts <> part_set def
+R1943:1943 Algebra.Parts3 <> Inverse_image1.E var
+R1920:1927 Algebra.Parts <> part_set def
+R1929:1929 Algebra.Parts3 <> Inverse_image1.F var
+R1963:1977 Algebra.Parts <> Build_Predicate constr
+R1998:1998 Algebra.Parts3 <> Inverse_image1.E var
+R2003:2009 Algebra.Parts <> in_part def
+R2012:2012 Algebra.Parts3 <> Inverse_image1.Inverse_image1_1.f var
+R2014:2014 Algebra.Parts3 <> x var
+R1963:1977 Algebra.Parts <> Build_Predicate constr
+R1998:1998 Algebra.Parts3 <> Inverse_image1.E var
+R2003:2009 Algebra.Parts <> in_part def
+R2012:2012 Algebra.Parts3 <> Inverse_image1.Inverse_image1_1.f var
+R2014:2014 Algebra.Parts3 <> x var
+R2097:2098 Algebra.Sets <> Ap proj
+R2100:2100 Algebra.Parts3 <> Inverse_image1.Inverse_image1_1.f var
+R2076:2089 Algebra.Parts <> in_part_comp_l thm
+R2097:2098 Algebra.Sets <> Ap proj
+R2100:2100 Algebra.Parts3 <> Inverse_image1.Inverse_image1_1.f var
+R2076:2089 Algebra.Parts <> in_part_comp_l thm
+R2138:2153 Algebra.Parts3 Inverse_image1.Inverse_image1_1 <> sec
+var 2165:2165 Inverse_image1 f
+R2169:2171 Algebra.Sets <> MAP def
+R2175:2175 Algebra.Parts3 <> Inverse_image1.F var
+R2173:2173 Algebra.Parts3 <> Inverse_image1.E var
+prf 2185:2195 <> invimage_in
+R2212:2219 Algebra.Parts <> part_set def
+R2221:2221 Algebra.Parts3 <> Inverse_image1.F var
+R2229:2229 Algebra.Parts3 <> Inverse_image1.E var
+R2257:2260 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2261:2267 Algebra.Parts <> in_part def
+R2275:2275 Algebra.Parts3 <> A var
+R2270:2270 Algebra.Parts3 <> Inverse_image1.f var
+R2272:2272 Algebra.Parts3 <> x var
+R2233:2239 Algebra.Parts <> in_part def
+R2244:2251 Algebra.Parts3 <> invimage def
+R2255:2255 Algebra.Parts3 <> A var
+R2253:2253 Algebra.Parts3 <> Inverse_image1.f var
+R2241:2241 Algebra.Parts3 <> x var
+prf 2324:2334 <> in_invimage
+R2351:2358 Algebra.Parts <> part_set def
+R2360:2360 Algebra.Parts3 <> Inverse_image1.F var
+R2368:2368 Algebra.Parts3 <> Inverse_image1.E var
+R2387:2390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2391:2397 Algebra.Parts <> in_part def
+R2402:2409 Algebra.Parts3 <> invimage def
+R2413:2413 Algebra.Parts3 <> A var
+R2411:2411 Algebra.Parts3 <> Inverse_image1.f var
+R2399:2399 Algebra.Parts3 <> x var
+R2372:2378 Algebra.Parts <> in_part def
+R2386:2386 Algebra.Parts3 <> A var
+R2381:2381 Algebra.Parts3 <> Inverse_image1.f var
+R2383:2383 Algebra.Parts3 <> x var
+prf 2498:2514 <> invimage_included
+R2532:2539 Algebra.Parts <> part_set def
+R2541:2541 Algebra.Parts3 <> Inverse_image1.F var
+R2557:2560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2561:2568 Algebra.Parts <> included def
+R2586:2593 Algebra.Parts3 <> invimage def
+R2597:2597 Algebra.Parts3 <> B var
+R2595:2595 Algebra.Parts3 <> Inverse_image1.f var
+R2571:2578 Algebra.Parts3 <> invimage def
+R2582:2582 Algebra.Parts3 <> A var
+R2580:2580 Algebra.Parts3 <> Inverse_image1.f var
+R2545:2552 Algebra.Parts <> included def
+R2556:2556 Algebra.Parts3 <> B var
+R2554:2554 Algebra.Parts3 <> A var
+R2608:2615 Algebra.Parts <> included def
+prf 2713:2725 <> invimage_comp
+R2743:2750 Algebra.Parts <> part_set def
+R2752:2752 Algebra.Parts3 <> Inverse_image1.F var
+R2764:2767 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2768:2772 Algebra.Sets <> Equal proj
+R2790:2797 Algebra.Parts3 <> invimage def
+R2801:2801 Algebra.Parts3 <> B var
+R2799:2799 Algebra.Parts3 <> Inverse_image1.f var
+R2775:2782 Algebra.Parts3 <> invimage def
+R2786:2786 Algebra.Parts3 <> A var
+R2784:2784 Algebra.Parts3 <> Inverse_image1.f var
+R2755:2759 Algebra.Sets <> Equal proj
+R2763:2763 Algebra.Parts3 <> B var
+R2761:2761 Algebra.Parts3 <> A var
+R2842:2857 Algebra.Parts <> included_antisym thm
+R2842:2857 Algebra.Parts <> included_antisym thm
+prf 2928:2941 <> invimage_image
+R2957:2964 Algebra.Parts <> part_set def
+R2966:2966 Algebra.Parts3 <> Inverse_image1.F var
+R2969:2976 Algebra.Parts <> included def
+R3003:3003 Algebra.Parts3 <> A var
+R2979:2983 Algebra.Parts2 <> image def
+R2988:2995 Algebra.Parts3 <> invimage def
+R2999:2999 Algebra.Parts3 <> A var
+R2997:2997 Algebra.Parts3 <> Inverse_image1.f var
+R2985:2985 Algebra.Parts3 <> Inverse_image1.f var
+R3013:3020 Algebra.Parts <> included def
+R3199:3200 Algebra.Sets <> Ap proj
+R3202:3202 Algebra.Parts3 <> Inverse_image1.f var
+R3178:3191 Algebra.Parts <> in_part_comp_l thm
+R3199:3200 Algebra.Sets <> Ap proj
+R3202:3202 Algebra.Parts3 <> Inverse_image1.f var
+R3178:3191 Algebra.Parts <> in_part_comp_l thm
+prf 3240:3253 <> image_invimage
+R3269:3276 Algebra.Parts <> part_set def
+R3278:3278 Algebra.Parts3 <> Inverse_image1.E var
+R3281:3288 Algebra.Parts <> included def
+R3293:3300 Algebra.Parts3 <> invimage def
+R3305:3309 Algebra.Parts2 <> image def
+R3313:3313 Algebra.Parts3 <> A var
+R3311:3311 Algebra.Parts3 <> Inverse_image1.f var
+R3302:3302 Algebra.Parts3 <> Inverse_image1.f var
+R3290:3290 Algebra.Parts3 <> A var
+R3325:3332 Algebra.Parts <> included def
+prf 3521:3543 <> invimage_image_invimage
+R3559:3566 Algebra.Parts <> part_set def
+R3568:3568 Algebra.Parts3 <> Inverse_image1.F var
+R3572:3576 Algebra.Sets <> Equal proj
+R3617:3624 Algebra.Parts3 <> invimage def
+R3628:3628 Algebra.Parts3 <> A var
+R3626:3626 Algebra.Parts3 <> Inverse_image1.f var
+R3579:3586 Algebra.Parts3 <> invimage def
+R3591:3595 Algebra.Parts2 <> image def
+R3600:3607 Algebra.Parts3 <> invimage def
+R3611:3611 Algebra.Parts3 <> A var
+R3609:3609 Algebra.Parts3 <> Inverse_image1.f var
+R3597:3597 Algebra.Parts3 <> Inverse_image1.f var
+R3588:3588 Algebra.Parts3 <> Inverse_image1.f var
+R3654:3660 Algebra.Parts <> eq_part def
+R3874:3875 Algebra.Sets <> Ap proj
+R3877:3877 Algebra.Parts3 <> Inverse_image1.f var
+R3853:3866 Algebra.Parts <> in_part_comp_l thm
+R3874:3875 Algebra.Sets <> Ap proj
+R3877:3877 Algebra.Parts3 <> Inverse_image1.f var
+R3853:3866 Algebra.Parts <> in_part_comp_l thm
+prf 3934:3953 <> image_invimage_image
+R3969:3976 Algebra.Parts <> part_set def
+R3978:3978 Algebra.Parts3 <> Inverse_image1.E var
+R3981:3985 Algebra.Sets <> Equal proj
+R4023:4027 Algebra.Parts2 <> image def
+R4031:4031 Algebra.Parts3 <> A var
+R4029:4029 Algebra.Parts3 <> Inverse_image1.f var
+R3988:3992 Algebra.Parts2 <> image def
+R3997:4004 Algebra.Parts3 <> invimage def
+R4009:4013 Algebra.Parts2 <> image def
+R4017:4017 Algebra.Parts3 <> A var
+R4015:4015 Algebra.Parts3 <> Inverse_image1.f var
+R4006:4006 Algebra.Parts3 <> Inverse_image1.f var
+R3994:3994 Algebra.Parts3 <> Inverse_image1.f var
+R4057:4063 Algebra.Parts <> eq_part def
+R4398:4399 Algebra.Sets <> Ap proj
+R4401:4401 Algebra.Parts3 <> Inverse_image1.f var
+R4386:4390 Algebra.Sets <> Trans thm
+R4398:4399 Algebra.Sets <> Ap proj
+R4401:4401 Algebra.Parts3 <> Inverse_image1.f var
+R4386:4390 Algebra.Sets <> Trans thm
+R4669:4682 Algebra.Parts3 Inverse_image1 <> sec

@@ -1,0 +1,90 @@
+DIGEST af6d35bfeccb45633bdb9287fa164933
+FExtLib.Structures.EqDep
+R8:26 Coq.Logic.Eqdep_dec <> <> lib
+R37:44 Coq.Classes.EquivDec <> <> lib
+R62:79 ExtLib.Core.RelDec <> <> lib
+R97:119 ExtLib.Tactics.Consider <> <> lib
+sec 177:183 <> Classes
+R225:238 Coq.Classes.EquivDec <> EqDec class
+R244:245 Coq.Init.Logic <> eq ind
+R247:247 ExtLib.Structures.EqDep <> Classes.A var
+R240:240 ExtLib.Structures.EqDep <> Classes.A var
+prf 263:270 <> UIP_refl
+R286:286 ExtLib.Structures.EqDep <> Classes.A var
+R296:298 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R295:295 ExtLib.Structures.EqDep <> x var
+R299:299 ExtLib.Structures.EqDep <> x var
+R305:307 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R303:304 ExtLib.Structures.EqDep <> p1 var
+R308:317 Coq.Init.Logic <> refl_equal syndef
+R345:371 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R345:371 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R380:397 Coq.Classes.EquivDec <> equiv_dec def
+R380:397 Coq.Classes.EquivDec <> equiv_dec def
+prf 418:426 <> UIP_equal
+R444:444 ExtLib.Structures.EqDep <> Classes.A var
+R457:459 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R456:456 ExtLib.Structures.EqDep <> x var
+R460:460 ExtLib.Structures.EqDep <> y var
+R466:468 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R464:465 ExtLib.Structures.EqDep <> p1 var
+R469:470 ExtLib.Structures.EqDep <> p2 var
+R484:510 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R484:510 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R519:536 Coq.Classes.EquivDec <> equiv_dec def
+R519:536 Coq.Classes.EquivDec <> equiv_dec def
+prf 555:563 <> inj_pair2
+R582:585 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R581:581 ExtLib.Structures.EqDep <> Classes.A var
+R595:595 ExtLib.Structures.EqDep <> Classes.A var
+R603:603 ExtLib.Structures.EqDep <> P var
+R605:605 ExtLib.Structures.EqDep <> p var
+R642:645 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R647:649 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R646:646 ExtLib.Structures.EqDep <> x var
+R650:650 ExtLib.Structures.EqDep <> y var
+R627:629 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R615:620 Coq.Init.Specif <> existT constr
+R626:626 ExtLib.Structures.EqDep <> x var
+R624:624 ExtLib.Structures.EqDep <> p var
+R622:622 ExtLib.Structures.EqDep <> P var
+R630:635 Coq.Init.Specif <> existT constr
+R641:641 ExtLib.Structures.EqDep <> y var
+R639:639 ExtLib.Structures.EqDep <> p var
+R637:637 ExtLib.Structures.EqDep <> P var
+R681:716 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+R681:716 Coq.Logic.Eqdep_dec <> inj_pair2_eq_dec thm
+prf 743:761 <> equiv_dec_refl_left
+R808:810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R776:793 Coq.Classes.EquivDec <> equiv_dec def
+R807:807 ExtLib.Structures.EqDep <> a var
+R805:805 ExtLib.Structures.EqDep <> a var
+R801:803 ExtLib.Structures.EqDep <> Classes.dec var
+R811:814 Coq.Init.Specif <> left constr
+R816:822 Coq.Init.Logic <> eq_refl constr
+R856:873 Coq.Classes.EquivDec <> equiv_dec def
+R856:873 Coq.Classes.EquivDec <> equiv_dec def
+R916:924 ExtLib.Structures.EqDep <> UIP_equal thm
+R916:924 ExtLib.Structures.EqDep <> UIP_equal thm
+R939:945 ExtLib.Structures.EqDep Classes <> sec
+sec 957:968 <> from_rel_dec
+var 982:982 from_rel_dec T
+var 1003:1004 from_rel_dec RD
+R1008:1013 ExtLib.Core.RelDec <> RelDec class
+R1017:1018 Coq.Init.Logic <> eq ind
+R1020:1020 ExtLib.Structures.EqDep <> from_rel_dec.T var
+var 1035:1037 from_rel_dec RDC
+R1041:1054 ExtLib.Core.RelDec <> RelDec_Correct class
+R1056:1057 ExtLib.Structures.EqDep <> from_rel_dec.RD var
+inst 1079:1090 <> EqDec_RelDec
+R1094:1107 Coq.Classes.EquivDec <> EqDec class
+R1113:1114 Coq.Init.Logic <> eq ind
+R1116:1116 ExtLib.Structures.EqDep <> from_rel_dec.T var
+R1109:1109 ExtLib.Structures.EqDep <> from_rel_dec.T var
+R1161:1164 ExtLib.Core.RelDec <> :::x_'?['_x_']'_x not
+R1167:1169 ExtLib.Core.RelDec <> :::x_'?['_x_']'_x not
+R1165:1166 Coq.Init.Logic <> eq ind
+R1161:1164 ExtLib.Core.RelDec <> :::x_'?['_x_']'_x not
+R1167:1169 ExtLib.Core.RelDec <> :::x_'?['_x_']'_x not
+R1165:1166 Coq.Init.Logic <> eq ind
+R1229:1240 ExtLib.Structures.EqDep from_rel_dec <> sec

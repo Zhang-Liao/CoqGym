@@ -1,0 +1,8 @@
+DIGEST fcddd1b7aa58770fd62bc7c48ee31d8e
+FLinAlg.support.equal_syntax
+R1312:1315 Algebra.Sets <> <> lib
+R1348:1352 Algebra.Sets <> Equal proj
+not 1328:1328 <> :::x_'='''_x_'in'_x
+R1422:1425 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+R1427:1430 LinAlg.support.equal_syntax <> :::x_'='''_x_'in'_x not
+not 1408:1408 <> :::x_'='''_x

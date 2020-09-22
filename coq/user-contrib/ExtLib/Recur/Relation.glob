@@ -1,0 +1,34 @@
+DIGEST 58d86f26c99b0f9f1f2189deb58225b8
+FExtLib.Recur.Relation
+R15:48 ExtLib.Relations.TransitiveClosure <> <> lib
+sec 106:115 <> rightTrans
+var 131:131 rightTrans A
+var 142:142 rightTrans R
+R147:150 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R152:155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R151:151 ExtLib.Recur.Relation <> A var
+R146:146 ExtLib.Recur.Relation <> A var
+var 175:178 rightTrans wf_R
+R182:193 Coq.Init.Wf <> well_founded def
+R195:195 ExtLib.Recur.Relation <> rightTrans.R var
+prf 209:221 <> wf_rightTrans
+R225:236 Coq.Init.Wf <> well_founded def
+R239:248 ExtLib.Relations.TransitiveClosure <> rightTrans ind
+R250:250 ExtLib.Recur.Relation <> rightTrans.R var
+R283:285 Coq.Init.Wf <> Fix def
+R283:285 Coq.Init.Wf <> Fix def
+R295:298 ExtLib.Recur.Relation <> rightTrans.wf_R var
+R295:298 ExtLib.Recur.Relation <> rightTrans.wf_R var
+R530:534 ExtLib.Relations.TransitiveClosure <> RTFin constr
+R530:534 ExtLib.Relations.TransitiveClosure <> RTFin constr
+prf 574:585 <> wf_leftTrans
+R589:600 Coq.Init.Wf <> well_founded def
+R603:611 ExtLib.Relations.TransitiveClosure <> leftTrans ind
+R613:613 ExtLib.Recur.Relation <> rightTrans.R var
+R646:648 Coq.Init.Wf <> Fix def
+R646:648 Coq.Init.Wf <> Fix def
+R658:661 ExtLib.Recur.Relation <> rightTrans.wf_R var
+R658:661 ExtLib.Recur.Relation <> rightTrans.wf_R var
+R862:866 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R862:866 ExtLib.Relations.TransitiveClosure <> LTFin constr
+R893:902 ExtLib.Recur.Relation rightTrans <> sec

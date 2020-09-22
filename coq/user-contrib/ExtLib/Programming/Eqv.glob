@@ -1,0 +1,147 @@
+DIGEST 62e745af9fb8fff01774b7b71664757b
+FExtLib.Programming.Eqv
+R15:25 Coq.Classes.Equivalence <> <> lib
+R44:61 ExtLib.Core.RelDec <> <> lib
+ind 71:73 <> Eqv
+constr 80:82 <> eqv
+rec 71:73 <> Eqv
+proj 80:82 <> eqv
+R87:90 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R92:95 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R91:91 ExtLib.Programming.Eqv <> T var
+R86:86 ExtLib.Programming.Eqv <> T var
+def 113:119 <> neg_eqv
+R128:130 ExtLib.Programming.Eqv <> Eqv class
+R132:132 ExtLib.Programming.Eqv <> T var
+R138:138 ExtLib.Programming.Eqv <> T var
+R144:144 ExtLib.Programming.Eqv <> T var
+R157:159 Coq.Init.Logic <> not def
+R162:164 ExtLib.Programming.Eqv <> eqv def
+R168:168 ExtLib.Programming.Eqv <> y var
+R166:166 ExtLib.Programming.Eqv <> x var
+rec 179:183 <> EqvWF
+proj 192:199 <> eqvWFEqv
+proj 212:227 <> eqvWFEquivalence
+R204:206 ExtLib.Programming.Eqv <> Eqv class
+R208:208 ExtLib.Programming.Eqv <> T var
+R232:242 Coq.Classes.RelationClasses <> Equivalence class
+R244:246 ExtLib.Programming.Eqv <> eqv def
+inst 260:270 <> EqvWF_Build
+R279:281 ExtLib.Programming.Eqv <> Eqv class
+R283:283 ExtLib.Programming.Eqv <> T var
+R290:300 Coq.Classes.RelationClasses <> Equivalence class
+R302:304 ExtLib.Programming.Eqv <> eqv def
+R309:313 ExtLib.Programming.Eqv <> EqvWF class
+R315:315 ExtLib.Programming.Eqv <> T var
+R340:355 ExtLib.Programming.Eqv <> eqvWFEquivalence meth
+R324:331 ExtLib.Programming.Eqv <> eqvWFEqv meth
+def 378:384 <> eqv_dec
+R393:395 ExtLib.Programming.Eqv <> Eqv class
+R397:397 ExtLib.Programming.Eqv <> T var
+R403:408 ExtLib.Core.RelDec <> RelDec class
+R410:412 ExtLib.Programming.Eqv <> eqv def
+R418:424 ExtLib.Core.RelDec <> rel_dec meth
+def 438:448 <> neg_eqv_dec
+R457:459 ExtLib.Programming.Eqv <> Eqv class
+R461:461 ExtLib.Programming.Eqv <> T var
+R467:472 ExtLib.Core.RelDec <> RelDec class
+R474:476 ExtLib.Programming.Eqv <> eqv def
+R486:489 Coq.Init.Datatypes <> negb def
+R492:498 ExtLib.Core.RelDec <> rel_dec meth
+R502:502 ExtLib.Programming.Eqv <> y var
+R500:500 ExtLib.Programming.Eqv <> x var
+sec 515:522 <> eqv_decP
+R542:544 ExtLib.Programming.Eqv <> Eqv class
+R546:546 ExtLib.Programming.Eqv <> T var
+R564:569 ExtLib.Core.RelDec <> RelDec class
+R571:573 ExtLib.Programming.Eqv <> eqv def
+R581:594 ExtLib.Core.RelDec <> RelDec_Correct class
+R596:597 ExtLib.Programming.Eqv <> RD var
+def 614:622 <> eqv_dec_p
+R627:627 ExtLib.Programming.Eqv <> eqv_decP.T var
+R633:633 ExtLib.Programming.Eqv <> eqv_decP.T var
+R638:638 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R646:650 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R659:659 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R639:641 ExtLib.Programming.Eqv <> eqv def
+R645:645 ExtLib.Programming.Eqv <> y var
+R643:643 ExtLib.Programming.Eqv <> x var
+R651:651 Coq.Init.Logic <> ::type_scope:'~'_x not
+R652:654 ExtLib.Programming.Eqv <> eqv def
+R658:658 ExtLib.Programming.Eqv <> y var
+R656:656 ExtLib.Programming.Eqv <> x var
+R664:672 ExtLib.Core.RelDec <> rel_dec_p def
+R676:676 ExtLib.Programming.Eqv <> y var
+R674:674 ExtLib.Programming.Eqv <> x var
+def 692:704 <> neg_eqv_dec_p
+R709:709 ExtLib.Programming.Eqv <> eqv_decP.T var
+R715:715 ExtLib.Programming.Eqv <> eqv_decP.T var
+R720:720 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R729:733 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R741:741 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R721:721 Coq.Init.Logic <> ::type_scope:'~'_x not
+R722:724 ExtLib.Programming.Eqv <> eqv def
+R728:728 ExtLib.Programming.Eqv <> y var
+R726:726 ExtLib.Programming.Eqv <> x var
+R734:736 ExtLib.Programming.Eqv <> eqv def
+R740:740 ExtLib.Programming.Eqv <> y var
+R738:738 ExtLib.Programming.Eqv <> x var
+R746:758 ExtLib.Core.RelDec <> neg_rel_dec_p def
+R762:762 ExtLib.Programming.Eqv <> y var
+R760:760 ExtLib.Programming.Eqv <> x var
+R769:776 ExtLib.Programming.Eqv eqv_decP <> sec
+mod 787:797 <> EqvNotation
+R817:823 ExtLib.Programming.Eqv <> eqv_dec def
+not 808:808 EqvNotation :::x_'~=!'_x
+R876:886 ExtLib.Programming.Eqv <> neg_eqv_dec def
+not 866:866 EqvNotation :::x_'/~=!'_x
+R939:947 ExtLib.Programming.Eqv <> eqv_dec_p def
+not 930:930 EqvNotation :::x_'~=?'_x
+R1000:1012 ExtLib.Programming.Eqv <> neg_eqv_dec_p def
+not 990:990 EqvNotation :::x_'/~=?'_x
+R1064:1066 ExtLib.Programming.Eqv <> eqv def
+not 1056:1056 EqvNotation :::x_'~='_x
+R1118:1124 ExtLib.Programming.Eqv <> neg_eqv def
+not 1109:1109 EqvNotation :::x_'/~='_x
+R1163:1173 ExtLib.Programming.Eqv EqvNotation <> mod
+sec 1205:1229 <> injection_eqv_equivalence
+R1268:1272 ExtLib.Programming.Eqv <> EqvWF class
+R1274:1274 ExtLib.Programming.Eqv <> injection_eqv_equivalence.T var
+R1292:1294 ExtLib.Programming.Eqv <> Eqv class
+R1296:1296 ExtLib.Programming.Eqv <> injection_eqv_equivalence.U var
+var 1312:1314 injection_eqv_equivalence inj
+R1317:1320 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1321:1321 ExtLib.Programming.Eqv <> injection_eqv_equivalence.T var
+R1316:1316 ExtLib.Programming.Eqv <> injection_eqv_equivalence.U var
+var 1336:1342 injection_eqv_equivalence injResp
+R1368:1372 Coq.Init.Logic <> ::type_scope:x_'<->'_x not
+R1362:1365 ExtLib.Programming.Eqv EqvNotation :::x_'~='_x not
+R1360:1361 ExtLib.Programming.Eqv <> u1 var
+R1366:1367 ExtLib.Programming.Eqv <> u2 var
+R1379:1382 ExtLib.Programming.Eqv EqvNotation :::x_'~='_x not
+R1373:1375 ExtLib.Programming.Eqv <> injection_eqv_equivalence.inj var
+R1377:1378 ExtLib.Programming.Eqv <> u1 var
+R1383:1385 ExtLib.Programming.Eqv <> injection_eqv_equivalence.inj var
+R1387:1388 ExtLib.Programming.Eqv <> u2 var
+def 1405:1429 <> injection_eqv_equivalence
+R1433:1443 Coq.Classes.RelationClasses <> Equivalence class
+R1446:1448 ExtLib.Programming.Eqv <> eqv def
+R1454:1454 ExtLib.Programming.Eqv <> injection_eqv_equivalence.U var
+R1500:1508 Coq.Classes.RelationClasses <> Reflexive class
+R1519:1527 Coq.Classes.RelationClasses <> Symmetric class
+R1538:1547 Coq.Classes.RelationClasses <> Transitive class
+R1569:1575 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1569:1575 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1601:1607 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1601:1607 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1616:1622 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1616:1622 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1656:1662 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1656:1662 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1671:1677 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1671:1677 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1691:1697 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1691:1697 ExtLib.Programming.Eqv <> injection_eqv_equivalence.injResp var
+R1724:1726 ExtLib.Programming.Eqv <> injection_eqv_equivalence.inj var
+R1724:1726 ExtLib.Programming.Eqv <> injection_eqv_equivalence.inj var
+R1750:1774 ExtLib.Programming.Eqv injection_eqv_equivalence <> sec

@@ -1,0 +1,411 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 13; Loc.bol_pos = 747; Loc.line_nb_last = 13; Loc.bol_pos_last = 747; Loc.bp = 747; Loc.ep = 767} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 15; Loc.bol_pos = 769; Loc.line_nb_last = 15; Loc.bol_pos_last = 769; Loc.bp = 769; Loc.ep = 804} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 17; Loc.bol_pos = 806; Loc.line_nb_last = 20; Loc.bol_pos_last = 873; Loc.bp = 806; Loc.ep = 879} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 24; Loc.bol_pos = 918; Loc.line_nb_last = 24; Loc.bol_pos_last = 918; Loc.bp = 918; Loc.ep = 980} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 29; Loc.bol_pos = 1095; Loc.line_nb_last = 29; Loc.bol_pos_last = 1095; Loc.bp = 1095; Loc.ep = 1136} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 31; Loc.bol_pos = 1138; Loc.line_nb_last = 31; Loc.bol_pos_last = 1138; Loc.bp = 1138; Loc.ep = 1207} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 32; Loc.bol_pos = 1208; Loc.line_nb_last = 32; Loc.bol_pos_last = 1208; Loc.bp = 1208; Loc.ep = 1247} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 36; Loc.bol_pos = 1293; Loc.line_nb_last = 36; Loc.bol_pos_last = 1293; Loc.bp = 1293; Loc.ep = 1364} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 40; Loc.bol_pos = 1442; Loc.line_nb_last = 43; Loc.bol_pos_last = 1526; Loc.bp = 1442; Loc.ep = 1532} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 47; Loc.bol_pos = 1626; Loc.line_nb_last = 48; Loc.bol_pos_last = 1649; Loc.bp = 1626; Loc.ep = 1694} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 52; Loc.bol_pos = 1745; Loc.line_nb_last = 52; Loc.bol_pos_last = 1745; Loc.bp = 1745; Loc.ep = 1786} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 56; Loc.bol_pos = 1840; Loc.line_nb_last = 59; Loc.bol_pos_last = 1917; Loc.bp = 1840; Loc.ep = 1947} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 61; Loc.bol_pos = 1949; Loc.line_nb_last = 61; Loc.bol_pos_last = 1949; Loc.bp = 1949; Loc.ep = 1970} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 66; Loc.bol_pos = 2085; Loc.line_nb_last = 70; Loc.bol_pos_last = 2244; Loc.bp = 2085; Loc.ep = 2250} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 72; Loc.bol_pos = 2252; Loc.line_nb_last = 72; Loc.bol_pos_last = 2252; Loc.bp = 2252; Loc.ep = 2294} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 76; Loc.bol_pos = 2396; Loc.line_nb_last = 89; Loc.bol_pos_last = 2881; Loc.bp = 2396; Loc.ep = 2887} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 93; Loc.bol_pos = 2957; Loc.line_nb_last = 96; Loc.bol_pos_last = 3060; Loc.bp = 2957; Loc.ep = 3066} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 100; Loc.bol_pos = 3131; Loc.line_nb_last = 100; Loc.bol_pos_last = 3131; Loc.bp = 3131; Loc.ep = 3241} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 104; Loc.bol_pos = 3348; Loc.line_nb_last = 113; Loc.bol_pos_last = 3627; Loc.bp = 3348; Loc.ep = 3635} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 119; Loc.bol_pos = 3829; Loc.line_nb_last = 122; Loc.bol_pos_last = 3920; Loc.bp = 3829; Loc.ep = 3926} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 124; Loc.bol_pos = 3928; Loc.line_nb_last = 127; Loc.bol_pos_last = 4016; Loc.bp = 3928; Loc.ep = 4022} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 131; Loc.bol_pos = 4076; Loc.line_nb_last = 131; Loc.bol_pos_last = 4076; Loc.bp = 4076; Loc.ep = 4181} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 133; Loc.bol_pos = 4183; Loc.line_nb_last = 133; Loc.bol_pos_last = 4183; Loc.bp = 4183; Loc.ep = 4235} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 138; Loc.bol_pos = 4365; Loc.line_nb_last = 151; Loc.bol_pos_last = 4692; Loc.bp = 4365; Loc.ep = 4698} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 155; Loc.bol_pos = 4770; Loc.line_nb_last = 155; Loc.bol_pos_last = 4770; Loc.bp = 4770; Loc.ep = 4825} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 157; Loc.bol_pos = 4827; Loc.line_nb_last = 157; Loc.bol_pos_last = 4827; Loc.bp = 4827; Loc.ep = 4867} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 161; Loc.bol_pos = 4916; Loc.line_nb_last = 162; Loc.bol_pos_last = 4940; Loc.bp = 4916; Loc.ep = 4976} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 164; Loc.bol_pos = 4978; Loc.line_nb_last = 164; Loc.bol_pos_last = 4978; Loc.bp = 4978; Loc.ep = 5015} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 169; Loc.bol_pos = 5121; Loc.line_nb_last = 169; Loc.bol_pos_last = 5121; Loc.bp = 5121; Loc.ep = 5189} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 170; Loc.bol_pos = 5190; Loc.line_nb_last = 170; Loc.bol_pos_last = 5190; Loc.bp = 5190; Loc.ep = 5196} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 170; Loc.bol_pos = 5190; Loc.line_nb_last = 170; Loc.bol_pos_last = 5190; Loc.bp = 5197; Loc.ep = 5207} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 170; Loc.bol_pos = 5190; Loc.line_nb_last = 170; Loc.bol_pos_last = 5190; Loc.bp = 5208; Loc.ep = 5212} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** JMeq_eq_refl **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 172; Loc.bol_pos = 5214; Loc.line_nb_last = 173; Loc.bol_pos_last = 5246; Loc.bp = 5214; Loc.ep = 5297} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 174; Loc.bol_pos = 5298; Loc.line_nb_last = 174; Loc.bol_pos_last = 5298; Loc.bp = 5298; Loc.ep = 5304} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 174; Loc.bol_pos = 5298; Loc.line_nb_last = 174; Loc.bol_pos_last = 5298; Loc.bp = 5305; Loc.ep = 5320} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 174; Loc.bol_pos = 5298; Loc.line_nb_last = 174; Loc.bol_pos_last = 5298; Loc.bp = 5321; Loc.ep = 5325} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** UIP_refl_refl **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 176; Loc.bol_pos = 5327; Loc.line_nb_last = 177; Loc.bol_pos_last = 5387; Loc.bp = 5327; Loc.ep = 5446} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 178; Loc.bol_pos = 5447; Loc.line_nb_last = 178; Loc.bol_pos_last = 5447; Loc.bp = 5447; Loc.ep = 5453} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 178; Loc.bol_pos = 5447; Loc.line_nb_last = 178; Loc.bol_pos_last = 5447; Loc.bp = 5454; Loc.ep = 5469} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 178; Loc.bol_pos = 5447; Loc.line_nb_last = 178; Loc.bol_pos_last = 5447; Loc.bp = 5470; Loc.ep = 5474} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** inj_pairT2_refl **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 180; Loc.bol_pos = 5476; Loc.line_nb_last = 180; Loc.bol_pos_last = 5476; Loc.bp = 5476; Loc.ep = 5545} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 182; Loc.bol_pos = 5547; Loc.line_nb_last = 182; Loc.bol_pos_last = 5547; Loc.bp = 5547; Loc.ep = 5596} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 186; Loc.bol_pos = 5653; Loc.line_nb_last = 187; Loc.bol_pos_last = 5674; Loc.bp = 5653; Loc.ep = 5710} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 192; Loc.bol_pos = 5850; Loc.line_nb_last = 193; Loc.bol_pos_last = 5868; Loc.bp = 5850; Loc.ep = 5915} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 197; Loc.bol_pos = 5958; Loc.line_nb_last = 198; Loc.bol_pos_last = 5980; Loc.bp = 5958; Loc.ep = 6034} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 199; Loc.bol_pos = 6035; Loc.line_nb_last = 199; Loc.bol_pos_last = 6035; Loc.bp = 6035; Loc.ep = 6079} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 203; Loc.bol_pos = 6119; Loc.line_nb_last = 204; Loc.bol_pos_last = 6136; Loc.bp = 6119; Loc.ep = 6188} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 205; Loc.bol_pos = 6189; Loc.line_nb_last = 205; Loc.bol_pos_last = 6189; Loc.bp = 6189; Loc.ep = 6223} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 209; Loc.bol_pos = 6297; Loc.line_nb_last = 211; Loc.bol_pos_last = 6372; Loc.bp = 6297; Loc.ep = 6431} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 216; Loc.bol_pos = 6586; Loc.line_nb_last = 220; Loc.bol_pos_last = 6706; Loc.bp = 6586; Loc.ep = 6712} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 226; Loc.bol_pos = 6900; Loc.line_nb_last = 229; Loc.bol_pos_last = 6997; Loc.bp = 6900; Loc.ep = 7012} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 231; Loc.bol_pos = 7014; Loc.line_nb_last = 234; Loc.bol_pos_last = 7112; Loc.bp = 7014; Loc.ep = 7127} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 236; Loc.bol_pos = 7129; Loc.line_nb_last = 237; Loc.bol_pos_last = 7151; Loc.bp = 7129; Loc.ep = 7220} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 239; Loc.bol_pos = 7222; Loc.line_nb_last = 240; Loc.bol_pos_last = 7245; Loc.bp = 7222; Loc.ep = 7315} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 242; Loc.bol_pos = 7317; Loc.line_nb_last = 242; Loc.bol_pos_last = 7317; Loc.bp = 7317; Loc.ep = 7385} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 243; Loc.bol_pos = 7386; Loc.line_nb_last = 243; Loc.bol_pos_last = 7386; Loc.bp = 7386; Loc.ep = 7456} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 245; Loc.bol_pos = 7458; Loc.line_nb_last = 246; Loc.bol_pos_last = 7533; Loc.bp = 7458; Loc.ep = 7581} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 248; Loc.bol_pos = 7583; Loc.line_nb_last = 249; Loc.bol_pos_last = 7670; Loc.bp = 7583; Loc.ep = 7718} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 251; Loc.bol_pos = 7720; Loc.line_nb_last = 252; Loc.bol_pos_last = 7809; Loc.bp = 7720; Loc.ep = 7857} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 254; Loc.bol_pos = 7859; Loc.line_nb_last = 254; Loc.bol_pos_last = 7859; Loc.bp = 7859; Loc.ep = 7907} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 260; Loc.bol_pos = 8183; Loc.line_nb_last = 261; Loc.bol_pos_last = 8231; Loc.bp = 8183; Loc.ep = 8273} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 265; Loc.bol_pos = 8339; Loc.line_nb_last = 268; Loc.bol_pos_last = 8469; Loc.bp = 8339; Loc.ep = 8490} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 274; Loc.bol_pos = 8678; Loc.line_nb_last = 274; Loc.bol_pos_last = 8678; Loc.bp = 8678; Loc.ep = 8748} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 275; Loc.bol_pos = 8749; Loc.line_nb_last = 275; Loc.bol_pos_last = 8749; Loc.bp = 8749; Loc.ep = 8819} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 279; Loc.bol_pos = 8903; Loc.line_nb_last = 280; Loc.bol_pos_last = 8951; Loc.bp = 8903; Loc.ep = 8985} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 281; Loc.bol_pos = 8986; Loc.line_nb_last = 281; Loc.bol_pos_last = 8986; Loc.bp = 8986; Loc.ep = 8992} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 281; Loc.bol_pos = 8986; Loc.line_nb_last = 281; Loc.bol_pos_last = 8986; Loc.bp = 8993; Loc.ep = 9019} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 281; Loc.bol_pos = 8986; Loc.line_nb_last = 281; Loc.bol_pos_last = 8986; Loc.bp = 9020; Loc.ep = 9028} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** solution_left **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 283; Loc.bol_pos = 9030; Loc.line_nb_last = 284; Loc.bol_pos_last = 9079; Loc.bp = 9030; Loc.ep = 9113} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 285; Loc.bol_pos = 9114; Loc.line_nb_last = 285; Loc.bol_pos_last = 9114; Loc.bp = 9114; Loc.ep = 9120} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 285; Loc.bol_pos = 9114; Loc.line_nb_last = 285; Loc.bol_pos_last = 9114; Loc.bp = 9121; Loc.ep = 9147} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 285; Loc.bol_pos = 9114; Loc.line_nb_last = 285; Loc.bol_pos_last = 9114; Loc.bp = 9148; Loc.ep = 9156} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** solution_right **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 287; Loc.bol_pos = 9158; Loc.line_nb_last = 287; Loc.bol_pos_last = 9158; Loc.bp = 9158; Loc.ep = 9205} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 288; Loc.bol_pos = 9206; Loc.line_nb_last = 288; Loc.bol_pos_last = 9206; Loc.bp = 9206; Loc.ep = 9212} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 288; Loc.bol_pos = 9206; Loc.line_nb_last = 288; Loc.bol_pos_last = 9206; Loc.bp = 9213; Loc.ep = 9232} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 288; Loc.bol_pos = 9206; Loc.line_nb_last = 288; Loc.bol_pos_last = 9206; Loc.bp = 9233; Loc.ep = 9241} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** deletion **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 290; Loc.bol_pos = 9243; Loc.line_nb_last = 291; Loc.bol_pos_last = 9284; Loc.bp = 9243; Loc.ep = 9318} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 292; Loc.bol_pos = 9319; Loc.line_nb_last = 292; Loc.bol_pos_last = 9319; Loc.bp = 9319; Loc.ep = 9325} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 292; Loc.bol_pos = 9319; Loc.line_nb_last = 292; Loc.bol_pos_last = 9319; Loc.bp = 9326; Loc.ep = 9365} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 292; Loc.bol_pos = 9319; Loc.line_nb_last = 292; Loc.bol_pos_last = 9319; Loc.bp = 9366; Loc.ep = 9374} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** simplification_heq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 294; Loc.bol_pos = 9376; Loc.line_nb_last = 294; Loc.bol_pos_last = 9376; Loc.bp = 9376; Loc.ep = 9426} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 296; Loc.bol_pos = 9428; Loc.line_nb_last = 297; Loc.bol_pos_last = 9499; Loc.bp = 9428; Loc.ep = 9569} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 298; Loc.bol_pos = 9570; Loc.line_nb_last = 298; Loc.bol_pos_last = 9570; Loc.bp = 9570; Loc.ep = 9576} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 298; Loc.bol_pos = 9570; Loc.line_nb_last = 298; Loc.bol_pos_last = 9570; Loc.bp = 9577; Loc.ep = 9588} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 298; Loc.bol_pos = 9570; Loc.line_nb_last = 298; Loc.bol_pos_last = 9570; Loc.bp = 9589; Loc.ep = 9597} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 298; Loc.bol_pos = 9570; Loc.line_nb_last = 298; Loc.bol_pos_last = 9570; Loc.bp = 9598; Loc.ep = 9614} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 298; Loc.bol_pos = 9570; Loc.line_nb_last = 298; Loc.bol_pos_last = 9570; Loc.bp = 9615; Loc.ep = 9626} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 298; Loc.bol_pos = 9570; Loc.line_nb_last = 298; Loc.bol_pos_last = 9570; Loc.bp = 9627; Loc.ep = 9635} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** simplification_existT2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 300; Loc.bol_pos = 9637; Loc.line_nb_last = 301; Loc.bol_pos_last = 9718; Loc.bp = 9637; Loc.ep = 9819} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 302; Loc.bol_pos = 9820; Loc.line_nb_last = 302; Loc.bol_pos_last = 9820; Loc.bp = 9820; Loc.ep = 9826} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 302; Loc.bol_pos = 9820; Loc.line_nb_last = 302; Loc.bol_pos_last = 9820; Loc.bp = 9827; Loc.ep = 9839} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 302; Loc.bol_pos = 9820; Loc.line_nb_last = 302; Loc.bol_pos_last = 9820; Loc.bp = 9840; Loc.ep = 9845} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 302; Loc.bol_pos = 9820; Loc.line_nb_last = 302; Loc.bol_pos_last = 9820; Loc.bp = 9846; Loc.ep = 9854} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** simplification_existT1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 304; Loc.bol_pos = 9856; Loc.line_nb_last = 305; Loc.bol_pos_last = 9911; Loc.bp = 9856; Loc.ep = 9950} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 306; Loc.bol_pos = 9951; Loc.line_nb_last = 306; Loc.bol_pos_last = 9951; Loc.bp = 9951; Loc.ep = 9957} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 306; Loc.bol_pos = 9951; Loc.line_nb_last = 306; Loc.bol_pos_last = 9951; Loc.bp = 9958; Loc.ep = 9965} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 306; Loc.bol_pos = 9951; Loc.line_nb_last = 306; Loc.bol_pos_last = 9951; Loc.bp = 9966; Loc.ep = 9987} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 306; Loc.bol_pos = 9951; Loc.line_nb_last = 306; Loc.bol_pos_last = 9951; Loc.bp = 9988; Loc.ep = 9999} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 306; Loc.bol_pos = 9951; Loc.line_nb_last = 306; Loc.bol_pos_last = 9951; Loc.bp = 10000; Loc.ep = 10008} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** simplification_K **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 311; Loc.bol_pos = 10132; Loc.line_nb_last = 313; Loc.bol_pos_last = 10266; Loc.bp = 10132; Loc.ep = 10303} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 320; Loc.bol_pos = 10567; Loc.line_nb_last = 346; Loc.bol_pos_last = 11996; Loc.bp = 10567; Loc.ep = 12002} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 348; Loc.bol_pos = 12004; Loc.line_nb_last = 351; Loc.bol_pos_last = 12102; Loc.bp = 12004; Loc.ep = 12108} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 356; Loc.bol_pos = 12272; Loc.line_nb_last = 356; Loc.bol_pos_last = 12272; Loc.bp = 12272; Loc.ep = 12327} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 361; Loc.bol_pos = 12432; Loc.line_nb_last = 362; Loc.bol_pos_last = 12454; Loc.bp = 12432; Loc.ep = 12531} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 364; Loc.bol_pos = 12533; Loc.line_nb_last = 368; Loc.bol_pos_last = 12672; Loc.bp = 12533; Loc.ep = 12719} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 370; Loc.bol_pos = 12721; Loc.line_nb_last = 370; Loc.bol_pos_last = 12721; Loc.bp = 12721; Loc.ep = 12803} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 371; Loc.bol_pos = 12804; Loc.line_nb_last = 371; Loc.bol_pos_last = 12804; Loc.bp = 12804; Loc.ep = 12863} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 380; Loc.bol_pos = 13297; Loc.line_nb_last = 383; Loc.bol_pos_last = 13393; Loc.bp = 13297; Loc.ep = 13399} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 385; Loc.bol_pos = 13401; Loc.line_nb_last = 387; Loc.bol_pos_last = 13507; Loc.bp = 13401; Loc.ep = 13588} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 389; Loc.bol_pos = 13590; Loc.line_nb_last = 391; Loc.bol_pos_last = 13700; Loc.bp = 13590; Loc.ep = 13781} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 393; Loc.bol_pos = 13783; Loc.line_nb_last = 400; Loc.bol_pos_last = 13966; Loc.bp = 13783; Loc.ep = 13972} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 402; Loc.bol_pos = 13974; Loc.line_nb_last = 402; Loc.bol_pos_last = 13974; Loc.bp = 13974; Loc.ep = 14053} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 404; Loc.bol_pos = 14055; Loc.line_nb_last = 405; Loc.bol_pos_last = 14075; Loc.bp = 14055; Loc.ep = 14136} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 407; Loc.bol_pos = 14138; Loc.line_nb_last = 407; Loc.bol_pos_last = 14138; Loc.bp = 14138; Loc.ep = 14210} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 409; Loc.bol_pos = 14212; Loc.line_nb_last = 409; Loc.bol_pos_last = 14212; Loc.bp = 14212; Loc.ep = 14279} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 411; Loc.bol_pos = 14281; Loc.line_nb_last = 413; Loc.bol_pos_last = 14347; Loc.bp = 14281; Loc.ep = 14396} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 417; Loc.bol_pos = 14444; Loc.line_nb_last = 417; Loc.bol_pos_last = 14444; Loc.bp = 14444; Loc.ep = 14507} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 421; Loc.bol_pos = 14534; Loc.line_nb_last = 421; Loc.bol_pos_last = 14534; Loc.bp = 14534; Loc.ep = 14613} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 425; Loc.bol_pos = 14659; Loc.line_nb_last = 425; Loc.bol_pos_last = 14659; Loc.bp = 14659; Loc.ep = 14719} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 429; Loc.bol_pos = 14796; Loc.line_nb_last = 432; Loc.bol_pos_last = 14904; Loc.bp = 14796; Loc.ep = 14956} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 437; Loc.bol_pos = 15130; Loc.line_nb_last = 438; Loc.bol_pos_last = 15185; Loc.bp = 15130; Loc.ep = 15255} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 440; Loc.bol_pos = 15257; Loc.line_nb_last = 441; Loc.bol_pos_last = 15330; Loc.bp = 15257; Loc.ep = 15409} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 445; Loc.bol_pos = 15504; Loc.line_nb_last = 446; Loc.bol_pos_last = 15589; Loc.bp = 15504; Loc.ep = 15662} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 448; Loc.bol_pos = 15664; Loc.line_nb_last = 449; Loc.bol_pos_last = 15767; Loc.bp = 15664; Loc.ep = 15849} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 455; Loc.bol_pos = 16074; Loc.line_nb_last = 456; Loc.bol_pos_last = 16126; Loc.bp = 16074; Loc.ep = 16169} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 458; Loc.bol_pos = 16171; Loc.line_nb_last = 459; Loc.bol_pos_last = 16241; Loc.bp = 16171; Loc.ep = 16295} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 463; Loc.bol_pos = 16388; Loc.line_nb_last = 464; Loc.bol_pos_last = 16471; Loc.bp = 16388; Loc.ep = 16543} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 466; Loc.bol_pos = 16545; Loc.line_nb_last = 467; Loc.bol_pos_last = 16646; Loc.bp = 16545; Loc.ep = 16729} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 469; Loc.bol_pos = 16731; Loc.line_nb_last = 470; Loc.bol_pos_last = 16803; Loc.bp = 16731; Loc.ep = 16880} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Program/Equality.v"; Loc.line_nb = 472; Loc.bol_pos = 16882; Loc.line_nb_last = 473; Loc.bol_pos_last = 16973; Loc.bp = 16882; Loc.ep = 17058} **)
+(**VERNAC_TYPE** VernacExtend **)

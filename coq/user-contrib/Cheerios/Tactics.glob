@@ -1,0 +1,15 @@
+DIGEST 2ce371cee4360f71972f0410f7bfa0f1
+FCheerios.Tactics
+R15:18 Coq.Lists.List <> <> lib
+R37:49 Cheerios.Core <> <> lib
+R67:92 Cheerios.DeserializerMonad <> <> lib
+R110:123 Cheerios.Types <> <> lib
+R205:211 Coq.Lists.List <> app_ass syndef
+R218:244 Cheerios.Core IOStreamWriter empty_unwrap defax
+R246:274 Cheerios.Core IOStreamWriter putByte_unwrap defax
+R281:308 Cheerios.Core IOStreamWriter append_unwrap defax
+R315:343 Cheerios.Core ByteListReader getByte_unwrap defax
+R345:370 Cheerios.Core ByteListReader bind_unwrap defax
+R372:396 Cheerios.Core ByteListReader ret_unwrap defax
+R403:427 Cheerios.Core ByteListReader map_unwrap defax
+R430:455 Cheerios.Core ByteListReader fold_unwrap defax

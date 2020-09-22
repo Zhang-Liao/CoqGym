@@ -1,0 +1,173 @@
+DIGEST ed76f998382ec8ab8ae49cfa912fedd0
+FListString.Char
+R15:31 Coq.NArith.NArith <> <> lib
+R49:65 Coq.Strings.Ascii <> <> lib
+R76:79 ListString.Bool <> <> lib
+def 172:178 <> compare
+R187:197 Coq.Strings.Ascii <> ascii ind
+R202:211 Coq.Init.Datatypes <> comparison ind
+R218:226 Coq.NArith.BinNat N compare def
+R250:265 Coq.Strings.Ascii <> N_of_ascii def
+R267:267 ListString.Char <> y var
+R229:244 Coq.Strings.Ascii <> N_of_ascii def
+R246:246 ListString.Char <> x var
+prf 278:295 <> compare_implies_eq
+R313:323 Coq.Strings.Ascii <> ascii ind
+R345:348 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R350:352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R349:349 ListString.Char <> x var
+R353:353 ListString.Char <> y var
+R340:342 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R329:335 ListString.Char <> compare def
+R339:339 ListString.Char <> y var
+R337:337 ListString.Char <> x var
+R343:344 Coq.Init.Datatypes <> Eq constr
+R365:371 ListString.Char <> compare def
+R401:417 Coq.Strings.Ascii <> ascii_N_embedding thm
+R449:465 Coq.Strings.Ascii <> ascii_N_embedding thm
+R401:417 Coq.Strings.Ascii <> ascii_N_embedding thm
+R401:417 Coq.Strings.Ascii <> ascii_N_embedding thm
+R449:465 Coq.Strings.Ascii <> ascii_N_embedding thm
+R449:465 Coq.Strings.Ascii <> ascii_N_embedding thm
+R505:520 Coq.NArith.BinNat N compare_eq_iff thm
+R505:520 Coq.NArith.BinNat N compare_eq_iff thm
+prf 535:552 <> compare_same_is_eq
+R568:578 Coq.Strings.Ascii <> ascii ind
+R593:595 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R582:588 ListString.Char <> compare def
+R592:592 ListString.Char <> x var
+R590:590 ListString.Char <> x var
+R596:597 Coq.Init.Datatypes <> Eq constr
+R618:624 ListString.Char <> compare def
+R639:654 Coq.NArith.BinNat N compare_eq_iff thm
+R639:654 Coq.NArith.BinNat N compare_eq_iff thm
+def 715:717 <> eqb
+R726:736 Coq.Strings.Ascii <> ascii ind
+R741:744 Coq.Init.Datatypes <> bool ind
+R757:763 ListString.Char <> compare def
+R767:767 ListString.Char <> y var
+R765:765 ListString.Char <> x var
+R778:779 Coq.Init.Datatypes <> Eq constr
+R784:787 Coq.Init.Datatypes <> true constr
+R798:802 Coq.Init.Datatypes <> false constr
+def 882:885 <> of_N
+R892:892 Coq.Numbers.BinNums <> N ind
+R897:907 Coq.Strings.Ascii <> ascii ind
+R917:921 Coq.NArith.BinNat N leb def
+R923:923 ListString.Char <> n var
+R991:1006 Coq.Strings.Ascii <> ascii_of_N def
+R1033:1035 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1029:1031 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1009:1024 Coq.Strings.Ascii <> N_of_ascii def
+R1032:1032 ListString.Char <> n var
+R936:951 Coq.Strings.Ascii <> ascii_of_N def
+R974:976 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R954:969 Coq.Strings.Ascii <> N_of_ascii def
+R977:977 ListString.Char <> n var
+def 1116:1119 <> to_N
+R1126:1136 Coq.Strings.Ascii <> ascii ind
+R1141:1146 Coq.Init.Datatypes <> option ind
+R1148:1148 Coq.Numbers.BinNums <> N ind
+R1164:1179 Coq.Strings.Ascii <> N_of_ascii def
+R1181:1181 ListString.Char <> c var
+R1191:1194 Coq.Init.Datatypes <> andb def
+R1230:1234 Coq.NArith.BinNat N leb def
+R1239:1254 Coq.Strings.Ascii <> N_of_ascii def
+R1236:1236 ListString.Char <> n var
+R1197:1201 Coq.NArith.BinNat N leb def
+R1226:1226 ListString.Char <> n var
+R1204:1219 Coq.Strings.Ascii <> N_of_ascii def
+R1313:1317 Coq.NArith.BinNat N leb def
+R1342:1342 ListString.Char <> n var
+R1320:1335 Coq.Strings.Ascii <> N_of_ascii def
+R1401:1404 Coq.Init.Datatypes <> None constr
+R1353:1356 Coq.Init.Datatypes <> Some constr
+R1383:1385 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R1360:1362 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1359:1359 ListString.Char <> n var
+R1363:1378 Coq.Strings.Ascii <> N_of_ascii def
+R1271:1274 Coq.Init.Datatypes <> Some constr
+R1278:1280 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R1277:1277 ListString.Char <> n var
+R1281:1296 Coq.Strings.Ascii <> N_of_ascii def
+def 1471:1478 <> is_ascii
+R1485:1495 Coq.Strings.Ascii <> ascii ind
+R1500:1503 Coq.Init.Datatypes <> bool ind
+R1516:1516 ListString.Char <> c var
+R1527:1537 Coq.Strings.Ascii <> Ascii constr
+R1553:1557 Coq.Init.Datatypes <> false constr
+R1562:1565 Coq.Init.Datatypes <> true constr
+R1576:1580 Coq.Init.Datatypes <> false constr
+def 1678:1691 <> is_white_space
+R1698:1708 Coq.Strings.Ascii <> ascii ind
+R1713:1716 Coq.Init.Datatypes <> bool ind
+R1729:1729 ListString.Char <> c var
+R1787:1790 Coq.Init.Datatypes <> true constr
+R1787:1790 Coq.Init.Datatypes <> true constr
+R1787:1790 Coq.Init.Datatypes <> true constr
+R1787:1790 Coq.Init.Datatypes <> true constr
+R1787:1790 Coq.Init.Datatypes <> true constr
+R1787:1790 Coq.Init.Datatypes <> true constr
+R1801:1805 Coq.Init.Datatypes <> false constr
+def 1921:1929 <> down_case
+R1936:1946 Coq.Strings.Ascii <> ascii ind
+R1951:1961 Coq.Strings.Ascii <> ascii ind
+R1977:1992 Coq.Strings.Ascii <> N_of_ascii def
+R1994:1994 ListString.Char <> c var
+R2012:2027 Coq.Strings.Ascii <> N_of_ascii def
+R2049:2064 Coq.Strings.Ascii <> N_of_ascii def
+R2086:2101 Coq.Strings.Ascii <> N_of_ascii def
+R2115:2118 Coq.Init.Datatypes <> andb def
+R2135:2139 Coq.NArith.BinNat N leb def
+R2143:2145 ListString.Char <> n_Z var
+R2141:2141 ListString.Char <> n var
+R2121:2125 Coq.NArith.BinNat N leb def
+R2131:2131 ListString.Char <> n var
+R2127:2129 ListString.Char <> n_A var
+R2203:2203 ListString.Char <> c var
+R2157:2172 Coq.Strings.Ascii <> ascii_of_N def
+R2175:2175 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R2183:2186 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R2177:2179 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2176:2176 ListString.Char <> n var
+R2180:2182 ListString.Char <> n_a var
+R2187:2189 ListString.Char <> n_A var
+def 2313:2319 <> up_case
+R2326:2336 Coq.Strings.Ascii <> ascii ind
+R2341:2351 Coq.Strings.Ascii <> ascii ind
+R2367:2382 Coq.Strings.Ascii <> N_of_ascii def
+R2384:2384 ListString.Char <> c var
+R2402:2417 Coq.Strings.Ascii <> N_of_ascii def
+R2439:2454 Coq.Strings.Ascii <> N_of_ascii def
+R2476:2491 Coq.Strings.Ascii <> N_of_ascii def
+R2505:2508 Coq.Init.Datatypes <> andb def
+R2525:2529 Coq.NArith.BinNat N leb def
+R2533:2535 ListString.Char <> n_z var
+R2531:2531 ListString.Char <> n var
+R2511:2515 Coq.NArith.BinNat N leb def
+R2521:2521 ListString.Char <> n var
+R2517:2519 ListString.Char <> n_a var
+R2593:2593 ListString.Char <> c var
+R2547:2562 Coq.Strings.Ascii <> ascii_of_N def
+R2565:2565 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R2573:2576 Coq.NArith.BinNat <> ::N_scope:x_'-'_x not
+R2567:2569 Coq.NArith.BinNat <> ::N_scope:x_'+'_x not
+R2566:2566 ListString.Char <> n var
+R2570:2572 ListString.Char <> n_A var
+R2577:2579 ListString.Char <> n_a var
+def 2650:2650 <> a
+R2654:2664 Coq.Strings.Ascii <> ascii ind
+def 2706:2706 <> b
+R2710:2720 Coq.Strings.Ascii <> ascii ind
+def 2774:2774 <> t
+R2778:2788 Coq.Strings.Ascii <> ascii ind
+def 2830:2830 <> n
+R2834:2844 Coq.Strings.Ascii <> ascii ind
+def 2896:2896 <> v
+R2900:2910 Coq.Strings.Ascii <> ascii ind
+def 2952:2952 <> f
+R2956:2966 Coq.Strings.Ascii <> ascii ind
+def 3014:3014 <> r
+R3018:3028 Coq.Strings.Ascii <> ascii ind
+def 3067:3067 <> e
+R3071:3081 Coq.Strings.Ascii <> ascii ind

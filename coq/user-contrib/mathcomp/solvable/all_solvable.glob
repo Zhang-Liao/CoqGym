@@ -1,0 +1,21 @@
+DIGEST 53d4b53e47fa67f11f060a1466e1baca
+Fmathcomp.solvable.all_solvable
+R15:21 mathcomp.solvable.abelian <> <> lib
+R39:41 mathcomp.solvable.alt <> <> lib
+R59:70 mathcomp.solvable.burnside_app <> <> lib
+R88:93 mathcomp.solvable.center <> <> lib
+R111:120 mathcomp.solvable.commutator <> <> lib
+R138:143 mathcomp.solvable.cyclic <> <> lib
+R161:172 mathcomp.solvable.extraspecial <> <> lib
+R190:197 mathcomp.solvable.extremal <> <> lib
+R215:223 mathcomp.solvable.finmodule <> <> lib
+R241:249 mathcomp.solvable.frobenius <> <> lib
+R267:274 mathcomp.solvable.gfunctor <> <> lib
+R292:298 mathcomp.solvable.gseries <> <> lib
+R316:319 mathcomp.solvable.hall <> <> lib
+R337:348 mathcomp.solvable.jordanholder <> <> lib
+R366:372 mathcomp.solvable.maximal <> <> lib
+R390:398 mathcomp.solvable.nilpotent <> <> lib
+R416:421 mathcomp.solvable.pgroup <> <> lib
+R439:454 mathcomp.solvable.primitive_action <> <> lib
+R472:476 mathcomp.solvable.sylow <> <> lib

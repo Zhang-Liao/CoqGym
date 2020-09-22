@@ -1,0 +1,574 @@
+DIGEST 9db5f008c232758237aec7dbf852a1ce
+FCheerios.Core
+R15:19 Coq.Strings.Ascii <> <> lib
+R21:24 Coq.Lists.List <> <> lib
+R26:31 Coq.ZArith.ZArith <> <> lib
+R72:85 Cheerios.Types <> <> lib
+R103:124 Cheerios.ByteDecidable <> <> lib
+R177:182 Cheerios.Types WRITER <> mod
+mod 160:173 <> IOStreamWriter
+ind 197:204 IOStreamWriter iostream
+constr 213:217 IOStreamWriter Empty
+constr 234:242 IOStreamWriter WriteByte
+constr 267:269 IOStreamWriter Seq
+R221:228 Cheerios.Core <> iostream ind
+R250:253 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R254:261 Cheerios.Core <> iostream ind
+R246:249 Cheerios.Types <> byte ind
+R281:284 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R285:285 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R302:306 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R307:314 Cheerios.Core <> iostream ind
+R290:293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R294:301 Cheerios.Core <> iostream ind
+R286:289 Coq.Init.Datatypes <> unit ind
+R273:280 Cheerios.Core <> iostream ind
+def 331:331 IOStreamWriter t
+R336:343 Cheerios.Core IOStreamWriter iostream ind
+def 358:371 IOStreamWriter iostreamDenote
+R378:385 Cheerios.Core IOStreamWriter iostream ind
+R390:393 Coq.Init.Datatypes <> list ind
+R395:398 Cheerios.Types <> byte ind
+R413:413 Cheerios.Core <> i var
+R426:430 Cheerios.Core IOStreamWriter Empty constr
+R435:436 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R444:452 Cheerios.Core IOStreamWriter WriteByte constr
+R459:459 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R461:461 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R469:471 Cheerios.Core IOStreamWriter Seq constr
+R499:502 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R482:495 Cheerios.Core <> iostreamDenote def
+R503:516 Cheerios.Core <> iostreamDenote def
+R522:523 Coq.Init.Datatypes <> tt constr
+def 549:554 IOStreamWriter unwrap
+R559:572 Cheerios.Core IOStreamWriter iostreamDenote def
+def 609:613 IOStreamWriter empty
+R617:624 Cheerios.Core IOStreamWriter iostream ind
+R629:633 Cheerios.Core IOStreamWriter Empty constr
+def 650:656 IOStreamWriter putByte
+R664:667 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R668:675 Cheerios.Core IOStreamWriter iostream ind
+R660:663 Cheerios.Types <> byte ind
+R684:692 Cheerios.Core IOStreamWriter WriteByte constr
+def 709:714 IOStreamWriter append
+R718:718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R735:739 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R740:740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R757:761 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R762:769 Cheerios.Core IOStreamWriter iostream ind
+R745:748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R749:756 Cheerios.Core IOStreamWriter iostream ind
+R741:744 Coq.Init.Datatypes <> unit ind
+R723:726 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R727:734 Cheerios.Core IOStreamWriter iostream ind
+R719:722 Coq.Init.Datatypes <> unit ind
+R791:793 Cheerios.Core IOStreamWriter Seq constr
+R803:804 Cheerios.Core <> t2 var
+R796:797 Cheerios.Core <> t1 var
+R799:800 Coq.Init.Datatypes <> tt constr
+prf 816:827 IOStreamWriter empty_unwrap
+R843:845 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R831:836 Cheerios.Core IOStreamWriter unwrap def
+R838:842 Cheerios.Core IOStreamWriter empty def
+R846:847 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+prf 886:898 IOStreamWriter append_unwrap
+R923:926 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R927:927 Cheerios.Core IOStreamWriter t def
+R919:922 Coq.Init.Datatypes <> unit ind
+R949:951 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R930:935 Cheerios.Core IOStreamWriter unwrap def
+R938:943 Cheerios.Core IOStreamWriter append def
+R947:947 Cheerios.Core <> y var
+R945:945 Cheerios.Core <> x var
+R965:968 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R952:957 Cheerios.Core IOStreamWriter unwrap def
+R960:960 Cheerios.Core <> x var
+R962:963 Coq.Init.Datatypes <> tt constr
+R969:974 Cheerios.Core IOStreamWriter unwrap def
+R977:977 Cheerios.Core <> y var
+R979:980 Coq.Init.Datatypes <> tt constr
+prf 1020:1033 IOStreamWriter putByte_unwrap
+R1049:1052 Cheerios.Types <> byte ind
+R1074:1076 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1056:1061 Cheerios.Core IOStreamWriter unwrap def
+R1064:1070 Cheerios.Core IOStreamWriter putByte def
+R1072:1072 Cheerios.Core <> a var
+R1077:1077 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1079:1079 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R1078:1078 Cheerios.Core <> a var
+def 1136:1139 IOStreamWriter wire
+R1144:1147 Coq.Init.Datatypes <> list ind
+R1149:1152 Cheerios.Types <> byte ind
+def 1169:1179 IOStreamWriter wire_eq_dec
+R1184:1194 Coq.Lists.List <> list_eq_dec thm
+R1196:1206 Cheerios.ByteDecidable <> byte_eq_dec def
+def 1223:1231 IOStreamWriter wire_wrap
+R1236:1241 Cheerios.Core IOStreamWriter unwrap def
+def 1258:1268 IOStreamWriter wire_unwrap
+R1275:1278 Cheerios.Core IOStreamWriter wire def
+R1284:1284 Cheerios.Core <> x var
+prf 1296:1311 IOStreamWriter wire_wrap_unwrap
+R1350:1352 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1325:1335 Cheerios.Core IOStreamWriter wire_unwrap def
+R1338:1346 Cheerios.Core IOStreamWriter wire_wrap def
+R1348:1348 Cheerios.Core <> x var
+R1353:1358 Cheerios.Core IOStreamWriter unwrap def
+R1360:1360 Cheerios.Core <> x var
+def 1420:1430 IOStreamWriter out_channel
+R1435:1438 Coq.Init.Datatypes <> list ind
+R1440:1443 Cheerios.Types <> byte ind
+def 1459:1468 IOStreamWriter in_channel
+R1473:1476 Coq.Init.Datatypes <> list ind
+R1478:1481 Cheerios.Types <> byte ind
+def 1498:1513 IOStreamWriter out_channel_wrap
+R1520:1525 Cheerios.Core IOStreamWriter unwrap def
+R1527:1527 Cheerios.Core <> s var
+def 1543:1554 IOStreamWriter channel_send
+R1561:1571 Cheerios.Core IOStreamWriter out_channel def
+R1576:1585 Cheerios.Core IOStreamWriter in_channel def
+R1590:1590 Cheerios.Core <> o var
+def 1606:1622 IOStreamWriter in_channel_unwrap
+R1629:1638 Cheerios.Core IOStreamWriter in_channel def
+R1643:1646 Coq.Init.Datatypes <> list ind
+R1648:1651 Cheerios.Types <> byte ind
+R1656:1656 Cheerios.Core <> i var
+prf 1670:1688 IOStreamWriter channel_wrap_unwrap
+R1761:1763 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1708:1724 Cheerios.Core IOStreamWriter in_channel_unwrap def
+R1727:1738 Cheerios.Core IOStreamWriter channel_send def
+R1741:1756 Cheerios.Core IOStreamWriter out_channel_wrap def
+R1758:1758 Cheerios.Core <> x var
+R1764:1769 Cheerios.Core IOStreamWriter unwrap def
+R1771:1771 Cheerios.Core <> x var
+R1811:1824 Cheerios.Core IOStreamWriter <> mod
+R1851:1871 Cheerios.Core <> append defax
+not 1837:1837 <> :::x_'+$+'_x
+R2115:2120 Cheerios.Types READER <> mod
+mod 2098:2111 <> ByteListReader
+def 2136:2136 ByteListReader t
+R2161:2164 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2165:2170 Coq.Init.Datatypes <> option ind
+R2174:2176 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R2173:2173 Cheerios.Core <> A var
+R2177:2180 Coq.Init.Datatypes <> list ind
+R2182:2185 Cheerios.Types <> byte ind
+R2152:2155 Coq.Init.Datatypes <> list ind
+R2157:2160 Cheerios.Types <> byte ind
+def 2202:2207 ByteListReader unwrap
+R2218:2218 Cheerios.Core ByteListReader t def
+R2220:2220 Cheerios.Core <> A var
+R2226:2226 Cheerios.Core <> x var
+def 2243:2249 ByteListReader getByte
+R2256:2259 Coq.Init.Datatypes <> list ind
+R2261:2264 Cheerios.Types <> byte ind
+R2280:2280 Cheerios.Core <> l var
+R2293:2294 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2299:2302 Coq.Init.Datatypes <> None constr
+R2311:2314 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2320:2323 Coq.Init.Datatypes <> Some constr
+R2325:2325 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2327:2328 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2330:2330 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2329:2329 Cheerios.Core <> l var
+def 2355:2357 ByteListReader ret
+R2368:2368 Cheerios.Core <> A var
+R2373:2373 Cheerios.Core ByteListReader t def
+R2375:2375 Cheerios.Core <> A var
+R2389:2392 Coq.Init.Datatypes <> Some constr
+R2394:2394 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2396:2397 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2399:2399 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2395:2395 Cheerios.Core <> a var
+R2398:2398 Cheerios.Core <> s var
+def 2416:2419 ByteListReader bind
+R2432:2432 Cheerios.Core ByteListReader t def
+R2434:2434 Cheerios.Core <> A var
+R2443:2446 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2447:2447 Cheerios.Core ByteListReader t def
+R2449:2449 Cheerios.Core <> B var
+R2442:2442 Cheerios.Core <> A var
+R2454:2454 Cheerios.Core ByteListReader t def
+R2456:2456 Cheerios.Core <> B var
+R2480:2480 Cheerios.Core <> m var
+R2482:2482 Cheerios.Core <> s var
+R2489:2492 Coq.Init.Datatypes <> None constr
+R2497:2500 Coq.Init.Datatypes <> None constr
+R2527:2530 Coq.Init.Datatypes <> Some constr
+R2532:2532 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2534:2535 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2538:2538 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2543:2543 Cheerios.Core <> f var
+def 2582:2584 ByteListReader map
+R2598:2601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2602:2602 Cheerios.Core <> B var
+R2597:2597 Cheerios.Core <> A var
+R2610:2610 Cheerios.Core ByteListReader t def
+R2612:2612 Cheerios.Core <> A var
+R2617:2617 Cheerios.Core ByteListReader t def
+R2619:2619 Cheerios.Core <> B var
+R2628:2631 Cheerios.Core ByteListReader bind def
+R2645:2647 Cheerios.Core ByteListReader ret def
+R2650:2650 Cheerios.Core <> f var
+R2652:2652 Cheerios.Core <> a var
+R2633:2633 Cheerios.Core <> d var
+def 2671:2675 ByteListReader error
+R2683:2683 Cheerios.Core ByteListReader t def
+R2685:2685 Cheerios.Core <> A var
+R2703:2706 Coq.Init.Datatypes <> None constr
+prf 2718:2731 ByteListReader getByte_unwrap
+R2767:2769 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2751:2756 Cheerios.Core ByteListReader unwrap def
+R2766:2766 Cheerios.Core <> l var
+R2758:2764 Cheerios.Core ByteListReader getByte def
+R2776:2776 Cheerios.Core <> l var
+R2810:2811 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R2816:2819 Coq.Init.Datatypes <> None constr
+R2849:2852 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R2858:2861 Coq.Init.Datatypes <> Some constr
+R2863:2863 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2865:2866 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2868:2868 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2867:2867 Cheerios.Core <> l var
+prf 2936:2946 ByteListReader bind_unwrap
+R2966:2966 Cheerios.Core ByteListReader t def
+R2968:2968 Cheerios.Core <> A var
+R3006:3009 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3010:3010 Cheerios.Core ByteListReader t def
+R3012:3012 Cheerios.Core <> B var
+R3005:3005 Cheerios.Core <> A var
+R3051:3053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3028:3033 Cheerios.Core ByteListReader unwrap def
+R3046:3050 Cheerios.Core <> bytes var
+R3036:3039 Cheerios.Core ByteListReader bind def
+R3043:3043 Cheerios.Core <> f var
+R3041:3041 Cheerios.Core <> m var
+R3060:3065 Cheerios.Core ByteListReader unwrap def
+R3069:3073 Cheerios.Core <> bytes var
+R3067:3067 Cheerios.Core <> m var
+R3114:3117 Coq.Init.Datatypes <> None constr
+R3122:3125 Coq.Init.Datatypes <> None constr
+R3161:3164 Coq.Init.Datatypes <> Some constr
+R3166:3166 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3168:3169 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3175:3175 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3180:3185 Cheerios.Core ByteListReader unwrap def
+R3193:3197 Cheerios.Core <> bytes var
+R3188:3188 Cheerios.Core <> f var
+R3256:3259 Cheerios.Core ByteListReader bind def
+def 3310:3313 ByteListReader fold
+R3341:3344 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3346:3349 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3350:3359 Cheerios.Types <> fold_state ind
+R3363:3363 Cheerios.Core <> A var
+R3361:3361 Cheerios.Core <> S var
+R3345:3345 Cheerios.Core <> S var
+R3337:3340 Cheerios.Types <> byte ind
+R3371:3371 Cheerios.Core <> S var
+R3379:3382 Coq.Init.Datatypes <> list ind
+R3384:3387 Cheerios.Types <> byte ind
+R3403:3403 Cheerios.Core <> l var
+R3416:3417 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R3422:3425 Coq.Init.Datatypes <> None constr
+R3434:3437 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R3449:3449 Cheerios.Core <> f var
+R3453:3453 Cheerios.Core <> s var
+R3478:3481 Cheerios.Types <> Done constr
+R3488:3491 Coq.Init.Datatypes <> Some constr
+R3493:3493 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3495:3496 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3498:3498 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3497:3497 Cheerios.Core <> l var
+R3518:3521 Cheerios.Types <> More constr
+R3528:3531 Cheerios.Core <> fold def
+R3537:3537 Cheerios.Core <> l var
+R3535:3535 Cheerios.Core <> s var
+R3533:3533 Cheerios.Core <> f var
+R3557:3561 Cheerios.Types <> Error constr
+R3566:3569 Coq.Init.Datatypes <> None constr
+prf 3609:3618 ByteListReader ret_unwrap
+R3637:3637 Cheerios.Core <> A var
+R3667:3669 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3647:3652 Cheerios.Core ByteListReader unwrap def
+R3662:3666 Cheerios.Core <> bytes var
+R3655:3657 Cheerios.Core ByteListReader ret def
+R3659:3659 Cheerios.Core <> x var
+R3670:3673 Coq.Init.Datatypes <> Some constr
+R3675:3675 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3677:3678 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3684:3684 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3676:3676 Cheerios.Core <> x var
+R3679:3683 Cheerios.Core <> bytes var
+prf 3723:3732 ByteListReader map_unwrap
+R3751:3754 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3755:3755 Cheerios.Core <> B var
+R3750:3750 Cheerios.Core <> A var
+R3762:3762 Cheerios.Core ByteListReader t def
+R3764:3764 Cheerios.Core <> A var
+R3802:3810 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3780:3785 Cheerios.Core ByteListReader unwrap def
+R3797:3801 Cheerios.Core <> bytes var
+R3788:3790 Cheerios.Core ByteListReader map def
+R3794:3794 Cheerios.Core <> d var
+R3792:3792 Cheerios.Core <> f var
+R3818:3823 Cheerios.Core ByteListReader unwrap def
+R3827:3831 Cheerios.Core <> bytes var
+R3825:3825 Cheerios.Core <> d var
+R3847:3850 Coq.Init.Datatypes <> None constr
+R3855:3858 Coq.Init.Datatypes <> None constr
+R3868:3871 Coq.Init.Datatypes <> Some constr
+R3873:3873 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3875:3876 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3882:3882 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3887:3890 Coq.Init.Datatypes <> Some constr
+R3892:3892 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3896:3897 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3903:3903 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3893:3893 Cheerios.Core <> f var
+R3898:3902 Cheerios.Core <> bytes var
+prf 3952:3962 ByteListReader fold_unwrap
+R4024:4027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4029:4032 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4033:4042 Cheerios.Types <> fold_state ind
+R4046:4046 Cheerios.Core <> A var
+R4044:4044 Cheerios.Core <> S var
+R4028:4028 Cheerios.Core <> S var
+R4020:4023 Cheerios.Types <> byte ind
+R4054:4054 Cheerios.Core <> S var
+R4085:4093 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4066:4071 Cheerios.Core ByteListReader unwrap def
+R4084:4084 Cheerios.Core <> l var
+R4074:4077 Cheerios.Core ByteListReader fold def
+R4081:4081 Cheerios.Core <> s var
+R4079:4079 Cheerios.Core <> f var
+R4100:4100 Cheerios.Core <> l var
+R4115:4116 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R4121:4124 Coq.Init.Datatypes <> None constr
+R4135:4138 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R4150:4150 Cheerios.Core <> f var
+R4154:4154 Cheerios.Core <> s var
+R4181:4184 Cheerios.Types <> Done constr
+R4191:4194 Coq.Init.Datatypes <> Some constr
+R4196:4196 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4198:4199 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4201:4201 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4200:4200 Cheerios.Core <> l var
+R4223:4226 Cheerios.Types <> More constr
+R4233:4238 Cheerios.Core ByteListReader unwrap def
+R4251:4251 Cheerios.Core <> l var
+R4241:4244 Cheerios.Core ByteListReader fold def
+R4248:4248 Cheerios.Core <> s var
+R4246:4246 Cheerios.Core <> f var
+R4273:4277 Cheerios.Types <> Error constr
+R4282:4285 Coq.Init.Datatypes <> None constr
+R4388:4401 Cheerios.Core ByteListReader <> mod
+R4414:4433 Cheerios.Core <> error defax
+R4414:4433 Cheerios.Core <> error defax
+syndef 4450:4478 <> serialize_deserialize_id_spec
+R4574:4576 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4512:4532 Cheerios.Core <> unwrap defax
+R4564:4567 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R4537:4557 Cheerios.Core <> unwrap defax
+R4562:4562 Cheerios.Core <> a var
+R4568:4572 Cheerios.Core <> bytes var
+R4577:4580 Coq.Init.Datatypes <> Some constr
+R4581:4581 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4583:4584 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4590:4590 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R4582:4582 Cheerios.Core <> a var
+R4585:4589 Cheerios.Core <> bytes var
+rec 4843:4852 <> Serializer
+proj 4883:4891 <> serialize
+proj 4922:4932 <> deserialize
+proj 4960:4983 <> serialize_deserialize_id
+R4896:4899 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4900:4915 Cheerios.Core <> t defax
+R4895:4895 Cheerios.Core <> A var
+R4936:4951 Cheerios.Core <> t defax
+R4953:4953 Cheerios.Core <> A var
+R4987:5015 Cheerios.Core <> serialize_deserialize_id_spec syndef
+R5027:5037 Cheerios.Core <> deserialize meth
+R5017:5025 Cheerios.Core <> serialize meth
+R5058:5081 Cheerios.Core <> serialize_deserialize_id meth
+prf 5213:5240 <> serialize_deserialize_id_nil
+R5261:5270 Cheerios.Core <> Serializer class
+R5272:5272 Cheerios.Core <> A var
+R5353:5355 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5282:5302 Cheerios.Core <> unwrap defax
+R5317:5337 Cheerios.Core <> unwrap defax
+R5340:5348 Cheerios.Core <> serialize meth
+R5350:5350 Cheerios.Core <> a var
+R5304:5314 Cheerios.Core <> deserialize meth
+R5356:5359 Coq.Init.Datatypes <> Some constr
+R5361:5361 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5363:5364 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5367:5367 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5362:5362 Cheerios.Core <> a var
+R5365:5366 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5400:5423 Cheerios.Core <> serialize_deserialize_id meth
+R5427:5428 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5400:5423 Cheerios.Core <> serialize_deserialize_id meth
+R5427:5428 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5445:5453 Coq.Lists.List <> app_nil_r thm
+R5445:5453 Coq.Lists.List <> app_nil_r thm
+R5445:5453 Coq.Lists.List <> app_nil_r thm
+def 5519:5531 <> serialize_top
+R5538:5553 Cheerios.Core <> t defax
+R5558:5576 Cheerios.Core <> wire defax
+R5583:5606 Cheerios.Core <> wire_wrap defax
+R5608:5608 Cheerios.Core <> s var
+def 5623:5637 <> deserialize_top
+R5665:5680 Cheerios.Core <> t defax
+R5682:5682 Cheerios.Core <> A var
+R5690:5708 Cheerios.Core <> wire defax
+R5713:5718 Coq.Init.Datatypes <> option ind
+R5720:5720 Cheerios.Core <> A var
+R5733:5753 Cheerios.Core <> unwrap defax
+R5758:5783 Cheerios.Core <> wire_unwrap defax
+R5785:5785 Cheerios.Core <> w var
+R5755:5755 Cheerios.Core <> d var
+R5797:5800 Coq.Init.Datatypes <> Some constr
+R5802:5802 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5804:5805 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5808:5808 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5806:5807 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R5813:5816 Coq.Init.Datatypes <> Some constr
+R5829:5832 Coq.Init.Datatypes <> None constr
+prf 5848:5876 <> serialize_deserialize_top_id'
+R5896:5911 Cheerios.Core <> t defax
+R5913:5913 Cheerios.Core <> A var
+R5989:5996 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6032:6034 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5997:6011 Cheerios.Core <> deserialize_top def
+R6016:6028 Cheerios.Core <> serialize_top def
+R6030:6030 Cheerios.Core <> s var
+R6013:6013 Cheerios.Core <> d var
+R6035:6038 Coq.Init.Datatypes <> Some constr
+R6040:6040 Cheerios.Core <> v var
+R5974:5976 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R5925:5945 Cheerios.Core <> unwrap defax
+R5950:5970 Cheerios.Core <> unwrap defax
+R5972:5972 Cheerios.Core <> s var
+R5947:5947 Cheerios.Core <> d var
+R5977:5980 Coq.Init.Datatypes <> Some constr
+R5982:5982 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5984:5985 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5988:5988 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R5983:5983 Cheerios.Core <> v var
+R5986:5987 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R6069:6081 Cheerios.Core <> serialize_top def
+R6084:6098 Cheerios.Core <> deserialize_top def
+R6111:6141 Cheerios.Core <> wire_wrap_unwrap defax
+R6111:6141 Cheerios.Core <> wire_wrap_unwrap defax
+R6111:6141 Cheerios.Core <> wire_wrap_unwrap defax
+prf 6174:6205 <> serialize_deserialize_top_invert
+R6225:6240 Cheerios.Core <> t defax
+R6242:6242 Cheerios.Core <> A var
+R6298:6305 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6355:6357 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6306:6326 Cheerios.Core <> unwrap defax
+R6331:6351 Cheerios.Core <> unwrap defax
+R6353:6353 Cheerios.Core <> s var
+R6328:6328 Cheerios.Core <> d var
+R6358:6361 Coq.Init.Datatypes <> Some constr
+R6363:6363 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6365:6366 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6369:6369 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R6364:6364 Cheerios.Core <> v var
+R6367:6368 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R6289:6291 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6254:6268 Cheerios.Core <> deserialize_top def
+R6273:6285 Cheerios.Core <> serialize_top def
+R6287:6287 Cheerios.Core <> s var
+R6270:6270 Cheerios.Core <> d var
+R6292:6295 Coq.Init.Datatypes <> Some constr
+R6297:6297 Cheerios.Core <> v var
+R6399:6411 Cheerios.Core <> serialize_top def
+R6414:6428 Cheerios.Core <> deserialize_top def
+R6443:6473 Cheerios.Core <> wire_wrap_unwrap defax
+R6443:6473 Cheerios.Core <> wire_wrap_unwrap defax
+R6443:6473 Cheerios.Core <> wire_wrap_unwrap defax
+R6485:6499 Cheerios.Core <> deserialize_top def
+R6502:6514 Cheerios.Core <> serialize_top def
+R6534:6554 Cheerios.Core <> unwrap defax
+R6559:6584 Cheerios.Core <> wire_unwrap defax
+R6587:6610 Cheerios.Core <> wire_wrap defax
+R6534:6554 Cheerios.Core <> unwrap defax
+R6559:6584 Cheerios.Core <> wire_unwrap defax
+R6587:6610 Cheerios.Core <> wire_wrap defax
+prf 6717:6744 <> serialize_deserialize_top_id
+R6771:6780 Cheerios.Core <> Serializer class
+R6782:6782 Cheerios.Core <> A var
+R6849:6851 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6792:6806 Cheerios.Core <> deserialize_top def
+R6821:6833 Cheerios.Core <> serialize_top def
+R6836:6844 Cheerios.Core <> serialize meth
+R6846:6846 Cheerios.Core <> a var
+R6808:6818 Cheerios.Core <> deserialize meth
+R6852:6855 Coq.Init.Datatypes <> Some constr
+R6857:6857 Cheerios.Core <> a var
+R6885:6913 Cheerios.Core <> serialize_deserialize_top_id' thm
+R6885:6913 Cheerios.Core <> serialize_deserialize_top_id' thm
+R6924:6951 Cheerios.Core <> serialize_deserialize_id_nil thm
+R6924:6951 Cheerios.Core <> serialize_deserialize_id_nil thm
+ax 6966:6979 <> wire_serialize
+R7002:7005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7006:7021 Cheerios.Core <> t defax
+R6983:7001 Cheerios.Core <> wire defax
+ax 7030:7045 <> wire_deserialize
+R7049:7064 Cheerios.Core <> t defax
+R7066:7084 Cheerios.Core <> wire defax
+ax 7093:7121 <> wire_serialize_deserialize_id
+R7127:7155 Cheerios.Core <> serialize_deserialize_id_spec syndef
+R7172:7187 Cheerios.Core <> wire_deserialize prfax
+R7157:7170 Cheerios.Core <> wire_serialize prfax
+inst 7200:7214 <> wire_Serializer
+R7218:7227 Cheerios.Core <> Serializer class
+R7229:7247 Cheerios.Core <> wire defax
+R7268:7408 Cheerios.Core <> Build_Serializer constr
+R7380:7408 Cheerios.Core <> wire_serialize_deserialize_id prfax
+R7323:7338 Cheerios.Core <> wire_deserialize prfax
+R7281:7294 Cheerios.Core <> wire_serialize prfax
+R7268:7408 Cheerios.Core <> Build_Serializer constr
+R7380:7408 Cheerios.Core <> wire_serialize_deserialize_id prfax
+R7323:7338 Cheerios.Core <> wire_deserialize prfax
+R7281:7294 Cheerios.Core <> wire_serialize prfax
+def 7488:7497 <> to_channel
+R7517:7520 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7521:7546 Cheerios.Core <> out_channel defax
+R7501:7516 Cheerios.Core <> t defax
+R7553:7583 Cheerios.Core <> out_channel_wrap defax
+def 7598:7609 <> from_channel
+R7620:7635 Cheerios.Core <> t defax
+R7637:7637 Cheerios.Core <> A var
+R7645:7669 Cheerios.Core <> in_channel defax
+R7683:7703 Cheerios.Core <> unwrap defax
+R7708:7739 Cheerios.Core <> in_channel_unwrap defax
+R7741:7741 Cheerios.Core <> i var
+R7705:7705 Cheerios.Core <> d var
+R7753:7756 Coq.Init.Datatypes <> Some constr
+R7758:7758 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7760:7761 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7764:7764 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R7762:7763 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R7769:7772 Coq.Init.Datatypes <> Some constr
+R7785:7788 Coq.Init.Datatypes <> None constr
+prf 7806:7837 <> serialize_deserialize_channel_id
+R7858:7867 Cheerios.Core <> Serializer class
+R7869:7869 Cheerios.Core <> A var
+R7960:7962 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7879:7890 Cheerios.Core <> from_channel def
+R7905:7931 Cheerios.Core <> channel_send defax
+R7934:7943 Cheerios.Core <> to_channel def
+R7946:7954 Cheerios.Core <> serialize meth
+R7956:7956 Cheerios.Core <> a var
+R7892:7902 Cheerios.Core <> deserialize meth
+R7963:7966 Coq.Init.Datatypes <> Some constr
+R7968:7968 Cheerios.Core <> a var
+R7997:8006 Cheerios.Core <> to_channel def
+R8009:8020 Cheerios.Core <> from_channel def
+R8033:8066 Cheerios.Core <> channel_wrap_unwrap defax
+R8033:8066 Cheerios.Core <> channel_wrap_unwrap defax
+R8033:8066 Cheerios.Core <> channel_wrap_unwrap defax
+R8079:8106 Cheerios.Core <> serialize_deserialize_id_nil thm
+R8079:8106 Cheerios.Core <> serialize_deserialize_id_nil thm
+R8079:8106 Cheerios.Core <> serialize_deserialize_id_nil thm

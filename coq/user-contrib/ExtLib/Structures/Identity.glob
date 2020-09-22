@@ -1,0 +1,39 @@
+DIGEST 57b803acea85ce8733a3c9b99ce0eb28
+FExtLib.Structures.Identity
+R15:30 ExtLib.Core.Type <> <> lib
+ind 98:104 <> IsIdent
+constr 219:222 <> isId
+rec 98:104 <> IsIdent
+proj 219:222 <> isId
+R155:158 ExtLib.Core.Type <> type class
+R160:160 ExtLib.Structures.Identity <> A var
+R183:188 ExtLib.Core.Type <> typeOk class
+R190:191 ExtLib.Structures.Identity <> tA var
+R200:203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R204:204 ExtLib.Structures.Identity <> A var
+R199:199 ExtLib.Structures.Identity <> A var
+R244:247 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R248:252 ExtLib.Core.Type <> equal meth
+R260:260 ExtLib.Structures.Identity <> x var
+R255:255 ExtLib.Structures.Identity <> f var
+R257:257 ExtLib.Structures.Identity <> x var
+R236:241 ExtLib.Core.Type <> proper class
+R243:243 ExtLib.Structures.Identity <> x var
+def 287:296 <> IsIdent_id
+R347:350 ExtLib.Core.Type <> type class
+R352:352 ExtLib.Structures.Identity <> A var
+R375:380 ExtLib.Core.Type <> typeOk class
+R382:383 ExtLib.Structures.Identity <> tA var
+R388:394 ExtLib.Structures.Identity <> IsIdent class
+R396:397 Coq.Init.Datatypes <> id def
+R416:417 Coq.Init.Datatypes <> id def
+R427:437 ExtLib.Core.Type <> equiv_prefl meth
+R427:437 ExtLib.Core.Type <> equiv_prefl meth
+def 513:523 <> IsIdent_id'
+R574:577 ExtLib.Core.Type <> type class
+R579:579 ExtLib.Structures.Identity <> A var
+R602:607 ExtLib.Core.Type <> typeOk class
+R609:610 ExtLib.Structures.Identity <> tA var
+R615:621 ExtLib.Structures.Identity <> IsIdent class
+R633:633 ExtLib.Structures.Identity <> x var
+R639:648 ExtLib.Structures.Identity <> IsIdent_id def

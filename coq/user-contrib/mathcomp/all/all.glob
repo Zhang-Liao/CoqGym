@@ -1,0 +1,8 @@
+DIGEST 92042b70c877a2249b8399853dfd569e
+Fmathcomp.all.all
+R15:46 mathcomp.ssreflect.all_ssreflect <> <> lib
+R64:91 mathcomp.algebra.all_algebra <> <> lib
+R109:132 mathcomp.field.all_field <> <> lib
+R150:181 mathcomp.character.all_character <> <> lib
+R199:228 mathcomp.fingroup.all_fingroup <> <> lib
+R246:275 mathcomp.solvable.all_solvable <> <> lib

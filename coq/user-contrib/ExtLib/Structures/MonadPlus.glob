@@ -1,0 +1,41 @@
+DIGEST 977620c9071b95d724fa6865b30848b4
+FExtLib.Structures.MonadPlus
+R15:37 ExtLib.Structures.Monad <> <> lib
+rec 72:80 <> MonadPlus
+proj 113:117 <> mplus
+R91:94 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R143:146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R150:153 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R154:154 ExtLib.Structures.MonadPlus <> m var
+R158:160 Coq.Init.Datatypes <> ::type_scope:x_'+'_x not
+R157:157 ExtLib.Structures.MonadPlus <> A var
+R161:161 ExtLib.Structures.MonadPlus <> B var
+R147:147 ExtLib.Structures.MonadPlus <> m var
+R149:149 ExtLib.Structures.MonadPlus <> B var
+R140:140 ExtLib.Structures.MonadPlus <> m var
+R142:142 ExtLib.Structures.MonadPlus <> A var
+def 184:188 <> mjoin
+R199:202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R214:218 ExtLib.Structures.Monad <> Monad class
+R220:220 ExtLib.Structures.MonadPlus <> m var
+R229:237 ExtLib.Structures.MonadPlus <> MonadPlus class
+R239:239 ExtLib.Structures.MonadPlus <> m var
+R253:253 ExtLib.Structures.MonadPlus <> m var
+R255:255 ExtLib.Structures.MonadPlus <> T var
+R260:260 ExtLib.Structures.MonadPlus <> m var
+R262:262 ExtLib.Structures.MonadPlus <> T var
+R269:272 ExtLib.Structures.Monad <> bind meth
+R306:306 ExtLib.Structures.MonadPlus <> x var
+R321:323 Coq.Init.Datatypes <> inl constr
+R329:331 Coq.Init.Datatypes <> inr constr
+R338:340 ExtLib.Structures.Monad <> ret meth
+R342:342 ExtLib.Structures.MonadPlus <> x var
+R338:340 ExtLib.Structures.Monad <> ret meth
+R342:342 ExtLib.Structures.MonadPlus <> x var
+R275:279 ExtLib.Structures.MonadPlus <> mplus meth
+R283:283 ExtLib.Structures.MonadPlus <> b var
+R281:281 ExtLib.Structures.MonadPlus <> a var
+mod 362:378 <> MonadPlusNotation
+R407:411 ExtLib.Structures.MonadPlus <> mplus meth
+not 392:392 MonadPlusNotation ::monad_scope:x_'<+>'_x
+R480:496 ExtLib.Structures.MonadPlus MonadPlusNotation <> mod

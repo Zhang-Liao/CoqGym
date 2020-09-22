@@ -1,0 +1,325 @@
+DIGEST 39b31a695028bb07b34e5a7eaa0c84c1
+FVerdi.NameOverlay
+R15:25 Verdi.Verdi <> <> lib
+R43:56 StructTact.Fin <> <> lib
+R75:85 Coq.Structures.OrderedType <> <> lib
+modtype 101:108 <> NameType
+ax 123:126 NameType name
+ax 148:158 NameType name_eq_dec
+R175:178 Verdi.NameOverlay NameType name defax
+R181:181 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R187:191 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R198:198 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R183:185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R182:182 Verdi.NameOverlay <> x var
+R186:186 Verdi.NameOverlay <> y var
+R193:196 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R192:192 Verdi.NameOverlay <> x var
+R197:197 Verdi.NameOverlay <> y var
+ax 213:217 NameType nodes
+R221:224 Coq.Init.Datatypes <> list ind
+R226:229 Verdi.NameOverlay NameType name defax
+ax 244:258 NameType all_names_nodes
+R272:273 Coq.Lists.List <> In def
+R277:281 Verdi.NameOverlay NameType nodes defax
+R275:275 Verdi.NameOverlay <> x var
+ax 296:307 NameType no_dup_nodes
+R311:315 Coq.Lists.List <> NoDup ind
+R317:321 Verdi.NameOverlay NameType nodes defax
+R328:335 Verdi.NameOverlay NameType <> modtype
+R375:382 StructTact.Fin NatValue <> mod
+R388:395 Verdi.NameOverlay NameType <> mod
+modtype 351:361 <> FinNameType
+def 411:414 FinNameType name
+R419:421 StructTact.Fin <> fin def
+R423:423 Verdi.NameOverlay N n defax
+def 439:449 FinNameType name_eq_dec
+R454:463 StructTact.Fin <> fin_eq_dec def
+R465:465 Verdi.NameOverlay N n defax
+ax 480:484 FinNameType nodes
+R488:491 Coq.Init.Datatypes <> list ind
+R494:496 StructTact.Fin <> fin def
+R498:498 Verdi.NameOverlay N n defax
+ax 514:528 FinNameType all_names_nodes
+R542:543 Coq.Lists.List <> In def
+R547:551 Verdi.NameOverlay FinNameType nodes defax
+R545:545 Verdi.NameOverlay <> x var
+ax 566:577 FinNameType no_dup_nodes
+R581:585 Coq.Lists.List <> NoDup ind
+R587:591 Verdi.NameOverlay FinNameType nodes defax
+R598:608 Verdi.NameOverlay FinNameType <> modtype
+R639:646 StructTact.Fin NatValue <> mod
+R652:662 Verdi.NameOverlay FinNameType <> mod
+R664:664 Verdi.NameOverlay N <> modtype
+mod 619:625 <> FinName
+def 680:683 FinName name
+R688:690 StructTact.Fin <> fin def
+R692:692 Verdi.NameOverlay N n defax
+def 708:718 FinName name_eq_dec
+R723:732 StructTact.Fin <> fin_eq_dec def
+R734:734 Verdi.NameOverlay N n defax
+def 750:754 FinName nodes
+R759:765 StructTact.Fin <> all_fin def
+R767:767 Verdi.NameOverlay N n defax
+def 783:797 FinName all_names_nodes
+R802:812 StructTact.Fin <> all_fin_all thm
+R814:814 Verdi.NameOverlay N n defax
+def 830:841 FinName no_dup_nodes
+R846:858 StructTact.Fin <> all_fin_NoDup thm
+R860:860 Verdi.NameOverlay N n defax
+R867:873 Verdi.NameOverlay FinName <> mod
+R924:931 Verdi.NameOverlay NameType <> mod
+R937:947 Coq.Structures.OrderedType OrderedType <> mod
+modtype 889:909 <> NameOrderedTypeCompat
+def 963:963 NameOrderedTypeCompat t
+R968:971 Verdi.NameOverlay NT name defax
+def 987:988 NameOrderedTypeCompat eq
+R994:995 Coq.Init.Logic <> eq ind
+R997:1000 Verdi.NameOverlay NT name defax
+ax 1015:1016 NameOrderedTypeCompat lt
+R1024:1027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1032:1035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1028:1031 Verdi.NameOverlay NT name defax
+R1020:1023 Verdi.NameOverlay NT name defax
+def 1055:1061 NameOrderedTypeCompat eq_refl
+R1067:1073 Coq.Init.Logic <> eq_refl constr
+R1075:1078 Verdi.NameOverlay NT name defax
+def 1094:1099 NameOrderedTypeCompat eq_sym
+R1105:1110 Coq.Init.Logic <> eq_sym thm
+R1112:1115 Verdi.NameOverlay NT name defax
+def 1131:1138 NameOrderedTypeCompat eq_trans
+R1144:1151 Coq.Init.Logic <> eq_trans thm
+R1153:1156 Verdi.NameOverlay NT name defax
+ax 1171:1178 NameOrderedTypeCompat lt_trans
+R1197:1197 Verdi.NameOverlay NameOrderedTypeCompat t def
+R1206:1209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1216:1219 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1220:1221 Verdi.NameOverlay NameOrderedTypeCompat lt defax
+R1225:1225 Verdi.NameOverlay <> z var
+R1223:1223 Verdi.NameOverlay <> x var
+R1210:1211 Verdi.NameOverlay NameOrderedTypeCompat lt defax
+R1215:1215 Verdi.NameOverlay <> z var
+R1213:1213 Verdi.NameOverlay <> y var
+R1200:1201 Verdi.NameOverlay NameOrderedTypeCompat lt defax
+R1205:1205 Verdi.NameOverlay <> y var
+R1203:1203 Verdi.NameOverlay <> x var
+ax 1240:1248 NameOrderedTypeCompat lt_not_eq
+R1265:1265 Verdi.NameOverlay NameOrderedTypeCompat t def
+R1274:1277 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1278:1279 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1280:1281 Verdi.NameOverlay NameOrderedTypeCompat eq def
+R1285:1285 Verdi.NameOverlay <> y var
+R1283:1283 Verdi.NameOverlay <> x var
+R1268:1269 Verdi.NameOverlay NameOrderedTypeCompat lt defax
+R1273:1273 Verdi.NameOverlay <> y var
+R1271:1271 Verdi.NameOverlay <> x var
+ax 1300:1306 NameOrderedTypeCompat compare
+R1323:1323 Verdi.NameOverlay NameOrderedTypeCompat t def
+R1326:1332 Coq.Structures.OrderedType <> Compare ind
+R1342:1342 Verdi.NameOverlay <> y var
+R1340:1340 Verdi.NameOverlay <> x var
+R1337:1338 Verdi.NameOverlay NameOrderedTypeCompat eq def
+R1334:1335 Verdi.NameOverlay NameOrderedTypeCompat lt defax
+def 1358:1363 NameOrderedTypeCompat eq_dec
+R1368:1378 Verdi.NameOverlay NT name_eq_dec defax
+R1385:1405 Verdi.NameOverlay NameOrderedTypeCompat <> modtype
+R1446:1453 StructTact.Fin NatValue <> mod
+R1462:1472 Verdi.NameOverlay FinNameType <> mod
+R1474:1474 Verdi.NameOverlay N <> modtype
+R1480:1500 Verdi.NameOverlay NameOrderedTypeCompat <> mod
+R1502:1503 Verdi.NameOverlay FN <> modtype
+R1508:1520 StructTact.Fin fin_OT_compat <> modtype
+R1522:1522 Verdi.NameOverlay N <> modtype
+mod 1416:1439 <> FinNameOrderedTypeCompat
+R1541:1553 Coq.MSets.MSetInterface <> <> lib
+R1598:1605 Verdi.NameOverlay NameType <> mod
+R1611:1621 Coq.Structures.Orders OrderedType <> mod
+modtype 1569:1583 <> NameOrderedType
+def 1637:1637 NameOrderedType t
+R1642:1645 Verdi.NameOverlay NT name defax
+def 1661:1662 NameOrderedType eq
+R1668:1669 Coq.Init.Logic <> eq ind
+R1671:1674 Verdi.NameOverlay NT name defax
+def 1690:1697 NameOrderedType eq_equiv
+R1703:1716 Coq.Classes.RelationClasses <> eq_equivalence inst
+R1718:1721 Verdi.NameOverlay NT name defax
+ax 1736:1737 NameOrderedType lt
+R1745:1748 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1753:1756 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1749:1752 Verdi.NameOverlay NT name defax
+R1741:1744 Verdi.NameOverlay NT name defax
+ax 1775:1785 NameOrderedType lt_strorder
+R1789:1799 Coq.Classes.RelationClasses <> StrictOrder class
+R1801:1802 Verdi.NameOverlay NameOrderedType lt defax
+ax 1817:1825 NameOrderedType lt_compat
+R1829:1834 Coq.Classes.Morphisms <> Proper class
+R1852:1853 Verdi.NameOverlay NameOrderedType lt defax
+R1839:1841 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1837:1838 Verdi.NameOverlay NameOrderedType eq def
+R1844:1846 Coq.Classes.Morphisms ProperNotations ::signature_scope:x_'==>'_x not
+R1842:1843 Verdi.NameOverlay NameOrderedType eq def
+R1847:1849 Coq.Init.Logic <> iff def
+ax 1868:1874 NameOrderedType compare
+R1891:1894 Verdi.NameOverlay NT name defax
+R1897:1906 Coq.Init.Datatypes <> comparison ind
+ax 1921:1932 NameOrderedType compare_spec
+R1948:1955 Coq.Init.Datatypes <> CompSpec def
+R1968:1974 Verdi.NameOverlay NameOrderedType compare defax
+R1978:1978 Verdi.NameOverlay <> y var
+R1976:1976 Verdi.NameOverlay <> x var
+R1965:1965 Verdi.NameOverlay <> y var
+R1963:1963 Verdi.NameOverlay <> x var
+R1960:1961 Verdi.NameOverlay NameOrderedType lt defax
+R1957:1958 Verdi.NameOverlay NameOrderedType eq def
+def 1995:2000 NameOrderedType eq_dec
+R2005:2015 Verdi.NameOverlay NT name_eq_dec defax
+R2022:2036 Verdi.NameOverlay NameOrderedType <> modtype
+R2071:2078 StructTact.Fin NatValue <> mod
+R2087:2097 Verdi.NameOverlay FinNameType <> mod
+R2099:2099 Verdi.NameOverlay N <> modtype
+R2105:2119 Verdi.NameOverlay NameOrderedType <> mod
+R2121:2122 Verdi.NameOverlay FN <> modtype
+R2127:2132 StructTact.Fin fin_OT <> modtype
+R2134:2134 Verdi.NameOverlay N <> modtype
+mod 2047:2064 <> FinNameOrderedType
+R2180:2187 Verdi.NameOverlay NameType <> mod
+modtype 2150:2165 <> AdjacentNameType
+ax 2203:2213 AdjacentNameType adjacent_to
+R2217:2224 Coq.Relations.Relation_Definitions <> relation def
+R2226:2229 Verdi.NameOverlay NT name defax
+ax 2244:2258 AdjacentNameType adjacent_to_dec
+R2275:2278 Verdi.NameOverlay NT name defax
+R2281:2281 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2297:2301 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2319:2319 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2282:2292 Verdi.NameOverlay AdjacentNameType adjacent_to defax
+R2296:2296 Verdi.NameOverlay <> y var
+R2294:2294 Verdi.NameOverlay <> x var
+R2302:2303 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2304:2314 Verdi.NameOverlay AdjacentNameType adjacent_to defax
+R2318:2318 Verdi.NameOverlay <> y var
+R2316:2316 Verdi.NameOverlay <> x var
+ax 2334:2354 AdjacentNameType adjacent_to_symmetric
+R2358:2366 Coq.Classes.RelationClasses <> Symmetric class
+R2368:2378 Verdi.NameOverlay AdjacentNameType adjacent_to defax
+ax 2393:2415 AdjacentNameType adjacent_to_irreflexive
+R2419:2429 Coq.Classes.RelationClasses <> Irreflexive class
+R2431:2441 Verdi.NameOverlay AdjacentNameType adjacent_to defax
+R2448:2463 Verdi.NameOverlay AdjacentNameType <> modtype
+R2505:2512 Verdi.NameOverlay NameType <> mod
+modtype 2479:2490 <> RootNameType
+ax 2528:2531 RootNameType root
+R2539:2542 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2535:2538 Verdi.NameOverlay NT name defax
+ax 2561:2568 RootNameType root_dec
+R2582:2582 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2589:2593 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2602:2602 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2583:2586 Verdi.NameOverlay RootNameType root defax
+R2588:2588 Verdi.NameOverlay <> n var
+R2594:2595 Coq.Init.Logic <> ::type_scope:'~'_x not
+R2596:2599 Verdi.NameOverlay RootNameType root defax
+R2601:2601 Verdi.NameOverlay <> n var
+ax 2617:2627 RootNameType root_unique
+R2650:2653 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2661:2664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2666:2668 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2665:2665 Verdi.NameOverlay <> n var
+R2669:2670 Verdi.NameOverlay <> n' var
+R2654:2657 Verdi.NameOverlay RootNameType root defax
+R2659:2660 Verdi.NameOverlay <> n' var
+R2644:2647 Verdi.NameOverlay RootNameType root defax
+R2649:2649 Verdi.NameOverlay <> n var
+R2677:2688 Verdi.NameOverlay RootNameType <> modtype
+R2739:2746 StructTact.Fin NatValue <> mod
+R2755:2765 Verdi.NameOverlay FinNameType <> mod
+R2767:2767 Verdi.NameOverlay N <> modtype
+R2773:2788 Verdi.NameOverlay AdjacentNameType <> mod
+R2790:2791 Verdi.NameOverlay FN <> modtype
+mod 2699:2725 <> FinCompleteAdjacentNameType
+ind 2806:2817 FinCompleteAdjacentNameType fin_complete
+constr 2851:2866 FinCompleteAdjacentNameType fin_complete_neq
+R2826:2829 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2835:2838 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2830:2832 StructTact.Fin <> fin def
+R2834:2834 Verdi.NameOverlay N n defax
+R2821:2823 StructTact.Fin <> fin def
+R2825:2825 Verdi.NameOverlay N n defax
+R2888:2891 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2892:2903 Verdi.NameOverlay <> fin_complete ind
+R2907:2907 Verdi.NameOverlay <> y var
+R2905:2905 Verdi.NameOverlay <> x var
+R2883:2886 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R2882:2882 Verdi.NameOverlay <> x var
+R2887:2887 Verdi.NameOverlay <> y var
+def 2926:2936 FinCompleteAdjacentNameType adjacent_to
+R2940:2947 Coq.Relations.Relation_Definitions <> relation def
+R2950:2952 StructTact.Fin <> fin def
+R2954:2954 Verdi.NameOverlay N n defax
+R2960:2971 Verdi.NameOverlay FinCompleteAdjacentNameType fin_complete ind
+def 2988:3002 FinCompleteAdjacentNameType adjacent_to_dec
+R3018:3018 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3034:3039 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3057:3057 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R3019:3029 Verdi.NameOverlay FinCompleteAdjacentNameType adjacent_to def
+R3033:3033 Verdi.NameOverlay <> y var
+R3031:3031 Verdi.NameOverlay <> x var
+R3040:3041 Coq.Init.Logic <> ::type_scope:'~'_x not
+R3042:3052 Verdi.NameOverlay FinCompleteAdjacentNameType adjacent_to def
+R3056:3056 Verdi.NameOverlay <> y var
+R3054:3054 Verdi.NameOverlay <> x var
+R3086:3095 StructTact.Fin <> fin_eq_dec def
+R3097:3097 Verdi.NameOverlay N n defax
+R3086:3095 StructTact.Fin <> fin_eq_dec def
+R3097:3097 Verdi.NameOverlay N n defax
+R3225:3240 Verdi.NameOverlay FinCompleteAdjacentNameType fin_complete_neq constr
+R3225:3240 Verdi.NameOverlay FinCompleteAdjacentNameType fin_complete_neq constr
+prf 3275:3295 FinCompleteAdjacentNameType adjacent_to_symmetric
+R3299:3307 Coq.Classes.RelationClasses <> Symmetric class
+R3309:3319 Verdi.NameOverlay FinCompleteAdjacentNameType adjacent_to def
+R3342:3350 Coq.Classes.RelationClasses <> Symmetric class
+R3409:3424 Verdi.NameOverlay FinCompleteAdjacentNameType fin_complete_neq constr
+R3409:3424 Verdi.NameOverlay FinCompleteAdjacentNameType fin_complete_neq constr
+prf 3492:3514 FinCompleteAdjacentNameType adjacent_to_irreflexive
+R3518:3528 Coq.Classes.RelationClasses <> Irreflexive class
+R3530:3540 Verdi.NameOverlay FinCompleteAdjacentNameType adjacent_to def
+R3563:3573 Coq.Classes.RelationClasses <> Irreflexive class
+R3583:3591 Coq.Classes.RelationClasses <> Reflexive class
+R3601:3610 Coq.Classes.RelationClasses <> complement def
+R3671:3697 Verdi.NameOverlay FinCompleteAdjacentNameType <> mod
+R3736:3743 StructTact.Fin NatValue <> mod
+R3752:3762 Verdi.NameOverlay FinNameType <> mod
+R3764:3764 Verdi.NameOverlay N <> modtype
+R3770:3781 Verdi.NameOverlay RootNameType <> mod
+R3783:3784 Verdi.NameOverlay FN <> modtype
+mod 3708:3722 <> FinRootNameType
+def 3800:3803 FinRootNameType root
+R3810:3812 StructTact.Fin <> fin def
+R3814:3814 Verdi.NameOverlay N n defax
+R3832:3834 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3820:3829 StructTact.Fin <> fin_to_nat def
+R3831:3831 Verdi.NameOverlay <> x var
+def 3852:3859 FinRootNameType root_dec
+R3866:3868 StructTact.Fin <> fin def
+R3870:3870 Verdi.NameOverlay N n defax
+R3876:3885 Coq.Arith.PeanoNat Nat eq_dec thm
+R3888:3897 StructTact.Fin <> fin_to_nat def
+R3899:3899 Verdi.NameOverlay <> x var
+prf 3914:3924 FinRootNameType root_unique
+R3946:3949 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3956:3959 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3961:3963 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3960:3960 Verdi.NameOverlay <> x var
+R3964:3964 Verdi.NameOverlay <> y var
+R3950:3953 Verdi.NameOverlay FinRootNameType root def
+R3955:3955 Verdi.NameOverlay <> y var
+R3940:3943 Verdi.NameOverlay FinRootNameType root def
+R3945:3945 Verdi.NameOverlay <> x var
+R4003:4006 Verdi.NameOverlay FinRootNameType root def
+R4039:4049 StructTact.Fin <> fin_compare def
+R4051:4051 Verdi.NameOverlay N n defax
+R4039:4049 StructTact.Fin <> fin_compare def
+R4051:4051 Verdi.NameOverlay N n defax
+R4158:4163 StructTact.Fin <> fin_lt def
+R4298:4303 StructTact.Fin <> fin_lt def
+R4413:4427 Verdi.NameOverlay FinRootNameType <> mod

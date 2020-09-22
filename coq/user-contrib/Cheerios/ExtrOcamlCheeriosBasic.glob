@@ -1,0 +1,6 @@
+DIGEST a3c5a4c5eef644bd5c98def62d4a2dad
+FCheerios.ExtrOcamlCheeriosBasic
+R15:31 Cheerios.Cheerios <> <> lib
+R42:51 Coq.extraction.Extraction <> <> lib
+R190:199 Cheerios.Types <> fold_state ind
+R453:456 Cheerios.Types <> byte ind

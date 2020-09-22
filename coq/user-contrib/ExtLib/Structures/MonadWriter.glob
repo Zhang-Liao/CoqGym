@@ -1,0 +1,93 @@
+DIGEST 69d50530ddbaa46cfe77ed1110978b96
+FExtLib.Structures.MonadWriter
+R15:37 ExtLib.Structures.Monad <> <> lib
+R55:78 ExtLib.Structures.Monoid <> <> lib
+rec 140:150 <> MonadWriter
+proj 241:244 <> tell
+proj 262:267 <> listen
+proj 318:321 <> pass
+R180:185 ExtLib.Structures.Monoid <> Monoid rec
+R187:187 ExtLib.Structures.MonadWriter <> T var
+R215:218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R249:252 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R253:253 ExtLib.Structures.MonadWriter <> m var
+R255:258 Coq.Init.Datatypes <> unit ind
+R248:248 ExtLib.Structures.MonadWriter <> T var
+R297:300 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R301:301 ExtLib.Structures.MonadWriter <> m var
+R305:307 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R304:304 ExtLib.Structures.MonadWriter <> A var
+R308:308 ExtLib.Structures.MonadWriter <> T var
+R294:294 ExtLib.Structures.MonadWriter <> m var
+R296:296 ExtLib.Structures.MonadWriter <> A var
+R369:372 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R373:373 ExtLib.Structures.MonadWriter <> m var
+R375:375 ExtLib.Structures.MonadWriter <> A var
+R348:348 ExtLib.Structures.MonadWriter <> m var
+R352:355 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R362:362 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R351:351 ExtLib.Structures.MonadWriter <> A var
+R357:360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R361:361 ExtLib.Structures.MonadWriter <> T var
+R356:356 ExtLib.Structures.MonadWriter <> T var
+R391:394 ExtLib.Structures.MonadWriter <> tell meth
+R391:394 ExtLib.Structures.MonadWriter <> tell meth
+R429:434 ExtLib.Structures.MonadWriter <> listen meth
+R429:434 ExtLib.Structures.MonadWriter <> listen meth
+R471:474 ExtLib.Structures.MonadWriter <> pass meth
+R471:474 ExtLib.Structures.MonadWriter <> pass meth
+R513:523 ExtLib.Structures.MonadWriter <> MonadWriter class
+R513:523 ExtLib.Structures.MonadWriter <> MonadWriter class
+def 557:563 <> listens
+R597:600 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R659:663 ExtLib.Structures.Monad <> Monad class
+R665:665 ExtLib.Structures.MonadWriter <> m var
+R691:696 ExtLib.Structures.Monoid <> Monoid rec
+R698:698 ExtLib.Structures.MonadWriter <> S var
+R724:734 ExtLib.Structures.MonadWriter <> MonadWriter class
+R745:745 ExtLib.Structures.MonadWriter <> m var
+R736:743 ExtLib.Structures.MonadWriter <> Monoid_S var
+R782:785 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R786:786 ExtLib.Structures.MonadWriter <> B var
+R781:781 ExtLib.Structures.MonadWriter <> S var
+R794:794 ExtLib.Structures.MonadWriter <> m var
+R796:796 ExtLib.Structures.MonadWriter <> A var
+R801:801 ExtLib.Structures.MonadWriter <> m var
+R805:807 Coq.Init.Datatypes <> ::type_scope:x_'*'_x not
+R804:804 ExtLib.Structures.MonadWriter <> A var
+R808:808 ExtLib.Structures.MonadWriter <> B var
+R821:825 ExtLib.Structures.Monad <> liftM def
+R858:863 ExtLib.Structures.MonadWriter <> listen meth
+R865:865 ExtLib.Structures.MonadWriter <> c var
+R837:837 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R843:844 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R854:854 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R838:840 Coq.Init.Datatypes <> fst def
+R842:842 ExtLib.Structures.MonadWriter <> x var
+R845:845 ExtLib.Structures.MonadWriter <> f var
+R848:850 Coq.Init.Datatypes <> snd def
+R852:852 ExtLib.Structures.MonadWriter <> x var
+def 881:886 <> censor
+R920:923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R982:986 ExtLib.Structures.Monad <> Monad class
+R988:988 ExtLib.Structures.MonadWriter <> m var
+R1014:1019 ExtLib.Structures.Monoid <> Monoid rec
+R1021:1021 ExtLib.Structures.MonadWriter <> S var
+R1047:1057 ExtLib.Structures.MonadWriter <> MonadWriter class
+R1068:1068 ExtLib.Structures.MonadWriter <> m var
+R1059:1066 ExtLib.Structures.MonadWriter <> Monoid_S var
+R1103:1106 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1107:1107 ExtLib.Structures.MonadWriter <> S var
+R1102:1102 ExtLib.Structures.MonadWriter <> S var
+R1115:1115 ExtLib.Structures.MonadWriter <> m var
+R1117:1117 ExtLib.Structures.MonadWriter <> A var
+R1122:1122 ExtLib.Structures.MonadWriter <> m var
+R1124:1124 ExtLib.Structures.MonadWriter <> A var
+R1131:1134 ExtLib.Structures.MonadWriter <> pass meth
+R1137:1141 ExtLib.Structures.Monad <> liftM def
+R1161:1161 ExtLib.Structures.MonadWriter <> c var
+R1153:1153 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1155:1156 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1158:1158 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R1154:1154 ExtLib.Structures.MonadWriter <> x var
+R1157:1157 ExtLib.Structures.MonadWriter <> f var

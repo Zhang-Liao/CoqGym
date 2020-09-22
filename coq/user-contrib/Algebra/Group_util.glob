@@ -1,0 +1,464 @@
+DIGEST 8ca2f2054048d8e96de6a26ae5f45b60
+FAlgebra.Group_util
+R1086:1094 Algebra.Sub_group <> <> lib
+R1112:1128 Algebra.Abelian_group_cat <> <> lib
+sec 1181:1185 <> Group
+var 1197:1197 Group E
+R1201:1206 Algebra.Sets <> Setoid rec
+var 1218:1223 Group genlaw
+R1228:1231 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1233:1236 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1237:1237 Algebra.Group_util <> Group.E var
+R1232:1232 Algebra.Group_util <> Group.E var
+R1227:1227 Algebra.Group_util <> Group.E var
+var 1249:1249 Group e
+R1253:1253 Algebra.Group_util <> Group.E var
+var 1265:1270 Group geninv
+R1275:1278 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1279:1279 Algebra.Group_util <> Group.E var
+R1274:1274 Algebra.Group_util <> Group.E var
+var 1295:1299 Group fcomp
+R1326:1326 Algebra.Group_util <> Group.E var
+R1343:1346 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1357:1360 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1361:1365 Algebra.Sets <> Equal proj
+R1381:1386 Algebra.Group_util <> Group.genlaw var
+R1391:1392 Algebra.Group_util <> y' var
+R1388:1389 Algebra.Group_util <> x' var
+R1368:1373 Algebra.Group_util <> Group.genlaw var
+R1377:1377 Algebra.Group_util <> y var
+R1375:1375 Algebra.Group_util <> x var
+R1347:1351 Algebra.Sets <> Equal proj
+R1355:1356 Algebra.Group_util <> y' var
+R1353:1353 Algebra.Group_util <> y var
+R1333:1337 Algebra.Sets <> Equal proj
+R1341:1342 Algebra.Group_util <> x' var
+R1339:1339 Algebra.Group_util <> x var
+var 1409:1419 Group genlawassoc
+R1442:1442 Algebra.Group_util <> Group.E var
+R1445:1449 Algebra.Sets <> Equal proj
+R1476:1481 Algebra.Group_util <> Group.genlaw var
+R1486:1491 Algebra.Group_util <> Group.genlaw var
+R1495:1495 Algebra.Group_util <> z var
+R1493:1493 Algebra.Group_util <> y var
+R1483:1483 Algebra.Group_util <> x var
+R1452:1457 Algebra.Group_util <> Group.genlaw var
+R1472:1472 Algebra.Group_util <> z var
+R1460:1465 Algebra.Group_util <> Group.genlaw var
+R1469:1469 Algebra.Group_util <> y var
+R1467:1467 Algebra.Group_util <> x var
+var 1511:1522 Group eunitgenlawr
+R1537:1537 Algebra.Group_util <> Group.E var
+R1540:1544 Algebra.Sets <> Equal proj
+R1559:1559 Algebra.Group_util <> x var
+R1547:1552 Algebra.Group_util <> Group.genlaw var
+R1556:1556 Algebra.Group_util <> Group.e var
+R1554:1554 Algebra.Group_util <> x var
+var 1573:1579 Group invcomp
+R1596:1596 Algebra.Group_util <> Group.E var
+R1608:1611 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1612:1616 Algebra.Sets <> Equal proj
+R1630:1635 Algebra.Group_util <> Group.geninv var
+R1637:1637 Algebra.Group_util <> y var
+R1619:1624 Algebra.Group_util <> Group.geninv var
+R1626:1626 Algebra.Group_util <> x var
+R1599:1603 Algebra.Sets <> Equal proj
+R1607:1607 Algebra.Group_util <> y var
+R1605:1605 Algebra.Group_util <> x var
+var 1652:1658 Group geninvr
+R1673:1673 Algebra.Group_util <> Group.E var
+R1676:1680 Algebra.Sets <> Equal proj
+R1704:1704 Algebra.Group_util <> Group.e var
+R1683:1688 Algebra.Group_util <> Group.genlaw var
+R1693:1698 Algebra.Group_util <> Group.geninv var
+R1700:1700 Algebra.Group_util <> x var
+R1690:1690 Algebra.Group_util <> x var
+prf 1714:1720 <> geninvl
+R1735:1735 Algebra.Group_util <> Group.E var
+R1738:1742 Algebra.Sets <> Equal proj
+R1766:1766 Algebra.Group_util <> Group.e var
+R1745:1750 Algebra.Group_util <> Group.genlaw var
+R1763:1763 Algebra.Group_util <> x var
+R1753:1758 Algebra.Group_util <> Group.geninv var
+R1760:1760 Algebra.Group_util <> x var
+R1813:1818 Algebra.Group_util <> Group.genlaw var
+R1842:1842 Algebra.Group_util <> Group.e var
+R1821:1826 Algebra.Group_util <> Group.genlaw var
+R1829:1834 Algebra.Group_util <> Group.geninv var
+R1801:1805 Algebra.Sets <> Trans thm
+R1813:1818 Algebra.Group_util <> Group.genlaw var
+R1842:1842 Algebra.Group_util <> Group.e var
+R1821:1826 Algebra.Group_util <> Group.genlaw var
+R1829:1834 Algebra.Group_util <> Group.geninv var
+R1801:1805 Algebra.Sets <> Trans thm
+R1886:1891 Algebra.Group_util <> Group.genlaw var
+R1916:1921 Algebra.Group_util <> Group.genlaw var
+R1935:1940 Algebra.Group_util <> Group.geninv var
+R1943:1948 Algebra.Group_util <> Group.geninv var
+R1924:1929 Algebra.Group_util <> Group.geninv var
+R1894:1899 Algebra.Group_util <> Group.genlaw var
+R1902:1907 Algebra.Group_util <> Group.geninv var
+R1872:1876 Algebra.Sets <> Trans thm
+R1886:1891 Algebra.Group_util <> Group.genlaw var
+R1916:1921 Algebra.Group_util <> Group.genlaw var
+R1935:1940 Algebra.Group_util <> Group.geninv var
+R1943:1948 Algebra.Group_util <> Group.geninv var
+R1924:1929 Algebra.Group_util <> Group.geninv var
+R1894:1899 Algebra.Group_util <> Group.genlaw var
+R1902:1907 Algebra.Group_util <> Group.geninv var
+R1872:1876 Algebra.Sets <> Trans thm
+R1998:2003 Algebra.Group_util <> Group.genlaw var
+R2017:2022 Algebra.Group_util <> Group.genlaw var
+R2027:2032 Algebra.Group_util <> Group.genlaw var
+R2046:2051 Algebra.Group_util <> Group.geninv var
+R2054:2059 Algebra.Group_util <> Group.geninv var
+R2035:2040 Algebra.Group_util <> Group.geninv var
+R2006:2011 Algebra.Group_util <> Group.geninv var
+R1984:1988 Algebra.Sets <> Trans thm
+R1998:2003 Algebra.Group_util <> Group.genlaw var
+R2017:2022 Algebra.Group_util <> Group.genlaw var
+R2027:2032 Algebra.Group_util <> Group.genlaw var
+R2046:2051 Algebra.Group_util <> Group.geninv var
+R2054:2059 Algebra.Group_util <> Group.geninv var
+R2035:2040 Algebra.Group_util <> Group.geninv var
+R2006:2011 Algebra.Group_util <> Group.geninv var
+R1984:1988 Algebra.Sets <> Trans thm
+R2110:2115 Algebra.Group_util <> Group.genlaw var
+R2129:2134 Algebra.Group_util <> Group.genlaw var
+R2159:2164 Algebra.Group_util <> Group.geninv var
+R2167:2172 Algebra.Group_util <> Group.geninv var
+R2137:2142 Algebra.Group_util <> Group.genlaw var
+R2147:2152 Algebra.Group_util <> Group.geninv var
+R2118:2123 Algebra.Group_util <> Group.geninv var
+R2096:2100 Algebra.Sets <> Trans thm
+R2110:2115 Algebra.Group_util <> Group.genlaw var
+R2129:2134 Algebra.Group_util <> Group.genlaw var
+R2159:2164 Algebra.Group_util <> Group.geninv var
+R2167:2172 Algebra.Group_util <> Group.geninv var
+R2137:2142 Algebra.Group_util <> Group.genlaw var
+R2147:2152 Algebra.Group_util <> Group.geninv var
+R2118:2123 Algebra.Group_util <> Group.geninv var
+R2096:2100 Algebra.Sets <> Trans thm
+R2219:2224 Algebra.Group_util <> Group.genlaw var
+R2238:2243 Algebra.Group_util <> Group.genlaw var
+R2248:2253 Algebra.Group_util <> Group.geninv var
+R2256:2261 Algebra.Group_util <> Group.geninv var
+R2245:2245 Algebra.Group_util <> Group.e var
+R2227:2232 Algebra.Group_util <> Group.geninv var
+R2207:2211 Algebra.Sets <> Trans thm
+R2219:2224 Algebra.Group_util <> Group.genlaw var
+R2238:2243 Algebra.Group_util <> Group.genlaw var
+R2248:2253 Algebra.Group_util <> Group.geninv var
+R2256:2261 Algebra.Group_util <> Group.geninv var
+R2245:2245 Algebra.Group_util <> Group.e var
+R2227:2232 Algebra.Group_util <> Group.geninv var
+R2207:2211 Algebra.Sets <> Trans thm
+R2308:2313 Algebra.Group_util <> Group.genlaw var
+R2338:2343 Algebra.Group_util <> Group.geninv var
+R2346:2351 Algebra.Group_util <> Group.geninv var
+R2316:2321 Algebra.Group_util <> Group.genlaw var
+R2334:2334 Algebra.Group_util <> Group.e var
+R2324:2329 Algebra.Group_util <> Group.geninv var
+R2296:2300 Algebra.Sets <> Trans thm
+R2308:2313 Algebra.Group_util <> Group.genlaw var
+R2338:2343 Algebra.Group_util <> Group.geninv var
+R2346:2351 Algebra.Group_util <> Group.geninv var
+R2316:2321 Algebra.Group_util <> Group.genlaw var
+R2334:2334 Algebra.Group_util <> Group.e var
+R2324:2329 Algebra.Group_util <> Group.geninv var
+R2296:2300 Algebra.Sets <> Trans thm
+R2397:2402 Algebra.Group_util <> Group.genlaw var
+R2416:2421 Algebra.Group_util <> Group.geninv var
+R2424:2429 Algebra.Group_util <> Group.geninv var
+R2405:2410 Algebra.Group_util <> Group.geninv var
+R2385:2389 Algebra.Sets <> Trans thm
+R2397:2402 Algebra.Group_util <> Group.genlaw var
+R2416:2421 Algebra.Group_util <> Group.geninv var
+R2424:2429 Algebra.Group_util <> Group.geninv var
+R2405:2410 Algebra.Group_util <> Group.geninv var
+R2385:2389 Algebra.Sets <> Trans thm
+prf 2499:2510 <> eunitgenlawl
+R2525:2525 Algebra.Group_util <> Group.E var
+R2528:2532 Algebra.Sets <> Equal proj
+R2547:2547 Algebra.Group_util <> x var
+R2535:2540 Algebra.Group_util <> Group.genlaw var
+R2544:2544 Algebra.Group_util <> x var
+R2542:2542 Algebra.Group_util <> Group.e var
+R2594:2599 Algebra.Group_util <> Group.genlaw var
+R2602:2607 Algebra.Group_util <> Group.genlaw var
+R2612:2617 Algebra.Group_util <> Group.geninv var
+R2582:2586 Algebra.Sets <> Trans thm
+R2594:2599 Algebra.Group_util <> Group.genlaw var
+R2602:2607 Algebra.Group_util <> Group.genlaw var
+R2612:2617 Algebra.Group_util <> Group.geninv var
+R2582:2586 Algebra.Sets <> Trans thm
+R2664:2669 Algebra.Group_util <> Group.genlaw var
+R2674:2679 Algebra.Group_util <> Group.genlaw var
+R2682:2687 Algebra.Group_util <> Group.geninv var
+R2652:2656 Algebra.Sets <> Trans thm
+R2664:2669 Algebra.Group_util <> Group.genlaw var
+R2674:2679 Algebra.Group_util <> Group.genlaw var
+R2682:2687 Algebra.Group_util <> Group.geninv var
+R2652:2656 Algebra.Sets <> Trans thm
+R2734:2739 Algebra.Group_util <> Group.genlaw var
+R2743:2743 Algebra.Group_util <> Group.e var
+R2722:2726 Algebra.Sets <> Trans thm
+R2734:2739 Algebra.Group_util <> Group.genlaw var
+R2743:2743 Algebra.Group_util <> Group.e var
+R2722:2726 Algebra.Sets <> Trans thm
+def 2819:2819 <> f
+R2824:2830 Algebra.Cartesian <> uncurry def
+R2832:2836 Algebra.Group_util <> Group.fcomp var
+prf 2846:2851 <> fassoc
+R2855:2865 Algebra.Sgroup_cat <> associative def
+R2867:2867 Algebra.Group_util <> f def
+prf 2929:2934 <> eunitr
+R2938:2943 Algebra.Monoid_cat <> unit_r def
+R2947:2947 Algebra.Group_util <> Group.e var
+R2945:2945 Algebra.Group_util <> f def
+prf 3009:3014 <> eunitl
+R3018:3023 Algebra.Monoid_cat <> unit_l def
+R3027:3027 Algebra.Group_util <> Group.e var
+R3025:3025 Algebra.Group_util <> f def
+def 3094:3096 <> inv
+R3101:3109 Algebra.Sets <> Build_Map constr
+R3124:3130 Algebra.Group_util <> Group.invcomp var
+R3116:3121 Algebra.Group_util <> Group.geninv var
+prf 3140:3143 <> invr
+R3147:3155 Algebra.Group_cat <> inverse_r def
+R3161:3163 Algebra.Group_util <> inv def
+R3159:3159 Algebra.Group_util <> Group.e var
+R3157:3157 Algebra.Group_util <> f def
+prf 3225:3228 <> invl
+R3232:3240 Algebra.Group_cat <> inverse_l def
+R3246:3248 Algebra.Group_util <> inv def
+R3244:3244 Algebra.Group_util <> Group.e var
+R3242:3242 Algebra.Group_util <> f def
+def 3315:3316 <> sg
+R3321:3332 Algebra.Sgroup_cat <> Build_sgroup constr
+R3335:3349 Algebra.Sgroup_cat <> Build_sgroup_on constr
+R3351:3356 Algebra.Group_util <> fassoc thm
+def 3372:3372 <> m
+R3379:3390 Algebra.Monoid_cat <> Build_monoid constr
+R3393:3407 Algebra.Monoid_cat <> Build_monoid_on constr
+R3441:3446 Algebra.Group_util <> eunitl thm
+R3434:3439 Algebra.Group_util <> eunitr thm
+R3431:3431 Algebra.Group_util <> Group.e var
+R3413:3414 Algebra.Group_util <> sg def
+def 3462:3472 <> BUILD_GROUP
+R3476:3480 Algebra.Group_cat <> GROUP def
+R3487:3497 Algebra.Group_cat <> Build_group constr
+R3500:3513 Algebra.Group_cat <> Build_group_on constr
+R3552:3555 Algebra.Group_util <> invl thm
+R3547:3550 Algebra.Group_util <> invr thm
+R3542:3544 Algebra.Group_util <> inv def
+R3519:3519 Algebra.Group_util <> m def
+R3563:3567 Algebra.Group_util Group <> sec
+sec 3578:3590 <> Abelian_group
+var 3602:3602 Abelian_group E
+R3606:3611 Algebra.Sets <> Setoid rec
+var 3623:3628 Abelian_group genlaw
+R3633:3636 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3638:3641 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3642:3642 Algebra.Group_util <> Abelian_group.E var
+R3637:3637 Algebra.Group_util <> Abelian_group.E var
+R3632:3632 Algebra.Group_util <> Abelian_group.E var
+var 3654:3654 Abelian_group e
+R3658:3658 Algebra.Group_util <> Abelian_group.E var
+var 3670:3675 Abelian_group geninv
+R3680:3683 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3684:3684 Algebra.Group_util <> Abelian_group.E var
+R3679:3679 Algebra.Group_util <> Abelian_group.E var
+var 3700:3704 Abelian_group fcomp
+R3731:3731 Algebra.Group_util <> Abelian_group.E var
+R3748:3751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3762:3765 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3766:3770 Algebra.Sets <> Equal proj
+R3786:3791 Algebra.Group_util <> Abelian_group.genlaw var
+R3796:3797 Algebra.Group_util <> y' var
+R3793:3794 Algebra.Group_util <> x' var
+R3773:3778 Algebra.Group_util <> Abelian_group.genlaw var
+R3782:3782 Algebra.Group_util <> y var
+R3780:3780 Algebra.Group_util <> x var
+R3752:3756 Algebra.Sets <> Equal proj
+R3760:3761 Algebra.Group_util <> y' var
+R3758:3758 Algebra.Group_util <> y var
+R3738:3742 Algebra.Sets <> Equal proj
+R3746:3747 Algebra.Group_util <> x' var
+R3744:3744 Algebra.Group_util <> x var
+var 3814:3824 Abelian_group genlawassoc
+R3847:3847 Algebra.Group_util <> Abelian_group.E var
+R3850:3854 Algebra.Sets <> Equal proj
+R3881:3886 Algebra.Group_util <> Abelian_group.genlaw var
+R3891:3896 Algebra.Group_util <> Abelian_group.genlaw var
+R3900:3900 Algebra.Group_util <> z var
+R3898:3898 Algebra.Group_util <> y var
+R3888:3888 Algebra.Group_util <> x var
+R3857:3862 Algebra.Group_util <> Abelian_group.genlaw var
+R3877:3877 Algebra.Group_util <> z var
+R3865:3870 Algebra.Group_util <> Abelian_group.genlaw var
+R3874:3874 Algebra.Group_util <> y var
+R3872:3872 Algebra.Group_util <> x var
+var 3916:3927 Abelian_group eunitgenlawr
+R3942:3942 Algebra.Group_util <> Abelian_group.E var
+R3945:3949 Algebra.Sets <> Equal proj
+R3964:3964 Algebra.Group_util <> x var
+R3952:3957 Algebra.Group_util <> Abelian_group.genlaw var
+R3961:3961 Algebra.Group_util <> Abelian_group.e var
+R3959:3959 Algebra.Group_util <> x var
+var 3978:3984 Abelian_group invcomp
+R4001:4001 Algebra.Group_util <> Abelian_group.E var
+R4013:4016 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4017:4021 Algebra.Sets <> Equal proj
+R4035:4040 Algebra.Group_util <> Abelian_group.geninv var
+R4042:4042 Algebra.Group_util <> y var
+R4024:4029 Algebra.Group_util <> Abelian_group.geninv var
+R4031:4031 Algebra.Group_util <> x var
+R4004:4008 Algebra.Sets <> Equal proj
+R4012:4012 Algebra.Group_util <> y var
+R4010:4010 Algebra.Group_util <> x var
+var 4057:4063 Abelian_group geninvr
+R4078:4078 Algebra.Group_util <> Abelian_group.E var
+R4081:4085 Algebra.Sets <> Equal proj
+R4109:4109 Algebra.Group_util <> Abelian_group.e var
+R4088:4093 Algebra.Group_util <> Abelian_group.genlaw var
+R4098:4103 Algebra.Group_util <> Abelian_group.geninv var
+R4105:4105 Algebra.Group_util <> x var
+R4095:4095 Algebra.Group_util <> x var
+var 4123:4126 Abelian_group fcom
+R4143:4143 Algebra.Group_util <> Abelian_group.E var
+R4146:4150 Algebra.Sets <> Equal proj
+R4166:4171 Algebra.Group_util <> Abelian_group.genlaw var
+R4175:4175 Algebra.Group_util <> x var
+R4173:4173 Algebra.Group_util <> y var
+R4153:4158 Algebra.Group_util <> Abelian_group.genlaw var
+R4162:4162 Algebra.Group_util <> y var
+R4160:4160 Algebra.Group_util <> x var
+def 4191:4191 <> G
+R4196:4206 Algebra.Group_util <> BUILD_GROUP def
+R4247:4253 Algebra.Group_util <> Abelian_group.geninvr var
+R4239:4245 Algebra.Group_util <> Abelian_group.invcomp var
+R4226:4237 Algebra.Group_util <> Abelian_group.eunitgenlawr var
+R4214:4224 Algebra.Group_util <> Abelian_group.genlawassoc var
+R4208:4212 Algebra.Group_util <> Abelian_group.fcomp var
+def 4268:4270 <> asg
+R4274:4287 Algebra.Abelian_group_cat <> abelian_sgroup rec
+R4297:4316 Algebra.Abelian_group_cat <> Build_abelian_sgroup constr
+R4342:4342 Algebra.Group_util <> G def
+R4297:4316 Algebra.Abelian_group_cat <> Build_abelian_sgroup constr
+R4342:4342 Algebra.Group_util <> G def
+R4354:4376 Algebra.Abelian_group_cat <> Build_abelian_sgroup_on constr
+R4382:4382 Algebra.Group_util <> G def
+R4354:4376 Algebra.Abelian_group_cat <> Build_abelian_sgroup_on constr
+R4382:4382 Algebra.Group_util <> G def
+def 4466:4484 <> BUILD_ABELIAN_GROUP
+R4488:4500 Algebra.Abelian_group_cat <> ABELIAN_GROUP def
+R4507:4525 Algebra.Abelian_group_cat <> Build_abelian_group constr
+R4532:4553 Algebra.Abelian_group_cat <> Build_abelian_group_on constr
+R4570:4589 Algebra.Abelian_group_cat <> Build_abelian_monoid constr
+R4592:4614 Algebra.Abelian_group_cat <> Build_abelian_monoid_on constr
+R4623:4625 Algebra.Group_util <> asg def
+R4620:4620 Algebra.Group_util <> G def
+R4559:4559 Algebra.Group_util <> G def
+R4635:4647 Algebra.Group_util Abelian_group <> sec
+sec 4658:4660 <> Hom
+var 4672:4672 Hom G
+var 4674:4675 Hom G'
+R4679:4683 Algebra.Group_cat <> GROUP def
+var 4695:4696 Hom ff
+R4701:4704 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4705:4706 Algebra.Group_util <> Hom.G' var
+R4700:4700 Algebra.Group_util <> Hom.G var
+var 4720:4725 Hom ffcomp
+R4742:4742 Algebra.Group_util <> Hom.G var
+R4754:4757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4758:4762 Algebra.Sets <> Equal proj
+R4772:4773 Algebra.Group_util <> Hom.ff var
+R4775:4775 Algebra.Group_util <> y var
+R4765:4766 Algebra.Group_util <> Hom.ff var
+R4768:4768 Algebra.Group_util <> x var
+R4745:4749 Algebra.Sets <> Equal proj
+R4753:4753 Algebra.Group_util <> y var
+R4751:4751 Algebra.Group_util <> x var
+var 4792:4796 Hom fflaw
+R4817:4817 Algebra.Group_util <> Hom.G var
+R4824:4828 Algebra.Sets <> Equal proj
+R4855:4864 Algebra.Sgroup_cat <> sgroup_law def
+R4876:4877 Algebra.Group_util <> Hom.ff var
+R4879:4879 Algebra.Group_util <> y var
+R4869:4870 Algebra.Group_util <> Hom.ff var
+R4872:4872 Algebra.Group_util <> x var
+R4831:4832 Algebra.Group_util <> Hom.ff var
+R4835:4844 Algebra.Sgroup_cat <> sgroup_law def
+R4850:4850 Algebra.Group_util <> y var
+R4848:4848 Algebra.Group_util <> x var
+var 4895:4900 Hom ffunit
+R4904:4908 Algebra.Sets <> Equal proj
+R4932:4942 Algebra.Monoid_cat <> monoid_unit proj
+R4944:4945 Algebra.Group_util <> Hom.G' var
+R4911:4912 Algebra.Group_util <> Hom.ff var
+R4915:4925 Algebra.Monoid_cat <> monoid_unit proj
+R4927:4927 Algebra.Group_util <> Hom.G var
+def 4961:4962 <> f2
+R4967:4975 Algebra.Sets <> Build_Map constr
+R4977:4982 Algebra.Group_util <> Hom.ffcomp var
+def 4997:5002 <> fhomsg
+R5007:5022 Algebra.Sgroup_cat <> Build_sgroup_hom constr
+R5041:5045 Algebra.Group_util <> Hom.fflaw var
+R5037:5038 Algebra.Group_util <> f2 def
+def 5060:5074 <> BUILD_HOM_GROUP
+R5078:5080 Algebra.Categories <> Hom proj
+R5084:5085 Algebra.Group_util <> Hom.G' var
+R5082:5082 Algebra.Group_util <> Hom.G var
+R5092:5107 Algebra.Monoid_cat <> Build_monoid_hom constr
+R5137:5142 Algebra.Group_util <> Hom.ffunit var
+R5129:5134 Algebra.Group_util <> fhomsg def
+R5149:5151 Algebra.Group_util Hom <> sec
+sec 5162:5176 <> Build_sub_group
+var 5188:5188 Build_sub_group G
+R5192:5196 Algebra.Group_cat <> GROUP def
+var 5208:5208 Build_sub_group H
+R5212:5219 Algebra.Parts <> part_set def
+R5221:5221 Algebra.Group_util <> Build_sub_group.G var
+var 5237:5240 Build_sub_group Hlaw
+R5261:5261 Algebra.Group_util <> Build_sub_group.G var
+R5279:5282 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5294:5297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5298:5304 Algebra.Parts <> in_part def
+R5325:5325 Algebra.Group_util <> Build_sub_group.H var
+R5307:5316 Algebra.Sgroup_cat <> sgroup_law def
+R5322:5322 Algebra.Group_util <> y var
+R5320:5320 Algebra.Group_util <> x var
+R5283:5289 Algebra.Parts <> in_part def
+R5293:5293 Algebra.Group_util <> Build_sub_group.H var
+R5291:5291 Algebra.Group_util <> y var
+R5268:5274 Algebra.Parts <> in_part def
+R5278:5278 Algebra.Group_util <> Build_sub_group.H var
+R5276:5276 Algebra.Group_util <> x var
+var 5339:5343 Build_sub_group Hunit
+R5347:5353 Algebra.Parts <> in_part def
+R5371:5371 Algebra.Group_util <> Build_sub_group.H var
+R5356:5366 Algebra.Monoid_cat <> monoid_unit proj
+R5368:5368 Algebra.Group_util <> Build_sub_group.G var
+var 5385:5388 Build_sub_group Hinv
+R5403:5403 Algebra.Group_util <> Build_sub_group.G var
+R5417:5420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5421:5427 Algebra.Parts <> in_part def
+R5449:5449 Algebra.Group_util <> Build_sub_group.H var
+R5430:5442 Algebra.Group_cat <> group_inverse def
+R5446:5446 Algebra.Group_util <> x var
+R5406:5412 Algebra.Parts <> in_part def
+R5416:5416 Algebra.Group_util <> Build_sub_group.H var
+R5414:5414 Algebra.Group_util <> x var
+def 5464:5478 <> BUILD_SUB_GROUP
+R5482:5489 Algebra.Sub_group <> subgroup rec
+R5491:5491 Algebra.Group_util <> Build_sub_group.G var
+R5498:5511 Algebra.Sub_group <> Build_subgroup constr
+R5650:5653 Algebra.Group_util <> Build_sub_group.Hinv var
+R5545:5559 Algebra.Sub_monoid <> Build_submonoid constr
+R5639:5643 Algebra.Group_util <> Build_sub_group.Hunit var
+R5617:5631 Algebra.Sub_sgroup <> Build_subsgroup constr
+R5633:5636 Algebra.Group_util <> Build_sub_group.Hlaw var
+R5565:5565 Algebra.Group_util <> Build_sub_group.G var
+R5517:5517 Algebra.Group_util <> Build_sub_group.G var
+R5660:5674 Algebra.Group_util Build_sub_group <> sec

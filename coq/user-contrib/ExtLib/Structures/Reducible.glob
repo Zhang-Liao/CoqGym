@@ -1,0 +1,138 @@
+DIGEST 751980ade5cea21fb2d7026ff6c4ad87
+FExtLib.Structures.Reducible
+R15:41 Coq.Classes.RelationClasses <> <> lib
+R59:82 ExtLib.Structures.BinOps <> <> lib
+R100:122 ExtLib.Structures.Monad <> <> lib
+ind 178:186 <> Reducible
+constr 213:218 <> reduce
+rec 178:186 <> Reducible
+proj 213:218 <> reduce
+R241:241 ExtLib.Structures.Reducible <> A var
+R255:258 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R259:259 ExtLib.Structures.Reducible <> A var
+R254:254 ExtLib.Structures.Reducible <> E var
+R271:274 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R276:279 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R280:280 ExtLib.Structures.Reducible <> A var
+R275:275 ExtLib.Structures.Reducible <> A var
+R270:270 ExtLib.Structures.Reducible <> A var
+R285:288 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R289:289 ExtLib.Structures.Reducible <> A var
+R284:284 ExtLib.Structures.Reducible <> T var
+ind 299:306 <> Foldable
+constr 333:336 <> fold
+rec 299:306 <> Foldable
+proj 333:336 <> fold
+R359:362 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R364:367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R368:368 ExtLib.Structures.Reducible <> A var
+R363:363 ExtLib.Structures.Reducible <> A var
+R358:358 ExtLib.Structures.Reducible <> E var
+R379:379 ExtLib.Structures.Reducible <> A var
+R384:387 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R388:388 ExtLib.Structures.Reducible <> A var
+R383:383 ExtLib.Structures.Reducible <> T var
+sec 400:406 <> RedFold
+var 421:421 RedFold T
+var 423:423 RedFold E
+inst 452:474 <> Reducible_from_Foldable
+R481:488 ExtLib.Structures.Reducible <> Foldable class
+R492:492 ExtLib.Structures.Reducible <> RedFold.E var
+R490:490 ExtLib.Structures.Reducible <> RedFold.T var
+R497:505 ExtLib.Structures.Reducible <> Reducible class
+R509:509 ExtLib.Structures.Reducible <> RedFold.E var
+R507:507 ExtLib.Structures.Reducible <> RedFold.T var
+R557:560 ExtLib.Structures.Reducible <> fold def
+R597:600 ExtLib.Structures.Reducible <> base var
+R580:583 ExtLib.Structures.Reducible <> join var
+R586:591 ExtLib.Structures.Reducible <> single var
+R593:593 ExtLib.Structures.Reducible <> x var
+R568:568 ExtLib.Structures.Reducible <> A var
+R607:613 ExtLib.Structures.Reducible RedFold <> sec
+sec 625:629 <> foldM
+R681:688 ExtLib.Structures.Reducible <> Foldable class
+R692:692 ExtLib.Structures.Reducible <> foldM.E var
+R690:690 ExtLib.Structures.Reducible <> foldM.T var
+R715:718 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R747:751 ExtLib.Structures.Monad <> Monad class
+R753:753 ExtLib.Structures.Reducible <> foldM.m var
+def 771:775 <> foldM
+R789:792 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R794:797 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R798:798 ExtLib.Structures.Reducible <> foldM.m var
+R800:800 ExtLib.Structures.Reducible <> A var
+R793:793 ExtLib.Structures.Reducible <> A var
+R788:788 ExtLib.Structures.Reducible <> foldM.E var
+R811:811 ExtLib.Structures.Reducible <> foldM.m var
+R813:813 ExtLib.Structures.Reducible <> A var
+R821:821 ExtLib.Structures.Reducible <> foldM.T var
+R826:826 ExtLib.Structures.Reducible <> foldM.m var
+R828:828 ExtLib.Structures.Reducible <> A var
+R837:840 ExtLib.Structures.Reducible <> fold def
+R879:879 ExtLib.Structures.Reducible <> t var
+R874:877 ExtLib.Structures.Reducible <> base var
+R856:859 ExtLib.Structures.Monad <> bind meth
+R866:868 ExtLib.Structures.Reducible <> add var
+R870:870 ExtLib.Structures.Reducible <> x var
+R861:863 ExtLib.Structures.Reducible <> acc var
+R886:890 ExtLib.Structures.Reducible foldM <> sec
+sec 902:908 <> reduceM
+R961:969 ExtLib.Structures.Reducible <> Reducible class
+R973:973 ExtLib.Structures.Reducible <> reduceM.E var
+R971:971 ExtLib.Structures.Reducible <> reduceM.T var
+R996:999 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1028:1032 ExtLib.Structures.Monad <> Monad class
+R1034:1034 ExtLib.Structures.Reducible <> reduceM.m var
+def 1052:1058 <> reduceM
+R1072:1072 ExtLib.Structures.Reducible <> reduceM.m var
+R1074:1074 ExtLib.Structures.Reducible <> A var
+R1088:1091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1092:1092 ExtLib.Structures.Reducible <> reduceM.m var
+R1094:1094 ExtLib.Structures.Reducible <> A var
+R1087:1087 ExtLib.Structures.Reducible <> reduceM.E var
+R1106:1109 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1111:1114 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1115:1115 ExtLib.Structures.Reducible <> reduceM.m var
+R1117:1117 ExtLib.Structures.Reducible <> A var
+R1110:1110 ExtLib.Structures.Reducible <> A var
+R1105:1105 ExtLib.Structures.Reducible <> A var
+R1126:1126 ExtLib.Structures.Reducible <> reduceM.T var
+R1131:1131 ExtLib.Structures.Reducible <> reduceM.m var
+R1133:1133 ExtLib.Structures.Reducible <> A var
+R1142:1147 ExtLib.Structures.Reducible <> reduce def
+R1219:1219 ExtLib.Structures.Reducible <> t var
+R1173:1176 ExtLib.Structures.Monad <> bind meth
+R1190:1193 ExtLib.Structures.Monad <> bind meth
+R1207:1210 ExtLib.Structures.Reducible <> join var
+R1214:1214 ExtLib.Structures.Reducible <> y var
+R1212:1212 ExtLib.Structures.Reducible <> x var
+R1195:1195 ExtLib.Structures.Reducible <> y var
+R1178:1178 ExtLib.Structures.Reducible <> x var
+R1154:1159 ExtLib.Structures.Reducible <> single var
+R1149:1152 ExtLib.Structures.Reducible <> base var
+R1226:1232 ExtLib.Structures.Reducible reduceM <> sec
+sec 1244:1248 <> iterM
+R1319:1322 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1351:1355 ExtLib.Structures.Monad <> Monad class
+R1357:1357 ExtLib.Structures.Reducible <> iterM.m var
+R1381:1389 ExtLib.Structures.Reducible <> Reducible class
+R1393:1393 ExtLib.Structures.Reducible <> iterM.E var
+R1391:1391 ExtLib.Structures.Reducible <> iterM.T var
+var 1409:1409 iterM f
+R1414:1417 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1418:1418 ExtLib.Structures.Reducible <> iterM.m var
+R1420:1423 Coq.Init.Datatypes <> unit ind
+R1413:1413 ExtLib.Structures.Reducible <> iterM.E var
+def 1440:1444 <> iterM
+R1449:1452 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1453:1453 ExtLib.Structures.Reducible <> iterM.m var
+R1455:1458 Coq.Init.Datatypes <> unit ind
+R1448:1448 ExtLib.Structures.Reducible <> iterM.T var
+R1467:1472 ExtLib.Structures.Reducible <> reduce def
+R1497:1500 ExtLib.Structures.Monad <> bind meth
+R1514:1514 ExtLib.Structures.Reducible <> y var
+R1502:1502 ExtLib.Structures.Reducible <> x var
+R1483:1483 ExtLib.Structures.Reducible <> iterM.f var
+R1475:1477 ExtLib.Structures.Monad <> ret meth
+R1479:1480 Coq.Init.Datatypes <> tt constr
+R1523:1527 ExtLib.Structures.Reducible iterM <> sec

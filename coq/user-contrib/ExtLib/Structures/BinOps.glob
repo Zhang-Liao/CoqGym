@@ -1,0 +1,87 @@
+DIGEST 43cebf9bcd4748dd3a110fe487de7c99
+FExtLib.Structures.BinOps
+sec 8:14 <> unit_op
+var 50:51 unit_op op
+R56:59 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R61:64 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R65:65 ExtLib.Structures.BinOps <> unit_op.T var
+R60:60 ExtLib.Structures.BinOps <> unit_op.T var
+R55:55 ExtLib.Structures.BinOps <> unit_op.T var
+var 79:79 unit_op u
+R83:83 ExtLib.Structures.BinOps <> unit_op.T var
+var 97:99 unit_op equ
+R104:107 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R109:112 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R108:108 ExtLib.Structures.BinOps <> unit_op.T var
+R103:103 ExtLib.Structures.BinOps <> unit_op.T var
+ind 129:136 <> LeftUnit
+constr 152:156 <> lunit
+rec 129:136 <> LeftUnit
+proj 152:156 <> lunit
+R170:172 ExtLib.Structures.BinOps <> unit_op.equ var
+R183:183 ExtLib.Structures.BinOps <> a var
+R175:176 ExtLib.Structures.BinOps <> unit_op.op var
+R180:180 ExtLib.Structures.BinOps <> a var
+R178:178 ExtLib.Structures.BinOps <> unit_op.u var
+ind 195:203 <> RightUnit
+constr 219:223 <> runit
+rec 195:203 <> RightUnit
+proj 219:223 <> runit
+R237:239 ExtLib.Structures.BinOps <> unit_op.equ var
+R250:250 ExtLib.Structures.BinOps <> a var
+R242:243 ExtLib.Structures.BinOps <> unit_op.op var
+R247:247 ExtLib.Structures.BinOps <> unit_op.u var
+R245:245 ExtLib.Structures.BinOps <> a var
+R260:266 ExtLib.Structures.BinOps unit_op <> sec
+sec 278:284 <> comm_op
+var 322:323 comm_op op
+R328:331 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R333:336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R337:337 ExtLib.Structures.BinOps <> comm_op.U var
+R332:332 ExtLib.Structures.BinOps <> comm_op.T var
+R327:327 ExtLib.Structures.BinOps <> comm_op.T var
+var 351:353 comm_op equ
+R358:361 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R363:366 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R362:362 ExtLib.Structures.BinOps <> comm_op.U var
+R357:357 ExtLib.Structures.BinOps <> comm_op.U var
+ind 383:393 <> Commutative
+constr 409:414 <> commut
+rec 383:393 <> Commutative
+proj 409:414 <> commut
+R430:432 ExtLib.Structures.BinOps <> comm_op.equ var
+R444:445 ExtLib.Structures.BinOps <> comm_op.op var
+R449:449 ExtLib.Structures.BinOps <> a var
+R447:447 ExtLib.Structures.BinOps <> b var
+R435:436 ExtLib.Structures.BinOps <> comm_op.op var
+R440:440 ExtLib.Structures.BinOps <> b var
+R438:438 ExtLib.Structures.BinOps <> a var
+R460:466 ExtLib.Structures.BinOps comm_op <> sec
+sec 478:485 <> assoc_op
+var 521:522 assoc_op op
+R527:530 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R532:535 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R536:536 ExtLib.Structures.BinOps <> assoc_op.T var
+R531:531 ExtLib.Structures.BinOps <> assoc_op.T var
+R526:526 ExtLib.Structures.BinOps <> assoc_op.T var
+var 550:552 assoc_op equ
+R557:560 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R562:565 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R561:561 ExtLib.Structures.BinOps <> assoc_op.T var
+R556:556 ExtLib.Structures.BinOps <> assoc_op.T var
+ind 581:591 <> Associative
+constr 607:611 <> assoc
+rec 581:591 <> Associative
+proj 607:611 <> assoc
+R629:631 ExtLib.Structures.BinOps <> assoc_op.equ var
+R650:651 ExtLib.Structures.BinOps <> assoc_op.op var
+R656:657 ExtLib.Structures.BinOps <> assoc_op.op var
+R661:661 ExtLib.Structures.BinOps <> c var
+R659:659 ExtLib.Structures.BinOps <> b var
+R653:653 ExtLib.Structures.BinOps <> a var
+R634:635 ExtLib.Structures.BinOps <> assoc_op.op var
+R646:646 ExtLib.Structures.BinOps <> c var
+R638:639 ExtLib.Structures.BinOps <> assoc_op.op var
+R643:643 ExtLib.Structures.BinOps <> b var
+R641:641 ExtLib.Structures.BinOps <> a var
+R673:680 ExtLib.Structures.BinOps assoc_op <> sec

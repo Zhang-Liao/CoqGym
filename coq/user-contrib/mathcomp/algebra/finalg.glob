@@ -1,0 +1,2726 @@
+DIGEST c105de97c73f7a8936a667447afb9b87
+Fmathcomp.algebra.finalg
+R175:202 mathcomp.ssreflect.ssreflect <> <> lib
+R234:239 mathcomp.ssreflect.ssrfun <> <> lib
+R241:247 mathcomp.ssreflect.ssrbool <> <> lib
+R249:254 mathcomp.ssreflect.eqtype <> <> lib
+R256:261 mathcomp.ssreflect.ssrnat <> <> lib
+R263:265 mathcomp.ssreflect.seq <> <> lib
+R267:272 mathcomp.ssreflect.choice <> <> lib
+R274:280 mathcomp.ssreflect.fintype <> <> lib
+R312:317 mathcomp.algebra.ssralg <> <> lib
+R319:324 mathcomp.ssreflect.finset <> <> lib
+R326:333 mathcomp.fingroup.fingroup <> <> lib
+R335:342 mathcomp.fingroup.morphism <> <> lib
+R344:347 mathcomp.fingroup.perm <> <> lib
+R349:354 mathcomp.fingroup.action <> <> lib
+R356:363 mathcomp.algebra.countalg <> <> lib
+mod 2568:2574 <> FinRing
+syndef 2593:2600 FinRing mixin_of
+R2610:2624 mathcomp.ssreflect.fintype Finite mixin_of rec
+R2627:2632 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+sec 2650:2656 FinRing Generic
+var 2687:2690 FinRing.Generic type
+var 2692:2700 FinRing.Generic base_type
+var 2711:2718 FinRing.Generic class_of
+var 2720:2726 FinRing.Generic base_of
+R2734:2737 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+var 2754:2762 FinRing.Generic to_choice
+R2785:2788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2789:2803 mathcomp.ssreflect.choice Choice class_of rec
+R2805:2805 mathcomp.algebra.finalg <> T var
+R2776:2782 mathcomp.algebra.finalg <> FinRing.Generic.base_of var
+R2784:2784 mathcomp.algebra.finalg <> T var
+var 2817:2825 FinRing.Generic base_sort
+R2838:2841 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2829:2837 mathcomp.algebra.finalg <> FinRing.Generic.base_type var
+var 2874:2877 FinRing.Generic Pack
+R2901:2904 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2905:2908 mathcomp.algebra.finalg <> FinRing.Generic.type var
+R2891:2898 mathcomp.algebra.finalg <> FinRing.Generic.class_of var
+R2900:2900 mathcomp.algebra.finalg <> T var
+var 2920:2924 FinRing.Generic Class
+R2964:2967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2968:2975 mathcomp.algebra.finalg <> FinRing.Generic.class_of var
+R2977:2977 mathcomp.algebra.finalg <> T var
+R2940:2947 mathcomp.algebra.finalg FinRing mixin_of syndef
+R2949:2949 mathcomp.algebra.finalg <> T var
+R2952:2960 mathcomp.algebra.finalg <> FinRing.Generic.to_choice var
+R2962:2962 mathcomp.algebra.finalg <> b var
+var 2989:2998 FinRing.Generic base_class
+R3013:3019 mathcomp.algebra.finalg <> FinRing.Generic.base_of var
+R3022:3030 mathcomp.algebra.finalg <> FinRing.Generic.base_sort var
+R3032:3033 mathcomp.algebra.finalg <> bT var
+def 3049:3056 FinRing gen_pack
+R3076:3083 Coq.ssr.ssrfun <> phant_id def
+R3101:3101 mathcomp.algebra.finalg <> b var
+R3086:3095 mathcomp.algebra.finalg <> FinRing.Generic.base_class var
+R3097:3098 mathcomp.algebra.finalg <> bT var
+R3119:3126 Coq.ssr.ssrfun <> phant_id def
+R3147:3158 mathcomp.ssreflect.fintype Finite Class constr
+R3160:3160 mathcomp.algebra.finalg <> m var
+R3129:3140 mathcomp.ssreflect.fintype Finite class def
+R3142:3143 mathcomp.algebra.finalg <> fT var
+R3168:3171 mathcomp.algebra.finalg <> FinRing.Generic.Pack var
+R3175:3179 mathcomp.algebra.finalg <> FinRing.Generic.Class var
+R3185:3185 mathcomp.algebra.finalg <> m var
+R3183:3183 mathcomp.algebra.finalg <> b var
+R3181:3181 mathcomp.algebra.finalg <> T var
+R3194:3200 mathcomp.algebra.finalg FinRing.Generic <> sec
+R3214:3221 mathcomp.algebra.finalg FinRing gen_pack def
+R3214:3221 mathcomp.algebra.finalg FinRing gen_pack def
+syndef 3293:3296 FinRing fin_
+R3305:3316 mathcomp.ssreflect.fintype Finite Class constr
+syndef 3341:3347 FinRing do_pack
+R3378:3379 Coq.ssr.ssrfun <> id syndef
+R3371:3372 Coq.ssr.ssrfun <> id syndef
+def 3416:3425 FinRing groupMixin
+R3432:3445 mathcomp.fingroup.fingroup FinGroup Mixin def
+R3471:3475 mathcomp.algebra.ssralg GRing.Theory addNr def
+R3477:3477 mathcomp.algebra.finalg <> V var
+R3460:3464 mathcomp.algebra.ssralg GRing.Theory add0r def
+R3466:3466 mathcomp.algebra.finalg <> V var
+R3449:3453 mathcomp.algebra.ssralg GRing.Theory addrA def
+R3455:3455 mathcomp.algebra.finalg <> V var
+syndef 3496:3505 FinRing base_group
+R3522:3538 mathcomp.fingroup.fingroup FinGroup PackBase constr
+R3559:3570 mathcomp.ssreflect.fintype Finite class def
+R3543:3552 mathcomp.algebra.finalg FinRing groupMixin def
+syndef 3593:3601 FinRing fin_group
+R3612:3624 mathcomp.fingroup.fingroup FinGroup Pack constr
+R3630:3634 mathcomp.algebra.ssralg GRing.Theory addNr def
+mod 3649:3655 <> FinRing.Zmodule
+sec 3667:3674 FinRing.Zmodule ClassDef
+constr 3701:3705 FinRing.Zmodule Class
+rec 3685:3692 FinRing.Zmodule class_of
+proj 3709:3712 FinRing.Zmodule base
+proj 3742:3746 FinRing.Zmodule mixin
+R3716:3737 mathcomp.algebra.ssralg GRing.Zmodule class_of rec
+R3739:3739 mathcomp.algebra.finalg <> M var
+R3750:3757 mathcomp.algebra.finalg FinRing mixin_of syndef
+R3759:3759 mathcomp.algebra.finalg <> M var
+R3761:3764 mathcomp.algebra.finalg <> base meth
+R3775:3825 mathcomp.algebra.finalg FinRing.Zmodule base proj
+R3834:3871 mathcomp.algebra.finalg FinRing.Zmodule mixin proj
+constr 3893:3896 FinRing.Zmodule Pack
+rec 3885:3888 FinRing.Zmodule type
+proj 3899:3902 FinRing.Zmodule sort
+R3909:3916 mathcomp.algebra.finalg FinRing.Zmodule class_of rec
+R3918:3921 mathcomp.algebra.finalg <> sort meth
+R3931:3964 mathcomp.algebra.finalg FinRing.Zmodule sort proj
+def 3978:3981 FinRing.Zmodule pack
+R3986:3993 mathcomp.algebra.finalg FinRing gen_pack def
+R4006:4024 mathcomp.algebra.ssralg GRing.Zmodule class def
+R4000:4004 mathcomp.algebra.finalg FinRing.Zmodule Class constr
+R3995:3998 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+var 4036:4037 FinRing.Zmodule.ClassDef cT
+R4041:4044 mathcomp.algebra.finalg FinRing.Zmodule type rec
+def 4058:4062 FinRing.Zmodule class
+R4091:4092 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+R4101:4108 mathcomp.algebra.finalg FinRing.Zmodule class_of rec
+R4110:4112 mathcomp.algebra.finalg <> cT' var
+R4072:4075 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+var 4124:4125 FinRing.Zmodule.ClassDef xT
+R4147:4148 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+R4135:4138 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+syndef 4165:4170 FinRing.Zmodule xclass
+R4181:4183 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R4184:4191 mathcomp.algebra.finalg FinRing.Zmodule class_of rec
+R4193:4194 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.xT var
+R4176:4180 mathcomp.algebra.finalg FinRing.Zmodule class def
+def 4210:4215 FinRing.Zmodule eqType
+R4221:4233 mathcomp.ssreflect.eqtype Equality Pack constr
+R4238:4243 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4235:4236 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+def 4257:4266 FinRing.Zmodule choiceType
+R4272:4282 mathcomp.ssreflect.choice Choice Pack constr
+R4287:4292 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4284:4285 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+def 4306:4314 FinRing.Zmodule countType
+R4320:4333 mathcomp.ssreflect.choice Countable Pack constr
+R4339:4342 mathcomp.algebra.finalg FinRing fin_ syndef
+R4344:4349 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4344:4349 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4335:4336 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+def 4364:4370 FinRing.Zmodule finType
+R4376:4386 mathcomp.ssreflect.fintype Finite Pack constr
+R4392:4395 mathcomp.algebra.finalg FinRing fin_ syndef
+R4397:4402 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4397:4402 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4388:4389 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+def 4417:4424 FinRing.Zmodule zmodType
+R4430:4447 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R4452:4457 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4449:4450 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+def 4472:4483 FinRing.Zmodule join_finType
+R4489:4499 mathcomp.ssreflect.fintype Finite Pack constr
+R4511:4514 mathcomp.algebra.finalg FinRing fin_ syndef
+R4516:4521 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4516:4521 mathcomp.algebra.finalg FinRing.Zmodule xclass syndef
+R4501:4508 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+def 4537:4552 FinRing.Zmodule baseFinGroupType
+R4557:4566 mathcomp.algebra.finalg FinRing base_group syndef
+R4568:4569 mathcomp.algebra.finalg <> FinRing.Zmodule.ClassDef.cT var
+R4571:4578 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+R4580:4586 mathcomp.algebra.finalg FinRing.Zmodule finType def
+def 4600:4611 FinRing.Zmodule finGroupType
+R4616:4624 mathcomp.algebra.finalg FinRing fin_group syndef
+R4626:4641 mathcomp.algebra.finalg FinRing.Zmodule baseFinGroupType def
+R4643:4650 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+def 4664:4684 FinRing.Zmodule join_baseFinGroupType
+R4689:4698 mathcomp.algebra.finalg FinRing base_group syndef
+R4700:4707 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+R4709:4716 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+R4718:4724 mathcomp.algebra.finalg FinRing.Zmodule finType def
+def 4738:4754 FinRing.Zmodule join_finGroupType
+R4759:4767 mathcomp.algebra.finalg FinRing fin_group syndef
+R4769:4789 mathcomp.algebra.finalg FinRing.Zmodule join_baseFinGroupType def
+R4791:4798 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+R4806:4813 mathcomp.algebra.finalg FinRing.Zmodule.ClassDef <> sec
+mod 4824:4830 <> FinRing.Zmodule.Exports
+R4833:4883 mathcomp.algebra.finalg FinRing.Zmodule base proj
+R4886:4923 mathcomp.algebra.finalg FinRing.Zmodule mixin proj
+R4926:4959 mathcomp.algebra.finalg FinRing.Zmodule sort proj
+R4995:5034 mathcomp.algebra.finalg FinRing.Zmodule eqType def
+R5055:5096 mathcomp.algebra.finalg FinRing.Zmodule choiceType def
+R5121:5164 mathcomp.algebra.finalg FinRing.Zmodule countType def
+R5188:5226 mathcomp.algebra.finalg FinRing.Zmodule finType def
+R5248:5294 mathcomp.algebra.finalg FinRing.Zmodule zmodType def
+syndef 5350:5360 FinRing.Zmodule.Exports finZmodType
+R5365:5368 mathcomp.algebra.finalg FinRing.Zmodule type rec
+R5411:5417 mathcomp.algebra.finalg FinRing do_pack syndef
+R5419:5422 mathcomp.algebra.finalg FinRing.Zmodule pack def
+not 5380:5380 FinRing.Zmodule.Exports ::form_scope:'['_'finZmodType'_'of'_x_']'
+R5493:5547 mathcomp.algebra.finalg FinRing.Zmodule baseFinGroupType def
+R5578:5623 mathcomp.algebra.finalg FinRing.Zmodule finGroupType def
+R5771:5786 mathcomp.fingroup.fingroup FinGroup.Exports BaseFinGroupType syndef
+R5791:5800 mathcomp.algebra.finalg FinRing groupMixin def
+not 5721:5721 FinRing.Zmodule.Exports ::form_scope:'['_'baseFinGroupType'_'of'_x_'for'_'+%R'_']'
+R5949:5962 mathcomp.fingroup.fingroup FinGroup clone def
+R5990:5991 Coq.ssr.ssrfun <> id syndef
+R5985:5986 Coq.ssr.ssrfun <> id syndef
+R5969:5980 mathcomp.algebra.finalg FinRing.Zmodule finGroupType def
+not 5902:5902 FinRing.Zmodule.Exports ::form_scope:'['_'finGroupType'_'of'_x_'for'_'+%R'_']'
+R6102:6105 mathcomp.algebra.finalg FinRing.Zmodule type rec
+R6111:6128 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R6130:6130 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R6129:6129 mathcomp.algebra.finalg <> T var
+R6137:6143 mathcomp.algebra.finalg FinRing.Zmodule.Exports <> mod
+R6151:6157 mathcomp.algebra.finalg FinRing.Zmodule <> mod
+sec 6193:6205 FinRing AdditiveGroup
+var 6218:6218 FinRing.AdditiveGroup U
+R6222:6232 mathcomp.algebra.finalg FinRing finZmodType syndef
+R6256:6256 mathcomp.algebra.finalg <> FinRing.AdditiveGroup.U var
+prf 6266:6272 FinRing zmod1gE
+R6279:6281 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6283:6286 Coq.Init.Logic <> ::type_scope:x_'='_x_':>'_x not
+R6287:6287 mathcomp.algebra.finalg <> FinRing.AdditiveGroup.U var
+prf 6326:6332 FinRing zmodVgE
+R6344:6346 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6339:6341 mathcomp.fingroup.fingroup <> ::group_scope:x_'^-1' not
+R6338:6338 mathcomp.algebra.finalg <> x var
+R6347:6348 mathcomp.algebra.ssralg <> ::ring_scope:'-'_x not
+R6349:6349 mathcomp.algebra.finalg <> x var
+prf 6386:6392 FinRing zmodMgE
+R6409:6411 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6402:6404 mathcomp.fingroup.fingroup <> ::group_scope:x_'*'_x not
+R6401:6401 mathcomp.algebra.finalg <> x var
+R6405:6405 mathcomp.algebra.finalg <> y var
+R6413:6415 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R6412:6412 mathcomp.algebra.finalg <> x var
+R6416:6416 mathcomp.algebra.finalg <> y var
+prf 6446:6452 FinRing zmodXgE
+R6470:6472 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R6462:6465 mathcomp.fingroup.fingroup <> ::group_scope:x_'^+'_x not
+R6461:6461 mathcomp.algebra.finalg <> x var
+R6466:6466 mathcomp.algebra.finalg <> n var
+R6474:6477 mathcomp.algebra.ssralg <> ::ring_scope:x_'*+'_x not
+R6473:6473 mathcomp.algebra.finalg <> x var
+R6478:6478 mathcomp.algebra.finalg <> n var
+prf 6506:6515 FinRing zmod_mulgC
+R6523:6529 mathcomp.fingroup.fingroup <> commute def
+R6533:6533 mathcomp.algebra.finalg <> y var
+R6531:6531 mathcomp.algebra.finalg <> x var
+R6555:6565 mathcomp.algebra.ssralg GRing addrC thm
+R6555:6565 mathcomp.algebra.ssralg GRing addrC thm
+prf 6579:6590 FinRing zmod_abelian
+R6597:6601 mathcomp.ssreflect.finset <> ::type_scope:'{'_'set'_x_'}' not
+R6603:6603 mathcomp.ssreflect.finset <> ::type_scope:'{'_'set'_x_'}' not
+R6602:6602 mathcomp.algebra.finalg <> FinRing.AdditiveGroup.U var
+R6608:6614 mathcomp.fingroup.fingroup <> abelian def
+R6616:6616 mathcomp.algebra.finalg <> A var
+R6635:6640 mathcomp.fingroup.fingroup <> centsP thm
+R6660:6669 mathcomp.algebra.finalg FinRing zmod_mulgC thm
+R6635:6640 mathcomp.fingroup.fingroup <> centsP thm
+R6660:6669 mathcomp.algebra.finalg FinRing zmod_mulgC thm
+R6682:6694 mathcomp.algebra.finalg FinRing.AdditiveGroup <> sec
+mod 6705:6708 <> FinRing.Ring
+sec 6720:6727 FinRing.Ring ClassDef
+constr 6754:6758 FinRing.Ring Class
+rec 6738:6745 FinRing.Ring class_of
+proj 6762:6765 FinRing.Ring base
+proj 6792:6796 FinRing.Ring mixin
+R6769:6787 mathcomp.algebra.ssralg GRing.Ring class_of rec
+R6789:6789 mathcomp.algebra.finalg <> R var
+R6800:6807 mathcomp.algebra.finalg FinRing mixin_of syndef
+R6809:6809 mathcomp.algebra.finalg <> R var
+R6811:6814 mathcomp.algebra.finalg <> base meth
+def 6830:6834 FinRing.Ring base2
+R6843:6850 mathcomp.algebra.finalg FinRing.Ring class_of rec
+R6852:6852 mathcomp.algebra.finalg <> R var
+R6858:6870 mathcomp.algebra.finalg FinRing.Zmodule Class constr
+R6873:6877 mathcomp.algebra.finalg FinRing.Ring mixin proj
+R6879:6879 mathcomp.algebra.finalg <> c var
+R6889:6936 mathcomp.algebra.finalg FinRing.Ring base proj
+R6945:6990 mathcomp.algebra.finalg FinRing.Ring base2 def
+constr 7012:7015 FinRing.Ring Pack
+rec 7004:7007 FinRing.Ring type
+proj 7018:7021 FinRing.Ring sort
+R7028:7035 mathcomp.algebra.finalg FinRing.Ring class_of rec
+R7037:7040 mathcomp.algebra.finalg <> sort meth
+R7050:7083 mathcomp.algebra.finalg FinRing.Ring sort proj
+def 7097:7100 FinRing.Ring pack
+R7105:7112 mathcomp.algebra.finalg FinRing gen_pack def
+R7125:7140 mathcomp.algebra.ssralg GRing.Ring class def
+R7119:7123 mathcomp.algebra.finalg FinRing.Ring Class constr
+R7114:7117 mathcomp.algebra.finalg FinRing.Ring Pack constr
+var 7152:7153 FinRing.Ring.ClassDef cT
+R7157:7160 mathcomp.algebra.finalg FinRing.Ring type rec
+def 7174:7178 FinRing.Ring class
+R7207:7208 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+R7217:7224 mathcomp.algebra.finalg FinRing.Ring class_of rec
+R7226:7228 mathcomp.algebra.finalg <> cT' var
+R7188:7191 mathcomp.algebra.finalg FinRing.Ring Pack constr
+var 7240:7241 FinRing.Ring.ClassDef xT
+R7263:7264 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+R7251:7254 mathcomp.algebra.finalg FinRing.Ring Pack constr
+syndef 7281:7286 FinRing.Ring xclass
+R7297:7299 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R7300:7307 mathcomp.algebra.finalg FinRing.Ring class_of rec
+R7309:7310 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.xT var
+R7292:7296 mathcomp.algebra.finalg FinRing.Ring class def
+def 7326:7331 FinRing.Ring eqType
+R7337:7349 mathcomp.ssreflect.eqtype Equality Pack constr
+R7354:7359 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7351:7352 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7373:7382 FinRing.Ring choiceType
+R7388:7398 mathcomp.ssreflect.choice Choice Pack constr
+R7403:7408 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7400:7401 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7422:7430 FinRing.Ring countType
+R7436:7449 mathcomp.ssreflect.choice Countable Pack constr
+R7455:7458 mathcomp.algebra.finalg FinRing fin_ syndef
+R7460:7465 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7460:7465 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7451:7452 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7480:7486 FinRing.Ring finType
+R7492:7502 mathcomp.ssreflect.fintype Finite Pack constr
+R7508:7511 mathcomp.algebra.finalg FinRing fin_ syndef
+R7513:7518 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7513:7518 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7504:7505 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7533:7540 FinRing.Ring zmodType
+R7546:7563 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R7568:7573 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7565:7566 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7587:7597 FinRing.Ring finZmodType
+R7603:7614 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R7619:7624 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7616:7617 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7638:7645 FinRing.Ring ringType
+R7651:7665 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R7670:7675 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7667:7668 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+def 7689:7700 FinRing.Ring join_finType
+R7706:7716 mathcomp.ssreflect.fintype Finite Pack constr
+R7728:7731 mathcomp.algebra.finalg FinRing fin_ syndef
+R7733:7738 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7733:7738 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7718:7725 mathcomp.algebra.finalg FinRing.Ring ringType def
+def 7753:7768 FinRing.Ring join_finZmodType
+R7774:7785 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R7796:7801 mathcomp.algebra.finalg FinRing.Ring xclass syndef
+R7787:7794 mathcomp.algebra.finalg FinRing.Ring ringType def
+def 7816:7831 FinRing.Ring baseFinGroupType
+R7836:7845 mathcomp.algebra.finalg FinRing base_group syndef
+R7847:7848 mathcomp.algebra.finalg <> FinRing.Ring.ClassDef.cT var
+R7850:7857 mathcomp.algebra.finalg FinRing.Ring zmodType def
+R7859:7865 mathcomp.algebra.finalg FinRing.Ring finType def
+def 7879:7890 FinRing.Ring finGroupType
+R7895:7903 mathcomp.algebra.finalg FinRing fin_group syndef
+R7905:7920 mathcomp.algebra.finalg FinRing.Ring baseFinGroupType def
+R7922:7929 mathcomp.algebra.finalg FinRing.Ring zmodType def
+def 7943:7963 FinRing.Ring join_baseFinGroupType
+R7968:7977 mathcomp.algebra.finalg FinRing base_group syndef
+R7979:7986 mathcomp.algebra.finalg FinRing.Ring ringType def
+R7988:7995 mathcomp.algebra.finalg FinRing.Ring zmodType def
+R7997:8003 mathcomp.algebra.finalg FinRing.Ring finType def
+def 8017:8033 FinRing.Ring join_finGroupType
+R8038:8046 mathcomp.algebra.finalg FinRing fin_group syndef
+R8048:8068 mathcomp.algebra.finalg FinRing.Ring join_baseFinGroupType def
+R8070:8077 mathcomp.algebra.finalg FinRing.Ring zmodType def
+R8085:8092 mathcomp.algebra.finalg FinRing.Ring.ClassDef <> sec
+mod 8110:8116 <> FinRing.Ring.Exports
+R8119:8166 mathcomp.algebra.finalg FinRing.Ring base proj
+R8169:8214 mathcomp.algebra.finalg FinRing.Ring base2 def
+R8217:8250 mathcomp.algebra.finalg FinRing.Ring sort proj
+R8286:8325 mathcomp.algebra.finalg FinRing.Ring eqType def
+R8346:8387 mathcomp.algebra.finalg FinRing.Ring choiceType def
+R8412:8455 mathcomp.algebra.finalg FinRing.Ring countType def
+R8479:8517 mathcomp.algebra.finalg FinRing.Ring finType def
+R8539:8585 mathcomp.algebra.finalg FinRing.Ring zmodType def
+R8608:8651 mathcomp.algebra.finalg FinRing.Ring finZmodType def
+R8677:8720 mathcomp.algebra.finalg FinRing.Ring ringType def
+syndef 8804:8814 FinRing.Ring.Exports finRingType
+R8819:8822 mathcomp.algebra.finalg FinRing.Ring type rec
+R8865:8871 mathcomp.algebra.finalg FinRing do_pack syndef
+R8873:8876 mathcomp.algebra.finalg FinRing.Ring pack def
+not 8834:8834 FinRing.Ring.Exports ::form_scope:'['_'finRingType'_'of'_x_']'
+R9090:9093 mathcomp.algebra.finalg FinRing.Ring type rec
+R9099:9116 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R9118:9118 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R9117:9117 mathcomp.algebra.finalg <> T var
+R9150:9153 mathcomp.algebra.finalg FinRing.Ring type rec
+R9159:9176 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R9178:9178 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R9177:9177 mathcomp.algebra.finalg <> T var
+R9185:9191 mathcomp.algebra.finalg FinRing.Ring.Exports <> mod
+sec 9203:9206 FinRing.Ring Unit
+var 9219:9219 FinRing.Ring.Unit R
+R9223:9233 mathcomp.algebra.finalg FinRing.Ring finRingType syndef
+def 9248:9253 FinRing.Ring is_inv
+R9262:9262 mathcomp.algebra.finalg <> FinRing.Ring.Unit.R var
+R9268:9268 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9279:9284 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9295:9295 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R9274:9277 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R9270:9272 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R9269:9269 mathcomp.algebra.finalg <> x var
+R9273:9273 mathcomp.algebra.finalg <> y var
+R9290:9293 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R9286:9288 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R9285:9285 mathcomp.algebra.finalg <> y var
+R9289:9289 mathcomp.algebra.finalg <> x var
+def 9309:9312 FinRing.Ring unit
+R9317:9327 Coq.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_':'_x_'|'_x_']' not
+R9329:9331 Coq.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_':'_x_'|'_x_']' not
+R9333:9335 Coq.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_':'_x_'|'_x_']' not
+R9358:9358 Coq.ssr.ssrbool <> ::form_scope:'['_'qualify'_'a'_x_':'_x_'|'_x_']' not
+R9336:9343 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_x_']' not
+R9357:9357 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_x_']' not
+R9345:9346 mathcomp.ssreflect.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R9347:9352 mathcomp.algebra.finalg FinRing.Ring is_inv def
+R9356:9356 mathcomp.algebra.finalg <> y var
+R9354:9354 mathcomp.algebra.finalg <> x var
+R9332:9332 mathcomp.algebra.finalg <> FinRing.Ring.Unit.R var
+def 9372:9374 FinRing.Ring inv
+R9381:9385 Coq.ssr.ssrfun <> odflt syndef
+R9390:9393 mathcomp.ssreflect.fintype <> pick def
+R9396:9401 mathcomp.algebra.finalg FinRing.Ring is_inv def
+R9403:9403 mathcomp.algebra.finalg <> x var
+R9387:9387 mathcomp.algebra.finalg <> x var
+prf 9415:9419 FinRing.Ring mulVr
+R9423:9426 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9431:9432 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9455:9455 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9427:9430 mathcomp.algebra.finalg FinRing.Ring unit def
+R9433:9444 Coq.ssr.ssrfun <> left_inverse def
+R9452:9454 mathcomp.algebra.ssralg <> :::'*%R' not
+R9448:9450 mathcomp.algebra.finalg FinRing.Ring inv def
+R9474:9476 mathcomp.algebra.finalg FinRing.Ring inv def
+R9493:9497 mathcomp.ssreflect.fintype <> pickP thm
+R9474:9476 mathcomp.algebra.finalg FinRing.Ring inv def
+R9474:9476 mathcomp.algebra.finalg FinRing.Ring inv def
+R9493:9497 mathcomp.ssreflect.fintype <> pickP thm
+R9493:9497 mathcomp.ssreflect.fintype <> pickP thm
+R9527:9532 mathcomp.ssreflect.fintype <> pred0P thm
+R9547:9550 Coq.ssr.ssrbool <> andP thm
+R9562:9564 mathcomp.ssreflect.eqtype <> eqP thm
+prf 9579:9583 FinRing.Ring mulrV
+R9587:9590 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9595:9596 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9620:9620 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9591:9594 mathcomp.algebra.finalg FinRing.Ring unit def
+R9597:9609 Coq.ssr.ssrfun <> right_inverse def
+R9617:9619 mathcomp.algebra.ssralg <> :::'*%R' not
+R9613:9615 mathcomp.algebra.finalg FinRing.Ring inv def
+R9639:9641 mathcomp.algebra.finalg FinRing.Ring inv def
+R9658:9662 mathcomp.ssreflect.fintype <> pickP thm
+R9639:9641 mathcomp.algebra.finalg FinRing.Ring inv def
+R9639:9641 mathcomp.algebra.finalg FinRing.Ring inv def
+R9658:9662 mathcomp.ssreflect.fintype <> pickP thm
+R9658:9662 mathcomp.ssreflect.fintype <> pickP thm
+R9692:9697 mathcomp.ssreflect.fintype <> pred0P thm
+R9712:9715 Coq.ssr.ssrbool <> andP thm
+R9723:9725 mathcomp.ssreflect.eqtype <> eqP thm
+prf 9740:9749 FinRing.Ring intro_unit
+R9779:9782 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9784:9790 Coq.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R9783:9783 mathcomp.algebra.finalg <> x var
+R9791:9794 mathcomp.algebra.finalg FinRing.Ring unit def
+R9766:9769 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R9762:9764 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9758:9760 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R9757:9757 mathcomp.algebra.finalg <> y var
+R9761:9761 mathcomp.algebra.finalg <> x var
+R9775:9777 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9771:9773 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R9770:9770 mathcomp.algebra.finalg <> x var
+R9774:9774 mathcomp.algebra.finalg <> y var
+R9829:9835 mathcomp.ssreflect.fintype <> existsP thm
+R9857:9862 mathcomp.algebra.finalg FinRing.Ring is_inv def
+R9873:9876 mathcomp.ssreflect.eqtype <> eqxx syndef
+R9829:9835 mathcomp.ssreflect.fintype <> existsP thm
+R9857:9862 mathcomp.algebra.finalg FinRing.Ring is_inv def
+R9857:9862 mathcomp.algebra.finalg FinRing.Ring is_inv def
+R9873:9876 mathcomp.ssreflect.eqtype <> eqxx syndef
+R9873:9876 mathcomp.ssreflect.eqtype <> eqxx syndef
+R9873:9876 mathcomp.ssreflect.eqtype <> eqxx syndef
+prf 9891:9898 FinRing.Ring invr_out
+R9902:9905 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9918:9919 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9929:9929 Coq.ssr.ssrbool <> ::type_scope:'{'_'in'_x_','_x_'}' not
+R9906:9912 Coq.ssr.ssrbool <> ::fun_scope:'['_'predC'_x_']' not
+R9917:9917 Coq.ssr.ssrbool <> ::fun_scope:'['_'predC'_x_']' not
+R9913:9916 mathcomp.algebra.finalg FinRing.Ring unit def
+R9923:9926 Coq.ssr.ssrfun <> ::fun_scope:x_'=1'_x not
+R9920:9922 mathcomp.algebra.finalg FinRing.Ring inv def
+R9927:9928 Coq.ssr.ssrfun <> id syndef
+R9948:9950 mathcomp.algebra.finalg FinRing.Ring inv def
+R9968:9972 mathcomp.ssreflect.fintype <> pickP thm
+R9948:9950 mathcomp.algebra.finalg FinRing.Ring inv def
+R9948:9950 mathcomp.algebra.finalg FinRing.Ring inv def
+R9968:9972 mathcomp.ssreflect.fintype <> pickP thm
+R9968:9972 mathcomp.ssreflect.fintype <> pickP thm
+R9997:10003 mathcomp.ssreflect.fintype <> existsP thm
+def 10038:10046 FinRing.Ring UnitMixin
+R10051:10070 mathcomp.algebra.ssralg GRing.UnitRing Mixin constr
+R10095:10102 mathcomp.algebra.finalg FinRing.Ring invr_out thm
+R10084:10093 mathcomp.algebra.finalg FinRing.Ring intro_unit thm
+R10078:10082 mathcomp.algebra.finalg FinRing.Ring mulrV thm
+R10072:10076 mathcomp.algebra.finalg FinRing.Ring mulVr thm
+R10110:10113 mathcomp.algebra.finalg FinRing.Ring.Unit <> sec
+R10121:10124 mathcomp.algebra.finalg FinRing.Ring <> mod
+mod 10156:10162 <> FinRing.ComRing
+sec 10174:10181 FinRing.ComRing ClassDef
+constr 10208:10212 FinRing.ComRing Class
+rec 10192:10199 FinRing.ComRing class_of
+proj 10216:10219 FinRing.ComRing base
+proj 10249:10253 FinRing.ComRing mixin
+R10223:10244 mathcomp.algebra.ssralg GRing.ComRing class_of rec
+R10246:10246 mathcomp.algebra.finalg <> R var
+R10257:10264 mathcomp.algebra.finalg FinRing mixin_of syndef
+R10266:10266 mathcomp.algebra.finalg <> R var
+R10268:10271 mathcomp.algebra.finalg <> base meth
+def 10287:10291 FinRing.ComRing base2
+R10300:10307 mathcomp.algebra.finalg FinRing.ComRing class_of rec
+R10309:10309 mathcomp.algebra.finalg <> R var
+R10315:10324 mathcomp.algebra.finalg FinRing.Ring Class constr
+R10327:10331 mathcomp.algebra.finalg FinRing.ComRing mixin proj
+R10333:10333 mathcomp.algebra.finalg <> c var
+R10343:10393 mathcomp.algebra.finalg FinRing.ComRing base proj
+R10402:10444 mathcomp.algebra.finalg FinRing.ComRing base2 def
+constr 10466:10469 FinRing.ComRing Pack
+rec 10458:10461 FinRing.ComRing type
+proj 10472:10475 FinRing.ComRing sort
+R10482:10489 mathcomp.algebra.finalg FinRing.ComRing class_of rec
+R10491:10494 mathcomp.algebra.finalg <> sort meth
+R10504:10537 mathcomp.algebra.finalg FinRing.ComRing sort proj
+def 10551:10554 FinRing.ComRing pack
+R10559:10566 mathcomp.algebra.finalg FinRing gen_pack def
+R10579:10597 mathcomp.algebra.ssralg GRing.ComRing class def
+R10573:10577 mathcomp.algebra.finalg FinRing.ComRing Class constr
+R10568:10571 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+var 10609:10610 FinRing.ComRing.ClassDef cT
+R10614:10617 mathcomp.algebra.finalg FinRing.ComRing type rec
+def 10631:10635 FinRing.ComRing class
+R10664:10665 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+R10674:10681 mathcomp.algebra.finalg FinRing.ComRing class_of rec
+R10683:10685 mathcomp.algebra.finalg <> cT' var
+R10645:10648 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+var 10697:10698 FinRing.ComRing.ClassDef xT
+R10720:10721 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+R10708:10711 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+syndef 10738:10743 FinRing.ComRing xclass
+R10754:10756 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R10757:10764 mathcomp.algebra.finalg FinRing.ComRing class_of rec
+R10766:10767 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.xT var
+R10749:10753 mathcomp.algebra.finalg FinRing.ComRing class def
+def 10783:10788 FinRing.ComRing eqType
+R10794:10806 mathcomp.ssreflect.eqtype Equality Pack constr
+R10811:10816 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R10808:10809 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 10830:10839 FinRing.ComRing choiceType
+R10845:10855 mathcomp.ssreflect.choice Choice Pack constr
+R10860:10865 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R10857:10858 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 10879:10887 FinRing.ComRing countType
+R10893:10906 mathcomp.ssreflect.choice Countable Pack constr
+R10912:10915 mathcomp.algebra.finalg FinRing fin_ syndef
+R10917:10922 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R10917:10922 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R10908:10909 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 10937:10943 FinRing.ComRing finType
+R10949:10959 mathcomp.ssreflect.fintype Finite Pack constr
+R10965:10968 mathcomp.algebra.finalg FinRing fin_ syndef
+R10970:10975 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R10970:10975 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R10961:10962 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 10990:10997 FinRing.ComRing zmodType
+R11003:11020 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R11025:11030 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11022:11023 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 11044:11054 FinRing.ComRing finZmodType
+R11060:11071 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R11076:11081 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11073:11074 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 11095:11102 FinRing.ComRing ringType
+R11108:11122 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R11127:11132 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11124:11125 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 11146:11156 FinRing.ComRing finRingType
+R11162:11170 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R11175:11180 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11172:11173 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 11194:11204 FinRing.ComRing comRingType
+R11210:11227 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R11232:11237 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11229:11230 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+def 11251:11262 FinRing.ComRing join_finType
+R11268:11278 mathcomp.ssreflect.fintype Finite Pack constr
+R11293:11296 mathcomp.algebra.finalg FinRing fin_ syndef
+R11298:11303 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11298:11303 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11280:11290 mathcomp.algebra.finalg FinRing.ComRing comRingType def
+def 11318:11333 FinRing.ComRing join_finZmodType
+R11339:11350 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R11364:11369 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11352:11362 mathcomp.algebra.finalg FinRing.ComRing comRingType def
+def 11383:11398 FinRing.ComRing join_finRingType
+R11404:11412 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R11426:11431 mathcomp.algebra.finalg FinRing.ComRing xclass syndef
+R11414:11424 mathcomp.algebra.finalg FinRing.ComRing comRingType def
+def 11446:11461 FinRing.ComRing baseFinGroupType
+R11466:11475 mathcomp.algebra.finalg FinRing base_group syndef
+R11477:11478 mathcomp.algebra.finalg <> FinRing.ComRing.ClassDef.cT var
+R11480:11487 mathcomp.algebra.finalg FinRing.ComRing zmodType def
+R11489:11495 mathcomp.algebra.finalg FinRing.ComRing finType def
+def 11509:11520 FinRing.ComRing finGroupType
+R11525:11533 mathcomp.algebra.finalg FinRing fin_group syndef
+R11535:11550 mathcomp.algebra.finalg FinRing.ComRing baseFinGroupType def
+R11552:11559 mathcomp.algebra.finalg FinRing.ComRing zmodType def
+def 11573:11593 FinRing.ComRing join_baseFinGroupType
+R11598:11607 mathcomp.algebra.finalg FinRing base_group syndef
+R11609:11619 mathcomp.algebra.finalg FinRing.ComRing comRingType def
+R11621:11628 mathcomp.algebra.finalg FinRing.ComRing zmodType def
+R11630:11636 mathcomp.algebra.finalg FinRing.ComRing finType def
+def 11650:11666 FinRing.ComRing join_finGroupType
+R11671:11679 mathcomp.algebra.finalg FinRing fin_group syndef
+R11681:11701 mathcomp.algebra.finalg FinRing.ComRing join_baseFinGroupType def
+R11703:11710 mathcomp.algebra.finalg FinRing.ComRing zmodType def
+R11718:11725 mathcomp.algebra.finalg FinRing.ComRing.ClassDef <> sec
+mod 11736:11742 <> FinRing.ComRing.Exports
+R11745:11795 mathcomp.algebra.finalg FinRing.ComRing base proj
+R11798:11840 mathcomp.algebra.finalg FinRing.ComRing base2 def
+R11843:11876 mathcomp.algebra.finalg FinRing.ComRing sort proj
+R11912:11951 mathcomp.algebra.finalg FinRing.ComRing eqType def
+R11972:12013 mathcomp.algebra.finalg FinRing.ComRing choiceType def
+R12038:12081 mathcomp.algebra.finalg FinRing.ComRing countType def
+R12105:12143 mathcomp.algebra.finalg FinRing.ComRing finType def
+R12165:12211 mathcomp.algebra.finalg FinRing.ComRing zmodType def
+R12234:12277 mathcomp.algebra.finalg FinRing.ComRing finZmodType def
+R12303:12346 mathcomp.algebra.finalg FinRing.ComRing ringType def
+R12369:12409 mathcomp.algebra.finalg FinRing.ComRing finRingType def
+R12435:12484 mathcomp.algebra.finalg FinRing.ComRing comRingType def
+syndef 12599:12612 FinRing.ComRing.Exports finComRingType
+R12617:12636 mathcomp.algebra.finalg FinRing.ComRing type rec
+R12682:12688 mathcomp.algebra.finalg FinRing do_pack syndef
+R12690:12693 mathcomp.algebra.finalg FinRing.ComRing pack def
+not 12648:12648 FinRing.ComRing.Exports ::form_scope:'['_'finComRingType'_'of'_x_']'
+R12910:12913 mathcomp.algebra.finalg FinRing.ComRing type rec
+R12919:12936 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R12938:12938 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R12937:12937 mathcomp.algebra.finalg <> T var
+R12970:12973 mathcomp.algebra.finalg FinRing.ComRing type rec
+R12979:12996 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R12998:12998 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R12997:12997 mathcomp.algebra.finalg <> T var
+R13033:13036 mathcomp.algebra.finalg FinRing.ComRing type rec
+R13042:13062 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R13064:13064 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R13063:13063 mathcomp.algebra.finalg <> T var
+R13071:13077 mathcomp.algebra.finalg FinRing.ComRing.Exports <> mod
+R13085:13091 mathcomp.algebra.finalg FinRing.ComRing <> mod
+mod 13126:13133 <> FinRing.UnitRing
+sec 13145:13152 FinRing.UnitRing ClassDef
+constr 13179:13183 FinRing.UnitRing Class
+rec 13163:13170 FinRing.UnitRing class_of
+proj 13187:13190 FinRing.UnitRing base
+proj 13221:13225 FinRing.UnitRing mixin
+R13194:13216 mathcomp.algebra.ssralg GRing.UnitRing class_of rec
+R13218:13218 mathcomp.algebra.finalg <> R var
+R13229:13236 mathcomp.algebra.finalg FinRing mixin_of syndef
+R13238:13238 mathcomp.algebra.finalg <> R var
+R13240:13243 mathcomp.algebra.finalg <> base meth
+def 13259:13263 FinRing.UnitRing base2
+R13272:13279 mathcomp.algebra.finalg FinRing.UnitRing class_of rec
+R13281:13281 mathcomp.algebra.finalg <> R var
+R13287:13296 mathcomp.algebra.finalg FinRing.Ring Class constr
+R13299:13303 mathcomp.algebra.finalg FinRing.UnitRing mixin proj
+R13305:13305 mathcomp.algebra.finalg <> c var
+R13315:13366 mathcomp.algebra.finalg FinRing.UnitRing base proj
+R13375:13417 mathcomp.algebra.finalg FinRing.UnitRing base2 def
+constr 13439:13442 FinRing.UnitRing Pack
+rec 13431:13434 FinRing.UnitRing type
+proj 13445:13448 FinRing.UnitRing sort
+R13455:13462 mathcomp.algebra.finalg FinRing.UnitRing class_of rec
+R13464:13467 mathcomp.algebra.finalg <> sort meth
+R13477:13510 mathcomp.algebra.finalg FinRing.UnitRing sort proj
+def 13524:13527 FinRing.UnitRing pack
+R13532:13539 mathcomp.algebra.finalg FinRing gen_pack def
+R13552:13571 mathcomp.algebra.ssralg GRing.UnitRing class def
+R13546:13550 mathcomp.algebra.finalg FinRing.UnitRing Class constr
+R13541:13544 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+var 13583:13584 FinRing.UnitRing.ClassDef cT
+R13588:13591 mathcomp.algebra.finalg FinRing.UnitRing type rec
+def 13605:13609 FinRing.UnitRing class
+R13638:13639 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+R13648:13655 mathcomp.algebra.finalg FinRing.UnitRing class_of rec
+R13657:13659 mathcomp.algebra.finalg <> cT' var
+R13619:13622 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+var 13671:13672 FinRing.UnitRing.ClassDef xT
+R13694:13695 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+R13682:13685 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+syndef 13712:13717 FinRing.UnitRing xclass
+R13728:13730 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R13731:13738 mathcomp.algebra.finalg FinRing.UnitRing class_of rec
+R13740:13741 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.xT var
+R13723:13727 mathcomp.algebra.finalg FinRing.UnitRing class def
+def 13757:13762 FinRing.UnitRing eqType
+R13768:13780 mathcomp.ssreflect.eqtype Equality Pack constr
+R13785:13790 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13782:13783 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 13804:13813 FinRing.UnitRing choiceType
+R13819:13829 mathcomp.ssreflect.choice Choice Pack constr
+R13834:13839 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13831:13832 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 13853:13861 FinRing.UnitRing countType
+R13867:13880 mathcomp.ssreflect.choice Countable Pack constr
+R13886:13889 mathcomp.algebra.finalg FinRing fin_ syndef
+R13891:13896 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13891:13896 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13882:13883 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 13911:13917 FinRing.UnitRing finType
+R13923:13933 mathcomp.ssreflect.fintype Finite Pack constr
+R13939:13942 mathcomp.algebra.finalg FinRing fin_ syndef
+R13944:13949 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13944:13949 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13935:13936 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 13964:13971 FinRing.UnitRing zmodType
+R13977:13994 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R13999:14004 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R13996:13997 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 14018:14028 FinRing.UnitRing finZmodType
+R14034:14045 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R14050:14055 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14047:14048 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 14069:14076 FinRing.UnitRing ringType
+R14082:14096 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R14101:14106 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14098:14099 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 14120:14130 FinRing.UnitRing finRingType
+R14136:14144 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R14149:14154 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14146:14147 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 14168:14179 FinRing.UnitRing unitRingType
+R14185:14203 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R14208:14213 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14205:14206 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+def 14228:14239 FinRing.UnitRing join_finType
+R14245:14255 mathcomp.ssreflect.fintype Finite Pack constr
+R14271:14274 mathcomp.algebra.finalg FinRing fin_ syndef
+R14276:14281 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14276:14281 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14257:14268 mathcomp.algebra.finalg FinRing.UnitRing unitRingType def
+def 14296:14311 FinRing.UnitRing join_finZmodType
+R14317:14328 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R14343:14348 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14330:14341 mathcomp.algebra.finalg FinRing.UnitRing unitRingType def
+def 14362:14377 FinRing.UnitRing join_finRingType
+R14383:14391 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R14406:14411 mathcomp.algebra.finalg FinRing.UnitRing xclass syndef
+R14393:14404 mathcomp.algebra.finalg FinRing.UnitRing unitRingType def
+def 14426:14441 FinRing.UnitRing baseFinGroupType
+R14446:14455 mathcomp.algebra.finalg FinRing base_group syndef
+R14457:14458 mathcomp.algebra.finalg <> FinRing.UnitRing.ClassDef.cT var
+R14460:14467 mathcomp.algebra.finalg FinRing.UnitRing zmodType def
+R14469:14475 mathcomp.algebra.finalg FinRing.UnitRing finType def
+def 14489:14500 FinRing.UnitRing finGroupType
+R14505:14513 mathcomp.algebra.finalg FinRing fin_group syndef
+R14515:14530 mathcomp.algebra.finalg FinRing.UnitRing baseFinGroupType def
+R14532:14539 mathcomp.algebra.finalg FinRing.UnitRing zmodType def
+def 14553:14573 FinRing.UnitRing join_baseFinGroupType
+R14578:14587 mathcomp.algebra.finalg FinRing base_group syndef
+R14589:14600 mathcomp.algebra.finalg FinRing.UnitRing unitRingType def
+R14602:14609 mathcomp.algebra.finalg FinRing.UnitRing zmodType def
+R14611:14617 mathcomp.algebra.finalg FinRing.UnitRing finType def
+def 14631:14647 FinRing.UnitRing join_finGroupType
+R14652:14660 mathcomp.algebra.finalg FinRing fin_group syndef
+R14662:14682 mathcomp.algebra.finalg FinRing.UnitRing join_baseFinGroupType def
+R14684:14691 mathcomp.algebra.finalg FinRing.UnitRing zmodType def
+R14699:14706 mathcomp.algebra.finalg FinRing.UnitRing.ClassDef <> sec
+mod 14717:14723 <> FinRing.UnitRing.Exports
+R14726:14777 mathcomp.algebra.finalg FinRing.UnitRing base proj
+R14780:14822 mathcomp.algebra.finalg FinRing.UnitRing base2 def
+R14825:14858 mathcomp.algebra.finalg FinRing.UnitRing sort proj
+R14894:14933 mathcomp.algebra.finalg FinRing.UnitRing eqType def
+R14954:14995 mathcomp.algebra.finalg FinRing.UnitRing choiceType def
+R15020:15063 mathcomp.algebra.finalg FinRing.UnitRing countType def
+R15087:15125 mathcomp.algebra.finalg FinRing.UnitRing finType def
+R15147:15193 mathcomp.algebra.finalg FinRing.UnitRing zmodType def
+R15216:15259 mathcomp.algebra.finalg FinRing.UnitRing finZmodType def
+R15285:15328 mathcomp.algebra.finalg FinRing.UnitRing ringType def
+R15351:15391 mathcomp.algebra.finalg FinRing.UnitRing finRingType def
+R15417:15468 mathcomp.algebra.finalg FinRing.UnitRing unitRingType def
+syndef 15584:15598 FinRing.UnitRing.Exports finUnitRingType
+R15603:15623 mathcomp.algebra.finalg FinRing.UnitRing type rec
+R15670:15676 mathcomp.algebra.finalg FinRing do_pack syndef
+R15678:15681 mathcomp.algebra.finalg FinRing.UnitRing pack def
+not 15635:15635 FinRing.UnitRing.Exports ::form_scope:'['_'finUnitRingType'_'of'_x_']'
+R15899:15902 mathcomp.algebra.finalg FinRing.UnitRing type rec
+R15908:15925 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R15927:15927 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R15926:15926 mathcomp.algebra.finalg <> T var
+R15959:15962 mathcomp.algebra.finalg FinRing.UnitRing type rec
+R15968:15985 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R15987:15987 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R15986:15986 mathcomp.algebra.finalg <> T var
+R16023:16026 mathcomp.algebra.finalg FinRing.UnitRing type rec
+R16032:16053 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R16055:16055 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R16054:16054 mathcomp.algebra.finalg <> T var
+R16062:16068 mathcomp.algebra.finalg FinRing.UnitRing.Exports <> mod
+R16076:16083 mathcomp.algebra.finalg FinRing.UnitRing <> mod
+sec 16120:16129 FinRing UnitsGroup
+var 16142:16142 FinRing.UnitsGroup R
+R16146:16160 mathcomp.algebra.finalg FinRing finUnitRingType syndef
+ind 16174:16180 FinRing unit_of
+constr 16201:16204 FinRing Unit
+R16189:16193 Coq.ssr.ssreflect <> phant variant
+R16195:16195 mathcomp.algebra.finalg <> FinRing.UnitsGroup.R var
+R16211:16211 mathcomp.algebra.finalg <> FinRing.UnitsGroup.R var
+R16218:16224 Coq.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R16217:16217 mathcomp.algebra.finalg <> x var
+R16225:16234 mathcomp.algebra.ssralg GRing unit def
+R16235:16235 mathcomp.algebra.finalg <> unit_of ind
+R16235:16235 mathcomp.algebra.finalg <> phR var
+var 16279:16281 FinRing.UnitsGroup phR
+R16286:16290 Coq.ssr.ssreflect <> Phant constr
+R16292:16292 mathcomp.algebra.finalg <> FinRing.UnitsGroup.R var
+syndef 16310:16311 FinRing uT
+R16317:16323 mathcomp.algebra.finalg FinRing unit_of ind
+R16325:16327 mathcomp.algebra.finalg <> FinRing.UnitsGroup.phR var
+R16352:16353 mathcomp.algebra.finalg FinRing uT syndef
+def 16367:16370 FinRing uval
+R16394:16394 mathcomp.algebra.finalg <> u var
+R16382:16385 mathcomp.algebra.finalg FinRing Unit constr
+R16429:16441 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'subType'_'for'_x_']' not
+R16446:16446 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'subType'_'for'_x_']' not
+R16442:16445 mathcomp.algebra.finalg FinRing uval def
+def 16460:16471 FinRing unit_eqMixin
+R16488:16499 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'eqMixin'_'of'_x_'by'_'<:'_']' not
+R16502:16508 mathcomp.ssreflect.eqtype <> ::form_scope:'['_'eqMixin'_'of'_x_'by'_'<:'_']' not
+R16500:16501 mathcomp.algebra.finalg FinRing uT syndef
+R16548:16553 mathcomp.ssreflect.eqtype Equality.Exports EqType syndef
+R16555:16556 mathcomp.algebra.finalg FinRing uT syndef
+R16558:16569 mathcomp.algebra.finalg FinRing unit_eqMixin def
+def 16583:16598 FinRing unit_choiceMixin
+R16603:16618 mathcomp.ssreflect.choice <> ::form_scope:'['_'choiceMixin'_'of'_x_'by'_'<:'_']' not
+R16621:16627 mathcomp.ssreflect.choice <> ::form_scope:'['_'choiceMixin'_'of'_x_'by'_'<:'_']' not
+R16619:16620 mathcomp.algebra.finalg FinRing uT syndef
+R16671:16680 mathcomp.ssreflect.choice Choice.Exports ChoiceType syndef
+R16682:16683 mathcomp.algebra.finalg FinRing uT syndef
+R16685:16700 mathcomp.algebra.finalg FinRing unit_choiceMixin def
+def 16714:16728 FinRing unit_countMixin
+R16733:16747 mathcomp.ssreflect.choice <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']' not
+R16750:16756 mathcomp.ssreflect.choice <> ::form_scope:'['_'countMixin'_'of'_x_'by'_'<:'_']' not
+R16748:16749 mathcomp.algebra.finalg FinRing uT syndef
+R16799:16807 mathcomp.ssreflect.choice Countable.Exports CountType syndef
+R16809:16810 mathcomp.algebra.finalg FinRing uT syndef
+R16812:16826 mathcomp.algebra.finalg FinRing unit_countMixin def
+R16872:16888 mathcomp.ssreflect.choice <> ::form_scope:'['_'subCountType'_'of'_x_']' not
+R16891:16891 mathcomp.ssreflect.choice <> ::form_scope:'['_'subCountType'_'of'_x_']' not
+R16889:16890 mathcomp.algebra.finalg FinRing uT syndef
+def 16905:16917 FinRing unit_finMixin
+R16922:16934 mathcomp.ssreflect.fintype <> ::form_scope:'['_'finMixin'_'of'_x_'by'_'<:'_']' not
+R16937:16943 mathcomp.ssreflect.fintype <> ::form_scope:'['_'finMixin'_'of'_x_'by'_'<:'_']' not
+R16935:16936 mathcomp.algebra.finalg FinRing uT syndef
+R16984:16990 mathcomp.ssreflect.fintype Finite.Exports FinType syndef
+R16992:16993 mathcomp.algebra.finalg FinRing uT syndef
+R16995:17007 mathcomp.algebra.finalg FinRing unit_finMixin def
+R17051:17065 mathcomp.ssreflect.fintype <> ::form_scope:'['_'subFinType'_'of'_x_']' not
+R17068:17068 mathcomp.ssreflect.fintype <> ::form_scope:'['_'subFinType'_'of'_x_']' not
+R17066:17067 mathcomp.algebra.finalg FinRing uT syndef
+def 17083:17087 FinRing unit1
+R17092:17095 mathcomp.algebra.finalg FinRing Unit constr
+R17103:17114 mathcomp.algebra.ssralg GRing unitr1 thm
+R17097:17099 mathcomp.algebra.finalg <> FinRing.UnitsGroup.phR var
+prf 17126:17139 FinRing unit_inv_proof
+R17155:17161 Coq.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R17145:17145 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R17151:17154 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R17146:17148 mathcomp.ssreflect.eqtype <> val proj
+R17150:17150 mathcomp.algebra.finalg <> u var
+R17162:17171 mathcomp.algebra.ssralg GRing unit def
+R17192:17203 mathcomp.algebra.ssralg GRing unitrV thm
+R17207:17210 mathcomp.ssreflect.eqtype <> valP thm
+R17192:17203 mathcomp.algebra.ssralg GRing unitrV thm
+R17192:17203 mathcomp.algebra.ssralg GRing unitrV thm
+R17207:17210 mathcomp.ssreflect.eqtype <> valP thm
+R17207:17210 mathcomp.ssreflect.eqtype <> valP thm
+R17207:17210 mathcomp.ssreflect.eqtype <> valP thm
+def 17232:17239 FinRing unit_inv
+R17246:17249 mathcomp.algebra.finalg FinRing Unit constr
+R17256:17269 mathcomp.algebra.finalg FinRing unit_inv_proof thm
+R17271:17271 mathcomp.algebra.finalg <> u var
+R17251:17253 mathcomp.algebra.finalg <> FinRing.UnitsGroup.phR var
+prf 17281:17294 FinRing unit_mul_proof
+R17315:17321 Coq.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R17307:17309 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17302:17304 mathcomp.ssreflect.eqtype <> val proj
+R17306:17306 mathcomp.algebra.finalg <> u var
+R17310:17312 mathcomp.ssreflect.eqtype <> val proj
+R17314:17314 mathcomp.algebra.finalg <> v var
+R17322:17331 mathcomp.algebra.ssralg GRing unit def
+R17353:17365 mathcomp.algebra.ssralg GRing unitrMr thm
+R17370:17373 mathcomp.ssreflect.eqtype <> valP thm
+R17381:17384 mathcomp.ssreflect.eqtype <> valP thm
+R17353:17365 mathcomp.algebra.ssralg GRing unitrMr thm
+R17370:17373 mathcomp.ssreflect.eqtype <> valP thm
+R17353:17365 mathcomp.algebra.ssralg GRing unitrMr thm
+R17370:17373 mathcomp.ssreflect.eqtype <> valP thm
+R17381:17384 mathcomp.ssreflect.eqtype <> valP thm
+R17381:17384 mathcomp.ssreflect.eqtype <> valP thm
+R17381:17384 mathcomp.ssreflect.eqtype <> valP thm
+def 17406:17413 FinRing unit_mul
+R17422:17425 mathcomp.algebra.finalg FinRing Unit constr
+R17432:17445 mathcomp.algebra.finalg FinRing unit_mul_proof thm
+R17449:17449 mathcomp.algebra.finalg <> v var
+R17447:17447 mathcomp.algebra.finalg <> u var
+R17427:17429 mathcomp.algebra.finalg <> FinRing.UnitsGroup.phR var
+prf 17459:17468 FinRing unit_muluA
+R17472:17482 Coq.ssr.ssrfun <> associative def
+R17484:17491 mathcomp.algebra.finalg FinRing unit_mul def
+R17525:17531 mathcomp.ssreflect.eqtype <> val_inj thm
+R17541:17551 mathcomp.algebra.ssralg GRing mulrA thm
+R17525:17531 mathcomp.ssreflect.eqtype <> val_inj thm
+R17541:17551 mathcomp.algebra.ssralg GRing mulrA thm
+prf 17565:17574 FinRing unit_mul1u
+R17578:17584 Coq.ssr.ssrfun <> left_id def
+R17592:17599 mathcomp.algebra.finalg FinRing unit_mul def
+R17586:17590 mathcomp.algebra.finalg FinRing unit1 def
+R17629:17635 mathcomp.ssreflect.eqtype <> val_inj thm
+R17645:17655 mathcomp.algebra.ssralg GRing mul1r thm
+R17629:17635 mathcomp.ssreflect.eqtype <> val_inj thm
+R17645:17655 mathcomp.algebra.ssralg GRing mul1r thm
+prf 17669:17678 FinRing unit_mulVu
+R17682:17693 Coq.ssr.ssrfun <> left_inverse def
+R17710:17717 mathcomp.algebra.finalg FinRing unit_mul def
+R17701:17708 mathcomp.algebra.finalg FinRing unit_inv def
+R17695:17699 mathcomp.algebra.finalg FinRing unit1 def
+R17747:17753 mathcomp.ssreflect.eqtype <> val_inj thm
+R17763:17773 mathcomp.algebra.ssralg GRing mulVr thm
+R17776:17779 mathcomp.ssreflect.eqtype <> valP thm
+R17747:17753 mathcomp.ssreflect.eqtype <> val_inj thm
+R17776:17779 mathcomp.ssreflect.eqtype <> valP thm
+R17763:17773 mathcomp.algebra.ssralg GRing mulVr thm
+def 17802:17816 FinRing unit_GroupMixin
+R17821:17834 mathcomp.fingroup.fingroup FinGroup Mixin def
+R17858:17867 mathcomp.algebra.finalg FinRing unit_mulVu thm
+R17847:17856 mathcomp.algebra.finalg FinRing unit_mul1u thm
+R17836:17845 mathcomp.algebra.finalg FinRing unit_muluA thm
+R17919:17934 mathcomp.fingroup.fingroup FinGroup.Exports BaseFinGroupType syndef
+R17936:17937 mathcomp.algebra.finalg FinRing uT syndef
+R17939:17953 mathcomp.algebra.finalg FinRing unit_GroupMixin def
+R17999:18010 mathcomp.fingroup.fingroup FinGroup.Exports FinGroupType syndef
+R18012:18021 mathcomp.algebra.finalg FinRing unit_mulVu thm
+prf 18031:18039 FinRing val_unit1
+R18057:18059 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18043:18045 mathcomp.ssreflect.eqtype <> val proj
+R18051:18053 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18054:18055 mathcomp.algebra.finalg FinRing uT syndef
+prf 18088:18096 FinRing val_unitM
+R18122:18124 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18104:18106 mathcomp.ssreflect.eqtype <> val proj
+R18114:18116 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18117:18118 mathcomp.algebra.finalg FinRing uT syndef
+R18110:18112 mathcomp.fingroup.fingroup <> ::group_scope:x_'*'_x not
+R18109:18109 mathcomp.algebra.finalg <> x var
+R18113:18113 mathcomp.algebra.finalg <> y var
+R18130:18132 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18125:18127 mathcomp.ssreflect.eqtype <> val proj
+R18129:18129 mathcomp.algebra.finalg <> x var
+R18133:18135 mathcomp.ssreflect.eqtype <> val proj
+R18137:18137 mathcomp.algebra.finalg <> y var
+prf 18165:18173 FinRing val_unitV
+R18196:18198 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18179:18181 mathcomp.ssreflect.eqtype <> val proj
+R18188:18190 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18191:18192 mathcomp.algebra.finalg FinRing uT syndef
+R18185:18187 mathcomp.fingroup.fingroup <> ::group_scope:x_'^-1' not
+R18184:18184 mathcomp.algebra.finalg <> x var
+R18199:18199 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R18205:18208 mathcomp.algebra.ssralg <> ::ring_scope:x_'^-1' not
+R18200:18202 mathcomp.ssreflect.eqtype <> val proj
+R18204:18204 mathcomp.algebra.finalg <> x var
+prf 18236:18244 FinRing val_unitX
+R18271:18273 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18252:18254 mathcomp.ssreflect.eqtype <> val proj
+R18263:18265 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18266:18267 mathcomp.algebra.finalg FinRing uT syndef
+R18258:18261 mathcomp.fingroup.fingroup <> ::group_scope:x_'^+'_x not
+R18257:18257 mathcomp.algebra.finalg <> x var
+R18262:18262 mathcomp.algebra.finalg <> n var
+R18279:18282 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18274:18276 mathcomp.ssreflect.eqtype <> val proj
+R18278:18278 mathcomp.algebra.finalg <> x var
+R18283:18283 mathcomp.algebra.finalg <> n var
+def 18347:18354 FinRing unit_act
+R18364:18366 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18363:18363 mathcomp.algebra.finalg <> x var
+R18367:18369 mathcomp.ssreflect.eqtype <> val proj
+R18371:18371 mathcomp.algebra.finalg <> u var
+prf 18380:18388 FinRing unit_actE
+R18408:18410 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18396:18403 mathcomp.algebra.finalg FinRing unit_act def
+R18407:18407 mathcomp.algebra.finalg <> u var
+R18405:18405 mathcomp.algebra.finalg <> x var
+R18412:18414 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18411:18411 mathcomp.algebra.finalg <> x var
+R18415:18417 mathcomp.ssreflect.eqtype <> val proj
+R18419:18419 mathcomp.algebra.finalg <> u var
+R18470:18480 mathcomp.fingroup.action <> TotalAction def
+R18526:18536 mathcomp.algebra.ssralg GRing mulrA thm
+R18497:18507 mathcomp.algebra.ssralg GRing mulr1 thm
+R18486:18493 mathcomp.algebra.finalg FinRing unit_act def
+prf 18552:18570 FinRing unit_is_groupAction
+R18575:18588 mathcomp.fingroup.action <> is_groupAction def
+R18604:18614 mathcomp.algebra.finalg FinRing unit_action canonstruc
+R18599:18602 mathcomp.ssreflect.finset <> setT syndef
+R18594:18597 mathcomp.ssreflect.finset <> setT syndef
+R18592:18592 mathcomp.algebra.finalg <> FinRing.UnitsGroup.R var
+R18647:18649 mathcomp.ssreflect.finset <> inE def
+R18658:18661 Coq.ssr.ssrbool <> andP thm
+R18647:18649 mathcomp.ssreflect.finset <> inE def
+R18647:18649 mathcomp.ssreflect.finset <> inE def
+R18658:18661 Coq.ssr.ssrbool <> andP thm
+R18682:18688 mathcomp.ssreflect.fintype <> subsetP thm
+R18705:18707 mathcomp.ssreflect.finset <> inE def
+R18682:18688 mathcomp.ssreflect.fintype <> subsetP thm
+R18705:18707 mathcomp.ssreflect.finset <> inE def
+R18705:18707 mathcomp.ssreflect.finset <> inE def
+R18719:18726 mathcomp.fingroup.morphism <> morphicP thm
+R18748:18755 mathcomp.fingroup.action <> actpermE thm
+R18765:18776 mathcomp.algebra.ssralg GRing mulrDl thm
+R18719:18726 mathcomp.fingroup.morphism <> morphicP thm
+R18748:18755 mathcomp.fingroup.action <> actpermE thm
+R18748:18755 mathcomp.fingroup.action <> actpermE thm
+R18748:18755 mathcomp.fingroup.action <> actpermE thm
+R18748:18755 mathcomp.fingroup.action <> actpermE thm
+R18748:18755 mathcomp.fingroup.action <> actpermE thm
+R18765:18776 mathcomp.algebra.ssralg GRing mulrDl thm
+R18765:18776 mathcomp.algebra.ssralg GRing mulrDl thm
+R18814:18824 mathcomp.fingroup.action <> GroupAction constr
+R18826:18844 mathcomp.algebra.finalg FinRing unit_is_groupAction thm
+R18852:18861 mathcomp.algebra.finalg FinRing.UnitsGroup <> sec
+mod 18879:18895 <> FinRing.UnitsGroupExports
+R19232:19248 mathcomp.algebra.finalg FinRing.UnitsGroupExports <> mod
+syndef 19261:19264 FinRing unit
+R19275:19278 mathcomp.algebra.finalg FinRing Unit constr
+R19281:19285 Coq.ssr.ssreflect <> Phant constr
+mod 19303:19313 <> FinRing.ComUnitRing
+sec 19325:19332 FinRing.ComUnitRing ClassDef
+constr 19359:19363 FinRing.ComUnitRing Class
+rec 19343:19350 FinRing.ComUnitRing class_of
+proj 19367:19370 FinRing.ComUnitRing base
+proj 19404:19408 FinRing.ComUnitRing mixin
+R19374:19399 mathcomp.algebra.ssralg GRing.ComUnitRing class_of rec
+R19401:19401 mathcomp.algebra.finalg <> R var
+R19412:19419 mathcomp.algebra.finalg FinRing mixin_of syndef
+R19421:19421 mathcomp.algebra.finalg <> R var
+R19423:19426 mathcomp.algebra.finalg <> base meth
+def 19442:19446 FinRing.ComUnitRing base2
+R19455:19462 mathcomp.algebra.finalg FinRing.ComUnitRing class_of rec
+R19464:19464 mathcomp.algebra.finalg <> R var
+R19470:19482 mathcomp.algebra.finalg FinRing.ComRing Class constr
+R19485:19489 mathcomp.algebra.finalg FinRing.ComUnitRing mixin proj
+R19491:19491 mathcomp.algebra.finalg <> c var
+def 19506:19510 FinRing.ComUnitRing base3
+R19519:19526 mathcomp.algebra.finalg FinRing.ComUnitRing class_of rec
+R19528:19528 mathcomp.algebra.finalg <> R var
+R19535:19548 mathcomp.algebra.finalg FinRing.UnitRing Class constr
+R19562:19566 mathcomp.algebra.finalg FinRing.ComUnitRing mixin proj
+R19568:19568 mathcomp.algebra.finalg <> c var
+R19553:19556 mathcomp.algebra.finalg FinRing.ComUnitRing base proj
+R19558:19558 mathcomp.algebra.finalg <> c var
+R19550:19550 mathcomp.algebra.finalg <> R var
+R19578:19632 mathcomp.algebra.finalg FinRing.ComUnitRing base proj
+R19641:19686 mathcomp.algebra.finalg FinRing.ComUnitRing base2 def
+R19695:19741 mathcomp.algebra.finalg FinRing.ComUnitRing base3 def
+constr 19763:19766 FinRing.ComUnitRing Pack
+rec 19755:19758 FinRing.ComUnitRing type
+proj 19769:19772 FinRing.ComUnitRing sort
+R19779:19786 mathcomp.algebra.finalg FinRing.ComUnitRing class_of rec
+R19788:19791 mathcomp.algebra.finalg <> sort meth
+R19801:19834 mathcomp.algebra.finalg FinRing.ComUnitRing sort proj
+def 19848:19851 FinRing.ComUnitRing pack
+R19856:19863 mathcomp.algebra.finalg FinRing gen_pack def
+R19876:19898 mathcomp.algebra.ssralg GRing.ComUnitRing class def
+R19870:19874 mathcomp.algebra.finalg FinRing.ComUnitRing Class constr
+R19865:19868 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+var 19910:19911 FinRing.ComUnitRing.ClassDef cT
+R19915:19918 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+def 19932:19936 FinRing.ComUnitRing class
+R19965:19966 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+R19975:19982 mathcomp.algebra.finalg FinRing.ComUnitRing class_of rec
+R19984:19986 mathcomp.algebra.finalg <> cT' var
+R19946:19949 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+var 19998:19999 FinRing.ComUnitRing.ClassDef xT
+R20021:20022 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+R20009:20012 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+syndef 20039:20044 FinRing.ComUnitRing xclass
+R20055:20057 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R20058:20065 mathcomp.algebra.finalg FinRing.ComUnitRing class_of rec
+R20067:20068 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.xT var
+R20050:20054 mathcomp.algebra.finalg FinRing.ComUnitRing class def
+def 20084:20089 FinRing.ComUnitRing eqType
+R20095:20107 mathcomp.ssreflect.eqtype Equality Pack constr
+R20112:20117 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20109:20110 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20131:20140 FinRing.ComUnitRing choiceType
+R20146:20156 mathcomp.ssreflect.choice Choice Pack constr
+R20161:20166 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20158:20159 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20180:20188 FinRing.ComUnitRing countType
+R20194:20207 mathcomp.ssreflect.choice Countable Pack constr
+R20213:20216 mathcomp.algebra.finalg FinRing fin_ syndef
+R20218:20223 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20218:20223 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20209:20210 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20238:20244 FinRing.ComUnitRing finType
+R20250:20260 mathcomp.ssreflect.fintype Finite Pack constr
+R20266:20269 mathcomp.algebra.finalg FinRing fin_ syndef
+R20271:20276 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20271:20276 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20262:20263 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20291:20298 FinRing.ComUnitRing zmodType
+R20304:20321 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R20326:20331 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20323:20324 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20345:20355 FinRing.ComUnitRing finZmodType
+R20361:20372 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R20377:20382 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20374:20375 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20396:20403 FinRing.ComUnitRing ringType
+R20409:20423 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R20428:20433 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20425:20426 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20447:20457 FinRing.ComUnitRing finRingType
+R20463:20471 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R20476:20481 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20473:20474 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20495:20505 FinRing.ComUnitRing comRingType
+R20511:20528 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R20533:20538 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20530:20531 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20552:20565 FinRing.ComUnitRing finComRingType
+R20571:20582 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R20587:20592 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20584:20585 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20606:20617 FinRing.ComUnitRing unitRingType
+R20623:20641 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R20646:20651 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20643:20644 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20665:20679 FinRing.ComUnitRing finUnitRingType
+R20685:20697 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R20702:20707 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20699:20700 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20721:20735 FinRing.ComUnitRing comUnitRingType
+R20741:20762 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R20767:20772 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20764:20765 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+def 20787:20798 FinRing.ComUnitRing join_finType
+R20804:20814 mathcomp.ssreflect.fintype Finite Pack constr
+R20833:20836 mathcomp.algebra.finalg FinRing fin_ syndef
+R20838:20843 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20838:20843 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20816:20830 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+def 20858:20873 FinRing.ComUnitRing join_finZmodType
+R20879:20890 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R20908:20913 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20892:20906 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+def 20927:20942 FinRing.ComUnitRing join_finRingType
+R20948:20956 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R20974:20979 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R20958:20972 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+def 20993:21011 FinRing.ComUnitRing join_finComRingType
+R21017:21028 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R21046:21051 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R21030:21044 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+def 21065:21084 FinRing.ComUnitRing join_finUnitRingType
+R21090:21102 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R21120:21125 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R21104:21118 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+def 21139:21158 FinRing.ComUnitRing ujoin_finComRingType
+R21164:21175 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R21190:21195 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R21177:21188 mathcomp.algebra.finalg FinRing.ComUnitRing unitRingType def
+def 21209:21229 FinRing.ComUnitRing cjoin_finUnitRingType
+R21235:21247 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R21261:21266 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R21249:21259 mathcomp.algebra.finalg FinRing.ComUnitRing comRingType def
+def 21280:21301 FinRing.ComUnitRing fcjoin_finUnitRingType
+R21307:21319 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R21336:21341 mathcomp.algebra.finalg FinRing.ComUnitRing xclass syndef
+R21321:21334 mathcomp.algebra.finalg FinRing.ComUnitRing finComRingType def
+def 21356:21371 FinRing.ComUnitRing baseFinGroupType
+R21376:21385 mathcomp.algebra.finalg FinRing base_group syndef
+R21387:21388 mathcomp.algebra.finalg <> FinRing.ComUnitRing.ClassDef.cT var
+R21390:21397 mathcomp.algebra.finalg FinRing.ComUnitRing zmodType def
+R21399:21405 mathcomp.algebra.finalg FinRing.ComUnitRing finType def
+def 21419:21430 FinRing.ComUnitRing finGroupType
+R21435:21443 mathcomp.algebra.finalg FinRing fin_group syndef
+R21445:21460 mathcomp.algebra.finalg FinRing.ComUnitRing baseFinGroupType def
+R21462:21469 mathcomp.algebra.finalg FinRing.ComUnitRing zmodType def
+def 21483:21503 FinRing.ComUnitRing join_baseFinGroupType
+R21508:21517 mathcomp.algebra.finalg FinRing base_group syndef
+R21519:21533 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+R21535:21542 mathcomp.algebra.finalg FinRing.ComUnitRing zmodType def
+R21544:21550 mathcomp.algebra.finalg FinRing.ComUnitRing finType def
+def 21564:21580 FinRing.ComUnitRing join_finGroupType
+R21585:21593 mathcomp.algebra.finalg FinRing fin_group syndef
+R21595:21615 mathcomp.algebra.finalg FinRing.ComUnitRing join_baseFinGroupType def
+R21617:21624 mathcomp.algebra.finalg FinRing.ComUnitRing zmodType def
+R21632:21639 mathcomp.algebra.finalg FinRing.ComUnitRing.ClassDef <> sec
+mod 21650:21656 <> FinRing.ComUnitRing.Exports
+R21659:21713 mathcomp.algebra.finalg FinRing.ComUnitRing base proj
+R21716:21761 mathcomp.algebra.finalg FinRing.ComUnitRing base2 def
+R21764:21810 mathcomp.algebra.finalg FinRing.ComUnitRing base3 def
+R21813:21846 mathcomp.algebra.finalg FinRing.ComUnitRing sort proj
+R21882:21921 mathcomp.algebra.finalg FinRing.ComUnitRing eqType def
+R21942:21983 mathcomp.algebra.finalg FinRing.ComUnitRing choiceType def
+R22008:22051 mathcomp.algebra.finalg FinRing.ComUnitRing countType def
+R22075:22113 mathcomp.algebra.finalg FinRing.ComUnitRing finType def
+R22135:22181 mathcomp.algebra.finalg FinRing.ComUnitRing zmodType def
+R22204:22247 mathcomp.algebra.finalg FinRing.ComUnitRing finZmodType def
+R22273:22316 mathcomp.algebra.finalg FinRing.ComUnitRing ringType def
+R22339:22379 mathcomp.algebra.finalg FinRing.ComUnitRing finRingType def
+R22405:22454 mathcomp.algebra.finalg FinRing.ComUnitRing comRingType def
+R22480:22526 mathcomp.algebra.finalg FinRing.ComUnitRing finComRingType def
+R22555:22606 mathcomp.algebra.finalg FinRing.ComUnitRing unitRingType def
+R22633:22681 mathcomp.algebra.finalg FinRing.ComUnitRing finUnitRingType def
+R22711:22768 mathcomp.algebra.finalg FinRing.ComUnitRing comUnitRingType def
+syndef 23049:23066 FinRing.ComUnitRing.Exports finComUnitRingType
+R23071:23094 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+R23144:23150 mathcomp.algebra.finalg FinRing do_pack syndef
+R23152:23155 mathcomp.algebra.finalg FinRing.ComUnitRing pack def
+not 23106:23106 FinRing.ComUnitRing.Exports ::form_scope:'['_'finComUnitRingType'_'of'_x_']'
+R23376:23379 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+R23385:23402 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R23404:23404 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R23403:23403 mathcomp.algebra.finalg <> T var
+R23436:23439 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+R23445:23462 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R23464:23464 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R23463:23463 mathcomp.algebra.finalg <> T var
+R23500:23503 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+R23509:23530 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R23532:23532 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R23531:23531 mathcomp.algebra.finalg <> T var
+R23567:23570 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+R23576:23596 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R23598:23598 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R23597:23597 mathcomp.algebra.finalg <> T var
+R23637:23640 mathcomp.algebra.finalg FinRing.ComUnitRing type rec
+R23646:23670 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']' not
+R23672:23672 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']' not
+R23671:23671 mathcomp.algebra.finalg <> T var
+R23679:23685 mathcomp.algebra.finalg FinRing.ComUnitRing.Exports <> mod
+R23693:23703 mathcomp.algebra.finalg FinRing.ComUnitRing <> mod
+mod 23742:23755 <> FinRing.IntegralDomain
+sec 23767:23774 FinRing.IntegralDomain ClassDef
+constr 23801:23805 FinRing.IntegralDomain Class
+rec 23785:23792 FinRing.IntegralDomain class_of
+proj 23809:23812 FinRing.IntegralDomain base
+proj 23849:23853 FinRing.IntegralDomain mixin
+R23816:23844 mathcomp.algebra.ssralg GRing.IntegralDomain class_of rec
+R23846:23846 mathcomp.algebra.finalg <> R var
+R23857:23864 mathcomp.algebra.finalg FinRing mixin_of syndef
+R23866:23866 mathcomp.algebra.finalg <> R var
+R23868:23871 mathcomp.algebra.finalg <> base meth
+def 23887:23891 FinRing.IntegralDomain base2
+R23900:23907 mathcomp.algebra.finalg FinRing.IntegralDomain class_of rec
+R23909:23909 mathcomp.algebra.finalg <> R var
+R23915:23931 mathcomp.algebra.finalg FinRing.ComUnitRing Class constr
+R23934:23938 mathcomp.algebra.finalg FinRing.IntegralDomain mixin proj
+R23940:23940 mathcomp.algebra.finalg <> c var
+R23950:24007 mathcomp.algebra.finalg FinRing.IntegralDomain base proj
+R24016:24065 mathcomp.algebra.finalg FinRing.IntegralDomain base2 def
+constr 24087:24090 FinRing.IntegralDomain Pack
+rec 24079:24082 FinRing.IntegralDomain type
+proj 24093:24096 FinRing.IntegralDomain sort
+R24103:24110 mathcomp.algebra.finalg FinRing.IntegralDomain class_of rec
+R24112:24115 mathcomp.algebra.finalg <> sort meth
+R24125:24158 mathcomp.algebra.finalg FinRing.IntegralDomain sort proj
+def 24172:24175 FinRing.IntegralDomain pack
+R24180:24187 mathcomp.algebra.finalg FinRing gen_pack def
+R24200:24225 mathcomp.algebra.ssralg GRing.IntegralDomain class def
+R24194:24198 mathcomp.algebra.finalg FinRing.IntegralDomain Class constr
+R24189:24192 mathcomp.algebra.finalg FinRing.IntegralDomain Pack constr
+var 24237:24238 FinRing.IntegralDomain.ClassDef cT
+R24242:24245 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+def 24259:24263 FinRing.IntegralDomain class
+R24292:24293 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+R24302:24309 mathcomp.algebra.finalg FinRing.IntegralDomain class_of rec
+R24311:24313 mathcomp.algebra.finalg <> cT' var
+R24273:24276 mathcomp.algebra.finalg FinRing.IntegralDomain Pack constr
+var 24325:24326 FinRing.IntegralDomain.ClassDef xT
+R24348:24349 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+R24336:24339 mathcomp.algebra.finalg FinRing.IntegralDomain Pack constr
+syndef 24366:24371 FinRing.IntegralDomain xclass
+R24382:24384 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R24385:24392 mathcomp.algebra.finalg FinRing.IntegralDomain class_of rec
+R24394:24395 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.xT var
+R24377:24381 mathcomp.algebra.finalg FinRing.IntegralDomain class def
+def 24411:24416 FinRing.IntegralDomain eqType
+R24422:24434 mathcomp.ssreflect.eqtype Equality Pack constr
+R24439:24444 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24436:24437 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24458:24467 FinRing.IntegralDomain choiceType
+R24473:24483 mathcomp.ssreflect.choice Choice Pack constr
+R24488:24493 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24485:24486 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24507:24515 FinRing.IntegralDomain countType
+R24521:24534 mathcomp.ssreflect.choice Countable Pack constr
+R24540:24543 mathcomp.algebra.finalg FinRing fin_ syndef
+R24545:24550 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24545:24550 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24536:24537 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24565:24571 FinRing.IntegralDomain finType
+R24577:24587 mathcomp.ssreflect.fintype Finite Pack constr
+R24593:24596 mathcomp.algebra.finalg FinRing fin_ syndef
+R24598:24603 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24598:24603 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24589:24590 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24618:24625 FinRing.IntegralDomain zmodType
+R24631:24648 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R24653:24658 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24650:24651 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24672:24682 FinRing.IntegralDomain finZmodType
+R24688:24699 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R24704:24709 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24701:24702 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24723:24730 FinRing.IntegralDomain ringType
+R24736:24750 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R24755:24760 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24752:24753 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24774:24784 FinRing.IntegralDomain finRingType
+R24790:24798 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R24803:24808 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24800:24801 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24822:24832 FinRing.IntegralDomain comRingType
+R24838:24855 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R24860:24865 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24857:24858 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24879:24892 FinRing.IntegralDomain finComRingType
+R24898:24909 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R24914:24919 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24911:24912 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24933:24944 FinRing.IntegralDomain unitRingType
+R24950:24968 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R24973:24978 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R24970:24971 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 24992:25006 FinRing.IntegralDomain finUnitRingType
+R25012:25024 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R25029:25034 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25026:25027 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 25048:25062 FinRing.IntegralDomain comUnitRingType
+R25068:25089 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R25094:25099 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25091:25092 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 25113:25130 FinRing.IntegralDomain finComUnitRingType
+R25136:25151 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+R25156:25161 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25153:25154 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 25175:25185 FinRing.IntegralDomain idomainType
+R25191:25215 mathcomp.algebra.ssralg GRing.IntegralDomain Pack constr
+R25220:25225 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25217:25218 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+def 25240:25251 FinRing.IntegralDomain join_finType
+R25257:25267 mathcomp.ssreflect.fintype Finite Pack constr
+R25282:25285 mathcomp.algebra.finalg FinRing fin_ syndef
+R25287:25292 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25287:25292 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25269:25279 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+def 25307:25322 FinRing.IntegralDomain join_finZmodType
+R25328:25339 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R25353:25358 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25341:25351 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+def 25372:25387 FinRing.IntegralDomain join_finRingType
+R25393:25401 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R25415:25420 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25403:25413 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+def 25434:25453 FinRing.IntegralDomain join_finUnitRingType
+R25459:25471 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R25485:25490 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25473:25483 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+def 25504:25522 FinRing.IntegralDomain join_finComRingType
+R25528:25539 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R25553:25558 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25541:25551 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+def 25572:25594 FinRing.IntegralDomain join_finComUnitRingType
+R25600:25615 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+R25629:25634 mathcomp.algebra.finalg FinRing.IntegralDomain xclass syndef
+R25617:25627 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+def 25649:25664 FinRing.IntegralDomain baseFinGroupType
+R25669:25678 mathcomp.algebra.finalg FinRing base_group syndef
+R25680:25681 mathcomp.algebra.finalg <> FinRing.IntegralDomain.ClassDef.cT var
+R25683:25690 mathcomp.algebra.finalg FinRing.IntegralDomain zmodType def
+R25692:25698 mathcomp.algebra.finalg FinRing.IntegralDomain finType def
+def 25712:25723 FinRing.IntegralDomain finGroupType
+R25728:25736 mathcomp.algebra.finalg FinRing fin_group syndef
+R25738:25753 mathcomp.algebra.finalg FinRing.IntegralDomain baseFinGroupType def
+R25755:25762 mathcomp.algebra.finalg FinRing.IntegralDomain zmodType def
+def 25776:25796 FinRing.IntegralDomain join_baseFinGroupType
+R25801:25810 mathcomp.algebra.finalg FinRing base_group syndef
+R25812:25822 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+R25824:25831 mathcomp.algebra.finalg FinRing.IntegralDomain zmodType def
+R25833:25839 mathcomp.algebra.finalg FinRing.IntegralDomain finType def
+def 25853:25869 FinRing.IntegralDomain join_finGroupType
+R25874:25882 mathcomp.algebra.finalg FinRing fin_group syndef
+R25884:25904 mathcomp.algebra.finalg FinRing.IntegralDomain join_baseFinGroupType def
+R25906:25913 mathcomp.algebra.finalg FinRing.IntegralDomain zmodType def
+R25921:25928 mathcomp.algebra.finalg FinRing.IntegralDomain.ClassDef <> sec
+mod 25939:25945 <> FinRing.IntegralDomain.Exports
+R25948:26005 mathcomp.algebra.finalg FinRing.IntegralDomain base proj
+R26008:26057 mathcomp.algebra.finalg FinRing.IntegralDomain base2 def
+R26060:26093 mathcomp.algebra.finalg FinRing.IntegralDomain sort proj
+R26129:26168 mathcomp.algebra.finalg FinRing.IntegralDomain eqType def
+R26189:26230 mathcomp.algebra.finalg FinRing.IntegralDomain choiceType def
+R26255:26298 mathcomp.algebra.finalg FinRing.IntegralDomain countType def
+R26322:26360 mathcomp.algebra.finalg FinRing.IntegralDomain finType def
+R26382:26428 mathcomp.algebra.finalg FinRing.IntegralDomain zmodType def
+R26451:26494 mathcomp.algebra.finalg FinRing.IntegralDomain finZmodType def
+R26520:26563 mathcomp.algebra.finalg FinRing.IntegralDomain ringType def
+R26586:26626 mathcomp.algebra.finalg FinRing.IntegralDomain finRingType def
+R26652:26701 mathcomp.algebra.finalg FinRing.IntegralDomain comRingType def
+R26727:26773 mathcomp.algebra.finalg FinRing.IntegralDomain finComRingType def
+R26802:26853 mathcomp.algebra.finalg FinRing.IntegralDomain unitRingType def
+R26880:26928 mathcomp.algebra.finalg FinRing.IntegralDomain finUnitRingType def
+R26958:27015 mathcomp.algebra.finalg FinRing.IntegralDomain comUnitRingType def
+R27045:27099 mathcomp.algebra.finalg FinRing.IntegralDomain finComUnitRingType def
+R27132:27188 mathcomp.algebra.finalg FinRing.IntegralDomain idomainType def
+syndef 27401:27414 FinRing.IntegralDomain.Exports finIdomainType
+R27419:27445 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R27491:27497 mathcomp.algebra.finalg FinRing do_pack syndef
+R27499:27502 mathcomp.algebra.finalg FinRing.IntegralDomain pack def
+not 27457:27457 FinRing.IntegralDomain.Exports ::form_scope:'['_'finIdomainType'_'of'_x_']'
+R27719:27722 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R27728:27745 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R27747:27747 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R27746:27746 mathcomp.algebra.finalg <> T var
+R27779:27782 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R27788:27805 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R27807:27807 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R27806:27806 mathcomp.algebra.finalg <> T var
+R27843:27846 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R27852:27873 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R27875:27875 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R27874:27874 mathcomp.algebra.finalg <> T var
+R27910:27913 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R27919:27939 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R27941:27941 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R27940:27940 mathcomp.algebra.finalg <> T var
+R27980:27983 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R27989:28013 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']' not
+R28015:28015 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']' not
+R28014:28014 mathcomp.algebra.finalg <> T var
+R28050:28053 mathcomp.algebra.finalg FinRing.IntegralDomain type rec
+R28059:28079 mathcomp.algebra.countalg CountRing.IntegralDomain.Exports ::form_scope:'['_'countIdomainType'_'of'_x_']' not
+R28081:28081 mathcomp.algebra.countalg CountRing.IntegralDomain.Exports ::form_scope:'['_'countIdomainType'_'of'_x_']' not
+R28080:28080 mathcomp.algebra.finalg <> T var
+R28088:28094 mathcomp.algebra.finalg FinRing.IntegralDomain.Exports <> mod
+R28102:28115 mathcomp.algebra.finalg FinRing.IntegralDomain <> mod
+mod 28157:28161 <> FinRing.Field
+sec 28173:28180 FinRing.Field ClassDef
+constr 28207:28211 FinRing.Field Class
+rec 28191:28198 FinRing.Field class_of
+proj 28215:28218 FinRing.Field base
+proj 28246:28250 FinRing.Field mixin
+R28222:28241 mathcomp.algebra.ssralg GRing.Field class_of rec
+R28243:28243 mathcomp.algebra.finalg <> R var
+R28254:28261 mathcomp.algebra.finalg FinRing mixin_of syndef
+R28263:28263 mathcomp.algebra.finalg <> R var
+R28265:28268 mathcomp.algebra.finalg <> base meth
+def 28284:28288 FinRing.Field base2
+R28297:28304 mathcomp.algebra.finalg FinRing.Field class_of rec
+R28306:28306 mathcomp.algebra.finalg <> R var
+R28312:28331 mathcomp.algebra.finalg FinRing.IntegralDomain Class constr
+R28334:28338 mathcomp.algebra.finalg FinRing.Field mixin proj
+R28340:28340 mathcomp.algebra.finalg <> c var
+R28350:28398 mathcomp.algebra.finalg FinRing.Field base proj
+R28407:28459 mathcomp.algebra.finalg FinRing.Field base2 def
+constr 28481:28484 FinRing.Field Pack
+rec 28473:28476 FinRing.Field type
+proj 28487:28490 FinRing.Field sort
+R28497:28504 mathcomp.algebra.finalg FinRing.Field class_of rec
+R28506:28509 mathcomp.algebra.finalg <> sort meth
+R28519:28552 mathcomp.algebra.finalg FinRing.Field sort proj
+def 28566:28569 FinRing.Field pack
+R28574:28581 mathcomp.algebra.finalg FinRing gen_pack def
+R28594:28610 mathcomp.algebra.ssralg GRing.Field class def
+R28588:28592 mathcomp.algebra.finalg FinRing.Field Class constr
+R28583:28586 mathcomp.algebra.finalg FinRing.Field Pack constr
+var 28622:28623 FinRing.Field.ClassDef cT
+R28627:28630 mathcomp.algebra.finalg FinRing.Field type rec
+def 28644:28648 FinRing.Field class
+R28677:28678 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+R28687:28694 mathcomp.algebra.finalg FinRing.Field class_of rec
+R28696:28698 mathcomp.algebra.finalg <> cT' var
+R28658:28661 mathcomp.algebra.finalg FinRing.Field Pack constr
+var 28710:28711 FinRing.Field.ClassDef xT
+R28733:28734 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+R28721:28724 mathcomp.algebra.finalg FinRing.Field Pack constr
+syndef 28751:28756 FinRing.Field xclass
+R28767:28769 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R28770:28777 mathcomp.algebra.finalg FinRing.Field class_of rec
+R28779:28780 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.xT var
+R28762:28766 mathcomp.algebra.finalg FinRing.Field class def
+def 28796:28801 FinRing.Field eqType
+R28807:28819 mathcomp.ssreflect.eqtype Equality Pack constr
+R28824:28829 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R28821:28822 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 28843:28852 FinRing.Field choiceType
+R28858:28868 mathcomp.ssreflect.choice Choice Pack constr
+R28873:28878 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R28870:28871 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 28892:28900 FinRing.Field countType
+R28906:28919 mathcomp.ssreflect.choice Countable Pack constr
+R28925:28928 mathcomp.algebra.finalg FinRing fin_ syndef
+R28930:28935 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R28930:28935 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R28921:28922 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 28950:28956 FinRing.Field finType
+R28962:28972 mathcomp.ssreflect.fintype Finite Pack constr
+R28978:28981 mathcomp.algebra.finalg FinRing fin_ syndef
+R28983:28988 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R28983:28988 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R28974:28975 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29003:29010 FinRing.Field zmodType
+R29016:29033 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R29038:29043 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29035:29036 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29057:29067 FinRing.Field finZmodType
+R29073:29084 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R29089:29094 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29086:29087 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29108:29115 FinRing.Field ringType
+R29121:29135 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R29140:29145 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29137:29138 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29159:29169 FinRing.Field finRingType
+R29175:29183 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R29188:29193 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29185:29186 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29207:29217 FinRing.Field comRingType
+R29223:29240 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R29245:29250 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29242:29243 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29264:29277 FinRing.Field finComRingType
+R29283:29294 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R29299:29304 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29296:29297 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29318:29329 FinRing.Field unitRingType
+R29335:29353 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R29358:29363 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29355:29356 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29377:29391 FinRing.Field finUnitRingType
+R29397:29409 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R29414:29419 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29411:29412 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29433:29447 FinRing.Field comUnitRingType
+R29453:29474 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R29479:29484 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29476:29477 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29498:29515 FinRing.Field finComUnitRingType
+R29521:29536 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+R29541:29546 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29538:29539 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29560:29570 FinRing.Field idomainType
+R29576:29600 mathcomp.algebra.ssralg GRing.IntegralDomain Pack constr
+R29605:29610 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29602:29603 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29624:29637 FinRing.Field finIdomainType
+R29643:29661 mathcomp.algebra.finalg FinRing.IntegralDomain Pack constr
+R29666:29671 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29663:29664 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29685:29693 FinRing.Field fieldType
+R29699:29714 mathcomp.algebra.ssralg GRing.Field Pack constr
+R29719:29724 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29716:29717 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+def 29739:29750 FinRing.Field join_finType
+R29756:29766 mathcomp.ssreflect.fintype Finite Pack constr
+R29779:29782 mathcomp.algebra.finalg FinRing fin_ syndef
+R29784:29789 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29784:29789 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29768:29776 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 29804:29819 FinRing.Field join_finZmodType
+R29825:29836 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R29848:29853 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29838:29846 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 29867:29882 FinRing.Field join_finRingType
+R29888:29896 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R29908:29913 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29898:29906 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 29927:29946 FinRing.Field join_finUnitRingType
+R29952:29964 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R29976:29981 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R29966:29974 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 29995:30013 FinRing.Field join_finComRingType
+R30019:30030 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R30042:30047 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R30032:30040 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 30061:30083 FinRing.Field join_finComUnitRingType
+R30089:30104 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+R30116:30121 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R30106:30114 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 30135:30153 FinRing.Field join_finIdomainType
+R30159:30177 mathcomp.algebra.finalg FinRing.IntegralDomain Pack constr
+R30189:30194 mathcomp.algebra.finalg FinRing.Field xclass syndef
+R30179:30187 mathcomp.algebra.finalg FinRing.Field fieldType def
+def 30209:30224 FinRing.Field baseFinGroupType
+R30229:30238 mathcomp.algebra.finalg FinRing base_group syndef
+R30240:30241 mathcomp.algebra.finalg <> FinRing.Field.ClassDef.cT var
+R30243:30250 mathcomp.algebra.finalg FinRing.Field zmodType def
+R30252:30258 mathcomp.algebra.finalg FinRing.Field finType def
+def 30272:30283 FinRing.Field finGroupType
+R30288:30296 mathcomp.algebra.finalg FinRing fin_group syndef
+R30298:30313 mathcomp.algebra.finalg FinRing.Field baseFinGroupType def
+R30315:30322 mathcomp.algebra.finalg FinRing.Field zmodType def
+def 30336:30356 FinRing.Field join_baseFinGroupType
+R30361:30370 mathcomp.algebra.finalg FinRing base_group syndef
+R30372:30380 mathcomp.algebra.finalg FinRing.Field fieldType def
+R30382:30389 mathcomp.algebra.finalg FinRing.Field zmodType def
+R30391:30397 mathcomp.algebra.finalg FinRing.Field finType def
+def 30411:30427 FinRing.Field join_finGroupType
+R30432:30440 mathcomp.algebra.finalg FinRing fin_group syndef
+R30442:30462 mathcomp.algebra.finalg FinRing.Field join_baseFinGroupType def
+R30464:30471 mathcomp.algebra.finalg FinRing.Field zmodType def
+R30479:30486 mathcomp.algebra.finalg FinRing.Field.ClassDef <> sec
+mod 30497:30503 <> FinRing.Field.Exports
+R30506:30554 mathcomp.algebra.finalg FinRing.Field base proj
+R30557:30609 mathcomp.algebra.finalg FinRing.Field base2 def
+R30612:30645 mathcomp.algebra.finalg FinRing.Field sort proj
+R30681:30720 mathcomp.algebra.finalg FinRing.Field eqType def
+R30741:30782 mathcomp.algebra.finalg FinRing.Field choiceType def
+R30807:30850 mathcomp.algebra.finalg FinRing.Field countType def
+R30874:30912 mathcomp.algebra.finalg FinRing.Field finType def
+R30934:30980 mathcomp.algebra.finalg FinRing.Field zmodType def
+R31003:31046 mathcomp.algebra.finalg FinRing.Field finZmodType def
+R31072:31115 mathcomp.algebra.finalg FinRing.Field ringType def
+R31138:31178 mathcomp.algebra.finalg FinRing.Field finRingType def
+R31204:31253 mathcomp.algebra.finalg FinRing.Field comRingType def
+R31279:31325 mathcomp.algebra.finalg FinRing.Field finComRingType def
+R31354:31405 mathcomp.algebra.finalg FinRing.Field unitRingType def
+R31432:31480 mathcomp.algebra.finalg FinRing.Field finUnitRingType def
+R31510:31567 mathcomp.algebra.finalg FinRing.Field comUnitRingType def
+R31597:31651 mathcomp.algebra.finalg FinRing.Field finComUnitRingType def
+R31684:31740 mathcomp.algebra.finalg FinRing.Field idomainType def
+R31766:31819 mathcomp.algebra.finalg FinRing.Field finIdomainType def
+R31848:31893 mathcomp.algebra.finalg FinRing.Field fieldType def
+syndef 32135:32146 FinRing.Field.Exports finFieldType
+R32151:32168 mathcomp.algebra.finalg FinRing.Field type rec
+R32212:32218 mathcomp.algebra.finalg FinRing do_pack syndef
+R32220:32223 mathcomp.algebra.finalg FinRing.Field pack def
+not 32180:32180 FinRing.Field.Exports ::form_scope:'['_'finFieldType'_'of'_x_']'
+R32438:32441 mathcomp.algebra.finalg FinRing.Field type rec
+R32447:32464 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R32466:32466 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R32465:32465 mathcomp.algebra.finalg <> T var
+R32498:32501 mathcomp.algebra.finalg FinRing.Field type rec
+R32507:32524 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R32526:32526 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R32525:32525 mathcomp.algebra.finalg <> T var
+R32562:32565 mathcomp.algebra.finalg FinRing.Field type rec
+R32571:32592 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R32594:32594 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R32593:32593 mathcomp.algebra.finalg <> T var
+R32629:32632 mathcomp.algebra.finalg FinRing.Field type rec
+R32638:32658 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R32660:32660 mathcomp.algebra.countalg CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']' not
+R32659:32659 mathcomp.algebra.finalg <> T var
+R32699:32702 mathcomp.algebra.finalg FinRing.Field type rec
+R32708:32732 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']' not
+R32734:32734 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']' not
+R32733:32733 mathcomp.algebra.finalg <> T var
+R32769:32772 mathcomp.algebra.finalg FinRing.Field type rec
+R32778:32798 mathcomp.algebra.countalg CountRing.IntegralDomain.Exports ::form_scope:'['_'countIdomainType'_'of'_x_']' not
+R32800:32800 mathcomp.algebra.countalg CountRing.IntegralDomain.Exports ::form_scope:'['_'countIdomainType'_'of'_x_']' not
+R32799:32799 mathcomp.algebra.finalg <> T var
+R32833:32836 mathcomp.algebra.finalg FinRing.Field type rec
+R32842:32860 mathcomp.algebra.countalg CountRing.Field.Exports ::form_scope:'['_'countFieldType'_'of'_x_']' not
+R32862:32862 mathcomp.algebra.countalg CountRing.Field.Exports ::form_scope:'['_'countFieldType'_'of'_x_']' not
+R32861:32861 mathcomp.algebra.finalg <> T var
+R32869:32875 mathcomp.algebra.finalg FinRing.Field.Exports <> mod
+R32883:32887 mathcomp.algebra.finalg FinRing.Field <> mod
+sec 32921:32931 FinRing DecideField
+var 32944:32944 FinRing.DecideField F
+R32948:32957 mathcomp.algebra.finalg FinRing type rec
+def 32970:32972 FinRing sat
+R32989:32989 mathcomp.algebra.finalg <> f var
+R33000:33009 mathcomp.algebra.ssralg GRing Bool constr
+R33024:33027 mathcomp.algebra.ssralg <> ::term_scope:x_'=='_x not
+R33050:33053 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'=='_x not
+R33035:33044 mathcomp.algebra.ssralg GRing eval def
+R33046:33046 mathcomp.algebra.finalg <> e var
+R33054:33063 mathcomp.algebra.ssralg GRing eval def
+R33065:33065 mathcomp.algebra.finalg <> e var
+R33080:33089 mathcomp.algebra.ssralg GRing Unit constr
+R33110:33116 Coq.ssr.ssrbool <> ::bool_scope:x_'\is'_'a'_x not
+R33096:33105 mathcomp.algebra.ssralg GRing eval def
+R33107:33107 mathcomp.algebra.finalg <> e var
+R33117:33126 mathcomp.algebra.ssralg GRing unit def
+R33134:33137 mathcomp.algebra.ssralg <> ::term_scope:x_'/\'_x not
+R33152:33155 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R33144:33146 mathcomp.algebra.finalg <> sat def
+R33148:33148 mathcomp.algebra.finalg <> e var
+R33156:33158 mathcomp.algebra.finalg <> sat def
+R33160:33160 mathcomp.algebra.finalg <> e var
+R33171:33174 mathcomp.algebra.ssralg <> ::term_scope:x_'\/'_x not
+R33189:33192 Coq.Init.Datatypes <> ::bool_scope:x_'||'_x not
+R33181:33183 mathcomp.algebra.finalg <> sat def
+R33185:33185 mathcomp.algebra.finalg <> e var
+R33193:33195 mathcomp.algebra.finalg <> sat def
+R33197:33197 mathcomp.algebra.finalg <> e var
+R33208:33212 mathcomp.algebra.ssralg <> ::term_scope:x_'==>'_x not
+R33228:33232 Coq.ssr.ssrbool <> ::bool_scope:x_'==>'_x not
+R33220:33222 mathcomp.algebra.finalg <> sat def
+R33224:33224 mathcomp.algebra.finalg <> e var
+R33233:33235 mathcomp.algebra.finalg <> sat def
+R33237:33237 mathcomp.algebra.finalg <> e var
+R33252:33253 mathcomp.algebra.ssralg <> ::term_scope:'~'_x not
+R33260:33262 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R33263:33265 mathcomp.algebra.finalg <> sat def
+R33267:33267 mathcomp.algebra.finalg <> e var
+R33277:33287 mathcomp.algebra.ssralg <> ::term_scope:'''exists'_'''X_'_x_','_x not
+R33289:33290 mathcomp.algebra.ssralg <> ::term_scope:'''exists'_'''X_'_x_','_x not
+R33298:33305 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_':'_x_x_']' not
+R33307:33309 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_':'_x_x_']' not
+R33339:33339 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'exists'_x_':'_x_x_']' not
+R33311:33312 mathcomp.ssreflect.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R33313:33315 mathcomp.algebra.finalg <> sat def
+R33318:33324 mathcomp.ssreflect.seq <> set_nth def
+R33334:33334 mathcomp.algebra.finalg <> x var
+R33330:33330 mathcomp.algebra.finalg <> e var
+R33310:33310 mathcomp.algebra.finalg <> FinRing.DecideField.F var
+R33346:33356 mathcomp.algebra.ssralg <> ::term_scope:'''forall'_'''X_'_x_','_x not
+R33358:33359 mathcomp.algebra.ssralg <> ::term_scope:'''forall'_'''X_'_x_','_x not
+R33367:33374 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R33376:33378 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R33408:33408 mathcomp.ssreflect.fintype FiniteQuant.Exports ::bool_scope:'['_'forall'_x_':'_x_x_']' not
+R33380:33381 mathcomp.ssreflect.fintype FiniteQuant.Exports ::fin_quant_scope:','_x not
+R33382:33384 mathcomp.algebra.finalg <> sat def
+R33387:33393 mathcomp.ssreflect.seq <> set_nth def
+R33403:33403 mathcomp.algebra.finalg <> x var
+R33399:33399 mathcomp.algebra.finalg <> e var
+R33379:33379 mathcomp.algebra.finalg <> FinRing.DecideField.F var
+prf 33426:33434 FinRing decidable
+R33438:33463 mathcomp.algebra.ssralg GRing.DecidableField axiom def
+R33465:33467 mathcomp.algebra.finalg FinRing sat def
+R33600:33602 Coq.ssr.ssrbool <> idP thm
+R33600:33602 Coq.ssr.ssrbool <> idP thm
+R33633:33635 mathcomp.ssreflect.eqtype <> eqP thm
+R33633:33635 mathcomp.ssreflect.eqtype <> eqP thm
+R33662:33664 Coq.ssr.ssrbool <> idP thm
+R33662:33664 Coq.ssr.ssrbool <> idP thm
+R33743:33746 Coq.ssr.ssrbool <> iffP thm
+R33748:33754 mathcomp.ssreflect.fintype <> existsP thm
+R33743:33746 Coq.ssr.ssrbool <> iffP thm
+R33748:33754 mathcomp.ssreflect.fintype <> existsP thm
+R33819:33822 Coq.ssr.ssrbool <> iffP thm
+R33824:33830 mathcomp.ssreflect.fintype <> forallP thm
+R33819:33822 Coq.ssr.ssrbool <> iffP thm
+R33824:33830 mathcomp.ssreflect.fintype <> forallP thm
+def 33869:33887 FinRing DecidableFieldMixin
+R33892:33904 mathcomp.algebra.ssralg GRing.DecidableField.Exports DecFieldMixin syndef
+R33906:33914 mathcomp.algebra.finalg FinRing decidable thm
+R33922:33932 mathcomp.algebra.finalg FinRing.DecideField <> sec
+mod 33943:33950 <> FinRing.DecField
+sec 33962:33966 FinRing.DecField Joins
+var 33979:33980 FinRing.DecField.Joins cT
+R33984:33993 mathcomp.algebra.finalg FinRing.Field type rec
+var 34000:34001 FinRing.DecField.Joins xT
+R34029:34030 mathcomp.algebra.finalg <> FinRing.DecField.Joins.cT var
+R34011:34020 mathcomp.algebra.finalg FinRing.Field Pack constr
+var 34043:34048 FinRing.DecField.Joins xclass
+R34052:34065 mathcomp.algebra.finalg FinRing.Field class_of rec
+R34067:34068 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xT var
+R34073:34083 mathcomp.algebra.finalg FinRing.Field class def
+R34085:34086 mathcomp.algebra.finalg <> FinRing.DecField.Joins.cT var
+def 34101:34104 FinRing.DecField type
+R34121:34132 mathcomp.algebra.ssralg GRing.DecidableField.Exports DecFieldType syndef
+R34134:34135 mathcomp.algebra.finalg <> FinRing.DecField.Joins.cT var
+R34138:34156 mathcomp.algebra.finalg FinRing DecidableFieldMixin def
+R34158:34159 mathcomp.algebra.finalg <> FinRing.DecField.Joins.cT var
+def 34174:34180 FinRing.DecField finType
+R34186:34196 mathcomp.ssreflect.fintype Finite Pack constr
+R34204:34207 mathcomp.algebra.finalg FinRing fin_ syndef
+R34209:34214 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34209:34214 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34198:34201 mathcomp.algebra.finalg FinRing.DecField type def
+def 34229:34239 FinRing.DecField finZmodType
+R34245:34256 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R34263:34268 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34258:34261 mathcomp.algebra.finalg FinRing.DecField type def
+def 34282:34292 FinRing.DecField finRingType
+R34298:34306 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R34313:34318 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34308:34311 mathcomp.algebra.finalg FinRing.DecField type def
+def 34332:34346 FinRing.DecField finUnitRingType
+R34352:34364 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R34371:34376 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34366:34369 mathcomp.algebra.finalg FinRing.DecField type def
+def 34390:34403 FinRing.DecField finComRingType
+R34409:34420 mathcomp.algebra.finalg FinRing.ComRing Pack constr
+R34427:34432 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34422:34425 mathcomp.algebra.finalg FinRing.DecField type def
+def 34446:34463 FinRing.DecField finComUnitRingType
+R34469:34484 mathcomp.algebra.finalg FinRing.ComUnitRing Pack constr
+R34491:34496 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34486:34489 mathcomp.algebra.finalg FinRing.DecField type def
+def 34510:34523 FinRing.DecField finIdomainType
+R34529:34547 mathcomp.algebra.finalg FinRing.IntegralDomain Pack constr
+R34554:34559 mathcomp.algebra.finalg <> FinRing.DecField.Joins.xclass var
+R34549:34552 mathcomp.algebra.finalg FinRing.DecField type def
+def 34573:34588 FinRing.DecField baseFinGroupType
+R34593:34602 mathcomp.algebra.finalg FinRing base_group syndef
+R34604:34607 mathcomp.algebra.finalg FinRing.DecField type def
+R34609:34619 mathcomp.algebra.finalg FinRing.DecField finZmodType def
+R34621:34631 mathcomp.algebra.finalg FinRing.DecField finZmodType def
+def 34645:34656 FinRing.DecField finGroupType
+R34661:34669 mathcomp.algebra.finalg FinRing fin_group syndef
+R34671:34686 mathcomp.algebra.finalg FinRing.DecField baseFinGroupType def
+R34688:34689 mathcomp.algebra.finalg <> FinRing.DecField.Joins.cT var
+R34697:34701 mathcomp.algebra.finalg FinRing.DecField.Joins <> sec
+mod 34712:34718 <> FinRing.DecField.Exports
+R34721:34776 mathcomp.algebra.finalg FinRing.DecField type def
+R35026:35032 mathcomp.algebra.finalg FinRing.DecField.Exports <> mod
+R35040:35047 mathcomp.algebra.finalg FinRing.DecField <> mod
+mod 35058:35064 <> FinRing.Lmodule
+sec 35076:35083 FinRing.Lmodule ClassDef
+var 35096:35096 FinRing.Lmodule.ClassDef R
+R35100:35107 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+constr 35134:35138 FinRing.Lmodule Class
+rec 35118:35125 FinRing.Lmodule class_of
+proj 35142:35145 FinRing.Lmodule base
+proj 35177:35181 FinRing.Lmodule mixin
+R35149:35170 mathcomp.algebra.ssralg GRing.Lmodule class_of rec
+R35174:35174 mathcomp.algebra.finalg <> M var
+R35172:35172 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.R var
+R35185:35192 mathcomp.algebra.finalg FinRing mixin_of syndef
+R35194:35194 mathcomp.algebra.finalg <> M var
+R35196:35199 mathcomp.algebra.finalg <> base meth
+def 35215:35219 FinRing.Lmodule base2
+R35228:35235 mathcomp.algebra.finalg FinRing.Lmodule class_of rec
+R35237:35237 mathcomp.algebra.finalg <> R var
+R35243:35255 mathcomp.algebra.finalg FinRing.Zmodule Class constr
+R35258:35262 mathcomp.algebra.finalg FinRing.Lmodule mixin proj
+R35264:35264 mathcomp.algebra.finalg <> c var
+R35274:35324 mathcomp.algebra.finalg FinRing.Lmodule base proj
+R35333:35378 mathcomp.algebra.finalg FinRing.Lmodule base2 def
+constr 35416:35419 FinRing.Lmodule Pack
+rec 35392:35395 FinRing.Lmodule type
+proj 35422:35425 FinRing.Lmodule sort
+R35404:35408 Coq.ssr.ssreflect <> phant variant
+R35410:35410 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.R var
+R35432:35439 mathcomp.algebra.finalg FinRing.Lmodule class_of rec
+R35441:35444 mathcomp.algebra.finalg <> sort meth
+R35454:35487 mathcomp.algebra.finalg FinRing.Lmodule sort proj
+var 35501:35503 FinRing.Lmodule.ClassDef phR
+var 35517:35518 FinRing.Lmodule.ClassDef cT
+R35507:35511 Coq.ssr.ssreflect <> phant variant
+R35513:35513 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.R var
+R35522:35525 mathcomp.algebra.finalg FinRing.Lmodule type rec
+R35527:35529 mathcomp.algebra.finalg <> phR var
+def 35544:35548 FinRing.Lmodule class
+R35577:35578 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+R35587:35594 mathcomp.algebra.finalg FinRing.Lmodule class_of rec
+R35596:35598 mathcomp.algebra.finalg <> cT' var
+R35558:35561 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+def 35617:35620 FinRing.Lmodule pack
+R35625:35632 mathcomp.algebra.finalg FinRing gen_pack def
+R35653:35671 mathcomp.algebra.ssralg GRing.Lmodule class def
+R35675:35677 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.phR var
+R35673:35673 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.R var
+R35645:35649 mathcomp.algebra.finalg FinRing.Lmodule Class constr
+R35635:35638 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R35640:35642 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.phR var
+var 35685:35686 FinRing.Lmodule.ClassDef xT
+R35708:35709 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+R35696:35699 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+syndef 35726:35731 FinRing.Lmodule xclass
+R35742:35744 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R35745:35752 mathcomp.algebra.finalg FinRing.Lmodule class_of rec
+R35754:35755 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.xT var
+R35737:35741 mathcomp.algebra.finalg FinRing.Lmodule class def
+def 35771:35776 FinRing.Lmodule eqType
+R35782:35794 mathcomp.ssreflect.eqtype Equality Pack constr
+R35799:35804 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R35796:35797 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+def 35818:35827 FinRing.Lmodule choiceType
+R35833:35843 mathcomp.ssreflect.choice Choice Pack constr
+R35848:35853 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R35845:35846 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+def 35867:35875 FinRing.Lmodule countType
+R35881:35894 mathcomp.ssreflect.choice Countable Pack constr
+R35900:35903 mathcomp.algebra.finalg FinRing fin_ syndef
+R35905:35910 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R35905:35910 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R35896:35897 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+def 35925:35931 FinRing.Lmodule finType
+R35937:35947 mathcomp.ssreflect.fintype Finite Pack constr
+R35953:35956 mathcomp.algebra.finalg FinRing fin_ syndef
+R35958:35963 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R35958:35963 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R35949:35950 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+def 35978:35985 FinRing.Lmodule zmodType
+R35991:36008 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R36013:36018 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R36010:36011 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+def 36032:36042 FinRing.Lmodule finZmodType
+R36048:36059 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R36064:36069 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R36061:36062 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+def 36083:36090 FinRing.Lmodule lmodType
+R36096:36113 mathcomp.algebra.ssralg GRing.Lmodule Pack constr
+R36124:36129 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R36121:36122 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+R36117:36119 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.phR var
+R36115:36115 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.R var
+def 36143:36154 FinRing.Lmodule join_finType
+R36160:36170 mathcomp.ssreflect.fintype Finite Pack constr
+R36182:36185 mathcomp.algebra.finalg FinRing fin_ syndef
+R36187:36192 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R36187:36192 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R36172:36179 mathcomp.algebra.finalg FinRing.Lmodule lmodType def
+def 36207:36222 FinRing.Lmodule join_finZmodType
+R36228:36239 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R36250:36255 mathcomp.algebra.finalg FinRing.Lmodule xclass syndef
+R36241:36248 mathcomp.algebra.finalg FinRing.Lmodule lmodType def
+def 36270:36285 FinRing.Lmodule baseFinGroupType
+R36290:36299 mathcomp.algebra.finalg FinRing base_group syndef
+R36301:36302 mathcomp.algebra.finalg <> FinRing.Lmodule.ClassDef.cT var
+R36304:36311 mathcomp.algebra.finalg FinRing.Lmodule zmodType def
+R36313:36319 mathcomp.algebra.finalg FinRing.Lmodule finType def
+def 36333:36344 FinRing.Lmodule finGroupType
+R36349:36357 mathcomp.algebra.finalg FinRing fin_group syndef
+R36359:36374 mathcomp.algebra.finalg FinRing.Lmodule baseFinGroupType def
+R36376:36383 mathcomp.algebra.finalg FinRing.Lmodule zmodType def
+def 36397:36417 FinRing.Lmodule join_baseFinGroupType
+R36422:36431 mathcomp.algebra.finalg FinRing base_group syndef
+R36433:36440 mathcomp.algebra.finalg FinRing.Lmodule lmodType def
+R36442:36449 mathcomp.algebra.finalg FinRing.Lmodule zmodType def
+R36451:36457 mathcomp.algebra.finalg FinRing.Lmodule finType def
+def 36471:36487 FinRing.Lmodule join_finGroupType
+R36492:36500 mathcomp.algebra.finalg FinRing fin_group syndef
+R36502:36522 mathcomp.algebra.finalg FinRing.Lmodule join_baseFinGroupType def
+R36524:36531 mathcomp.algebra.finalg FinRing.Lmodule zmodType def
+R36539:36546 mathcomp.algebra.finalg FinRing.Lmodule.ClassDef <> sec
+mod 36564:36570 <> FinRing.Lmodule.Exports
+R36573:36623 mathcomp.algebra.finalg FinRing.Lmodule base proj
+R36626:36671 mathcomp.algebra.finalg FinRing.Lmodule base2 def
+R36674:36707 mathcomp.algebra.finalg FinRing.Lmodule sort proj
+R36743:36782 mathcomp.algebra.finalg FinRing.Lmodule eqType def
+R36803:36844 mathcomp.algebra.finalg FinRing.Lmodule choiceType def
+R36869:36912 mathcomp.algebra.finalg FinRing.Lmodule countType def
+R36936:36974 mathcomp.algebra.finalg FinRing.Lmodule finType def
+R36996:37042 mathcomp.algebra.finalg FinRing.Lmodule zmodType def
+R37065:37108 mathcomp.algebra.finalg FinRing.Lmodule finZmodType def
+R37134:37180 mathcomp.algebra.finalg FinRing.Lmodule lmodType def
+syndef 37264:37274 FinRing.Lmodule.Exports finLmodType
+R37282:37301 mathcomp.algebra.finalg FinRing.Lmodule type rec
+R37304:37308 Coq.ssr.ssreflect <> Phant constr
+R37357:37363 mathcomp.algebra.finalg FinRing do_pack syndef
+R37367:37370 mathcomp.algebra.finalg FinRing.Lmodule pack def
+R37375:37379 Coq.ssr.ssreflect <> Phant constr
+not 37324:37324 FinRing.Lmodule.Exports ::form_scope:'['_'finLmodType'_x_'of'_x_']'
+sec 37579:37587 FinRing.Lmodule.Exports counttype
+var 37601:37601 FinRing.Lmodule.Exports.counttype R
+var 37616:37618 FinRing.Lmodule.Exports.counttype phR
+var 37632:37632 FinRing.Lmodule.Exports.counttype T
+R37605:37612 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+R37622:37626 Coq.ssr.ssreflect <> phant variant
+R37628:37628 mathcomp.algebra.finalg <> R var
+R37636:37639 mathcomp.algebra.finalg FinRing.Lmodule type rec
+R37641:37643 mathcomp.algebra.finalg <> phR var
+R37674:37691 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R37693:37693 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R37692:37692 mathcomp.algebra.finalg <> FinRing.Lmodule.Exports.counttype.T var
+R37700:37708 mathcomp.algebra.finalg FinRing.Lmodule.Exports.counttype <> sec
+R37715:37721 mathcomp.algebra.finalg FinRing.Lmodule.Exports <> mod
+R37729:37735 mathcomp.algebra.finalg FinRing.Lmodule <> mod
+mod 37770:37777 <> FinRing.Lalgebra
+sec 37789:37796 FinRing.Lalgebra ClassDef
+var 37809:37809 FinRing.Lalgebra.ClassDef R
+R37813:37820 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+constr 37847:37851 FinRing.Lalgebra Class
+rec 37831:37838 FinRing.Lalgebra class_of
+proj 37855:37858 FinRing.Lalgebra base
+proj 37891:37895 FinRing.Lalgebra mixin
+R37862:37884 mathcomp.algebra.ssralg GRing.Lalgebra class_of rec
+R37888:37888 mathcomp.algebra.finalg <> M var
+R37886:37886 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+R37899:37906 mathcomp.algebra.finalg FinRing mixin_of syndef
+R37908:37908 mathcomp.algebra.finalg <> M var
+R37910:37913 mathcomp.algebra.finalg <> base meth
+def 37929:37933 FinRing.Lalgebra base2
+R37942:37949 mathcomp.algebra.finalg FinRing.Lalgebra class_of rec
+R37951:37951 mathcomp.algebra.finalg <> M var
+R37957:37966 mathcomp.algebra.finalg FinRing.Ring Class constr
+R37969:37973 mathcomp.algebra.finalg FinRing.Lalgebra mixin proj
+R37975:37975 mathcomp.algebra.finalg <> c var
+def 37990:37994 FinRing.Lalgebra base3
+R38003:38010 mathcomp.algebra.finalg FinRing.Lalgebra class_of rec
+R38012:38012 mathcomp.algebra.finalg <> M var
+R38019:38031 mathcomp.algebra.finalg FinRing.Lmodule Class constr
+R38047:38051 mathcomp.algebra.finalg FinRing.Lalgebra mixin proj
+R38053:38053 mathcomp.algebra.finalg <> c var
+R38038:38041 mathcomp.algebra.finalg FinRing.Lalgebra base proj
+R38043:38043 mathcomp.algebra.finalg <> c var
+R38063:38114 mathcomp.algebra.finalg FinRing.Lalgebra base proj
+R38123:38165 mathcomp.algebra.finalg FinRing.Lalgebra base2 def
+R38174:38219 mathcomp.algebra.finalg FinRing.Lalgebra base3 def
+constr 38257:38260 FinRing.Lalgebra Pack
+rec 38233:38236 FinRing.Lalgebra type
+proj 38263:38266 FinRing.Lalgebra sort
+R38245:38249 Coq.ssr.ssreflect <> phant variant
+R38251:38251 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+R38273:38280 mathcomp.algebra.finalg FinRing.Lalgebra class_of rec
+R38282:38285 mathcomp.algebra.finalg <> sort meth
+R38295:38328 mathcomp.algebra.finalg FinRing.Lalgebra sort proj
+var 38342:38344 FinRing.Lalgebra.ClassDef phR
+var 38358:38359 FinRing.Lalgebra.ClassDef cT
+R38348:38352 Coq.ssr.ssreflect <> phant variant
+R38354:38354 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+R38363:38366 mathcomp.algebra.finalg FinRing.Lalgebra type rec
+R38368:38370 mathcomp.algebra.finalg <> phR var
+def 38385:38388 FinRing.Lalgebra pack
+R38393:38400 mathcomp.algebra.finalg FinRing gen_pack def
+R38421:38440 mathcomp.algebra.ssralg GRing.Lalgebra class def
+R38444:38446 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+R38442:38442 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+R38413:38417 mathcomp.algebra.finalg FinRing.Lalgebra Class constr
+R38403:38406 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+R38408:38410 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+def 38461:38465 FinRing.Lalgebra class
+R38494:38495 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+R38504:38511 mathcomp.algebra.finalg FinRing.Lalgebra class_of rec
+R38513:38515 mathcomp.algebra.finalg <> cT' var
+R38475:38478 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+var 38527:38528 FinRing.Lalgebra.ClassDef xT
+R38550:38551 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+R38538:38541 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+syndef 38568:38573 FinRing.Lalgebra xclass
+R38584:38586 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R38587:38594 mathcomp.algebra.finalg FinRing.Lalgebra class_of rec
+R38596:38597 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.xT var
+R38579:38583 mathcomp.algebra.finalg FinRing.Lalgebra class def
+def 38613:38618 FinRing.Lalgebra eqType
+R38624:38636 mathcomp.ssreflect.eqtype Equality Pack constr
+R38641:38646 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38638:38639 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38660:38669 FinRing.Lalgebra choiceType
+R38675:38685 mathcomp.ssreflect.choice Choice Pack constr
+R38690:38695 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38687:38688 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38709:38717 FinRing.Lalgebra countType
+R38723:38736 mathcomp.ssreflect.choice Countable Pack constr
+R38742:38745 mathcomp.algebra.finalg FinRing fin_ syndef
+R38747:38752 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38747:38752 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38738:38739 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38767:38773 FinRing.Lalgebra finType
+R38779:38789 mathcomp.ssreflect.fintype Finite Pack constr
+R38795:38798 mathcomp.algebra.finalg FinRing fin_ syndef
+R38800:38805 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38800:38805 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38791:38792 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38820:38827 FinRing.Lalgebra zmodType
+R38833:38850 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R38855:38860 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38852:38853 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38874:38884 FinRing.Lalgebra finZmodType
+R38890:38901 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R38906:38911 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38903:38904 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38925:38932 FinRing.Lalgebra ringType
+R38938:38952 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R38957:38962 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R38954:38955 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 38976:38986 FinRing.Lalgebra finRingType
+R38992:39000 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R39005:39010 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39002:39003 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+def 39024:39031 FinRing.Lalgebra lmodType
+R39037:39054 mathcomp.algebra.ssralg GRing.Lmodule Pack constr
+R39065:39070 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39062:39063 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+R39058:39060 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+R39056:39056 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+def 39084:39094 FinRing.Lalgebra finLmodType
+R39100:39111 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R39122:39127 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39119:39120 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+R39115:39117 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+R39113:39113 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+def 39141:39148 FinRing.Lalgebra lalgType
+R39154:39172 mathcomp.algebra.ssralg GRing.Lalgebra Pack constr
+R39183:39188 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39180:39181 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+R39176:39178 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+R39174:39174 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+def 39203:39214 FinRing.Lalgebra join_finType
+R39220:39230 mathcomp.ssreflect.fintype Finite Pack constr
+R39242:39245 mathcomp.algebra.finalg FinRing fin_ syndef
+R39247:39252 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39247:39252 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39232:39239 mathcomp.algebra.finalg FinRing.Lalgebra lalgType def
+def 39267:39282 FinRing.Lalgebra join_finZmodType
+R39288:39299 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R39310:39315 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39301:39308 mathcomp.algebra.finalg FinRing.Lalgebra lalgType def
+def 39329:39344 FinRing.Lalgebra join_finLmodType
+R39350:39361 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R39378:39383 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39369:39376 mathcomp.algebra.finalg FinRing.Lalgebra lalgType def
+R39365:39367 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+R39363:39363 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+def 39397:39412 FinRing.Lalgebra join_finRingType
+R39418:39426 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R39437:39442 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39428:39435 mathcomp.algebra.finalg FinRing.Lalgebra lalgType def
+def 39456:39472 FinRing.Lalgebra rjoin_finLmodType
+R39478:39489 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R39506:39511 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39497:39504 mathcomp.algebra.finalg FinRing.Lalgebra ringType def
+R39493:39495 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.phR var
+R39491:39491 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.R var
+def 39525:39541 FinRing.Lalgebra ljoin_finRingType
+R39547:39555 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R39566:39571 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39557:39564 mathcomp.algebra.finalg FinRing.Lalgebra lmodType def
+def 39585:39602 FinRing.Lalgebra fljoin_finRingType
+R39608:39616 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R39630:39635 mathcomp.algebra.finalg FinRing.Lalgebra xclass syndef
+R39618:39628 mathcomp.algebra.finalg FinRing.Lalgebra finLmodType def
+def 39650:39665 FinRing.Lalgebra baseFinGroupType
+R39670:39679 mathcomp.algebra.finalg FinRing base_group syndef
+R39681:39682 mathcomp.algebra.finalg <> FinRing.Lalgebra.ClassDef.cT var
+R39684:39691 mathcomp.algebra.finalg FinRing.Lalgebra zmodType def
+R39693:39699 mathcomp.algebra.finalg FinRing.Lalgebra finType def
+def 39713:39724 FinRing.Lalgebra finGroupType
+R39729:39737 mathcomp.algebra.finalg FinRing fin_group syndef
+R39739:39754 mathcomp.algebra.finalg FinRing.Lalgebra baseFinGroupType def
+R39756:39763 mathcomp.algebra.finalg FinRing.Lalgebra zmodType def
+def 39777:39797 FinRing.Lalgebra join_baseFinGroupType
+R39802:39811 mathcomp.algebra.finalg FinRing base_group syndef
+R39813:39820 mathcomp.algebra.finalg FinRing.Lalgebra lalgType def
+R39822:39829 mathcomp.algebra.finalg FinRing.Lalgebra zmodType def
+R39831:39837 mathcomp.algebra.finalg FinRing.Lalgebra finType def
+def 39851:39867 FinRing.Lalgebra join_finGroupType
+R39872:39880 mathcomp.algebra.finalg FinRing fin_group syndef
+R39882:39902 mathcomp.algebra.finalg FinRing.Lalgebra join_baseFinGroupType def
+R39904:39911 mathcomp.algebra.finalg FinRing.Lalgebra zmodType def
+R39919:39926 mathcomp.algebra.finalg FinRing.Lalgebra.ClassDef <> sec
+mod 39937:39943 <> FinRing.Lalgebra.Exports
+R39946:39997 mathcomp.algebra.finalg FinRing.Lalgebra base proj
+R40000:40042 mathcomp.algebra.finalg FinRing.Lalgebra base2 def
+R40045:40090 mathcomp.algebra.finalg FinRing.Lalgebra base3 def
+R40093:40126 mathcomp.algebra.finalg FinRing.Lalgebra sort proj
+R40162:40201 mathcomp.algebra.finalg FinRing.Lalgebra eqType def
+R40222:40263 mathcomp.algebra.finalg FinRing.Lalgebra choiceType def
+R40288:40331 mathcomp.algebra.finalg FinRing.Lalgebra countType def
+R40355:40393 mathcomp.algebra.finalg FinRing.Lalgebra finType def
+R40415:40461 mathcomp.algebra.finalg FinRing.Lalgebra zmodType def
+R40484:40527 mathcomp.algebra.finalg FinRing.Lalgebra finZmodType def
+R40553:40596 mathcomp.algebra.finalg FinRing.Lalgebra ringType def
+R40619:40659 mathcomp.algebra.finalg FinRing.Lalgebra finRingType def
+R40685:40731 mathcomp.algebra.finalg FinRing.Lalgebra lmodType def
+R40754:40797 mathcomp.algebra.finalg FinRing.Lalgebra finLmodType def
+R40823:40870 mathcomp.algebra.finalg FinRing.Lalgebra lalgType def
+syndef 41098:41108 FinRing.Lalgebra.Exports finLalgType
+R41116:41136 mathcomp.algebra.finalg FinRing.Lalgebra type rec
+R41139:41143 Coq.ssr.ssreflect <> Phant constr
+R41192:41198 mathcomp.algebra.finalg FinRing do_pack syndef
+R41202:41205 mathcomp.algebra.finalg FinRing.Lalgebra pack def
+R41210:41214 Coq.ssr.ssreflect <> Phant constr
+not 41159:41159 FinRing.Lalgebra.Exports ::form_scope:'['_'finLalgType'_x_'of'_x_']'
+sec 41414:41422 FinRing.Lalgebra.Exports counttype
+var 41436:41436 FinRing.Lalgebra.Exports.counttype R
+var 41458:41460 FinRing.Lalgebra.Exports.counttype phR
+var 41474:41474 FinRing.Lalgebra.Exports.counttype T
+R41440:41454 mathcomp.algebra.ssralg GRing.Ring type rec
+R41464:41468 Coq.ssr.ssreflect <> phant variant
+R41470:41470 mathcomp.algebra.finalg <> R var
+R41478:41481 mathcomp.algebra.finalg FinRing.Lalgebra type rec
+R41483:41485 mathcomp.algebra.finalg <> phR var
+R41516:41533 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R41535:41535 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R41534:41534 mathcomp.algebra.finalg <> FinRing.Lalgebra.Exports.counttype.T var
+R41565:41582 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R41584:41584 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R41583:41583 mathcomp.algebra.finalg <> FinRing.Lalgebra.Exports.counttype.T var
+R41591:41599 mathcomp.algebra.finalg FinRing.Lalgebra.Exports.counttype <> sec
+R41606:41612 mathcomp.algebra.finalg FinRing.Lalgebra.Exports <> mod
+R41620:41627 mathcomp.algebra.finalg FinRing.Lalgebra <> mod
+mod 41663:41669 <> FinRing.Algebra
+sec 41681:41688 FinRing.Algebra ClassDef
+var 41701:41701 FinRing.Algebra.ClassDef R
+R41705:41712 mathcomp.algebra.ssralg GRing.Ring.Exports ringType syndef
+constr 41739:41743 FinRing.Algebra Class
+rec 41723:41730 FinRing.Algebra class_of
+proj 41747:41750 FinRing.Algebra base
+proj 41782:41786 FinRing.Algebra mixin
+R41754:41775 mathcomp.algebra.ssralg GRing.Algebra class_of rec
+R41779:41779 mathcomp.algebra.finalg <> M var
+R41777:41777 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+R41790:41797 mathcomp.algebra.finalg FinRing mixin_of syndef
+R41799:41799 mathcomp.algebra.finalg <> M var
+R41801:41804 mathcomp.algebra.finalg <> base meth
+def 41820:41824 FinRing.Algebra base2
+R41833:41840 mathcomp.algebra.finalg FinRing.Algebra class_of rec
+R41842:41842 mathcomp.algebra.finalg <> M var
+R41848:41861 mathcomp.algebra.finalg FinRing.Lalgebra Class constr
+R41864:41868 mathcomp.algebra.finalg FinRing.Algebra mixin proj
+R41870:41870 mathcomp.algebra.finalg <> c var
+R41880:41930 mathcomp.algebra.finalg FinRing.Algebra base proj
+R41939:41984 mathcomp.algebra.finalg FinRing.Algebra base2 def
+constr 42022:42025 FinRing.Algebra Pack
+rec 41998:42001 FinRing.Algebra type
+proj 42028:42031 FinRing.Algebra sort
+R42010:42014 Coq.ssr.ssreflect <> phant variant
+R42016:42016 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+R42038:42045 mathcomp.algebra.finalg FinRing.Algebra class_of rec
+R42047:42050 mathcomp.algebra.finalg <> sort meth
+R42060:42093 mathcomp.algebra.finalg FinRing.Algebra sort proj
+var 42107:42109 FinRing.Algebra.ClassDef phR
+var 42123:42124 FinRing.Algebra.ClassDef cT
+R42113:42117 Coq.ssr.ssreflect <> phant variant
+R42119:42119 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+R42128:42131 mathcomp.algebra.finalg FinRing.Algebra type rec
+R42133:42135 mathcomp.algebra.finalg <> phR var
+def 42150:42153 FinRing.Algebra pack
+R42158:42165 mathcomp.algebra.finalg FinRing gen_pack def
+R42186:42204 mathcomp.algebra.ssralg GRing.Algebra class def
+R42208:42210 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R42206:42206 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+R42178:42182 mathcomp.algebra.finalg FinRing.Algebra Class constr
+R42168:42171 mathcomp.algebra.finalg FinRing.Algebra Pack constr
+R42173:42175 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+def 42225:42229 FinRing.Algebra class
+R42258:42259 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R42268:42275 mathcomp.algebra.finalg FinRing.Algebra class_of rec
+R42277:42279 mathcomp.algebra.finalg <> cT' var
+R42239:42242 mathcomp.algebra.finalg FinRing.Algebra Pack constr
+var 42291:42292 FinRing.Algebra.ClassDef xT
+R42314:42315 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R42302:42305 mathcomp.algebra.finalg FinRing.Algebra Pack constr
+syndef 42332:42337 FinRing.Algebra xclass
+R42348:42350 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R42351:42358 mathcomp.algebra.finalg FinRing.Algebra class_of rec
+R42360:42361 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.xT var
+R42343:42347 mathcomp.algebra.finalg FinRing.Algebra class def
+def 42377:42382 FinRing.Algebra eqType
+R42388:42400 mathcomp.ssreflect.eqtype Equality Pack constr
+R42405:42410 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42402:42403 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42424:42433 FinRing.Algebra choiceType
+R42439:42449 mathcomp.ssreflect.choice Choice Pack constr
+R42454:42459 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42451:42452 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42473:42481 FinRing.Algebra countType
+R42487:42500 mathcomp.ssreflect.choice Countable Pack constr
+R42506:42509 mathcomp.algebra.finalg FinRing fin_ syndef
+R42511:42516 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42511:42516 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42502:42503 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42531:42537 FinRing.Algebra finType
+R42543:42553 mathcomp.ssreflect.fintype Finite Pack constr
+R42559:42562 mathcomp.algebra.finalg FinRing fin_ syndef
+R42564:42569 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42564:42569 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42555:42556 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42584:42591 FinRing.Algebra zmodType
+R42597:42614 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R42619:42624 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42616:42617 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42638:42648 FinRing.Algebra finZmodType
+R42654:42665 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R42670:42675 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42667:42668 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42689:42696 FinRing.Algebra ringType
+R42702:42716 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R42721:42726 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42718:42719 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42740:42750 FinRing.Algebra finRingType
+R42756:42764 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R42769:42774 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42766:42767 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+def 42788:42795 FinRing.Algebra lmodType
+R42801:42818 mathcomp.algebra.ssralg GRing.Lmodule Pack constr
+R42829:42834 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42826:42827 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R42822:42824 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R42820:42820 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 42848:42858 FinRing.Algebra finLmodType
+R42864:42875 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R42886:42891 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42883:42884 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R42879:42881 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R42877:42877 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 42905:42912 FinRing.Algebra lalgType
+R42918:42936 mathcomp.algebra.ssralg GRing.Lalgebra Pack constr
+R42947:42952 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R42944:42945 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R42940:42942 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R42938:42938 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 42966:42976 FinRing.Algebra finLalgType
+R42982:42994 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+R43005:43010 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43002:43003 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R42998:43000 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R42996:42996 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 43024:43030 FinRing.Algebra algType
+R43036:43053 mathcomp.algebra.ssralg GRing.Algebra Pack constr
+R43064:43069 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43061:43062 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R43057:43059 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R43055:43055 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 43084:43095 FinRing.Algebra join_finType
+R43101:43111 mathcomp.ssreflect.fintype Finite Pack constr
+R43122:43125 mathcomp.algebra.finalg FinRing fin_ syndef
+R43127:43132 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43127:43132 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43113:43119 mathcomp.algebra.finalg FinRing.Algebra algType def
+def 43147:43162 FinRing.Algebra join_finZmodType
+R43168:43179 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R43189:43194 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43181:43187 mathcomp.algebra.finalg FinRing.Algebra algType def
+def 43208:43223 FinRing.Algebra join_finRingType
+R43229:43237 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R43247:43252 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43239:43245 mathcomp.algebra.finalg FinRing.Algebra algType def
+def 43266:43281 FinRing.Algebra join_finLmodType
+R43287:43298 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R43314:43319 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43306:43312 mathcomp.algebra.finalg FinRing.Algebra algType def
+R43302:43304 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R43300:43300 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 43333:43348 FinRing.Algebra join_finLalgType
+R43354:43366 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+R43382:43387 mathcomp.algebra.finalg FinRing.Algebra xclass syndef
+R43374:43380 mathcomp.algebra.finalg FinRing.Algebra algType def
+R43370:43372 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.phR var
+R43368:43368 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.R var
+def 43402:43417 FinRing.Algebra baseFinGroupType
+R43422:43431 mathcomp.algebra.finalg FinRing base_group syndef
+R43433:43434 mathcomp.algebra.finalg <> FinRing.Algebra.ClassDef.cT var
+R43436:43443 mathcomp.algebra.finalg FinRing.Algebra zmodType def
+R43445:43451 mathcomp.algebra.finalg FinRing.Algebra finType def
+def 43465:43476 FinRing.Algebra finGroupType
+R43481:43489 mathcomp.algebra.finalg FinRing fin_group syndef
+R43491:43506 mathcomp.algebra.finalg FinRing.Algebra baseFinGroupType def
+R43508:43515 mathcomp.algebra.finalg FinRing.Algebra zmodType def
+def 43529:43549 FinRing.Algebra join_baseFinGroupType
+R43554:43563 mathcomp.algebra.finalg FinRing base_group syndef
+R43565:43571 mathcomp.algebra.finalg FinRing.Algebra algType def
+R43573:43580 mathcomp.algebra.finalg FinRing.Algebra zmodType def
+R43582:43588 mathcomp.algebra.finalg FinRing.Algebra finType def
+def 43602:43618 FinRing.Algebra join_finGroupType
+R43623:43631 mathcomp.algebra.finalg FinRing fin_group syndef
+R43633:43653 mathcomp.algebra.finalg FinRing.Algebra join_baseFinGroupType def
+R43655:43662 mathcomp.algebra.finalg FinRing.Algebra zmodType def
+R43670:43677 mathcomp.algebra.finalg FinRing.Algebra.ClassDef <> sec
+mod 43688:43694 <> FinRing.Algebra.Exports
+R43697:43747 mathcomp.algebra.finalg FinRing.Algebra base proj
+R43750:43796 mathcomp.algebra.finalg FinRing.Algebra base2 def
+R43799:43832 mathcomp.algebra.finalg FinRing.Algebra sort proj
+R43868:43907 mathcomp.algebra.finalg FinRing.Algebra eqType def
+R43928:43969 mathcomp.algebra.finalg FinRing.Algebra choiceType def
+R43994:44037 mathcomp.algebra.finalg FinRing.Algebra countType def
+R44061:44099 mathcomp.algebra.finalg FinRing.Algebra finType def
+R44121:44167 mathcomp.algebra.finalg FinRing.Algebra zmodType def
+R44190:44233 mathcomp.algebra.finalg FinRing.Algebra finZmodType def
+R44259:44302 mathcomp.algebra.finalg FinRing.Algebra ringType def
+R44325:44365 mathcomp.algebra.finalg FinRing.Algebra finRingType def
+R44391:44437 mathcomp.algebra.finalg FinRing.Algebra lmodType def
+R44460:44503 mathcomp.algebra.finalg FinRing.Algebra finLmodType def
+R44529:44576 mathcomp.algebra.finalg FinRing.Algebra lalgType def
+R44599:44643 mathcomp.algebra.finalg FinRing.Algebra finLalgType def
+R44669:44714 mathcomp.algebra.finalg FinRing.Algebra algType def
+syndef 44881:44890 FinRing.Algebra.Exports finAlgType
+R44898:44901 mathcomp.algebra.finalg FinRing.Algebra type rec
+R44904:44908 Coq.ssr.ssreflect <> Phant constr
+R44956:44962 mathcomp.algebra.finalg FinRing do_pack syndef
+R44966:44969 mathcomp.algebra.finalg FinRing.Algebra pack def
+R44974:44978 Coq.ssr.ssreflect <> Phant constr
+not 44924:44924 FinRing.Algebra.Exports ::form_scope:'['_'finAlgType'_x_'of'_x_']'
+sec 45177:45185 FinRing.Algebra.Exports counttype
+var 45199:45199 FinRing.Algebra.Exports.counttype R
+var 45221:45223 FinRing.Algebra.Exports.counttype phR
+var 45237:45237 FinRing.Algebra.Exports.counttype T
+R45203:45217 mathcomp.algebra.ssralg GRing.Ring type rec
+R45227:45231 Coq.ssr.ssreflect <> phant variant
+R45233:45233 mathcomp.algebra.finalg <> R var
+R45241:45244 mathcomp.algebra.finalg FinRing.Algebra type rec
+R45246:45248 mathcomp.algebra.finalg <> phR var
+R45279:45296 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R45298:45298 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R45297:45297 mathcomp.algebra.finalg <> FinRing.Algebra.Exports.counttype.T var
+R45328:45345 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R45347:45347 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R45346:45346 mathcomp.algebra.finalg <> FinRing.Algebra.Exports.counttype.T var
+R45354:45362 mathcomp.algebra.finalg FinRing.Algebra.Exports.counttype <> sec
+R45369:45375 mathcomp.algebra.finalg FinRing.Algebra.Exports <> mod
+R45383:45389 mathcomp.algebra.finalg FinRing.Algebra <> mod
+mod 45424:45434 <> FinRing.UnitAlgebra
+sec 45446:45453 FinRing.UnitAlgebra ClassDef
+var 45466:45466 FinRing.UnitAlgebra.ClassDef R
+R45470:45481 mathcomp.algebra.ssralg GRing.UnitRing.Exports unitRingType syndef
+constr 45508:45512 FinRing.UnitAlgebra Class
+rec 45492:45499 FinRing.UnitAlgebra class_of
+proj 45516:45519 FinRing.UnitAlgebra base
+proj 45555:45559 FinRing.UnitAlgebra mixin
+R45523:45548 mathcomp.algebra.ssralg GRing.UnitAlgebra class_of rec
+R45552:45552 mathcomp.algebra.finalg <> M var
+R45550:45550 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+R45563:45570 mathcomp.algebra.finalg FinRing mixin_of syndef
+R45572:45572 mathcomp.algebra.finalg <> M var
+R45574:45577 mathcomp.algebra.finalg <> base meth
+def 45593:45597 FinRing.UnitAlgebra base2
+R45606:45613 mathcomp.algebra.finalg FinRing.UnitAlgebra class_of rec
+R45615:45615 mathcomp.algebra.finalg <> M var
+R45621:45633 mathcomp.algebra.finalg FinRing.Algebra Class constr
+R45636:45640 mathcomp.algebra.finalg FinRing.UnitAlgebra mixin proj
+R45642:45642 mathcomp.algebra.finalg <> c var
+def 45657:45661 FinRing.UnitAlgebra base3
+R45670:45677 mathcomp.algebra.finalg FinRing.UnitAlgebra class_of rec
+R45679:45679 mathcomp.algebra.finalg <> M var
+R45686:45699 mathcomp.algebra.finalg FinRing.UnitRing Class constr
+R45713:45717 mathcomp.algebra.finalg FinRing.UnitAlgebra mixin proj
+R45719:45719 mathcomp.algebra.finalg <> c var
+R45704:45707 mathcomp.algebra.finalg FinRing.UnitAlgebra base proj
+R45709:45709 mathcomp.algebra.finalg <> c var
+R45730:45784 mathcomp.algebra.finalg FinRing.UnitAlgebra base proj
+R45793:45838 mathcomp.algebra.finalg FinRing.UnitAlgebra base2 def
+R45847:45893 mathcomp.algebra.finalg FinRing.UnitAlgebra base3 def
+constr 45931:45934 FinRing.UnitAlgebra Pack
+rec 45907:45910 FinRing.UnitAlgebra type
+proj 45937:45940 FinRing.UnitAlgebra sort
+R45919:45923 Coq.ssr.ssreflect <> phant variant
+R45925:45925 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+R45947:45954 mathcomp.algebra.finalg FinRing.UnitAlgebra class_of rec
+R45956:45959 mathcomp.algebra.finalg <> sort meth
+R45969:46002 mathcomp.algebra.finalg FinRing.UnitAlgebra sort proj
+var 46016:46018 FinRing.UnitAlgebra.ClassDef phR
+var 46032:46033 FinRing.UnitAlgebra.ClassDef cT
+R46022:46026 Coq.ssr.ssreflect <> phant variant
+R46028:46028 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+R46037:46040 mathcomp.algebra.finalg FinRing.UnitAlgebra type rec
+R46042:46044 mathcomp.algebra.finalg <> phR var
+def 46059:46062 FinRing.UnitAlgebra pack
+R46067:46074 mathcomp.algebra.finalg FinRing gen_pack def
+R46095:46117 mathcomp.algebra.ssralg GRing.UnitAlgebra class def
+R46121:46123 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R46119:46119 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+R46087:46091 mathcomp.algebra.finalg FinRing.UnitAlgebra Class constr
+R46077:46080 mathcomp.algebra.finalg FinRing.UnitAlgebra Pack constr
+R46082:46084 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+def 46138:46142 FinRing.UnitAlgebra class
+R46171:46172 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R46181:46188 mathcomp.algebra.finalg FinRing.UnitAlgebra class_of rec
+R46190:46192 mathcomp.algebra.finalg <> cT' var
+R46152:46155 mathcomp.algebra.finalg FinRing.UnitAlgebra Pack constr
+var 46204:46205 FinRing.UnitAlgebra.ClassDef xT
+R46227:46228 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R46215:46218 mathcomp.algebra.finalg FinRing.UnitAlgebra Pack constr
+syndef 46245:46250 FinRing.UnitAlgebra xclass
+R46261:46263 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R46264:46271 mathcomp.algebra.finalg FinRing.UnitAlgebra class_of rec
+R46273:46274 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.xT var
+R46256:46260 mathcomp.algebra.finalg FinRing.UnitAlgebra class def
+def 46290:46295 FinRing.UnitAlgebra eqType
+R46301:46313 mathcomp.ssreflect.eqtype Equality Pack constr
+R46318:46323 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46315:46316 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46337:46346 FinRing.UnitAlgebra choiceType
+R46352:46362 mathcomp.ssreflect.choice Choice Pack constr
+R46367:46372 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46364:46365 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46386:46394 FinRing.UnitAlgebra countType
+R46400:46413 mathcomp.ssreflect.choice Countable Pack constr
+R46419:46422 mathcomp.algebra.finalg FinRing fin_ syndef
+R46424:46429 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46424:46429 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46415:46416 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46444:46450 FinRing.UnitAlgebra finType
+R46456:46466 mathcomp.ssreflect.fintype Finite Pack constr
+R46472:46475 mathcomp.algebra.finalg FinRing fin_ syndef
+R46477:46482 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46477:46482 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46468:46469 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46497:46504 FinRing.UnitAlgebra zmodType
+R46510:46527 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R46532:46537 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46529:46530 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46551:46561 FinRing.UnitAlgebra finZmodType
+R46567:46578 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R46583:46588 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46580:46581 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46602:46609 FinRing.UnitAlgebra ringType
+R46615:46629 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R46634:46639 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46631:46632 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46653:46663 FinRing.UnitAlgebra finRingType
+R46669:46677 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R46682:46687 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46679:46680 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46701:46712 FinRing.UnitAlgebra unitRingType
+R46718:46736 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R46741:46746 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46738:46739 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46760:46774 FinRing.UnitAlgebra finUnitRingType
+R46780:46792 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R46797:46802 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46794:46795 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+def 46816:46823 FinRing.UnitAlgebra lmodType
+R46829:46846 mathcomp.algebra.ssralg GRing.Lmodule Pack constr
+R46857:46862 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46854:46855 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R46850:46852 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R46848:46848 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 46876:46886 FinRing.UnitAlgebra finLmodType
+R46892:46903 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R46914:46919 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46911:46912 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R46907:46909 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R46905:46905 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 46933:46940 FinRing.UnitAlgebra lalgType
+R46946:46964 mathcomp.algebra.ssralg GRing.Lalgebra Pack constr
+R46975:46980 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R46972:46973 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R46968:46970 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R46966:46966 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 46994:47004 FinRing.UnitAlgebra finLalgType
+R47010:47022 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+R47033:47038 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47030:47031 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R47026:47028 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47024:47024 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47052:47058 FinRing.UnitAlgebra algType
+R47064:47081 mathcomp.algebra.ssralg GRing.Algebra Pack constr
+R47092:47097 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47089:47090 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R47085:47087 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47083:47083 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47111:47120 FinRing.UnitAlgebra finAlgType
+R47126:47137 mathcomp.algebra.finalg FinRing.Algebra Pack constr
+R47148:47153 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47145:47146 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R47141:47143 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47139:47139 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47167:47177 FinRing.UnitAlgebra unitAlgType
+R47183:47204 mathcomp.algebra.ssralg GRing.UnitAlgebra Pack constr
+R47215:47220 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47212:47213 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R47208:47210 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47206:47206 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47235:47246 FinRing.UnitAlgebra join_finType
+R47252:47262 mathcomp.ssreflect.fintype Finite Pack constr
+R47277:47280 mathcomp.algebra.finalg FinRing fin_ syndef
+R47282:47287 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47282:47287 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47264:47274 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+def 47302:47317 FinRing.UnitAlgebra join_finZmodType
+R47323:47334 mathcomp.algebra.finalg FinRing.Zmodule Pack constr
+R47348:47353 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47336:47346 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+def 47367:47382 FinRing.UnitAlgebra join_finRingType
+R47388:47396 mathcomp.algebra.finalg FinRing.Ring Pack constr
+R47410:47415 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47398:47408 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+def 47429:47448 FinRing.UnitAlgebra join_finUnitRingType
+R47454:47466 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R47480:47485 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47468:47478 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+def 47499:47514 FinRing.UnitAlgebra join_finLmodType
+R47520:47531 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R47551:47556 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47539:47549 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+R47535:47537 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47533:47533 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47570:47585 FinRing.UnitAlgebra join_finLalgType
+R47591:47603 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+R47623:47628 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47611:47621 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+R47607:47609 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47605:47605 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47642:47656 FinRing.UnitAlgebra join_finAlgType
+R47662:47673 mathcomp.algebra.finalg FinRing.Algebra Pack constr
+R47693:47698 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47681:47691 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+R47677:47679 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R47675:47675 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 47713:47733 FinRing.UnitAlgebra ljoin_finUnitRingType
+R47739:47751 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R47762:47767 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47753:47760 mathcomp.algebra.finalg FinRing.UnitAlgebra lmodType def
+def 47781:47802 FinRing.UnitAlgebra fljoin_finUnitRingType
+R47808:47820 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R47834:47839 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47822:47832 mathcomp.algebra.finalg FinRing.UnitAlgebra finLmodType def
+def 47854:47874 FinRing.UnitAlgebra njoin_finUnitRingType
+R47880:47892 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R47903:47908 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47894:47901 mathcomp.algebra.finalg FinRing.UnitAlgebra lalgType def
+def 47922:47943 FinRing.UnitAlgebra fnjoin_finUnitRingType
+R47949:47961 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R47975:47980 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R47963:47973 mathcomp.algebra.finalg FinRing.UnitAlgebra finLalgType def
+def 47995:48015 FinRing.UnitAlgebra ajoin_finUnitRingType
+R48021:48033 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R48043:48048 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R48035:48041 mathcomp.algebra.finalg FinRing.UnitAlgebra algType def
+def 48062:48083 FinRing.UnitAlgebra fajoin_finUnitRingType
+R48089:48101 mathcomp.algebra.finalg FinRing.UnitRing Pack constr
+R48114:48119 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R48103:48112 mathcomp.algebra.finalg FinRing.UnitAlgebra finAlgType def
+def 48133:48149 FinRing.UnitAlgebra ujoin_finLmodType
+R48155:48166 mathcomp.algebra.finalg FinRing.Lmodule Pack constr
+R48187:48192 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R48174:48185 mathcomp.algebra.finalg FinRing.UnitAlgebra unitRingType def
+R48170:48172 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R48168:48168 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 48206:48222 FinRing.UnitAlgebra ujoin_finLalgType
+R48228:48240 mathcomp.algebra.finalg FinRing.Lalgebra Pack constr
+R48261:48266 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R48248:48259 mathcomp.algebra.finalg FinRing.UnitAlgebra unitRingType def
+R48244:48246 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R48242:48242 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 48280:48295 FinRing.UnitAlgebra ujoin_finAlgType
+R48301:48312 mathcomp.algebra.finalg FinRing.Algebra Pack constr
+R48333:48338 mathcomp.algebra.finalg FinRing.UnitAlgebra xclass syndef
+R48320:48331 mathcomp.algebra.finalg FinRing.UnitAlgebra unitRingType def
+R48316:48318 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.phR var
+R48314:48314 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.R var
+def 48353:48368 FinRing.UnitAlgebra baseFinGroupType
+R48373:48382 mathcomp.algebra.finalg FinRing base_group syndef
+R48384:48385 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.ClassDef.cT var
+R48387:48394 mathcomp.algebra.finalg FinRing.UnitAlgebra zmodType def
+R48396:48402 mathcomp.algebra.finalg FinRing.UnitAlgebra finType def
+def 48416:48427 FinRing.UnitAlgebra finGroupType
+R48432:48440 mathcomp.algebra.finalg FinRing fin_group syndef
+R48442:48457 mathcomp.algebra.finalg FinRing.UnitAlgebra baseFinGroupType def
+R48459:48466 mathcomp.algebra.finalg FinRing.UnitAlgebra zmodType def
+def 48480:48500 FinRing.UnitAlgebra join_baseFinGroupType
+R48505:48514 mathcomp.algebra.finalg FinRing base_group syndef
+R48516:48526 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+R48528:48535 mathcomp.algebra.finalg FinRing.UnitAlgebra zmodType def
+R48537:48543 mathcomp.algebra.finalg FinRing.UnitAlgebra finType def
+def 48557:48573 FinRing.UnitAlgebra join_finGroupType
+R48578:48586 mathcomp.algebra.finalg FinRing fin_group syndef
+R48588:48608 mathcomp.algebra.finalg FinRing.UnitAlgebra join_baseFinGroupType def
+R48610:48617 mathcomp.algebra.finalg FinRing.UnitAlgebra zmodType def
+R48625:48632 mathcomp.algebra.finalg FinRing.UnitAlgebra.ClassDef <> sec
+mod 48643:48649 <> FinRing.UnitAlgebra.Exports
+R48652:48706 mathcomp.algebra.finalg FinRing.UnitAlgebra base proj
+R48709:48754 mathcomp.algebra.finalg FinRing.UnitAlgebra base2 def
+R48757:48803 mathcomp.algebra.finalg FinRing.UnitAlgebra base3 def
+R48806:48839 mathcomp.algebra.finalg FinRing.UnitAlgebra sort proj
+R48875:48914 mathcomp.algebra.finalg FinRing.UnitAlgebra eqType def
+R48935:48976 mathcomp.algebra.finalg FinRing.UnitAlgebra choiceType def
+R49001:49044 mathcomp.algebra.finalg FinRing.UnitAlgebra countType def
+R49068:49106 mathcomp.algebra.finalg FinRing.UnitAlgebra finType def
+R49128:49174 mathcomp.algebra.finalg FinRing.UnitAlgebra zmodType def
+R49197:49240 mathcomp.algebra.finalg FinRing.UnitAlgebra finZmodType def
+R49266:49309 mathcomp.algebra.finalg FinRing.UnitAlgebra ringType def
+R49332:49372 mathcomp.algebra.finalg FinRing.UnitAlgebra finRingType def
+R49398:49449 mathcomp.algebra.finalg FinRing.UnitAlgebra unitRingType def
+R49476:49524 mathcomp.algebra.finalg FinRing.UnitAlgebra finUnitRingType def
+R49554:49600 mathcomp.algebra.finalg FinRing.UnitAlgebra lmodType def
+R49623:49666 mathcomp.algebra.finalg FinRing.UnitAlgebra finLmodType def
+R49692:49739 mathcomp.algebra.finalg FinRing.UnitAlgebra lalgType def
+R49762:49806 mathcomp.algebra.finalg FinRing.UnitAlgebra finLalgType def
+R49832:49877 mathcomp.algebra.finalg FinRing.UnitAlgebra algType def
+R49899:49941 mathcomp.algebra.finalg FinRing.UnitAlgebra finAlgType def
+R49966:50019 mathcomp.algebra.finalg FinRing.UnitAlgebra unitAlgType def
+syndef 50504:50517 FinRing.UnitAlgebra.Exports finUnitAlgType
+R50525:50528 mathcomp.algebra.finalg FinRing.UnitAlgebra type rec
+R50531:50535 Coq.ssr.ssreflect <> Phant constr
+R50587:50593 mathcomp.algebra.finalg FinRing do_pack syndef
+R50597:50600 mathcomp.algebra.finalg FinRing.UnitAlgebra pack def
+R50605:50609 Coq.ssr.ssreflect <> Phant constr
+not 50551:50551 FinRing.UnitAlgebra.Exports ::form_scope:'['_'finUnitAlgType'_x_'of'_x_']'
+sec 50812:50820 FinRing.UnitAlgebra.Exports counttype
+var 50834:50834 FinRing.UnitAlgebra.Exports.counttype R
+var 50860:50862 FinRing.UnitAlgebra.Exports.counttype phR
+var 50876:50876 FinRing.UnitAlgebra.Exports.counttype T
+R50838:50856 mathcomp.algebra.ssralg GRing.UnitRing type rec
+R50866:50870 Coq.ssr.ssreflect <> phant variant
+R50872:50872 mathcomp.algebra.finalg <> R var
+R50880:50883 mathcomp.algebra.finalg FinRing.UnitAlgebra type rec
+R50885:50887 mathcomp.algebra.finalg <> phR var
+R50918:50935 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R50937:50937 mathcomp.algebra.countalg CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']' not
+R50936:50936 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.Exports.counttype.T var
+R50967:50984 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R50986:50986 mathcomp.algebra.countalg CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']' not
+R50985:50985 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.Exports.counttype.T var
+R51020:51041 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R51043:51043 mathcomp.algebra.countalg CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']' not
+R51042:51042 mathcomp.algebra.finalg <> FinRing.UnitAlgebra.Exports.counttype.T var
+R51050:51058 mathcomp.algebra.finalg FinRing.UnitAlgebra.Exports.counttype <> sec
+R51065:51071 mathcomp.algebra.finalg FinRing.UnitAlgebra.Exports <> mod
+R51079:51089 mathcomp.algebra.finalg FinRing.UnitAlgebra <> mod
+mod 51128:51133 <> FinRing.Theory
+def 51148:51154 FinRing.Theory zmod1gE
+R51159:51165 mathcomp.algebra.finalg FinRing zmod1gE thm
+def 51179:51185 FinRing.Theory zmodVgE
+R51190:51196 mathcomp.algebra.finalg FinRing zmodVgE thm
+def 51210:51216 FinRing.Theory zmodMgE
+R51221:51227 mathcomp.algebra.finalg FinRing zmodMgE thm
+def 51241:51247 FinRing.Theory zmodXgE
+R51252:51258 mathcomp.algebra.finalg FinRing zmodXgE thm
+def 51272:51281 FinRing.Theory zmod_mulgC
+R51286:51295 mathcomp.algebra.finalg FinRing zmod_mulgC thm
+def 51309:51320 FinRing.Theory zmod_abelian
+R51325:51336 mathcomp.algebra.finalg FinRing zmod_abelian thm
+def 51350:51358 FinRing.Theory val_unit1
+R51363:51371 mathcomp.algebra.finalg FinRing val_unit1 thm
+def 51385:51393 FinRing.Theory val_unitM
+R51398:51406 mathcomp.algebra.finalg FinRing val_unitM thm
+def 51420:51428 FinRing.Theory val_unitX
+R51433:51441 mathcomp.algebra.finalg FinRing val_unitX thm
+def 51455:51463 FinRing.Theory val_unitV
+R51468:51476 mathcomp.algebra.finalg FinRing val_unitV thm
+def 51490:51498 FinRing.Theory unit_actE
+R51503:51511 mathcomp.algebra.finalg FinRing unit_actE thm
+R51519:51524 mathcomp.algebra.finalg FinRing.Theory <> mod
+R51532:51538 mathcomp.algebra.finalg FinRing <> mod
+R51842:51848 mathcomp.algebra.finalg <> unit_of ind
+R51851:51855 Coq.ssr.ssreflect <> Phant constr
+not 51823:51823 <> ::type_scope:'{'_'unit'_x_'}'
+R51965:51975 mathcomp.algebra.finalg <> unit_action canonstruc
+not 51954:51954 <> ::action_scope:'''U'
+R52029:52044 mathcomp.algebra.finalg <> unit_groupAction canonstruc
+not 52018:52018 <> ::groupAction_scope:'''U'

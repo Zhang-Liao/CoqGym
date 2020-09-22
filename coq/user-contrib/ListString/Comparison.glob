@@ -1,0 +1,105 @@
+DIGEST 1af8d9b457902e7eca09ab91678fa0fb
+FListString.Comparison
+R44:57 Coq.Lists.List <> <> lib
+R75:91 Coq.Strings.Ascii <> <> lib
+R102:105 ListString.Char <> <> lib
+R123:129 ListString.LString <> <> lib
+def 212:218 <> compare
+R227:227 ListString.LString <> t def
+R232:241 Coq.Init.Datatypes <> comparison ind
+R257:257 ListString.Comparison <> y var
+R254:254 ListString.Comparison <> x var
+R268:269 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R272:273 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R278:279 Coq.Init.Datatypes <> Eq constr
+R285:286 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R294:295 Coq.Init.Datatypes <> Lt constr
+R304:305 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R310:311 Coq.Init.Datatypes <> Gt constr
+R318:321 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R327:330 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R347:358 ListString.Char <> compare def
+R362:362 ListString.Comparison <> y var
+R360:360 ListString.Comparison <> x var
+R375:376 Coq.Init.Datatypes <> Eq constr
+R381:387 ListString.Comparison <> compare def
+prf 430:447 <> compare_implies_eq
+R465:465 ListString.LString <> t def
+R485:488 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R490:492 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R489:489 ListString.Comparison <> x var
+R493:493 ListString.Comparison <> y var
+R480:482 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R469:475 ListString.Comparison <> compare def
+R479:479 ListString.Comparison <> y var
+R477:477 ListString.Comparison <> x var
+R483:484 Coq.Init.Datatypes <> Eq constr
+R580:591 ListString.Char <> compare def
+R580:591 ListString.Char <> compare def
+R653:675 ListString.Char <> compare_implies_eq thm
+R653:675 ListString.Char <> compare_implies_eq thm
+R653:675 ListString.Char <> compare_implies_eq thm
+prf 719:736 <> compare_same_is_eq
+R752:752 ListString.LString <> t def
+R767:769 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R756:762 ListString.Comparison <> compare def
+R766:766 ListString.Comparison <> x var
+R764:764 ListString.Comparison <> x var
+R770:771 Coq.Init.Datatypes <> Eq constr
+R828:850 ListString.Char <> compare_same_is_eq thm
+R828:850 ListString.Char <> compare_same_is_eq thm
+R828:850 ListString.Char <> compare_same_is_eq thm
+def 921:923 <> eqb
+R932:932 ListString.LString <> t def
+R937:940 Coq.Init.Datatypes <> bool ind
+R953:959 ListString.Comparison <> compare def
+R963:963 ListString.Comparison <> y var
+R961:961 ListString.Comparison <> x var
+R974:975 Coq.Init.Datatypes <> Eq constr
+R980:983 Coq.Init.Datatypes <> true constr
+R994:998 Coq.Init.Datatypes <> false constr
+prf 1014:1027 <> eqb_implies_eq
+R1045:1045 ListString.LString <> t def
+R1063:1066 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1068:1070 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1067:1067 ListString.Comparison <> x var
+R1071:1071 ListString.Comparison <> y var
+R1056:1058 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1049:1051 ListString.Comparison <> eqb def
+R1055:1055 ListString.Comparison <> y var
+R1053:1053 ListString.Comparison <> x var
+R1059:1062 Coq.Init.Datatypes <> true constr
+R1095:1097 ListString.Comparison <> eqb def
+R1109:1115 ListString.Comparison <> compare def
+R1109:1115 ListString.Comparison <> compare def
+R1159:1176 ListString.Comparison <> compare_implies_eq thm
+R1159:1176 ListString.Comparison <> compare_implies_eq thm
+prf 1191:1204 <> eqb_same_is_eq
+R1220:1220 ListString.LString <> t def
+R1231:1233 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1224:1226 ListString.Comparison <> eqb def
+R1230:1230 ListString.Comparison <> x var
+R1228:1228 ListString.Comparison <> x var
+R1234:1237 Coq.Init.Datatypes <> true constr
+R1261:1263 ListString.Comparison <> eqb def
+R1274:1291 ListString.Comparison <> compare_same_is_eq thm
+R1274:1291 ListString.Comparison <> compare_same_is_eq thm
+R1274:1291 ListString.Comparison <> compare_same_is_eq thm
+def 1354:1359 <> eq_dec
+R1368:1368 ListString.LString <> t def
+R1373:1373 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1379:1383 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1390:1390 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1375:1377 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1374:1374 ListString.Comparison <> x var
+R1378:1378 ListString.Comparison <> y var
+R1385:1388 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1384:1384 ListString.Comparison <> x var
+R1389:1389 ListString.Comparison <> y var
+R1404:1406 ListString.Comparison <> eqb def
+R1404:1406 ListString.Comparison <> eqb def
+R1456:1469 ListString.Comparison <> eqb_implies_eq thm
+R1456:1469 ListString.Comparison <> eqb_implies_eq thm
+R1520:1533 ListString.Comparison <> eqb_same_is_eq thm
+R1520:1533 ListString.Comparison <> eqb_same_is_eq thm
+R1520:1533 ListString.Comparison <> eqb_same_is_eq thm

@@ -1,0 +1,29 @@
+DIGEST a65d1b0450f7d834170128debd58ae31
+FZornsLemma.ImageImplicit
+R15:19 Coq.Sets.Image <> <> lib
+R33:34 Coq.Sets.Image <> Im ind
+R33:34 Coq.Sets.Image <> Im ind
+R55:60 Coq.Sets.Image <> Im_def thm
+R55:60 Coq.Sets.Image <> Im_def thm
+R81:86 Coq.Sets.Image <> Im_add thm
+R81:86 Coq.Sets.Image <> Im_add thm
+R107:117 Coq.Sets.Image <> image_empty thm
+R107:117 Coq.Sets.Image <> image_empty thm
+R138:149 Coq.Sets.Image <> finite_image thm
+R138:149 Coq.Sets.Image <> finite_image thm
+R170:175 Coq.Sets.Image <> Im_inv thm
+R170:175 Coq.Sets.Image <> Im_inv thm
+R196:213 Coq.Sets.Image <> not_injective_elim thm
+R196:213 Coq.Sets.Image <> not_injective_elim thm
+R234:250 Coq.Sets.Image <> cardinal_Im_intro thm
+R234:250 Coq.Sets.Image <> cardinal_Im_intro thm
+R271:283 Coq.Sets.Image <> In_Image_elim thm
+R271:283 Coq.Sets.Image <> In_Image_elim thm
+R304:331 Coq.Sets.Image <> injective_preserves_cardinal thm
+R304:331 Coq.Sets.Image <> injective_preserves_cardinal thm
+R352:369 Coq.Sets.Image <> cardinal_decreases thm
+R352:369 Coq.Sets.Image <> cardinal_decreases thm
+R390:399 Coq.Sets.Image <> Pigeonhole thm
+R390:399 Coq.Sets.Image <> Pigeonhole thm
+R420:439 Coq.Sets.Image <> Pigeonhole_principle thm
+R420:439 Coq.Sets.Image <> Pigeonhole_principle thm

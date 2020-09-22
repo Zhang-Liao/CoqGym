@@ -1,0 +1,105 @@
+DIGEST 09318048510b69f524118888170f68e6
+FAlgebra.Generated_monoid
+R1086:1098 Algebra.Monoid_kernel <> <> lib
+R1116:1126 Algebra.Free_monoid <> <> lib
+sec 1137:1156 <> Generated_monoid_def
+var 1168:1168 Generated_monoid_def M
+R1172:1177 Algebra.Monoid_cat <> MONOID def
+var 1189:1189 Generated_monoid_def A
+R1193:1200 Algebra.Parts <> part_set def
+R1202:1202 Algebra.Generated_monoid <> Generated_monoid_def.M var
+def 1217:1232 <> generated_monoid
+R1236:1244 Algebra.Sub_monoid <> submonoid rec
+R1246:1246 Algebra.Generated_monoid <> Generated_monoid_def.M var
+R1253:1268 Algebra.Monoid_kernel <> image_monoid_hom def
+R1271:1277 Algebra.Free_monoid <> FM_lift def
+R1280:1287 Algebra.Parts <> inj_part def
+R1289:1289 Algebra.Generated_monoid <> Generated_monoid_def.A var
+R1298:1317 Algebra.Generated_monoid Generated_monoid_def <> sec
+prf 1327:1350 <> generated_monoid_minimal
+R1367:1372 Algebra.Monoid_cat <> MONOID def
+R1380:1387 Algebra.Parts <> part_set def
+R1389:1389 Algebra.Generated_monoid <> M var
+R1397:1405 Algebra.Sub_monoid <> submonoid rec
+R1407:1407 Algebra.Generated_monoid <> M var
+R1424:1427 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1428:1435 Algebra.Parts <> included def
+R1458:1458 Algebra.Generated_monoid <> H var
+R1438:1453 Algebra.Generated_monoid <> generated_monoid def
+R1455:1455 Algebra.Generated_monoid <> A var
+R1412:1419 Algebra.Parts <> included def
+R1423:1423 Algebra.Generated_monoid <> H var
+R1421:1421 Algebra.Generated_monoid <> A var
+R1468:1475 Algebra.Parts <> included def
+R1740:1753 Algebra.Parts <> in_part_comp_l thm
+R1740:1753 Algebra.Parts <> in_part_comp_l thm
+R1909:1918 Algebra.Sgroup_cat <> sgroup_law def
+R1952:1962 Algebra.Free_monoid <> FM_lift_fun def
+R1965:1972 Algebra.Parts <> inj_part def
+R1923:1933 Algebra.Free_monoid <> FM_lift_fun def
+R1936:1943 Algebra.Parts <> inj_part def
+R1882:1895 Algebra.Parts <> in_part_comp_l thm
+R1909:1918 Algebra.Sgroup_cat <> sgroup_law def
+R1952:1962 Algebra.Free_monoid <> FM_lift_fun def
+R1965:1972 Algebra.Parts <> inj_part def
+R1923:1933 Algebra.Free_monoid <> FM_lift_fun def
+R1936:1943 Algebra.Parts <> inj_part def
+R1882:1895 Algebra.Parts <> in_part_comp_l thm
+R2111:2121 Algebra.Monoid_cat <> monoid_unit proj
+R2090:2103 Algebra.Parts <> in_part_comp_l thm
+R2111:2121 Algebra.Monoid_cat <> monoid_unit proj
+R2090:2103 Algebra.Parts <> in_part_comp_l thm
+prf 2158:2187 <> generated_monoid_prop_included
+R2204:2209 Algebra.Monoid_cat <> MONOID def
+R2217:2224 Algebra.Parts <> part_set def
+R2226:2226 Algebra.Generated_monoid <> M var
+R2230:2237 Algebra.Parts <> included def
+R2242:2257 Algebra.Generated_monoid <> generated_monoid def
+R2259:2259 Algebra.Generated_monoid <> A var
+R2239:2239 Algebra.Generated_monoid <> A var
+R2270:2277 Algebra.Parts <> included def
+R2344:2346 Algebra.Free_monoid <> Var constr
+R2356:2368 Algebra.Parts <> Build_subtype constr
+R2344:2346 Algebra.Free_monoid <> Var constr
+R2356:2368 Algebra.Parts <> Build_subtype constr
+prf 2508:2528 <> generated_monoid_prop
+R2545:2550 Algebra.Monoid_cat <> MONOID def
+R2558:2565 Algebra.Parts <> part_set def
+R2567:2567 Algebra.Generated_monoid <> M var
+R2575:2575 Algebra.Generated_monoid <> M var
+R2610:2614 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2615:2621 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2630:2631 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2626:2627 Algebra.Free_monoid <> FM ind
+R2629:2629 Algebra.Generated_monoid <> A var
+R2632:2636 Algebra.Sets <> Equal proj
+R2641:2647 Algebra.Free_monoid <> FM_lift def
+R2662:2662 Algebra.Generated_monoid <> x var
+R2650:2657 Algebra.Parts <> inj_part def
+R2659:2659 Algebra.Generated_monoid <> A var
+R2638:2638 Algebra.Generated_monoid <> y var
+R2580:2586 Algebra.Parts <> in_part def
+R2591:2606 Algebra.Generated_monoid <> generated_monoid def
+R2608:2608 Algebra.Generated_monoid <> A var
+R2588:2588 Algebra.Generated_monoid <> y var
+prf 2843:2867 <> generated_monoid_prop_rev
+R2884:2889 Algebra.Monoid_cat <> MONOID def
+R2897:2904 Algebra.Parts <> part_set def
+R2906:2906 Algebra.Generated_monoid <> M var
+R2914:2914 Algebra.Generated_monoid <> M var
+R2919:2919 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2969:2974 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2975:2981 Algebra.Parts <> in_part def
+R2986:3001 Algebra.Generated_monoid <> generated_monoid def
+R3003:3003 Algebra.Generated_monoid <> A var
+R2983:2983 Algebra.Generated_monoid <> y var
+R2920:2926 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2935:2936 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R2931:2932 Algebra.Free_monoid <> FM ind
+R2934:2934 Algebra.Generated_monoid <> A var
+R2937:2941 Algebra.Sets <> Equal proj
+R2946:2952 Algebra.Free_monoid <> FM_lift def
+R2967:2967 Algebra.Generated_monoid <> x var
+R2955:2962 Algebra.Parts <> inj_part def
+R2964:2964 Algebra.Generated_monoid <> A var
+R2943:2943 Algebra.Generated_monoid <> y var

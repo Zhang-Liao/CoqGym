@@ -1,0 +1,20 @@
+DIGEST e593861cf4b43b2428a1ee5236ace44d
+Fmathcomp.algebra.all_algebra
+R15:20 mathcomp.algebra.ssralg <> <> lib
+R38:43 mathcomp.algebra.ssrnum <> <> lib
+R61:66 mathcomp.algebra.finalg <> <> lib
+R84:91 mathcomp.algebra.countalg <> <> lib
+R109:112 mathcomp.algebra.poly <> <> lib
+R130:136 mathcomp.algebra.polydiv <> <> lib
+R154:159 mathcomp.algebra.polyXY <> <> lib
+R177:182 mathcomp.algebra.ssrint <> <> lib
+R200:202 mathcomp.algebra.rat <> <> lib
+R220:225 mathcomp.algebra.intdiv <> <> lib
+R243:250 mathcomp.algebra.interval <> <> lib
+R268:273 mathcomp.algebra.matrix <> <> lib
+R291:296 mathcomp.algebra.mxpoly <> <> lib
+R314:322 mathcomp.algebra.mxalgebra <> <> lib
+R340:345 mathcomp.algebra.vector <> <> lib
+R363:375 mathcomp.algebra.ring_quotient <> <> lib
+R393:400 mathcomp.algebra.fraction <> <> lib
+R418:422 mathcomp.algebra.zmodp <> <> lib

@@ -1,0 +1,16 @@
+DIGEST 3ab9a9e2b570c66cb2ff3f9f9511aa6e
+FAlgebra.Cfield_cat
+R1086:1093 Algebra.Ring_cat <> <> lib
+R1111:1119 Algebra.Field_cat <> <> lib
+rec 1181:1186 <> cfield
+proj 1202:1212 <> cfield_ring
+proj 1223:1235 <> cfield_on_def
+R1216:1220 Algebra.Ring_cat <> cring rec
+R1240:1247 Algebra.Field_cat <> field_on rec
+R1249:1259 Algebra.Cfield_cat <> cfield_ring meth
+R1263:1301 Algebra.Cfield_cat <> cfield_ring proj
+def 1316:1321 <> CFIELD
+R1326:1336 Algebra.Categories <> full_subcat def
+R1362:1372 Algebra.Cfield_cat <> cfield_ring proj
+R1354:1359 Algebra.Cfield_cat <> cfield rec
+R1342:1346 Algebra.Ring_cat <> CRING def

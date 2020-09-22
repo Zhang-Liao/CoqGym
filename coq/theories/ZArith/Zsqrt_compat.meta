@@ -1,0 +1,298 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 702} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 12; Loc.bol_pos = 703; Loc.line_nb_last = 12; Loc.bol_pos_last = 703; Loc.bp = 703; Loc.ep = 724} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 13; Loc.bol_pos = 725; Loc.line_nb_last = 13; Loc.bol_pos_last = 725; Loc.bp = 725; Loc.ep = 752} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 14; Loc.bol_pos = 753; Loc.line_nb_last = 14; Loc.bol_pos_last = 753; Loc.bp = 753; Loc.ep = 778} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 32; Loc.bol_pos = 1439; Loc.line_nb_last = 44; Loc.bol_pos_last = 1769; Loc.bp = 1439; Loc.ep = 1775} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 46; Loc.bol_pos = 1777; Loc.line_nb_last = 47; Loc.bol_pos_last = 1812; Loc.bp = 1777; Loc.ep = 1885} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 49; Loc.bol_pos = 1887; Loc.line_nb_last = 49; Loc.bol_pos_last = 1887; Loc.bp = 1887; Loc.ep = 1949} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 50; Loc.bol_pos = 1950; Loc.line_nb_last = 100; Loc.bol_pos_last = 3767; Loc.bp = 1952; Loc.ep = 3807} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 101; Loc.bol_pos = 3808; Loc.line_nb_last = 101; Loc.bol_pos_last = 3808; Loc.bp = 3808; Loc.ep = 3816} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sqrtrempos **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 104; Loc.bol_pos = 3896; Loc.line_nb_last = 107; Loc.bol_pos_last = 3943; Loc.bp = 3896; Loc.ep = 4016} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 108; Loc.bol_pos = 4017; Loc.line_nb_last = 145; Loc.bol_pos_last = 5068; Loc.bp = 4019; Loc.ep = 5088} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 146; Loc.bol_pos = 5089; Loc.line_nb_last = 146; Loc.bol_pos_last = 5089; Loc.bp = 5090; Loc.ep = 5169} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 147; Loc.bol_pos = 5170; Loc.line_nb_last = 147; Loc.bol_pos_last = 5170; Loc.bp = 5170; Loc.ep = 5178} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zsqrt **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 151; Loc.bol_pos = 5310; Loc.line_nb_last = 159; Loc.bol_pos_last = 5492; Loc.bp = 5310; Loc.ep = 5498} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 163; Loc.bol_pos = 5542; Loc.line_nb_last = 167; Loc.bol_pos_last = 5636; Loc.bp = 5542; Loc.ep = 5682} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 168; Loc.bol_pos = 5683; Loc.line_nb_last = 168; Loc.bol_pos_last = 5683; Loc.bp = 5683; Loc.ep = 5689} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 169; Loc.bol_pos = 5690; Loc.line_nb_last = 169; Loc.bol_pos_last = 5690; Loc.bp = 5692; Loc.ep = 5709} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 170; Loc.bol_pos = 5710; Loc.line_nb_last = 170; Loc.bol_pos_last = 5710; Loc.bp = 5712; Loc.ep = 5713} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 170; Loc.bol_pos = 5710; Loc.line_nb_last = 170; Loc.bol_pos_last = 5710; Loc.bp = 5714; Loc.ep = 5726} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 171; Loc.bol_pos = 5727; Loc.line_nb_last = 171; Loc.bol_pos_last = 5727; Loc.bp = 5729; Loc.ep = 5730} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 171; Loc.bol_pos = 5727; Loc.line_nb_last = 171; Loc.bol_pos_last = 5727; Loc.bp = 5731; Loc.ep = 5750} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 172; Loc.bol_pos = 5751; Loc.line_nb_last = 172; Loc.bol_pos_last = 5751; Loc.bp = 5755; Loc.ep = 5798} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 173; Loc.bol_pos = 5799; Loc.line_nb_last = 173; Loc.bol_pos_last = 5799; Loc.bp = 5801; Loc.ep = 5802} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 173; Loc.bol_pos = 5799; Loc.line_nb_last = 173; Loc.bol_pos_last = 5799; Loc.bp = 5803; Loc.ep = 5815} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 174; Loc.bol_pos = 5816; Loc.line_nb_last = 174; Loc.bol_pos_last = 5816; Loc.bp = 5816; Loc.ep = 5820} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zsqrt_interval **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 178; Loc.bol_pos = 5841; Loc.line_nb_last = 178; Loc.bol_pos_last = 5841; Loc.bp = 5841; Loc.ep = 5909} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 179; Loc.bol_pos = 5910; Loc.line_nb_last = 179; Loc.bol_pos_last = 5910; Loc.bp = 5910; Loc.ep = 5916} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 180; Loc.bol_pos = 5917; Loc.line_nb_last = 180; Loc.bol_pos_last = 5917; Loc.bp = 5919; Loc.ep = 5973} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 181; Loc.bol_pos = 5974; Loc.line_nb_last = 181; Loc.bol_pos_last = 5974; Loc.bp = 5976; Loc.ep = 6035} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 182; Loc.bol_pos = 6036; Loc.line_nb_last = 182; Loc.bol_pos_last = 6036; Loc.bp = 6038; Loc.ep = 6085} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 183; Loc.bol_pos = 6086; Loc.line_nb_last = 183; Loc.bol_pos_last = 6086; Loc.bp = 6088; Loc.ep = 6122} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 184; Loc.bol_pos = 6123; Loc.line_nb_last = 186; Loc.bol_pos_last = 6246; Loc.bp = 6125; Loc.ep = 6265} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 187; Loc.bol_pos = 6266; Loc.line_nb_last = 187; Loc.bol_pos_last = 6266; Loc.bp = 6268; Loc.ep = 6273} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 188; Loc.bol_pos = 6274; Loc.line_nb_last = 188; Loc.bol_pos_last = 6274; Loc.bp = 6274; Loc.ep = 6278} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zsqrt_plain_is_pos **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 192; Loc.bol_pos = 6319; Loc.line_nb_last = 192; Loc.bol_pos_last = 6319; Loc.bp = 6319; Loc.ep = 6389} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 193; Loc.bol_pos = 6390; Loc.line_nb_last = 193; Loc.bol_pos_last = 6390; Loc.bp = 6390; Loc.ep = 6396} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 194; Loc.bol_pos = 6397; Loc.line_nb_last = 194; Loc.bol_pos_last = 6397; Loc.bp = 6399; Loc.ep = 6410} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 195; Loc.bol_pos = 6411; Loc.line_nb_last = 195; Loc.bol_pos_last = 6411; Loc.bp = 6413; Loc.ep = 6483} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 196; Loc.bol_pos = 6484; Loc.line_nb_last = 196; Loc.bol_pos_last = 6484; Loc.bp = 6486; Loc.ep = 6534} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 197; Loc.bol_pos = 6535; Loc.line_nb_last = 197; Loc.bol_pos_last = 6535; Loc.bp = 6537; Loc.ep = 6550} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 198; Loc.bol_pos = 6551; Loc.line_nb_last = 198; Loc.bol_pos_last = 6551; Loc.bp = 6553; Loc.ep = 6609} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 199; Loc.bol_pos = 6610; Loc.line_nb_last = 199; Loc.bol_pos_last = 6610; Loc.bp = 6612; Loc.ep = 6613} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 199; Loc.bol_pos = 6610; Loc.line_nb_last = 199; Loc.bol_pos_last = 6610; Loc.bp = 6614; Loc.ep = 6633} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 200; Loc.bol_pos = 6634; Loc.line_nb_last = 200; Loc.bol_pos_last = 6634; Loc.bp = 6638; Loc.ep = 6692} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 201; Loc.bol_pos = 6693; Loc.line_nb_last = 201; Loc.bol_pos_last = 6693; Loc.bp = 6697; Loc.ep = 6766} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 202; Loc.bol_pos = 6767; Loc.line_nb_last = 202; Loc.bol_pos_last = 6767; Loc.bp = 6771; Loc.ep = 6815} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 203; Loc.bol_pos = 6816; Loc.line_nb_last = 203; Loc.bol_pos_last = 6816; Loc.bp = 6818; Loc.ep = 6819} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 203; Loc.bol_pos = 6816; Loc.line_nb_last = 203; Loc.bol_pos_last = 6816; Loc.bp = 6820; Loc.ep = 6874} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 204; Loc.bol_pos = 6875; Loc.line_nb_last = 204; Loc.bol_pos_last = 6875; Loc.bp = 6879; Loc.ep = 6924} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 205; Loc.bol_pos = 6925; Loc.line_nb_last = 205; Loc.bol_pos_last = 6925; Loc.bp = 6925; Loc.ep = 6929} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zsqrt_square_id **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 209; Loc.bol_pos = 6967; Loc.line_nb_last = 210; Loc.bol_pos_last = 6985; Loc.bp = 6967; Loc.ep = 7046} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 211; Loc.bol_pos = 7047; Loc.line_nb_last = 211; Loc.bol_pos_last = 7047; Loc.bp = 7047; Loc.ep = 7053} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 212; Loc.bol_pos = 7054; Loc.line_nb_last = 212; Loc.bol_pos_last = 7054; Loc.bp = 7056; Loc.ep = 7075} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 213; Loc.bol_pos = 7076; Loc.line_nb_last = 213; Loc.bol_pos_last = 7076; Loc.bp = 7078; Loc.ep = 7123} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 214; Loc.bol_pos = 7124; Loc.line_nb_last = 214; Loc.bol_pos_last = 7124; Loc.bp = 7126; Loc.ep = 7196} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 215; Loc.bol_pos = 7197; Loc.line_nb_last = 215; Loc.bol_pos_last = 7197; Loc.bp = 7199; Loc.ep = 7233} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 216; Loc.bol_pos = 7234; Loc.line_nb_last = 216; Loc.bol_pos_last = 7234; Loc.bp = 7236; Loc.ep = 7237} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 216; Loc.bol_pos = 7234; Loc.line_nb_last = 216; Loc.bol_pos_last = 7234; Loc.bp = 7238; Loc.ep = 7281} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 216; Loc.bol_pos = 7234; Loc.line_nb_last = 216; Loc.bol_pos_last = 7234; Loc.bp = 7282; Loc.ep = 7283} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 217; Loc.bol_pos = 7284; Loc.line_nb_last = 217; Loc.bol_pos_last = 7284; Loc.bp = 7286; Loc.ep = 7320} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 218; Loc.bol_pos = 7321; Loc.line_nb_last = 218; Loc.bol_pos_last = 7321; Loc.bp = 7323; Loc.ep = 7389} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 219; Loc.bol_pos = 7390; Loc.line_nb_last = 219; Loc.bol_pos_last = 7390; Loc.bp = 7392; Loc.ep = 7434} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 220; Loc.bol_pos = 7435; Loc.line_nb_last = 220; Loc.bol_pos_last = 7435; Loc.bp = 7437; Loc.ep = 7509} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 221; Loc.bol_pos = 7510; Loc.line_nb_last = 221; Loc.bol_pos_last = 7510; Loc.bp = 7512; Loc.ep = 7557} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 222; Loc.bol_pos = 7558; Loc.line_nb_last = 222; Loc.bol_pos_last = 7558; Loc.bp = 7560; Loc.ep = 7602} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 223; Loc.bol_pos = 7603; Loc.line_nb_last = 223; Loc.bol_pos_last = 7603; Loc.bp = 7603; Loc.ep = 7607} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zsqrt_le **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 228; Loc.bol_pos = 7663; Loc.line_nb_last = 228; Loc.bol_pos_last = 7663; Loc.bp = 7663; Loc.ep = 7718} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 229; Loc.bol_pos = 7719; Loc.line_nb_last = 229; Loc.bol_pos_last = 7719; Loc.bp = 7719; Loc.ep = 7725} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 230; Loc.bol_pos = 7726; Loc.line_nb_last = 230; Loc.bol_pos_last = 7726; Loc.bp = 7727; Loc.ep = 7734} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 230; Loc.bol_pos = 7726; Loc.line_nb_last = 230; Loc.bol_pos_last = 7726; Loc.bp = 7735; Loc.ep = 7762} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 231; Loc.bol_pos = 7763; Loc.line_nb_last = 231; Loc.bol_pos_last = 7763; Loc.bp = 7764; Loc.ep = 7773} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 231; Loc.bol_pos = 7763; Loc.line_nb_last = 231; Loc.bol_pos_last = 7763; Loc.bp = 7774; Loc.ep = 7803} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 232; Loc.bol_pos = 7804; Loc.line_nb_last = 232; Loc.bol_pos_last = 7804; Loc.bp = 7805; Loc.ep = 7830} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 233; Loc.bol_pos = 7831; Loc.line_nb_last = 233; Loc.bol_pos_last = 7831; Loc.bp = 7832; Loc.ep = 7847} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zsqrt_compat.v"; Loc.line_nb = 234; Loc.bol_pos = 7848; Loc.line_nb_last = 234; Loc.bol_pos_last = 7848; Loc.bp = 7848; Loc.ep = 7852} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zsqrt_equiv **)

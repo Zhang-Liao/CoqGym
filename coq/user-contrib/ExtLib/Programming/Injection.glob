@@ -1,0 +1,33 @@
+DIGEST 5fd7d113444d903279748055eeb77db2
+FExtLib.Programming.Injection
+R15:31 Coq.Strings.Ascii <> <> lib
+R49:66 Coq.Strings.String <> <> lib
+ind 145:153 <> Injection
+constr 180:185 <> inject
+rec 145:153 <> Injection
+proj 180:185 <> inject
+R190:193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R194:194 ExtLib.Programming.Injection <> t var
+R189:189 ExtLib.Programming.Injection <> x var
+inst 304:317 <> Injection_refl
+R332:340 ExtLib.Programming.Injection <> Injection class
+R344:344 ExtLib.Programming.Injection <> T var
+R342:342 ExtLib.Programming.Injection <> T var
+R351:356 ExtLib.Programming.Injection <> inject def
+R362:363 Coq.Init.Datatypes <> id def
+inst 380:401 <> Injection_ascii_string
+R405:413 ExtLib.Programming.Injection <> Injection class
+R421:426 Coq.Strings.String <> string ind
+R415:419 Coq.Strings.Ascii <> ascii ind
+R435:440 ExtLib.Programming.Injection <> inject def
+R447:452 Coq.Strings.String <> String constr
+R456:466 Coq.Strings.String <> EmptyString constr
+R454:454 ExtLib.Programming.Injection <> a var
+inst 480:506 <> Injection_ascii_string_cons
+R510:518 ExtLib.Programming.Injection <> Injection class
+R533:536 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R537:542 Coq.Strings.String <> string ind
+R527:532 Coq.Strings.String <> string ind
+R520:524 Coq.Strings.Ascii <> ascii ind
+R552:557 ExtLib.Programming.Injection <> inject def
+R562:567 Coq.Strings.String <> String constr

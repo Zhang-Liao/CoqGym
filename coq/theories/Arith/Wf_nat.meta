@@ -1,0 +1,519 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 13; Loc.bol_pos = 727; Loc.line_nb_last = 13; Loc.bol_pos_last = 727; Loc.bp = 727; Loc.ep = 754} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 15; Loc.bol_pos = 756; Loc.line_nb_last = 15; Loc.bol_pos_last = 756; Loc.bp = 756; Loc.ep = 783} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 17; Loc.bol_pos = 785; Loc.line_nb_last = 17; Loc.bol_pos_last = 785; Loc.bp = 785; Loc.ep = 812} **)
+(**VERNAC_TYPE** VernacReserve **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 19; Loc.bol_pos = 814; Loc.line_nb_last = 19; Loc.bol_pos_last = 814; Loc.bp = 814; Loc.ep = 839} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 21; Loc.bol_pos = 841; Loc.line_nb_last = 21; Loc.bol_pos_last = 841; Loc.bp = 841; Loc.ep = 859} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 23; Loc.bol_pos = 861; Loc.line_nb_last = 23; Loc.bol_pos_last = 861; Loc.bp = 861; Loc.ep = 883} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 24; Loc.bol_pos = 884; Loc.line_nb_last = 24; Loc.bol_pos_last = 884; Loc.bp = 884; Loc.ep = 921} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 25; Loc.bol_pos = 922; Loc.line_nb_last = 25; Loc.bol_pos_last = 922; Loc.bp = 922; Loc.ep = 959} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 27; Loc.bol_pos = 961; Loc.line_nb_last = 27; Loc.bol_pos_last = 961; Loc.bp = 961; Loc.ep = 1007} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 28; Loc.bol_pos = 1008; Loc.line_nb_last = 28; Loc.bol_pos_last = 1008; Loc.bp = 1008; Loc.ep = 1014} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 29; Loc.bol_pos = 1015; Loc.line_nb_last = 29; Loc.bol_pos_last = 1015; Loc.bp = 1017; Loc.ep = 1068} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 30; Loc.bol_pos = 1069; Loc.line_nb_last = 30; Loc.bol_pos_last = 1069; Loc.bp = 1071; Loc.ep = 1072} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 30; Loc.bol_pos = 1069; Loc.line_nb_last = 30; Loc.bol_pos_last = 1069; Loc.bp = 1073; Loc.ep = 1085} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 31; Loc.bol_pos = 1086; Loc.line_nb_last = 31; Loc.bol_pos_last = 1086; Loc.bp = 1090; Loc.ep = 1091} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 31; Loc.bol_pos = 1086; Loc.line_nb_last = 31; Loc.bol_pos_last = 1086; Loc.bp = 1092; Loc.ep = 1134} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 32; Loc.bol_pos = 1135; Loc.line_nb_last = 32; Loc.bol_pos_last = 1135; Loc.bp = 1139; Loc.ep = 1140} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 32; Loc.bol_pos = 1135; Loc.line_nb_last = 32; Loc.bol_pos_last = 1135; Loc.bp = 1141; Loc.ep = 1153} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 32; Loc.bol_pos = 1135; Loc.line_nb_last = 32; Loc.bol_pos_last = 1135; Loc.bp = 1154; Loc.ep = 1170} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 32; Loc.bol_pos = 1135; Loc.line_nb_last = 32; Loc.bol_pos_last = 1135; Loc.bp = 1171; Loc.ep = 1188} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 32; Loc.bol_pos = 1135; Loc.line_nb_last = 32; Loc.bol_pos_last = 1135; Loc.bp = 1189; Loc.ep = 1201} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 33; Loc.bol_pos = 1202; Loc.line_nb_last = 33; Loc.bol_pos_last = 1202; Loc.bp = 1208; Loc.ep = 1218} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 33; Loc.bol_pos = 1202; Loc.line_nb_last = 33; Loc.bol_pos_last = 1202; Loc.bp = 1219; Loc.ep = 1269} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 33; Loc.bol_pos = 1202; Loc.line_nb_last = 33; Loc.bol_pos_last = 1202; Loc.bp = 1270; Loc.ep = 1271} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 34; Loc.bol_pos = 1272; Loc.line_nb_last = 34; Loc.bol_pos_last = 1272; Loc.bp = 1274; Loc.ep = 1283} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 34; Loc.bol_pos = 1272; Loc.line_nb_last = 34; Loc.bol_pos_last = 1272; Loc.bp = 1284; Loc.ep = 1304} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 34; Loc.bol_pos = 1272; Loc.line_nb_last = 34; Loc.bol_pos_last = 1272; Loc.bp = 1305; Loc.ep = 1321} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 35; Loc.bol_pos = 1322; Loc.line_nb_last = 35; Loc.bol_pos_last = 1322; Loc.bp = 1322; Loc.ep = 1330} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** well_founded_ltof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 37; Loc.bol_pos = 1332; Loc.line_nb_last = 37; Loc.bol_pos_last = 1332; Loc.bp = 1332; Loc.ep = 1378} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 38; Loc.bol_pos = 1379; Loc.line_nb_last = 38; Loc.bol_pos_last = 1379; Loc.bp = 1379; Loc.ep = 1385} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 39; Loc.bol_pos = 1386; Loc.line_nb_last = 39; Loc.bol_pos_last = 1386; Loc.bp = 1388; Loc.ep = 1412} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 40; Loc.bol_pos = 1413; Loc.line_nb_last = 40; Loc.bol_pos_last = 1413; Loc.bp = 1413; Loc.ep = 1421} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** well_founded_gtof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 64; Loc.bol_pos = 1977; Loc.line_nb_last = 66; Loc.bol_pos_last = 2024; Loc.bp = 1977; Loc.ep = 2098} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 67; Loc.bol_pos = 2099; Loc.line_nb_last = 67; Loc.bol_pos_last = 2099; Loc.bp = 2099; Loc.ep = 2105} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 68; Loc.bol_pos = 2106; Loc.line_nb_last = 68; Loc.bol_pos_last = 2106; Loc.bp = 2108; Loc.ep = 2119} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 69; Loc.bol_pos = 2120; Loc.line_nb_last = 69; Loc.bol_pos_last = 2120; Loc.bp = 2122; Loc.ep = 2166} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 70; Loc.bol_pos = 2167; Loc.line_nb_last = 70; Loc.bol_pos_last = 2167; Loc.bp = 2169; Loc.ep = 2170} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 70; Loc.bol_pos = 2167; Loc.line_nb_last = 70; Loc.bol_pos_last = 2167; Loc.bp = 2171; Loc.ep = 2183} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 71; Loc.bol_pos = 2184; Loc.line_nb_last = 71; Loc.bol_pos_last = 2184; Loc.bp = 2188; Loc.ep = 2189} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 71; Loc.bol_pos = 2184; Loc.line_nb_last = 71; Loc.bol_pos_last = 2184; Loc.bp = 2190; Loc.ep = 2232} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 72; Loc.bol_pos = 2233; Loc.line_nb_last = 72; Loc.bol_pos_last = 2233; Loc.bp = 2237; Loc.ep = 2238} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 72; Loc.bol_pos = 2233; Loc.line_nb_last = 72; Loc.bol_pos_last = 2233; Loc.bp = 2239; Loc.ep = 2251} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 72; Loc.bol_pos = 2233; Loc.line_nb_last = 72; Loc.bol_pos_last = 2233; Loc.bp = 2252; Loc.ep = 2260} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 72; Loc.bol_pos = 2233; Loc.line_nb_last = 72; Loc.bol_pos_last = 2233; Loc.bp = 2261; Loc.ep = 2273} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 72; Loc.bol_pos = 2233; Loc.line_nb_last = 72; Loc.bol_pos_last = 2233; Loc.bp = 2274; Loc.ep = 2286} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 73; Loc.bol_pos = 2287; Loc.line_nb_last = 73; Loc.bol_pos_last = 2287; Loc.bp = 2293; Loc.ep = 2303} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 73; Loc.bol_pos = 2287; Loc.line_nb_last = 73; Loc.bol_pos_last = 2287; Loc.bp = 2304; Loc.ep = 2354} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 73; Loc.bol_pos = 2287; Loc.line_nb_last = 73; Loc.bol_pos_last = 2287; Loc.bp = 2355; Loc.ep = 2356} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 74; Loc.bol_pos = 2357; Loc.line_nb_last = 74; Loc.bol_pos_last = 2357; Loc.bp = 2359; Loc.ep = 2368} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 74; Loc.bol_pos = 2357; Loc.line_nb_last = 74; Loc.bol_pos_last = 2357; Loc.bp = 2369; Loc.ep = 2389} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 74; Loc.bol_pos = 2357; Loc.line_nb_last = 74; Loc.bol_pos_last = 2357; Loc.bp = 2390; Loc.ep = 2406} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 75; Loc.bol_pos = 2407; Loc.line_nb_last = 75; Loc.bol_pos_last = 2407; Loc.bp = 2407; Loc.ep = 2415} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** induction_ltof1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 77; Loc.bol_pos = 2417; Loc.line_nb_last = 79; Loc.bol_pos_last = 2464; Loc.bp = 2417; Loc.ep = 2538} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 80; Loc.bol_pos = 2539; Loc.line_nb_last = 80; Loc.bol_pos_last = 2539; Loc.bp = 2539; Loc.ep = 2545} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 81; Loc.bol_pos = 2546; Loc.line_nb_last = 81; Loc.bol_pos_last = 2546; Loc.bp = 2548; Loc.ep = 2570} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 82; Loc.bol_pos = 2571; Loc.line_nb_last = 82; Loc.bol_pos_last = 2571; Loc.bp = 2571; Loc.ep = 2579} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** induction_gtof1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 84; Loc.bol_pos = 2581; Loc.line_nb_last = 86; Loc.bol_pos_last = 2628; Loc.bp = 2581; Loc.ep = 2702} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 87; Loc.bol_pos = 2703; Loc.line_nb_last = 87; Loc.bol_pos_last = 2703; Loc.bp = 2703; Loc.ep = 2709} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 88; Loc.bol_pos = 2710; Loc.line_nb_last = 88; Loc.bol_pos_last = 2710; Loc.bp = 2712; Loc.ep = 2761} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 89; Loc.bol_pos = 2762; Loc.line_nb_last = 89; Loc.bol_pos_last = 2762; Loc.bp = 2762; Loc.ep = 2770} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** induction_ltof2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 91; Loc.bol_pos = 2772; Loc.line_nb_last = 93; Loc.bol_pos_last = 2819; Loc.bp = 2772; Loc.ep = 2893} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 94; Loc.bol_pos = 2894; Loc.line_nb_last = 94; Loc.bol_pos_last = 2894; Loc.bp = 2894; Loc.ep = 2900} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 95; Loc.bol_pos = 2901; Loc.line_nb_last = 95; Loc.bol_pos_last = 2901; Loc.bp = 2903; Loc.ep = 2925} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 96; Loc.bol_pos = 2926; Loc.line_nb_last = 96; Loc.bol_pos_last = 2926; Loc.bp = 2926; Loc.ep = 2934} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** induction_gtof2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 101; Loc.bol_pos = 3047; Loc.line_nb_last = 101; Loc.bol_pos_last = 3047; Loc.bp = 3047; Loc.ep = 3075} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 103; Loc.bol_pos = 3077; Loc.line_nb_last = 103; Loc.bol_pos_last = 3077; Loc.bp = 3077; Loc.ep = 3132} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 105; Loc.bol_pos = 3134; Loc.line_nb_last = 105; Loc.bol_pos_last = 3134; Loc.bp = 3134; Loc.ep = 3182} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 106; Loc.bol_pos = 3183; Loc.line_nb_last = 106; Loc.bol_pos_last = 3183; Loc.bp = 3183; Loc.ep = 3189} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 107; Loc.bol_pos = 3190; Loc.line_nb_last = 107; Loc.bol_pos_last = 3190; Loc.bp = 3192; Loc.ep = 3240} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 108; Loc.bol_pos = 3241; Loc.line_nb_last = 108; Loc.bol_pos_last = 3241; Loc.bp = 3243; Loc.ep = 3244} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 108; Loc.bol_pos = 3241; Loc.line_nb_last = 108; Loc.bol_pos_last = 3241; Loc.bp = 3245; Loc.ep = 3257} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 109; Loc.bol_pos = 3258; Loc.line_nb_last = 109; Loc.bol_pos_last = 3258; Loc.bp = 3262; Loc.ep = 3263} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 109; Loc.bol_pos = 3258; Loc.line_nb_last = 109; Loc.bol_pos_last = 3258; Loc.bp = 3264; Loc.ep = 3306} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 110; Loc.bol_pos = 3307; Loc.line_nb_last = 110; Loc.bol_pos_last = 3307; Loc.bp = 3311; Loc.ep = 3312} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 110; Loc.bol_pos = 3307; Loc.line_nb_last = 110; Loc.bol_pos_last = 3307; Loc.bp = 3313; Loc.ep = 3325} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 110; Loc.bol_pos = 3307; Loc.line_nb_last = 110; Loc.bol_pos_last = 3307; Loc.bp = 3326; Loc.ep = 3342} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 110; Loc.bol_pos = 3307; Loc.line_nb_last = 110; Loc.bol_pos_last = 3307; Loc.bp = 3343; Loc.ep = 3355} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 111; Loc.bol_pos = 3356; Loc.line_nb_last = 111; Loc.bol_pos_last = 3356; Loc.bp = 3362; Loc.ep = 3372} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 111; Loc.bol_pos = 3356; Loc.line_nb_last = 111; Loc.bol_pos_last = 3356; Loc.bp = 3373; Loc.ep = 3423} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 111; Loc.bol_pos = 3356; Loc.line_nb_last = 111; Loc.bol_pos_last = 3356; Loc.bp = 3424; Loc.ep = 3425} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 112; Loc.bol_pos = 3426; Loc.line_nb_last = 112; Loc.bol_pos_last = 3426; Loc.bp = 3428; Loc.ep = 3437} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 112; Loc.bol_pos = 3426; Loc.line_nb_last = 112; Loc.bol_pos_last = 3426; Loc.bp = 3438; Loc.ep = 3458} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 112; Loc.bol_pos = 3426; Loc.line_nb_last = 112; Loc.bol_pos_last = 3426; Loc.bp = 3459; Loc.ep = 3475} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 113; Loc.bol_pos = 3476; Loc.line_nb_last = 113; Loc.bol_pos_last = 3476; Loc.bp = 3476; Loc.ep = 3484} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** well_founded_lt_compat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 115; Loc.bol_pos = 3486; Loc.line_nb_last = 115; Loc.bol_pos_last = 3486; Loc.bp = 3486; Loc.ep = 3507} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 117; Loc.bol_pos = 3509; Loc.line_nb_last = 117; Loc.bol_pos_last = 3509; Loc.bp = 3509; Loc.ep = 3539} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 118; Loc.bol_pos = 3540; Loc.line_nb_last = 118; Loc.bol_pos_last = 3540; Loc.bp = 3540; Loc.ep = 3546} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 119; Loc.bol_pos = 3547; Loc.line_nb_last = 119; Loc.bol_pos_last = 3547; Loc.bp = 3549; Loc.ep = 3592} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 120; Loc.bol_pos = 3593; Loc.line_nb_last = 120; Loc.bol_pos_last = 3593; Loc.bp = 3593; Loc.ep = 3601} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_wf **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 122; Loc.bol_pos = 3603; Loc.line_nb_last = 123; Loc.bol_pos_last = 3622; Loc.bp = 3603; Loc.ep = 3700} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 124; Loc.bol_pos = 3701; Loc.line_nb_last = 124; Loc.bol_pos_last = 3701; Loc.bp = 3701; Loc.ep = 3707} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 125; Loc.bol_pos = 3708; Loc.line_nb_last = 125; Loc.bol_pos_last = 3708; Loc.bp = 3710; Loc.ep = 3770} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 126; Loc.bol_pos = 3771; Loc.line_nb_last = 126; Loc.bol_pos_last = 3771; Loc.bp = 3771; Loc.ep = 3779} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_wf_rec1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 128; Loc.bol_pos = 3781; Loc.line_nb_last = 129; Loc.bol_pos_last = 3799; Loc.bp = 3781; Loc.ep = 3877} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 130; Loc.bol_pos = 3878; Loc.line_nb_last = 130; Loc.bol_pos_last = 3878; Loc.bp = 3878; Loc.ep = 3884} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 131; Loc.bol_pos = 3885; Loc.line_nb_last = 131; Loc.bol_pos_last = 3885; Loc.bp = 3887; Loc.ep = 3947} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 132; Loc.bol_pos = 3948; Loc.line_nb_last = 132; Loc.bol_pos_last = 3948; Loc.bp = 3948; Loc.ep = 3956} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_wf_rec **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 134; Loc.bol_pos = 3958; Loc.line_nb_last = 135; Loc.bol_pos_last = 3976; Loc.bp = 3958; Loc.ep = 4055} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 136; Loc.bol_pos = 4056; Loc.line_nb_last = 136; Loc.bol_pos_last = 4056; Loc.bp = 4056; Loc.ep = 4062} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 137; Loc.bol_pos = 4063; Loc.line_nb_last = 137; Loc.bol_pos_last = 4063; Loc.bp = 4065; Loc.ep = 4114} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 138; Loc.bol_pos = 4115; Loc.line_nb_last = 138; Loc.bol_pos_last = 4115; Loc.bp = 4115; Loc.ep = 4119} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_wf_ind **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 140; Loc.bol_pos = 4121; Loc.line_nb_last = 141; Loc.bol_pos_last = 4139; Loc.bp = 4121; Loc.ep = 4217} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 142; Loc.bol_pos = 4218; Loc.line_nb_last = 142; Loc.bol_pos_last = 4218; Loc.bp = 4218; Loc.ep = 4224} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 143; Loc.bol_pos = 4225; Loc.line_nb_last = 143; Loc.bol_pos_last = 4225; Loc.bp = 4227; Loc.ep = 4243} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 144; Loc.bol_pos = 4244; Loc.line_nb_last = 144; Loc.bol_pos_last = 4244; Loc.bp = 4244; Loc.ep = 4252} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** gt_wf_rec **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 146; Loc.bol_pos = 4254; Loc.line_nb_last = 147; Loc.bol_pos_last = 4272; Loc.bp = 4254; Loc.ep = 4351} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 148; Loc.bol_pos = 4352; Loc.line_nb_last = 148; Loc.bol_pos_last = 4352; Loc.bp = 4352; Loc.ep = 4368} **)
+(**VERNAC_TYPE** VernacExactProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 150; Loc.bol_pos = 4370; Loc.line_nb_last = 154; Loc.bol_pos_last = 4477; Loc.bp = 4370; Loc.ep = 4540} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 155; Loc.bol_pos = 4541; Loc.line_nb_last = 155; Loc.bol_pos_last = 4541; Loc.bp = 4541; Loc.ep = 4547} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 156; Loc.bol_pos = 4548; Loc.line_nb_last = 156; Loc.bol_pos_last = 4548; Loc.bp = 4550; Loc.ep = 4594} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 157; Loc.bol_pos = 4595; Loc.line_nb_last = 157; Loc.bol_pos_last = 4595; Loc.bp = 4597; Loc.ep = 4655} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 158; Loc.bol_pos = 4656; Loc.line_nb_last = 158; Loc.bol_pos_last = 4656; Loc.bp = 4656; Loc.ep = 4664} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_wf_double_rec **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 160; Loc.bol_pos = 4666; Loc.line_nb_last = 164; Loc.bol_pos_last = 4783; Loc.bp = 4666; Loc.ep = 4847} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 165; Loc.bol_pos = 4848; Loc.line_nb_last = 165; Loc.bol_pos_last = 4848; Loc.bp = 4848; Loc.ep = 4854} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 166; Loc.bol_pos = 4855; Loc.line_nb_last = 166; Loc.bol_pos_last = 4855; Loc.bp = 4857; Loc.ep = 4901} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 167; Loc.bol_pos = 4902; Loc.line_nb_last = 167; Loc.bol_pos_last = 4902; Loc.bp = 4904; Loc.ep = 4962} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 168; Loc.bol_pos = 4963; Loc.line_nb_last = 168; Loc.bol_pos_last = 4963; Loc.bp = 4963; Loc.ep = 4967} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_wf_double_ind **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 170; Loc.bol_pos = 4969; Loc.line_nb_last = 170; Loc.bol_pos_last = 4969; Loc.bp = 4969; Loc.ep = 4995} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 171; Loc.bol_pos = 4996; Loc.line_nb_last = 171; Loc.bol_pos_last = 4996; Loc.bp = 4996; Loc.ep = 5039} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 173; Loc.bol_pos = 5041; Loc.line_nb_last = 173; Loc.bol_pos_last = 5041; Loc.bp = 5041; Loc.ep = 5059} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 174; Loc.bol_pos = 5060; Loc.line_nb_last = 174; Loc.bol_pos_last = 5060; Loc.bp = 5062; Loc.ep = 5079} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 175; Loc.bol_pos = 5080; Loc.line_nb_last = 175; Loc.bol_pos_last = 5080; Loc.bp = 5082; Loc.ep = 5110} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 178; Loc.bol_pos = 5149; Loc.line_nb_last = 178; Loc.bol_pos_last = 5149; Loc.bp = 5151; Loc.ep = 5181} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 179; Loc.bol_pos = 5182; Loc.line_nb_last = 179; Loc.bol_pos_last = 5182; Loc.bp = 5184; Loc.ep = 5259} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 181; Loc.bol_pos = 5261; Loc.line_nb_last = 181; Loc.bol_pos_last = 5261; Loc.bp = 5263; Loc.ep = 5323} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 182; Loc.bol_pos = 5324; Loc.line_nb_last = 182; Loc.bol_pos_last = 5324; Loc.bp = 5326; Loc.ep = 5387} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 183; Loc.bol_pos = 5388; Loc.line_nb_last = 183; Loc.bol_pos_last = 5388; Loc.bp = 5390; Loc.ep = 5396} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 184; Loc.bol_pos = 5397; Loc.line_nb_last = 184; Loc.bol_pos_last = 5397; Loc.bp = 5401; Loc.ep = 5442} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 185; Loc.bol_pos = 5443; Loc.line_nb_last = 185; Loc.bol_pos_last = 5443; Loc.bp = 5447; Loc.ep = 5482} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 186; Loc.bol_pos = 5483; Loc.line_nb_last = 186; Loc.bol_pos_last = 5483; Loc.bp = 5487; Loc.ep = 5507} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 187; Loc.bol_pos = 5508; Loc.line_nb_last = 187; Loc.bol_pos_last = 5508; Loc.bp = 5512; Loc.ep = 5559} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 188; Loc.bol_pos = 5560; Loc.line_nb_last = 188; Loc.bol_pos_last = 5560; Loc.bp = 5564; Loc.ep = 5583} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 189; Loc.bol_pos = 5584; Loc.line_nb_last = 189; Loc.bol_pos_last = 5584; Loc.bp = 5586; Loc.ep = 5590} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** acc_lt_rel **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 191; Loc.bol_pos = 5592; Loc.line_nb_last = 191; Loc.bol_pos_last = 5592; Loc.bp = 5594; Loc.ep = 5650} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 192; Loc.bol_pos = 5651; Loc.line_nb_last = 192; Loc.bol_pos_last = 5651; Loc.bp = 5653; Loc.ep = 5659} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 193; Loc.bol_pos = 5660; Loc.line_nb_last = 193; Loc.bol_pos_last = 5660; Loc.bp = 5664; Loc.ep = 5684} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 194; Loc.bol_pos = 5685; Loc.line_nb_last = 194; Loc.bol_pos_last = 5685; Loc.bp = 5689; Loc.ep = 5726} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 195; Loc.bol_pos = 5727; Loc.line_nb_last = 195; Loc.bol_pos_last = 5727; Loc.bp = 5731; Loc.ep = 5757} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 196; Loc.bol_pos = 5758; Loc.line_nb_last = 196; Loc.bol_pos_last = 5758; Loc.bp = 5762; Loc.ep = 5780} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 197; Loc.bol_pos = 5781; Loc.line_nb_last = 197; Loc.bol_pos_last = 5781; Loc.bp = 5783; Loc.ep = 5787} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** well_founded_inv_lt_rel_compat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 199; Loc.bol_pos = 5789; Loc.line_nb_last = 199; Loc.bol_pos_last = 5789; Loc.bp = 5789; Loc.ep = 5803} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 201; Loc.bol_pos = 5805; Loc.line_nb_last = 202; Loc.bol_pos_last = 5845; Loc.bp = 5805; Loc.ep = 5914} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 203; Loc.bol_pos = 5915; Loc.line_nb_last = 203; Loc.bol_pos_last = 5915; Loc.bp = 5915; Loc.ep = 5921} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 204; Loc.bol_pos = 5922; Loc.line_nb_last = 204; Loc.bol_pos_last = 5922; Loc.bp = 5924; Loc.ep = 6001} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 205; Loc.bol_pos = 6002; Loc.line_nb_last = 205; Loc.bol_pos_last = 6002; Loc.bp = 6002; Loc.ep = 6006} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** well_founded_inv_rel_inv_lt_rel **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 210; Loc.bol_pos = 6116; Loc.line_nb_last = 210; Loc.bol_pos_last = 6116; Loc.bp = 6116; Loc.ep = 6139} **)
+(**VERNAC_TYPE** VernacSetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 212; Loc.bol_pos = 6141; Loc.line_nb_last = 212; Loc.bol_pos_last = 6141; Loc.bp = 6141; Loc.ep = 6159} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 213; Loc.bol_pos = 6160; Loc.line_nb_last = 213; Loc.bol_pos_last = 6160; Loc.bp = 6160; Loc.ep = 6187} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 214; Loc.bol_pos = 6188; Loc.line_nb_last = 214; Loc.bol_pos_last = 6188; Loc.bp = 6188; Loc.ep = 6213} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 216; Loc.bol_pos = 6215; Loc.line_nb_last = 217; Loc.bol_pos_last = 6290; Loc.bp = 6215; Loc.ep = 6336} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 219; Loc.bol_pos = 6338; Loc.line_nb_last = 221; Loc.bol_pos_last = 6440; Loc.bp = 6338; Loc.ep = 6493} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 222; Loc.bol_pos = 6494; Loc.line_nb_last = 222; Loc.bol_pos_last = 6494; Loc.bp = 6494; Loc.ep = 6500} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 223; Loc.bol_pos = 6501; Loc.line_nb_last = 223; Loc.bol_pos_last = 6501; Loc.bp = 6503; Loc.ep = 6527} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 224; Loc.bol_pos = 6528; Loc.line_nb_last = 226; Loc.bol_pos_last = 6610; Loc.bp = 6530; Loc.ep = 6656} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 227; Loc.bol_pos = 6657; Loc.line_nb_last = 227; Loc.bol_pos_last = 6657; Loc.bp = 6659; Loc.ep = 6660} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 227; Loc.bol_pos = 6657; Loc.line_nb_last = 227; Loc.bol_pos_last = 6657; Loc.bp = 6661; Loc.ep = 6673} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 228; Loc.bol_pos = 6674; Loc.line_nb_last = 228; Loc.bol_pos_last = 6674; Loc.bp = 6678; Loc.ep = 6679} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 228; Loc.bol_pos = 6674; Loc.line_nb_last = 228; Loc.bol_pos_last = 6674; Loc.bp = 6680; Loc.ep = 6686} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 228; Loc.bol_pos = 6674; Loc.line_nb_last = 228; Loc.bol_pos_last = 6674; Loc.bp = 6687; Loc.ep = 6694} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 228; Loc.bol_pos = 6674; Loc.line_nb_last = 228; Loc.bol_pos_last = 6674; Loc.bp = 6695; Loc.ep = 6712} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 229; Loc.bol_pos = 6713; Loc.line_nb_last = 229; Loc.bol_pos_last = 6713; Loc.bp = 6717; Loc.ep = 6718} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 229; Loc.bol_pos = 6713; Loc.line_nb_last = 229; Loc.bol_pos_last = 6713; Loc.bp = 6719; Loc.ep = 6757} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 230; Loc.bol_pos = 6758; Loc.line_nb_last = 230; Loc.bol_pos_last = 6758; Loc.bp = 6764; Loc.ep = 6765} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 230; Loc.bol_pos = 6758; Loc.line_nb_last = 230; Loc.bol_pos_last = 6758; Loc.bp = 6766; Loc.ep = 6771} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 230; Loc.bol_pos = 6758; Loc.line_nb_last = 230; Loc.bol_pos_last = 6758; Loc.bp = 6772; Loc.ep = 6799} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 231; Loc.bol_pos = 6800; Loc.line_nb_last = 231; Loc.bol_pos_last = 6800; Loc.bp = 6806; Loc.ep = 6807} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 231; Loc.bol_pos = 6800; Loc.line_nb_last = 231; Loc.bol_pos_last = 6800; Loc.bp = 6808; Loc.ep = 6837} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 232; Loc.bol_pos = 6838; Loc.line_nb_last = 232; Loc.bol_pos_last = 6838; Loc.bp = 6846; Loc.ep = 6847} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 232; Loc.bol_pos = 6838; Loc.line_nb_last = 232; Loc.bol_pos_last = 6838; Loc.bp = 6848; Loc.ep = 6853} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 232; Loc.bol_pos = 6838; Loc.line_nb_last = 232; Loc.bol_pos_last = 6838; Loc.bp = 6854; Loc.ep = 6880} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 233; Loc.bol_pos = 6881; Loc.line_nb_last = 233; Loc.bol_pos_last = 6881; Loc.bp = 6889; Loc.ep = 6890} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 233; Loc.bol_pos = 6881; Loc.line_nb_last = 233; Loc.bol_pos_last = 6881; Loc.bp = 6891; Loc.ep = 6897} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 233; Loc.bol_pos = 6881; Loc.line_nb_last = 233; Loc.bol_pos_last = 6881; Loc.bp = 6898; Loc.ep = 6912} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 234; Loc.bol_pos = 6913; Loc.line_nb_last = 234; Loc.bol_pos_last = 6913; Loc.bp = 6923; Loc.ep = 6953} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 234; Loc.bol_pos = 6913; Loc.line_nb_last = 234; Loc.bol_pos_last = 6913; Loc.bp = 6954; Loc.ep = 6964} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 234; Loc.bol_pos = 6913; Loc.line_nb_last = 234; Loc.bol_pos_last = 6913; Loc.bp = 6965; Loc.ep = 6970} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 234; Loc.bol_pos = 6913; Loc.line_nb_last = 234; Loc.bol_pos_last = 6913; Loc.bp = 6971; Loc.ep = 6972} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 235; Loc.bol_pos = 6973; Loc.line_nb_last = 237; Loc.bol_pos_last = 7069; Loc.bp = 6975; Loc.ep = 7122} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 238; Loc.bol_pos = 7123; Loc.line_nb_last = 238; Loc.bol_pos_last = 7123; Loc.bp = 7123; Loc.ep = 7127} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** dec_inh_nat_subset_has_unique_least_element **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 240; Loc.bol_pos = 7129; Loc.line_nb_last = 240; Loc.bol_pos_last = 7129; Loc.bp = 7129; Loc.ep = 7154} **)
+(**VERNAC_TYPE** VernacUnsetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Wf_nat.v"; Loc.line_nb = 242; Loc.bol_pos = 7156; Loc.line_nb_last = 242; Loc.bol_pos_last = 7156; Loc.bp = 7156; Loc.ep = 7241} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)

@@ -1,0 +1,16 @@
+DIGEST 6d669616e9d7305dbe861bfe8a9497f5
+FExtLib.Tactics.Injection
+rec 52:60 <> Injective
+proj 85:90 <> result
+proj 101:109 <> injection
+R114:117 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R118:123 ExtLib.Tactics.Injection <> result meth
+R113:113 ExtLib.Tactics.Injection <> P var
+R183:186 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R183:186 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R324:330 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R332:334 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R324:330 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R332:334 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R553:561 ExtLib.Tactics.Injection <> Injective class
+R591:599 ExtLib.Tactics.Injection <> injection meth

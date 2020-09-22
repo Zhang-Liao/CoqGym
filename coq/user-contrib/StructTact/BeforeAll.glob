@@ -1,0 +1,89 @@
+DIGEST 6e16821d2e8adecc479c2bd4901888a9
+FStructTact.BeforeAll
+R15:18 Coq.Lists.List <> <> lib
+R58:81 StructTact.StructTactics <> <> lib
+R99:120 StructTact.ListTactics <> <> lib
+def 133:142 <> before_all
+R160:160 StructTact.BeforeAll <> A var
+R185:185 StructTact.BeforeAll <> l var
+R198:199 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R204:207 Coq.Init.Logic <> True ind
+R216:219 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R242:253 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R281:281 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R233:234 Coq.Init.Logic <> ::type_scope:'~'_x not
+R235:236 Coq.Lists.List <> In def
+R238:238 StructTact.BeforeAll <> x var
+R260:263 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R255:258 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R254:254 StructTact.BeforeAll <> y var
+R264:273 StructTact.BeforeAll <> before_all def
+R277:277 StructTact.BeforeAll <> y var
+R275:275 StructTact.BeforeAll <> x var
+sec 299:308 <> before_all
+var 322:322 before_all A
+prf 341:362 <> before_all_head_not_in
+R386:386 StructTact.BeforeAll <> before_all.A var
+R402:411 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R435:444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R445:446 Coq.Init.Logic <> ::type_scope:'~'_x not
+R447:448 Coq.Lists.List <> In def
+R452:452 StructTact.BeforeAll <> l var
+R450:450 StructTact.BeforeAll <> x var
+R412:421 StructTact.BeforeAll <> before_all def
+R429:432 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R428:428 StructTact.BeforeAll <> y var
+R433:433 StructTact.BeforeAll <> l var
+R425:425 StructTact.BeforeAll <> y var
+R423:423 StructTact.BeforeAll <> x var
+R397:400 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R396:396 StructTact.BeforeAll <> x var
+R401:401 StructTact.BeforeAll <> y var
+prf 559:579 <> before_all_neq_append
+R604:604 StructTact.BeforeAll <> before_all.A var
+R618:625 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R642:649 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R650:659 StructTact.BeforeAll <> before_all def
+R667:670 Coq.Init.Datatypes <> ::list_scope:x_'++'_x not
+R666:666 StructTact.BeforeAll <> l var
+R671:671 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R673:673 Coq.Lists.List ListNotations ::list_scope:'['_x_']' not
+R672:672 StructTact.BeforeAll <> a var
+R663:663 StructTact.BeforeAll <> y var
+R661:661 StructTact.BeforeAll <> x var
+R626:635 StructTact.BeforeAll <> before_all def
+R641:641 StructTact.BeforeAll <> l var
+R639:639 StructTact.BeforeAll <> y var
+R637:637 StructTact.BeforeAll <> x var
+R613:616 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R612:612 StructTact.BeforeAll <> a var
+R617:617 StructTact.BeforeAll <> x var
+prf 959:977 <> before_all_not_in_1
+R1001:1001 StructTact.BeforeAll <> before_all.A var
+R1019:1028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1029:1038 StructTact.BeforeAll <> before_all def
+R1044:1044 StructTact.BeforeAll <> l var
+R1042:1042 StructTact.BeforeAll <> y var
+R1040:1040 StructTact.BeforeAll <> x var
+R1011:1012 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1013:1014 Coq.Lists.List <> In def
+R1018:1018 StructTact.BeforeAll <> l var
+R1016:1016 StructTact.BeforeAll <> x var
+prf 1124:1142 <> before_all_not_in_2
+R1166:1166 StructTact.BeforeAll <> before_all.A var
+R1184:1193 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1194:1203 StructTact.BeforeAll <> before_all def
+R1209:1209 StructTact.BeforeAll <> l var
+R1207:1207 StructTact.BeforeAll <> y var
+R1205:1205 StructTact.BeforeAll <> x var
+R1176:1177 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1178:1179 Coq.Lists.List <> In def
+R1183:1183 StructTact.BeforeAll <> l var
+R1181:1181 StructTact.BeforeAll <> y var
+R1324:1327 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1324:1327 Coq.Init.Logic <> ::type_scope:x_'<>'_x not
+R1358:1359 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1360:1361 Coq.Lists.List <> In def
+R1358:1359 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1360:1361 Coq.Lists.List <> In def
+R1387:1396 StructTact.BeforeAll before_all <> sec

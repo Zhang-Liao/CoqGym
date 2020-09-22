@@ -1,0 +1,14 @@
+DIGEST 657e1c8bf28f29fa69ddfcafdb49aae0
+FIntMap.Allmaps
+R556:558 IntMap.Map <> <> lib
+R576:579 IntMap.Fset <> <> lib
+R597:605 IntMap.Mapaxioms <> <> lib
+R623:629 IntMap.Mapiter <> <> lib
+R647:655 IntMap.Mapsubset <> <> lib
+R673:677 IntMap.Lsort <> <> lib
+R695:701 IntMap.Mapfold <> <> lib
+R719:725 IntMap.Mapcard <> <> lib
+R743:750 IntMap.Mapcanon <> <> lib
+R768:771 IntMap.Mapc <> <> lib
+R789:796 IntMap.Maplists <> <> lib
+R814:820 IntMap.Adalloc <> <> lib

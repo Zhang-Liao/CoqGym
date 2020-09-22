@@ -1,0 +1,12 @@
+DIGEST ba6947341926cf26262ec519c87e5c73
+FExtLib.Structures.Monads
+R15:37 ExtLib.Structures.Monad <> <> lib
+R55:81 ExtLib.Structures.MonadZero <> <> lib
+R99:125 ExtLib.Structures.MonadPlus <> <> lib
+R143:171 ExtLib.Structures.MonadReader <> <> lib
+R189:217 ExtLib.Structures.MonadWriter <> <> lib
+R235:262 ExtLib.Structures.MonadState <> <> lib
+R280:307 ExtLib.Structures.MonadTrans <> <> lib
+R325:350 ExtLib.Structures.MonadFix <> <> lib
+R368:393 ExtLib.Structures.MonadExc <> <> lib
+R411:437 ExtLib.Structures.MonadCont <> <> lib

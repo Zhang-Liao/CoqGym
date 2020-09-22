@@ -1,0 +1,10 @@
+DIGEST ecf5744d585cbefeba3831f92ad70a10
+FSimpleIO.IO_PervasivesAxioms
+R81:93 SimpleIO.IO_Pervasives <> <> lib
+ax 118:136 <> char_of_int_of_char
+R183:185 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R152:166 SimpleIO.IO_Pervasives <> char_of_int_opt defax
+R169:179 SimpleIO.IO_Pervasives <> int_of_char defax
+R181:181 SimpleIO.IO_PervasivesAxioms <> c var
+R186:189 Coq.Init.Datatypes <> Some constr
+R191:191 SimpleIO.IO_PervasivesAxioms <> c var

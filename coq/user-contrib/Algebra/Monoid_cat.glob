@@ -1,0 +1,162 @@
+DIGEST 013b6f3ee2cc5fb9ac8b4f2b19ae4c08
+FAlgebra.Monoid_cat
+R1086:1095 Algebra.Sgroup_cat <> <> lib
+sec 1146:1149 <> Unit
+var 1161:1161 Unit E
+R1165:1167 Algebra.Set_cat <> SET def
+var 1179:1179 Unit f
+R1183:1200 Algebra.Sgroup_cat <> law_of_composition def
+R1202:1202 Algebra.Monoid_cat <> Unit.E var
+var 1214:1214 Unit e
+R1218:1218 Algebra.Monoid_cat <> Unit.E var
+def 1233:1238 <> unit_r
+R1254:1254 Algebra.Monoid_cat <> Unit.E var
+R1257:1261 Algebra.Sets <> Equal proj
+R1280:1280 Algebra.Monoid_cat <> x var
+R1264:1264 Algebra.Monoid_cat <> Unit.f var
+R1267:1272 Algebra.Cartesian <> couple def
+R1276:1276 Algebra.Monoid_cat <> Unit.e var
+R1274:1274 Algebra.Monoid_cat <> x var
+def 1295:1300 <> unit_l
+R1316:1316 Algebra.Monoid_cat <> Unit.E var
+R1319:1323 Algebra.Sets <> Equal proj
+R1342:1342 Algebra.Monoid_cat <> x var
+R1326:1326 Algebra.Monoid_cat <> Unit.f var
+R1329:1334 Algebra.Cartesian <> couple def
+R1338:1338 Algebra.Monoid_cat <> x var
+R1336:1336 Algebra.Monoid_cat <> Unit.e var
+R1349:1352 Algebra.Monoid_cat Unit <> sec
+rec 1363:1371 <> monoid_on
+proj 1400:1410 <> monoid_unit
+proj 1420:1436 <> monoid_unit_r_prf
+proj 1482:1498 <> monoid_unit_l_prf
+R1378:1383 Algebra.Sgroup_cat <> sgroup rec
+R1414:1414 Algebra.Monoid_cat <> A var
+R1440:1445 Algebra.Monoid_cat <> unit_r def
+R1466:1476 Algebra.Monoid_cat <> monoid_unit meth
+R1448:1461 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1463:1463 Algebra.Monoid_cat <> A var
+R1502:1507 Algebra.Monoid_cat <> unit_l def
+R1528:1538 Algebra.Monoid_cat <> monoid_unit meth
+R1510:1523 Algebra.Sgroup_cat <> sgroup_law_map proj
+R1525:1525 Algebra.Monoid_cat <> A var
+rec 1550:1555 <> monoid
+proj 1571:1583 <> monoid_sgroup
+proj 1596:1608 <> monoid_on_def
+R1588:1593 Algebra.Sgroup_cat <> sgroup rec
+R1613:1621 Algebra.Monoid_cat <> monoid_on rec
+R1623:1635 Algebra.Monoid_cat <> monoid_sgroup meth
+R1639:1682 Algebra.Monoid_cat <> Build_monoid constr
+sec 1693:1695 <> Hom
+var 1707:1707 Hom E
+var 1709:1709 Hom F
+R1713:1718 Algebra.Monoid_cat <> monoid rec
+def 1733:1747 <> monoid_hom_prop
+R1755:1758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1759:1759 Algebra.Monoid_cat <> Hom.F var
+R1754:1754 Algebra.Monoid_cat <> Hom.E var
+R1767:1771 Algebra.Sets <> Equal proj
+R1794:1804 Algebra.Monoid_cat <> monoid_unit proj
+R1806:1806 Algebra.Monoid_cat <> Hom.F var
+R1774:1774 Algebra.Monoid_cat <> f var
+R1777:1787 Algebra.Monoid_cat <> monoid_unit proj
+R1789:1789 Algebra.Monoid_cat <> Hom.E var
+rec 1818:1827 <> monoid_hom
+proj 1843:1859 <> monoid_sgroup_hom
+proj 1883:1896 <> monoid_hom_prf
+R1864:1873 Algebra.Sgroup_cat <> sgroup_hom rec
+R1877:1877 Algebra.Monoid_cat <> Hom.F var
+R1875:1875 Algebra.Monoid_cat <> Hom.E var
+R1900:1914 Algebra.Monoid_cat <> monoid_hom_prop def
+R1916:1932 Algebra.Monoid_cat <> monoid_sgroup_hom meth
+R1940:1942 Algebra.Monoid_cat Hom <> sec
+def 1957:1971 <> monoid_hom_comp
+R1992:1997 Algebra.Monoid_cat <> monoid rec
+R2014:2017 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2032:2035 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2036:2045 Algebra.Monoid_cat <> monoid_hom rec
+R2049:2049 Algebra.Monoid_cat <> G var
+R2047:2047 Algebra.Monoid_cat <> E var
+R2018:2027 Algebra.Monoid_cat <> monoid_hom rec
+R2031:2031 Algebra.Monoid_cat <> F var
+R2029:2029 Algebra.Monoid_cat <> E var
+R2000:2009 Algebra.Monoid_cat <> monoid_hom rec
+R2013:2013 Algebra.Monoid_cat <> G var
+R2011:2011 Algebra.Monoid_cat <> F var
+R2094:2109 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2145:2159 Algebra.Sgroup_cat <> sgroup_hom_comp def
+R2094:2109 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2145:2159 Algebra.Sgroup_cat <> sgroup_hom_comp def
+R2175:2189 Algebra.Monoid_cat <> monoid_hom_prop def
+R2241:2252 Algebra.Sets <> comp_map_fun def
+R2281:2282 Algebra.Sets <> Ap proj
+R2300:2310 Algebra.Monoid_cat <> monoid_unit proj
+R2285:2294 Algebra.Sgroup_cat <> sgroup_map proj
+R2269:2273 Algebra.Sets <> Trans thm
+R2281:2282 Algebra.Sets <> Ap proj
+R2300:2310 Algebra.Monoid_cat <> monoid_unit proj
+R2285:2294 Algebra.Sgroup_cat <> sgroup_map proj
+R2269:2273 Algebra.Sets <> Trans thm
+R2342:2346 Algebra.Sets <> Equal proj
+R2409:2419 Algebra.Monoid_cat <> monoid_unit proj
+R2349:2350 Algebra.Sets <> Ap proj
+R2388:2398 Algebra.Monoid_cat <> monoid_unit proj
+R2353:2362 Algebra.Sgroup_cat <> sgroup_map proj
+R2365:2381 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R2342:2346 Algebra.Sets <> Equal proj
+R2409:2419 Algebra.Monoid_cat <> monoid_unit proj
+R2349:2350 Algebra.Sets <> Ap proj
+R2388:2398 Algebra.Monoid_cat <> monoid_unit proj
+R2353:2362 Algebra.Sgroup_cat <> sgroup_map proj
+R2365:2381 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R2452:2465 Algebra.Monoid_cat <> monoid_hom_prf proj
+R2452:2465 Algebra.Monoid_cat <> monoid_hom_prf proj
+R2478:2491 Algebra.Monoid_cat <> monoid_hom_prf proj
+R2478:2491 Algebra.Monoid_cat <> monoid_hom_prf proj
+def 2518:2526 <> monoid_id
+R2541:2546 Algebra.Monoid_cat <> monoid rec
+R2549:2558 Algebra.Monoid_cat <> monoid_hom rec
+R2562:2562 Algebra.Monoid_cat <> E var
+R2560:2560 Algebra.Monoid_cat <> E var
+R2598:2613 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2635:2643 Algebra.Sgroup_cat <> sgroup_id def
+R2598:2613 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2635:2643 Algebra.Sgroup_cat <> sgroup_id def
+def 2718:2723 <> MONOID
+R2727:2734 Algebra.Categories <> category rec
+R2745:2750 Algebra.Subcat <> subcat def
+R3025:3033 Algebra.Monoid_cat <> monoid_id def
+R2997:3011 Algebra.Monoid_cat <> monoid_hom_comp def
+R2818:2823 Algebra.Monoid_cat <> monoid rec
+R2840:2858 Algebra.Parts <> Build_subtype_image constr
+R2954:2970 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R2983:2983 Algebra.Monoid_cat <> F var
+R2976:2976 Algebra.Monoid_cat <> E var
+R2923:2932 Algebra.Monoid_cat <> monoid_hom rec
+R2936:2936 Algebra.Monoid_cat <> F var
+R2934:2934 Algebra.Monoid_cat <> E var
+R2864:2866 Algebra.Categories <> Hom proj
+R2882:2882 Algebra.Monoid_cat <> F var
+R2880:2880 Algebra.Monoid_cat <> E var
+R2872:2877 Algebra.Sgroup_cat <> SGROUP def
+R2781:2793 Algebra.Monoid_cat <> monoid_sgroup proj
+R2769:2774 Algebra.Monoid_cat <> monoid rec
+R2756:2761 Algebra.Sgroup_cat <> SGROUP def
+R2745:2750 Algebra.Subcat <> subcat def
+R3025:3033 Algebra.Monoid_cat <> monoid_id def
+R2997:3011 Algebra.Monoid_cat <> monoid_hom_comp def
+R2818:2823 Algebra.Monoid_cat <> monoid rec
+R2840:2858 Algebra.Parts <> Build_subtype_image constr
+R2954:2970 Algebra.Monoid_cat <> monoid_sgroup_hom proj
+R2983:2983 Algebra.Monoid_cat <> F var
+R2976:2976 Algebra.Monoid_cat <> E var
+R2923:2932 Algebra.Monoid_cat <> monoid_hom rec
+R2936:2936 Algebra.Monoid_cat <> F var
+R2934:2934 Algebra.Monoid_cat <> E var
+R2864:2866 Algebra.Categories <> Hom proj
+R2882:2882 Algebra.Monoid_cat <> F var
+R2880:2880 Algebra.Monoid_cat <> E var
+R2872:2877 Algebra.Sgroup_cat <> SGROUP def
+R2781:2793 Algebra.Monoid_cat <> monoid_sgroup proj
+R2769:2774 Algebra.Monoid_cat <> monoid rec
+R2756:2761 Algebra.Sgroup_cat <> SGROUP def

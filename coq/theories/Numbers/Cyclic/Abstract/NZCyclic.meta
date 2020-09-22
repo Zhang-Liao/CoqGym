@@ -1,0 +1,564 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 13; Loc.bol_pos = 826; Loc.line_nb_last = 13; Loc.bol_pos_last = 826; Loc.bp = 826; Loc.ep = 850} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 14; Loc.bol_pos = 851; Loc.line_nb_last = 14; Loc.bol_pos_last = 851; Loc.bp = 851; Loc.ep = 873} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 15; Loc.bol_pos = 874; Loc.line_nb_last = 15; Loc.bol_pos_last = 874; Loc.bp = 874; Loc.ep = 900} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 16; Loc.bol_pos = 901; Loc.line_nb_last = 16; Loc.bol_pos_last = 901; Loc.bp = 901; Loc.ep = 927} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 17; Loc.bol_pos = 928; Loc.line_nb_last = 17; Loc.bol_pos_last = 928; Loc.bp = 928; Loc.ep = 956} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 27; Loc.bol_pos = 1217; Loc.line_nb_last = 27; Loc.bol_pos_last = 1217; Loc.bp = 1217; Loc.ep = 1286} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 29; Loc.bol_pos = 1288; Loc.line_nb_last = 29; Loc.bol_pos_last = 1288; Loc.bp = 1288; Loc.ep = 1313} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 31; Loc.bol_pos = 1315; Loc.line_nb_last = 31; Loc.bol_pos_last = 1315; Loc.bp = 1315; Loc.ep = 1354} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 33; Loc.bol_pos = 1356; Loc.line_nb_last = 33; Loc.bol_pos_last = 1356; Loc.bp = 1356; Loc.ep = 1425} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 35; Loc.bol_pos = 1427; Loc.line_nb_last = 35; Loc.bol_pos_last = 1427; Loc.bp = 1427; Loc.ep = 1472} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 36; Loc.bol_pos = 1473; Loc.line_nb_last = 36; Loc.bol_pos_last = 1473; Loc.bp = 1473; Loc.ep = 1501} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 37; Loc.bol_pos = 1502; Loc.line_nb_last = 37; Loc.bol_pos_last = 1502; Loc.bp = 1502; Loc.ep = 1528} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 38; Loc.bol_pos = 1529; Loc.line_nb_last = 38; Loc.bol_pos_last = 1529; Loc.bp = 1529; Loc.ep = 1564} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 39; Loc.bol_pos = 1565; Loc.line_nb_last = 39; Loc.bol_pos_last = 1565; Loc.bp = 1565; Loc.ep = 1593} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 40; Loc.bol_pos = 1594; Loc.line_nb_last = 40; Loc.bol_pos_last = 1594; Loc.bp = 1594; Loc.ep = 1622} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 41; Loc.bol_pos = 1623; Loc.line_nb_last = 41; Loc.bol_pos_last = 1623; Loc.bp = 1623; Loc.ep = 1649} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 42; Loc.bol_pos = 1650; Loc.line_nb_last = 42; Loc.bol_pos_last = 1650; Loc.bp = 1650; Loc.ep = 1676} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 43; Loc.bol_pos = 1677; Loc.line_nb_last = 43; Loc.bol_pos_last = 1677; Loc.bp = 1677; Loc.ep = 1703} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 45; Loc.bol_pos = 1705; Loc.line_nb_last = 45; Loc.bol_pos_last = 1705; Loc.bp = 1705; Loc.ep = 1743} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 46; Loc.bol_pos = 1744; Loc.line_nb_last = 46; Loc.bol_pos_last = 1744; Loc.bp = 1744; Loc.ep = 1771} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 47; Loc.bol_pos = 1772; Loc.line_nb_last = 47; Loc.bol_pos_last = 1772; Loc.bp = 1772; Loc.ep = 1797} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 48; Loc.bol_pos = 1798; Loc.line_nb_last = 48; Loc.bol_pos_last = 1798; Loc.bp = 1798; Loc.ep = 1823} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 49; Loc.bol_pos = 1824; Loc.line_nb_last = 49; Loc.bol_pos_last = 1824; Loc.bp = 1824; Loc.ep = 1847} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 50; Loc.bol_pos = 1848; Loc.line_nb_last = 50; Loc.bol_pos_last = 1848; Loc.bp = 1848; Loc.ep = 1871} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 51; Loc.bol_pos = 1872; Loc.line_nb_last = 51; Loc.bol_pos_last = 1872; Loc.bp = 1872; Loc.ep = 1895} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 53; Loc.bol_pos = 1897; Loc.line_nb_last = 54; Loc.bol_pos_last = 1960; Loc.bp = 1897; Loc.ep = 2009} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 55; Loc.bol_pos = 2010; Loc.line_nb_last = 57; Loc.bol_pos_last = 2083; Loc.bp = 2010; Loc.ep = 2108} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 58; Loc.bol_pos = 2109; Loc.line_nb_last = 58; Loc.bol_pos_last = 2109; Loc.bp = 2109; Loc.ep = 2166} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 60; Loc.bol_pos = 2168; Loc.line_nb_last = 60; Loc.bol_pos_last = 2168; Loc.bp = 2168; Loc.ep = 2203} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 61; Loc.bol_pos = 2204; Loc.line_nb_last = 61; Loc.bol_pos_last = 2204; Loc.bp = 2204; Loc.ep = 2210} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 62; Loc.bol_pos = 2211; Loc.line_nb_last = 62; Loc.bol_pos_last = 2211; Loc.bp = 2211; Loc.ep = 2221} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 62; Loc.bol_pos = 2211; Loc.line_nb_last = 62; Loc.bol_pos_last = 2211; Loc.bp = 2222; Loc.ep = 2233} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 63; Loc.bol_pos = 2234; Loc.line_nb_last = 63; Loc.bol_pos_last = 2234; Loc.bp = 2234; Loc.ep = 2238} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eq_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 65; Loc.bol_pos = 2240; Loc.line_nb_last = 65; Loc.bol_pos_last = 2240; Loc.bp = 2240; Loc.ep = 2279} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 67; Loc.bol_pos = 2281; Loc.line_nb_last = 67; Loc.bol_pos_last = 2281; Loc.bp = 2281; Loc.ep = 2332} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 68; Loc.bol_pos = 2333; Loc.line_nb_last = 68; Loc.bol_pos_last = 2333; Loc.bp = 2333; Loc.ep = 2384} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 69; Loc.bol_pos = 2385; Loc.line_nb_last = 69; Loc.bol_pos_last = 2385; Loc.bp = 2385; Loc.ep = 2441} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 70; Loc.bol_pos = 2442; Loc.line_nb_last = 70; Loc.bol_pos_last = 2442; Loc.bp = 2442; Loc.ep = 2498} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 71; Loc.bol_pos = 2499; Loc.line_nb_last = 71; Loc.bol_pos_last = 2499; Loc.bp = 2499; Loc.ep = 2555} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 73; Loc.bol_pos = 2557; Loc.line_nb_last = 73; Loc.bol_pos_last = 2557; Loc.bp = 2557; Loc.ep = 2582} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 74; Loc.bol_pos = 2583; Loc.line_nb_last = 74; Loc.bol_pos_last = 2583; Loc.bp = 2583; Loc.ep = 2589} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 75; Loc.bol_pos = 2590; Loc.line_nb_last = 75; Loc.bol_pos_last = 2590; Loc.bp = 2590; Loc.ep = 2602} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 75; Loc.bol_pos = 2590; Loc.line_nb_last = 75; Loc.bol_pos_last = 2590; Loc.bp = 2603; Loc.ep = 2652} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 76; Loc.bol_pos = 2653; Loc.line_nb_last = 76; Loc.bol_pos_last = 2653; Loc.bp = 2653; Loc.ep = 2657} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** gt_wB_1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 78; Loc.bol_pos = 2659; Loc.line_nb_last = 78; Loc.bol_pos_last = 2659; Loc.bp = 2659; Loc.ep = 2684} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 79; Loc.bol_pos = 2685; Loc.line_nb_last = 79; Loc.bol_pos_last = 2685; Loc.bp = 2685; Loc.ep = 2691} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 80; Loc.bol_pos = 2692; Loc.line_nb_last = 80; Loc.bol_pos_last = 2692; Loc.bp = 2692; Loc.ep = 2729} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 81; Loc.bol_pos = 2730; Loc.line_nb_last = 81; Loc.bol_pos_last = 2730; Loc.bp = 2730; Loc.ep = 2734} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** gt_wB_0 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 83; Loc.bol_pos = 2736; Loc.line_nb_last = 83; Loc.bol_pos_last = 2736; Loc.bp = 2736; Loc.ep = 2768} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 84; Loc.bol_pos = 2769; Loc.line_nb_last = 84; Loc.bol_pos_last = 2769; Loc.bp = 2769; Loc.ep = 2775} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 85; Loc.bol_pos = 2776; Loc.line_nb_last = 85; Loc.bol_pos_last = 2776; Loc.bp = 2776; Loc.ep = 2795} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 85; Loc.bol_pos = 2776; Loc.line_nb_last = 85; Loc.bol_pos_last = 2776; Loc.bp = 2796; Loc.ep = 2808} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 85; Loc.bol_pos = 2776; Loc.line_nb_last = 85; Loc.bol_pos_last = 2776; Loc.bp = 2809; Loc.ep = 2815} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 85; Loc.bol_pos = 2776; Loc.line_nb_last = 85; Loc.bol_pos_last = 2776; Loc.bp = 2816; Loc.ep = 2833} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 85; Loc.bol_pos = 2776; Loc.line_nb_last = 85; Loc.bol_pos_last = 2776; Loc.bp = 2834; Loc.ep = 2848} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 86; Loc.bol_pos = 2849; Loc.line_nb_last = 86; Loc.bol_pos_last = 2849; Loc.bp = 2849; Loc.ep = 2853} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** one_mod_wB **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 88; Loc.bol_pos = 2855; Loc.line_nb_last = 88; Loc.bol_pos_last = 2855; Loc.bp = 2855; Loc.ep = 2930} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 89; Loc.bol_pos = 2931; Loc.line_nb_last = 89; Loc.bol_pos_last = 2931; Loc.bp = 2931; Loc.ep = 2937} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 90; Loc.bol_pos = 2938; Loc.line_nb_last = 90; Loc.bol_pos_last = 2938; Loc.bp = 2938; Loc.ep = 2946} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 90; Loc.bol_pos = 2938; Loc.line_nb_last = 90; Loc.bol_pos_last = 2938; Loc.bp = 2947; Loc.ep = 2974} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 90; Loc.bol_pos = 2938; Loc.line_nb_last = 90; Loc.bol_pos_last = 2938; Loc.bp = 2975; Loc.ep = 3000} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 91; Loc.bol_pos = 3001; Loc.line_nb_last = 91; Loc.bol_pos_last = 3001; Loc.bp = 3001; Loc.ep = 3005} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** succ_mod_wB **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 93; Loc.bol_pos = 3007; Loc.line_nb_last = 93; Loc.bol_pos_last = 3007; Loc.bp = 3007; Loc.ep = 3082} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 94; Loc.bol_pos = 3083; Loc.line_nb_last = 94; Loc.bol_pos_last = 3083; Loc.bp = 3083; Loc.ep = 3089} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 95; Loc.bol_pos = 3090; Loc.line_nb_last = 95; Loc.bol_pos_last = 3090; Loc.bp = 3090; Loc.ep = 3098} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 95; Loc.bol_pos = 3090; Loc.line_nb_last = 95; Loc.bol_pos_last = 3090; Loc.bp = 3099; Loc.ep = 3126} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 95; Loc.bol_pos = 3090; Loc.line_nb_last = 95; Loc.bol_pos_last = 3090; Loc.bp = 3127; Loc.ep = 3150} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 96; Loc.bol_pos = 3151; Loc.line_nb_last = 96; Loc.bol_pos_last = 3151; Loc.bp = 3151; Loc.ep = 3155} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** pred_mod_wB **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 98; Loc.bol_pos = 3157; Loc.line_nb_last = 98; Loc.bol_pos_last = 3157; Loc.bp = 3157; Loc.ep = 3212} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 99; Loc.bol_pos = 3213; Loc.line_nb_last = 99; Loc.bol_pos_last = 3213; Loc.bp = 3213; Loc.ep = 3219} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 100; Loc.bol_pos = 3220; Loc.line_nb_last = 100; Loc.bol_pos_last = 3220; Loc.bp = 3220; Loc.ep = 3248} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 100; Loc.bol_pos = 3220; Loc.line_nb_last = 100; Loc.bol_pos_last = 3220; Loc.bp = 3249; Loc.ep = 3261} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 100; Loc.bol_pos = 3220; Loc.line_nb_last = 100; Loc.bol_pos_last = 3220; Loc.bp = 3262; Loc.ep = 3282} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 101; Loc.bol_pos = 3283; Loc.line_nb_last = 101; Loc.bol_pos_last = 3283; Loc.bp = 3283; Loc.ep = 3287} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** NZ_to_Z_mod **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 103; Loc.bol_pos = 3289; Loc.line_nb_last = 103; Loc.bol_pos_last = 3289; Loc.bp = 3289; Loc.ep = 3332} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 104; Loc.bol_pos = 3333; Loc.line_nb_last = 104; Loc.bol_pos_last = 3333; Loc.bp = 3333; Loc.ep = 3339} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 105; Loc.bol_pos = 3340; Loc.line_nb_last = 105; Loc.bol_pos_last = 3340; Loc.bp = 3340; Loc.ep = 3348} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 105; Loc.bol_pos = 3340; Loc.line_nb_last = 105; Loc.bol_pos_last = 3340; Loc.bp = 3349; Loc.ep = 3354} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 106; Loc.bol_pos = 3355; Loc.line_nb_last = 106; Loc.bol_pos_last = 3355; Loc.bp = 3355; Loc.ep = 3378} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 107; Loc.bol_pos = 3379; Loc.line_nb_last = 107; Loc.bol_pos_last = 3379; Loc.bp = 3379; Loc.ep = 3428} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 107; Loc.bol_pos = 3379; Loc.line_nb_last = 107; Loc.bol_pos_last = 3379; Loc.bp = 3429; Loc.ep = 3447} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 108; Loc.bol_pos = 3448; Loc.line_nb_last = 108; Loc.bol_pos_last = 3448; Loc.bp = 3448; Loc.ep = 3452} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** pred_succ **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 110; Loc.bol_pos = 3454; Loc.line_nb_last = 110; Loc.bol_pos_last = 3454; Loc.bp = 3454; Loc.ep = 3490} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 111; Loc.bol_pos = 3491; Loc.line_nb_last = 111; Loc.bol_pos_last = 3491; Loc.bp = 3491; Loc.ep = 3497} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 112; Loc.bol_pos = 3498; Loc.line_nb_last = 112; Loc.bol_pos_last = 3498; Loc.bp = 3498; Loc.ep = 3516} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 112; Loc.bol_pos = 3498; Loc.line_nb_last = 112; Loc.bol_pos_last = 3498; Loc.bp = 3517; Loc.ep = 3540} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 113; Loc.bol_pos = 3541; Loc.line_nb_last = 113; Loc.bol_pos_last = 3541; Loc.bp = 3541; Loc.ep = 3545} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** one_succ **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 115; Loc.bol_pos = 3547; Loc.line_nb_last = 115; Loc.bol_pos_last = 3547; Loc.bp = 3547; Loc.ep = 3582} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 116; Loc.bol_pos = 3583; Loc.line_nb_last = 116; Loc.bol_pos_last = 3583; Loc.bp = 3583; Loc.ep = 3589} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 117; Loc.bol_pos = 3590; Loc.line_nb_last = 117; Loc.bol_pos_last = 3590; Loc.bp = 3590; Loc.ep = 3602} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 118; Loc.bol_pos = 3603; Loc.line_nb_last = 118; Loc.bol_pos_last = 3603; Loc.bp = 3603; Loc.ep = 3607} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_succ **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 120; Loc.bol_pos = 3609; Loc.line_nb_last = 120; Loc.bol_pos_last = 3609; Loc.bp = 3609; Loc.ep = 3627} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 122; Loc.bol_pos = 3629; Loc.line_nb_last = 122; Loc.bol_pos_last = 3629; Loc.bp = 3629; Loc.ep = 3652} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 123; Loc.bol_pos = 3653; Loc.line_nb_last = 123; Loc.bol_pos_last = 3653; Loc.bp = 3653; Loc.ep = 3693} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 124; Loc.bol_pos = 3694; Loc.line_nb_last = 124; Loc.bol_pos_last = 3694; Loc.bp = 3694; Loc.ep = 3714} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 125; Loc.bol_pos = 3715; Loc.line_nb_last = 125; Loc.bol_pos_last = 3715; Loc.bp = 3715; Loc.ep = 3757} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 128; Loc.bol_pos = 3798; Loc.line_nb_last = 128; Loc.bol_pos_last = 3798; Loc.bp = 3798; Loc.ep = 3830} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 130; Loc.bol_pos = 3832; Loc.line_nb_last = 130; Loc.bol_pos_last = 3832; Loc.bp = 3832; Loc.ep = 3847} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 131; Loc.bol_pos = 3848; Loc.line_nb_last = 131; Loc.bol_pos_last = 3848; Loc.bp = 3848; Loc.ep = 3854} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 132; Loc.bol_pos = 3855; Loc.line_nb_last = 132; Loc.bol_pos_last = 3855; Loc.bp = 3855; Loc.ep = 3864} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 132; Loc.bol_pos = 3855; Loc.line_nb_last = 132; Loc.bol_pos_last = 3855; Loc.bp = 3865; Loc.ep = 3874} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 133; Loc.bol_pos = 3875; Loc.line_nb_last = 133; Loc.bol_pos_last = 3875; Loc.bp = 3875; Loc.ep = 3879} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** B0 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 135; Loc.bol_pos = 3881; Loc.line_nb_last = 135; Loc.bol_pos_last = 3881; Loc.bp = 3881; Loc.ep = 3947} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 136; Loc.bol_pos = 3948; Loc.line_nb_last = 136; Loc.bol_pos_last = 3948; Loc.bp = 3948; Loc.ep = 3954} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 137; Loc.bol_pos = 3955; Loc.line_nb_last = 137; Loc.bol_pos_last = 3955; Loc.bp = 3955; Loc.ep = 3973} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 138; Loc.bol_pos = 3974; Loc.line_nb_last = 138; Loc.bol_pos_last = 3974; Loc.bp = 3974; Loc.ep = 3988} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 138; Loc.bol_pos = 3974; Loc.line_nb_last = 138; Loc.bol_pos_last = 3974; Loc.bp = 3989; Loc.ep = 4004} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 139; Loc.bol_pos = 4005; Loc.line_nb_last = 139; Loc.bol_pos_last = 4005; Loc.bp = 4005; Loc.ep = 4061} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 139; Loc.bol_pos = 4005; Loc.line_nb_last = 139; Loc.bol_pos_last = 4005; Loc.bp = 4062; Loc.ep = 4073} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 140; Loc.bol_pos = 4074; Loc.line_nb_last = 140; Loc.bol_pos_last = 4074; Loc.bp = 4074; Loc.ep = 4079} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 141; Loc.bol_pos = 4080; Loc.line_nb_last = 141; Loc.bol_pos_last = 4080; Loc.bp = 4080; Loc.ep = 4125} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 142; Loc.bol_pos = 4126; Loc.line_nb_last = 142; Loc.bol_pos_last = 4126; Loc.bp = 4126; Loc.ep = 4171} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 143; Loc.bol_pos = 4172; Loc.line_nb_last = 143; Loc.bol_pos_last = 4172; Loc.bp = 4172; Loc.ep = 4176} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** BS **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 145; Loc.bol_pos = 4178; Loc.line_nb_last = 149; Loc.bol_pos_last = 4316; Loc.bp = 4178; Loc.ep = 4358} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 150; Loc.bol_pos = 4359; Loc.line_nb_last = 150; Loc.bol_pos_last = 4359; Loc.bp = 4359; Loc.ep = 4365} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 151; Loc.bol_pos = 4366; Loc.line_nb_last = 151; Loc.bol_pos_last = 4366; Loc.bp = 4366; Loc.ep = 4383} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 152; Loc.bol_pos = 4384; Loc.line_nb_last = 152; Loc.bol_pos_last = 4384; Loc.bp = 4384; Loc.ep = 4432} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 153; Loc.bol_pos = 4433; Loc.line_nb_last = 153; Loc.bol_pos_last = 4433; Loc.bp = 4433; Loc.ep = 4471} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 154; Loc.bol_pos = 4472; Loc.line_nb_last = 154; Loc.bol_pos_last = 4472; Loc.bp = 4472; Loc.ep = 4502} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 155; Loc.bol_pos = 4503; Loc.line_nb_last = 155; Loc.bol_pos_last = 4503; Loc.bp = 4503; Loc.ep = 4543} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 155; Loc.bol_pos = 4503; Loc.line_nb_last = 155; Loc.bol_pos_last = 4503; Loc.bp = 4544; Loc.ep = 4554} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 155; Loc.bol_pos = 4503; Loc.line_nb_last = 155; Loc.bol_pos_last = 4503; Loc.bp = 4555; Loc.ep = 4571} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 156; Loc.bol_pos = 4572; Loc.line_nb_last = 156; Loc.bol_pos_last = 4572; Loc.bp = 4572; Loc.ep = 4586} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 156; Loc.bol_pos = 4572; Loc.line_nb_last = 156; Loc.bol_pos_last = 4572; Loc.bp = 4587; Loc.ep = 4619} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 157; Loc.bol_pos = 4620; Loc.line_nb_last = 157; Loc.bol_pos_last = 4620; Loc.bp = 4620; Loc.ep = 4668} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 158; Loc.bol_pos = 4669; Loc.line_nb_last = 158; Loc.bol_pos_last = 4669; Loc.bp = 4669; Loc.ep = 4693} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 159; Loc.bol_pos = 4694; Loc.line_nb_last = 159; Loc.bol_pos_last = 4694; Loc.bp = 4694; Loc.ep = 4699} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 159; Loc.bol_pos = 4694; Loc.line_nb_last = 159; Loc.bol_pos_last = 4694; Loc.bp = 4700; Loc.ep = 4745} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 160; Loc.bol_pos = 4746; Loc.line_nb_last = 160; Loc.bol_pos_last = 4746; Loc.bp = 4746; Loc.ep = 4770} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 161; Loc.bol_pos = 4771; Loc.line_nb_last = 161; Loc.bol_pos_last = 4771; Loc.bp = 4771; Loc.ep = 4802} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 161; Loc.bol_pos = 4771; Loc.line_nb_last = 161; Loc.bol_pos_last = 4771; Loc.bp = 4803; Loc.ep = 4839} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 162; Loc.bol_pos = 4840; Loc.line_nb_last = 162; Loc.bol_pos_last = 4840; Loc.bp = 4840; Loc.ep = 4851} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 162; Loc.bol_pos = 4840; Loc.line_nb_last = 162; Loc.bol_pos_last = 4840; Loc.bp = 4852; Loc.ep = 4877} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 163; Loc.bol_pos = 4878; Loc.line_nb_last = 163; Loc.bol_pos_last = 4878; Loc.bp = 4878; Loc.ep = 4882} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zbounded_induction **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 165; Loc.bol_pos = 4884; Loc.line_nb_last = 165; Loc.bol_pos_last = 4884; Loc.bp = 4884; Loc.ep = 4933} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 166; Loc.bol_pos = 4934; Loc.line_nb_last = 166; Loc.bol_pos_last = 4934; Loc.bp = 4934; Loc.ep = 4940} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 167; Loc.bol_pos = 4941; Loc.line_nb_last = 167; Loc.bol_pos_last = 4941; Loc.bp = 4941; Loc.ep = 4958} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 168; Loc.bol_pos = 4959; Loc.line_nb_last = 168; Loc.bol_pos_last = 4959; Loc.bp = 4959; Loc.ep = 4992} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 169; Loc.bol_pos = 4993; Loc.line_nb_last = 169; Loc.bol_pos_last = 4993; Loc.bp = 4993; Loc.ep = 5002} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 169; Loc.bol_pos = 4993; Loc.line_nb_last = 169; Loc.bol_pos_last = 4993; Loc.bp = 5003; Loc.ep = 5012} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 169; Loc.bol_pos = 4993; Loc.line_nb_last = 169; Loc.bol_pos_last = 4993; Loc.bp = 5013; Loc.ep = 5024} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 169; Loc.bol_pos = 4993; Loc.line_nb_last = 169; Loc.bol_pos_last = 4993; Loc.bp = 5025; Loc.ep = 5036} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 170; Loc.bol_pos = 5037; Loc.line_nb_last = 170; Loc.bol_pos_last = 5037; Loc.bp = 5037; Loc.ep = 5041} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** B_holds **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 172; Loc.bol_pos = 5043; Loc.line_nb_last = 172; Loc.bol_pos_last = 5043; Loc.bp = 5043; Loc.ep = 5080} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 173; Loc.bol_pos = 5081; Loc.line_nb_last = 173; Loc.bol_pos_last = 5081; Loc.bp = 5081; Loc.ep = 5087} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 174; Loc.bol_pos = 5088; Loc.line_nb_last = 174; Loc.bol_pos_last = 5088; Loc.bp = 5088; Loc.ep = 5096} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 174; Loc.bol_pos = 5088; Loc.line_nb_last = 174; Loc.bol_pos_last = 5088; Loc.bp = 5097; Loc.ep = 5143} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 175; Loc.bol_pos = 5144; Loc.line_nb_last = 175; Loc.bol_pos_last = 5144; Loc.bp = 5144; Loc.ep = 5158} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 175; Loc.bol_pos = 5144; Loc.line_nb_last = 175; Loc.bol_pos_last = 5144; Loc.bp = 5159; Loc.ep = 5179} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 176; Loc.bol_pos = 5180; Loc.line_nb_last = 176; Loc.bol_pos_last = 5180; Loc.bp = 5180; Loc.ep = 5184} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 176; Loc.bol_pos = 5180; Loc.line_nb_last = 176; Loc.bol_pos_last = 5180; Loc.bp = 5185; Loc.ep = 5194} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 176; Loc.bol_pos = 5180; Loc.line_nb_last = 176; Loc.bol_pos_last = 5180; Loc.bp = 5195; Loc.ep = 5218} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 177; Loc.bol_pos = 5219; Loc.line_nb_last = 177; Loc.bol_pos_last = 5219; Loc.bp = 5219; Loc.ep = 5239} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 178; Loc.bol_pos = 5240; Loc.line_nb_last = 178; Loc.bol_pos_last = 5240; Loc.bp = 5240; Loc.ep = 5244} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** bi_induction **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 180; Loc.bol_pos = 5246; Loc.line_nb_last = 180; Loc.bol_pos_last = 5246; Loc.bp = 5246; Loc.ep = 5260} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 182; Loc.bol_pos = 5262; Loc.line_nb_last = 182; Loc.bol_pos_last = 5262; Loc.bp = 5262; Loc.ep = 5301} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 183; Loc.bol_pos = 5302; Loc.line_nb_last = 183; Loc.bol_pos_last = 5302; Loc.bp = 5302; Loc.ep = 5308} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 184; Loc.bol_pos = 5309; Loc.line_nb_last = 184; Loc.bol_pos_last = 5309; Loc.bp = 5309; Loc.ep = 5317} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 184; Loc.bol_pos = 5309; Loc.line_nb_last = 184; Loc.bol_pos_last = 5309; Loc.bp = 5318; Loc.ep = 5323} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 185; Loc.bol_pos = 5324; Loc.line_nb_last = 185; Loc.bol_pos_last = 5324; Loc.bp = 5324; Loc.ep = 5342} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 185; Loc.bol_pos = 5324; Loc.line_nb_last = 185; Loc.bol_pos_last = 5324; Loc.bp = 5343; Loc.ep = 5360} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 185; Loc.bol_pos = 5324; Loc.line_nb_last = 185; Loc.bol_pos_last = 5324; Loc.bp = 5361; Loc.ep = 5381} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 186; Loc.bol_pos = 5382; Loc.line_nb_last = 186; Loc.bol_pos_last = 5382; Loc.bp = 5382; Loc.ep = 5386} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_0_l **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 188; Loc.bol_pos = 5388; Loc.line_nb_last = 188; Loc.bol_pos_last = 5388; Loc.bp = 5388; Loc.ep = 5444} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 189; Loc.bol_pos = 5445; Loc.line_nb_last = 189; Loc.bol_pos_last = 5445; Loc.bp = 5445; Loc.ep = 5451} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 190; Loc.bol_pos = 5452; Loc.line_nb_last = 190; Loc.bol_pos_last = 5452; Loc.bp = 5452; Loc.ep = 5463} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 190; Loc.bol_pos = 5452; Loc.line_nb_last = 190; Loc.bol_pos_last = 5452; Loc.bp = 5464; Loc.ep = 5469} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 191; Loc.bol_pos = 5470; Loc.line_nb_last = 191; Loc.bol_pos_last = 5470; Loc.bp = 5470; Loc.ep = 5490} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 191; Loc.bol_pos = 5470; Loc.line_nb_last = 191; Loc.bol_pos_last = 5470; Loc.bp = 5491; Loc.ep = 5543} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 192; Loc.bol_pos = 5544; Loc.line_nb_last = 192; Loc.bol_pos_last = 5544; Loc.bp = 5544; Loc.ep = 5596} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 192; Loc.bol_pos = 5544; Loc.line_nb_last = 192; Loc.bol_pos_last = 5544; Loc.bp = 5597; Loc.ep = 5623} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 193; Loc.bol_pos = 5624; Loc.line_nb_last = 193; Loc.bol_pos_last = 5624; Loc.bp = 5624; Loc.ep = 5680} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 194; Loc.bol_pos = 5681; Loc.line_nb_last = 194; Loc.bol_pos_last = 5681; Loc.bp = 5681; Loc.ep = 5685} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** add_succ_l **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 196; Loc.bol_pos = 5687; Loc.line_nb_last = 196; Loc.bol_pos_last = 5687; Loc.bp = 5687; Loc.ep = 5726} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 197; Loc.bol_pos = 5727; Loc.line_nb_last = 197; Loc.bol_pos_last = 5727; Loc.bp = 5727; Loc.ep = 5733} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 198; Loc.bol_pos = 5734; Loc.line_nb_last = 198; Loc.bol_pos_last = 5734; Loc.bp = 5734; Loc.ep = 5742} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 198; Loc.bol_pos = 5734; Loc.line_nb_last = 198; Loc.bol_pos_last = 5734; Loc.bp = 5743; Loc.ep = 5748} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 198; Loc.bol_pos = 5734; Loc.line_nb_last = 198; Loc.bol_pos_last = 5734; Loc.bp = 5749; Loc.ep = 5767} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 198; Loc.bol_pos = 5734; Loc.line_nb_last = 198; Loc.bol_pos_last = 5734; Loc.bp = 5768; Loc.ep = 5786} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 199; Loc.bol_pos = 5787; Loc.line_nb_last = 199; Loc.bol_pos_last = 5787; Loc.bp = 5787; Loc.ep = 5791} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sub_0_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 201; Loc.bol_pos = 5793; Loc.line_nb_last = 201; Loc.bol_pos_last = 5793; Loc.bp = 5793; Loc.ep = 5849} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 202; Loc.bol_pos = 5850; Loc.line_nb_last = 202; Loc.bol_pos_last = 5850; Loc.bp = 5850; Loc.ep = 5856} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 203; Loc.bol_pos = 5857; Loc.line_nb_last = 203; Loc.bol_pos_last = 5857; Loc.bp = 5857; Loc.ep = 5868} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 203; Loc.bol_pos = 5857; Loc.line_nb_last = 203; Loc.bol_pos_last = 5857; Loc.bp = 5869; Loc.ep = 5874} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 203; Loc.bol_pos = 5857; Loc.line_nb_last = 203; Loc.bol_pos_last = 5857; Loc.bp = 5875; Loc.ep = 5922} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 204; Loc.bol_pos = 5923; Loc.line_nb_last = 205; Loc.bol_pos_last = 5986; Loc.bp = 5923; Loc.ep = 5999} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 206; Loc.bol_pos = 6000; Loc.line_nb_last = 206; Loc.bol_pos_last = 6000; Loc.bp = 6000; Loc.ep = 6004} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** sub_succ_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 208; Loc.bol_pos = 6006; Loc.line_nb_last = 208; Loc.bol_pos_last = 6006; Loc.bp = 6006; Loc.ep = 6045} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 209; Loc.bol_pos = 6046; Loc.line_nb_last = 209; Loc.bol_pos_last = 6046; Loc.bp = 6046; Loc.ep = 6052} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 210; Loc.bol_pos = 6053; Loc.line_nb_last = 210; Loc.bol_pos_last = 6053; Loc.bp = 6053; Loc.ep = 6061} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 210; Loc.bol_pos = 6053; Loc.line_nb_last = 210; Loc.bol_pos_last = 6053; Loc.bp = 6062; Loc.ep = 6071} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 211; Loc.bol_pos = 6072; Loc.line_nb_last = 211; Loc.bol_pos_last = 6072; Loc.bp = 6072; Loc.ep = 6076} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** mul_0_l **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 213; Loc.bol_pos = 6078; Loc.line_nb_last = 213; Loc.bol_pos_last = 6078; Loc.bp = 6078; Loc.ep = 6134} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 214; Loc.bol_pos = 6135; Loc.line_nb_last = 214; Loc.bol_pos_last = 6135; Loc.bp = 6135; Loc.ep = 6141} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 215; Loc.bol_pos = 6142; Loc.line_nb_last = 215; Loc.bol_pos_last = 6142; Loc.bp = 6142; Loc.ep = 6153} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 215; Loc.bol_pos = 6142; Loc.line_nb_last = 215; Loc.bol_pos_last = 6142; Loc.bp = 6154; Loc.ep = 6159} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 215; Loc.bol_pos = 6142; Loc.line_nb_last = 215; Loc.bol_pos_last = 6142; Loc.bp = 6160; Loc.ep = 6205} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 216; Loc.bol_pos = 6206; Loc.line_nb_last = 216; Loc.bol_pos_last = 6206; Loc.bp = 6206; Loc.ep = 6247} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 217; Loc.bol_pos = 6248; Loc.line_nb_last = 217; Loc.bol_pos_last = 6248; Loc.bp = 6248; Loc.ep = 6252} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** mul_succ_l **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 219; Loc.bol_pos = 6254; Loc.line_nb_last = 219; Loc.bol_pos_last = 6254; Loc.bp = 6254; Loc.ep = 6272} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Numbers/Cyclic/Abstract/NZCyclic.v"; Loc.line_nb = 221; Loc.bol_pos = 6274; Loc.line_nb_last = 221; Loc.bol_pos_last = 6274; Loc.bp = 6274; Loc.ep = 6296} **)
+(**VERNAC_TYPE** VernacEndSegment **)

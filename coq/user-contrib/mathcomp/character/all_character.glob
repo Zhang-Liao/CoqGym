@@ -1,0 +1,9 @@
+DIGEST 8add23c691d37f395cf63e6ebdb8b242
+Fmathcomp.character.all_character
+R29:37 mathcomp.character.character <> <> lib
+R69:76 mathcomp.character.classfun <> <> lib
+R108:114 mathcomp.character.inertia <> <> lib
+R146:158 mathcomp.character.integral_char <> <> lib
+R190:197 mathcomp.character.mxabelem <> <> lib
+R229:244 mathcomp.character.mxrepresentation <> <> lib
+R276:285 mathcomp.character.vcharacter <> <> lib

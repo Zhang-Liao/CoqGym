@@ -1,0 +1,64 @@
+DIGEST e7cda4763662c019aefc1deea512ab23
+FZornsLemma.DecidableDec
+R15:25 Coq.Logic.Description <> <> lib
+prf 35:47 <> exclusive_dec
+R76:81 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R82:82 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R89:93 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R94:94 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R96:100 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R102:102 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R95:95 ZornsLemma.DecidableDec <> P var
+R101:101 ZornsLemma.DecidableDec <> Q var
+R84:87 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R83:83 ZornsLemma.DecidableDec <> P var
+R88:88 ZornsLemma.DecidableDec <> Q var
+R67:68 Coq.Init.Logic <> ::type_scope:'~'_x not
+R75:75 Coq.Init.Logic <> ::type_scope:'~'_x not
+R70:73 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R69:69 ZornsLemma.DecidableDec <> P var
+R74:74 ZornsLemma.DecidableDec <> Q var
+R128:128 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R130:130 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R135:137 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R156:156 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R131:134 Coq.Init.Datatypes <> bool ind
+R141:141 ZornsLemma.DecidableDec <> x var
+R128:128 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R130:130 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R135:137 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R156:156 Coq.Init.Specif <> ::type_scope:'{'_x_':'_x_'|'_x_'}' not
+R131:134 Coq.Init.Datatypes <> bool ind
+R141:141 ZornsLemma.DecidableDec <> x var
+R166:198 Coq.Logic.Description <> constructive_definite_description prfax
+R166:198 Coq.Logic.Description <> constructive_definite_description prfax
+R217:220 Coq.Init.Datatypes <> true constr
+R217:220 Coq.Init.Datatypes <> true constr
+R287:291 Coq.Init.Datatypes <> false constr
+R287:291 Coq.Init.Datatypes <> false constr
+prf 426:438 <> decidable_dec
+R463:466 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R467:467 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R469:473 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R476:476 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R468:468 ZornsLemma.DecidableDec <> P var
+R474:474 Coq.Init.Logic <> ::type_scope:'~'_x not
+R475:475 ZornsLemma.DecidableDec <> P var
+R457:460 Coq.Init.Logic <> ::type_scope:x_'\/'_x not
+R456:456 ZornsLemma.DecidableDec <> P var
+R461:461 Coq.Init.Logic <> ::type_scope:'~'_x not
+R462:462 ZornsLemma.DecidableDec <> P var
+R500:512 ZornsLemma.DecidableDec <> exclusive_dec thm
+R500:512 ZornsLemma.DecidableDec <> exclusive_dec thm
+R555:563 Coq.Logic.Classical <> <> lib
+prf 573:583 <> classic_dec
+R601:601 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R603:607 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R610:610 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R602:602 ZornsLemma.DecidableDec <> P var
+R608:608 Coq.Init.Logic <> ::type_scope:'~'_x not
+R609:609 ZornsLemma.DecidableDec <> P var
+R635:647 ZornsLemma.DecidableDec <> decidable_dec thm
+R635:647 ZornsLemma.DecidableDec <> decidable_dec thm
+R656:662 Coq.Logic.Classical_Prop <> classic prfax
+R656:662 Coq.Logic.Classical_Prop <> classic prfax

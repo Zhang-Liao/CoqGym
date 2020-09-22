@@ -1,0 +1,530 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 15; Loc.bol_pos = 793; Loc.line_nb_last = 15; Loc.bol_pos_last = 793; Loc.bp = 793; Loc.ep = 816} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 16; Loc.bol_pos = 817; Loc.line_nb_last = 16; Loc.bol_pos_last = 817; Loc.bp = 817; Loc.ep = 839} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 17; Loc.bol_pos = 840; Loc.line_nb_last = 17; Loc.bol_pos_last = 840; Loc.bp = 840; Loc.ep = 862} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 18; Loc.bol_pos = 863; Loc.line_nb_last = 18; Loc.bol_pos_last = 863; Loc.bp = 863; Loc.ep = 884} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 28; Loc.bol_pos = 1161; Loc.line_nb_last = 28; Loc.bol_pos_last = 1161; Loc.bp = 1161; Loc.ep = 1194} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 38; Loc.bol_pos = 1540; Loc.line_nb_last = 42; Loc.bol_pos_last = 1637; Loc.bp = 1542; Loc.ep = 1645} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 44; Loc.bol_pos = 1647; Loc.line_nb_last = 44; Loc.bol_pos_last = 1647; Loc.bp = 1649; Loc.ep = 1699} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 45; Loc.bol_pos = 1700; Loc.line_nb_last = 45; Loc.bol_pos_last = 1700; Loc.bp = 1702; Loc.ep = 1708} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 46; Loc.bol_pos = 1709; Loc.line_nb_last = 46; Loc.bol_pos_last = 1709; Loc.bp = 1713; Loc.ep = 1745} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 47; Loc.bol_pos = 1746; Loc.line_nb_last = 47; Loc.bol_pos_last = 1746; Loc.bp = 1750; Loc.ep = 1760} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 49; Loc.bol_pos = 1762; Loc.line_nb_last = 49; Loc.bol_pos_last = 1762; Loc.bp = 1766; Loc.ep = 1779} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 50; Loc.bol_pos = 1780; Loc.line_nb_last = 50; Loc.bol_pos_last = 1780; Loc.bp = 1784; Loc.ep = 1817} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 51; Loc.bol_pos = 1818; Loc.line_nb_last = 51; Loc.bol_pos_last = 1818; Loc.bp = 1820; Loc.ep = 1828} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** binary_value **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 53; Loc.bol_pos = 1830; Loc.line_nb_last = 53; Loc.bol_pos_last = 1830; Loc.bp = 1832; Loc.ep = 1889} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 54; Loc.bol_pos = 1890; Loc.line_nb_last = 54; Loc.bol_pos_last = 1890; Loc.bp = 1892; Loc.ep = 1898} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 55; Loc.bol_pos = 1899; Loc.line_nb_last = 55; Loc.bol_pos_last = 1899; Loc.bp = 1903; Loc.ep = 1930} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 56; Loc.bol_pos = 1931; Loc.line_nb_last = 56; Loc.bol_pos_last = 1931; Loc.bp = 1935; Loc.ep = 1947} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 57; Loc.bol_pos = 1948; Loc.line_nb_last = 57; Loc.bol_pos_last = 1948; Loc.bp = 1952; Loc.ep = 1976} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 59; Loc.bol_pos = 1978; Loc.line_nb_last = 59; Loc.bol_pos_last = 1978; Loc.bp = 1982; Loc.ep = 1995} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 60; Loc.bol_pos = 1996; Loc.line_nb_last = 60; Loc.bol_pos_last = 1996; Loc.bp = 2000; Loc.ep = 2033} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 61; Loc.bol_pos = 2034; Loc.line_nb_last = 61; Loc.bol_pos_last = 2034; Loc.bp = 2036; Loc.ep = 2044} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_compl_value **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 63; Loc.bol_pos = 2046; Loc.line_nb_last = 63; Loc.bol_pos_last = 2046; Loc.bp = 2046; Loc.ep = 2075} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 65; Loc.bol_pos = 2077; Loc.line_nb_last = 65; Loc.bol_pos_last = 2077; Loc.bp = 2077; Loc.ep = 2100} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 75; Loc.bol_pos = 2448; Loc.line_nb_last = 89; Loc.bol_pos_last = 2717; Loc.bp = 2450; Loc.ep = 2725} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 92; Loc.bol_pos = 2728; Loc.line_nb_last = 93; Loc.bol_pos_last = 2750; Loc.bp = 2730; Loc.ep = 2808} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 94; Loc.bol_pos = 2809; Loc.line_nb_last = 94; Loc.bol_pos_last = 2809; Loc.bp = 2811; Loc.ep = 2817} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 95; Loc.bol_pos = 2818; Loc.line_nb_last = 95; Loc.bol_pos_last = 2818; Loc.bp = 2822; Loc.ep = 2840} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 96; Loc.bol_pos = 2841; Loc.line_nb_last = 96; Loc.bol_pos_last = 2841; Loc.bp = 2845; Loc.ep = 2853} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 98; Loc.bol_pos = 2855; Loc.line_nb_last = 98; Loc.bol_pos_last = 2855; Loc.bp = 2859; Loc.ep = 2886} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 100; Loc.bol_pos = 2888; Loc.line_nb_last = 100; Loc.bol_pos_last = 2888; Loc.bp = 2892; Loc.ep = 2910} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 101; Loc.bol_pos = 2911; Loc.line_nb_last = 101; Loc.bol_pos_last = 2911; Loc.bp = 2915; Loc.ep = 2945} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 102; Loc.bol_pos = 2946; Loc.line_nb_last = 102; Loc.bol_pos_last = 2946; Loc.bp = 2950; Loc.ep = 2995} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 104; Loc.bol_pos = 2997; Loc.line_nb_last = 104; Loc.bol_pos_last = 2997; Loc.bp = 3001; Loc.ep = 3009} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 106; Loc.bol_pos = 3011; Loc.line_nb_last = 106; Loc.bol_pos_last = 3011; Loc.bp = 3015; Loc.ep = 3023} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 108; Loc.bol_pos = 3025; Loc.line_nb_last = 108; Loc.bol_pos_last = 3025; Loc.bp = 3029; Loc.ep = 3037} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 110; Loc.bol_pos = 3039; Loc.line_nb_last = 110; Loc.bol_pos_last = 3039; Loc.bp = 3043; Loc.ep = 3051} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 111; Loc.bol_pos = 3052; Loc.line_nb_last = 111; Loc.bol_pos_last = 3052; Loc.bp = 3054; Loc.ep = 3058} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zmod2_twice **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 113; Loc.bol_pos = 3060; Loc.line_nb_last = 113; Loc.bol_pos_last = 3060; Loc.bp = 3062; Loc.ep = 3111} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 114; Loc.bol_pos = 3112; Loc.line_nb_last = 114; Loc.bol_pos_last = 3112; Loc.bp = 3114; Loc.ep = 3120} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 115; Loc.bol_pos = 3121; Loc.line_nb_last = 115; Loc.bol_pos_last = 3121; Loc.bp = 3125; Loc.ep = 3152} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 116; Loc.bol_pos = 3153; Loc.line_nb_last = 116; Loc.bol_pos_last = 3153; Loc.bp = 3157; Loc.ep = 3168} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 118; Loc.bol_pos = 3170; Loc.line_nb_last = 118; Loc.bol_pos_last = 3170; Loc.bp = 3174; Loc.ep = 3218} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 119; Loc.bol_pos = 3219; Loc.line_nb_last = 119; Loc.bol_pos_last = 3219; Loc.bp = 3221; Loc.ep = 3229} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_binary **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 121; Loc.bol_pos = 3231; Loc.line_nb_last = 121; Loc.bol_pos_last = 3231; Loc.bp = 3233; Loc.ep = 3289} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 122; Loc.bol_pos = 3290; Loc.line_nb_last = 122; Loc.bol_pos_last = 3290; Loc.bp = 3292; Loc.ep = 3298} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 123; Loc.bol_pos = 3299; Loc.line_nb_last = 123; Loc.bol_pos_last = 3299; Loc.bp = 3303; Loc.ep = 3330} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 124; Loc.bol_pos = 3331; Loc.line_nb_last = 124; Loc.bol_pos_last = 3331; Loc.bp = 3335; Loc.ep = 3366} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 126; Loc.bol_pos = 3368; Loc.line_nb_last = 126; Loc.bol_pos_last = 3368; Loc.bp = 3372; Loc.ep = 3419} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 127; Loc.bol_pos = 3420; Loc.line_nb_last = 127; Loc.bol_pos_last = 3420; Loc.bp = 3422; Loc.ep = 3430} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_two_compl **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 129; Loc.bol_pos = 3432; Loc.line_nb_last = 129; Loc.bol_pos_last = 3432; Loc.bp = 3432; Loc.ep = 3451} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 131; Loc.bol_pos = 3453; Loc.line_nb_last = 131; Loc.bol_pos_last = 3453; Loc.bp = 3453; Loc.ep = 3475} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 137; Loc.bol_pos = 3598; Loc.line_nb_last = 140; Loc.bol_pos_last = 3706; Loc.bp = 3600; Loc.ep = 3752} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 141; Loc.bol_pos = 3753; Loc.line_nb_last = 141; Loc.bol_pos_last = 3753; Loc.bp = 3755; Loc.ep = 3761} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 142; Loc.bol_pos = 3762; Loc.line_nb_last = 142; Loc.bol_pos_last = 3762; Loc.bp = 3766; Loc.ep = 3779} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 143; Loc.bol_pos = 3780; Loc.line_nb_last = 143; Loc.bol_pos_last = 3780; Loc.bp = 3782; Loc.ep = 3786} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** binary_value_Sn **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 145; Loc.bol_pos = 3788; Loc.line_nb_last = 148; Loc.bol_pos_last = 3868; Loc.bp = 3790; Loc.ep = 3944} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 149; Loc.bol_pos = 3945; Loc.line_nb_last = 149; Loc.bol_pos_last = 3945; Loc.bp = 3947; Loc.ep = 3953} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 150; Loc.bol_pos = 3954; Loc.line_nb_last = 150; Loc.bol_pos_last = 3954; Loc.bp = 3958; Loc.ep = 3994} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 151; Loc.bol_pos = 3995; Loc.line_nb_last = 151; Loc.bol_pos_last = 3995; Loc.bp = 3999; Loc.ep = 4024} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 152; Loc.bol_pos = 4025; Loc.line_nb_last = 152; Loc.bol_pos_last = 4025; Loc.bp = 4027; Loc.ep = 4031} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_binary_Sn **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 154; Loc.bol_pos = 4033; Loc.line_nb_last = 155; Loc.bol_pos_last = 4060; Loc.bp = 4035; Loc.ep = 4122} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 156; Loc.bol_pos = 4123; Loc.line_nb_last = 156; Loc.bol_pos_last = 4123; Loc.bp = 4125; Loc.ep = 4131} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 157; Loc.bol_pos = 4132; Loc.line_nb_last = 157; Loc.bol_pos_last = 4132; Loc.bp = 4136; Loc.ep = 4172} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 158; Loc.bol_pos = 4173; Loc.line_nb_last = 158; Loc.bol_pos_last = 4173; Loc.bp = 4177; Loc.ep = 4183} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 160; Loc.bol_pos = 4185; Loc.line_nb_last = 160; Loc.bol_pos_last = 4185; Loc.bp = 4189; Loc.ep = 4242} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 161; Loc.bol_pos = 4243; Loc.line_nb_last = 161; Loc.bol_pos_last = 4243; Loc.bp = 4247; Loc.ep = 4264} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 162; Loc.bol_pos = 4265; Loc.line_nb_last = 162; Loc.bol_pos_last = 4265; Loc.bp = 4267; Loc.ep = 4271} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** binary_value_pos **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 164; Loc.bol_pos = 4273; Loc.line_nb_last = 167; Loc.bol_pos_last = 4399; Loc.bp = 4275; Loc.ep = 4448} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 168; Loc.bol_pos = 4449; Loc.line_nb_last = 168; Loc.bol_pos_last = 4449; Loc.bp = 4451; Loc.ep = 4457} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 169; Loc.bol_pos = 4458; Loc.line_nb_last = 169; Loc.bol_pos_last = 4458; Loc.bp = 4462; Loc.ep = 4475} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 170; Loc.bol_pos = 4476; Loc.line_nb_last = 170; Loc.bol_pos_last = 4476; Loc.bp = 4478; Loc.ep = 4482} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_compl_value_Sn **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 172; Loc.bol_pos = 4484; Loc.line_nb_last = 175; Loc.bol_pos_last = 4598; Loc.bp = 4486; Loc.ep = 4639} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 176; Loc.bol_pos = 4640; Loc.line_nb_last = 176; Loc.bol_pos_last = 4640; Loc.bp = 4642; Loc.ep = 4648} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 177; Loc.bol_pos = 4649; Loc.line_nb_last = 177; Loc.bol_pos_last = 4649; Loc.bp = 4653; Loc.ep = 4694} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 178; Loc.bol_pos = 4695; Loc.line_nb_last = 178; Loc.bol_pos_last = 4695; Loc.bp = 4699; Loc.ep = 4728} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 179; Loc.bol_pos = 4729; Loc.line_nb_last = 179; Loc.bol_pos_last = 4729; Loc.bp = 4733; Loc.ep = 4769} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 180; Loc.bol_pos = 4770; Loc.line_nb_last = 180; Loc.bol_pos_last = 4770; Loc.bp = 4774; Loc.ep = 4824} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 181; Loc.bol_pos = 4825; Loc.line_nb_last = 181; Loc.bol_pos_last = 4825; Loc.bp = 4827; Loc.ep = 4831} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_two_compl_Sn **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 183; Loc.bol_pos = 4833; Loc.line_nb_last = 186; Loc.bol_pos_last = 4914; Loc.bp = 4835; Loc.ep = 4965} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 187; Loc.bol_pos = 4966; Loc.line_nb_last = 187; Loc.bol_pos_last = 4966; Loc.bp = 4968; Loc.ep = 4974} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 188; Loc.bol_pos = 4975; Loc.line_nb_last = 188; Loc.bol_pos_last = 4975; Loc.bp = 4979; Loc.ep = 4992} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 189; Loc.bol_pos = 4993; Loc.line_nb_last = 189; Loc.bol_pos_last = 4993; Loc.bp = 4995; Loc.ep = 4999} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_binary_Sn_z **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 191; Loc.bol_pos = 5001; Loc.line_nb_last = 193; Loc.bol_pos_last = 5040; Loc.bp = 5003; Loc.ep = 5103} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 194; Loc.bol_pos = 5104; Loc.line_nb_last = 194; Loc.bol_pos_last = 5104; Loc.bp = 5106; Loc.ep = 5112} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 195; Loc.bol_pos = 5113; Loc.line_nb_last = 195; Loc.bol_pos_last = 5113; Loc.bp = 5117; Loc.ep = 5146} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 196; Loc.bol_pos = 5147; Loc.line_nb_last = 196; Loc.bol_pos_last = 5147; Loc.bp = 5151; Loc.ep = 5168} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 197; Loc.bol_pos = 5169; Loc.line_nb_last = 197; Loc.bol_pos_last = 5169; Loc.bp = 5173; Loc.ep = 5198} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 198; Loc.bol_pos = 5199; Loc.line_nb_last = 198; Loc.bol_pos_last = 5199; Loc.bp = 5201; Loc.ep = 5205} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_div2_value **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 200; Loc.bol_pos = 5207; Loc.line_nb_last = 200; Loc.bol_pos_last = 5207; Loc.bp = 5209; Loc.ep = 5267} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 201; Loc.bol_pos = 5268; Loc.line_nb_last = 201; Loc.bol_pos_last = 5268; Loc.bp = 5270; Loc.ep = 5276} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 202; Loc.bol_pos = 5277; Loc.line_nb_last = 202; Loc.bol_pos_last = 5277; Loc.bp = 5281; Loc.ep = 5304} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 203; Loc.bol_pos = 5305; Loc.line_nb_last = 203; Loc.bol_pos_last = 5305; Loc.bp = 5309; Loc.ep = 5314} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 205; Loc.bol_pos = 5316; Loc.line_nb_last = 205; Loc.bol_pos_last = 5316; Loc.bp = 5320; Loc.ep = 5337} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 206; Loc.bol_pos = 5338; Loc.line_nb_last = 206; Loc.bol_pos_last = 5338; Loc.bp = 5342; Loc.ep = 5363} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 208; Loc.bol_pos = 5365; Loc.line_nb_last = 208; Loc.bol_pos_last = 5365; Loc.bp = 5369; Loc.ep = 5394} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 209; Loc.bol_pos = 5395; Loc.line_nb_last = 209; Loc.bol_pos_last = 5395; Loc.bp = 5397; Loc.ep = 5401} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Pdiv2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 211; Loc.bol_pos = 5403; Loc.line_nb_last = 214; Loc.bol_pos_last = 5479; Loc.bp = 5405; Loc.ep = 5547} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 215; Loc.bol_pos = 5548; Loc.line_nb_last = 215; Loc.bol_pos_last = 5548; Loc.bp = 5550; Loc.ep = 5556} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 216; Loc.bol_pos = 5557; Loc.line_nb_last = 216; Loc.bol_pos_last = 5557; Loc.bp = 5561; Loc.ep = 5568} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 217; Loc.bol_pos = 5569; Loc.line_nb_last = 217; Loc.bol_pos_last = 5569; Loc.bp = 5573; Loc.ep = 5628} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 218; Loc.bol_pos = 5629; Loc.line_nb_last = 218; Loc.bol_pos_last = 5629; Loc.bp = 5633; Loc.ep = 5660} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 219; Loc.bol_pos = 5661; Loc.line_nb_last = 219; Loc.bol_pos_last = 5661; Loc.bp = 5665; Loc.ep = 5722} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 220; Loc.bol_pos = 5723; Loc.line_nb_last = 220; Loc.bol_pos_last = 5723; Loc.bp = 5727; Loc.ep = 5761} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 221; Loc.bol_pos = 5762; Loc.line_nb_last = 221; Loc.bol_pos_last = 5762; Loc.bp = 5766; Loc.ep = 5809} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 222; Loc.bol_pos = 5810; Loc.line_nb_last = 222; Loc.bol_pos_last = 5810; Loc.bp = 5812; Loc.ep = 5816} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zdiv2_two_power_nat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 224; Loc.bol_pos = 5818; Loc.line_nb_last = 227; Loc.bol_pos_last = 5905; Loc.bp = 5820; Loc.ep = 5962} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 228; Loc.bol_pos = 5963; Loc.line_nb_last = 228; Loc.bol_pos_last = 5963; Loc.bp = 5965; Loc.ep = 5971} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 229; Loc.bol_pos = 5972; Loc.line_nb_last = 229; Loc.bol_pos_last = 5972; Loc.bp = 5976; Loc.ep = 5989} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 230; Loc.bol_pos = 5990; Loc.line_nb_last = 230; Loc.bol_pos_last = 5990; Loc.bp = 5992; Loc.ep = 5996} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_two_compl_Sn_z **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 232; Loc.bol_pos = 5998; Loc.line_nb_last = 233; Loc.bol_pos_last = 6024; Loc.bp = 6000; Loc.ep = 6083} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 234; Loc.bol_pos = 6084; Loc.line_nb_last = 234; Loc.bol_pos_last = 6084; Loc.bp = 6086; Loc.ep = 6092} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 235; Loc.bol_pos = 6093; Loc.line_nb_last = 235; Loc.bol_pos_last = 6093; Loc.bp = 6097; Loc.ep = 6132} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 236; Loc.bol_pos = 6133; Loc.line_nb_last = 236; Loc.bol_pos_last = 6133; Loc.bp = 6137; Loc.ep = 6176} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 237; Loc.bol_pos = 6177; Loc.line_nb_last = 237; Loc.bol_pos_last = 6177; Loc.bp = 6181; Loc.ep = 6220} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 238; Loc.bol_pos = 6221; Loc.line_nb_last = 238; Loc.bol_pos_last = 6221; Loc.bp = 6223; Loc.ep = 6227} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zeven_bit_value **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 240; Loc.bol_pos = 6229; Loc.line_nb_last = 241; Loc.bol_pos_last = 6254; Loc.bp = 6231; Loc.ep = 6312} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 242; Loc.bol_pos = 6313; Loc.line_nb_last = 242; Loc.bol_pos_last = 6313; Loc.bp = 6315; Loc.ep = 6321} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 243; Loc.bol_pos = 6322; Loc.line_nb_last = 243; Loc.bol_pos_last = 6322; Loc.bp = 6326; Loc.ep = 6361} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 244; Loc.bol_pos = 6362; Loc.line_nb_last = 244; Loc.bol_pos_last = 6362; Loc.bp = 6366; Loc.ep = 6381} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 245; Loc.bol_pos = 6382; Loc.line_nb_last = 245; Loc.bol_pos_last = 6382; Loc.bp = 6386; Loc.ep = 6424} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 246; Loc.bol_pos = 6425; Loc.line_nb_last = 246; Loc.bol_pos_last = 6425; Loc.bp = 6429; Loc.ep = 6467} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 247; Loc.bol_pos = 6468; Loc.line_nb_last = 247; Loc.bol_pos_last = 6468; Loc.bp = 6470; Loc.ep = 6474} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zodd_bit_value **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 249; Loc.bol_pos = 6476; Loc.line_nb_last = 251; Loc.bol_pos_last = 6538; Loc.bp = 6478; Loc.ep = 6611} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 252; Loc.bol_pos = 6612; Loc.line_nb_last = 252; Loc.bol_pos_last = 6612; Loc.bp = 6614; Loc.ep = 6620} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 253; Loc.bol_pos = 6621; Loc.line_nb_last = 253; Loc.bol_pos_last = 6621; Loc.bp = 6625; Loc.ep = 6665} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 254; Loc.bol_pos = 6666; Loc.line_nb_last = 254; Loc.bol_pos_last = 6666; Loc.bp = 6670; Loc.ep = 6697} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 255; Loc.bol_pos = 6698; Loc.line_nb_last = 255; Loc.bol_pos_last = 6698; Loc.bp = 6702; Loc.ep = 6745} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 256; Loc.bol_pos = 6746; Loc.line_nb_last = 256; Loc.bol_pos_last = 6746; Loc.bp = 6750; Loc.ep = 6795} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 258; Loc.bol_pos = 6797; Loc.line_nb_last = 258; Loc.bol_pos_last = 6797; Loc.bp = 6801; Loc.ep = 6845} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 259; Loc.bol_pos = 6846; Loc.line_nb_last = 259; Loc.bol_pos_last = 6846; Loc.bp = 6848; Loc.ep = 6852} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zge_minus_two_power_nat_S **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 261; Loc.bol_pos = 6854; Loc.line_nb_last = 263; Loc.bol_pos_last = 6910; Loc.bp = 6856; Loc.ep = 6977} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 264; Loc.bol_pos = 6978; Loc.line_nb_last = 264; Loc.bol_pos_last = 6978; Loc.bp = 6980; Loc.ep = 6986} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 265; Loc.bol_pos = 6987; Loc.line_nb_last = 265; Loc.bol_pos_last = 6987; Loc.bp = 6991; Loc.ep = 7031} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 266; Loc.bol_pos = 7032; Loc.line_nb_last = 266; Loc.bol_pos_last = 7032; Loc.bp = 7036; Loc.ep = 7063} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 267; Loc.bol_pos = 7064; Loc.line_nb_last = 267; Loc.bol_pos_last = 7064; Loc.bp = 7068; Loc.ep = 7111} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 268; Loc.bol_pos = 7112; Loc.line_nb_last = 268; Loc.bol_pos_last = 7112; Loc.bp = 7116; Loc.ep = 7161} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 270; Loc.bol_pos = 7163; Loc.line_nb_last = 270; Loc.bol_pos_last = 7163; Loc.bp = 7167; Loc.ep = 7211} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 271; Loc.bol_pos = 7212; Loc.line_nb_last = 271; Loc.bol_pos_last = 7212; Loc.bp = 7214; Loc.ep = 7218} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zlt_two_power_nat_S **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 273; Loc.bol_pos = 7220; Loc.line_nb_last = 273; Loc.bol_pos_last = 7220; Loc.bp = 7220; Loc.ep = 7238} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 275; Loc.bol_pos = 7240; Loc.line_nb_last = 275; Loc.bol_pos_last = 7240; Loc.bp = 7240; Loc.ep = 7263} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 281; Loc.bol_pos = 7382; Loc.line_nb_last = 282; Loc.bol_pos_last = 7414; Loc.bp = 7384; Loc.ep = 7488} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 283; Loc.bol_pos = 7489; Loc.line_nb_last = 283; Loc.bol_pos_last = 7489; Loc.bp = 7491; Loc.ep = 7497} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 284; Loc.bol_pos = 7498; Loc.line_nb_last = 284; Loc.bol_pos_last = 7498; Loc.bp = 7502; Loc.ep = 7534} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 285; Loc.bol_pos = 7535; Loc.line_nb_last = 285; Loc.bol_pos_last = 7535; Loc.bp = 7539; Loc.ep = 7544} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 287; Loc.bol_pos = 7546; Loc.line_nb_last = 287; Loc.bol_pos_last = 7546; Loc.bp = 7550; Loc.ep = 7574} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 288; Loc.bol_pos = 7575; Loc.line_nb_last = 288; Loc.bol_pos_last = 7575; Loc.bp = 7579; Loc.ep = 7602} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 289; Loc.bol_pos = 7603; Loc.line_nb_last = 289; Loc.bol_pos_last = 7603; Loc.bp = 7607; Loc.ep = 7629} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 291; Loc.bol_pos = 7631; Loc.line_nb_last = 291; Loc.bol_pos_last = 7631; Loc.bp = 7635; Loc.ep = 7658} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 292; Loc.bol_pos = 7659; Loc.line_nb_last = 292; Loc.bol_pos_last = 7659; Loc.bp = 7661; Loc.ep = 7665} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** binary_to_Z_to_binary **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 294; Loc.bol_pos = 7667; Loc.line_nb_last = 296; Loc.bol_pos_last = 7749; Loc.bp = 7669; Loc.ep = 7822} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 297; Loc.bol_pos = 7823; Loc.line_nb_last = 297; Loc.bol_pos_last = 7823; Loc.bp = 7825; Loc.ep = 7831} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 298; Loc.bol_pos = 7832; Loc.line_nb_last = 298; Loc.bol_pos_last = 7832; Loc.bp = 7836; Loc.ep = 7877} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 299; Loc.bol_pos = 7878; Loc.line_nb_last = 299; Loc.bol_pos_last = 7878; Loc.bp = 7882; Loc.ep = 7899} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 301; Loc.bol_pos = 7901; Loc.line_nb_last = 301; Loc.bol_pos_last = 7901; Loc.bp = 7905; Loc.ep = 7932} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 302; Loc.bol_pos = 7933; Loc.line_nb_last = 302; Loc.bol_pos_last = 7933; Loc.bp = 7937; Loc.ep = 7963} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 303; Loc.bol_pos = 7964; Loc.line_nb_last = 303; Loc.bol_pos_last = 7964; Loc.bp = 7968; Loc.ep = 7990} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 304; Loc.bol_pos = 7991; Loc.line_nb_last = 304; Loc.bol_pos_last = 7991; Loc.bp = 7993; Loc.ep = 7997} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_compl_to_Z_to_two_compl **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 306; Loc.bol_pos = 7999; Loc.line_nb_last = 309; Loc.bol_pos_last = 8072; Loc.bp = 8001; Loc.ep = 8142} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 310; Loc.bol_pos = 8143; Loc.line_nb_last = 310; Loc.bol_pos_last = 8143; Loc.bp = 8145; Loc.ep = 8151} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 311; Loc.bol_pos = 8152; Loc.line_nb_last = 311; Loc.bol_pos_last = 8152; Loc.bp = 8156; Loc.ep = 8181} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 312; Loc.bol_pos = 8182; Loc.line_nb_last = 312; Loc.bol_pos_last = 8182; Loc.bp = 8186; Loc.ep = 8240} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 314; Loc.bol_pos = 8242; Loc.line_nb_last = 314; Loc.bol_pos_last = 8242; Loc.bp = 8246; Loc.ep = 8279} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 315; Loc.bol_pos = 8280; Loc.line_nb_last = 315; Loc.bol_pos_last = 8280; Loc.bp = 8284; Loc.ep = 8308} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 316; Loc.bol_pos = 8309; Loc.line_nb_last = 316; Loc.bol_pos_last = 8309; Loc.bp = 8313; Loc.ep = 8325} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 317; Loc.bol_pos = 8326; Loc.line_nb_last = 317; Loc.bol_pos_last = 8326; Loc.bp = 8330; Loc.ep = 8355} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 319; Loc.bol_pos = 8357; Loc.line_nb_last = 319; Loc.bol_pos_last = 8357; Loc.bp = 8361; Loc.ep = 8382} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 321; Loc.bol_pos = 8384; Loc.line_nb_last = 321; Loc.bol_pos_last = 8384; Loc.bp = 8388; Loc.ep = 8423} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 322; Loc.bol_pos = 8424; Loc.line_nb_last = 322; Loc.bol_pos_last = 8424; Loc.bp = 8426; Loc.ep = 8430} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_binary_to_Z **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 324; Loc.bol_pos = 8432; Loc.line_nb_last = 327; Loc.bol_pos_last = 8524; Loc.bp = 8434; Loc.ep = 8600} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 328; Loc.bol_pos = 8601; Loc.line_nb_last = 328; Loc.bol_pos_last = 8601; Loc.bp = 8603; Loc.ep = 8609} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 329; Loc.bol_pos = 8610; Loc.line_nb_last = 329; Loc.bol_pos_last = 8610; Loc.bp = 8614; Loc.ep = 8639} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 330; Loc.bol_pos = 8640; Loc.line_nb_last = 330; Loc.bol_pos_last = 8640; Loc.bp = 8644; Loc.ep = 8691} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 331; Loc.bol_pos = 8692; Loc.line_nb_last = 331; Loc.bol_pos_last = 8692; Loc.bp = 8696; Loc.ep = 8727} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 331; Loc.bol_pos = 8692; Loc.line_nb_last = 331; Loc.bol_pos_last = 8692; Loc.bp = 8728; Loc.ep = 8734} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 332; Loc.bol_pos = 8735; Loc.line_nb_last = 332; Loc.bol_pos_last = 8735; Loc.bp = 8739; Loc.ep = 8767} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 334; Loc.bol_pos = 8769; Loc.line_nb_last = 334; Loc.bol_pos_last = 8769; Loc.bp = 8773; Loc.ep = 8809} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 335; Loc.bol_pos = 8810; Loc.line_nb_last = 335; Loc.bol_pos_last = 8810; Loc.bp = 8814; Loc.ep = 8841} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 336; Loc.bol_pos = 8842; Loc.line_nb_last = 336; Loc.bol_pos_last = 8842; Loc.bp = 8846; Loc.ep = 8858} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 337; Loc.bol_pos = 8859; Loc.line_nb_last = 337; Loc.bol_pos_last = 8859; Loc.bp = 8863; Loc.ep = 8897} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 339; Loc.bol_pos = 8899; Loc.line_nb_last = 339; Loc.bol_pos_last = 8899; Loc.bp = 8903; Loc.ep = 8941} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 341; Loc.bol_pos = 8943; Loc.line_nb_last = 341; Loc.bol_pos_last = 8943; Loc.bp = 8947; Loc.ep = 8979} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 342; Loc.bol_pos = 8980; Loc.line_nb_last = 342; Loc.bol_pos_last = 8980; Loc.bp = 8982; Loc.ep = 8986} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Z_to_two_compl_to_Z **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zdigits.v"; Loc.line_nb = 344; Loc.bol_pos = 8988; Loc.line_nb_last = 344; Loc.bol_pos_last = 8988; Loc.bp = 8988; Loc.ep = 9007} **)
+(**VERNAC_TYPE** VernacEndSegment **)

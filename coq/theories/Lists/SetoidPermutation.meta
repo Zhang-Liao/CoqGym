@@ -1,0 +1,588 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 714} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 14; Loc.bol_pos = 749; Loc.line_nb_last = 14; Loc.bol_pos_last = 749; Loc.bp = 749; Loc.ep = 772} **)
+(**VERNAC_TYPE** VernacSetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 15; Loc.bol_pos = 773; Loc.line_nb_last = 15; Loc.bol_pos_last = 773; Loc.bp = 773; Loc.ep = 795} **)
+(**VERNAC_TYPE** VernacUnsetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 21; Loc.bol_pos = 916; Loc.line_nb_last = 21; Loc.bol_pos_last = 916; Loc.bp = 916; Loc.ep = 936} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 22; Loc.bol_pos = 937; Loc.line_nb_last = 22; Loc.bol_pos_last = 937; Loc.bp = 937; Loc.ep = 997} **)
+(**VERNAC_TYPE** VernacContext **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 24; Loc.bol_pos = 999; Loc.line_nb_last = 30; Loc.bol_pos_last = 1313; Loc.bp = 999; Loc.ep = 1393} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 31; Loc.bol_pos = 1394; Loc.line_nb_last = 31; Loc.bol_pos_last = 1394; Loc.bp = 1394; Loc.ep = 1431} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 33; Loc.bol_pos = 1433; Loc.line_nb_last = 33; Loc.bol_pos_last = 1433; Loc.bp = 1433; Loc.ep = 1475} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 34; Loc.bol_pos = 1476; Loc.line_nb_last = 34; Loc.bol_pos_last = 1476; Loc.bp = 1476; Loc.ep = 1482} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 35; Loc.bol_pos = 1483; Loc.line_nb_last = 35; Loc.bol_pos_last = 1483; Loc.bp = 1484; Loc.ep = 1496} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 36; Loc.bol_pos = 1497; Loc.line_nb_last = 36; Loc.bol_pos_last = 1497; Loc.bp = 1498; Loc.ep = 1499} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 36; Loc.bol_pos = 1497; Loc.line_nb_last = 36; Loc.bol_pos_last = 1497; Loc.bp = 1500; Loc.ep = 1508} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 36; Loc.bol_pos = 1497; Loc.line_nb_last = 36; Loc.bol_pos_last = 1497; Loc.bp = 1509; Loc.ep = 1532} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 37; Loc.bol_pos = 1533; Loc.line_nb_last = 37; Loc.bol_pos_last = 1533; Loc.bp = 1534; Loc.ep = 1535} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 37; Loc.bol_pos = 1533; Loc.line_nb_last = 37; Loc.bol_pos_last = 1533; Loc.bp = 1536; Loc.ep = 1553} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 37; Loc.bol_pos = 1533; Loc.line_nb_last = 37; Loc.bol_pos_last = 1533; Loc.bp = 1554; Loc.ep = 1573} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 37; Loc.bol_pos = 1533; Loc.line_nb_last = 37; Loc.bol_pos_last = 1533; Loc.bp = 1574; Loc.ep = 1602} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 38; Loc.bol_pos = 1603; Loc.line_nb_last = 38; Loc.bol_pos_last = 1603; Loc.bp = 1604; Loc.ep = 1605} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 38; Loc.bol_pos = 1603; Loc.line_nb_last = 38; Loc.bol_pos_last = 1603; Loc.bp = 1606; Loc.ep = 1624} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 39; Loc.bol_pos = 1625; Loc.line_nb_last = 39; Loc.bol_pos_last = 1625; Loc.bp = 1625; Loc.ep = 1629} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Equivalence_instance_0 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 41; Loc.bol_pos = 1631; Loc.line_nb_last = 42; Loc.bol_pos_last = 1667; Loc.bp = 1631; Loc.ep = 1726} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 43; Loc.bol_pos = 1727; Loc.line_nb_last = 43; Loc.bol_pos_last = 1727; Loc.bp = 1727; Loc.ep = 1733} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 44; Loc.bol_pos = 1734; Loc.line_nb_last = 44; Loc.bol_pos_last = 1734; Loc.bp = 1735; Loc.ep = 1748} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 44; Loc.bol_pos = 1734; Loc.line_nb_last = 44; Loc.bol_pos_last = 1734; Loc.bp = 1749; Loc.ep = 1770} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 45; Loc.bol_pos = 1771; Loc.line_nb_last = 45; Loc.bol_pos_last = 1771; Loc.bp = 1771; Loc.ep = 1775} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_cons **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 47; Loc.bol_pos = 1777; Loc.line_nb_last = 48; Loc.bol_pos_last = 1819; Loc.bp = 1777; Loc.ep = 1884} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 49; Loc.bol_pos = 1885; Loc.line_nb_last = 49; Loc.bol_pos_last = 1885; Loc.bp = 1885; Loc.ep = 1891} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 50; Loc.bol_pos = 1892; Loc.line_nb_last = 50; Loc.bol_pos_last = 1892; Loc.bp = 1893; Loc.ep = 1922} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 50; Loc.bol_pos = 1892; Loc.line_nb_last = 50; Loc.bol_pos_last = 1892; Loc.bp = 1923; Loc.ep = 1951} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 51; Loc.bol_pos = 1952; Loc.line_nb_last = 51; Loc.bol_pos_last = 1952; Loc.bp = 1952; Loc.ep = 1956} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_app_head **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 53; Loc.bol_pos = 1958; Loc.line_nb_last = 54; Loc.bol_pos_last = 1993; Loc.bp = 1958; Loc.ep = 2060} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 55; Loc.bol_pos = 2061; Loc.line_nb_last = 55; Loc.bol_pos_last = 2061; Loc.bp = 2061; Loc.ep = 2067} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 56; Loc.bol_pos = 2068; Loc.line_nb_last = 56; Loc.bol_pos_last = 2068; Loc.bp = 2069; Loc.ep = 2102} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 57; Loc.bol_pos = 2103; Loc.line_nb_last = 57; Loc.bol_pos_last = 2103; Loc.bp = 2104; Loc.ep = 2117} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 58; Loc.bol_pos = 2118; Loc.line_nb_last = 58; Loc.bol_pos_last = 2118; Loc.bp = 2119; Loc.ep = 2120} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 58; Loc.bol_pos = 2118; Loc.line_nb_last = 58; Loc.bol_pos_last = 2118; Loc.bp = 2121; Loc.ep = 2126} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 59; Loc.bol_pos = 2127; Loc.line_nb_last = 59; Loc.bol_pos_last = 2127; Loc.bp = 2128; Loc.ep = 2129} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 59; Loc.bol_pos = 2127; Loc.line_nb_last = 59; Loc.bol_pos_last = 2127; Loc.bp = 2130; Loc.ep = 2151} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 60; Loc.bol_pos = 2152; Loc.line_nb_last = 60; Loc.bol_pos_last = 2152; Loc.bp = 2153; Loc.ep = 2154} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 60; Loc.bol_pos = 2152; Loc.line_nb_last = 60; Loc.bol_pos_last = 2152; Loc.bp = 2155; Loc.ep = 2169} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 61; Loc.bol_pos = 2170; Loc.line_nb_last = 61; Loc.bol_pos_last = 2170; Loc.bp = 2173; Loc.ep = 2174} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 61; Loc.bol_pos = 2170; Loc.line_nb_last = 61; Loc.bol_pos_last = 2170; Loc.bp = 2175; Loc.ep = 2200} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 61; Loc.bol_pos = 2170; Loc.line_nb_last = 61; Loc.bol_pos_last = 2170; Loc.bp = 2201; Loc.ep = 2222} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 62; Loc.bol_pos = 2223; Loc.line_nb_last = 62; Loc.bol_pos_last = 2223; Loc.bp = 2226; Loc.ep = 2227} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 62; Loc.bol_pos = 2223; Loc.line_nb_last = 62; Loc.bol_pos_last = 2223; Loc.bp = 2228; Loc.ep = 2251} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 62; Loc.bol_pos = 2223; Loc.line_nb_last = 62; Loc.bol_pos_last = 2223; Loc.bp = 2252; Loc.ep = 2284} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 63; Loc.bol_pos = 2285; Loc.line_nb_last = 63; Loc.bol_pos_last = 2285; Loc.bp = 2286; Loc.ep = 2287} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 63; Loc.bol_pos = 2285; Loc.line_nb_last = 63; Loc.bol_pos_last = 2285; Loc.bp = 2288; Loc.ep = 2326} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 64; Loc.bol_pos = 2327; Loc.line_nb_last = 64; Loc.bol_pos_last = 2327; Loc.bp = 2330; Loc.ep = 2358} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 64; Loc.bol_pos = 2327; Loc.line_nb_last = 64; Loc.bol_pos_last = 2327; Loc.bp = 2359; Loc.ep = 2372} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 65; Loc.bol_pos = 2373; Loc.line_nb_last = 65; Loc.bol_pos_last = 2373; Loc.bp = 2373; Loc.ep = 2377} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_app **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 67; Loc.bol_pos = 2379; Loc.line_nb_last = 68; Loc.bol_pos_last = 2421; Loc.bp = 2379; Loc.ep = 2486} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 69; Loc.bol_pos = 2487; Loc.line_nb_last = 69; Loc.bol_pos_last = 2487; Loc.bp = 2487; Loc.ep = 2493} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 70; Loc.bol_pos = 2494; Loc.line_nb_last = 70; Loc.bol_pos_last = 2494; Loc.bp = 2495; Loc.ep = 2504} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 70; Loc.bol_pos = 2494; Loc.line_nb_last = 70; Loc.bol_pos_last = 2494; Loc.bp = 2505; Loc.ep = 2519} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 71; Loc.bol_pos = 2520; Loc.line_nb_last = 71; Loc.bol_pos_last = 2520; Loc.bp = 2520; Loc.ep = 2524} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_app_tail **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 73; Loc.bol_pos = 2526; Loc.line_nb_last = 74; Loc.bol_pos_last = 2563; Loc.bp = 2526; Loc.ep = 2603} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 75; Loc.bol_pos = 2604; Loc.line_nb_last = 75; Loc.bol_pos_last = 2604; Loc.bp = 2604; Loc.ep = 2610} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 76; Loc.bol_pos = 2611; Loc.line_nb_last = 76; Loc.bol_pos_last = 2611; Loc.bp = 2612; Loc.ep = 2624} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 77; Loc.bol_pos = 2625; Loc.line_nb_last = 77; Loc.bol_pos_last = 2625; Loc.bp = 2626; Loc.ep = 2627} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 77; Loc.bol_pos = 2625; Loc.line_nb_last = 77; Loc.bol_pos_last = 2625; Loc.bp = 2628; Loc.ep = 2633} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 78; Loc.bol_pos = 2634; Loc.line_nb_last = 78; Loc.bol_pos_last = 2634; Loc.bp = 2635; Loc.ep = 2636} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 78; Loc.bol_pos = 2634; Loc.line_nb_last = 78; Loc.bol_pos_last = 2634; Loc.bp = 2637; Loc.ep = 2643} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 78; Loc.bol_pos = 2634; Loc.line_nb_last = 78; Loc.bol_pos_last = 2634; Loc.bp = 2644; Loc.ep = 2658} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 78; Loc.bol_pos = 2634; Loc.line_nb_last = 78; Loc.bol_pos_last = 2634; Loc.bp = 2659; Loc.ep = 2669} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 79; Loc.bol_pos = 2670; Loc.line_nb_last = 79; Loc.bol_pos_last = 2670; Loc.bp = 2670; Loc.ep = 2674} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_cons_append **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 81; Loc.bol_pos = 2676; Loc.line_nb_last = 82; Loc.bol_pos_last = 2716; Loc.bp = 2676; Loc.ep = 2761} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 83; Loc.bol_pos = 2762; Loc.line_nb_last = 83; Loc.bol_pos_last = 2762; Loc.bp = 2762; Loc.ep = 2768} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 84; Loc.bol_pos = 2769; Loc.line_nb_last = 84; Loc.bol_pos_last = 2769; Loc.bp = 2770; Loc.ep = 2785} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 85; Loc.bol_pos = 2786; Loc.line_nb_last = 85; Loc.bol_pos_last = 2786; Loc.bp = 2787; Loc.ep = 2788} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 85; Loc.bol_pos = 2786; Loc.line_nb_last = 85; Loc.bol_pos_last = 2786; Loc.bp = 2789; Loc.ep = 2811} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 86; Loc.bol_pos = 2812; Loc.line_nb_last = 86; Loc.bol_pos_last = 2812; Loc.bp = 2813; Loc.ep = 2814} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 86; Loc.bol_pos = 2812; Loc.line_nb_last = 86; Loc.bol_pos_last = 2812; Loc.bp = 2815; Loc.ep = 2862} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 87; Loc.bol_pos = 2863; Loc.line_nb_last = 87; Loc.bol_pos_last = 2863; Loc.bp = 2866; Loc.ep = 2916} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 88; Loc.bol_pos = 2917; Loc.line_nb_last = 88; Loc.bol_pos_last = 2917; Loc.bp = 2917; Loc.ep = 2921} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_app_comm **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 90; Loc.bol_pos = 2923; Loc.line_nb_last = 91; Loc.bol_pos_last = 2967; Loc.bp = 2923; Loc.ep = 3044} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 92; Loc.bol_pos = 3045; Loc.line_nb_last = 92; Loc.bol_pos_last = 3045; Loc.bp = 3045; Loc.ep = 3051} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 93; Loc.bol_pos = 3052; Loc.line_nb_last = 93; Loc.bol_pos_last = 3052; Loc.bp = 3053; Loc.ep = 3062} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 93; Loc.bol_pos = 3052; Loc.line_nb_last = 93; Loc.bol_pos_last = 3052; Loc.bp = 3063; Loc.ep = 3073} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 94; Loc.bol_pos = 3074; Loc.line_nb_last = 94; Loc.bol_pos_last = 3074; Loc.bp = 3075; Loc.ep = 3150} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 95; Loc.bol_pos = 3151; Loc.line_nb_last = 95; Loc.bol_pos_last = 3151; Loc.bp = 3151; Loc.ep = 3155} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_cons_app **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 97; Loc.bol_pos = 3157; Loc.line_nb_last = 98; Loc.bol_pos_last = 3197; Loc.bp = 3157; Loc.ep = 3252} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 99; Loc.bol_pos = 3253; Loc.line_nb_last = 99; Loc.bol_pos_last = 3253; Loc.bp = 3253; Loc.ep = 3259} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 100; Loc.bol_pos = 3260; Loc.line_nb_last = 100; Loc.bol_pos_last = 3260; Loc.bp = 3261; Loc.ep = 3293} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 101; Loc.bol_pos = 3294; Loc.line_nb_last = 101; Loc.bol_pos_last = 3294; Loc.bp = 3294; Loc.ep = 3298} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_middle **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 103; Loc.bol_pos = 3300; Loc.line_nb_last = 104; Loc.bol_pos_last = 3342; Loc.bp = 3300; Loc.ep = 3395} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 105; Loc.bol_pos = 3396; Loc.line_nb_last = 105; Loc.bol_pos_last = 3396; Loc.bp = 3396; Loc.ep = 3402} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 106; Loc.bol_pos = 3403; Loc.line_nb_last = 106; Loc.bol_pos_last = 3403; Loc.bp = 3404; Loc.ep = 3416} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 107; Loc.bol_pos = 3417; Loc.line_nb_last = 107; Loc.bol_pos_last = 3417; Loc.bp = 3418; Loc.ep = 3419} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 107; Loc.bol_pos = 3417; Loc.line_nb_last = 107; Loc.bol_pos_last = 3417; Loc.bp = 3420; Loc.ep = 3432} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 108; Loc.bol_pos = 3433; Loc.line_nb_last = 108; Loc.bol_pos_last = 3433; Loc.bp = 3434; Loc.ep = 3435} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 108; Loc.bol_pos = 3433; Loc.line_nb_last = 108; Loc.bol_pos_last = 3433; Loc.bp = 3436; Loc.ep = 3469} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 109; Loc.bol_pos = 3470; Loc.line_nb_last = 109; Loc.bol_pos_last = 3470; Loc.bp = 3471; Loc.ep = 3472} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 109; Loc.bol_pos = 3470; Loc.line_nb_last = 109; Loc.bol_pos_last = 3470; Loc.bp = 3473; Loc.ep = 3508} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 110; Loc.bol_pos = 3509; Loc.line_nb_last = 110; Loc.bol_pos_last = 3509; Loc.bp = 3510; Loc.ep = 3511} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 110; Loc.bol_pos = 3509; Loc.line_nb_last = 110; Loc.bol_pos_last = 3509; Loc.bp = 3512; Loc.ep = 3539} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 111; Loc.bol_pos = 3540; Loc.line_nb_last = 111; Loc.bol_pos_last = 3540; Loc.bp = 3540; Loc.ep = 3544} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_equivlistA **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 113; Loc.bol_pos = 3546; Loc.line_nb_last = 115; Loc.bol_pos_last = 3635; Loc.bp = 3546; Loc.ep = 3689} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 116; Loc.bol_pos = 3690; Loc.line_nb_last = 116; Loc.bol_pos_last = 3690; Loc.bp = 3690; Loc.ep = 3696} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 117; Loc.bol_pos = 3697; Loc.line_nb_last = 117; Loc.bol_pos_last = 3697; Loc.bp = 3699; Loc.ep = 3712} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 117; Loc.bol_pos = 3697; Loc.line_nb_last = 117; Loc.bol_pos_last = 3697; Loc.bp = 3713; Loc.ep = 3725} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 117; Loc.bol_pos = 3697; Loc.line_nb_last = 117; Loc.bol_pos_last = 3697; Loc.bp = 3726; Loc.ep = 3758} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 118; Loc.bol_pos = 3759; Loc.line_nb_last = 118; Loc.bol_pos_last = 3759; Loc.bp = 3761; Loc.ep = 3762} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 118; Loc.bol_pos = 3759; Loc.line_nb_last = 118; Loc.bol_pos_last = 3759; Loc.bp = 3763; Loc.ep = 3782} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 118; Loc.bol_pos = 3759; Loc.line_nb_last = 118; Loc.bol_pos_last = 3759; Loc.bp = 3783; Loc.ep = 3800} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 118; Loc.bol_pos = 3759; Loc.line_nb_last = 118; Loc.bol_pos_last = 3759; Loc.bp = 3801; Loc.ep = 3837} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 119; Loc.bol_pos = 3838; Loc.line_nb_last = 119; Loc.bol_pos_last = 3838; Loc.bp = 3840; Loc.ep = 3841} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 119; Loc.bol_pos = 3838; Loc.line_nb_last = 119; Loc.bol_pos_last = 3838; Loc.bp = 3842; Loc.ep = 3863} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 120; Loc.bol_pos = 3864; Loc.line_nb_last = 120; Loc.bol_pos_last = 3864; Loc.bp = 3868; Loc.ep = 3933} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 121; Loc.bol_pos = 3934; Loc.line_nb_last = 121; Loc.bol_pos_last = 3934; Loc.bp = 3938; Loc.ep = 3939} **)
+(**VERNAC_TYPE** VernacSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 121; Loc.bol_pos = 3934; Loc.line_nb_last = 121; Loc.bol_pos_last = 3934; Loc.bp = 3940; Loc.ep = 3953} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 121; Loc.bol_pos = 3934; Loc.line_nb_last = 121; Loc.bol_pos_last = 3934; Loc.bp = 3954; Loc.ep = 3964} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 121; Loc.bol_pos = 3934; Loc.line_nb_last = 121; Loc.bol_pos_last = 3934; Loc.bp = 3965; Loc.ep = 3966} **)
+(**VERNAC_TYPE** VernacEndSubproof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 122; Loc.bol_pos = 3967; Loc.line_nb_last = 122; Loc.bol_pos_last = 3967; Loc.bp = 3971; Loc.ep = 3977} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 122; Loc.bol_pos = 3967; Loc.line_nb_last = 122; Loc.bol_pos_last = 3967; Loc.bp = 3978; Loc.ep = 4018} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 123; Loc.bol_pos = 4019; Loc.line_nb_last = 123; Loc.bol_pos_last = 4019; Loc.bp = 4023; Loc.ep = 4060} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 124; Loc.bol_pos = 4061; Loc.line_nb_last = 124; Loc.bol_pos_last = 4061; Loc.bp = 4065; Loc.ep = 4095} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 125; Loc.bol_pos = 4096; Loc.line_nb_last = 125; Loc.bol_pos_last = 4096; Loc.bp = 4100; Loc.ep = 4150} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 126; Loc.bol_pos = 4151; Loc.line_nb_last = 126; Loc.bol_pos_last = 4151; Loc.bp = 4151; Loc.ep = 4155} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** NoDupA_equivlistA_PermutationA **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 128; Loc.bol_pos = 4157; Loc.line_nb_last = 130; Loc.bol_pos_last = 4259; Loc.bp = 4157; Loc.ep = 4323} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 131; Loc.bol_pos = 4324; Loc.line_nb_last = 131; Loc.bol_pos_last = 4324; Loc.bp = 4324; Loc.ep = 4330} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 132; Loc.bol_pos = 4331; Loc.line_nb_last = 132; Loc.bol_pos_last = 4331; Loc.bp = 4332; Loc.ep = 4343} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 132; Loc.bol_pos = 4331; Loc.line_nb_last = 132; Loc.bol_pos_last = 4331; Loc.bp = 4344; Loc.ep = 4358} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 133; Loc.bol_pos = 4359; Loc.line_nb_last = 133; Loc.bol_pos_last = 4359; Loc.bp = 4360; Loc.ep = 4380} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 134; Loc.bol_pos = 4381; Loc.line_nb_last = 134; Loc.bol_pos_last = 4381; Loc.bp = 4382; Loc.ep = 4383} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 134; Loc.bol_pos = 4381; Loc.line_nb_last = 134; Loc.bol_pos_last = 4381; Loc.bp = 4384; Loc.ep = 4402} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 134; Loc.bol_pos = 4381; Loc.line_nb_last = 134; Loc.bol_pos_last = 4381; Loc.bp = 4403; Loc.ep = 4418} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 135; Loc.bol_pos = 4419; Loc.line_nb_last = 135; Loc.bol_pos_last = 4419; Loc.bp = 4420; Loc.ep = 4421} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 135; Loc.bol_pos = 4419; Loc.line_nb_last = 135; Loc.bol_pos_last = 4419; Loc.bp = 4422; Loc.ep = 4440} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 136; Loc.bol_pos = 4441; Loc.line_nb_last = 136; Loc.bol_pos_last = 4441; Loc.bp = 4444; Loc.ep = 4488} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 136; Loc.bol_pos = 4441; Loc.line_nb_last = 136; Loc.bol_pos_last = 4441; Loc.bp = 4489; Loc.ep = 4499} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 137; Loc.bol_pos = 4500; Loc.line_nb_last = 137; Loc.bol_pos_last = 4500; Loc.bp = 4503; Loc.ep = 4520} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 137; Loc.bol_pos = 4500; Loc.line_nb_last = 137; Loc.bol_pos_last = 4500; Loc.bp = 4521; Loc.ep = 4533} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 138; Loc.bol_pos = 4534; Loc.line_nb_last = 138; Loc.bol_pos_last = 4534; Loc.bp = 4535; Loc.ep = 4536} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 138; Loc.bol_pos = 4534; Loc.line_nb_last = 138; Loc.bol_pos_last = 4534; Loc.bp = 4537; Loc.ep = 4555} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 138; Loc.bol_pos = 4534; Loc.line_nb_last = 138; Loc.bol_pos_last = 4534; Loc.bp = 4556; Loc.ep = 4575} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 139; Loc.bol_pos = 4576; Loc.line_nb_last = 139; Loc.bol_pos_last = 4576; Loc.bp = 4579; Loc.ep = 4599} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 139; Loc.bol_pos = 4576; Loc.line_nb_last = 139; Loc.bol_pos_last = 4576; Loc.bp = 4600; Loc.ep = 4623} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 140; Loc.bol_pos = 4624; Loc.line_nb_last = 140; Loc.bol_pos_last = 4624; Loc.bp = 4625; Loc.ep = 4626} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 140; Loc.bol_pos = 4624; Loc.line_nb_last = 140; Loc.bol_pos_last = 4624; Loc.bp = 4627; Loc.ep = 4639} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 141; Loc.bol_pos = 4640; Loc.line_nb_last = 141; Loc.bol_pos_last = 4640; Loc.bp = 4643; Loc.ep = 4686} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 142; Loc.bol_pos = 4687; Loc.line_nb_last = 142; Loc.bol_pos_last = 4687; Loc.bp = 4690; Loc.ep = 4736} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 143; Loc.bol_pos = 4737; Loc.line_nb_last = 143; Loc.bol_pos_last = 4737; Loc.bp = 4740; Loc.ep = 4753} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 143; Loc.bol_pos = 4737; Loc.line_nb_last = 143; Loc.bol_pos_last = 4737; Loc.bp = 4754; Loc.ep = 4769} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 143; Loc.bol_pos = 4737; Loc.line_nb_last = 143; Loc.bol_pos_last = 4737; Loc.bp = 4770; Loc.ep = 4790} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 144; Loc.bol_pos = 4791; Loc.line_nb_last = 144; Loc.bol_pos_last = 4791; Loc.bp = 4791; Loc.ep = 4795} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permutation_eqlistA_commute **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 146; Loc.bol_pos = 4797; Loc.line_nb_last = 148; Loc.bol_pos_last = 4865; Loc.bp = 4797; Loc.ep = 4917} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 149; Loc.bol_pos = 4918; Loc.line_nb_last = 149; Loc.bol_pos_last = 4918; Loc.bp = 4918; Loc.ep = 4924} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 150; Loc.bol_pos = 4925; Loc.line_nb_last = 150; Loc.bol_pos_last = 4925; Loc.bp = 4926; Loc.ep = 4938} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 151; Loc.bol_pos = 4939; Loc.line_nb_last = 151; Loc.bol_pos_last = 4939; Loc.bp = 4940; Loc.ep = 4941} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 151; Loc.bol_pos = 4939; Loc.line_nb_last = 151; Loc.bol_pos_last = 4939; Loc.bp = 4942; Loc.ep = 4957} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 152; Loc.bol_pos = 4958; Loc.line_nb_last = 152; Loc.bol_pos_last = 4958; Loc.bp = 4959; Loc.ep = 4960} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 152; Loc.bol_pos = 4958; Loc.line_nb_last = 152; Loc.bol_pos_last = 4958; Loc.bp = 4961; Loc.ep = 4998} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 152; Loc.bol_pos = 4958; Loc.line_nb_last = 152; Loc.bol_pos_last = 4958; Loc.bp = 4999; Loc.ep = 5022} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 153; Loc.bol_pos = 5023; Loc.line_nb_last = 153; Loc.bol_pos_last = 5023; Loc.bp = 5024; Loc.ep = 5025} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 153; Loc.bol_pos = 5023; Loc.line_nb_last = 153; Loc.bol_pos_last = 5023; Loc.bp = 5026; Loc.ep = 5043} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 153; Loc.bol_pos = 5023; Loc.line_nb_last = 153; Loc.bol_pos_last = 5023; Loc.bp = 5044; Loc.ep = 5050} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 153; Loc.bol_pos = 5023; Loc.line_nb_last = 153; Loc.bol_pos_last = 5023; Loc.bp = 5051; Loc.ep = 5063} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 153; Loc.bol_pos = 5023; Loc.line_nb_last = 153; Loc.bol_pos_last = 5023; Loc.bp = 5064; Loc.ep = 5076} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 154; Loc.bol_pos = 5077; Loc.line_nb_last = 154; Loc.bol_pos_last = 5077; Loc.bp = 5078; Loc.ep = 5079} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 154; Loc.bol_pos = 5077; Loc.line_nb_last = 154; Loc.bol_pos_last = 5077; Loc.bp = 5080; Loc.ep = 5122} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 155; Loc.bol_pos = 5123; Loc.line_nb_last = 155; Loc.bol_pos_last = 5123; Loc.bp = 5126; Loc.ep = 5170} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 156; Loc.bol_pos = 5171; Loc.line_nb_last = 157; Loc.bol_pos_last = 5254; Loc.bp = 5174; Loc.ep = 5266} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 158; Loc.bol_pos = 5267; Loc.line_nb_last = 158; Loc.bol_pos_last = 5267; Loc.bp = 5270; Loc.ep = 5284} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 158; Loc.bol_pos = 5267; Loc.line_nb_last = 158; Loc.bol_pos_last = 5267; Loc.bp = 5285; Loc.ep = 5291} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 158; Loc.bol_pos = 5267; Loc.line_nb_last = 158; Loc.bol_pos_last = 5267; Loc.bp = 5292; Loc.ep = 5315} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 158; Loc.bol_pos = 5267; Loc.line_nb_last = 158; Loc.bol_pos_last = 5267; Loc.bp = 5316; Loc.ep = 5339} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 159; Loc.bol_pos = 5340; Loc.line_nb_last = 159; Loc.bol_pos_last = 5340; Loc.bp = 5340; Loc.ep = 5344} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_decompose **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 161; Loc.bol_pos = 5346; Loc.line_nb_last = 162; Loc.bol_pos_last = 5389; Loc.bp = 5346; Loc.ep = 5438} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 163; Loc.bol_pos = 5439; Loc.line_nb_last = 163; Loc.bol_pos_last = 5439; Loc.bp = 5439; Loc.ep = 5445} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 164; Loc.bol_pos = 5446; Loc.line_nb_last = 164; Loc.bol_pos_last = 5446; Loc.bp = 5447; Loc.ep = 5459} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 165; Loc.bol_pos = 5460; Loc.line_nb_last = 165; Loc.bol_pos_last = 5460; Loc.bp = 5461; Loc.ep = 5462} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 165; Loc.bol_pos = 5460; Loc.line_nb_last = 165; Loc.bol_pos_last = 5460; Loc.bp = 5463; Loc.ep = 5475} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 166; Loc.bol_pos = 5476; Loc.line_nb_last = 166; Loc.bol_pos_last = 5476; Loc.bp = 5477; Loc.ep = 5478} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 166; Loc.bol_pos = 5476; Loc.line_nb_last = 166; Loc.bol_pos_last = 5476; Loc.bp = 5479; Loc.ep = 5495} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 167; Loc.bol_pos = 5496; Loc.line_nb_last = 167; Loc.bol_pos_last = 5496; Loc.bp = 5497; Loc.ep = 5498} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 167; Loc.bol_pos = 5496; Loc.line_nb_last = 167; Loc.bol_pos_last = 5496; Loc.bp = 5499; Loc.ep = 5516} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 168; Loc.bol_pos = 5517; Loc.line_nb_last = 168; Loc.bol_pos_last = 5517; Loc.bp = 5518; Loc.ep = 5519} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 168; Loc.bol_pos = 5517; Loc.line_nb_last = 168; Loc.bol_pos_last = 5517; Loc.bp = 5520; Loc.ep = 5540} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 169; Loc.bol_pos = 5541; Loc.line_nb_last = 169; Loc.bol_pos_last = 5541; Loc.bp = 5541; Loc.ep = 5545} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permutation_PermutationA **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 171; Loc.bol_pos = 5547; Loc.line_nb_last = 172; Loc.bol_pos_last = 5586; Loc.bp = 5547; Loc.ep = 5635} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 173; Loc.bol_pos = 5636; Loc.line_nb_last = 173; Loc.bol_pos_last = 5636; Loc.bp = 5636; Loc.ep = 5642} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 174; Loc.bol_pos = 5643; Loc.line_nb_last = 174; Loc.bol_pos_last = 5643; Loc.bp = 5644; Loc.ep = 5673} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 175; Loc.bol_pos = 5674; Loc.line_nb_last = 175; Loc.bol_pos_last = 5674; Loc.bp = 5674; Loc.ep = 5678} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eqlistA_PermutationA **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 177; Loc.bol_pos = 5680; Loc.line_nb_last = 179; Loc.bol_pos_last = 5782; Loc.bp = 5680; Loc.ep = 5831} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 180; Loc.bol_pos = 5832; Loc.line_nb_last = 180; Loc.bol_pos_last = 5832; Loc.bp = 5832; Loc.ep = 5838} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 181; Loc.bol_pos = 5839; Loc.line_nb_last = 181; Loc.bol_pos_last = 5839; Loc.bp = 5840; Loc.ep = 5847} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 181; Loc.bol_pos = 5839; Loc.line_nb_last = 181; Loc.bol_pos_last = 5839; Loc.bp = 5848; Loc.ep = 5877} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 182; Loc.bol_pos = 5878; Loc.line_nb_last = 182; Loc.bol_pos_last = 5878; Loc.bp = 5879; Loc.ep = 5920} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 183; Loc.bol_pos = 5921; Loc.line_nb_last = 183; Loc.bol_pos_last = 5921; Loc.bp = 5921; Loc.ep = 5925} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** NoDupA_equivlistA_decompose **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 185; Loc.bol_pos = 5927; Loc.line_nb_last = 186; Loc.bol_pos_last = 5975; Loc.bp = 5927; Loc.ep = 6037} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 187; Loc.bol_pos = 6038; Loc.line_nb_last = 187; Loc.bol_pos_last = 6038; Loc.bp = 6038; Loc.ep = 6044} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 188; Loc.bol_pos = 6045; Loc.line_nb_last = 188; Loc.bol_pos_last = 6045; Loc.bp = 6046; Loc.ep = 6067} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 189; Loc.bol_pos = 6068; Loc.line_nb_last = 189; Loc.bol_pos_last = 6068; Loc.bp = 6069; Loc.ep = 6070} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 189; Loc.bol_pos = 6068; Loc.line_nb_last = 189; Loc.bol_pos_last = 6068; Loc.bp = 6071; Loc.ep = 6108} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 190; Loc.bol_pos = 6109; Loc.line_nb_last = 190; Loc.bol_pos_last = 6109; Loc.bp = 6112; Loc.ep = 6148} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 190; Loc.bol_pos = 6109; Loc.line_nb_last = 190; Loc.bol_pos_last = 6109; Loc.bp = 6149; Loc.ep = 6163} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 191; Loc.bol_pos = 6164; Loc.line_nb_last = 191; Loc.bol_pos_last = 6164; Loc.bp = 6167; Loc.ep = 6185} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 192; Loc.bol_pos = 6186; Loc.line_nb_last = 192; Loc.bol_pos_last = 6186; Loc.bp = 6187; Loc.ep = 6188} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 192; Loc.bol_pos = 6186; Loc.line_nb_last = 192; Loc.bol_pos_last = 6186; Loc.bp = 6189; Loc.ep = 6207} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 192; Loc.bol_pos = 6186; Loc.line_nb_last = 192; Loc.bol_pos_last = 6186; Loc.bp = 6208; Loc.ep = 6227} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 192; Loc.bol_pos = 6186; Loc.line_nb_last = 192; Loc.bol_pos_last = 6186; Loc.bp = 6228; Loc.ep = 6240} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 193; Loc.bol_pos = 6241; Loc.line_nb_last = 193; Loc.bol_pos_last = 6241; Loc.bp = 6244; Loc.ep = 6245} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 193; Loc.bol_pos = 6241; Loc.line_nb_last = 193; Loc.bol_pos_last = 6241; Loc.bp = 6246; Loc.ep = 6259} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 193; Loc.bol_pos = 6241; Loc.line_nb_last = 193; Loc.bol_pos_last = 6241; Loc.bp = 6260; Loc.ep = 6287} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 194; Loc.bol_pos = 6288; Loc.line_nb_last = 194; Loc.bol_pos_last = 6288; Loc.bp = 6293; Loc.ep = 6301} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 194; Loc.bol_pos = 6288; Loc.line_nb_last = 194; Loc.bol_pos_last = 6288; Loc.bp = 6302; Loc.ep = 6318} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 195; Loc.bol_pos = 6319; Loc.line_nb_last = 195; Loc.bol_pos_last = 6319; Loc.bp = 6322; Loc.ep = 6323} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 195; Loc.bol_pos = 6319; Loc.line_nb_last = 195; Loc.bol_pos_last = 6319; Loc.bp = 6324; Loc.ep = 6345} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 196; Loc.bol_pos = 6346; Loc.line_nb_last = 196; Loc.bol_pos_last = 6346; Loc.bp = 6351; Loc.ep = 6365} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 196; Loc.bol_pos = 6346; Loc.line_nb_last = 196; Loc.bol_pos_last = 6346; Loc.bp = 6366; Loc.ep = 6388} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 197; Loc.bol_pos = 6389; Loc.line_nb_last = 197; Loc.bol_pos_last = 6389; Loc.bp = 6390; Loc.ep = 6391} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 197; Loc.bol_pos = 6389; Loc.line_nb_last = 197; Loc.bol_pos_last = 6389; Loc.bp = 6392; Loc.ep = 6398} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 198; Loc.bol_pos = 6399; Loc.line_nb_last = 198; Loc.bol_pos_last = 6399; Loc.bp = 6399; Loc.ep = 6403} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** PermutationA_preserves_NoDupA **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Lists/SetoidPermutation.v"; Loc.line_nb = 200; Loc.bol_pos = 6405; Loc.line_nb_last = 200; Loc.bol_pos_last = 6405; Loc.bp = 6405; Loc.ep = 6421} **)
+(**VERNAC_TYPE** VernacEndSegment **)

@@ -1,0 +1,7 @@
+DIGEST 0b6702c8a4f9aa4d57362fc83c99e0c0
+FExtLib.Tactics
+R15:37 ExtLib.Tactics.Consider <> <> lib
+R55:74 ExtLib.Tactics.Cases <> <> lib
+R92:115 ExtLib.Tactics.Injection <> <> lib
+R133:154 ExtLib.Tactics.Forward <> <> lib
+R172:191 ExtLib.Tactics.EqDep <> <> lib

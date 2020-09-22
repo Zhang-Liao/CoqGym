@@ -1,0 +1,254 @@
+DIGEST cb9797fbb94ea1d5c3a2c0d0a6285042
+FCoq.Strings.BinaryString
+R541:545 Coq.Strings.Ascii <> <> lib
+R547:552 Coq.Strings.String <> <> lib
+R570:576 Coq.Numbers.BinNums <> <> lib
+def 710:723 <> ascii_to_digit
+R731:735 Coq.Strings.Ascii <> ascii ind
+R740:745 Coq.Init.Datatypes <> option ind
+R747:747 Coq.Numbers.BinNums <> N ind
+R758:766 Coq.Strings.Ascii <> ascii_dec def
+R768:769 Coq.Strings.BinaryString <> ch var
+R801:809 Coq.Strings.Ascii <> ascii_dec def
+R811:812 Coq.Strings.BinaryString <> ch var
+R841:844 Coq.Init.Datatypes <> None constr
+R823:826 Coq.Init.Datatypes <> Some constr
+R780:783 Coq.Init.Datatypes <> Some constr
+def 860:870 <> pos_bin_app
+R877:884 Coq.Numbers.BinNums <> positive ind
+R889:896 Coq.Numbers.BinNums <> positive ind
+R909:909 Coq.Strings.BinaryString <> q var
+R921:922 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R927:927 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R943:945 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R928:938 Coq.Strings.BinaryString <> pos_bin_app def
+R942:942 Coq.Strings.BinaryString <> q var
+R940:940 Coq.Strings.BinaryString <> p var
+R952:953 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R958:958 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R974:976 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R959:969 Coq.Strings.BinaryString <> pos_bin_app def
+R973:973 Coq.Strings.BinaryString <> q var
+R971:971 Coq.Strings.BinaryString <> p var
+R988:989 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R987:987 Coq.Strings.BinaryString <> p var
+mod 1006:1008 <> Raw
+def 1022:1027 Raw of_pos
+R1034:1041 Coq.Numbers.BinNums <> positive ind
+R1052:1057 Coq.Strings.String <> string ind
+R1062:1067 Coq.Strings.String <> string ind
+R1082:1082 Coq.Strings.BinaryString <> p var
+R1103:1108 Coq.Strings.String <> String constr
+R1114:1117 Coq.Strings.BinaryString <> rest var
+R1130:1131 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'0' not
+R1136:1141 Coq.Strings.BinaryString <> of_pos def
+R1147:1152 Coq.Strings.String <> String constr
+R1158:1161 Coq.Strings.BinaryString <> rest var
+R1175:1176 Coq.PArith.BinPosDef <> ::positive_scope:x_'~'_'1' not
+R1181:1186 Coq.Strings.BinaryString <> of_pos def
+R1192:1197 Coq.Strings.String <> String constr
+R1203:1206 Coq.Strings.BinaryString <> rest var
+def 1233:1236 Raw to_N
+R1243:1248 Coq.Strings.String <> string ind
+R1259:1259 Coq.Numbers.BinNums <> N ind
+R1268:1268 Coq.Numbers.BinNums <> N ind
+R1283:1283 Coq.Strings.BinaryString <> s var
+R1305:1308 Coq.Strings.BinaryString <> rest var
+R1319:1324 Coq.Strings.String <> String constr
+R1344:1347 Coq.Strings.BinaryString <> to_N def
+R1386:1399 Coq.Strings.BinaryString <> ascii_to_digit def
+R1425:1428 Coq.Init.Datatypes <> Some constr
+R1435:1439 Coq.NArith.BinNatDef N add def
+R1444:1451 Coq.NArith.BinNatDef N double def
+R1453:1456 Coq.Strings.BinaryString <> rest var
+R1475:1478 Coq.Init.Datatypes <> None constr
+R1483:1484 Coq.Numbers.BinNums <> N0 constr
+def 1528:1538 Raw to_N_of_pos
+R1545:1552 Coq.Numbers.BinNums <> positive ind
+R1563:1568 Coq.Strings.String <> string ind
+R1579:1579 Coq.Numbers.BinNums <> N ind
+R1613:1621 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R1588:1591 Coq.Strings.BinaryString Raw to_N def
+R1609:1612 Coq.Strings.BinaryString <> base var
+R1594:1599 Coq.Strings.BinaryString Raw of_pos def
+R1603:1606 Coq.Strings.BinaryString <> rest var
+R1601:1601 Coq.Strings.BinaryString <> p var
+R1622:1625 Coq.Strings.BinaryString Raw to_N def
+R1638:1641 Coq.Strings.BinaryString <> base var
+R1668:1669 Coq.Numbers.BinNums <> N0 constr
+R1674:1678 Coq.NArith.BinNatDef N pos syndef
+R1680:1680 Coq.Strings.BinaryString <> p var
+R1702:1705 Coq.Numbers.BinNums <> Npos constr
+R1712:1715 Coq.Numbers.BinNums <> Npos constr
+R1718:1728 Coq.Strings.BinaryString <> pos_bin_app def
+R1732:1732 Coq.Strings.BinaryString <> p var
+R1627:1630 Coq.Strings.BinaryString <> rest var
+R1881:1883 Coq.Strings.BinaryString Raw <> mod
+def 1898:1903 <> of_pos
+R1910:1917 Coq.Numbers.BinNums <> positive ind
+R1922:1927 Coq.Strings.String <> string ind
+R1934:1939 Coq.Strings.String <> String constr
+R1946:1951 Coq.Strings.String <> String constr
+R1958:1967 Coq.Strings.BinaryString <> of_pos def
+R1969:1969 Coq.Strings.BinaryString <> p var
+def 1988:1991 <> of_N
+R1998:1998 Coq.Numbers.BinNums <> N ind
+R2003:2008 Coq.Strings.String <> string ind
+R2021:2021 Coq.Strings.BinaryString <> n var
+R2035:2036 Coq.Numbers.BinNums <> N0 constr
+R2054:2057 Coq.Numbers.BinNums <> Npos constr
+R2064:2069 Coq.Strings.BinaryString <> of_pos def
+def 2094:2097 <> of_Z
+R2104:2104 Coq.Numbers.BinNums <> Z ind
+R2109:2114 Coq.Strings.String <> string ind
+R2127:2127 Coq.Strings.BinaryString <> z var
+R2141:2144 Coq.Numbers.BinNums <> Zneg constr
+R2151:2156 Coq.Strings.String <> String constr
+R2163:2168 Coq.Strings.BinaryString <> of_pos def
+R2180:2181 Coq.Numbers.BinNums <> Z0 constr
+R2199:2202 Coq.Numbers.BinNums <> Zpos constr
+R2209:2214 Coq.Strings.BinaryString <> of_pos def
+def 2239:2244 <> of_nat
+R2251:2253 Coq.Init.Datatypes <> nat ind
+R2258:2263 Coq.Strings.String <> string ind
+R2270:2273 Coq.Strings.BinaryString <> of_N def
+R2276:2283 Coq.NArith.BinNatDef N of_nat def
+R2285:2285 Coq.Strings.BinaryString <> n var
+def 2301:2304 <> to_N
+R2311:2316 Coq.Strings.String <> string ind
+R2321:2321 Coq.Numbers.BinNums <> N ind
+R2334:2334 Coq.Strings.BinaryString <> s var
+R2348:2353 Coq.Strings.String <> String constr
+R2359:2364 Coq.Strings.String <> String constr
+R2385:2393 Coq.Strings.Ascii <> ascii_dec def
+R2509:2510 Coq.Numbers.BinNums <> N0 constr
+R2420:2428 Coq.Strings.Ascii <> ascii_dec def
+R2491:2492 Coq.Numbers.BinNums <> N0 constr
+R2457:2464 Coq.Strings.BinaryString <> to_N def
+R2468:2469 Coq.Numbers.BinNums <> N0 constr
+R2466:2466 Coq.Strings.BinaryString <> s var
+R2524:2525 Coq.Numbers.BinNums <> N0 constr
+def 2548:2553 <> to_pos
+R2560:2565 Coq.Strings.String <> string ind
+R2570:2577 Coq.Numbers.BinNums <> positive ind
+R2590:2593 Coq.Strings.BinaryString <> to_N def
+R2595:2595 Coq.Strings.BinaryString <> s var
+R2609:2610 Coq.Numbers.BinNums <> N0 constr
+R2624:2627 Coq.Numbers.BinNums <> Npos constr
+def 2657:2660 <> to_Z
+R2667:2672 Coq.Strings.String <> string ind
+R2677:2677 Coq.Numbers.BinNums <> Z ind
+R2710:2710 Coq.Strings.BinaryString <> s var
+R2744:2749 Coq.Strings.String <> String constr
+R2790:2798 Coq.Strings.Ascii <> ascii_dec def
+R2893:2893 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2899:2900 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2907:2907 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2894:2898 Coq.Init.Datatypes <> false constr
+R2901:2904 Coq.Strings.BinaryString <> to_N def
+R2906:2906 Coq.Strings.BinaryString <> s var
+R2842:2842 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2847:2848 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2856:2856 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2843:2846 Coq.Init.Datatypes <> true constr
+R2849:2852 Coq.Strings.BinaryString <> to_N def
+R2936:2946 Coq.Strings.String <> EmptyString constr
+R2951:2951 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2957:2958 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2965:2965 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2952:2956 Coq.Init.Datatypes <> false constr
+R2959:2962 Coq.Strings.BinaryString <> to_N def
+R2964:2964 Coq.Strings.BinaryString <> s var
+R2689:2689 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2696:2697 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R2699:2699 Coq.Init.Datatypes <> ::core_scope:'('_x_','_x_','_'..'_','_x_')' not
+R3024:3025 Coq.Numbers.BinNums <> N0 constr
+R3030:3031 Coq.Numbers.BinNums <> Z0 constr
+R3040:3043 Coq.Numbers.BinNums <> Npos constr
+R3077:3080 Coq.Numbers.BinNums <> Zpos constr
+R3065:3068 Coq.Numbers.BinNums <> Zneg constr
+def 3105:3110 <> to_nat
+R3117:3122 Coq.Strings.String <> string ind
+R3127:3129 Coq.Init.Datatypes <> nat ind
+R3136:3143 Coq.NArith.BinNatDef N to_nat def
+R3146:3149 Coq.Strings.BinaryString <> to_N def
+R3151:3151 Coq.Strings.BinaryString <> s var
+prf 3162:3170 <> to_N_of_N
+R3177:3177 Coq.Numbers.BinNums <> N ind
+R3197:3203 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3184:3187 Coq.Strings.BinaryString <> to_N def
+R3190:3193 Coq.Strings.BinaryString <> of_N def
+R3195:3195 Coq.Strings.BinaryString <> n var
+R3204:3204 Coq.Strings.BinaryString <> n var
+R3250:3264 Coq.Strings.BinaryString <> to_N_of_pos def
+R3250:3264 Coq.Strings.BinaryString <> to_N_of_pos def
+prf 3281:3289 <> Z_of_of_Z
+R3296:3296 Coq.Numbers.BinNums <> Z ind
+R3316:3322 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3303:3306 Coq.Strings.BinaryString <> to_Z def
+R3309:3312 Coq.Strings.BinaryString <> of_Z def
+R3314:3314 Coq.Strings.BinaryString <> z var
+R3323:3323 Coq.Strings.BinaryString <> z var
+R3340:3343 Coq.Strings.BinaryString <> of_Z def
+R3345:3348 Coq.Strings.BinaryString <> to_Z def
+R3412:3426 Coq.Strings.BinaryString <> to_N_of_pos def
+R3412:3426 Coq.Strings.BinaryString <> to_N_of_pos def
+R3412:3426 Coq.Strings.BinaryString <> to_N_of_pos def
+R3412:3426 Coq.Strings.BinaryString <> to_N_of_pos def
+R3412:3426 Coq.Strings.BinaryString <> to_N_of_pos def
+prf 3459:3471 <> to_nat_of_nat
+R3478:3480 Coq.Init.Datatypes <> nat ind
+R3504:3510 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3487:3492 Coq.Strings.BinaryString <> to_nat def
+R3495:3500 Coq.Strings.BinaryString <> of_nat def
+R3502:3502 Coq.Strings.BinaryString <> n var
+R3511:3511 Coq.Strings.BinaryString <> n var
+R3528:3533 Coq.Strings.BinaryString <> to_nat def
+R3535:3540 Coq.Strings.BinaryString <> of_nat def
+R3556:3564 Coq.Strings.BinaryString <> to_N_of_N thm
+R3567:3579 Coq.NArith.Nnat Nat2N id thm
+R3556:3564 Coq.Strings.BinaryString <> to_N_of_N thm
+R3556:3564 Coq.Strings.BinaryString <> to_N_of_N thm
+R3567:3579 Coq.NArith.Nnat Nat2N id thm
+R3567:3579 Coq.NArith.Nnat Nat2N id thm
+prf 3607:3619 <> to_pos_of_pos
+R3626:3633 Coq.Numbers.BinNums <> positive ind
+R3657:3663 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3640:3645 Coq.Strings.BinaryString <> to_pos def
+R3648:3653 Coq.Strings.BinaryString <> of_pos def
+R3655:3655 Coq.Strings.BinaryString <> p var
+R3664:3664 Coq.Strings.BinaryString <> p var
+R3681:3686 Coq.Strings.BinaryString <> of_pos def
+R3688:3693 Coq.Strings.BinaryString <> to_pos def
+R3695:3698 Coq.Strings.BinaryString <> to_N def
+R3719:3733 Coq.Strings.BinaryString <> to_N_of_pos def
+R3719:3733 Coq.Strings.BinaryString <> to_N_of_pos def
+R3719:3733 Coq.Strings.BinaryString <> to_N_of_pos def
+def 3768:3775 <> of_pos_1
+R3787:3789 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3779:3784 Coq.Strings.BinaryString <> of_pos def
+R3799:3805 Coq.Init.Logic <> eq_refl constr
+def 3816:3823 <> of_pos_2
+R3835:3837 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3827:3832 Coq.Strings.BinaryString <> of_pos def
+R3848:3854 Coq.Init.Logic <> eq_refl constr
+def 3865:3872 <> of_pos_3
+R3884:3886 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3876:3881 Coq.Strings.BinaryString <> of_pos def
+R3897:3903 Coq.Init.Logic <> eq_refl constr
+def 3914:3919 <> of_N_0
+R3929:3931 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3923:3926 Coq.Strings.BinaryString <> of_N def
+R3941:3947 Coq.Init.Logic <> eq_refl constr
+def 3958:3963 <> of_Z_0
+R3973:3975 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R3967:3970 Coq.Strings.BinaryString <> of_Z def
+R3985:3991 Coq.Init.Logic <> eq_refl constr
+def 4002:4008 <> of_Z_m1
+R4021:4023 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4012:4015 Coq.Strings.BinaryString <> of_Z def
+R4034:4040 Coq.Init.Logic <> eq_refl constr
+def 4051:4058 <> of_nat_0
+R4070:4072 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R4062:4067 Coq.Strings.BinaryString <> of_nat def
+R4082:4088 Coq.Init.Logic <> eq_refl constr

@@ -1,0 +1,1347 @@
+DIGEST 000cb823dd820315687f3340dccd9d08
+Fmathcomp.algebra.countalg
+R175:202 mathcomp.ssreflect.ssreflect <> <> lib
+R234:239 mathcomp.ssreflect.ssrfun <> <> lib
+R241:247 mathcomp.ssreflect.ssrbool <> <> lib
+R249:254 mathcomp.ssreflect.eqtype <> <> lib
+R256:261 mathcomp.ssreflect.ssrnat <> <> lib
+R263:265 mathcomp.ssreflect.seq <> <> lib
+R267:272 mathcomp.ssreflect.choice <> <> lib
+R274:280 mathcomp.ssreflect.fintype <> <> lib
+R312:316 mathcomp.ssreflect.bigop <> <> lib
+R318:323 mathcomp.algebra.ssralg <> <> lib
+R325:340 mathcomp.ssreflect.generic_quotient <> <> lib
+R342:354 mathcomp.algebra.ring_quotient <> <> lib
+mod 2028:2036 <> CountRing
+syndef 2055:2062 CountRing mixin_of
+R2070:2087 mathcomp.ssreflect.choice Countable mixin_of rec
+sec 2102:2108 CountRing Generic
+var 2139:2142 CountRing.Generic type
+var 2144:2152 CountRing.Generic base_type
+var 2163:2170 CountRing.Generic class_of
+var 2172:2178 CountRing.Generic base_of
+R2186:2189 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+var 2206:2214 CountRing.Generic base_sort
+R2227:2230 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2218:2226 mathcomp.algebra.countalg <> CountRing.Generic.base_type var
+var 2263:2266 CountRing.Generic Pack
+R2290:2293 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2294:2297 mathcomp.algebra.countalg <> CountRing.Generic.type var
+R2280:2287 mathcomp.algebra.countalg <> CountRing.Generic.class_of var
+R2289:2289 mathcomp.algebra.countalg <> T var
+var 2309:2313 CountRing.Generic Class
+R2336:2339 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2350:2353 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2354:2361 mathcomp.algebra.countalg <> CountRing.Generic.class_of var
+R2363:2363 mathcomp.algebra.countalg <> T var
+R2340:2347 mathcomp.algebra.countalg CountRing mixin_of syndef
+R2349:2349 mathcomp.algebra.countalg <> T var
+R2327:2333 mathcomp.algebra.countalg <> CountRing.Generic.base_of var
+R2335:2335 mathcomp.algebra.countalg <> T var
+var 2375:2384 CountRing.Generic base_class
+R2399:2405 mathcomp.algebra.countalg <> CountRing.Generic.base_of var
+R2408:2416 mathcomp.algebra.countalg <> CountRing.Generic.base_sort var
+R2418:2419 mathcomp.algebra.countalg <> bT var
+def 2435:2442 CountRing gen_pack
+R2462:2469 Coq.ssr.ssrfun <> phant_id def
+R2487:2487 mathcomp.algebra.countalg <> b var
+R2472:2481 mathcomp.algebra.countalg <> CountRing.Generic.base_class var
+R2483:2484 mathcomp.algebra.countalg <> bT var
+R2507:2514 Coq.ssr.ssrfun <> phant_id def
+R2538:2552 mathcomp.ssreflect.choice Countable Class constr
+R2556:2556 mathcomp.algebra.countalg <> m var
+R2554:2554 mathcomp.algebra.countalg <> c var
+R2517:2531 mathcomp.ssreflect.choice Countable class def
+R2533:2534 mathcomp.algebra.countalg <> fT var
+R2564:2567 mathcomp.algebra.countalg <> CountRing.Generic.Pack var
+R2571:2575 mathcomp.algebra.countalg <> CountRing.Generic.Class var
+R2581:2581 mathcomp.algebra.countalg <> m var
+R2579:2579 mathcomp.algebra.countalg <> b var
+R2577:2577 mathcomp.algebra.countalg <> T var
+R2590:2596 mathcomp.algebra.countalg CountRing.Generic <> sec
+R2610:2617 mathcomp.algebra.countalg CountRing gen_pack def
+R2610:2617 mathcomp.algebra.countalg CountRing gen_pack def
+syndef 2679:2682 CountRing cnt_
+R2691:2705 mathcomp.ssreflect.choice Countable Class constr
+syndef 2730:2736 CountRing do_pack
+R2769:2770 Coq.ssr.ssrfun <> id syndef
+R2760:2761 Coq.ssr.ssrfun <> id syndef
+mod 2803:2809 <> CountRing.Zmodule
+sec 2821:2828 CountRing.Zmodule ClassDef
+constr 2855:2859 CountRing.Zmodule Class
+rec 2839:2846 CountRing.Zmodule class_of
+proj 2863:2866 CountRing.Zmodule base
+proj 2896:2900 CountRing.Zmodule mixin
+R2870:2891 mathcomp.algebra.ssralg GRing.Zmodule class_of rec
+R2893:2893 mathcomp.algebra.countalg <> M var
+R2904:2911 mathcomp.algebra.countalg CountRing mixin_of syndef
+R2913:2913 mathcomp.algebra.countalg <> M var
+R2924:2974 mathcomp.algebra.countalg CountRing.Zmodule base proj
+R2983:3020 mathcomp.algebra.countalg CountRing.Zmodule mixin proj
+constr 3042:3045 CountRing.Zmodule Pack
+rec 3034:3037 CountRing.Zmodule type
+proj 3048:3051 CountRing.Zmodule sort
+R3058:3065 mathcomp.algebra.countalg CountRing.Zmodule class_of rec
+R3067:3070 mathcomp.algebra.countalg <> sort meth
+R3080:3113 mathcomp.algebra.countalg CountRing.Zmodule sort proj
+def 3127:3130 CountRing.Zmodule pack
+R3135:3142 mathcomp.algebra.countalg CountRing gen_pack def
+R3155:3173 mathcomp.algebra.ssralg GRing.Zmodule class def
+R3149:3153 mathcomp.algebra.countalg CountRing.Zmodule Class constr
+R3144:3147 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+var 3185:3186 CountRing.Zmodule.ClassDef cT
+R3190:3193 mathcomp.algebra.countalg CountRing.Zmodule type rec
+def 3207:3211 CountRing.Zmodule class
+R3240:3241 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.cT var
+R3250:3257 mathcomp.algebra.countalg CountRing.Zmodule class_of rec
+R3259:3261 mathcomp.algebra.countalg <> cT' var
+R3221:3224 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+var 3273:3274 CountRing.Zmodule.ClassDef xT
+R3296:3297 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.cT var
+R3284:3287 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+syndef 3314:3319 CountRing.Zmodule xclass
+R3330:3332 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R3333:3340 mathcomp.algebra.countalg CountRing.Zmodule class_of rec
+R3342:3343 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.xT var
+R3325:3329 mathcomp.algebra.countalg CountRing.Zmodule class def
+def 3359:3364 CountRing.Zmodule eqType
+R3370:3382 mathcomp.ssreflect.eqtype Equality Pack constr
+R3387:3392 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3384:3385 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.cT var
+def 3406:3415 CountRing.Zmodule choiceType
+R3421:3431 mathcomp.ssreflect.choice Choice Pack constr
+R3436:3441 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3433:3434 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.cT var
+def 3455:3463 CountRing.Zmodule countType
+R3469:3482 mathcomp.ssreflect.choice Countable Pack constr
+R3488:3491 mathcomp.algebra.countalg CountRing cnt_ syndef
+R3493:3498 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3493:3498 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3484:3485 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.cT var
+def 3513:3520 CountRing.Zmodule zmodType
+R3526:3543 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R3548:3553 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3545:3546 mathcomp.algebra.countalg <> CountRing.Zmodule.ClassDef.cT var
+def 3568:3581 CountRing.Zmodule join_countType
+R3587:3600 mathcomp.ssreflect.choice Countable Pack constr
+R3612:3615 mathcomp.algebra.countalg CountRing cnt_ syndef
+R3617:3622 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3617:3622 mathcomp.algebra.countalg CountRing.Zmodule xclass syndef
+R3602:3609 mathcomp.algebra.countalg CountRing.Zmodule zmodType def
+R3631:3638 mathcomp.algebra.countalg CountRing.Zmodule.ClassDef <> sec
+mod 3649:3655 <> CountRing.Zmodule.Exports
+R3658:3708 mathcomp.algebra.countalg CountRing.Zmodule base proj
+R3711:3748 mathcomp.algebra.countalg CountRing.Zmodule mixin proj
+R3751:3784 mathcomp.algebra.countalg CountRing.Zmodule sort proj
+R3820:3859 mathcomp.algebra.countalg CountRing.Zmodule eqType def
+R3880:3921 mathcomp.algebra.countalg CountRing.Zmodule choiceType def
+R3946:3989 mathcomp.algebra.countalg CountRing.Zmodule countType def
+R4013:4059 mathcomp.algebra.countalg CountRing.Zmodule zmodType def
+syndef 4117:4129 CountRing.Zmodule.Exports countZmodType
+R4134:4137 mathcomp.algebra.countalg CountRing.Zmodule type rec
+R4182:4188 mathcomp.algebra.countalg CountRing do_pack syndef
+R4190:4193 mathcomp.algebra.countalg CountRing.Zmodule pack def
+not 4149:4149 CountRing.Zmodule.Exports ::form_scope:'['_'countZmodType'_'of'_x_']'
+R4270:4276 mathcomp.algebra.countalg CountRing.Zmodule.Exports <> mod
+R4284:4290 mathcomp.algebra.countalg CountRing.Zmodule <> mod
+mod 4325:4328 <> CountRing.Ring
+sec 4340:4347 CountRing.Ring ClassDef
+constr 4372:4376 CountRing.Ring Class
+rec 4358:4365 CountRing.Ring class_of
+proj 4380:4383 CountRing.Ring base
+proj 4410:4414 CountRing.Ring mixin
+R4387:4405 mathcomp.algebra.ssralg GRing.Ring class_of rec
+R4407:4407 mathcomp.algebra.countalg <> R var
+R4418:4425 mathcomp.algebra.countalg CountRing mixin_of syndef
+R4427:4427 mathcomp.algebra.countalg <> R var
+def 4443:4447 CountRing.Ring base2
+R4456:4463 mathcomp.algebra.countalg CountRing.Ring class_of rec
+R4465:4465 mathcomp.algebra.countalg <> R var
+R4471:4483 mathcomp.algebra.countalg CountRing.Zmodule Class constr
+R4495:4499 mathcomp.algebra.countalg CountRing.Ring mixin proj
+R4501:4501 mathcomp.algebra.countalg <> c var
+R4486:4489 mathcomp.algebra.countalg CountRing.Ring base proj
+R4491:4491 mathcomp.algebra.countalg <> c var
+R4511:4558 mathcomp.algebra.countalg CountRing.Ring base proj
+R4567:4612 mathcomp.algebra.countalg CountRing.Ring base2 def
+constr 4634:4637 CountRing.Ring Pack
+rec 4626:4629 CountRing.Ring type
+proj 4640:4643 CountRing.Ring sort
+R4650:4657 mathcomp.algebra.countalg CountRing.Ring class_of rec
+R4659:4662 mathcomp.algebra.countalg <> sort meth
+R4672:4705 mathcomp.algebra.countalg CountRing.Ring sort proj
+def 4719:4722 CountRing.Ring pack
+R4727:4734 mathcomp.algebra.countalg CountRing gen_pack def
+R4747:4762 mathcomp.algebra.ssralg GRing.Ring class def
+R4741:4745 mathcomp.algebra.countalg CountRing.Ring Class constr
+R4736:4739 mathcomp.algebra.countalg CountRing.Ring Pack constr
+var 4774:4775 CountRing.Ring.ClassDef cT
+R4779:4782 mathcomp.algebra.countalg CountRing.Ring type rec
+def 4796:4800 CountRing.Ring class
+R4829:4830 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+R4839:4846 mathcomp.algebra.countalg CountRing.Ring class_of rec
+R4848:4850 mathcomp.algebra.countalg <> cT' var
+R4810:4813 mathcomp.algebra.countalg CountRing.Ring Pack constr
+var 4862:4863 CountRing.Ring.ClassDef xT
+R4885:4886 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+R4873:4876 mathcomp.algebra.countalg CountRing.Ring Pack constr
+syndef 4903:4908 CountRing.Ring xclass
+R4919:4921 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R4922:4929 mathcomp.algebra.countalg CountRing.Ring class_of rec
+R4931:4932 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.xT var
+R4914:4918 mathcomp.algebra.countalg CountRing.Ring class def
+def 4948:4953 CountRing.Ring eqType
+R4959:4971 mathcomp.ssreflect.eqtype Equality Pack constr
+R4976:4981 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R4973:4974 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+def 4995:5004 CountRing.Ring choiceType
+R5010:5020 mathcomp.ssreflect.choice Choice Pack constr
+R5025:5030 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5022:5023 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+def 5044:5052 CountRing.Ring countType
+R5058:5071 mathcomp.ssreflect.choice Countable Pack constr
+R5077:5080 mathcomp.algebra.countalg CountRing cnt_ syndef
+R5082:5087 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5082:5087 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5073:5074 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+def 5102:5109 CountRing.Ring zmodType
+R5115:5132 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R5137:5142 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5134:5135 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+def 5156:5168 CountRing.Ring countZmodType
+R5174:5185 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R5190:5195 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5187:5188 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+def 5209:5216 CountRing.Ring ringType
+R5222:5236 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R5241:5246 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5238:5239 mathcomp.algebra.countalg <> CountRing.Ring.ClassDef.cT var
+def 5260:5273 CountRing.Ring join_countType
+R5279:5292 mathcomp.ssreflect.choice Countable Pack constr
+R5304:5307 mathcomp.algebra.countalg CountRing cnt_ syndef
+R5309:5314 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5309:5314 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5294:5301 mathcomp.algebra.countalg CountRing.Ring ringType def
+def 5329:5346 CountRing.Ring join_countZmodType
+R5352:5363 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R5374:5379 mathcomp.algebra.countalg CountRing.Ring xclass syndef
+R5365:5372 mathcomp.algebra.countalg CountRing.Ring ringType def
+R5387:5394 mathcomp.algebra.countalg CountRing.Ring.ClassDef <> sec
+mod 5412:5418 <> CountRing.Ring.Exports
+R5421:5468 mathcomp.algebra.countalg CountRing.Ring base proj
+R5471:5516 mathcomp.algebra.countalg CountRing.Ring base2 def
+R5519:5552 mathcomp.algebra.countalg CountRing.Ring sort proj
+R5588:5627 mathcomp.algebra.countalg CountRing.Ring eqType def
+R5648:5689 mathcomp.algebra.countalg CountRing.Ring choiceType def
+R5714:5757 mathcomp.algebra.countalg CountRing.Ring countType def
+R5781:5827 mathcomp.algebra.countalg CountRing.Ring zmodType def
+R5850:5895 mathcomp.algebra.countalg CountRing.Ring countZmodType def
+R5923:5966 mathcomp.algebra.countalg CountRing.Ring ringType def
+syndef 6054:6066 CountRing.Ring.Exports countRingType
+R6071:6074 mathcomp.algebra.countalg CountRing.Ring type rec
+R6119:6125 mathcomp.algebra.countalg CountRing do_pack syndef
+R6127:6130 mathcomp.algebra.countalg CountRing.Ring pack def
+not 6086:6086 CountRing.Ring.Exports ::form_scope:'['_'countRingType'_'of'_x_']'
+R6207:6213 mathcomp.algebra.countalg CountRing.Ring.Exports <> mod
+R6221:6224 mathcomp.algebra.countalg CountRing.Ring <> mod
+mod 6256:6262 <> CountRing.ComRing
+sec 6274:6281 CountRing.ComRing ClassDef
+constr 6308:6312 CountRing.ComRing Class
+rec 6292:6299 CountRing.ComRing class_of
+proj 6316:6319 CountRing.ComRing base
+proj 6349:6353 CountRing.ComRing mixin
+R6323:6344 mathcomp.algebra.ssralg GRing.ComRing class_of rec
+R6346:6346 mathcomp.algebra.countalg <> R var
+R6357:6364 mathcomp.algebra.countalg CountRing mixin_of syndef
+R6366:6366 mathcomp.algebra.countalg <> R var
+def 6382:6386 CountRing.ComRing base2
+R6395:6402 mathcomp.algebra.countalg CountRing.ComRing class_of rec
+R6404:6404 mathcomp.algebra.countalg <> R var
+R6410:6419 mathcomp.algebra.countalg CountRing.Ring Class constr
+R6431:6435 mathcomp.algebra.countalg CountRing.ComRing mixin proj
+R6437:6437 mathcomp.algebra.countalg <> c var
+R6422:6425 mathcomp.algebra.countalg CountRing.ComRing base proj
+R6427:6427 mathcomp.algebra.countalg <> c var
+R6447:6497 mathcomp.algebra.countalg CountRing.ComRing base proj
+R6506:6548 mathcomp.algebra.countalg CountRing.ComRing base2 def
+constr 6570:6573 CountRing.ComRing Pack
+rec 6562:6565 CountRing.ComRing type
+proj 6576:6579 CountRing.ComRing sort
+R6586:6593 mathcomp.algebra.countalg CountRing.ComRing class_of rec
+R6595:6598 mathcomp.algebra.countalg <> sort meth
+R6608:6641 mathcomp.algebra.countalg CountRing.ComRing sort proj
+def 6655:6658 CountRing.ComRing pack
+R6663:6670 mathcomp.algebra.countalg CountRing gen_pack def
+R6683:6701 mathcomp.algebra.ssralg GRing.ComRing class def
+R6677:6681 mathcomp.algebra.countalg CountRing.ComRing Class constr
+R6672:6675 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+var 6713:6714 CountRing.ComRing.ClassDef cT
+R6718:6721 mathcomp.algebra.countalg CountRing.ComRing type rec
+def 6735:6739 CountRing.ComRing class
+R6768:6769 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+R6778:6785 mathcomp.algebra.countalg CountRing.ComRing class_of rec
+R6787:6789 mathcomp.algebra.countalg <> cT' var
+R6749:6752 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+var 6801:6802 CountRing.ComRing.ClassDef xT
+R6824:6825 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+R6812:6815 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+syndef 6842:6847 CountRing.ComRing xclass
+R6858:6860 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R6861:6868 mathcomp.algebra.countalg CountRing.ComRing class_of rec
+R6870:6871 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.xT var
+R6853:6857 mathcomp.algebra.countalg CountRing.ComRing class def
+def 6887:6892 CountRing.ComRing eqType
+R6898:6910 mathcomp.ssreflect.eqtype Equality Pack constr
+R6915:6920 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R6912:6913 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 6934:6943 CountRing.ComRing choiceType
+R6949:6959 mathcomp.ssreflect.choice Choice Pack constr
+R6964:6969 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R6961:6962 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 6983:6991 CountRing.ComRing countType
+R6997:7010 mathcomp.ssreflect.choice Countable Pack constr
+R7016:7019 mathcomp.algebra.countalg CountRing cnt_ syndef
+R7021:7026 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7021:7026 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7012:7013 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 7041:7048 CountRing.ComRing zmodType
+R7054:7071 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R7076:7081 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7073:7074 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 7095:7107 CountRing.ComRing countZmodType
+R7113:7124 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R7129:7134 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7126:7127 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 7148:7155 CountRing.ComRing ringType
+R7161:7175 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R7180:7185 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7177:7178 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 7199:7211 CountRing.ComRing countRingType
+R7217:7225 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R7230:7235 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7227:7228 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 7249:7259 CountRing.ComRing comRingType
+R7265:7282 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R7287:7292 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7284:7285 mathcomp.algebra.countalg <> CountRing.ComRing.ClassDef.cT var
+def 7306:7319 CountRing.ComRing join_countType
+R7325:7338 mathcomp.ssreflect.choice Countable Pack constr
+R7353:7356 mathcomp.algebra.countalg CountRing cnt_ syndef
+R7358:7363 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7358:7363 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7340:7350 mathcomp.algebra.countalg CountRing.ComRing comRingType def
+def 7378:7395 CountRing.ComRing join_countZmodType
+R7401:7412 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R7426:7431 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7414:7424 mathcomp.algebra.countalg CountRing.ComRing comRingType def
+def 7445:7462 CountRing.ComRing join_countRingType
+R7468:7476 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R7490:7495 mathcomp.algebra.countalg CountRing.ComRing xclass syndef
+R7478:7488 mathcomp.algebra.countalg CountRing.ComRing comRingType def
+R7503:7510 mathcomp.algebra.countalg CountRing.ComRing.ClassDef <> sec
+mod 7521:7527 <> CountRing.ComRing.Exports
+R7530:7580 mathcomp.algebra.countalg CountRing.ComRing base proj
+R7583:7625 mathcomp.algebra.countalg CountRing.ComRing base2 def
+R7628:7661 mathcomp.algebra.countalg CountRing.ComRing sort proj
+R7697:7736 mathcomp.algebra.countalg CountRing.ComRing eqType def
+R7757:7798 mathcomp.algebra.countalg CountRing.ComRing choiceType def
+R7823:7866 mathcomp.algebra.countalg CountRing.ComRing countType def
+R7890:7936 mathcomp.algebra.countalg CountRing.ComRing zmodType def
+R7959:8004 mathcomp.algebra.countalg CountRing.ComRing countZmodType def
+R8032:8075 mathcomp.algebra.countalg CountRing.ComRing ringType def
+R8098:8140 mathcomp.algebra.countalg CountRing.ComRing countRingType def
+R8168:8217 mathcomp.algebra.countalg CountRing.ComRing comRingType def
+syndef 8338:8353 CountRing.ComRing.Exports countComRingType
+R8358:8379 mathcomp.algebra.countalg CountRing.ComRing type rec
+R8427:8433 mathcomp.algebra.countalg CountRing do_pack syndef
+R8435:8438 mathcomp.algebra.countalg CountRing.ComRing pack def
+not 8391:8391 CountRing.ComRing.Exports ::form_scope:'['_'countComRingType'_'of'_x_']'
+R8518:8524 mathcomp.algebra.countalg CountRing.ComRing.Exports <> mod
+R8532:8538 mathcomp.algebra.countalg CountRing.ComRing <> mod
+mod 8573:8580 <> CountRing.UnitRing
+sec 8592:8599 CountRing.UnitRing ClassDef
+constr 8626:8630 CountRing.UnitRing Class
+rec 8610:8617 CountRing.UnitRing class_of
+proj 8634:8637 CountRing.UnitRing base
+proj 8668:8672 CountRing.UnitRing mixin
+R8641:8663 mathcomp.algebra.ssralg GRing.UnitRing class_of rec
+R8665:8665 mathcomp.algebra.countalg <> R var
+R8676:8683 mathcomp.algebra.countalg CountRing mixin_of syndef
+R8685:8685 mathcomp.algebra.countalg <> R var
+def 8701:8705 CountRing.UnitRing base2
+R8714:8721 mathcomp.algebra.countalg CountRing.UnitRing class_of rec
+R8723:8723 mathcomp.algebra.countalg <> R var
+R8729:8738 mathcomp.algebra.countalg CountRing.Ring Class constr
+R8750:8754 mathcomp.algebra.countalg CountRing.UnitRing mixin proj
+R8756:8756 mathcomp.algebra.countalg <> c var
+R8741:8744 mathcomp.algebra.countalg CountRing.UnitRing base proj
+R8746:8746 mathcomp.algebra.countalg <> c var
+R8766:8817 mathcomp.algebra.countalg CountRing.UnitRing base proj
+R8826:8868 mathcomp.algebra.countalg CountRing.UnitRing base2 def
+constr 8890:8893 CountRing.UnitRing Pack
+rec 8882:8885 CountRing.UnitRing type
+proj 8896:8899 CountRing.UnitRing sort
+R8906:8913 mathcomp.algebra.countalg CountRing.UnitRing class_of rec
+R8915:8918 mathcomp.algebra.countalg <> sort meth
+R8928:8961 mathcomp.algebra.countalg CountRing.UnitRing sort proj
+def 8975:8978 CountRing.UnitRing pack
+R8983:8990 mathcomp.algebra.countalg CountRing gen_pack def
+R9003:9022 mathcomp.algebra.ssralg GRing.UnitRing class def
+R8997:9001 mathcomp.algebra.countalg CountRing.UnitRing Class constr
+R8992:8995 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+var 9034:9035 CountRing.UnitRing.ClassDef cT
+R9039:9042 mathcomp.algebra.countalg CountRing.UnitRing type rec
+def 9056:9060 CountRing.UnitRing class
+R9089:9090 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+R9099:9106 mathcomp.algebra.countalg CountRing.UnitRing class_of rec
+R9108:9110 mathcomp.algebra.countalg <> cT' var
+R9070:9073 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+var 9122:9123 CountRing.UnitRing.ClassDef xT
+R9145:9146 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+R9133:9136 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+syndef 9163:9168 CountRing.UnitRing xclass
+R9179:9181 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R9182:9189 mathcomp.algebra.countalg CountRing.UnitRing class_of rec
+R9191:9192 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.xT var
+R9174:9178 mathcomp.algebra.countalg CountRing.UnitRing class def
+def 9208:9213 CountRing.UnitRing eqType
+R9219:9231 mathcomp.ssreflect.eqtype Equality Pack constr
+R9236:9241 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9233:9234 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9255:9264 CountRing.UnitRing choiceType
+R9270:9280 mathcomp.ssreflect.choice Choice Pack constr
+R9285:9290 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9282:9283 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9304:9312 CountRing.UnitRing countType
+R9318:9331 mathcomp.ssreflect.choice Countable Pack constr
+R9337:9340 mathcomp.algebra.countalg CountRing cnt_ syndef
+R9342:9347 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9342:9347 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9333:9334 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9362:9369 CountRing.UnitRing zmodType
+R9375:9392 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R9397:9402 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9394:9395 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9416:9428 CountRing.UnitRing countZmodType
+R9434:9445 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R9450:9455 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9447:9448 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9469:9476 CountRing.UnitRing ringType
+R9482:9496 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R9501:9506 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9498:9499 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9520:9532 CountRing.UnitRing countRingType
+R9538:9546 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R9551:9556 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9548:9549 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9570:9581 CountRing.UnitRing unitRingType
+R9587:9605 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R9610:9615 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9607:9608 mathcomp.algebra.countalg <> CountRing.UnitRing.ClassDef.cT var
+def 9630:9643 CountRing.UnitRing join_countType
+R9649:9662 mathcomp.ssreflect.choice Countable Pack constr
+R9678:9681 mathcomp.algebra.countalg CountRing cnt_ syndef
+R9683:9688 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9683:9688 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9664:9675 mathcomp.algebra.countalg CountRing.UnitRing unitRingType def
+def 9703:9720 CountRing.UnitRing join_countZmodType
+R9726:9737 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R9752:9757 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9739:9750 mathcomp.algebra.countalg CountRing.UnitRing unitRingType def
+def 9771:9788 CountRing.UnitRing join_countRingType
+R9794:9802 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R9817:9822 mathcomp.algebra.countalg CountRing.UnitRing xclass syndef
+R9804:9815 mathcomp.algebra.countalg CountRing.UnitRing unitRingType def
+R9830:9837 mathcomp.algebra.countalg CountRing.UnitRing.ClassDef <> sec
+mod 9848:9854 <> CountRing.UnitRing.Exports
+R9857:9908 mathcomp.algebra.countalg CountRing.UnitRing base proj
+R9911:9953 mathcomp.algebra.countalg CountRing.UnitRing base2 def
+R9956:9989 mathcomp.algebra.countalg CountRing.UnitRing sort proj
+R10025:10064 mathcomp.algebra.countalg CountRing.UnitRing eqType def
+R10085:10126 mathcomp.algebra.countalg CountRing.UnitRing choiceType def
+R10151:10194 mathcomp.algebra.countalg CountRing.UnitRing countType def
+R10218:10264 mathcomp.algebra.countalg CountRing.UnitRing zmodType def
+R10287:10332 mathcomp.algebra.countalg CountRing.UnitRing countZmodType def
+R10360:10403 mathcomp.algebra.countalg CountRing.UnitRing ringType def
+R10426:10468 mathcomp.algebra.countalg CountRing.UnitRing countRingType def
+R10496:10547 mathcomp.algebra.countalg CountRing.UnitRing unitRingType def
+syndef 10669:10685 CountRing.UnitRing.Exports countUnitRingType
+R10690:10712 mathcomp.algebra.countalg CountRing.UnitRing type rec
+R10761:10767 mathcomp.algebra.countalg CountRing do_pack syndef
+R10769:10772 mathcomp.algebra.countalg CountRing.UnitRing pack def
+not 10724:10724 CountRing.UnitRing.Exports ::form_scope:'['_'countUnitRingType'_'of'_x_']'
+R10853:10859 mathcomp.algebra.countalg CountRing.UnitRing.Exports <> mod
+R10867:10874 mathcomp.algebra.countalg CountRing.UnitRing <> mod
+mod 10910:10920 <> CountRing.ComUnitRing
+sec 10932:10939 CountRing.ComUnitRing ClassDef
+constr 10966:10970 CountRing.ComUnitRing Class
+rec 10950:10957 CountRing.ComUnitRing class_of
+proj 10974:10977 CountRing.ComUnitRing base
+proj 11011:11015 CountRing.ComUnitRing mixin
+R10981:11006 mathcomp.algebra.ssralg GRing.ComUnitRing class_of rec
+R11008:11008 mathcomp.algebra.countalg <> R var
+R11019:11026 mathcomp.algebra.countalg CountRing mixin_of syndef
+R11028:11028 mathcomp.algebra.countalg <> R var
+def 11044:11048 CountRing.ComUnitRing base2
+R11057:11064 mathcomp.algebra.countalg CountRing.ComUnitRing class_of rec
+R11066:11066 mathcomp.algebra.countalg <> R var
+R11072:11084 mathcomp.algebra.countalg CountRing.ComRing Class constr
+R11096:11100 mathcomp.algebra.countalg CountRing.ComUnitRing mixin proj
+R11102:11102 mathcomp.algebra.countalg <> c var
+R11087:11090 mathcomp.algebra.countalg CountRing.ComUnitRing base proj
+R11092:11092 mathcomp.algebra.countalg <> c var
+def 11117:11121 CountRing.ComUnitRing base3
+R11130:11137 mathcomp.algebra.countalg CountRing.ComUnitRing class_of rec
+R11139:11139 mathcomp.algebra.countalg <> R var
+R11146:11159 mathcomp.algebra.countalg CountRing.UnitRing Class constr
+R11173:11177 mathcomp.algebra.countalg CountRing.ComUnitRing mixin proj
+R11179:11179 mathcomp.algebra.countalg <> c var
+R11164:11167 mathcomp.algebra.countalg CountRing.ComUnitRing base proj
+R11169:11169 mathcomp.algebra.countalg <> c var
+R11161:11161 mathcomp.algebra.countalg <> R var
+R11189:11243 mathcomp.algebra.countalg CountRing.ComUnitRing base proj
+R11252:11297 mathcomp.algebra.countalg CountRing.ComUnitRing base2 def
+R11306:11352 mathcomp.algebra.countalg CountRing.ComUnitRing base3 def
+constr 11374:11377 CountRing.ComUnitRing Pack
+rec 11366:11369 CountRing.ComUnitRing type
+proj 11380:11383 CountRing.ComUnitRing sort
+R11390:11397 mathcomp.algebra.countalg CountRing.ComUnitRing class_of rec
+R11399:11402 mathcomp.algebra.countalg <> sort meth
+R11412:11445 mathcomp.algebra.countalg CountRing.ComUnitRing sort proj
+def 11459:11462 CountRing.ComUnitRing pack
+R11467:11474 mathcomp.algebra.countalg CountRing gen_pack def
+R11487:11509 mathcomp.algebra.ssralg GRing.ComUnitRing class def
+R11481:11485 mathcomp.algebra.countalg CountRing.ComUnitRing Class constr
+R11476:11479 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+var 11521:11522 CountRing.ComUnitRing.ClassDef cT
+R11526:11529 mathcomp.algebra.countalg CountRing.ComUnitRing type rec
+def 11543:11547 CountRing.ComUnitRing class
+R11576:11577 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+R11586:11593 mathcomp.algebra.countalg CountRing.ComUnitRing class_of rec
+R11595:11597 mathcomp.algebra.countalg <> cT' var
+R11557:11560 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+var 11609:11610 CountRing.ComUnitRing.ClassDef xT
+R11632:11633 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+R11620:11623 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+syndef 11650:11655 CountRing.ComUnitRing xclass
+R11666:11668 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R11669:11676 mathcomp.algebra.countalg CountRing.ComUnitRing class_of rec
+R11678:11679 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.xT var
+R11661:11665 mathcomp.algebra.countalg CountRing.ComUnitRing class def
+def 11695:11700 CountRing.ComUnitRing eqType
+R11706:11718 mathcomp.ssreflect.eqtype Equality Pack constr
+R11723:11728 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11720:11721 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 11742:11751 CountRing.ComUnitRing choiceType
+R11757:11767 mathcomp.ssreflect.choice Choice Pack constr
+R11772:11777 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11769:11770 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 11791:11799 CountRing.ComUnitRing countType
+R11805:11818 mathcomp.ssreflect.choice Countable Pack constr
+R11824:11827 mathcomp.algebra.countalg CountRing cnt_ syndef
+R11829:11834 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11829:11834 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11820:11821 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 11849:11856 CountRing.ComUnitRing zmodType
+R11862:11879 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R11884:11889 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11881:11882 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 11903:11915 CountRing.ComUnitRing countZmodType
+R11921:11932 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R11937:11942 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11934:11935 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 11956:11963 CountRing.ComUnitRing ringType
+R11969:11983 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R11988:11993 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R11985:11986 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12007:12019 CountRing.ComUnitRing countRingType
+R12025:12033 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R12038:12043 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12035:12036 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12057:12067 CountRing.ComUnitRing comRingType
+R12073:12090 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R12095:12100 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12092:12093 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12114:12129 CountRing.ComUnitRing countComRingType
+R12135:12146 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R12151:12156 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12148:12149 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12170:12181 CountRing.ComUnitRing unitRingType
+R12187:12205 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R12210:12215 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12207:12208 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12229:12245 CountRing.ComUnitRing countUnitRingType
+R12251:12263 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R12268:12273 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12265:12266 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12287:12301 CountRing.ComUnitRing comUnitRingType
+R12307:12328 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R12333:12338 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12330:12331 mathcomp.algebra.countalg <> CountRing.ComUnitRing.ClassDef.cT var
+def 12353:12366 CountRing.ComUnitRing join_countType
+R12372:12385 mathcomp.ssreflect.choice Countable Pack constr
+R12404:12407 mathcomp.algebra.countalg CountRing cnt_ syndef
+R12409:12414 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12409:12414 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12387:12401 mathcomp.algebra.countalg CountRing.ComUnitRing comUnitRingType def
+def 12429:12446 CountRing.ComUnitRing join_countZmodType
+R12452:12463 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R12481:12486 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12465:12479 mathcomp.algebra.countalg CountRing.ComUnitRing comUnitRingType def
+def 12500:12517 CountRing.ComUnitRing join_countRingType
+R12523:12531 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R12549:12554 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12533:12547 mathcomp.algebra.countalg CountRing.ComUnitRing comUnitRingType def
+def 12568:12588 CountRing.ComUnitRing join_countComRingType
+R12594:12605 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R12623:12628 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12607:12621 mathcomp.algebra.countalg CountRing.ComUnitRing comUnitRingType def
+def 12642:12663 CountRing.ComUnitRing join_countUnitRingType
+R12669:12681 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R12699:12704 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12683:12697 mathcomp.algebra.countalg CountRing.ComUnitRing comUnitRingType def
+def 12718:12739 CountRing.ComUnitRing ujoin_countComRingType
+R12745:12756 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R12771:12776 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12758:12769 mathcomp.algebra.countalg CountRing.ComUnitRing unitRingType def
+def 12790:12812 CountRing.ComUnitRing cjoin_countUnitRingType
+R12818:12830 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R12844:12849 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12832:12842 mathcomp.algebra.countalg CountRing.ComUnitRing comRingType def
+def 12863:12886 CountRing.ComUnitRing ccjoin_countUnitRingType
+R12894:12906 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R12925:12930 mathcomp.algebra.countalg CountRing.ComUnitRing xclass syndef
+R12908:12923 mathcomp.algebra.countalg CountRing.ComUnitRing countComRingType def
+R12938:12945 mathcomp.algebra.countalg CountRing.ComUnitRing.ClassDef <> sec
+mod 12956:12962 <> CountRing.ComUnitRing.Exports
+R12965:13019 mathcomp.algebra.countalg CountRing.ComUnitRing base proj
+R13022:13067 mathcomp.algebra.countalg CountRing.ComUnitRing base2 def
+R13070:13116 mathcomp.algebra.countalg CountRing.ComUnitRing base3 def
+R13119:13152 mathcomp.algebra.countalg CountRing.ComUnitRing sort proj
+R13188:13227 mathcomp.algebra.countalg CountRing.ComUnitRing eqType def
+R13248:13289 mathcomp.algebra.countalg CountRing.ComUnitRing choiceType def
+R13314:13357 mathcomp.algebra.countalg CountRing.ComUnitRing countType def
+R13381:13427 mathcomp.algebra.countalg CountRing.ComUnitRing zmodType def
+R13450:13495 mathcomp.algebra.countalg CountRing.ComUnitRing countZmodType def
+R13523:13566 mathcomp.algebra.countalg CountRing.ComUnitRing ringType def
+R13589:13631 mathcomp.algebra.countalg CountRing.ComUnitRing countRingType def
+R13659:13708 mathcomp.algebra.countalg CountRing.ComUnitRing comRingType def
+R13734:13782 mathcomp.algebra.countalg CountRing.ComUnitRing countComRingType def
+R13813:13864 mathcomp.algebra.countalg CountRing.ComUnitRing unitRingType def
+R13891:13941 mathcomp.algebra.countalg CountRing.ComUnitRing countUnitRingType def
+R13973:14030 mathcomp.algebra.countalg CountRing.ComUnitRing comUnitRingType def
+syndef 14327:14346 CountRing.ComUnitRing.Exports countComUnitRingType
+R14351:14376 mathcomp.algebra.countalg CountRing.ComUnitRing type rec
+R14428:14434 mathcomp.algebra.countalg CountRing do_pack syndef
+R14436:14439 mathcomp.algebra.countalg CountRing.ComUnitRing pack def
+not 14388:14388 CountRing.ComUnitRing.Exports ::form_scope:'['_'countComUnitRingType'_'of'_x_']'
+R14523:14529 mathcomp.algebra.countalg CountRing.ComUnitRing.Exports <> mod
+R14537:14547 mathcomp.algebra.countalg CountRing.ComUnitRing <> mod
+mod 14586:14599 <> CountRing.IntegralDomain
+sec 14611:14618 CountRing.IntegralDomain ClassDef
+constr 14645:14649 CountRing.IntegralDomain Class
+rec 14629:14636 CountRing.IntegralDomain class_of
+proj 14653:14656 CountRing.IntegralDomain base
+proj 14693:14697 CountRing.IntegralDomain mixin
+R14660:14688 mathcomp.algebra.ssralg GRing.IntegralDomain class_of rec
+R14690:14690 mathcomp.algebra.countalg <> R var
+R14701:14708 mathcomp.algebra.countalg CountRing mixin_of syndef
+R14710:14710 mathcomp.algebra.countalg <> R var
+def 14726:14730 CountRing.IntegralDomain base2
+R14739:14746 mathcomp.algebra.countalg CountRing.IntegralDomain class_of rec
+R14748:14748 mathcomp.algebra.countalg <> R var
+R14754:14770 mathcomp.algebra.countalg CountRing.ComUnitRing Class constr
+R14782:14786 mathcomp.algebra.countalg CountRing.IntegralDomain mixin proj
+R14788:14788 mathcomp.algebra.countalg <> c var
+R14773:14776 mathcomp.algebra.countalg CountRing.IntegralDomain base proj
+R14778:14778 mathcomp.algebra.countalg <> c var
+R14798:14855 mathcomp.algebra.countalg CountRing.IntegralDomain base proj
+R14864:14913 mathcomp.algebra.countalg CountRing.IntegralDomain base2 def
+constr 14935:14938 CountRing.IntegralDomain Pack
+rec 14927:14930 CountRing.IntegralDomain type
+proj 14941:14944 CountRing.IntegralDomain sort
+R14951:14958 mathcomp.algebra.countalg CountRing.IntegralDomain class_of rec
+R14960:14963 mathcomp.algebra.countalg <> sort meth
+R14973:15006 mathcomp.algebra.countalg CountRing.IntegralDomain sort proj
+def 15020:15023 CountRing.IntegralDomain pack
+R15028:15035 mathcomp.algebra.countalg CountRing gen_pack def
+R15048:15073 mathcomp.algebra.ssralg GRing.IntegralDomain class def
+R15042:15046 mathcomp.algebra.countalg CountRing.IntegralDomain Class constr
+R15037:15040 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+var 15085:15086 CountRing.IntegralDomain.ClassDef cT
+R15090:15093 mathcomp.algebra.countalg CountRing.IntegralDomain type rec
+def 15107:15111 CountRing.IntegralDomain class
+R15140:15141 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+R15150:15157 mathcomp.algebra.countalg CountRing.IntegralDomain class_of rec
+R15159:15161 mathcomp.algebra.countalg <> cT' var
+R15121:15124 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+var 15173:15174 CountRing.IntegralDomain.ClassDef xT
+R15196:15197 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+R15184:15187 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+syndef 15214:15219 CountRing.IntegralDomain xclass
+R15230:15232 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R15233:15240 mathcomp.algebra.countalg CountRing.IntegralDomain class_of rec
+R15242:15243 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.xT var
+R15225:15229 mathcomp.algebra.countalg CountRing.IntegralDomain class def
+def 15259:15264 CountRing.IntegralDomain eqType
+R15270:15282 mathcomp.ssreflect.eqtype Equality Pack constr
+R15287:15292 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15284:15285 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15306:15315 CountRing.IntegralDomain choiceType
+R15321:15331 mathcomp.ssreflect.choice Choice Pack constr
+R15336:15341 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15333:15334 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15355:15363 CountRing.IntegralDomain countType
+R15369:15382 mathcomp.ssreflect.choice Countable Pack constr
+R15388:15391 mathcomp.algebra.countalg CountRing cnt_ syndef
+R15393:15398 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15393:15398 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15384:15385 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15413:15420 CountRing.IntegralDomain zmodType
+R15426:15443 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R15448:15453 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15445:15446 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15467:15479 CountRing.IntegralDomain countZmodType
+R15485:15496 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R15501:15506 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15498:15499 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15520:15527 CountRing.IntegralDomain ringType
+R15533:15547 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R15552:15557 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15549:15550 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15571:15583 CountRing.IntegralDomain countRingType
+R15589:15597 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R15602:15607 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15599:15600 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15621:15631 CountRing.IntegralDomain comRingType
+R15637:15654 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R15659:15664 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15656:15657 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15678:15693 CountRing.IntegralDomain countComRingType
+R15699:15710 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R15715:15720 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15712:15713 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15734:15745 CountRing.IntegralDomain unitRingType
+R15751:15769 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R15774:15779 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15771:15772 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15793:15809 CountRing.IntegralDomain countUnitRingType
+R15815:15827 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R15832:15837 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15829:15830 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15851:15865 CountRing.IntegralDomain comUnitRingType
+R15871:15892 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R15897:15902 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15894:15895 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15916:15935 CountRing.IntegralDomain countComUnitRingType
+R15941:15956 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R15961:15966 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R15958:15959 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 15980:15990 CountRing.IntegralDomain idomainType
+R15996:16020 mathcomp.algebra.ssralg GRing.IntegralDomain Pack constr
+R16025:16030 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16022:16023 mathcomp.algebra.countalg <> CountRing.IntegralDomain.ClassDef.cT var
+def 16045:16058 CountRing.IntegralDomain join_countType
+R16064:16077 mathcomp.ssreflect.choice Countable Pack constr
+R16092:16095 mathcomp.algebra.countalg CountRing cnt_ syndef
+R16097:16102 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16097:16102 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16079:16089 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+def 16117:16134 CountRing.IntegralDomain join_countZmodType
+R16140:16151 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R16165:16170 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16153:16163 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+def 16184:16201 CountRing.IntegralDomain join_countRingType
+R16207:16215 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R16229:16234 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16217:16227 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+def 16248:16269 CountRing.IntegralDomain join_countUnitRingType
+R16275:16287 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R16301:16306 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16289:16299 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+def 16320:16340 CountRing.IntegralDomain join_countComRingType
+R16346:16357 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R16371:16376 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16359:16369 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+def 16390:16414 CountRing.IntegralDomain join_countComUnitRingType
+R16420:16435 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R16449:16454 mathcomp.algebra.countalg CountRing.IntegralDomain xclass syndef
+R16437:16447 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+R16462:16469 mathcomp.algebra.countalg CountRing.IntegralDomain.ClassDef <> sec
+mod 16480:16486 <> CountRing.IntegralDomain.Exports
+R16489:16546 mathcomp.algebra.countalg CountRing.IntegralDomain base proj
+R16549:16598 mathcomp.algebra.countalg CountRing.IntegralDomain base2 def
+R16601:16634 mathcomp.algebra.countalg CountRing.IntegralDomain sort proj
+R16670:16709 mathcomp.algebra.countalg CountRing.IntegralDomain eqType def
+R16730:16771 mathcomp.algebra.countalg CountRing.IntegralDomain choiceType def
+R16796:16839 mathcomp.algebra.countalg CountRing.IntegralDomain countType def
+R16863:16909 mathcomp.algebra.countalg CountRing.IntegralDomain zmodType def
+R16932:16977 mathcomp.algebra.countalg CountRing.IntegralDomain countZmodType def
+R17005:17048 mathcomp.algebra.countalg CountRing.IntegralDomain ringType def
+R17071:17113 mathcomp.algebra.countalg CountRing.IntegralDomain countRingType def
+R17141:17190 mathcomp.algebra.countalg CountRing.IntegralDomain comRingType def
+R17216:17264 mathcomp.algebra.countalg CountRing.IntegralDomain countComRingType def
+R17295:17346 mathcomp.algebra.countalg CountRing.IntegralDomain unitRingType def
+R17373:17423 mathcomp.algebra.countalg CountRing.IntegralDomain countUnitRingType def
+R17455:17512 mathcomp.algebra.countalg CountRing.IntegralDomain comUnitRingType def
+R17542:17598 mathcomp.algebra.countalg CountRing.IntegralDomain countComUnitRingType def
+R17633:17689 mathcomp.algebra.countalg CountRing.IntegralDomain idomainType def
+syndef 17914:17929 CountRing.IntegralDomain.Exports countIdomainType
+R17934:17962 mathcomp.algebra.countalg CountRing.IntegralDomain type rec
+R18010:18016 mathcomp.algebra.countalg CountRing do_pack syndef
+R18018:18021 mathcomp.algebra.countalg CountRing.IntegralDomain pack def
+not 17974:17974 CountRing.IntegralDomain.Exports ::form_scope:'['_'countIdomainType'_'of'_x_']'
+R18101:18107 mathcomp.algebra.countalg CountRing.IntegralDomain.Exports <> mod
+R18115:18128 mathcomp.algebra.countalg CountRing.IntegralDomain <> mod
+mod 18170:18174 <> CountRing.Field
+sec 18186:18193 CountRing.Field ClassDef
+constr 18220:18224 CountRing.Field Class
+rec 18204:18211 CountRing.Field class_of
+proj 18228:18231 CountRing.Field base
+proj 18259:18263 CountRing.Field mixin
+R18235:18254 mathcomp.algebra.ssralg GRing.Field class_of rec
+R18256:18256 mathcomp.algebra.countalg <> R var
+R18267:18274 mathcomp.algebra.countalg CountRing mixin_of syndef
+R18276:18276 mathcomp.algebra.countalg <> R var
+def 18292:18296 CountRing.Field base2
+R18305:18312 mathcomp.algebra.countalg CountRing.Field class_of rec
+R18314:18314 mathcomp.algebra.countalg <> R var
+R18320:18339 mathcomp.algebra.countalg CountRing.IntegralDomain Class constr
+R18351:18355 mathcomp.algebra.countalg CountRing.Field mixin proj
+R18357:18357 mathcomp.algebra.countalg <> c var
+R18342:18345 mathcomp.algebra.countalg CountRing.Field base proj
+R18347:18347 mathcomp.algebra.countalg <> c var
+R18367:18415 mathcomp.algebra.countalg CountRing.Field base proj
+R18424:18476 mathcomp.algebra.countalg CountRing.Field base2 def
+constr 18498:18501 CountRing.Field Pack
+rec 18490:18493 CountRing.Field type
+proj 18504:18507 CountRing.Field sort
+R18514:18521 mathcomp.algebra.countalg CountRing.Field class_of rec
+R18523:18526 mathcomp.algebra.countalg <> sort meth
+R18536:18569 mathcomp.algebra.countalg CountRing.Field sort proj
+def 18583:18586 CountRing.Field pack
+R18591:18598 mathcomp.algebra.countalg CountRing gen_pack def
+R18611:18627 mathcomp.algebra.ssralg GRing.Field class def
+R18605:18609 mathcomp.algebra.countalg CountRing.Field Class constr
+R18600:18603 mathcomp.algebra.countalg CountRing.Field Pack constr
+var 18639:18640 CountRing.Field.ClassDef cT
+R18644:18647 mathcomp.algebra.countalg CountRing.Field type rec
+def 18661:18665 CountRing.Field class
+R18694:18695 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+R18704:18711 mathcomp.algebra.countalg CountRing.Field class_of rec
+R18713:18715 mathcomp.algebra.countalg <> cT' var
+R18675:18678 mathcomp.algebra.countalg CountRing.Field Pack constr
+var 18727:18728 CountRing.Field.ClassDef xT
+R18750:18751 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+R18738:18741 mathcomp.algebra.countalg CountRing.Field Pack constr
+syndef 18768:18773 CountRing.Field xclass
+R18784:18786 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R18787:18794 mathcomp.algebra.countalg CountRing.Field class_of rec
+R18796:18797 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.xT var
+R18779:18783 mathcomp.algebra.countalg CountRing.Field class def
+def 18813:18818 CountRing.Field eqType
+R18824:18836 mathcomp.ssreflect.eqtype Equality Pack constr
+R18841:18846 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R18838:18839 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 18860:18869 CountRing.Field choiceType
+R18875:18885 mathcomp.ssreflect.choice Choice Pack constr
+R18890:18895 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R18887:18888 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 18909:18917 CountRing.Field countType
+R18923:18936 mathcomp.ssreflect.choice Countable Pack constr
+R18942:18945 mathcomp.algebra.countalg CountRing cnt_ syndef
+R18947:18952 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R18947:18952 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R18938:18939 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 18967:18974 CountRing.Field zmodType
+R18980:18997 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R19002:19007 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R18999:19000 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19021:19033 CountRing.Field countZmodType
+R19039:19050 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R19055:19060 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19052:19053 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19074:19081 CountRing.Field ringType
+R19087:19101 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R19106:19111 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19103:19104 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19125:19137 CountRing.Field countRingType
+R19143:19151 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R19156:19161 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19153:19154 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19175:19185 CountRing.Field comRingType
+R19191:19208 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R19213:19218 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19210:19211 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19232:19247 CountRing.Field countComRingType
+R19253:19264 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R19269:19274 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19266:19267 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19288:19299 CountRing.Field unitRingType
+R19305:19323 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R19328:19333 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19325:19326 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19347:19363 CountRing.Field countUnitRingType
+R19369:19381 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R19386:19391 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19383:19384 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19405:19419 CountRing.Field comUnitRingType
+R19425:19446 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R19451:19456 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19448:19449 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19470:19489 CountRing.Field countComUnitRingType
+R19495:19510 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R19515:19520 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19512:19513 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19534:19544 CountRing.Field idomainType
+R19550:19574 mathcomp.algebra.ssralg GRing.IntegralDomain Pack constr
+R19579:19584 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19576:19577 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19598:19613 CountRing.Field countIdomainType
+R19619:19637 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+R19642:19647 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19639:19640 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19661:19669 CountRing.Field fieldType
+R19675:19690 mathcomp.algebra.ssralg GRing.Field Pack constr
+R19695:19700 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19692:19693 mathcomp.algebra.countalg <> CountRing.Field.ClassDef.cT var
+def 19715:19728 CountRing.Field join_countType
+R19734:19747 mathcomp.ssreflect.choice Countable Pack constr
+R19760:19763 mathcomp.algebra.countalg CountRing cnt_ syndef
+R19765:19770 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19765:19770 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19749:19757 mathcomp.algebra.countalg CountRing.Field fieldType def
+def 19785:19802 CountRing.Field join_countZmodType
+R19808:19819 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R19831:19836 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19821:19829 mathcomp.algebra.countalg CountRing.Field fieldType def
+def 19850:19867 CountRing.Field join_countRingType
+R19873:19881 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R19893:19898 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19883:19891 mathcomp.algebra.countalg CountRing.Field fieldType def
+def 19912:19933 CountRing.Field join_countUnitRingType
+R19939:19951 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R19963:19968 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R19953:19961 mathcomp.algebra.countalg CountRing.Field fieldType def
+def 19982:20002 CountRing.Field join_countComRingType
+R20008:20019 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R20031:20036 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R20021:20029 mathcomp.algebra.countalg CountRing.Field fieldType def
+def 20050:20074 CountRing.Field join_countComUnitRingType
+R20080:20095 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R20107:20112 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R20097:20105 mathcomp.algebra.countalg CountRing.Field fieldType def
+def 20126:20146 CountRing.Field join_countIdomainType
+R20152:20170 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+R20182:20187 mathcomp.algebra.countalg CountRing.Field xclass syndef
+R20172:20180 mathcomp.algebra.countalg CountRing.Field fieldType def
+R20195:20202 mathcomp.algebra.countalg CountRing.Field.ClassDef <> sec
+mod 20213:20219 <> CountRing.Field.Exports
+R20222:20270 mathcomp.algebra.countalg CountRing.Field base proj
+R20273:20325 mathcomp.algebra.countalg CountRing.Field base2 def
+R20328:20361 mathcomp.algebra.countalg CountRing.Field sort proj
+R20397:20436 mathcomp.algebra.countalg CountRing.Field eqType def
+R20457:20498 mathcomp.algebra.countalg CountRing.Field choiceType def
+R20523:20566 mathcomp.algebra.countalg CountRing.Field countType def
+R20590:20636 mathcomp.algebra.countalg CountRing.Field zmodType def
+R20659:20704 mathcomp.algebra.countalg CountRing.Field countZmodType def
+R20732:20775 mathcomp.algebra.countalg CountRing.Field ringType def
+R20798:20840 mathcomp.algebra.countalg CountRing.Field countRingType def
+R20868:20917 mathcomp.algebra.countalg CountRing.Field comRingType def
+R20943:20991 mathcomp.algebra.countalg CountRing.Field countComRingType def
+R21022:21073 mathcomp.algebra.countalg CountRing.Field unitRingType def
+R21100:21150 mathcomp.algebra.countalg CountRing.Field countUnitRingType def
+R21182:21239 mathcomp.algebra.countalg CountRing.Field comUnitRingType def
+R21269:21325 mathcomp.algebra.countalg CountRing.Field countComUnitRingType def
+R21360:21416 mathcomp.algebra.countalg CountRing.Field idomainType def
+R21442:21497 mathcomp.algebra.countalg CountRing.Field countIdomainType def
+R21528:21573 mathcomp.algebra.countalg CountRing.Field fieldType def
+syndef 21829:21842 CountRing.Field.Exports countFieldType
+R21847:21866 mathcomp.algebra.countalg CountRing.Field type rec
+R21912:21918 mathcomp.algebra.countalg CountRing do_pack syndef
+R21920:21923 mathcomp.algebra.countalg CountRing.Field pack def
+not 21878:21878 CountRing.Field.Exports ::form_scope:'['_'countFieldType'_'of'_x_']'
+R22001:22007 mathcomp.algebra.countalg CountRing.Field.Exports <> mod
+R22015:22019 mathcomp.algebra.countalg CountRing.Field <> mod
+mod 22052:22065 <> CountRing.DecidableField
+sec 22077:22084 CountRing.DecidableField ClassDef
+constr 22111:22115 CountRing.DecidableField Class
+rec 22095:22102 CountRing.DecidableField class_of
+proj 22119:22122 CountRing.DecidableField base
+proj 22159:22163 CountRing.DecidableField mixin
+R22126:22154 mathcomp.algebra.ssralg GRing.DecidableField class_of rec
+R22156:22156 mathcomp.algebra.countalg <> R var
+R22167:22174 mathcomp.algebra.countalg CountRing mixin_of syndef
+R22176:22176 mathcomp.algebra.countalg <> R var
+def 22192:22196 CountRing.DecidableField base2
+R22205:22212 mathcomp.algebra.countalg CountRing.DecidableField class_of rec
+R22214:22214 mathcomp.algebra.countalg <> R var
+R22220:22230 mathcomp.algebra.countalg CountRing.Field Class constr
+R22242:22246 mathcomp.algebra.countalg CountRing.DecidableField mixin proj
+R22248:22248 mathcomp.algebra.countalg <> c var
+R22233:22236 mathcomp.algebra.countalg CountRing.DecidableField base proj
+R22238:22238 mathcomp.algebra.countalg <> c var
+R22258:22315 mathcomp.algebra.countalg CountRing.DecidableField base proj
+R22324:22367 mathcomp.algebra.countalg CountRing.DecidableField base2 def
+constr 22389:22392 CountRing.DecidableField Pack
+rec 22381:22384 CountRing.DecidableField type
+proj 22395:22398 CountRing.DecidableField sort
+R22405:22412 mathcomp.algebra.countalg CountRing.DecidableField class_of rec
+R22414:22417 mathcomp.algebra.countalg <> sort meth
+R22427:22460 mathcomp.algebra.countalg CountRing.DecidableField sort proj
+def 22474:22477 CountRing.DecidableField pack
+R22482:22489 mathcomp.algebra.countalg CountRing gen_pack def
+R22502:22527 mathcomp.algebra.ssralg GRing.DecidableField class def
+R22496:22500 mathcomp.algebra.countalg CountRing.DecidableField Class constr
+R22491:22494 mathcomp.algebra.countalg CountRing.DecidableField Pack constr
+var 22539:22540 CountRing.DecidableField.ClassDef cT
+R22544:22547 mathcomp.algebra.countalg CountRing.DecidableField type rec
+def 22561:22565 CountRing.DecidableField class
+R22594:22595 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+R22604:22611 mathcomp.algebra.countalg CountRing.DecidableField class_of rec
+R22613:22615 mathcomp.algebra.countalg <> cT' var
+R22575:22578 mathcomp.algebra.countalg CountRing.DecidableField Pack constr
+var 22627:22628 CountRing.DecidableField.ClassDef xT
+R22650:22651 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+R22638:22641 mathcomp.algebra.countalg CountRing.DecidableField Pack constr
+syndef 22668:22673 CountRing.DecidableField xclass
+R22684:22686 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R22687:22694 mathcomp.algebra.countalg CountRing.DecidableField class_of rec
+R22696:22697 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.xT var
+R22679:22683 mathcomp.algebra.countalg CountRing.DecidableField class def
+def 22713:22718 CountRing.DecidableField eqType
+R22724:22736 mathcomp.ssreflect.eqtype Equality Pack constr
+R22741:22746 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R22738:22739 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 22760:22769 CountRing.DecidableField choiceType
+R22775:22785 mathcomp.ssreflect.choice Choice Pack constr
+R22790:22795 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R22787:22788 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 22809:22817 CountRing.DecidableField countType
+R22823:22836 mathcomp.ssreflect.choice Countable Pack constr
+R22842:22845 mathcomp.algebra.countalg CountRing cnt_ syndef
+R22847:22852 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R22847:22852 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R22838:22839 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 22867:22874 CountRing.DecidableField zmodType
+R22880:22897 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R22902:22907 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R22899:22900 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 22921:22933 CountRing.DecidableField countZmodType
+R22939:22950 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R22955:22960 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R22952:22953 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 22974:22981 CountRing.DecidableField ringType
+R22987:23001 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R23006:23011 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23003:23004 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23025:23037 CountRing.DecidableField countRingType
+R23043:23051 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R23056:23061 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23053:23054 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23075:23085 CountRing.DecidableField comRingType
+R23091:23108 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R23113:23118 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23110:23111 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23132:23147 CountRing.DecidableField countComRingType
+R23153:23164 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R23169:23174 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23166:23167 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23188:23199 CountRing.DecidableField unitRingType
+R23205:23223 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R23228:23233 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23225:23226 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23247:23263 CountRing.DecidableField countUnitRingType
+R23269:23281 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R23286:23291 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23283:23284 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23305:23319 CountRing.DecidableField comUnitRingType
+R23325:23346 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R23351:23356 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23348:23349 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23370:23389 CountRing.DecidableField countComUnitRingType
+R23395:23410 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R23415:23420 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23412:23413 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23434:23444 CountRing.DecidableField idomainType
+R23450:23474 mathcomp.algebra.ssralg GRing.IntegralDomain Pack constr
+R23479:23484 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23476:23477 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23498:23513 CountRing.DecidableField countIdomainType
+R23519:23537 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+R23542:23547 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23539:23540 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23561:23569 CountRing.DecidableField fieldType
+R23575:23590 mathcomp.algebra.ssralg GRing.Field Pack constr
+R23595:23600 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23592:23593 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23614:23627 CountRing.DecidableField countFieldType
+R23633:23642 mathcomp.algebra.countalg CountRing.Field Pack constr
+R23647:23652 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23644:23645 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23666:23677 CountRing.DecidableField decFieldType
+R23683:23707 mathcomp.algebra.ssralg GRing.DecidableField Pack constr
+R23712:23717 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23709:23710 mathcomp.algebra.countalg <> CountRing.DecidableField.ClassDef.cT var
+def 23732:23745 CountRing.DecidableField join_countType
+R23751:23764 mathcomp.ssreflect.choice Countable Pack constr
+R23780:23783 mathcomp.algebra.countalg CountRing cnt_ syndef
+R23785:23790 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23785:23790 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23766:23777 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 23805:23822 CountRing.DecidableField join_countZmodType
+R23828:23839 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R23854:23859 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23841:23852 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 23873:23890 CountRing.DecidableField join_countRingType
+R23896:23904 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R23919:23924 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23906:23917 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 23938:23959 CountRing.DecidableField join_countUnitRingType
+R23965:23977 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R23992:23997 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R23979:23990 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 24011:24031 CountRing.DecidableField join_countComRingType
+R24037:24048 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R24063:24068 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R24050:24061 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 24082:24106 CountRing.DecidableField join_countComUnitRingType
+R24114:24129 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R24144:24149 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R24131:24142 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 24163:24183 CountRing.DecidableField join_countIdomainType
+R24189:24207 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+R24222:24227 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R24209:24220 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+def 24241:24259 CountRing.DecidableField join_countFieldType
+R24265:24274 mathcomp.algebra.countalg CountRing.Field Pack constr
+R24289:24294 mathcomp.algebra.countalg CountRing.DecidableField xclass syndef
+R24276:24287 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+R24302:24309 mathcomp.algebra.countalg CountRing.DecidableField.ClassDef <> sec
+mod 24320:24326 <> CountRing.DecidableField.Exports
+R24329:24386 mathcomp.algebra.countalg CountRing.DecidableField base proj
+R24389:24432 mathcomp.algebra.countalg CountRing.DecidableField base2 def
+R24435:24468 mathcomp.algebra.countalg CountRing.DecidableField sort proj
+R24504:24543 mathcomp.algebra.countalg CountRing.DecidableField eqType def
+R24564:24605 mathcomp.algebra.countalg CountRing.DecidableField choiceType def
+R24630:24673 mathcomp.algebra.countalg CountRing.DecidableField countType def
+R24697:24743 mathcomp.algebra.countalg CountRing.DecidableField zmodType def
+R24766:24811 mathcomp.algebra.countalg CountRing.DecidableField countZmodType def
+R24839:24882 mathcomp.algebra.countalg CountRing.DecidableField ringType def
+R24905:24947 mathcomp.algebra.countalg CountRing.DecidableField countRingType def
+R24975:25024 mathcomp.algebra.countalg CountRing.DecidableField comRingType def
+R25050:25098 mathcomp.algebra.countalg CountRing.DecidableField countComRingType def
+R25129:25180 mathcomp.algebra.countalg CountRing.DecidableField unitRingType def
+R25207:25257 mathcomp.algebra.countalg CountRing.DecidableField countUnitRingType def
+R25289:25346 mathcomp.algebra.countalg CountRing.DecidableField comUnitRingType def
+R25376:25432 mathcomp.algebra.countalg CountRing.DecidableField countComUnitRingType def
+R25467:25523 mathcomp.algebra.countalg CountRing.DecidableField idomainType def
+R25549:25604 mathcomp.algebra.countalg CountRing.DecidableField countIdomainType def
+R25635:25680 mathcomp.algebra.countalg CountRing.DecidableField fieldType def
+R25704:25748 mathcomp.algebra.countalg CountRing.DecidableField countFieldType def
+R25777:25834 mathcomp.algebra.countalg CountRing.DecidableField decFieldType def
+syndef 26124:26140 CountRing.DecidableField.Exports countDecFieldType
+R26145:26173 mathcomp.algebra.countalg CountRing.DecidableField type rec
+R26222:26228 mathcomp.algebra.countalg CountRing do_pack syndef
+R26230:26233 mathcomp.algebra.countalg CountRing.DecidableField pack def
+not 26185:26185 CountRing.DecidableField.Exports ::form_scope:'['_'countDecFieldType'_'of'_x_']'
+R26314:26320 mathcomp.algebra.countalg CountRing.DecidableField.Exports <> mod
+R26328:26341 mathcomp.algebra.countalg CountRing.DecidableField <> mod
+mod 26383:26393 <> CountRing.ClosedField
+sec 26405:26412 CountRing.ClosedField ClassDef
+constr 26439:26443 CountRing.ClosedField Class
+rec 26423:26430 CountRing.ClosedField class_of
+proj 26447:26450 CountRing.ClosedField base
+proj 26484:26488 CountRing.ClosedField mixin
+R26454:26479 mathcomp.algebra.ssralg GRing.ClosedField class_of rec
+R26481:26481 mathcomp.algebra.countalg <> R var
+R26492:26499 mathcomp.algebra.countalg CountRing mixin_of syndef
+R26501:26501 mathcomp.algebra.countalg <> R var
+def 26517:26521 CountRing.ClosedField base2
+R26530:26537 mathcomp.algebra.countalg CountRing.ClosedField class_of rec
+R26539:26539 mathcomp.algebra.countalg <> R var
+R26545:26564 mathcomp.algebra.countalg CountRing.DecidableField Class constr
+R26576:26580 mathcomp.algebra.countalg CountRing.ClosedField mixin proj
+R26582:26582 mathcomp.algebra.countalg <> c var
+R26567:26570 mathcomp.algebra.countalg CountRing.ClosedField base proj
+R26572:26572 mathcomp.algebra.countalg <> c var
+R26592:26646 mathcomp.algebra.countalg CountRing.ClosedField base proj
+R26655:26707 mathcomp.algebra.countalg CountRing.ClosedField base2 def
+constr 26729:26732 CountRing.ClosedField Pack
+rec 26721:26724 CountRing.ClosedField type
+proj 26735:26738 CountRing.ClosedField sort
+R26745:26752 mathcomp.algebra.countalg CountRing.ClosedField class_of rec
+R26754:26757 mathcomp.algebra.countalg <> sort meth
+R26767:26800 mathcomp.algebra.countalg CountRing.ClosedField sort proj
+def 26814:26817 CountRing.ClosedField pack
+R26822:26829 mathcomp.algebra.countalg CountRing gen_pack def
+R26842:26864 mathcomp.algebra.ssralg GRing.ClosedField class def
+R26836:26840 mathcomp.algebra.countalg CountRing.ClosedField Class constr
+R26831:26834 mathcomp.algebra.countalg CountRing.ClosedField Pack constr
+var 26876:26877 CountRing.ClosedField.ClassDef cT
+R26881:26884 mathcomp.algebra.countalg CountRing.ClosedField type rec
+def 26898:26902 CountRing.ClosedField class
+R26931:26932 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+R26941:26948 mathcomp.algebra.countalg CountRing.ClosedField class_of rec
+R26950:26952 mathcomp.algebra.countalg <> cT' var
+R26912:26915 mathcomp.algebra.countalg CountRing.ClosedField Pack constr
+var 26964:26965 CountRing.ClosedField.ClassDef xT
+R26987:26988 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+R26975:26978 mathcomp.algebra.countalg CountRing.ClosedField Pack constr
+syndef 27005:27010 CountRing.ClosedField xclass
+R27021:27023 Coq.ssr.ssreflect <> ::core_scope:x_':'_x not
+R27024:27031 mathcomp.algebra.countalg CountRing.ClosedField class_of rec
+R27033:27034 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.xT var
+R27016:27020 mathcomp.algebra.countalg CountRing.ClosedField class def
+def 27050:27055 CountRing.ClosedField eqType
+R27061:27073 mathcomp.ssreflect.eqtype Equality Pack constr
+R27078:27083 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27075:27076 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27097:27106 CountRing.ClosedField choiceType
+R27112:27122 mathcomp.ssreflect.choice Choice Pack constr
+R27127:27132 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27124:27125 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27146:27154 CountRing.ClosedField countType
+R27160:27173 mathcomp.ssreflect.choice Countable Pack constr
+R27179:27182 mathcomp.algebra.countalg CountRing cnt_ syndef
+R27184:27189 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27184:27189 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27175:27176 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27204:27211 CountRing.ClosedField zmodType
+R27217:27234 mathcomp.algebra.ssralg GRing.Zmodule Pack constr
+R27239:27244 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27236:27237 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27258:27270 CountRing.ClosedField countZmodType
+R27276:27287 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R27292:27297 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27289:27290 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27311:27318 CountRing.ClosedField ringType
+R27324:27338 mathcomp.algebra.ssralg GRing.Ring Pack constr
+R27343:27348 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27340:27341 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27362:27374 CountRing.ClosedField countRingType
+R27380:27388 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R27393:27398 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27390:27391 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27412:27422 CountRing.ClosedField comRingType
+R27428:27445 mathcomp.algebra.ssralg GRing.ComRing Pack constr
+R27450:27455 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27447:27448 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27469:27484 CountRing.ClosedField countComRingType
+R27490:27501 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R27506:27511 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27503:27504 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27525:27536 CountRing.ClosedField unitRingType
+R27542:27560 mathcomp.algebra.ssralg GRing.UnitRing Pack constr
+R27565:27570 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27562:27563 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27584:27600 CountRing.ClosedField countUnitRingType
+R27606:27618 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R27623:27628 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27620:27621 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27642:27656 CountRing.ClosedField comUnitRingType
+R27662:27683 mathcomp.algebra.ssralg GRing.ComUnitRing Pack constr
+R27688:27693 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27685:27686 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27707:27726 CountRing.ClosedField countComUnitRingType
+R27732:27747 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R27752:27757 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27749:27750 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27771:27781 CountRing.ClosedField idomainType
+R27787:27811 mathcomp.algebra.ssralg GRing.IntegralDomain Pack constr
+R27816:27821 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27813:27814 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27835:27850 CountRing.ClosedField countIdomainType
+R27856:27874 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+R27879:27884 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27876:27877 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27898:27906 CountRing.ClosedField fieldType
+R27912:27927 mathcomp.algebra.ssralg GRing.Field Pack constr
+R27932:27937 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27929:27930 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 27951:27964 CountRing.ClosedField countFieldType
+R27970:27979 mathcomp.algebra.countalg CountRing.Field Pack constr
+R27984:27989 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R27981:27982 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 28003:28014 CountRing.ClosedField decFieldType
+R28020:28044 mathcomp.algebra.ssralg GRing.DecidableField Pack constr
+R28049:28054 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28046:28047 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 28068:28084 CountRing.ClosedField countDecFieldType
+R28090:28108 mathcomp.algebra.countalg CountRing.DecidableField Pack constr
+R28113:28118 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28110:28111 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 28132:28146 CountRing.ClosedField closedFieldType
+R28152:28173 mathcomp.algebra.ssralg GRing.ClosedField Pack constr
+R28178:28183 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28175:28176 mathcomp.algebra.countalg <> CountRing.ClosedField.ClassDef.cT var
+def 28198:28211 CountRing.ClosedField join_countType
+R28217:28230 mathcomp.ssreflect.choice Countable Pack constr
+R28249:28252 mathcomp.algebra.countalg CountRing cnt_ syndef
+R28254:28259 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28254:28259 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28232:28246 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28274:28291 CountRing.ClosedField join_countZmodType
+R28297:28308 mathcomp.algebra.countalg CountRing.Zmodule Pack constr
+R28326:28331 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28310:28324 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28345:28362 CountRing.ClosedField join_countRingType
+R28368:28376 mathcomp.algebra.countalg CountRing.Ring Pack constr
+R28394:28399 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28378:28392 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28413:28434 CountRing.ClosedField join_countUnitRingType
+R28440:28452 mathcomp.algebra.countalg CountRing.UnitRing Pack constr
+R28470:28475 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28454:28468 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28489:28509 CountRing.ClosedField join_countComRingType
+R28515:28526 mathcomp.algebra.countalg CountRing.ComRing Pack constr
+R28544:28549 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28528:28542 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28563:28587 CountRing.ClosedField join_countComUnitRingType
+R28595:28610 mathcomp.algebra.countalg CountRing.ComUnitRing Pack constr
+R28628:28633 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28612:28626 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28647:28667 CountRing.ClosedField join_countIdomainType
+R28675:28693 mathcomp.algebra.countalg CountRing.IntegralDomain Pack constr
+R28711:28716 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28695:28709 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28730:28748 CountRing.ClosedField join_countFieldType
+R28754:28763 mathcomp.algebra.countalg CountRing.Field Pack constr
+R28781:28786 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28765:28779 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+def 28800:28821 CountRing.ClosedField join_countDecFieldType
+R28829:28847 mathcomp.algebra.countalg CountRing.DecidableField Pack constr
+R28865:28870 mathcomp.algebra.countalg CountRing.ClosedField xclass syndef
+R28849:28863 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+R28878:28885 mathcomp.algebra.countalg CountRing.ClosedField.ClassDef <> sec
+mod 28896:28902 <> CountRing.ClosedField.Exports
+R28905:28959 mathcomp.algebra.countalg CountRing.ClosedField base proj
+R28962:29014 mathcomp.algebra.countalg CountRing.ClosedField base2 def
+R29017:29050 mathcomp.algebra.countalg CountRing.ClosedField sort proj
+R29086:29125 mathcomp.algebra.countalg CountRing.ClosedField eqType def
+R29146:29187 mathcomp.algebra.countalg CountRing.ClosedField choiceType def
+R29212:29255 mathcomp.algebra.countalg CountRing.ClosedField countType def
+R29279:29325 mathcomp.algebra.countalg CountRing.ClosedField zmodType def
+R29348:29393 mathcomp.algebra.countalg CountRing.ClosedField countZmodType def
+R29421:29464 mathcomp.algebra.countalg CountRing.ClosedField ringType def
+R29487:29529 mathcomp.algebra.countalg CountRing.ClosedField countRingType def
+R29557:29606 mathcomp.algebra.countalg CountRing.ClosedField comRingType def
+R29632:29680 mathcomp.algebra.countalg CountRing.ClosedField countComRingType def
+R29711:29762 mathcomp.algebra.countalg CountRing.ClosedField unitRingType def
+R29789:29839 mathcomp.algebra.countalg CountRing.ClosedField countUnitRingType def
+R29871:29928 mathcomp.algebra.countalg CountRing.ClosedField comUnitRingType def
+R29958:30014 mathcomp.algebra.countalg CountRing.ClosedField countComUnitRingType def
+R30049:30105 mathcomp.algebra.countalg CountRing.ClosedField idomainType def
+R30131:30176 mathcomp.algebra.countalg CountRing.ClosedField fieldType def
+R30200:30244 mathcomp.algebra.countalg CountRing.ClosedField countFieldType def
+R30273:30330 mathcomp.algebra.countalg CountRing.ClosedField decFieldType def
+R30357:30413 mathcomp.algebra.countalg CountRing.ClosedField countDecFieldType def
+R30445:30502 mathcomp.algebra.countalg CountRing.ClosedField closedFieldType def
+syndef 30829:30848 CountRing.ClosedField.Exports countClosedFieldType
+R30853:30878 mathcomp.algebra.countalg CountRing.ClosedField type rec
+R30930:30936 mathcomp.algebra.countalg CountRing do_pack syndef
+R30938:30941 mathcomp.algebra.countalg CountRing.ClosedField pack def
+not 30890:30890 CountRing.ClosedField.Exports ::form_scope:'['_'countClosedFieldType'_'of'_x_']'
+R31025:31031 mathcomp.algebra.countalg CountRing.ClosedField.Exports <> mod
+R31039:31049 mathcomp.algebra.countalg CountRing.ClosedField <> mod
+R31085:31093 mathcomp.algebra.countalg CountRing <> mod

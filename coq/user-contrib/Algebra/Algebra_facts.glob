@@ -1,0 +1,203 @@
+DIGEST 8cbe05ab31f49d6ceb5bc091dba118d9
+FAlgebra.Algebra_facts
+R1118:1124 Algebra.Algebra <> <> lib
+R1142:1150 Algebra.Ring_util <> <> lib
+sec 1161:1166 <> Lemmas
+var 1178:1178 Lemmas R
+R1182:1186 Algebra.Ring_cat <> CRING def
+var 1198:1198 Lemmas A
+R1202:1208 Algebra.Algebra <> algebra rec
+R1210:1210 Algebra.Algebra_facts <> Lemmas.R var
+prf 1220:1231 <> ALGEBRA_comp
+R1255:1255 Algebra.Algebra_facts <> Lemmas.A var
+R1269:1272 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1283:1286 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1287:1291 Algebra.Sets <> Equal proj
+R1313:1324 Algebra.Algebra <> algebra_mult def
+R1329:1330 Algebra.Algebra_facts <> y' var
+R1326:1327 Algebra.Algebra_facts <> x' var
+R1294:1305 Algebra.Algebra <> algebra_mult def
+R1309:1309 Algebra.Algebra_facts <> y var
+R1307:1307 Algebra.Algebra_facts <> x var
+R1273:1277 Algebra.Sets <> Equal proj
+R1281:1282 Algebra.Algebra_facts <> y' var
+R1279:1279 Algebra.Algebra_facts <> y var
+R1259:1263 Algebra.Sets <> Equal proj
+R1267:1268 Algebra.Algebra_facts <> x' var
+R1265:1265 Algebra.Algebra_facts <> x var
+R1382:1393 Algebra.Algebra <> algebra_mult def
+R1410:1416 Algebra.Sets <> Ap_comp thm
+R1410:1416 Algebra.Sets <> Ap_comp thm
+R1446:1452 Algebra.Sets <> Ap_comp thm
+R1567:1586 Algebra.Algebra <> algebra_bilinear_map proj
+R1589:1602 Algebra.Algebra <> algebra_on_def proj
+R1604:1604 Algebra.Algebra_facts <> Lemmas.A var
+R1518:1537 Algebra.Algebra <> algebra_bilinear_map proj
+R1540:1553 Algebra.Algebra <> algebra_on_def proj
+R1555:1555 Algebra.Algebra_facts <> Lemmas.A var
+R1458:1467 Algebra.Hom_module <> Hom_module def
+R1490:1504 Algebra.Algebra <> algebra_carrier proj
+R1506:1506 Algebra.Algebra_facts <> Lemmas.A var
+R1470:1484 Algebra.Algebra <> algebra_carrier proj
+R1486:1486 Algebra.Algebra_facts <> Lemmas.A var
+R1446:1452 Algebra.Sets <> Ap_comp thm
+R1567:1586 Algebra.Algebra <> algebra_bilinear_map proj
+R1589:1602 Algebra.Algebra <> algebra_on_def proj
+R1604:1604 Algebra.Algebra_facts <> Lemmas.A var
+R1518:1537 Algebra.Algebra <> algebra_bilinear_map proj
+R1540:1553 Algebra.Algebra <> algebra_on_def proj
+R1555:1555 Algebra.Algebra_facts <> Lemmas.A var
+R1458:1467 Algebra.Hom_module <> Hom_module def
+R1490:1504 Algebra.Algebra <> algebra_carrier proj
+R1506:1506 Algebra.Algebra_facts <> Lemmas.A var
+R1470:1484 Algebra.Algebra <> algebra_carrier proj
+R1486:1486 Algebra.Algebra_facts <> Lemmas.A var
+prf 1644:1660 <> ALGEBRA_lin_right
+R1680:1680 Algebra.Algebra_facts <> Lemmas.A var
+R1684:1688 Algebra.Sets <> Equal proj
+R1730:1739 Algebra.Sgroup_cat <> sgroup_law def
+R1763:1774 Algebra.Algebra <> algebra_mult def
+R1778:1778 Algebra.Algebra_facts <> z var
+R1776:1776 Algebra.Algebra_facts <> x var
+R1744:1755 Algebra.Algebra <> algebra_mult def
+R1759:1759 Algebra.Algebra_facts <> y var
+R1757:1757 Algebra.Algebra_facts <> x var
+R1741:1741 Algebra.Algebra_facts <> Lemmas.A var
+R1691:1702 Algebra.Algebra <> algebra_mult def
+R1707:1716 Algebra.Sgroup_cat <> sgroup_law def
+R1722:1722 Algebra.Algebra_facts <> z var
+R1720:1720 Algebra.Algebra_facts <> y var
+R1718:1718 Algebra.Algebra_facts <> Lemmas.A var
+R1704:1704 Algebra.Algebra_facts <> x var
+R1820:1831 Algebra.Algebra <> algebra_mult def
+ax 1878:1893 <> ALGEBRA_lin_left
+R1916:1916 Algebra.Algebra_facts <> Lemmas.A var
+R1923:1927 Algebra.Sets <> Equal proj
+R1972:1981 Algebra.Sgroup_cat <> sgroup_law def
+R2005:2016 Algebra.Algebra <> algebra_mult def
+R2020:2020 Algebra.Algebra_facts <> z var
+R2018:2018 Algebra.Algebra_facts <> y var
+R1986:1997 Algebra.Algebra <> algebra_mult def
+R2001:2001 Algebra.Algebra_facts <> z var
+R1999:1999 Algebra.Algebra_facts <> x var
+R1983:1983 Algebra.Algebra_facts <> Lemmas.A var
+R1930:1941 Algebra.Algebra <> algebra_mult def
+R1962:1962 Algebra.Algebra_facts <> z var
+R1944:1953 Algebra.Sgroup_cat <> sgroup_law def
+R1959:1959 Algebra.Algebra_facts <> y var
+R1957:1957 Algebra.Algebra_facts <> x var
+R1955:1955 Algebra.Algebra_facts <> Lemmas.A var
+prf 2032:2053 <> ALGEBRA_mult_lin_right
+R2072:2072 Algebra.Algebra_facts <> Lemmas.A var
+R2080:2080 Algebra.Algebra_facts <> Lemmas.R var
+R2085:2089 Algebra.Sets <> Equal proj
+R2127:2137 Algebra.Module_cat <> module_mult def
+R2142:2153 Algebra.Algebra <> algebra_mult def
+R2157:2157 Algebra.Algebra_facts <> y var
+R2155:2155 Algebra.Algebra_facts <> x var
+R2139:2139 Algebra.Algebra_facts <> a var
+R2092:2103 Algebra.Algebra <> algebra_mult def
+R2108:2118 Algebra.Module_cat <> module_mult def
+R2122:2122 Algebra.Algebra_facts <> y var
+R2120:2120 Algebra.Algebra_facts <> a var
+R2105:2105 Algebra.Algebra_facts <> x var
+R2199:2210 Algebra.Algebra <> algebra_mult def
+ax 2257:2277 <> ALGEBRA_mult_lin_left
+R2299:2299 Algebra.Algebra_facts <> Lemmas.A var
+R2307:2307 Algebra.Algebra_facts <> Lemmas.R var
+R2315:2319 Algebra.Sets <> Equal proj
+R2363:2373 Algebra.Module_cat <> module_mult def
+R2378:2389 Algebra.Algebra <> algebra_mult def
+R2393:2393 Algebra.Algebra_facts <> y var
+R2391:2391 Algebra.Algebra_facts <> x var
+R2375:2375 Algebra.Algebra_facts <> a var
+R2322:2333 Algebra.Algebra <> algebra_mult def
+R2353:2353 Algebra.Algebra_facts <> y var
+R2336:2346 Algebra.Module_cat <> module_mult def
+R2350:2350 Algebra.Algebra_facts <> x var
+R2348:2348 Algebra.Algebra_facts <> a var
+R2402:2407 Algebra.Algebra_facts Lemmas <> sec
+sec 2536:2542 <> Lemmas2
+var 2554:2554 Lemmas2 R
+R2558:2562 Algebra.Ring_cat <> CRING def
+var 2574:2574 Lemmas2 A
+R2578:2589 Algebra.Algebra <> ring_algebra rec
+R2591:2591 Algebra.Algebra_facts <> Lemmas2.R var
+prf 2601:2618 <> RING_ALGEBRA_assoc
+R2638:2638 Algebra.Algebra_facts <> Lemmas2.A var
+R2642:2646 Algebra.Sets <> Equal proj
+R2688:2699 Algebra.Algebra <> algebra_mult def
+R2704:2715 Algebra.Algebra <> algebra_mult def
+R2719:2719 Algebra.Algebra_facts <> z var
+R2717:2717 Algebra.Algebra_facts <> y var
+R2701:2701 Algebra.Algebra_facts <> x var
+R2649:2660 Algebra.Algebra <> algebra_mult def
+R2681:2681 Algebra.Algebra_facts <> z var
+R2663:2674 Algebra.Algebra <> algebra_mult def
+R2678:2678 Algebra.Algebra_facts <> y var
+R2676:2676 Algebra.Algebra_facts <> x var
+R2731:2748 Algebra.Algebra <> ring_algebra_assoc proj
+R2750:2750 Algebra.Algebra_facts <> Lemmas2.A var
+R2731:2748 Algebra.Algebra <> ring_algebra_assoc proj
+R2750:2750 Algebra.Algebra_facts <> Lemmas2.A var
+prf 2766:2784 <> RING_ALGEBRA_unit_l
+R2800:2800 Algebra.Algebra_facts <> Lemmas2.A var
+R2803:2807 Algebra.Sets <> Equal proj
+R2848:2848 Algebra.Algebra_facts <> x var
+R2810:2821 Algebra.Algebra <> algebra_mult def
+R2845:2845 Algebra.Algebra_facts <> x var
+R2824:2840 Algebra.Algebra <> ring_algebra_unit proj
+R2842:2842 Algebra.Algebra_facts <> Lemmas2.A var
+R2858:2876 Algebra.Algebra <> ring_algebra_unit_l proj
+R2878:2878 Algebra.Algebra_facts <> Lemmas2.A var
+R2858:2876 Algebra.Algebra <> ring_algebra_unit_l proj
+R2878:2878 Algebra.Algebra_facts <> Lemmas2.A var
+prf 2894:2912 <> RING_ALGEBRA_unit_r
+R2928:2928 Algebra.Algebra_facts <> Lemmas2.A var
+R2931:2935 Algebra.Sets <> Equal proj
+R2976:2976 Algebra.Algebra_facts <> x var
+R2938:2949 Algebra.Algebra <> algebra_mult def
+R2954:2970 Algebra.Algebra <> ring_algebra_unit proj
+R2972:2972 Algebra.Algebra_facts <> Lemmas2.A var
+R2951:2951 Algebra.Algebra_facts <> x var
+R2986:3004 Algebra.Algebra <> ring_algebra_unit_r proj
+R3006:3006 Algebra.Algebra_facts <> Lemmas2.A var
+R2986:3004 Algebra.Algebra <> ring_algebra_unit_r proj
+R3006:3006 Algebra.Algebra_facts <> Lemmas2.A var
+R3019:3025 Algebra.Algebra_facts Lemmas2 <> sec
+sec 3120:3139 <> Ring_algebra_as_ring
+var 3151:3151 Ring_algebra_as_ring R
+R3155:3159 Algebra.Ring_cat <> CRING def
+var 3171:3171 Ring_algebra_as_ring A
+R3175:3186 Algebra.Algebra <> ring_algebra rec
+R3188:3188 Algebra.Algebra_facts <> Ring_algebra_as_ring.R var
+def 3203:3219 <> ring_algebra_ring
+R3223:3226 Algebra.Ring_cat <> ring rec
+R3237:3246 Algebra.Ring_util <> BUILD_RING def
+R3385:3397 Algebra.Group_cat <> group_inverse def
+R3399:3399 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3354:3370 Algebra.Algebra <> ring_algebra_unit proj
+R3372:3372 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3330:3340 Algebra.Monoid_cat <> monoid_unit proj
+R3342:3342 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3295:3306 Algebra.Algebra <> algebra_mult def
+R3319:3319 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3312:3312 Algebra.Algebra_facts <> Ring_algebra_as_ring.R var
+R3266:3275 Algebra.Sgroup_cat <> sgroup_law def
+R3277:3277 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3252:3252 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3237:3246 Algebra.Ring_util <> BUILD_RING def
+R3385:3397 Algebra.Group_cat <> group_inverse def
+R3399:3399 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3354:3370 Algebra.Algebra <> ring_algebra_unit proj
+R3372:3372 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3330:3340 Algebra.Monoid_cat <> monoid_unit proj
+R3342:3342 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3295:3306 Algebra.Algebra <> algebra_mult def
+R3319:3319 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3312:3312 Algebra.Algebra_facts <> Ring_algebra_as_ring.R var
+R3266:3275 Algebra.Sgroup_cat <> sgroup_law def
+R3277:3277 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3252:3252 Algebra.Algebra_facts <> Ring_algebra_as_ring.A var
+R3645:3664 Algebra.Algebra_facts Ring_algebra_as_ring <> sec
+R3667:3716 Algebra.Algebra_facts <> ring_algebra_ring def

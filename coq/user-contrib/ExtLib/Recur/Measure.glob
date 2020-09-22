@@ -1,0 +1,84 @@
+DIGEST 6da6bd9ce455b221526ae1d0bdb1998c
+FExtLib.Recur.Measure
+R15:41 Coq.Classes.RelationClasses <> <> lib
+R52:67 Coq.Arith.Wf_nat <> <> lib
+sec 125:134 <> parametric
+var 172:172 parametric f
+R177:180 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R181:181 ExtLib.Recur.Measure <> parametric.U var
+R176:176 ExtLib.Recur.Measure <> parametric.T var
+var 195:195 parametric R
+R200:203 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R205:208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R204:204 ExtLib.Recur.Measure <> parametric.U var
+R199:199 ExtLib.Recur.Measure <> parametric.U var
+var 228:241 parametric well_founded_R
+R245:256 Coq.Init.Wf <> well_founded def
+R258:258 ExtLib.Recur.Measure <> parametric.R var
+def 275:281 <> compose
+R290:290 ExtLib.Recur.Measure <> parametric.T var
+R307:307 ExtLib.Recur.Measure <> parametric.R var
+R316:316 ExtLib.Recur.Measure <> parametric.f var
+R318:318 ExtLib.Recur.Measure <> b var
+R310:310 ExtLib.Recur.Measure <> parametric.f var
+R312:312 ExtLib.Recur.Measure <> a var
+def 336:355 <> well_founded_compose
+R359:370 Coq.Init.Wf <> well_founded def
+R372:378 ExtLib.Recur.Measure <> compose def
+R406:408 Coq.Init.Wf <> Fix def
+R829:835 Coq.Init.Logic <> eq_refl constr
+R827:827 ExtLib.Recur.Measure <> t var
+R822:822 ExtLib.Recur.Measure <> parametric.f var
+R824:824 ExtLib.Recur.Measure <> t var
+R526:534 Coq.Init.Wf <> Acc_intro constr
+R563:563 ExtLib.Recur.Measure <> parametric.R var
+R573:573 ExtLib.Recur.Measure <> parametric.f var
+R575:575 ExtLib.Recur.Measure <> y var
+R566:566 ExtLib.Recur.Measure <> parametric.f var
+R568:569 ExtLib.Recur.Measure <> y' var
+R624:628 ExtLib.Recur.Measure <> recur var
+R798:804 Coq.Init.Logic <> eq_refl constr
+R638:639 ExtLib.Recur.Measure <> pf var
+R645:647 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R657:657 ExtLib.Recur.Measure <> parametric.R var
+R666:666 ExtLib.Recur.Measure <> t var
+R660:660 ExtLib.Recur.Measure <> parametric.f var
+R662:663 ExtLib.Recur.Measure <> y' var
+R727:733 Coq.Init.Logic <> eq_refl constr
+R738:740 ExtLib.Recur.Measure <> pf' var
+R546:546 ExtLib.Recur.Measure <> y var
+R538:544 ExtLib.Recur.Measure <> compose def
+R456:459 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R460:462 Coq.Init.Wf <> Acc ind
+R472:472 ExtLib.Recur.Measure <> y var
+R464:470 ExtLib.Recur.Measure <> compose def
+R452:454 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R449:449 ExtLib.Recur.Measure <> parametric.f var
+R451:451 ExtLib.Recur.Measure <> y var
+R455:455 ExtLib.Recur.Measure <> x var
+R414:427 ExtLib.Recur.Measure <> parametric.well_founded_R var
+R412:412 ExtLib.Recur.Measure <> parametric.R var
+R844:853 ExtLib.Recur.Measure parametric <> sec
+sec 925:931 <> measure
+var 967:967 measure m
+R972:975 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R976:978 Coq.Init.Datatypes <> nat ind
+R971:971 ExtLib.Recur.Measure <> measure.T var
+def 995:997 <> mlt
+R1002:1005 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1007:1010 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1006:1006 ExtLib.Recur.Measure <> measure.T var
+R1001:1001 ExtLib.Recur.Measure <> measure.T var
+R1023:1029 ExtLib.Recur.Measure <> compose def
+R1033:1034 Coq.Init.Peano <> lt def
+R1031:1031 ExtLib.Recur.Measure <> measure.m var
+def 1051:1066 <> well_founded_mlt
+R1070:1081 Coq.Init.Wf <> well_founded def
+R1083:1085 ExtLib.Recur.Measure <> mlt def
+R1095:1114 ExtLib.Recur.Measure <> well_founded_compose def
+R1127:1138 Coq.Arith.Wf_nat <> lt_wf thm
+R1124:1125 Coq.Init.Peano <> lt def
+R1122:1122 ExtLib.Recur.Measure <> measure.m var
+R1118:1120 Coq.Init.Datatypes <> nat ind
+R1116:1116 ExtLib.Recur.Measure <> measure.T var
+R1145:1151 ExtLib.Recur.Measure measure <> sec

@@ -1,0 +1,245 @@
+DIGEST dd17778cafa28fd084d104e002006fc1
+FSimpleIO.IO_Monad
+R83:92 Coq.extraction.Extraction <> <> lib
+R99:112 Coq.extraction.ExtrOcamlBasic <> <> lib
+R159:165 ExtLib.Structures.Functor <> <> lib
+R167:177 ExtLib.Structures.Applicative <> <> lib
+R179:183 ExtLib.Structures.Monad <> <> lib
+R185:192 ExtLib.Structures.MonadFix <> <> lib
+ax 324:325 <> IO
+R333:336 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+ax 564:570 <> io_unit
+mod 642:643 <> IO
+ax 678:680 IO ret
+R697:700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R701:702 SimpleIO.IO_Monad <> IO defax
+R704:704 SimpleIO.IO_Monad <> a var
+R696:696 SimpleIO.IO_Monad <> a var
+ax 717:720 IO bind
+R742:745 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R746:746 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R756:760 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R761:762 SimpleIO.IO_Monad <> IO defax
+R764:764 SimpleIO.IO_Monad <> b var
+R748:751 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R752:753 SimpleIO.IO_Monad <> IO defax
+R755:755 SimpleIO.IO_Monad <> b var
+R747:747 SimpleIO.IO_Monad <> a var
+R738:739 SimpleIO.IO_Monad <> IO defax
+R741:741 SimpleIO.IO_Monad <> a var
+ax 806:811 IO fix_io
+R833:833 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R860:864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R866:869 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R870:871 SimpleIO.IO_Monad <> IO defax
+R873:873 SimpleIO.IO_Monad <> b var
+R865:865 SimpleIO.IO_Monad <> a var
+R834:834 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R844:849 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R859:859 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R851:854 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R855:856 SimpleIO.IO_Monad <> IO defax
+R858:858 SimpleIO.IO_Monad <> b var
+R850:850 SimpleIO.IO_Monad <> a var
+R836:839 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R840:841 SimpleIO.IO_Monad <> IO defax
+R843:843 SimpleIO.IO_Monad <> b var
+R835:835 SimpleIO.IO_Monad <> a var
+ax 1115:1122 IO delay_io
+R1138:1138 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1151:1155 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1156:1157 SimpleIO.IO_Monad <> IO defax
+R1159:1159 SimpleIO.IO_Monad <> a var
+R1143:1146 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1147:1148 SimpleIO.IO_Monad <> IO defax
+R1150:1150 SimpleIO.IO_Monad <> a var
+R1139:1142 Coq.Init.Datatypes <> unit ind
+def 1231:1233 IO map
+R1243:1243 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1250:1254 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1259:1262 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1263:1264 SimpleIO.IO_Monad <> IO defax
+R1266:1266 SimpleIO.IO_Monad <> b var
+R1255:1256 SimpleIO.IO_Monad <> IO defax
+R1258:1258 SimpleIO.IO_Monad <> a var
+R1245:1248 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1249:1249 SimpleIO.IO_Monad <> b var
+R1244:1244 SimpleIO.IO_Monad <> a var
+R1284:1287 SimpleIO.IO_Monad IO bind defax
+R1301:1303 SimpleIO.IO_Monad IO ret defax
+R1306:1306 SimpleIO.IO_Monad <> f var
+R1308:1308 SimpleIO.IO_Monad <> a var
+R1289:1289 SimpleIO.IO_Monad <> m var
+def 1356:1359 IO loop
+R1380:1380 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1390:1395 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1408:1408 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1397:1400 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1401:1402 SimpleIO.IO_Monad <> IO defax
+R1404:1407 SimpleIO.IO_Monad <> void var
+R1396:1396 SimpleIO.IO_Monad <> a var
+R1382:1385 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1386:1387 SimpleIO.IO_Monad <> IO defax
+R1389:1389 SimpleIO.IO_Monad <> a var
+R1381:1381 SimpleIO.IO_Monad <> a var
+R1428:1433 SimpleIO.IO_Monad IO fix_io defax
+R1447:1450 SimpleIO.IO_Monad IO bind defax
+R1458:1458 SimpleIO.IO_Monad <> k var
+R1453:1453 SimpleIO.IO_Monad <> f var
+R1455:1455 SimpleIO.IO_Monad <> x var
+def 1526:1535 IO while_loop
+R1551:1551 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1570:1575 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1588:1588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1577:1580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1581:1582 SimpleIO.IO_Monad <> IO defax
+R1584:1587 Coq.Init.Datatypes <> unit ind
+R1576:1576 SimpleIO.IO_Monad <> a var
+R1553:1556 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1557:1558 SimpleIO.IO_Monad <> IO defax
+R1561:1566 Coq.Init.Datatypes <> option ind
+R1568:1568 SimpleIO.IO_Monad <> a var
+R1552:1552 SimpleIO.IO_Monad <> a var
+R1606:1611 SimpleIO.IO_Monad IO fix_io defax
+R1625:1628 SimpleIO.IO_Monad IO bind defax
+R1657:1658 SimpleIO.IO_Monad <> y' var
+R1671:1674 Coq.Init.Datatypes <> None constr
+R1679:1681 SimpleIO.IO_Monad IO ret defax
+R1683:1684 Coq.Init.Datatypes <> tt constr
+R1692:1695 Coq.Init.Datatypes <> Some constr
+R1702:1702 SimpleIO.IO_Monad <> k var
+R1631:1631 SimpleIO.IO_Monad <> f var
+R1633:1633 SimpleIO.IO_Monad <> x var
+mod 1746:1754 <> IO.Notations
+R1814:1817 SimpleIO.IO_Monad IO bind defax
+not 1800:1800 IO.Notations ::io_scope:x_'>>='_x
+R1894:1897 SimpleIO.IO_Monad IO bind defax
+not 1880:1880 IO.Notations ::io_scope:x_'=<<'_x
+R1981:1984 SimpleIO.IO_Monad IO bind defax
+not 1961:1961 IO.Notations ::io_scope:x_'<-'_x_';;'_x
+R2096:2099 SimpleIO.IO_Monad IO.Notations ::io_scope:x_'<-'_x_';;'_x not
+R2105:2108 SimpleIO.IO_Monad IO.Notations ::io_scope:x_'<-'_x_';;'_x not
+not 2080:2080 IO.Notations ::io_scope:x_';;'_x
+syndef 2177:2181 IO.Notations delay
+R2190:2197 SimpleIO.IO_Monad IO delay_io defax
+R2242:2250 SimpleIO.IO_Monad IO.Notations <> mod
+ax 2281:2291 IO fixpoint_io
+R2324:2326 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2312:2317 SimpleIO.IO_Monad IO fix_io defax
+R2323:2323 SimpleIO.IO_Monad <> f var
+R2321:2321 SimpleIO.IO_Monad <> b var
+R2319:2319 SimpleIO.IO_Monad <> a var
+R2327:2327 SimpleIO.IO_Monad <> f var
+R2330:2335 SimpleIO.IO_Monad IO fix_io defax
+R2337:2337 SimpleIO.IO_Monad <> f var
+ax 2371:2378 IO bind_ret
+R2402:2402 SimpleIO.IO_Monad <> a var
+R2411:2414 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2415:2416 SimpleIO.IO_Monad <> IO defax
+R2418:2418 SimpleIO.IO_Monad <> b var
+R2410:2410 SimpleIO.IO_Monad <> a var
+R2436:2438 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2422:2425 SimpleIO.IO_Monad IO bind defax
+R2435:2435 SimpleIO.IO_Monad <> k var
+R2428:2430 SimpleIO.IO_Monad IO ret defax
+R2432:2432 SimpleIO.IO_Monad <> x var
+R2439:2439 SimpleIO.IO_Monad <> k var
+R2441:2441 SimpleIO.IO_Monad <> x var
+ax 2450:2457 IO ret_bind
+R2477:2478 SimpleIO.IO_Monad <> IO defax
+R2480:2480 SimpleIO.IO_Monad <> a var
+R2494:2496 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2484:2487 SimpleIO.IO_Monad IO bind defax
+R2491:2493 SimpleIO.IO_Monad IO ret defax
+R2489:2489 SimpleIO.IO_Monad <> m var
+R2497:2497 SimpleIO.IO_Monad <> m var
+ax 2506:2514 IO bind_bind
+R2540:2541 SimpleIO.IO_Monad <> IO defax
+R2543:2543 SimpleIO.IO_Monad <> a var
+R2552:2555 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2556:2557 SimpleIO.IO_Monad <> IO defax
+R2559:2559 SimpleIO.IO_Monad <> b var
+R2551:2551 SimpleIO.IO_Monad <> a var
+R2568:2571 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2572:2573 SimpleIO.IO_Monad <> IO defax
+R2575:2575 SimpleIO.IO_Monad <> c var
+R2567:2567 SimpleIO.IO_Monad <> b var
+R2600:2602 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2583:2586 SimpleIO.IO_Monad IO bind defax
+R2599:2599 SimpleIO.IO_Monad <> h var
+R2589:2592 SimpleIO.IO_Monad IO bind defax
+R2596:2596 SimpleIO.IO_Monad <> k var
+R2594:2594 SimpleIO.IO_Monad <> m var
+R2603:2606 SimpleIO.IO_Monad IO bind defax
+R2620:2623 SimpleIO.IO_Monad IO bind defax
+R2631:2631 SimpleIO.IO_Monad <> h var
+R2626:2626 SimpleIO.IO_Monad <> k var
+R2628:2628 SimpleIO.IO_Monad <> x var
+R2608:2608 SimpleIO.IO_Monad <> m var
+ax 2641:2648 IO bind_ext
+R2670:2671 SimpleIO.IO_Monad <> IO defax
+R2673:2673 SimpleIO.IO_Monad <> a var
+R2685:2688 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2689:2690 SimpleIO.IO_Monad <> IO defax
+R2692:2692 SimpleIO.IO_Monad <> b var
+R2684:2684 SimpleIO.IO_Monad <> a var
+R2700:2700 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2721:2725 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2734:2736 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2726:2729 SimpleIO.IO_Monad IO bind defax
+R2733:2733 SimpleIO.IO_Monad <> k var
+R2731:2731 SimpleIO.IO_Monad <> m var
+R2737:2740 SimpleIO.IO_Monad IO bind defax
+R2744:2745 SimpleIO.IO_Monad <> k' var
+R2742:2742 SimpleIO.IO_Monad <> m var
+R2714:2716 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R2711:2711 SimpleIO.IO_Monad <> k var
+R2713:2713 SimpleIO.IO_Monad <> x var
+R2717:2718 SimpleIO.IO_Monad <> k' var
+R2720:2720 SimpleIO.IO_Monad <> x var
+ax 2923:2932 IO unsafe_run
+R2943:2946 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2947:2953 SimpleIO.IO_Monad <> io_unit defax
+R2936:2937 SimpleIO.IO_Monad <> IO defax
+R2939:2942 Coq.Init.Datatypes <> unit ind
+ax 3013:3023 IO unsafe_run'
+R3043:3046 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3047:3053 SimpleIO.IO_Monad <> io_unit defax
+R3039:3040 SimpleIO.IO_Monad <> IO defax
+R3042:3042 SimpleIO.IO_Monad <> a var
+ax 3170:3185 IO very_unsafe_eval
+R3205:3208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3209:3209 SimpleIO.IO_Monad <> a var
+R3201:3202 SimpleIO.IO_Monad <> IO defax
+R3204:3204 SimpleIO.IO_Monad <> a var
+R3861:3862 SimpleIO.IO_Monad IO <> mod
+inst 3895:3904 <> Functor_IO
+R3908:3914 ExtLib.Structures.Functor <> Functor class
+R3916:3917 SimpleIO.IO_Monad <> IO defax
+R3926:3929 ExtLib.Structures.Functor <> fmap meth
+R3938:3943 SimpleIO.IO_Monad <> map def
+inst 3959:3972 <> Applicative_IO
+R3976:3986 ExtLib.Structures.Applicative <> Applicative class
+R3988:3989 SimpleIO.IO_Monad <> IO defax
+R4018:4019 ExtLib.Structures.Applicative <> ap meth
+R3998:4001 ExtLib.Structures.Applicative <> pure meth
+R4008:4013 SimpleIO.IO_Monad <> ret defax
+R4040:4046 SimpleIO.IO_Monad <> bind defax
+R4066:4072 SimpleIO.IO_Monad <> bind defax
+R4092:4097 SimpleIO.IO_Monad <> ret defax
+R4100:4100 SimpleIO.IO_Monad <> f var
+R4102:4102 SimpleIO.IO_Monad <> x var
+R4074:4076 SimpleIO.IO_Monad <> iox var
+R4048:4050 SimpleIO.IO_Monad <> iof var
+inst 4121:4128 <> Monad_IO
+R4132:4136 ExtLib.Structures.Monad <> Monad class
+R4138:4139 SimpleIO.IO_Monad <> IO defax
+R4167:4170 ExtLib.Structures.Monad <> bind meth
+R4148:4150 ExtLib.Structures.Monad <> ret meth
+R4157:4162 SimpleIO.IO_Monad <> ret defax
+R4179:4185 SimpleIO.IO_Monad <> bind defax
+inst 4201:4211 <> MonadFix_IO
+R4215:4222 ExtLib.Structures.MonadFix <> MonadFix class
+R4224:4225 SimpleIO.IO_Monad <> IO defax
+R4234:4237 ExtLib.Structures.MonadFix <> mfix meth
+R4246:4254 SimpleIO.IO_Monad <> fix_io defax

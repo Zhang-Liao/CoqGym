@@ -1,0 +1,639 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 729} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 12; Loc.bol_pos = 730; Loc.line_nb_last = 12; Loc.bol_pos_last = 730; Loc.bp = 730; Loc.ep = 753} **)
+(**VERNAC_TYPE** VernacSetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 13; Loc.bol_pos = 754; Loc.line_nb_last = 13; Loc.bol_pos_last = 754; Loc.bp = 754; Loc.ep = 776} **)
+(**VERNAC_TYPE** VernacUnsetOption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 19; Loc.bol_pos = 858; Loc.line_nb_last = 19; Loc.bol_pos_last = 858; Loc.bp = 858; Loc.ep = 891} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 20; Loc.bol_pos = 892; Loc.line_nb_last = 20; Loc.bol_pos_last = 892; Loc.bp = 894; Loc.ep = 935} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 21; Loc.bol_pos = 936; Loc.line_nb_last = 21; Loc.bol_pos_last = 936; Loc.bp = 936; Loc.ep = 946} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 23; Loc.bol_pos = 948; Loc.line_nb_last = 23; Loc.bol_pos_last = 948; Loc.bp = 948; Loc.ep = 981} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 24; Loc.bol_pos = 982; Loc.line_nb_last = 24; Loc.bol_pos_last = 982; Loc.bp = 984; Loc.ep = 1025} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 25; Loc.bol_pos = 1026; Loc.line_nb_last = 25; Loc.bol_pos_last = 1026; Loc.bp = 1026; Loc.ep = 1036} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 27; Loc.bol_pos = 1038; Loc.line_nb_last = 27; Loc.bol_pos_last = 1038; Loc.bp = 1038; Loc.ep = 1080} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 28; Loc.bol_pos = 1081; Loc.line_nb_last = 28; Loc.bol_pos_last = 1081; Loc.bp = 1081; Loc.ep = 1123} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 29; Loc.bol_pos = 1124; Loc.line_nb_last = 29; Loc.bol_pos_last = 1124; Loc.bp = 1124; Loc.ep = 1177} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 33; Loc.bol_pos = 1216; Loc.line_nb_last = 33; Loc.bol_pos_last = 1216; Loc.bp = 1216; Loc.ep = 1248} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 34; Loc.bol_pos = 1249; Loc.line_nb_last = 34; Loc.bol_pos_last = 1249; Loc.bp = 1251; Loc.ep = 1269} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 35; Loc.bol_pos = 1270; Loc.line_nb_last = 35; Loc.bol_pos_last = 1270; Loc.bp = 1272; Loc.ep = 1313} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 36; Loc.bol_pos = 1314; Loc.line_nb_last = 36; Loc.bol_pos_last = 1314; Loc.bp = 1316; Loc.ep = 1353} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 37; Loc.bol_pos = 1354; Loc.line_nb_last = 37; Loc.bol_pos_last = 1354; Loc.bp = 1354; Loc.ep = 1369} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 39; Loc.bol_pos = 1371; Loc.line_nb_last = 39; Loc.bol_pos_last = 1371; Loc.bp = 1371; Loc.ep = 1403} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 40; Loc.bol_pos = 1404; Loc.line_nb_last = 40; Loc.bol_pos_last = 1404; Loc.bp = 1406; Loc.ep = 1425} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 41; Loc.bol_pos = 1426; Loc.line_nb_last = 41; Loc.bol_pos_last = 1426; Loc.bp = 1428; Loc.ep = 1471} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 42; Loc.bol_pos = 1472; Loc.line_nb_last = 42; Loc.bol_pos_last = 1472; Loc.bp = 1474; Loc.ep = 1515} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 43; Loc.bol_pos = 1516; Loc.line_nb_last = 43; Loc.bol_pos_last = 1516; Loc.bp = 1516; Loc.ep = 1531} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 45; Loc.bol_pos = 1533; Loc.line_nb_last = 45; Loc.bol_pos_last = 1533; Loc.bp = 1533; Loc.ep = 1569} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 46; Loc.bol_pos = 1570; Loc.line_nb_last = 46; Loc.bol_pos_last = 1570; Loc.bp = 1572; Loc.ep = 1609} **)
+(**VERNAC_TYPE** VernacInclude **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 47; Loc.bol_pos = 1610; Loc.line_nb_last = 47; Loc.bol_pos_last = 1610; Loc.bp = 1612; Loc.ep = 1651} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 48; Loc.bol_pos = 1652; Loc.line_nb_last = 48; Loc.bol_pos_last = 1652; Loc.bp = 1654; Loc.ep = 1693} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 49; Loc.bol_pos = 1694; Loc.line_nb_last = 49; Loc.bol_pos_last = 1694; Loc.bp = 1694; Loc.ep = 1711} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 51; Loc.bol_pos = 1713; Loc.line_nb_last = 51; Loc.bol_pos_last = 1713; Loc.bp = 1713; Loc.ep = 1779} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 52; Loc.bol_pos = 1780; Loc.line_nb_last = 52; Loc.bol_pos_last = 1780; Loc.bp = 1780; Loc.ep = 1846} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 53; Loc.bol_pos = 1847; Loc.line_nb_last = 53; Loc.bol_pos_last = 1847; Loc.bp = 1847; Loc.ep = 1919} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 55; Loc.bol_pos = 1921; Loc.line_nb_last = 55; Loc.bol_pos_last = 1921; Loc.bp = 1921; Loc.ep = 1963} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 56; Loc.bol_pos = 1964; Loc.line_nb_last = 56; Loc.bol_pos_last = 1964; Loc.bp = 1964; Loc.ep = 2006} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 57; Loc.bol_pos = 2007; Loc.line_nb_last = 57; Loc.bol_pos_last = 2007; Loc.bp = 2007; Loc.ep = 2055} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 61; Loc.bol_pos = 2102; Loc.line_nb_last = 61; Loc.bol_pos_last = 2102; Loc.bp = 2102; Loc.ep = 2141} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 62; Loc.bol_pos = 2142; Loc.line_nb_last = 62; Loc.bol_pos_last = 2142; Loc.bp = 2144; Loc.ep = 2190} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 63; Loc.bol_pos = 2191; Loc.line_nb_last = 63; Loc.bol_pos_last = 2191; Loc.bp = 2193; Loc.ep = 2248} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 64; Loc.bol_pos = 2249; Loc.line_nb_last = 64; Loc.bol_pos_last = 2249; Loc.bp = 2249; Loc.ep = 2264} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 66; Loc.bol_pos = 2266; Loc.line_nb_last = 66; Loc.bol_pos_last = 2266; Loc.bp = 2266; Loc.ep = 2306} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 67; Loc.bol_pos = 2307; Loc.line_nb_last = 67; Loc.bol_pos_last = 2307; Loc.bp = 2309; Loc.ep = 2358} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 68; Loc.bol_pos = 2359; Loc.line_nb_last = 68; Loc.bol_pos_last = 2359; Loc.bp = 2359; Loc.ep = 2372} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 70; Loc.bol_pos = 2374; Loc.line_nb_last = 70; Loc.bol_pos_last = 2374; Loc.bp = 2374; Loc.ep = 2434} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 71; Loc.bol_pos = 2435; Loc.line_nb_last = 71; Loc.bol_pos_last = 2435; Loc.bp = 2435; Loc.ep = 2485} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 75; Loc.bol_pos = 2540; Loc.line_nb_last = 75; Loc.bol_pos_last = 2540; Loc.bp = 2540; Loc.ep = 2574} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 76; Loc.bol_pos = 2575; Loc.line_nb_last = 76; Loc.bol_pos_last = 2575; Loc.bp = 2577; Loc.ep = 2625} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 77; Loc.bol_pos = 2626; Loc.line_nb_last = 77; Loc.bol_pos_last = 2626; Loc.bp = 2626; Loc.ep = 2637} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 79; Loc.bol_pos = 2639; Loc.line_nb_last = 79; Loc.bol_pos_last = 2639; Loc.bp = 2639; Loc.ep = 2683} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 80; Loc.bol_pos = 2684; Loc.line_nb_last = 80; Loc.bol_pos_last = 2684; Loc.bp = 2686; Loc.ep = 2742} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 81; Loc.bol_pos = 2743; Loc.line_nb_last = 81; Loc.bol_pos_last = 2743; Loc.bp = 2743; Loc.ep = 2759} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 83; Loc.bol_pos = 2761; Loc.line_nb_last = 83; Loc.bol_pos_last = 2761; Loc.bp = 2761; Loc.ep = 2817} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 84; Loc.bol_pos = 2818; Loc.line_nb_last = 84; Loc.bol_pos_last = 2818; Loc.bp = 2820; Loc.ep = 2898} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 85; Loc.bol_pos = 2899; Loc.line_nb_last = 85; Loc.bol_pos_last = 2899; Loc.bp = 2899; Loc.ep = 2911} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 87; Loc.bol_pos = 2913; Loc.line_nb_last = 87; Loc.bol_pos_last = 2913; Loc.bp = 2913; Loc.ep = 2970} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 89; Loc.bol_pos = 2972; Loc.line_nb_last = 89; Loc.bol_pos_last = 2972; Loc.bp = 2972; Loc.ep = 3022} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 90; Loc.bol_pos = 3023; Loc.line_nb_last = 90; Loc.bol_pos_last = 3023; Loc.bp = 3023; Loc.ep = 3094} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 92; Loc.bol_pos = 3096; Loc.line_nb_last = 92; Loc.bol_pos_last = 3096; Loc.bp = 3096; Loc.ep = 3164} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 93; Loc.bol_pos = 3165; Loc.line_nb_last = 93; Loc.bol_pos_last = 3165; Loc.bp = 3165; Loc.ep = 3236} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 95; Loc.bol_pos = 3238; Loc.line_nb_last = 95; Loc.bol_pos_last = 3238; Loc.bp = 3238; Loc.ep = 3302} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 96; Loc.bol_pos = 3303; Loc.line_nb_last = 97; Loc.bol_pos_last = 3335; Loc.bp = 3303; Loc.ep = 3385} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 105; Loc.bol_pos = 3620; Loc.line_nb_last = 105; Loc.bol_pos_last = 3620; Loc.bp = 3620; Loc.ep = 3690} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 106; Loc.bol_pos = 3691; Loc.line_nb_last = 106; Loc.bol_pos_last = 3691; Loc.bp = 3691; Loc.ep = 3751} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 107; Loc.bol_pos = 3752; Loc.line_nb_last = 108; Loc.bol_pos_last = 3818; Loc.bp = 3752; Loc.ep = 3851} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 109; Loc.bol_pos = 3852; Loc.line_nb_last = 109; Loc.bol_pos_last = 3852; Loc.bp = 3852; Loc.ep = 3926} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 115; Loc.bol_pos = 4067; Loc.line_nb_last = 115; Loc.bol_pos_last = 4067; Loc.bp = 4067; Loc.ep = 4125} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 116; Loc.bol_pos = 4126; Loc.line_nb_last = 116; Loc.bol_pos_last = 4126; Loc.bp = 4126; Loc.ep = 4190} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 117; Loc.bol_pos = 4191; Loc.line_nb_last = 117; Loc.bol_pos_last = 4191; Loc.bp = 4191; Loc.ep = 4255} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 118; Loc.bol_pos = 4256; Loc.line_nb_last = 118; Loc.bol_pos_last = 4256; Loc.bp = 4256; Loc.ep = 4330} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 122; Loc.bol_pos = 4366; Loc.line_nb_last = 122; Loc.bol_pos_last = 4366; Loc.bp = 4366; Loc.ep = 4405} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 123; Loc.bol_pos = 4406; Loc.line_nb_last = 123; Loc.bol_pos_last = 4406; Loc.bp = 4408; Loc.ep = 4456} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 124; Loc.bol_pos = 4457; Loc.line_nb_last = 124; Loc.bol_pos_last = 4457; Loc.bp = 4457; Loc.ep = 4471} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 126; Loc.bol_pos = 4473; Loc.line_nb_last = 126; Loc.bol_pos_last = 4473; Loc.bp = 4473; Loc.ep = 4542} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 127; Loc.bol_pos = 4543; Loc.line_nb_last = 128; Loc.bol_pos_last = 4585; Loc.bp = 4543; Loc.ep = 4637} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 130; Loc.bol_pos = 4639; Loc.line_nb_last = 130; Loc.bol_pos_last = 4639; Loc.bp = 4639; Loc.ep = 4695} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 131; Loc.bol_pos = 4696; Loc.line_nb_last = 131; Loc.bol_pos_last = 4696; Loc.bp = 4696; Loc.ep = 4760} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 137; Loc.bol_pos = 4835; Loc.line_nb_last = 137; Loc.bol_pos_last = 4835; Loc.bp = 4835; Loc.ep = 4896} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 139; Loc.bol_pos = 4898; Loc.line_nb_last = 140; Loc.bol_pos_last = 4921; Loc.bp = 4899; Loc.ep = 4975} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 142; Loc.bol_pos = 4977; Loc.line_nb_last = 142; Loc.bol_pos_last = 4977; Loc.bp = 4978; Loc.ep = 5029} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 143; Loc.bol_pos = 5030; Loc.line_nb_last = 143; Loc.bol_pos_last = 5030; Loc.bp = 5031; Loc.ep = 5037} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 144; Loc.bol_pos = 5038; Loc.line_nb_last = 144; Loc.bol_pos_last = 5038; Loc.bp = 5039; Loc.ep = 5050} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 144; Loc.bol_pos = 5038; Loc.line_nb_last = 144; Loc.bol_pos_last = 5038; Loc.bp = 5051; Loc.ep = 5062} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 145; Loc.bol_pos = 5063; Loc.line_nb_last = 145; Loc.bol_pos_last = 5063; Loc.bp = 5064; Loc.ep = 5134} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 146; Loc.bol_pos = 5135; Loc.line_nb_last = 146; Loc.bol_pos_last = 5135; Loc.bp = 5136; Loc.ep = 5199} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 147; Loc.bol_pos = 5200; Loc.line_nb_last = 147; Loc.bol_pos_last = 5200; Loc.bp = 5201; Loc.ep = 5264} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 148; Loc.bol_pos = 5265; Loc.line_nb_last = 148; Loc.bol_pos_last = 5265; Loc.bp = 5266; Loc.ep = 5270} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eqb_eq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 150; Loc.bol_pos = 5272; Loc.line_nb_last = 150; Loc.bol_pos_last = 5272; Loc.bp = 5272; Loc.ep = 5291} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 152; Loc.bol_pos = 5293; Loc.line_nb_last = 153; Loc.bol_pos_last = 5344; Loc.bp = 5293; Loc.ep = 5383} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 157; Loc.bol_pos = 5447; Loc.line_nb_last = 157; Loc.bol_pos_last = 5447; Loc.bp = 5447; Loc.ep = 5501} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 158; Loc.bol_pos = 5502; Loc.line_nb_last = 158; Loc.bol_pos_last = 5502; Loc.bp = 5503; Loc.ep = 5513} **)
+(**VERNAC_TYPE** VernacInclude **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 159; Loc.bol_pos = 5514; Loc.line_nb_last = 159; Loc.bol_pos_last = 5514; Loc.bp = 5515; Loc.ep = 5548} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 160; Loc.bol_pos = 5549; Loc.line_nb_last = 160; Loc.bol_pos_last = 5549; Loc.bp = 5550; Loc.ep = 5601} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 161; Loc.bol_pos = 5602; Loc.line_nb_last = 161; Loc.bol_pos_last = 5602; Loc.bp = 5603; Loc.ep = 5609} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 161; Loc.bol_pos = 5602; Loc.line_nb_last = 161; Loc.bol_pos_last = 5602; Loc.bp = 5610; Loc.ep = 5633} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 161; Loc.bol_pos = 5602; Loc.line_nb_last = 161; Loc.bol_pos_last = 5602; Loc.bp = 5634; Loc.ep = 5638} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** le_lteq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 162; Loc.bol_pos = 5639; Loc.line_nb_last = 162; Loc.bol_pos_last = 5639; Loc.bp = 5639; Loc.ep = 5654} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 166; Loc.bol_pos = 5703; Loc.line_nb_last = 166; Loc.bol_pos_last = 5703; Loc.bp = 5703; Loc.ep = 5767} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 167; Loc.bol_pos = 5768; Loc.line_nb_last = 167; Loc.bol_pos_last = 5768; Loc.bp = 5769; Loc.ep = 5817} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 168; Loc.bol_pos = 5818; Loc.line_nb_last = 168; Loc.bol_pos_last = 5818; Loc.bp = 5819; Loc.ep = 5825} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 168; Loc.bol_pos = 5818; Loc.line_nb_last = 168; Loc.bol_pos_last = 5818; Loc.bp = 5826; Loc.ep = 5868} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 168; Loc.bol_pos = 5818; Loc.line_nb_last = 168; Loc.bol_pos_last = 5818; Loc.bp = 5869; Loc.ep = 5873} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_total **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 169; Loc.bol_pos = 5874; Loc.line_nb_last = 169; Loc.bol_pos_last = 5874; Loc.bp = 5874; Loc.ep = 5892} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 171; Loc.bol_pos = 5894; Loc.line_nb_last = 172; Loc.bol_pos_last = 5953; Loc.bp = 5894; Loc.ep = 5976} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 183; Loc.bol_pos = 6156; Loc.line_nb_last = 183; Loc.bol_pos_last = 6156; Loc.bp = 6156; Loc.ep = 6200} **)
+(**VERNAC_TYPE** VernacCoercion **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 184; Loc.bol_pos = 6201; Loc.line_nb_last = 184; Loc.bol_pos_last = 6201; Loc.bp = 6201; Loc.ep = 6221} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 186; Loc.bol_pos = 6223; Loc.line_nb_last = 186; Loc.bol_pos_last = 6223; Loc.bp = 6223; Loc.ep = 6257} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 187; Loc.bol_pos = 6258; Loc.line_nb_last = 187; Loc.bol_pos_last = 6258; Loc.bp = 6259; Loc.ep = 6297} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 188; Loc.bol_pos = 6298; Loc.line_nb_last = 188; Loc.bol_pos_last = 6298; Loc.bp = 6298; Loc.ep = 6309} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 190; Loc.bol_pos = 6311; Loc.line_nb_last = 190; Loc.bol_pos_last = 6311; Loc.bp = 6311; Loc.ep = 6345} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 191; Loc.bol_pos = 6346; Loc.line_nb_last = 191; Loc.bol_pos_last = 6346; Loc.bp = 6347; Loc.ep = 6385} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 192; Loc.bol_pos = 6386; Loc.line_nb_last = 192; Loc.bol_pos_last = 6386; Loc.bp = 6386; Loc.ep = 6397} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 194; Loc.bol_pos = 6399; Loc.line_nb_last = 194; Loc.bol_pos_last = 6399; Loc.bp = 6399; Loc.ep = 6443} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 195; Loc.bol_pos = 6444; Loc.line_nb_last = 195; Loc.bol_pos_last = 6444; Loc.bp = 6445; Loc.ep = 6480} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 196; Loc.bol_pos = 6481; Loc.line_nb_last = 196; Loc.bol_pos_last = 6481; Loc.bp = 6481; Loc.ep = 6497} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 198; Loc.bol_pos = 6499; Loc.line_nb_last = 198; Loc.bol_pos_last = 6499; Loc.bp = 6499; Loc.ep = 6543} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 199; Loc.bol_pos = 6544; Loc.line_nb_last = 199; Loc.bol_pos_last = 6544; Loc.bp = 6545; Loc.ep = 6579} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 200; Loc.bol_pos = 6580; Loc.line_nb_last = 200; Loc.bol_pos_last = 6580; Loc.bp = 6580; Loc.ep = 6596} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 202; Loc.bol_pos = 6598; Loc.line_nb_last = 202; Loc.bol_pos_last = 6598; Loc.bp = 6598; Loc.ep = 6649} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 203; Loc.bol_pos = 6650; Loc.line_nb_last = 203; Loc.bol_pos_last = 6650; Loc.bp = 6651; Loc.ep = 6712} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 204; Loc.bol_pos = 6713; Loc.line_nb_last = 204; Loc.bol_pos_last = 6713; Loc.bp = 6713; Loc.ep = 6725} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 206; Loc.bol_pos = 6727; Loc.line_nb_last = 206; Loc.bol_pos_last = 6727; Loc.bp = 6727; Loc.ep = 6778} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 207; Loc.bol_pos = 6779; Loc.line_nb_last = 207; Loc.bol_pos_last = 6779; Loc.bp = 6780; Loc.ep = 6841} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 208; Loc.bol_pos = 6842; Loc.line_nb_last = 208; Loc.bol_pos_last = 6842; Loc.bp = 6842; Loc.ep = 6854} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 210; Loc.bol_pos = 6856; Loc.line_nb_last = 210; Loc.bol_pos_last = 6856; Loc.bp = 6856; Loc.ep = 6892} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 211; Loc.bol_pos = 6893; Loc.line_nb_last = 211; Loc.bol_pos_last = 6893; Loc.bp = 6893; Loc.ep = 6929} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 212; Loc.bol_pos = 6930; Loc.line_nb_last = 212; Loc.bol_pos_last = 6930; Loc.bp = 6930; Loc.ep = 6975} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 213; Loc.bol_pos = 6976; Loc.line_nb_last = 213; Loc.bol_pos_last = 6976; Loc.bp = 6976; Loc.ep = 7021} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 215; Loc.bol_pos = 7023; Loc.line_nb_last = 215; Loc.bol_pos_last = 7023; Loc.bp = 7023; Loc.ep = 7065} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 216; Loc.bol_pos = 7066; Loc.line_nb_last = 216; Loc.bol_pos_last = 7066; Loc.bp = 7067; Loc.ep = 7134} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 217; Loc.bol_pos = 7135; Loc.line_nb_last = 217; Loc.bol_pos_last = 7135; Loc.bp = 7135; Loc.ep = 7150} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 219; Loc.bol_pos = 7152; Loc.line_nb_last = 219; Loc.bol_pos_last = 7152; Loc.bp = 7152; Loc.ep = 7200} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 220; Loc.bol_pos = 7201; Loc.line_nb_last = 220; Loc.bol_pos_last = 7201; Loc.bp = 7201; Loc.ep = 7251} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 222; Loc.bol_pos = 7253; Loc.line_nb_last = 222; Loc.bol_pos_last = 7253; Loc.bp = 7253; Loc.ep = 7300} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 223; Loc.bol_pos = 7301; Loc.line_nb_last = 223; Loc.bol_pos_last = 7301; Loc.bp = 7302; Loc.ep = 7337} **)
+(**VERNAC_TYPE** VernacAssumption **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 224; Loc.bol_pos = 7338; Loc.line_nb_last = 224; Loc.bol_pos_last = 7338; Loc.bp = 7338; Loc.ep = 7358} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 226; Loc.bol_pos = 7360; Loc.line_nb_last = 226; Loc.bol_pos_last = 7360; Loc.bp = 7360; Loc.ep = 7428} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 227; Loc.bol_pos = 7429; Loc.line_nb_last = 227; Loc.bol_pos_last = 7429; Loc.bp = 7429; Loc.ep = 7499} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 231; Loc.bol_pos = 7551; Loc.line_nb_last = 231; Loc.bol_pos_last = 7551; Loc.bp = 7551; Loc.ep = 7622} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 233; Loc.bol_pos = 7624; Loc.line_nb_last = 234; Loc.bol_pos_last = 7663; Loc.bp = 7624; Loc.ep = 7732} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 236; Loc.bol_pos = 7734; Loc.line_nb_last = 237; Loc.bol_pos_last = 7793; Loc.bp = 7734; Loc.ep = 7842} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 239; Loc.bol_pos = 7844; Loc.line_nb_last = 240; Loc.bol_pos_last = 7885; Loc.bp = 7844; Loc.ep = 7938} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 241; Loc.bol_pos = 7939; Loc.line_nb_last = 242; Loc.bol_pos_last = 7981; Loc.bp = 7939; Loc.ep = 8052} **)
+(**VERNAC_TYPE** VernacDeclareModuleType **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 246; Loc.bol_pos = 8114; Loc.line_nb_last = 246; Loc.bol_pos_last = 8114; Loc.bp = 8114; Loc.ep = 8188} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 248; Loc.bol_pos = 8190; Loc.line_nb_last = 249; Loc.bol_pos_last = 8213; Loc.bp = 8191; Loc.ep = 8266} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 251; Loc.bol_pos = 8268; Loc.line_nb_last = 251; Loc.bol_pos_last = 8268; Loc.bp = 8269; Loc.ep = 8315} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 252; Loc.bol_pos = 8316; Loc.line_nb_last = 252; Loc.bol_pos_last = 8316; Loc.bp = 8317; Loc.ep = 8323} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 253; Loc.bol_pos = 8324; Loc.line_nb_last = 253; Loc.bol_pos_last = 8324; Loc.bp = 8325; Loc.ep = 8332} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 253; Loc.bol_pos = 8324; Loc.line_nb_last = 253; Loc.bol_pos_last = 8324; Loc.bp = 8333; Loc.ep = 8344} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 253; Loc.bol_pos = 8324; Loc.line_nb_last = 253; Loc.bol_pos_last = 8324; Loc.bp = 8345; Loc.ep = 8361} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 254; Loc.bol_pos = 8362; Loc.line_nb_last = 254; Loc.bol_pos_last = 8362; Loc.bp = 8363; Loc.ep = 8418} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 255; Loc.bol_pos = 8419; Loc.line_nb_last = 255; Loc.bol_pos_last = 8419; Loc.bp = 8420; Loc.ep = 8433} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 256; Loc.bol_pos = 8434; Loc.line_nb_last = 256; Loc.bol_pos_last = 8434; Loc.bp = 8435; Loc.ep = 8445} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 256; Loc.bol_pos = 8434; Loc.line_nb_last = 256; Loc.bol_pos_last = 8434; Loc.bp = 8446; Loc.ep = 8479} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 257; Loc.bol_pos = 8480; Loc.line_nb_last = 257; Loc.bol_pos_last = 8480; Loc.bp = 8481; Loc.ep = 8504} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 257; Loc.bol_pos = 8480; Loc.line_nb_last = 257; Loc.bol_pos_last = 8480; Loc.bp = 8505; Loc.ep = 8524} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 257; Loc.bol_pos = 8480; Loc.line_nb_last = 257; Loc.bol_pos_last = 8480; Loc.bp = 8525; Loc.ep = 8549} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 258; Loc.bol_pos = 8550; Loc.line_nb_last = 258; Loc.bol_pos_last = 8550; Loc.bp = 8551; Loc.ep = 8555} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** leb_le **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 260; Loc.bol_pos = 8557; Loc.line_nb_last = 260; Loc.bol_pos_last = 8557; Loc.bp = 8558; Loc.ep = 8607} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 261; Loc.bol_pos = 8608; Loc.line_nb_last = 261; Loc.bol_pos_last = 8608; Loc.bp = 8609; Loc.ep = 8615} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 262; Loc.bol_pos = 8616; Loc.line_nb_last = 262; Loc.bol_pos_last = 8616; Loc.bp = 8617; Loc.ep = 8624} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 262; Loc.bol_pos = 8616; Loc.line_nb_last = 262; Loc.bol_pos_last = 8616; Loc.bp = 8625; Loc.ep = 8642} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 262; Loc.bol_pos = 8616; Loc.line_nb_last = 262; Loc.bol_pos_last = 8616; Loc.bp = 8643; Loc.ep = 8661} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 263; Loc.bol_pos = 8662; Loc.line_nb_last = 263; Loc.bol_pos_last = 8662; Loc.bp = 8663; Loc.ep = 8702} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 264; Loc.bol_pos = 8703; Loc.line_nb_last = 264; Loc.bol_pos_last = 8703; Loc.bp = 8704; Loc.ep = 8708} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** leb_total **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 266; Loc.bol_pos = 8710; Loc.line_nb_last = 266; Loc.bol_pos_last = 8710; Loc.bp = 8711; Loc.ep = 8744} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 267; Loc.bol_pos = 8745; Loc.line_nb_last = 267; Loc.bol_pos_last = 8745; Loc.bp = 8746; Loc.ep = 8752} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 268; Loc.bol_pos = 8753; Loc.line_nb_last = 268; Loc.bol_pos_last = 8753; Loc.bp = 8754; Loc.ep = 8767} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 268; Loc.bol_pos = 8753; Loc.line_nb_last = 268; Loc.bol_pos_last = 8753; Loc.bp = 8768; Loc.ep = 8794} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 269; Loc.bol_pos = 8795; Loc.line_nb_last = 269; Loc.bol_pos_last = 8795; Loc.bp = 8796; Loc.ep = 8823} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 270; Loc.bol_pos = 8824; Loc.line_nb_last = 270; Loc.bol_pos_last = 8824; Loc.bp = 8825; Loc.ep = 8852} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 271; Loc.bol_pos = 8853; Loc.line_nb_last = 271; Loc.bol_pos_last = 8853; Loc.bp = 8854; Loc.ep = 8881} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 272; Loc.bol_pos = 8882; Loc.line_nb_last = 272; Loc.bol_pos_last = 8882; Loc.bp = 8883; Loc.ep = 8907} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 273; Loc.bol_pos = 8908; Loc.line_nb_last = 273; Loc.bol_pos_last = 8908; Loc.bp = 8909; Loc.ep = 8937} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 274; Loc.bol_pos = 8938; Loc.line_nb_last = 274; Loc.bol_pos_last = 8938; Loc.bp = 8939; Loc.ep = 8943} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** leb_trans **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 276; Loc.bol_pos = 8945; Loc.line_nb_last = 276; Loc.bol_pos_last = 8945; Loc.bp = 8946; Loc.ep = 8964} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 278; Loc.bol_pos = 8966; Loc.line_nb_last = 278; Loc.bol_pos_last = 8966; Loc.bp = 8966; Loc.ep = 8982} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 288; Loc.bol_pos = 9135; Loc.line_nb_last = 288; Loc.bol_pos_last = 9135; Loc.bp = 9135; Loc.ep = 9163} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 290; Loc.bol_pos = 9165; Loc.line_nb_last = 290; Loc.bol_pos_last = 9165; Loc.bp = 9165; Loc.ep = 9239} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 292; Loc.bol_pos = 9241; Loc.line_nb_last = 292; Loc.bol_pos_last = 9241; Loc.bp = 9242; Loc.ep = 9260} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 294; Loc.bol_pos = 9262; Loc.line_nb_last = 294; Loc.bol_pos_last = 9262; Loc.bp = 9263; Loc.ep = 9299} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 295; Loc.bol_pos = 9300; Loc.line_nb_last = 295; Loc.bol_pos_last = 9300; Loc.bp = 9301; Loc.ep = 9346} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 296; Loc.bol_pos = 9347; Loc.line_nb_last = 296; Loc.bol_pos_last = 9347; Loc.bp = 9348; Loc.ep = 9394} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 298; Loc.bol_pos = 9396; Loc.line_nb_last = 299; Loc.bol_pos_last = 9423; Loc.bp = 9397; Loc.ep = 9478} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 301; Loc.bol_pos = 9480; Loc.line_nb_last = 301; Loc.bol_pos_last = 9480; Loc.bp = 9481; Loc.ep = 9547} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 302; Loc.bol_pos = 9548; Loc.line_nb_last = 302; Loc.bol_pos_last = 9548; Loc.bp = 9549; Loc.ep = 9555} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 303; Loc.bol_pos = 9556; Loc.line_nb_last = 303; Loc.bol_pos_last = 9556; Loc.bp = 9557; Loc.ep = 9564} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 303; Loc.bol_pos = 9556; Loc.line_nb_last = 303; Loc.bol_pos_last = 9556; Loc.bp = 9565; Loc.ep = 9580} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 304; Loc.bol_pos = 9581; Loc.line_nb_last = 304; Loc.bol_pos_last = 9581; Loc.bp = 9582; Loc.ep = 9600} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 305; Loc.bol_pos = 9601; Loc.line_nb_last = 305; Loc.bol_pos_last = 9601; Loc.bp = 9602; Loc.ep = 9620} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 306; Loc.bol_pos = 9621; Loc.line_nb_last = 306; Loc.bol_pos_last = 9621; Loc.bp = 9622; Loc.ep = 9634} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 306; Loc.bol_pos = 9621; Loc.line_nb_last = 306; Loc.bol_pos_last = 9621; Loc.bp = 9635; Loc.ep = 9647} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 307; Loc.bol_pos = 9648; Loc.line_nb_last = 307; Loc.bol_pos_last = 9648; Loc.bp = 9649; Loc.ep = 9661} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 307; Loc.bol_pos = 9648; Loc.line_nb_last = 307; Loc.bol_pos_last = 9648; Loc.bp = 9662; Loc.ep = 9680} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 308; Loc.bol_pos = 9681; Loc.line_nb_last = 308; Loc.bol_pos_last = 9681; Loc.bp = 9682; Loc.ep = 9694} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 308; Loc.bol_pos = 9681; Loc.line_nb_last = 308; Loc.bol_pos_last = 9681; Loc.bp = 9695; Loc.ep = 9739} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 309; Loc.bol_pos = 9740; Loc.line_nb_last = 309; Loc.bol_pos_last = 9740; Loc.bp = 9741; Loc.ep = 9745} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** compare_spec **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 311; Loc.bol_pos = 9747; Loc.line_nb_last = 311; Loc.bol_pos_last = 9747; Loc.bp = 9748; Loc.ep = 9793} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 313; Loc.bol_pos = 9795; Loc.line_nb_last = 313; Loc.bol_pos_last = 9795; Loc.bp = 9796; Loc.ep = 9842} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 314; Loc.bol_pos = 9843; Loc.line_nb_last = 314; Loc.bol_pos_last = 9843; Loc.bp = 9844; Loc.ep = 9850} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 315; Loc.bol_pos = 9851; Loc.line_nb_last = 315; Loc.bol_pos_last = 9851; Loc.bp = 9852; Loc.ep = 9859} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 315; Loc.bol_pos = 9851; Loc.line_nb_last = 315; Loc.bol_pos_last = 9851; Loc.bp = 9860; Loc.ep = 9879} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 316; Loc.bol_pos = 9880; Loc.line_nb_last = 316; Loc.bol_pos_last = 9880; Loc.bp = 9881; Loc.ep = 9922} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 317; Loc.bol_pos = 9923; Loc.line_nb_last = 317; Loc.bol_pos_last = 9923; Loc.bp = 9924; Loc.ep = 9928} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eqb_eq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 319; Loc.bol_pos = 9930; Loc.line_nb_last = 319; Loc.bol_pos_last = 9930; Loc.bp = 9931; Loc.ep = 9953} **)
+(**VERNAC_TYPE** VernacInclude **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 321; Loc.bol_pos = 9955; Loc.line_nb_last = 321; Loc.bol_pos_last = 9955; Loc.bp = 9956; Loc.ep = 9991} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 322; Loc.bol_pos = 9992; Loc.line_nb_last = 322; Loc.bol_pos_last = 9992; Loc.bp = 9993; Loc.ep = 9999} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 323; Loc.bol_pos = 10000; Loc.line_nb_last = 323; Loc.bol_pos_last = 10000; Loc.bp = 10001; Loc.ep = 10007} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 324; Loc.bol_pos = 10008; Loc.line_nb_last = 324; Loc.bol_pos_last = 10008; Loc.bp = 10009; Loc.ep = 10033} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 324; Loc.bol_pos = 10008; Loc.line_nb_last = 324; Loc.bol_pos_last = 10008; Loc.bp = 10034; Loc.ep = 10065} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 325; Loc.bol_pos = 10066; Loc.line_nb_last = 325; Loc.bol_pos_last = 10066; Loc.bp = 10067; Loc.ep = 10093} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 325; Loc.bol_pos = 10066; Loc.line_nb_last = 325; Loc.bol_pos_last = 10066; Loc.bp = 10094; Loc.ep = 10104} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 326; Loc.bol_pos = 10105; Loc.line_nb_last = 326; Loc.bol_pos_last = 10105; Loc.bp = 10106; Loc.ep = 10134} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 326; Loc.bol_pos = 10105; Loc.line_nb_last = 326; Loc.bol_pos_last = 10105; Loc.bp = 10135; Loc.ep = 10175} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 327; Loc.bol_pos = 10176; Loc.line_nb_last = 327; Loc.bol_pos_last = 10176; Loc.bp = 10177; Loc.ep = 10181} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** eq_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 329; Loc.bol_pos = 10183; Loc.line_nb_last = 329; Loc.bol_pos_last = 10183; Loc.bp = 10184; Loc.ep = 10222} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 330; Loc.bol_pos = 10223; Loc.line_nb_last = 330; Loc.bol_pos_last = 10223; Loc.bp = 10224; Loc.ep = 10230} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 331; Loc.bol_pos = 10231; Loc.line_nb_last = 331; Loc.bol_pos_last = 10231; Loc.bp = 10232; Loc.ep = 10238} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 332; Loc.bol_pos = 10239; Loc.line_nb_last = 332; Loc.bol_pos_last = 10239; Loc.bp = 10240; Loc.ep = 10249} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 332; Loc.bol_pos = 10239; Loc.line_nb_last = 332; Loc.bol_pos_last = 10239; Loc.bp = 10250; Loc.ep = 10276} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 333; Loc.bol_pos = 10277; Loc.line_nb_last = 333; Loc.bol_pos_last = 10277; Loc.bp = 10278; Loc.ep = 10306} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 333; Loc.bol_pos = 10277; Loc.line_nb_last = 333; Loc.bol_pos_last = 10277; Loc.bp = 10307; Loc.ep = 10317} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 334; Loc.bol_pos = 10318; Loc.line_nb_last = 334; Loc.bol_pos_last = 10318; Loc.bp = 10319; Loc.ep = 10348} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 335; Loc.bol_pos = 10349; Loc.line_nb_last = 335; Loc.bol_pos_last = 10349; Loc.bp = 10350; Loc.ep = 10373} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 336; Loc.bol_pos = 10374; Loc.line_nb_last = 336; Loc.bol_pos_last = 10374; Loc.bp = 10375; Loc.ep = 10404} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 337; Loc.bol_pos = 10405; Loc.line_nb_last = 337; Loc.bol_pos_last = 10405; Loc.bp = 10406; Loc.ep = 10410} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_strorder **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 339; Loc.bol_pos = 10412; Loc.line_nb_last = 339; Loc.bol_pos_last = 10412; Loc.bp = 10413; Loc.ep = 10464} **)
+(**VERNAC_TYPE** VernacInstance **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 340; Loc.bol_pos = 10465; Loc.line_nb_last = 340; Loc.bol_pos_last = 10465; Loc.bp = 10466; Loc.ep = 10472} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 341; Loc.bol_pos = 10473; Loc.line_nb_last = 341; Loc.bol_pos_last = 10473; Loc.bp = 10474; Loc.ep = 10515} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 342; Loc.bol_pos = 10516; Loc.line_nb_last = 342; Loc.bol_pos_last = 10516; Loc.bp = 10517; Loc.ep = 10543} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 342; Loc.bol_pos = 10516; Loc.line_nb_last = 342; Loc.bol_pos_last = 10516; Loc.bp = 10544; Loc.ep = 10567} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 343; Loc.bol_pos = 10568; Loc.line_nb_last = 343; Loc.bol_pos_last = 10568; Loc.bp = 10569; Loc.ep = 10579} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 344; Loc.bol_pos = 10580; Loc.line_nb_last = 344; Loc.bol_pos_last = 10580; Loc.bp = 10581; Loc.ep = 10610} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 345; Loc.bol_pos = 10611; Loc.line_nb_last = 345; Loc.bol_pos_last = 10611; Loc.bp = 10612; Loc.ep = 10641} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 346; Loc.bol_pos = 10642; Loc.line_nb_last = 346; Loc.bol_pos_last = 10642; Loc.bp = 10643; Loc.ep = 10666} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 347; Loc.bol_pos = 10667; Loc.line_nb_last = 347; Loc.bol_pos_last = 10667; Loc.bp = 10668; Loc.ep = 10698} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 348; Loc.bol_pos = 10699; Loc.line_nb_last = 348; Loc.bol_pos_last = 10699; Loc.bp = 10700; Loc.ep = 10730} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 349; Loc.bol_pos = 10731; Loc.line_nb_last = 349; Loc.bol_pos_last = 10731; Loc.bp = 10732; Loc.ep = 10736} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_compat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 351; Loc.bol_pos = 10738; Loc.line_nb_last = 351; Loc.bol_pos_last = 10738; Loc.bp = 10739; Loc.ep = 10800} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 352; Loc.bol_pos = 10801; Loc.line_nb_last = 352; Loc.bol_pos_last = 10801; Loc.bp = 10802; Loc.ep = 10808} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 353; Loc.bol_pos = 10809; Loc.line_nb_last = 353; Loc.bol_pos_last = 10809; Loc.bp = 10810; Loc.ep = 10817} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 354; Loc.bol_pos = 10818; Loc.line_nb_last = 354; Loc.bol_pos_last = 10818; Loc.bp = 10819; Loc.ep = 10837} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 355; Loc.bol_pos = 10838; Loc.line_nb_last = 355; Loc.bol_pos_last = 10838; Loc.bp = 10839; Loc.ep = 10862} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 356; Loc.bol_pos = 10863; Loc.line_nb_last = 356; Loc.bol_pos_last = 10863; Loc.bp = 10864; Loc.ep = 10874} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 357; Loc.bol_pos = 10875; Loc.line_nb_last = 357; Loc.bol_pos_last = 10875; Loc.bp = 10876; Loc.ep = 10937} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 358; Loc.bol_pos = 10938; Loc.line_nb_last = 358; Loc.bol_pos_last = 10938; Loc.bp = 10939; Loc.ep = 10943} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** le_lteq **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Structures/Orders.v"; Loc.line_nb = 360; Loc.bol_pos = 10945; Loc.line_nb_last = 360; Loc.bol_pos_last = 10945; Loc.bp = 10945; Loc.ep = 10961} **)
+(**VERNAC_TYPE** VernacEndSegment **)

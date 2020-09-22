@@ -1,0 +1,86 @@
+DIGEST 6b025b93a399cb811e9ea67db2ddc545
+FExtLib.Structures.FunctorLaws
+R15:37 Coq.Relations.Relations <> <> lib
+R55:70 ExtLib.Core.Type <> <> lib
+R88:102 ExtLib.Data.Fun <> <> lib
+R120:145 ExtLib.Structures.Identity <> <> lib
+R163:186 ExtLib.Structures.Proper <> <> lib
+R204:228 ExtLib.Structures.Functor <> <> lib
+sec 286:289 <> laws
+rec 313:323 <> FunctorLaws
+proj 466:472 <> fmap_id
+proj 618:629 <> fmap_compose
+proj 924:934 <> fmap_proper
+R360:363 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R401:407 ExtLib.Structures.Functor <> Functor class
+R409:409 ExtLib.Structures.FunctorLaws <> F var
+R433:437 ExtLib.Core.Type <> type1 class
+R447:447 ExtLib.Structures.FunctorLaws <> F var
+R504:507 ExtLib.Core.Type <> type class
+R513:513 ExtLib.Structures.FunctorLaws <> T var
+R529:534 ExtLib.Core.Type <> typeOk class
+R540:541 ExtLib.Structures.FunctorLaws <> tT var
+R550:553 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R554:554 ExtLib.Structures.FunctorLaws <> T var
+R549:549 ExtLib.Structures.FunctorLaws <> T var
+R575:586 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R587:591 ExtLib.Core.Type <> equal meth
+R604:605 Coq.Init.Datatypes <> id def
+R608:608 ExtLib.Structures.FunctorLaws <> F var
+R610:610 ExtLib.Structures.FunctorLaws <> T var
+R594:597 ExtLib.Structures.Functor <> fmap meth
+R599:599 ExtLib.Structures.FunctorLaws <> f var
+R566:572 ExtLib.Structures.Identity <> IsIdent class
+R574:574 ExtLib.Structures.FunctorLaws <> f var
+R691:694 ExtLib.Core.Type <> type class
+R700:700 ExtLib.Structures.FunctorLaws <> T var
+R709:712 ExtLib.Core.Type <> type class
+R718:718 ExtLib.Structures.FunctorLaws <> U var
+R727:730 ExtLib.Core.Type <> type class
+R736:736 ExtLib.Structures.FunctorLaws <> V var
+R755:758 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R768:771 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R781:790 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R804:807 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R808:808 ExtLib.Structures.FunctorLaws <> U var
+R803:803 ExtLib.Structures.FunctorLaws <> T var
+R817:820 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R821:821 ExtLib.Structures.FunctorLaws <> V var
+R816:816 ExtLib.Structures.FunctorLaws <> U var
+R841:844 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R853:864 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R865:869 ExtLib.Core.Type <> equal meth
+R893:899 ExtLib.Data.PreFun <> compose def
+R911:914 ExtLib.Structures.Functor <> fmap meth
+R916:916 ExtLib.Structures.FunctorLaws <> f var
+R902:905 ExtLib.Structures.Functor <> fmap meth
+R907:907 ExtLib.Structures.FunctorLaws <> g var
+R872:875 ExtLib.Structures.Functor <> fmap meth
+R878:884 ExtLib.Data.PreFun <> compose def
+R888:888 ExtLib.Structures.FunctorLaws <> f var
+R886:886 ExtLib.Structures.FunctorLaws <> g var
+R845:850 ExtLib.Core.Type <> proper class
+R852:852 ExtLib.Structures.FunctorLaws <> g var
+R833:838 ExtLib.Core.Type <> proper class
+R840:840 ExtLib.Structures.FunctorLaws <> f var
+R772:777 ExtLib.Core.Type <> typeOk class
+R779:780 ExtLib.Structures.FunctorLaws <> tV var
+R759:764 ExtLib.Core.Type <> typeOk class
+R766:767 ExtLib.Structures.FunctorLaws <> tU var
+R746:751 ExtLib.Core.Type <> typeOk class
+R753:754 ExtLib.Structures.FunctorLaws <> tT var
+R982:985 ExtLib.Core.Type <> type class
+R987:987 ExtLib.Structures.FunctorLaws <> T var
+R996:999 ExtLib.Core.Type <> type class
+R1001:1001 ExtLib.Structures.FunctorLaws <> U var
+R1024:1027 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1041:1050 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1051:1056 ExtLib.Core.Type <> proper class
+R1060:1063 ExtLib.Structures.Functor <> fmap meth
+R1071:1071 ExtLib.Structures.FunctorLaws <> U var
+R1069:1069 ExtLib.Structures.FunctorLaws <> T var
+R1028:1033 ExtLib.Core.Type <> typeOk class
+R1039:1040 ExtLib.Structures.FunctorLaws <> tU var
+R1011:1016 ExtLib.Core.Type <> typeOk class
+R1022:1023 ExtLib.Structures.FunctorLaws <> tT var
+R1083:1086 ExtLib.Structures.FunctorLaws laws <> sec

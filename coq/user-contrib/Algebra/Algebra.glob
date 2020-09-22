@@ -1,0 +1,70 @@
+DIGEST bbbdfbc637efd965b497878417865f1a
+FAlgebra.Algebra
+R1118:1127 Algebra.Hom_module <> <> lib
+sec 1138:1148 <> algebra_def
+var 1160:1160 algebra_def R
+R1164:1168 Algebra.Ring_cat <> CRING def
+rec 1179:1188 <> algebra_on
+proj 1221:1240 <> algebra_bilinear_map
+R1197:1202 Algebra.Module_cat <> MODULE def
+R1204:1204 Algebra.Algebra <> algebra_def.R var
+R1244:1253 Algebra.Hom_module <> Hom_module def
+R1260:1269 Algebra.Hom_module <> Hom_module def
+R1275:1277 Algebra.Algebra <> Mod var
+R1271:1273 Algebra.Algebra <> Mod var
+R1255:1257 Algebra.Algebra <> Mod var
+rec 1290:1296 <> algebra
+proj 1312:1326 <> algebra_carrier
+proj 1341:1354 <> algebra_on_def
+R1331:1336 Algebra.Module_cat <> module rec
+R1338:1338 Algebra.Algebra <> algebra_def.R var
+R1359:1368 Algebra.Algebra <> algebra_on rec
+R1370:1384 Algebra.Algebra <> algebra_carrier meth
+R1388:1434 Algebra.Algebra <> Build_algebra constr
+def 1449:1460 <> algebra_mult
+R1467:1473 Algebra.Algebra <> algebra rec
+R1483:1483 Algebra.Algebra <> A var
+R1488:1488 Algebra.Algebra <> A var
+R1495:1514 Algebra.Algebra <> algebra_bilinear_map proj
+R1520:1520 Algebra.Algebra <> y var
+R1518:1518 Algebra.Algebra <> x var
+R1516:1516 Algebra.Algebra <> A var
+rec 1531:1545 <> ring_algebra_on
+proj 1575:1592 <> ring_algebra_assoc
+proj 1710:1726 <> ring_algebra_unit
+proj 1736:1754 <> ring_algebra_unit_l
+proj 1823:1841 <> ring_algebra_unit_r
+R1552:1558 Algebra.Algebra <> algebra rec
+R1615:1615 Algebra.Algebra <> A var
+R1622:1626 Algebra.Sets <> Equal proj
+R1671:1682 Algebra.Algebra <> algebra_mult def
+R1687:1698 Algebra.Algebra <> algebra_mult def
+R1702:1702 Algebra.Algebra <> z var
+R1700:1700 Algebra.Algebra <> y var
+R1684:1684 Algebra.Algebra <> x var
+R1629:1640 Algebra.Algebra <> algebra_mult def
+R1661:1661 Algebra.Algebra <> z var
+R1643:1654 Algebra.Algebra <> algebra_mult def
+R1658:1658 Algebra.Algebra <> y var
+R1656:1656 Algebra.Algebra <> x var
+R1730:1730 Algebra.Algebra <> A var
+R1773:1773 Algebra.Algebra <> A var
+R1776:1780 Algebra.Sets <> Equal proj
+R1817:1817 Algebra.Algebra <> x var
+R1783:1794 Algebra.Algebra <> algebra_mult def
+R1814:1814 Algebra.Algebra <> x var
+R1796:1812 Algebra.Algebra <> ring_algebra_unit meth
+R1860:1860 Algebra.Algebra <> A var
+R1863:1867 Algebra.Sets <> Equal proj
+R1904:1904 Algebra.Algebra <> x var
+R1870:1881 Algebra.Algebra <> algebra_mult def
+R1885:1901 Algebra.Algebra <> ring_algebra_unit meth
+R1883:1883 Algebra.Algebra <> x var
+rec 1916:1927 <> ring_algebra
+proj 1943:1962 <> ring_algebra_algebra
+proj 1979:1997 <> ring_algebra_on_def
+R1967:1973 Algebra.Algebra <> algebra rec
+R2002:2016 Algebra.Algebra <> ring_algebra_on rec
+R2018:2037 Algebra.Algebra <> ring_algebra_algebra meth
+R2041:2102 Algebra.Algebra <> Build_ring_algebra constr
+R2109:2119 Algebra.Algebra algebra_def <> sec

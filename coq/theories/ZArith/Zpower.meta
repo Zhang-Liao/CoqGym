@@ -1,0 +1,621 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 11; Loc.bol_pos = 676; Loc.line_nb_last = 11; Loc.bol_pos_last = 676; Loc.bp = 676; Loc.ep = 729} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 12; Loc.bol_pos = 730; Loc.line_nb_last = 12; Loc.bol_pos_last = 730; Loc.bp = 730; Loc.ep = 754} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 13; Loc.bol_pos = 755; Loc.line_nb_last = 13; Loc.bol_pos_last = 755; Loc.bp = 755; Loc.ep = 780} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 30; Loc.bol_pos = 1370; Loc.line_nb_last = 30; Loc.bol_pos_last = 1370; Loc.bp = 1370; Loc.ep = 1433} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 32; Loc.bol_pos = 1435; Loc.line_nb_last = 32; Loc.bol_pos_last = 1435; Loc.bp = 1435; Loc.ep = 1479} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 33; Loc.bol_pos = 1480; Loc.line_nb_last = 33; Loc.bol_pos_last = 1480; Loc.bp = 1480; Loc.ep = 1486} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 33; Loc.bol_pos = 1480; Loc.line_nb_last = 33; Loc.bol_pos_last = 1480; Loc.bp = 1487; Loc.ep = 1499} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 33; Loc.bol_pos = 1480; Loc.line_nb_last = 33; Loc.bol_pos_last = 1480; Loc.bp = 1500; Loc.ep = 1504} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_nat_0_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 35; Loc.bol_pos = 1506; Loc.line_nb_last = 35; Loc.bol_pos_last = 1506; Loc.bp = 1506; Loc.ep = 1578} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 36; Loc.bol_pos = 1579; Loc.line_nb_last = 36; Loc.bol_pos_last = 1579; Loc.bp = 1579; Loc.ep = 1585} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 36; Loc.bol_pos = 1579; Loc.line_nb_last = 36; Loc.bol_pos_last = 1579; Loc.bp = 1586; Loc.ep = 1598} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 36; Loc.bol_pos = 1579; Loc.line_nb_last = 36; Loc.bol_pos_last = 1579; Loc.bp = 1599; Loc.ep = 1603} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_nat_succ_r **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 41; Loc.bol_pos = 1718; Loc.line_nb_last = 43; Loc.bol_pos_last = 1770; Loc.bp = 1718; Loc.ep = 1829} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 44; Loc.bol_pos = 1830; Loc.line_nb_last = 44; Loc.bol_pos_last = 1830; Loc.bp = 1830; Loc.ep = 1836} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 45; Loc.bol_pos = 1837; Loc.line_nb_last = 45; Loc.bol_pos_last = 1837; Loc.bp = 1838; Loc.ep = 1850} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 46; Loc.bol_pos = 1851; Loc.line_nb_last = 46; Loc.bol_pos_last = 1851; Loc.bp = 1852; Loc.ep = 1853} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 46; Loc.bol_pos = 1851; Loc.line_nb_last = 46; Loc.bol_pos_last = 1851; Loc.bp = 1854; Loc.ep = 1861} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 46; Loc.bol_pos = 1851; Loc.line_nb_last = 46; Loc.bol_pos_last = 1851; Loc.bp = 1862; Loc.ep = 1900} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 47; Loc.bol_pos = 1901; Loc.line_nb_last = 47; Loc.bol_pos_last = 1901; Loc.bp = 1902; Loc.ep = 1903} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 47; Loc.bol_pos = 1901; Loc.line_nb_last = 47; Loc.bol_pos_last = 1901; Loc.bp = 1904; Loc.ep = 1911} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 47; Loc.bol_pos = 1901; Loc.line_nb_last = 47; Loc.bol_pos_last = 1901; Loc.bp = 1912; Loc.ep = 1918} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 47; Loc.bol_pos = 1901; Loc.line_nb_last = 47; Loc.bol_pos_last = 1901; Loc.bp = 1919; Loc.ep = 1948} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 48; Loc.bol_pos = 1949; Loc.line_nb_last = 48; Loc.bol_pos_last = 1949; Loc.bp = 1949; Loc.ep = 1953} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_nat_is_exp **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 52; Loc.bol_pos = 2019; Loc.line_nb_last = 53; Loc.bol_pos_last = 2065; Loc.bp = 2019; Loc.ep = 2111} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 54; Loc.bol_pos = 2112; Loc.line_nb_last = 54; Loc.bol_pos_last = 2112; Loc.bp = 2112; Loc.ep = 2118} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 55; Loc.bol_pos = 2119; Loc.line_nb_last = 55; Loc.bol_pos_last = 2119; Loc.bp = 2121; Loc.ep = 2144} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 56; Loc.bol_pos = 2145; Loc.line_nb_last = 56; Loc.bol_pos_last = 2145; Loc.bp = 2145; Loc.ep = 2149} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_pos_nat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 58; Loc.bol_pos = 2151; Loc.line_nb_last = 59; Loc.bol_pos_last = 2190; Loc.bp = 2151; Loc.ep = 2226} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 60; Loc.bol_pos = 2227; Loc.line_nb_last = 60; Loc.bol_pos_last = 2227; Loc.bp = 2227; Loc.ep = 2233} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 61; Loc.bol_pos = 2234; Loc.line_nb_last = 61; Loc.bol_pos_last = 2234; Loc.bp = 2235; Loc.ep = 2247} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 61; Loc.bol_pos = 2234; Loc.line_nb_last = 61; Loc.bol_pos_last = 2234; Loc.bp = 2248; Loc.ep = 2256} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 62; Loc.bol_pos = 2257; Loc.line_nb_last = 62; Loc.bol_pos_last = 2257; Loc.bp = 2258; Loc.ep = 2314} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 63; Loc.bol_pos = 2315; Loc.line_nb_last = 63; Loc.bol_pos_last = 2315; Loc.bp = 2316; Loc.ep = 2328} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 64; Loc.bol_pos = 2329; Loc.line_nb_last = 64; Loc.bol_pos_last = 2329; Loc.bp = 2330; Loc.ep = 2352} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 65; Loc.bol_pos = 2353; Loc.line_nb_last = 65; Loc.bol_pos_last = 2353; Loc.bp = 2353; Loc.ep = 2357} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_nat_Z **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 67; Loc.bol_pos = 2359; Loc.line_nb_last = 68; Loc.bol_pos_last = 2401; Loc.bp = 2359; Loc.ep = 2435} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 69; Loc.bol_pos = 2436; Loc.line_nb_last = 69; Loc.bol_pos_last = 2436; Loc.bp = 2436; Loc.ep = 2442} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 70; Loc.bol_pos = 2443; Loc.line_nb_last = 70; Loc.bol_pos_last = 2443; Loc.bp = 2444; Loc.ep = 2451} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 70; Loc.bol_pos = 2443; Loc.line_nb_last = 70; Loc.bol_pos_last = 2443; Loc.bp = 2452; Loc.ep = 2504} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 71; Loc.bol_pos = 2505; Loc.line_nb_last = 71; Loc.bol_pos_last = 2505; Loc.bp = 2505; Loc.ep = 2509} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_nat_Zpower **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 76; Loc.bol_pos = 2632; Loc.line_nb_last = 77; Loc.bol_pos_last = 2680; Loc.bp = 2632; Loc.ep = 2734} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 78; Loc.bol_pos = 2735; Loc.line_nb_last = 78; Loc.bol_pos_last = 2735; Loc.bp = 2735; Loc.ep = 2741} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 79; Loc.bol_pos = 2742; Loc.line_nb_last = 79; Loc.bol_pos_last = 2742; Loc.bp = 2743; Loc.ep = 2787} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 80; Loc.bol_pos = 2788; Loc.line_nb_last = 80; Loc.bol_pos_last = 2788; Loc.bp = 2788; Loc.ep = 2792} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_pos_is_exp **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 82; Loc.bol_pos = 2794; Loc.line_nb_last = 82; Loc.bol_pos_last = 2794; Loc.bp = 2794; Loc.ep = 2854} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 83; Loc.bol_pos = 2855; Loc.line_nb_last = 83; Loc.bol_pos_last = 2855; Loc.bp = 2855; Loc.ep = 2896} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 85; Loc.bol_pos = 2898; Loc.line_nb_last = 86; Loc.bol_pos_last = 2925; Loc.bp = 2898; Loc.ep = 2975} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 87; Loc.bol_pos = 2976; Loc.line_nb_last = 87; Loc.bol_pos_last = 2976; Loc.bp = 2976; Loc.ep = 2982} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 88; Loc.bol_pos = 2983; Loc.line_nb_last = 88; Loc.bol_pos_last = 2983; Loc.bp = 2984; Loc.ep = 2999} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 88; Loc.bol_pos = 2983; Loc.line_nb_last = 88; Loc.bol_pos_last = 2983; Loc.bp = 3000; Loc.ep = 3018} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 89; Loc.bol_pos = 3019; Loc.line_nb_last = 89; Loc.bol_pos_last = 3019; Loc.bp = 3019; Loc.ep = 3023} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zpower_exp **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 91; Loc.bol_pos = 3025; Loc.line_nb_last = 91; Loc.bol_pos_last = 3025; Loc.bp = 3025; Loc.ep = 3045} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 99; Loc.bol_pos = 3244; Loc.line_nb_last = 99; Loc.bol_pos_last = 3244; Loc.bp = 3246; Loc.ep = 3320} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 100; Loc.bol_pos = 3321; Loc.line_nb_last = 100; Loc.bol_pos_last = 3321; Loc.bp = 3323; Loc.ep = 3378} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 101; Loc.bol_pos = 3379; Loc.line_nb_last = 106; Loc.bol_pos_last = 3507; Loc.bp = 3381; Loc.ep = 3515} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 108; Loc.bol_pos = 3517; Loc.line_nb_last = 108; Loc.bol_pos_last = 3517; Loc.bp = 3519; Loc.ep = 3576} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 109; Loc.bol_pos = 3577; Loc.line_nb_last = 109; Loc.bol_pos_last = 3577; Loc.bp = 3579; Loc.ep = 3641} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 111; Loc.bol_pos = 3643; Loc.line_nb_last = 116; Loc.bol_pos_last = 3758; Loc.bp = 3645; Loc.ep = 3766} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 120; Loc.bol_pos = 3821; Loc.line_nb_last = 120; Loc.bol_pos_last = 3821; Loc.bp = 3823; Loc.ep = 3886} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 121; Loc.bol_pos = 3887; Loc.line_nb_last = 121; Loc.bol_pos_last = 3887; Loc.bp = 3889; Loc.ep = 3895} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 121; Loc.bol_pos = 3887; Loc.line_nb_last = 121; Loc.bol_pos_last = 3887; Loc.bp = 3896; Loc.ep = 3908} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 121; Loc.bol_pos = 3887; Loc.line_nb_last = 121; Loc.bol_pos_last = 3887; Loc.bp = 3909; Loc.ep = 3913} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_nat_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 123; Loc.bol_pos = 3915; Loc.line_nb_last = 123; Loc.bol_pos_last = 3915; Loc.bp = 3917; Loc.ep = 3983} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 124; Loc.bol_pos = 3984; Loc.line_nb_last = 124; Loc.bol_pos_last = 3984; Loc.bp = 3986; Loc.ep = 3992} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 124; Loc.bol_pos = 3984; Loc.line_nb_last = 124; Loc.bol_pos_last = 3984; Loc.bp = 3993; Loc.ep = 4005} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 124; Loc.bol_pos = 3984; Loc.line_nb_last = 124; Loc.bol_pos_last = 3984; Loc.bp = 4006; Loc.ep = 4010} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_pos_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 126; Loc.bol_pos = 4012; Loc.line_nb_last = 126; Loc.bol_pos_last = 4012; Loc.bp = 4014; Loc.ep = 4085} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 127; Loc.bol_pos = 4086; Loc.line_nb_last = 127; Loc.bol_pos_last = 4086; Loc.bp = 4088; Loc.ep = 4094} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 128; Loc.bol_pos = 4095; Loc.line_nb_last = 128; Loc.bol_pos_last = 4095; Loc.bp = 4098; Loc.ep = 4109} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 129; Loc.bol_pos = 4110; Loc.line_nb_last = 129; Loc.bol_pos_last = 4110; Loc.bp = 4113; Loc.ep = 4114} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 129; Loc.bol_pos = 4110; Loc.line_nb_last = 129; Loc.bol_pos_last = 4110; Loc.bp = 4115; Loc.ep = 4123} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 130; Loc.bol_pos = 4124; Loc.line_nb_last = 130; Loc.bol_pos_last = 4124; Loc.bp = 4127; Loc.ep = 4128} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 130; Loc.bol_pos = 4124; Loc.line_nb_last = 130; Loc.bol_pos_last = 4124; Loc.bp = 4129; Loc.ep = 4143} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 130; Loc.bol_pos = 4124; Loc.line_nb_last = 130; Loc.bol_pos_last = 4124; Loc.bp = 4144; Loc.ep = 4172} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 131; Loc.bol_pos = 4173; Loc.line_nb_last = 131; Loc.bol_pos_last = 4173; Loc.bp = 4176; Loc.ep = 4177} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 131; Loc.bol_pos = 4173; Loc.line_nb_last = 131; Loc.bol_pos_last = 4173; Loc.bp = 4178; Loc.ep = 4193} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 132; Loc.bol_pos = 4194; Loc.line_nb_last = 132; Loc.bol_pos_last = 4194; Loc.bp = 4196; Loc.ep = 4200} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 134; Loc.bol_pos = 4202; Loc.line_nb_last = 134; Loc.bol_pos_last = 4202; Loc.bp = 4204; Loc.ep = 4269} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 135; Loc.bol_pos = 4270; Loc.line_nb_last = 135; Loc.bol_pos_last = 4270; Loc.bp = 4272; Loc.ep = 4278} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 136; Loc.bol_pos = 4279; Loc.line_nb_last = 136; Loc.bol_pos_last = 4279; Loc.bp = 4282; Loc.ep = 4294} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 137; Loc.bol_pos = 4295; Loc.line_nb_last = 137; Loc.bol_pos_last = 4295; Loc.bp = 4298; Loc.ep = 4299} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 137; Loc.bol_pos = 4295; Loc.line_nb_last = 137; Loc.bol_pos_last = 4295; Loc.bp = 4300; Loc.ep = 4308} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 138; Loc.bol_pos = 4309; Loc.line_nb_last = 138; Loc.bol_pos_last = 4309; Loc.bp = 4312; Loc.ep = 4313} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 138; Loc.bol_pos = 4309; Loc.line_nb_last = 138; Loc.bol_pos_last = 4309; Loc.bp = 4314; Loc.ep = 4388} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 139; Loc.bol_pos = 4389; Loc.line_nb_last = 139; Loc.bol_pos_last = 4389; Loc.bp = 4391; Loc.ep = 4395} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_nat_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 141; Loc.bol_pos = 4397; Loc.line_nb_last = 141; Loc.bol_pos_last = 4397; Loc.bp = 4399; Loc.ep = 4458} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 142; Loc.bol_pos = 4459; Loc.line_nb_last = 142; Loc.bol_pos_last = 4459; Loc.bp = 4461; Loc.ep = 4467} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 143; Loc.bol_pos = 4468; Loc.line_nb_last = 143; Loc.bol_pos_last = 4468; Loc.bp = 4471; Loc.ep = 4499} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 144; Loc.bol_pos = 4500; Loc.line_nb_last = 144; Loc.bol_pos_last = 4500; Loc.bp = 4502; Loc.ep = 4506} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_pos_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 146; Loc.bol_pos = 4508; Loc.line_nb_last = 146; Loc.bol_pos_last = 4508; Loc.bp = 4510; Loc.ep = 4548} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 147; Loc.bol_pos = 4549; Loc.line_nb_last = 147; Loc.bol_pos_last = 4549; Loc.bp = 4551; Loc.ep = 4557} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 148; Loc.bol_pos = 4558; Loc.line_nb_last = 148; Loc.bol_pos_last = 4558; Loc.bp = 4561; Loc.ep = 4581} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 148; Loc.bol_pos = 4558; Loc.line_nb_last = 148; Loc.bol_pos_last = 4558; Loc.bp = 4582; Loc.ep = 4608} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 149; Loc.bol_pos = 4609; Loc.line_nb_last = 149; Loc.bol_pos_last = 4609; Loc.bp = 4611; Loc.ep = 4615} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_p_equiv **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 153; Loc.bol_pos = 4677; Loc.line_nb_last = 153; Loc.bol_pos_last = 4677; Loc.bp = 4679; Loc.ep = 4747} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 154; Loc.bol_pos = 4748; Loc.line_nb_last = 154; Loc.bol_pos_last = 4748; Loc.bp = 4750; Loc.ep = 4756} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 154; Loc.bol_pos = 4748; Loc.line_nb_last = 154; Loc.bol_pos_last = 4748; Loc.bp = 4757; Loc.ep = 4769} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 154; Loc.bol_pos = 4748; Loc.line_nb_last = 154; Loc.bol_pos_last = 4748; Loc.bp = 4770; Loc.ep = 4774} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_nat_S **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 156; Loc.bol_pos = 4776; Loc.line_nb_last = 157; Loc.bol_pos_last = 4807; Loc.bp = 4778; Loc.ep = 4861} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 158; Loc.bol_pos = 4862; Loc.line_nb_last = 158; Loc.bol_pos_last = 4862; Loc.bp = 4864; Loc.ep = 4870} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 159; Loc.bol_pos = 4871; Loc.line_nb_last = 159; Loc.bol_pos_last = 4871; Loc.bp = 4874; Loc.ep = 4906} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 160; Loc.bol_pos = 4907; Loc.line_nb_last = 160; Loc.bol_pos_last = 4907; Loc.bp = 4909; Loc.ep = 4913} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_nat_plus **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 162; Loc.bol_pos = 4915; Loc.line_nb_last = 163; Loc.bol_pos_last = 4949; Loc.bp = 4917; Loc.ep = 5000} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 164; Loc.bol_pos = 5001; Loc.line_nb_last = 164; Loc.bol_pos_last = 5001; Loc.bp = 5003; Loc.ep = 5009} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 165; Loc.bol_pos = 5010; Loc.line_nb_last = 165; Loc.bol_pos_last = 5010; Loc.bp = 5013; Loc.ep = 5025} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 166; Loc.bol_pos = 5026; Loc.line_nb_last = 166; Loc.bol_pos_last = 5026; Loc.bp = 5029; Loc.ep = 5030} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 166; Loc.bol_pos = 5026; Loc.line_nb_last = 166; Loc.bol_pos_last = 5026; Loc.bp = 5031; Loc.ep = 5039} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 167; Loc.bol_pos = 5040; Loc.line_nb_last = 167; Loc.bol_pos_last = 5040; Loc.bp = 5043; Loc.ep = 5044} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 167; Loc.bol_pos = 5040; Loc.line_nb_last = 167; Loc.bol_pos_last = 5040; Loc.bp = 5045; Loc.ep = 5099} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 168; Loc.bol_pos = 5100; Loc.line_nb_last = 168; Loc.bol_pos_last = 5100; Loc.bp = 5102; Loc.ep = 5106} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_nat_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 170; Loc.bol_pos = 5108; Loc.line_nb_last = 170; Loc.bol_pos_last = 5108; Loc.bp = 5110; Loc.ep = 5177} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 171; Loc.bol_pos = 5178; Loc.line_nb_last = 171; Loc.bol_pos_last = 5178; Loc.bp = 5180; Loc.ep = 5186} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 172; Loc.bol_pos = 5187; Loc.line_nb_last = 172; Loc.bol_pos_last = 5187; Loc.bp = 5190; Loc.ep = 5236} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 173; Loc.bol_pos = 5237; Loc.line_nb_last = 173; Loc.bol_pos_last = 5237; Loc.bp = 5239; Loc.ep = 5243} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_nat_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 175; Loc.bol_pos = 5245; Loc.line_nb_last = 175; Loc.bol_pos_last = 5245; Loc.bp = 5247; Loc.ep = 5316} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 176; Loc.bol_pos = 5317; Loc.line_nb_last = 176; Loc.bol_pos_last = 5317; Loc.bp = 5319; Loc.ep = 5325} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 177; Loc.bol_pos = 5326; Loc.line_nb_last = 177; Loc.bol_pos_last = 5326; Loc.bp = 5329; Loc.ep = 5352} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 178; Loc.bol_pos = 5353; Loc.line_nb_last = 178; Loc.bol_pos_last = 5353; Loc.bp = 5355; Loc.ep = 5359} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_pos_nat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 180; Loc.bol_pos = 5361; Loc.line_nb_last = 180; Loc.bol_pos_last = 5361; Loc.bp = 5363; Loc.ep = 5438} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 181; Loc.bol_pos = 5439; Loc.line_nb_last = 181; Loc.bol_pos_last = 5439; Loc.bp = 5441; Loc.ep = 5447} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 182; Loc.bol_pos = 5448; Loc.line_nb_last = 182; Loc.bol_pos_last = 5448; Loc.bp = 5451; Loc.ep = 5472} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 182; Loc.bol_pos = 5448; Loc.line_nb_last = 182; Loc.bol_pos_last = 5448; Loc.bp = 5473; Loc.ep = 5499} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 183; Loc.bol_pos = 5500; Loc.line_nb_last = 183; Loc.bol_pos_last = 5500; Loc.bp = 5502; Loc.ep = 5506} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_pos_nat **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 185; Loc.bol_pos = 5508; Loc.line_nb_last = 186; Loc.bol_pos_last = 5542; Loc.bp = 5510; Loc.ep = 5592} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 187; Loc.bol_pos = 5593; Loc.line_nb_last = 187; Loc.bol_pos_last = 5593; Loc.bp = 5595; Loc.ep = 5601} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 188; Loc.bol_pos = 5602; Loc.line_nb_last = 188; Loc.bol_pos_last = 5602; Loc.bp = 5605; Loc.ep = 5666} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 189; Loc.bol_pos = 5667; Loc.line_nb_last = 189; Loc.bol_pos_last = 5667; Loc.bp = 5669; Loc.ep = 5673} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** shift_pos_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 191; Loc.bol_pos = 5675; Loc.line_nb_last = 191; Loc.bol_pos_last = 5675; Loc.bp = 5677; Loc.ep = 5743} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 192; Loc.bol_pos = 5744; Loc.line_nb_last = 192; Loc.bol_pos_last = 5744; Loc.bp = 5746; Loc.ep = 5752} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 193; Loc.bol_pos = 5753; Loc.line_nb_last = 193; Loc.bol_pos_last = 5753; Loc.bp = 5756; Loc.ep = 5782} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 194; Loc.bol_pos = 5783; Loc.line_nb_last = 194; Loc.bol_pos_last = 5783; Loc.bp = 5785; Loc.ep = 5789} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_pos_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 196; Loc.bol_pos = 5791; Loc.line_nb_last = 197; Loc.bol_pos_last = 5828; Loc.bp = 5793; Loc.ep = 5889} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 198; Loc.bol_pos = 5890; Loc.line_nb_last = 198; Loc.bol_pos_last = 5890; Loc.bp = 5892; Loc.ep = 5898} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 199; Loc.bol_pos = 5899; Loc.line_nb_last = 199; Loc.bol_pos_last = 5899; Loc.bp = 5903; Loc.ep = 5933} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 199; Loc.bol_pos = 5899; Loc.line_nb_last = 199; Loc.bol_pos_last = 5899; Loc.bp = 5934; Loc.ep = 5978} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 200; Loc.bol_pos = 5979; Loc.line_nb_last = 200; Loc.bol_pos_last = 5979; Loc.bp = 5981; Loc.ep = 5985} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_power_pos_is_exp **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 202; Loc.bol_pos = 5987; Loc.line_nb_last = 202; Loc.bol_pos_last = 5987; Loc.bp = 5989; Loc.ep = 6027} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 203; Loc.bol_pos = 6028; Loc.line_nb_last = 203; Loc.bol_pos_last = 6028; Loc.bp = 6030; Loc.ep = 6052} **)
+(**VERNAC_TYPE** VernacExactProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 205; Loc.bol_pos = 6054; Loc.line_nb_last = 206; Loc.bol_pos_last = 6083; Loc.bp = 6056; Loc.ep = 6141} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 207; Loc.bol_pos = 6142; Loc.line_nb_last = 207; Loc.bol_pos_last = 6142; Loc.bp = 6144; Loc.ep = 6150} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 208; Loc.bol_pos = 6151; Loc.line_nb_last = 208; Loc.bol_pos_last = 6151; Loc.bp = 6155; Loc.ep = 6176} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 208; Loc.bol_pos = 6151; Loc.line_nb_last = 208; Loc.bol_pos_last = 6151; Loc.bp = 6177; Loc.ep = 6195} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 209; Loc.bol_pos = 6196; Loc.line_nb_last = 209; Loc.bol_pos_last = 6196; Loc.bp = 6198; Loc.ep = 6202} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_p_is_exp **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 211; Loc.bol_pos = 6204; Loc.line_nb_last = 211; Loc.bol_pos_last = 6204; Loc.bp = 6206; Loc.ep = 6252} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 212; Loc.bol_pos = 6253; Loc.line_nb_last = 212; Loc.bol_pos_last = 6253; Loc.bp = 6255; Loc.ep = 6261} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 213; Loc.bol_pos = 6262; Loc.line_nb_last = 213; Loc.bol_pos_last = 6262; Loc.bp = 6265; Loc.ep = 6280} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 213; Loc.bol_pos = 6262; Loc.line_nb_last = 213; Loc.bol_pos_last = 6262; Loc.bp = 6281; Loc.ep = 6301} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 213; Loc.bol_pos = 6262; Loc.line_nb_last = 213; Loc.bol_pos_last = 6262; Loc.bp = 6302; Loc.ep = 6329} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 214; Loc.bol_pos = 6330; Loc.line_nb_last = 214; Loc.bol_pos_last = 6330; Loc.bp = 6332; Loc.ep = 6336} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_p_gt_ZERO **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 216; Loc.bol_pos = 6338; Loc.line_nb_last = 216; Loc.bol_pos_last = 6338; Loc.bp = 6340; Loc.ep = 6399} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 217; Loc.bol_pos = 6400; Loc.line_nb_last = 217; Loc.bol_pos_last = 6400; Loc.bp = 6402; Loc.ep = 6408} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 218; Loc.bol_pos = 6409; Loc.line_nb_last = 218; Loc.bol_pos_last = 6409; Loc.bp = 6412; Loc.ep = 6433} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 218; Loc.bol_pos = 6409; Loc.line_nb_last = 218; Loc.bol_pos_last = 6409; Loc.bp = 6434; Loc.ep = 6457} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 219; Loc.bol_pos = 6458; Loc.line_nb_last = 219; Loc.bol_pos_last = 6458; Loc.bp = 6460; Loc.ep = 6464} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_p_S **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 221; Loc.bol_pos = 6466; Loc.line_nb_last = 221; Loc.bol_pos_last = 6466; Loc.bp = 6468; Loc.ep = 6526} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 222; Loc.bol_pos = 6527; Loc.line_nb_last = 222; Loc.bol_pos_last = 6527; Loc.bp = 6529; Loc.ep = 6535} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 223; Loc.bol_pos = 6536; Loc.line_nb_last = 223; Loc.bol_pos_last = 6536; Loc.bp = 6539; Loc.ep = 6560} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 223; Loc.bol_pos = 6536; Loc.line_nb_last = 223; Loc.bol_pos_last = 6536; Loc.bp = 6561; Loc.ep = 6568} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 223; Loc.bol_pos = 6536; Loc.line_nb_last = 223; Loc.bol_pos_last = 6536; Loc.bp = 6569; Loc.ep = 6609} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 224; Loc.bol_pos = 6610; Loc.line_nb_last = 224; Loc.bol_pos_last = 6610; Loc.bp = 6612; Loc.ep = 6616} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** two_p_pred **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 226; Loc.bol_pos = 6618; Loc.line_nb_last = 226; Loc.bol_pos_last = 6618; Loc.bp = 6618; Loc.ep = 6634} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 228; Loc.bol_pos = 6636; Loc.line_nb_last = 228; Loc.bol_pos_last = 6636; Loc.bp = 6636; Loc.ep = 6671} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 229; Loc.bol_pos = 6672; Loc.line_nb_last = 229; Loc.bol_pos_last = 6672; Loc.bp = 6672; Loc.ep = 6714} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 231; Loc.bol_pos = 6716; Loc.line_nb_last = 231; Loc.bol_pos_last = 6716; Loc.bp = 6716; Loc.ep = 6744} **)
+(**VERNAC_TYPE** VernacBeginSection **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 239; Loc.bol_pos = 6972; Loc.line_nb_last = 249; Loc.bol_pos_last = 7271; Loc.bp = 6974; Loc.ep = 7290} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 251; Loc.bol_pos = 7292; Loc.line_nb_last = 252; Loc.bol_pos_last = 7337; Loc.bp = 7294; Loc.ep = 7397} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 254; Loc.bol_pos = 7399; Loc.line_nb_last = 256; Loc.bol_pos_last = 7503; Loc.bp = 7401; Loc.ep = 7527} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 257; Loc.bol_pos = 7528; Loc.line_nb_last = 257; Loc.bol_pos_last = 7528; Loc.bp = 7530; Loc.ep = 7536} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 258; Loc.bol_pos = 7537; Loc.line_nb_last = 258; Loc.bol_pos_last = 7537; Loc.bp = 7540; Loc.ep = 7584} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 259; Loc.bol_pos = 7585; Loc.line_nb_last = 259; Loc.bol_pos_last = 7585; Loc.bp = 7588; Loc.ep = 7629} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 260; Loc.bol_pos = 7630; Loc.line_nb_last = 260; Loc.bol_pos_last = 7630; Loc.bp = 7633; Loc.ep = 7674} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 261; Loc.bol_pos = 7675; Loc.line_nb_last = 261; Loc.bol_pos_last = 7675; Loc.bp = 7678; Loc.ep = 7699} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 261; Loc.bol_pos = 7675; Loc.line_nb_last = 261; Loc.bol_pos_last = 7675; Loc.bp = 7700; Loc.ep = 7737} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 262; Loc.bol_pos = 7738; Loc.line_nb_last = 262; Loc.bol_pos_last = 7738; Loc.bp = 7740; Loc.ep = 7744} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zdiv_rest_correct1 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 264; Loc.bol_pos = 7746; Loc.line_nb_last = 266; Loc.bol_pos_last = 7852; Loc.bp = 7748; Loc.ep = 7884} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 267; Loc.bol_pos = 7885; Loc.line_nb_last = 267; Loc.bol_pos_last = 7885; Loc.bp = 7887; Loc.ep = 7893} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 268; Loc.bol_pos = 7894; Loc.line_nb_last = 268; Loc.bol_pos_last = 7894; Loc.bp = 7897; Loc.ep = 7932} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 269; Loc.bol_pos = 7933; Loc.line_nb_last = 269; Loc.bol_pos_last = 7933; Loc.bp = 7936; Loc.ep = 7960} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 269; Loc.bol_pos = 7933; Loc.line_nb_last = 269; Loc.bol_pos_last = 7933; Loc.bp = 7961; Loc.ep = 7982} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 270; Loc.bol_pos = 7983; Loc.line_nb_last = 270; Loc.bol_pos_last = 7983; Loc.bp = 7986; Loc.ep = 8031} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 271; Loc.bol_pos = 8032; Loc.line_nb_last = 271; Loc.bol_pos_last = 8032; Loc.bp = 8035; Loc.ep = 8036} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 271; Loc.bol_pos = 8032; Loc.line_nb_last = 271; Loc.bol_pos_last = 8032; Loc.bp = 8037; Loc.ep = 8082} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 272; Loc.bol_pos = 8083; Loc.line_nb_last = 272; Loc.bol_pos_last = 8083; Loc.bp = 8088; Loc.ep = 8124} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 272; Loc.bol_pos = 8083; Loc.line_nb_last = 272; Loc.bol_pos_last = 8083; Loc.bp = 8125; Loc.ep = 8131} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 273; Loc.bol_pos = 8132; Loc.line_nb_last = 273; Loc.bol_pos_last = 8132; Loc.bp = 8135; Loc.ep = 8136} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 273; Loc.bol_pos = 8132; Loc.line_nb_last = 273; Loc.bol_pos_last = 8132; Loc.bp = 8137; Loc.ep = 8163} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 274; Loc.bol_pos = 8164; Loc.line_nb_last = 274; Loc.bol_pos_last = 8164; Loc.bp = 8169; Loc.ep = 8205} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 274; Loc.bol_pos = 8164; Loc.line_nb_last = 274; Loc.bol_pos_last = 8164; Loc.bp = 8206; Loc.ep = 8212} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 275; Loc.bol_pos = 8213; Loc.line_nb_last = 275; Loc.bol_pos_last = 8213; Loc.bp = 8216; Loc.ep = 8217} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 275; Loc.bol_pos = 8213; Loc.line_nb_last = 275; Loc.bol_pos_last = 8213; Loc.bp = 8218; Loc.ep = 8263} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 276; Loc.bol_pos = 8264; Loc.line_nb_last = 276; Loc.bol_pos_last = 8264; Loc.bp = 8269; Loc.ep = 8324} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 276; Loc.bol_pos = 8264; Loc.line_nb_last = 276; Loc.bol_pos_last = 8264; Loc.bp = 8325; Loc.ep = 8331} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 277; Loc.bol_pos = 8332; Loc.line_nb_last = 277; Loc.bol_pos_last = 8332; Loc.bp = 8335; Loc.ep = 8336} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 277; Loc.bol_pos = 8332; Loc.line_nb_last = 277; Loc.bol_pos_last = 8332; Loc.bp = 8337; Loc.ep = 8363} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 278; Loc.bol_pos = 8364; Loc.line_nb_last = 278; Loc.bol_pos_last = 8364; Loc.bp = 8369; Loc.ep = 8405} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 278; Loc.bol_pos = 8364; Loc.line_nb_last = 278; Loc.bol_pos_last = 8364; Loc.bp = 8406; Loc.ep = 8412} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 279; Loc.bol_pos = 8413; Loc.line_nb_last = 279; Loc.bol_pos_last = 8413; Loc.bp = 8415; Loc.ep = 8419} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zdiv_rest_correct2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 283; Loc.bol_pos = 8482; Loc.line_nb_last = 287; Loc.bol_pos_last = 8616; Loc.bp = 8484; Loc.ep = 8676} **)
+(**VERNAC_TYPE** VernacInductive **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 289; Loc.bol_pos = 8678; Loc.line_nb_last = 289; Loc.bol_pos_last = 8678; Loc.bp = 8680; Loc.ep = 8746} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 290; Loc.bol_pos = 8747; Loc.line_nb_last = 290; Loc.bol_pos_last = 8747; Loc.bp = 8749; Loc.ep = 8755} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 291; Loc.bol_pos = 8756; Loc.line_nb_last = 291; Loc.bol_pos_last = 8756; Loc.bp = 8760; Loc.ep = 8833} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 292; Loc.bol_pos = 8834; Loc.line_nb_last = 292; Loc.bol_pos_last = 8834; Loc.bp = 8838; Loc.ep = 8897} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 293; Loc.bol_pos = 8898; Loc.line_nb_last = 293; Loc.bol_pos_last = 8898; Loc.bp = 8902; Loc.ep = 8925} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 293; Loc.bol_pos = 8898; Loc.line_nb_last = 293; Loc.bol_pos_last = 8898; Loc.bp = 8926; Loc.ep = 8941} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 294; Loc.bol_pos = 8942; Loc.line_nb_last = 294; Loc.bol_pos_last = 8942; Loc.bp = 8944; Loc.ep = 8948} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zdiv_rest_correct **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 298; Loc.bol_pos = 8994; Loc.line_nb_last = 300; Loc.bol_pos_last = 9055; Loc.bp = 8996; Loc.ep = 9105} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 301; Loc.bol_pos = 9106; Loc.line_nb_last = 301; Loc.bol_pos_last = 9106; Loc.bp = 9108; Loc.ep = 9114} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 302; Loc.bol_pos = 9115; Loc.line_nb_last = 302; Loc.bol_pos_last = 9115; Loc.bp = 9118; Loc.ep = 9135} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 303; Loc.bol_pos = 9136; Loc.line_nb_last = 303; Loc.bol_pos_last = 9136; Loc.bp = 9139; Loc.ep = 9212} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 304; Loc.bol_pos = 9213; Loc.line_nb_last = 304; Loc.bol_pos_last = 9213; Loc.bp = 9216; Loc.ep = 9275} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 305; Loc.bol_pos = 9276; Loc.line_nb_last = 305; Loc.bol_pos_last = 9276; Loc.bp = 9279; Loc.ep = 9291} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 305; Loc.bol_pos = 9276; Loc.line_nb_last = 305; Loc.bol_pos_last = 9276; Loc.bp = 9292; Loc.ep = 9329} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 306; Loc.bol_pos = 9330; Loc.line_nb_last = 306; Loc.bol_pos_last = 9330; Loc.bp = 9332; Loc.ep = 9336} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zdiv_rest_ok **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 310; Loc.bol_pos = 9376; Loc.line_nb_last = 311; Loc.bol_pos_last = 9407; Loc.bp = 9378; Loc.ep = 9452} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 312; Loc.bol_pos = 9453; Loc.line_nb_last = 312; Loc.bol_pos_last = 9453; Loc.bp = 9455; Loc.ep = 9461} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 313; Loc.bol_pos = 9462; Loc.line_nb_last = 313; Loc.bol_pos_last = 9462; Loc.bp = 9465; Loc.ep = 9495} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 313; Loc.bol_pos = 9462; Loc.line_nb_last = 313; Loc.bol_pos_last = 9462; Loc.bp = 9496; Loc.ep = 9530} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 314; Loc.bol_pos = 9531; Loc.line_nb_last = 314; Loc.bol_pos_last = 9531; Loc.bp = 9534; Loc.ep = 9548} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 314; Loc.bol_pos = 9531; Loc.line_nb_last = 314; Loc.bol_pos_last = 9531; Loc.bp = 9549; Loc.ep = 9555} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 315; Loc.bol_pos = 9556; Loc.line_nb_last = 315; Loc.bol_pos_last = 9556; Loc.bp = 9559; Loc.ep = 9593} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 316; Loc.bol_pos = 9594; Loc.line_nb_last = 316; Loc.bol_pos_last = 9594; Loc.bp = 9597; Loc.ep = 9636} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 316; Loc.bol_pos = 9594; Loc.line_nb_last = 316; Loc.bol_pos_last = 9594; Loc.bp = 9637; Loc.ep = 9660} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 317; Loc.bol_pos = 9661; Loc.line_nb_last = 317; Loc.bol_pos_last = 9661; Loc.bp = 9663; Loc.ep = 9667} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Zdiv_rest_shiftr **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/ZArith/Zpower.v"; Loc.line_nb = 319; Loc.bol_pos = 9669; Loc.line_nb_last = 319; Loc.bol_pos_last = 9669; Loc.bp = 9669; Loc.ep = 9693} **)
+(**VERNAC_TYPE** VernacEndSegment **)

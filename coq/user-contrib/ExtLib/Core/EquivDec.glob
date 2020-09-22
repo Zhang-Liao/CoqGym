@@ -1,0 +1,28 @@
+DIGEST 2cd3d0054be282d01cb2729a81d9c700
+FExtLib.Core.EquivDec
+R15:34 Coq.Classes.EquivDec <> <> lib
+prf 46:63 <> EquivDec_refl_left
+R81:85 Coq.Classes.EquivDec <> EqDec class
+R91:92 Coq.Init.Logic <> eq ind
+R94:94 ExtLib.Core.EquivDec <> T var
+R87:87 ExtLib.Core.EquivDec <> T var
+R114:114 ExtLib.Core.EquivDec <> T var
+R131:133 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R118:126 Coq.Classes.EquivDec <> equiv_dec def
+R130:130 ExtLib.Core.EquivDec <> n var
+R128:128 ExtLib.Core.EquivDec <> n var
+R134:137 Coq.Init.Specif <> left constr
+R140:149 Coq.Init.Logic <> refl_equal syndef
+R182:190 Coq.Classes.EquivDec <> equiv_dec def
+R182:190 Coq.Classes.EquivDec <> equiv_dec def
+R224:232 Coq.Logic.Eqdep_dec <> <> lib
+R246:262 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R297:306 Coq.Init.Logic <> refl_equal syndef
+R275:283 Coq.Classes.EquivDec <> equiv_dec def
+R246:262 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R297:306 Coq.Init.Logic <> refl_equal syndef
+R275:283 Coq.Classes.EquivDec <> equiv_dec def
+R246:262 Coq.Logic.Eqdep_dec <> UIP_dec thm
+R297:306 Coq.Init.Logic <> refl_equal syndef
+R275:283 Coq.Classes.EquivDec <> equiv_dec def
+R224:232 Coq.Logic.Eqdep_dec <> <> lib

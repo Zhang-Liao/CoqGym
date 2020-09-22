@@ -1,0 +1,27 @@
+DIGEST db3456a15349bd82fca23872e3905865
+FListString.Case
+R15:28 Coq.Lists.List <> <> lib
+R39:42 ListString.Char <> <> lib
+R60:66 ListString.LString <> <> lib
+def 169:178 <> capitalize
+R185:185 ListString.LString <> t def
+R190:190 ListString.LString <> t def
+R203:203 ListString.Case <> s var
+R214:215 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R220:221 Coq.Lists.List ListNotations ::list_scope:'['_']' not
+R228:231 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R251:254 Coq.Init.Datatypes <> ::list_scope:x_'::'_x not
+R237:248 ListString.Char <> up_case def
+R255:255 ListString.Case <> s var
+def 371:379 <> down_case
+R386:386 ListString.LString <> t def
+R391:391 ListString.LString <> t def
+R398:405 Coq.Lists.List <> map def
+R422:422 ListString.Case <> s var
+R407:420 ListString.Char <> down_case def
+def 532:538 <> up_case
+R545:545 ListString.LString <> t def
+R550:550 ListString.LString <> t def
+R557:564 Coq.Lists.List <> map def
+R579:579 ListString.Case <> s var
+R566:577 ListString.Char <> up_case def

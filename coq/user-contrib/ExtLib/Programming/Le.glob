@@ -1,0 +1,275 @@
+DIGEST c10bb6315c0dee32dca291ecc381e602
+FExtLib.Programming.Le
+R15:27 Coq.Bool.Bool <> <> lib
+R45:55 Coq.Classes.Equivalence <> <> lib
+R73:90 ExtLib.Core.RelDec <> <> lib
+rec 100:102 <> Lte
+proj 111:113 <> lte
+R118:121 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R123:126 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R122:122 ExtLib.Programming.Le <> T var
+R117:117 ExtLib.Programming.Le <> T var
+def 146:152 <> neg_lte
+R161:163 ExtLib.Programming.Le <> Lte class
+R165:165 ExtLib.Programming.Le <> T var
+R171:171 ExtLib.Programming.Le <> T var
+R177:177 ExtLib.Programming.Le <> T var
+R190:192 Coq.Init.Logic <> not def
+R195:197 ExtLib.Programming.Le <> lte meth
+R201:201 ExtLib.Programming.Le <> y var
+R199:199 ExtLib.Programming.Le <> x var
+def 217:218 <> lt
+R227:229 ExtLib.Programming.Le <> Lte class
+R231:231 ExtLib.Programming.Le <> T var
+R248:251 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R241:243 ExtLib.Programming.Le <> lte meth
+R247:247 ExtLib.Programming.Le <> y var
+R245:245 ExtLib.Programming.Le <> x var
+R252:252 Coq.Init.Logic <> ::type_scope:'~'_x not
+R253:255 ExtLib.Programming.Le <> lte meth
+R259:259 ExtLib.Programming.Le <> x var
+R257:257 ExtLib.Programming.Le <> y var
+def 273:278 <> neg_lt
+R287:289 ExtLib.Programming.Le <> Lte class
+R291:291 ExtLib.Programming.Le <> T var
+R301:303 Coq.Init.Logic <> not def
+R306:307 ExtLib.Programming.Le <> lt def
+R311:311 ExtLib.Programming.Le <> y var
+R309:309 ExtLib.Programming.Le <> x var
+inst 325:333 <> lt_RelDec
+R342:344 ExtLib.Programming.Le <> Lte class
+R346:346 ExtLib.Programming.Le <> T var
+R353:358 ExtLib.Core.RelDec <> RelDec class
+R360:362 ExtLib.Programming.Le <> lte meth
+R367:372 ExtLib.Core.RelDec <> RelDec class
+R374:375 ExtLib.Programming.Le <> lt def
+R384:390 ExtLib.Core.RelDec <> rel_dec meth
+R411:414 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R400:406 ExtLib.Core.RelDec <> rel_dec meth
+R410:410 ExtLib.Programming.Le <> y var
+R408:408 ExtLib.Programming.Le <> x var
+R415:418 Coq.Init.Datatypes <> negb def
+R421:427 ExtLib.Core.RelDec <> rel_dec meth
+R431:431 ExtLib.Programming.Le <> x var
+R429:429 ExtLib.Programming.Le <> y var
+inst 453:468 <> lt_RelDecCorrect
+R477:479 ExtLib.Programming.Le <> Lte class
+R481:481 ExtLib.Programming.Le <> T var
+R488:493 ExtLib.Core.RelDec <> RelDec class
+R495:497 ExtLib.Programming.Le <> lte meth
+R505:518 ExtLib.Core.RelDec <> RelDec_Correct class
+R520:521 ExtLib.Programming.Le <> RD var
+R528:541 ExtLib.Core.RelDec <> RelDec_Correct class
+R543:551 ExtLib.Programming.Le <> lt_RelDec inst
+R616:622 ExtLib.Core.RelDec <> rel_dec meth
+R648:660 Coq.Bool.Bool <> andb_true_iff thm
+R648:660 Coq.Bool.Bool <> andb_true_iff thm
+R691:692 ExtLib.Programming.Le <> lt def
+R714:728 ExtLib.Core.RelDec <> rel_dec_correct meth
+R714:728 ExtLib.Core.RelDec <> rel_dec_correct meth
+R747:765 ExtLib.Core.RelDec <> neg_rel_dec_correct def
+R747:765 ExtLib.Core.RelDec <> neg_rel_dec_correct def
+R791:803 Coq.Bool.Bool <> negb_true_iff thm
+R791:803 Coq.Bool.Bool <> negb_true_iff thm
+R827:828 ExtLib.Programming.Le <> lt def
+R855:861 ExtLib.Core.RelDec <> rel_dec meth
+R877:889 Coq.Bool.Bool <> andb_true_iff thm
+R877:889 Coq.Bool.Bool <> andb_true_iff thm
+R915:929 ExtLib.Core.RelDec <> rel_dec_correct meth
+R915:929 ExtLib.Core.RelDec <> rel_dec_correct meth
+R948:960 Coq.Bool.Bool <> negb_true_iff thm
+R948:960 Coq.Bool.Bool <> negb_true_iff thm
+R969:987 ExtLib.Core.RelDec <> neg_rel_dec_correct def
+R969:987 ExtLib.Core.RelDec <> neg_rel_dec_correct def
+rec 1008:1012 <> LteWF
+proj 1021:1028 <> lteWFLte
+proj 1041:1053 <> lteWFPreOrder
+R1033:1035 ExtLib.Programming.Le <> Lte class
+R1037:1037 ExtLib.Programming.Le <> T var
+R1058:1065 Coq.Classes.RelationClasses <> PreOrder class
+R1067:1069 ExtLib.Programming.Le <> lte meth
+inst 1084:1094 <> LteWF_Build
+R1103:1105 ExtLib.Programming.Le <> Lte class
+R1107:1107 ExtLib.Programming.Le <> T var
+R1114:1121 Coq.Classes.RelationClasses <> PreOrder class
+R1123:1125 ExtLib.Programming.Le <> lte meth
+R1130:1134 ExtLib.Programming.Le <> LteWF class
+R1136:1136 ExtLib.Programming.Le <> T var
+R1161:1173 ExtLib.Programming.Le <> lteWFPreOrder meth
+R1145:1152 ExtLib.Programming.Le <> lteWFLte meth
+def 1196:1202 <> lte_dec
+R1211:1213 ExtLib.Programming.Le <> Lte class
+R1215:1215 ExtLib.Programming.Le <> T var
+R1221:1226 ExtLib.Core.RelDec <> RelDec class
+R1228:1230 ExtLib.Programming.Le <> lte meth
+R1236:1242 ExtLib.Core.RelDec <> rel_dec meth
+def 1256:1266 <> neg_lte_dec
+R1275:1277 ExtLib.Programming.Le <> Lte class
+R1279:1279 ExtLib.Programming.Le <> T var
+R1285:1290 ExtLib.Core.RelDec <> RelDec class
+R1292:1294 ExtLib.Programming.Le <> lte meth
+R1304:1307 Coq.Init.Datatypes <> negb def
+R1310:1316 ExtLib.Programming.Le <> lte_dec def
+R1320:1320 ExtLib.Programming.Le <> y var
+R1318:1318 ExtLib.Programming.Le <> x var
+def 1336:1341 <> lt_dec
+R1350:1352 ExtLib.Programming.Le <> Lte class
+R1354:1354 ExtLib.Programming.Le <> T var
+R1360:1365 ExtLib.Core.RelDec <> RelDec class
+R1367:1369 ExtLib.Programming.Le <> lte meth
+R1375:1381 ExtLib.Core.RelDec <> rel_dec meth
+def 1395:1404 <> neg_lt_dec
+R1413:1415 ExtLib.Programming.Le <> Lte class
+R1417:1417 ExtLib.Programming.Le <> T var
+R1423:1428 ExtLib.Core.RelDec <> RelDec class
+R1430:1432 ExtLib.Programming.Le <> lte meth
+R1442:1445 Coq.Init.Datatypes <> negb def
+R1448:1453 ExtLib.Programming.Le <> lt_dec def
+R1457:1457 ExtLib.Programming.Le <> y var
+R1455:1455 ExtLib.Programming.Le <> x var
+sec 1470:1474 <> dec_p
+R1494:1496 ExtLib.Programming.Le <> Lte class
+R1498:1498 ExtLib.Programming.Le <> T var
+R1505:1510 ExtLib.Core.RelDec <> RelDec class
+R1512:1514 ExtLib.Programming.Le <> lte meth
+R1521:1534 ExtLib.Core.RelDec <> RelDec_Correct class
+R1536:1537 ExtLib.Programming.Le <> RD var
+def 1555:1563 <> lte_dec_p
+R1568:1568 ExtLib.Programming.Le <> dec_p.T var
+R1574:1574 ExtLib.Programming.Le <> dec_p.T var
+R1579:1579 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1587:1591 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1600:1600 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1580:1582 ExtLib.Programming.Le <> lte meth
+R1586:1586 ExtLib.Programming.Le <> y var
+R1584:1584 ExtLib.Programming.Le <> x var
+R1592:1592 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1593:1595 ExtLib.Programming.Le <> lte meth
+R1599:1599 ExtLib.Programming.Le <> y var
+R1597:1597 ExtLib.Programming.Le <> x var
+R1605:1613 ExtLib.Core.RelDec <> rel_dec_p def
+R1617:1617 ExtLib.Programming.Le <> y var
+R1615:1615 ExtLib.Programming.Le <> x var
+def 1633:1645 <> neg_lte_dec_p
+R1650:1650 ExtLib.Programming.Le <> dec_p.T var
+R1656:1656 ExtLib.Programming.Le <> dec_p.T var
+R1661:1661 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1670:1674 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1682:1682 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1662:1662 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1663:1665 ExtLib.Programming.Le <> lte meth
+R1669:1669 ExtLib.Programming.Le <> y var
+R1667:1667 ExtLib.Programming.Le <> x var
+R1675:1677 ExtLib.Programming.Le <> lte meth
+R1681:1681 ExtLib.Programming.Le <> y var
+R1679:1679 ExtLib.Programming.Le <> x var
+R1687:1699 ExtLib.Core.RelDec <> neg_rel_dec_p def
+R1703:1703 ExtLib.Programming.Le <> y var
+R1701:1701 ExtLib.Programming.Le <> x var
+def 1719:1726 <> lt_dec_p
+R1731:1731 ExtLib.Programming.Le <> dec_p.T var
+R1737:1737 ExtLib.Programming.Le <> dec_p.T var
+R1742:1742 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1749:1753 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1761:1761 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1743:1744 ExtLib.Programming.Le <> lt def
+R1748:1748 ExtLib.Programming.Le <> y var
+R1746:1746 ExtLib.Programming.Le <> x var
+R1754:1754 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1755:1756 ExtLib.Programming.Le <> lt def
+R1760:1760 ExtLib.Programming.Le <> y var
+R1758:1758 ExtLib.Programming.Le <> x var
+R1766:1774 ExtLib.Core.RelDec <> rel_dec_p def
+R1778:1778 ExtLib.Programming.Le <> y var
+R1776:1776 ExtLib.Programming.Le <> x var
+def 1794:1805 <> neg_lt_dec_p
+R1810:1810 ExtLib.Programming.Le <> dec_p.T var
+R1816:1816 ExtLib.Programming.Le <> dec_p.T var
+R1821:1821 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1829:1833 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1840:1840 Coq.Init.Specif <> ::type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R1822:1822 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1823:1824 ExtLib.Programming.Le <> lt def
+R1828:1828 ExtLib.Programming.Le <> y var
+R1826:1826 ExtLib.Programming.Le <> x var
+R1834:1835 ExtLib.Programming.Le <> lt def
+R1839:1839 ExtLib.Programming.Le <> y var
+R1837:1837 ExtLib.Programming.Le <> x var
+R1845:1857 ExtLib.Core.RelDec <> neg_rel_dec_p def
+R1861:1861 ExtLib.Programming.Le <> y var
+R1859:1859 ExtLib.Programming.Le <> x var
+R1868:1872 ExtLib.Programming.Le dec_p <> sec
+mod 1883:1893 <> LteNotation
+R1927:1933 ExtLib.Programming.Le <> lte_dec def
+not 1907:1907 LteNotation :::x_'<=!'_x
+R2019:2022 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2008:2014 ExtLib.Programming.Le <> lte_dec def
+R2023:2029 ExtLib.Programming.Le <> lte_dec def
+not 1988:1988 LteNotation :::x_'<=!'_x_'<=!'_x
+R2121:2127 ExtLib.Programming.Le <> lte_dec def
+not 2101:2101 LteNotation :::x_'>=!'_x
+R2227:2230 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2216:2222 ExtLib.Programming.Le <> lte_dec def
+R2231:2237 ExtLib.Programming.Le <> lte_dec def
+not 2196:2196 LteNotation :::x_'>=!'_x_'>=!'_x
+R2329:2334 ExtLib.Programming.Le <> lt_dec def
+not 2310:2310 LteNotation :::x_'<!'_x
+R2418:2421 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2408:2413 ExtLib.Programming.Le <> lt_dec def
+R2422:2427 ExtLib.Programming.Le <> lt_dec def
+not 2389:2389 LteNotation :::x_'<!'_x_'<!'_x
+R2518:2523 ExtLib.Programming.Le <> lt_dec def
+not 2499:2499 LteNotation :::x_'>!'_x
+R2621:2624 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2611:2616 ExtLib.Programming.Le <> lt_dec def
+R2625:2630 ExtLib.Programming.Le <> lt_dec def
+not 2592:2592 LteNotation :::x_'>!'_x_'>!'_x
+R2723:2731 ExtLib.Programming.Le <> lte_dec_p def
+not 2703:2703 LteNotation :::x_'<=?'_x
+R2819:2822 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R2806:2814 ExtLib.Programming.Le <> lte_dec_p def
+R2823:2831 ExtLib.Programming.Le <> lte_dec_p def
+not 2786:2786 LteNotation :::x_'<=?'_x_'<=?'_x
+R2923:2931 ExtLib.Programming.Le <> lte_dec_p def
+not 2903:2903 LteNotation :::x_'>=?'_x
+R3033:3036 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3020:3028 ExtLib.Programming.Le <> lte_dec_p def
+R3037:3045 ExtLib.Programming.Le <> lte_dec_p def
+not 3000:3000 LteNotation :::x_'>=?'_x_'>=?'_x
+R3151:3158 ExtLib.Programming.Le <> lt_dec_p def
+not 3132:3132 LteNotation :::x_'<?'_x
+R3244:3247 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3232:3239 ExtLib.Programming.Le <> lt_dec_p def
+R3248:3255 ExtLib.Programming.Le <> lt_dec_p def
+not 3213:3213 LteNotation :::x_'<?'_x_'<?'_x
+R3346:3353 ExtLib.Programming.Le <> lt_dec_p def
+not 3327:3327 LteNotation :::x_'>?'_x
+R3453:3456 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3441:3448 ExtLib.Programming.Le <> lt_dec_p def
+R3457:3464 ExtLib.Programming.Le <> lt_dec_p def
+not 3422:3422 LteNotation :::x_'>?'_x_'>?'_x
+R3571:3573 ExtLib.Programming.Le <> lte meth
+not 3551:3551 LteNotation :::x_'<=.'_x
+R3655:3658 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3648:3650 ExtLib.Programming.Le <> lte meth
+R3659:3661 ExtLib.Programming.Le <> lte meth
+not 3628:3628 LteNotation :::x_'<=.'_x_'<=.'_x
+R3753:3755 ExtLib.Programming.Le <> lte meth
+not 3733:3733 LteNotation :::x_'>=.'_x
+R3851:3854 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R3844:3846 ExtLib.Programming.Le <> lte meth
+R3855:3857 ExtLib.Programming.Le <> lte meth
+not 3824:3824 LteNotation :::x_'>=.'_x_'>=.'_x
+R3963:3964 ExtLib.Programming.Le <> lt def
+not 3944:3944 LteNotation :::x_'<.'_x
+R4043:4046 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4037:4038 ExtLib.Programming.Le <> lt def
+R4047:4048 ExtLib.Programming.Le <> lt def
+not 4019:4019 LteNotation :::x_'<.'_x_'<.'_x
+R4139:4140 ExtLib.Programming.Le <> lt def
+not 4120:4120 LteNotation :::x_'>.'_x
+R4233:4236 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4227:4228 ExtLib.Programming.Le <> lt def
+R4237:4238 ExtLib.Programming.Le <> lt def
+not 4209:4209 LteNotation :::x_'>.'_x_'>.'_x
+R4317:4327 ExtLib.Programming.Le LteNotation <> mod

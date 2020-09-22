@@ -1,0 +1,15 @@
+DIGEST 89c65789b95d771bd3f5d55b414f460b
+FLinAlg.support.more_syntax
+R1102:1111 Algebra.Module_cat <> <> lib
+R2440:2449 Algebra.Sgroup_cat <> sgroup_law def
+not 2427:2427 <> :::x_'+'''_x
+R2518:2528 Algebra.Monoid_cat <> monoid_unit proj
+not 2503:2503 <> :::'zero'_x
+syndef 2559:2561 <> one
+R2567:2575 Algebra.Ring_cat <> ring_unit def
+R2606:2616 Algebra.Module_cat <> module_mult def
+not 2591:2591 <> :::x_'mX'_x
+R2684:2692 Algebra.Ring_cat <> ring_mult def
+not 2669:2669 <> :::x_'rX'_x
+R2759:2771 Algebra.Group_cat <> group_inverse def
+not 2745:2745 <> :::'min'_x

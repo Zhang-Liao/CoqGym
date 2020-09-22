@@ -1,0 +1,684 @@
+DIGEST ce58286bde780d1d26105a912f690e70
+FAlgebra.Parts
+R1086:1089 Algebra.Sets <> <> lib
+sec 1296:1302 <> Subtype
+var 1435:1435 Subtype E
+R1439:1444 Algebra.Sets <> Setoid rec
+var 1456:1456 Subtype F
+var 1475:1475 Subtype i
+R1480:1483 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1484:1484 Algebra.Parts <> Subtype.E var
+R1479:1479 Algebra.Parts <> Subtype.F var
+def 1718:1736 <> subtype_image_equal
+R1745:1745 Algebra.Parts <> Subtype.F var
+R1758:1762 Algebra.Sets <> Equal proj
+R1771:1771 Algebra.Parts <> Subtype.i var
+R1773:1773 Algebra.Parts <> y var
+R1765:1765 Algebra.Parts <> Subtype.i var
+R1767:1767 Algebra.Parts <> x var
+prf 1784:1802 <> subtype_image_equiv
+R1806:1816 Algebra.Sets <> equivalence def
+R1818:1836 Algebra.Parts <> subtype_image_equal def
+R1907:1925 Algebra.Parts <> subtype_image_equal def
+R1943:1949 Algebra.Sets <> app_rel def
+R2063:2081 Algebra.Parts <> subtype_image_equal def
+R2099:2105 Algebra.Sets <> app_rel def
+R2206:2206 Algebra.Parts <> Subtype.i var
+R2194:2198 Algebra.Sets <> Trans thm
+R2206:2206 Algebra.Parts <> Subtype.i var
+R2194:2198 Algebra.Sets <> Trans thm
+R2251:2269 Algebra.Parts <> subtype_image_equal def
+R2287:2293 Algebra.Sets <> app_rel def
+def 2356:2372 <> subtype_image_set
+R2376:2381 Algebra.Sets <> Setoid rec
+R2386:2397 Algebra.Sets <> Build_Setoid constr
+R2399:2417 Algebra.Parts <> subtype_image_equiv thm
+R2424:2430 Algebra.Parts Subtype <> sec
+sec 2441:2449 <> Part_type
+var 2532:2532 Part_type E
+R2536:2541 Algebra.Sets <> Setoid rec
+rec 2552:2564 <> subtype_image
+proj 2580:2600 <> subtype_image_carrier
+proj 2613:2629 <> subtype_image_inj
+R2655:2658 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2659:2659 Algebra.Parts <> Part_type.E var
+R2634:2654 Algebra.Parts <> subtype_image_carrier meth
+def 2675:2694 <> set_of_subtype_image
+R2701:2713 Algebra.Parts <> subtype_image rec
+R2721:2737 Algebra.Parts <> subtype_image_set def
+R2740:2756 Algebra.Parts <> subtype_image_inj proj
+R2762:2762 Algebra.Parts <> S var
+def 2887:2901 <> pred_compatible
+R2909:2912 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2908:2908 Algebra.Parts <> Part_type.E var
+R2944:2944 Algebra.Parts <> Part_type.E var
+R2950:2953 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2963:2967 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2976:2976 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2968:2968 Algebra.Parts <> P var
+R2970:2970 Algebra.Parts <> y var
+R2954:2958 Algebra.Sets <> Equal proj
+R2962:2962 Algebra.Parts <> x var
+R2960:2960 Algebra.Parts <> y var
+R2947:2947 Algebra.Parts <> P var
+R2949:2949 Algebra.Parts <> x var
+rec 2987:2995 <> Predicate
+proj 3011:3018 <> Pred_fun
+proj 3033:3051 <> Pred_compatible_prf
+R3023:3026 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3022:3022 Algebra.Parts <> Part_type.E var
+R3055:3069 Algebra.Parts <> pred_compatible def
+R3071:3078 Algebra.Parts <> Pred_fun meth
+var 3096:3096 Part_type P
+R3100:3108 Algebra.Parts <> Predicate rec
+rec 3201:3207 <> subtype
+proj 3223:3233 <> subtype_elt
+proj 3240:3250 <> subtype_prf
+R3237:3237 Algebra.Parts <> Part_type.E var
+R3254:3261 Algebra.Parts <> Pred_fun proj
+R3265:3275 Algebra.Parts <> subtype_elt meth
+R3263:3263 Algebra.Parts <> Part_type.P var
+def 3504:3507 <> part
+R3514:3532 Algebra.Parts <> Build_subtype_image constr
+R3567:3577 Algebra.Parts <> subtype_elt proj
+R3558:3564 Algebra.Parts <> subtype rec
+R3584:3592 Algebra.Parts Part_type <> sec
+R3658:3713 Algebra.Parts <> set_of_subtype_image def
+R3716:3758 Algebra.Parts <> part def
+def 3833:3839 <> in_part
+R3846:3851 Algebra.Sets <> Setoid rec
+R3859:3859 Algebra.Parts <> E var
+R3867:3875 Algebra.Parts <> Predicate rec
+R3877:3877 Algebra.Parts <> E var
+R3883:3890 Algebra.Parts <> Pred_fun proj
+R3894:3894 Algebra.Parts <> x var
+R3892:3892 Algebra.Parts <> A var
+sec 3905:3912 <> Part_set
+var 3924:3924 Part_set E
+R3928:3933 Algebra.Sets <> Setoid rec
+def 3996:4002 <> eq_part
+R4011:4019 Algebra.Parts <> Predicate rec
+R4021:4021 Algebra.Parts <> Part_set.E var
+R4047:4047 Algebra.Parts <> Part_set.E var
+R4050:4050 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4077:4082 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4109:4109 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R4062:4065 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4066:4072 Algebra.Parts <> in_part def
+R4076:4076 Algebra.Parts <> B var
+R4074:4074 Algebra.Parts <> x var
+R4051:4057 Algebra.Parts <> in_part def
+R4061:4061 Algebra.Parts <> A var
+R4059:4059 Algebra.Parts <> x var
+R4094:4097 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R4098:4104 Algebra.Parts <> in_part def
+R4108:4108 Algebra.Parts <> A var
+R4106:4106 Algebra.Parts <> x var
+R4083:4089 Algebra.Parts <> in_part def
+R4093:4093 Algebra.Parts <> B var
+R4091:4091 Algebra.Parts <> x var
+var 4117:4129 Part_set eq_part_equiv
+R4133:4143 Algebra.Sets <> equivalence def
+R4145:4151 Algebra.Parts <> eq_part def
+R4222:4228 Algebra.Parts <> eq_part def
+R4231:4237 Algebra.Sets <> app_rel def
+R4342:4348 Algebra.Parts <> eq_part def
+R4351:4357 Algebra.Sets <> app_rel def
+R4545:4551 Algebra.Parts <> eq_part def
+R4554:4560 Algebra.Sets <> app_rel def
+def 4781:4788 <> part_set
+R4792:4797 Algebra.Sets <> Setoid rec
+R4802:4813 Algebra.Sets <> Build_Setoid constr
+R4815:4827 Algebra.Parts <> Part_set.eq_part_equiv var
+R4883:4897 Algebra.Parts <> pred_compatible def
+def 4921:4925 <> empty
+R4929:4936 Algebra.Parts <> part_set def
+R4946:4960 Algebra.Parts <> Build_Predicate constr
+R4988:4988 Algebra.Parts <> Part_set.E var
+R4993:4997 Coq.Init.Logic <> False ind
+R4966:4966 Algebra.Parts <> Part_set.E var
+R4946:4960 Algebra.Parts <> Build_Predicate constr
+R4988:4988 Algebra.Parts <> Part_set.E var
+R4993:4997 Coq.Init.Logic <> False ind
+R4966:4966 Algebra.Parts <> Part_set.E var
+def 5073:5076 <> full
+R5080:5087 Algebra.Parts <> part_set def
+R5097:5111 Algebra.Parts <> Build_Predicate constr
+R5139:5139 Algebra.Parts <> Part_set.E var
+R5144:5147 Coq.Init.Logic <> True ind
+R5117:5117 Algebra.Parts <> Part_set.E var
+R5097:5111 Algebra.Parts <> Build_Predicate constr
+R5139:5139 Algebra.Parts <> Part_set.E var
+R5144:5147 Coq.Init.Logic <> True ind
+R5117:5117 Algebra.Parts <> Part_set.E var
+R5184:5191 Algebra.Parts Part_set <> sec
+R5206:5220 Algebra.Parts <> pred_compatible def
+sec 5240:5248 <> Inclusion
+var 5260:5260 Inclusion E
+R5264:5269 Algebra.Sets <> Setoid rec
+prf 5346:5359 <> in_part_comp_l
+R5376:5383 Algebra.Parts <> part_set def
+R5385:5385 Algebra.Parts <> Inclusion.E var
+R5395:5395 Algebra.Parts <> Inclusion.E var
+R5410:5413 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5423:5426 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5427:5433 Algebra.Parts <> in_part def
+R5437:5437 Algebra.Parts <> A var
+R5435:5435 Algebra.Parts <> y var
+R5414:5418 Algebra.Sets <> Equal proj
+R5422:5422 Algebra.Parts <> x var
+R5420:5420 Algebra.Parts <> y var
+R5399:5405 Algebra.Parts <> in_part def
+R5409:5409 Algebra.Parts <> A var
+R5407:5407 Algebra.Parts <> x var
+R5473:5491 Algebra.Parts <> Pred_compatible_prf proj
+R5497:5497 Algebra.Parts <> Inclusion.E var
+R5473:5491 Algebra.Parts <> Pred_compatible_prf proj
+R5497:5497 Algebra.Parts <> Inclusion.E var
+prf 5521:5534 <> in_part_comp_r
+R5551:5551 Algebra.Parts <> Inclusion.E var
+R5561:5568 Algebra.Parts <> part_set def
+R5570:5570 Algebra.Parts <> Inclusion.E var
+R5585:5588 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5598:5601 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5602:5608 Algebra.Parts <> in_part def
+R5612:5612 Algebra.Parts <> B var
+R5610:5610 Algebra.Parts <> x var
+R5589:5593 Algebra.Sets <> Equal proj
+R5597:5597 Algebra.Parts <> B var
+R5595:5595 Algebra.Parts <> A var
+R5574:5580 Algebra.Parts <> in_part def
+R5584:5584 Algebra.Parts <> A var
+R5582:5582 Algebra.Parts <> x var
+R5637:5643 Algebra.Parts <> eq_part def
+prf 5728:5737 <> empty_prop
+R5752:5752 Algebra.Parts <> Inclusion.E var
+R5755:5756 Coq.Init.Logic <> ::type_scope:'~'_x not
+R5757:5763 Algebra.Parts <> in_part def
+R5768:5772 Algebra.Parts <> empty def
+R5774:5774 Algebra.Parts <> Inclusion.E var
+R5765:5765 Algebra.Parts <> x var
+R5785:5787 Coq.Init.Logic <> not def
+prf 5863:5871 <> full_prop
+R5886:5886 Algebra.Parts <> Inclusion.E var
+R5889:5895 Algebra.Parts <> in_part def
+R5900:5903 Algebra.Parts <> full def
+R5905:5905 Algebra.Parts <> Inclusion.E var
+R5897:5897 Algebra.Parts <> x var
+R5916:5919 Algebra.Parts <> full def
+def 6014:6024 <> full_to_set
+R6028:6030 Algebra.Sets <> MAP def
+R6041:6041 Algebra.Parts <> Inclusion.E var
+R6033:6036 Algebra.Parts <> full def
+R6038:6038 Algebra.Parts <> Inclusion.E var
+R6051:6059 Algebra.Sets <> Build_Map constr
+R6074:6077 Algebra.Parts <> full def
+R6079:6079 Algebra.Parts <> Inclusion.E var
+R6084:6087 Algebra.Parts <> full def
+R6091:6091 Algebra.Parts <> x var
+R6089:6089 Algebra.Parts <> Inclusion.E var
+R6051:6059 Algebra.Sets <> Build_Map constr
+R6074:6077 Algebra.Parts <> full def
+R6079:6079 Algebra.Parts <> Inclusion.E var
+R6084:6087 Algebra.Parts <> full def
+R6091:6091 Algebra.Parts <> x var
+R6089:6089 Algebra.Parts <> Inclusion.E var
+R6175:6193 Algebra.Parts <> subtype_image_equal def
+def 6259:6269 <> set_to_full
+R6273:6275 Algebra.Sets <> MAP def
+R6280:6283 Algebra.Parts <> full def
+R6285:6285 Algebra.Parts <> Inclusion.E var
+R6277:6277 Algebra.Parts <> Inclusion.E var
+R6297:6305 Algebra.Sets <> Build_Map constr
+R6343:6343 Algebra.Parts <> Inclusion.E var
+R6357:6369 Algebra.Parts <> Build_subtype constr
+R6408:6416 Algebra.Parts <> full_prop thm
+R6418:6418 Algebra.Parts <> x var
+R6404:6404 Algebra.Parts <> x var
+R6382:6385 Algebra.Parts <> full def
+R6387:6387 Algebra.Parts <> Inclusion.E var
+R6375:6375 Algebra.Parts <> Inclusion.E var
+R6318:6321 Algebra.Parts <> full def
+R6323:6323 Algebra.Parts <> Inclusion.E var
+R6311:6311 Algebra.Parts <> Inclusion.E var
+R6297:6305 Algebra.Sets <> Build_Map constr
+R6343:6343 Algebra.Parts <> Inclusion.E var
+R6357:6369 Algebra.Parts <> Build_subtype constr
+R6408:6416 Algebra.Parts <> full_prop thm
+R6418:6418 Algebra.Parts <> x var
+R6404:6404 Algebra.Parts <> x var
+R6382:6385 Algebra.Parts <> full def
+R6387:6387 Algebra.Parts <> Inclusion.E var
+R6375:6375 Algebra.Parts <> Inclusion.E var
+R6318:6321 Algebra.Parts <> full def
+R6323:6323 Algebra.Parts <> Inclusion.E var
+R6311:6311 Algebra.Parts <> Inclusion.E var
+prf 6487:6498 <> set_full_set
+R6502:6506 Algebra.Sets <> Equal proj
+R6548:6549 Algebra.Sets <> Id def
+R6551:6551 Algebra.Parts <> Inclusion.E var
+R6509:6520 Algebra.Sets <> comp_map_map def
+R6534:6544 Algebra.Parts <> set_to_full def
+R6522:6532 Algebra.Parts <> full_to_set def
+prf 6648:6660 <> full_set_full
+R6665:6669 Algebra.Sets <> Equal proj
+R6711:6712 Algebra.Sets <> Id def
+R6715:6718 Algebra.Parts <> full def
+R6720:6720 Algebra.Parts <> Inclusion.E var
+R6672:6683 Algebra.Sets <> comp_map_map def
+R6697:6707 Algebra.Parts <> full_to_set def
+R6685:6695 Algebra.Parts <> set_to_full def
+def 7008:7015 <> included
+R7024:7031 Algebra.Parts <> part_set def
+R7033:7033 Algebra.Parts <> Inclusion.E var
+R7059:7059 Algebra.Parts <> Inclusion.E var
+R7073:7076 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7077:7083 Algebra.Parts <> in_part def
+R7087:7087 Algebra.Parts <> B var
+R7085:7085 Algebra.Parts <> x var
+R7062:7068 Algebra.Parts <> in_part def
+R7072:7072 Algebra.Parts <> A var
+R7070:7070 Algebra.Parts <> x var
+prf 7157:7169 <> included_refl
+R7184:7191 Algebra.Parts <> part_set def
+R7193:7193 Algebra.Parts <> Inclusion.E var
+R7196:7203 Algebra.Parts <> included def
+R7207:7207 Algebra.Parts <> A var
+R7205:7205 Algebra.Parts <> A var
+R7232:7239 Algebra.Parts <> included def
+prf 7318:7333 <> included_antisym
+R7351:7358 Algebra.Parts <> part_set def
+R7360:7360 Algebra.Parts <> Inclusion.E var
+R7375:7378 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7391:7394 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7395:7399 Algebra.Sets <> Equal proj
+R7403:7403 Algebra.Parts <> B var
+R7401:7401 Algebra.Parts <> A var
+R7379:7386 Algebra.Parts <> included def
+R7390:7390 Algebra.Parts <> A var
+R7388:7388 Algebra.Parts <> B var
+R7363:7370 Algebra.Parts <> included def
+R7374:7374 Algebra.Parts <> B var
+R7372:7372 Algebra.Parts <> A var
+R7428:7434 Algebra.Parts <> eq_part def
+R7437:7444 Algebra.Parts <> included def
+prf 7486:7499 <> included_trans
+R7519:7526 Algebra.Parts <> part_set def
+R7528:7528 Algebra.Parts <> Inclusion.E var
+R7543:7546 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7559:7562 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7563:7570 Algebra.Parts <> included def
+R7574:7574 Algebra.Parts <> C var
+R7572:7572 Algebra.Parts <> A var
+R7547:7554 Algebra.Parts <> included def
+R7558:7558 Algebra.Parts <> C var
+R7556:7556 Algebra.Parts <> B var
+R7531:7538 Algebra.Parts <> included def
+R7542:7542 Algebra.Parts <> B var
+R7540:7540 Algebra.Parts <> A var
+R7599:7606 Algebra.Parts <> included def
+prf 7712:7724 <> included_comp
+R7748:7755 Algebra.Parts <> part_set def
+R7757:7757 Algebra.Parts <> Inclusion.E var
+R7771:7774 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7785:7788 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7801:7804 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7805:7812 Algebra.Parts <> included def
+R7817:7818 Algebra.Parts <> B' var
+R7814:7815 Algebra.Parts <> A' var
+R7789:7796 Algebra.Parts <> included def
+R7800:7800 Algebra.Parts <> B var
+R7798:7798 Algebra.Parts <> A var
+R7775:7779 Algebra.Sets <> Equal proj
+R7783:7784 Algebra.Parts <> B' var
+R7781:7781 Algebra.Parts <> B var
+R7761:7765 Algebra.Sets <> Equal proj
+R7769:7770 Algebra.Parts <> A' var
+R7767:7767 Algebra.Parts <> A var
+R7843:7849 Algebra.Parts <> eq_part def
+R7852:7859 Algebra.Parts <> included def
+prf 8084:8099 <> eq_part_included
+R8116:8123 Algebra.Parts <> part_set def
+R8125:8125 Algebra.Parts <> Inclusion.E var
+R8137:8140 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8141:8148 Algebra.Parts <> included def
+R8152:8152 Algebra.Parts <> B var
+R8150:8150 Algebra.Parts <> A var
+R8128:8132 Algebra.Sets <> Equal proj
+R8136:8136 Algebra.Parts <> B var
+R8134:8134 Algebra.Parts <> A var
+R8177:8183 Algebra.Parts <> eq_part def
+R8186:8193 Algebra.Parts <> included def
+prf 8429:8442 <> empty_included
+R8457:8464 Algebra.Parts <> part_set def
+R8466:8466 Algebra.Parts <> Inclusion.E var
+R8469:8476 Algebra.Parts <> included def
+R8488:8488 Algebra.Parts <> A var
+R8479:8483 Algebra.Parts <> empty def
+R8485:8485 Algebra.Parts <> Inclusion.E var
+R8513:8520 Algebra.Parts <> included def
+R8589:8595 Algebra.Parts <> in_part def
+R8600:8604 Algebra.Parts <> empty def
+R8606:8606 Algebra.Parts <> Inclusion.E var
+R8589:8595 Algebra.Parts <> in_part def
+R8600:8604 Algebra.Parts <> empty def
+R8606:8606 Algebra.Parts <> Inclusion.E var
+prf 8642:8654 <> full_included
+R8669:8676 Algebra.Parts <> part_set def
+R8678:8678 Algebra.Parts <> Inclusion.E var
+R8681:8688 Algebra.Parts <> included def
+R8693:8696 Algebra.Parts <> full def
+R8698:8698 Algebra.Parts <> Inclusion.E var
+R8690:8690 Algebra.Parts <> A var
+R8724:8731 Algebra.Parts <> included def
+def 8830:8837 <> inj_part
+R8852:8859 Algebra.Parts <> part_set def
+R8861:8861 Algebra.Parts <> Inclusion.E var
+R8864:8866 Algebra.Sets <> MAP def
+R8870:8870 Algebra.Parts <> Inclusion.E var
+R8868:8868 Algebra.Parts <> A var
+R8906:8914 Algebra.Sets <> Build_Map constr
+R8934:8944 Algebra.Parts <> subtype_elt proj
+R8946:8946 Algebra.Parts <> x var
+R8906:8914 Algebra.Sets <> Build_Map constr
+R8934:8944 Algebra.Parts <> subtype_elt proj
+R8946:8946 Algebra.Parts <> x var
+prf 8999:9016 <> inj_part_injective
+R9031:9038 Algebra.Parts <> part_set def
+R9040:9040 Algebra.Parts <> Inclusion.E var
+R9043:9051 Algebra.Sets <> injective def
+R9054:9061 Algebra.Parts <> inj_part def
+R9063:9063 Algebra.Parts <> A var
+def 9142:9158 <> inj_part_included
+R9177:9184 Algebra.Parts <> part_set def
+R9186:9186 Algebra.Parts <> Inclusion.E var
+R9201:9204 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9205:9207 Algebra.Sets <> MAP def
+R9211:9211 Algebra.Parts <> B var
+R9209:9209 Algebra.Parts <> A var
+R9189:9196 Algebra.Parts <> included def
+R9200:9200 Algebra.Parts <> B var
+R9198:9198 Algebra.Parts <> A var
+R9264:9272 Algebra.Sets <> Build_Map constr
+R9310:9322 Algebra.Parts <> Build_subtype constr
+R9335:9345 Algebra.Parts <> subtype_prf proj
+R9361:9361 Algebra.Parts <> x var
+R9351:9351 Algebra.Parts <> Inclusion.E var
+R9331:9331 Algebra.Parts <> x var
+R9264:9272 Algebra.Sets <> Build_Map constr
+R9310:9322 Algebra.Parts <> Build_subtype constr
+R9335:9345 Algebra.Parts <> subtype_prf proj
+R9361:9361 Algebra.Parts <> x var
+R9351:9351 Algebra.Parts <> Inclusion.E var
+R9331:9331 Algebra.Parts <> x var
+prf 9431:9452 <> inj_part_included_prop
+R9471:9478 Algebra.Parts <> part_set def
+R9480:9480 Algebra.Parts <> Inclusion.E var
+R9488:9495 Algebra.Parts <> included def
+R9499:9499 Algebra.Parts <> B var
+R9497:9497 Algebra.Parts <> A var
+R9507:9507 Algebra.Parts <> A var
+R9512:9516 Algebra.Sets <> Equal proj
+R9547:9547 Algebra.Parts <> A var
+R9549:9549 Algebra.Parts <> x var
+R9519:9519 Algebra.Parts <> B var
+R9522:9538 Algebra.Parts <> inj_part_included def
+R9542:9542 Algebra.Parts <> x var
+R9540:9540 Algebra.Parts <> p var
+prf 9599:9625 <> inj_part_included_injective
+R9644:9651 Algebra.Parts <> part_set def
+R9653:9653 Algebra.Parts <> Inclusion.E var
+R9661:9668 Algebra.Parts <> included def
+R9672:9672 Algebra.Parts <> B var
+R9670:9670 Algebra.Parts <> A var
+R9677:9685 Algebra.Sets <> injective def
+R9688:9704 Algebra.Parts <> inj_part_included def
+R9706:9706 Algebra.Parts <> p var
+def 9832:9849 <> id_map_parts_equal
+R9866:9873 Algebra.Parts <> part_set def
+R9875:9875 Algebra.Parts <> Inclusion.E var
+R9887:9890 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R9891:9893 Algebra.Sets <> MAP def
+R9897:9897 Algebra.Parts <> B var
+R9895:9895 Algebra.Parts <> A var
+R9878:9882 Algebra.Sets <> Equal proj
+R9886:9886 Algebra.Parts <> B var
+R9884:9884 Algebra.Parts <> A var
+R9938:9954 Algebra.Parts <> inj_part_included def
+R9957:9972 Algebra.Parts <> eq_part_included thm
+R9938:9954 Algebra.Parts <> inj_part_included def
+R9957:9972 Algebra.Parts <> eq_part_included thm
+prf 9996:10018 <> id_map_parts_equal_prop
+R10037:10044 Algebra.Parts <> part_set def
+R10046:10046 Algebra.Parts <> Inclusion.E var
+R10054:10058 Algebra.Sets <> Equal proj
+R10062:10062 Algebra.Parts <> B var
+R10060:10060 Algebra.Parts <> A var
+R10070:10070 Algebra.Parts <> A var
+R10075:10079 Algebra.Sets <> Equal proj
+R10121:10131 Algebra.Parts <> subtype_elt proj
+R10133:10133 Algebra.Parts <> x var
+R10082:10092 Algebra.Parts <> subtype_elt proj
+R10095:10112 Algebra.Parts <> id_map_parts_equal def
+R10116:10116 Algebra.Parts <> x var
+R10114:10114 Algebra.Parts <> p var
+R10180:10188 Algebra.Parts Inclusion <> sec
+sec 10199:10211 <> Union_of_part
+var 10223:10223 Union_of_part E
+R10227:10232 Algebra.Sets <> Setoid rec
+var 10302:10302 Union_of_part P
+R10306:10313 Algebra.Parts <> part_set def
+R10316:10323 Algebra.Parts <> part_set def
+R10325:10325 Algebra.Parts <> Union_of_part.E var
+def 10341:10350 <> union_part
+R10354:10361 Algebra.Parts <> part_set def
+R10363:10363 Algebra.Parts <> Union_of_part.E var
+R10374:10388 Algebra.Parts <> Build_Predicate constr
+R10413:10413 Algebra.Parts <> Union_of_part.E var
+R10418:10424 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10439:10440 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10429:10436 Algebra.Parts <> part_set def
+R10438:10438 Algebra.Parts <> Union_of_part.E var
+R10452:10455 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10441:10447 Algebra.Parts <> in_part def
+R10451:10451 Algebra.Parts <> Union_of_part.P var
+R10449:10449 Algebra.Parts <> A var
+R10456:10462 Algebra.Parts <> in_part def
+R10466:10466 Algebra.Parts <> A var
+R10464:10464 Algebra.Parts <> x var
+R10374:10388 Algebra.Parts <> Build_Predicate constr
+R10413:10413 Algebra.Parts <> Union_of_part.E var
+R10418:10424 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10439:10440 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10429:10436 Algebra.Parts <> part_set def
+R10438:10438 Algebra.Parts <> Union_of_part.E var
+R10452:10455 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10441:10447 Algebra.Parts <> in_part def
+R10451:10451 Algebra.Parts <> Union_of_part.P var
+R10449:10449 Algebra.Parts <> A var
+R10456:10462 Algebra.Parts <> in_part def
+R10466:10466 Algebra.Parts <> A var
+R10464:10464 Algebra.Parts <> x var
+R10642:10655 Algebra.Parts <> in_part_comp_l thm
+R10642:10655 Algebra.Parts <> in_part_comp_l thm
+prf 10700:10714 <> union_part_prop
+R10730:10730 Algebra.Parts <> Union_of_part.E var
+R10754:10757 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10758:10764 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10779:10780 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R10769:10776 Algebra.Parts <> part_set def
+R10778:10778 Algebra.Parts <> Union_of_part.E var
+R10792:10795 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R10781:10787 Algebra.Parts <> in_part def
+R10791:10791 Algebra.Parts <> Union_of_part.P var
+R10789:10789 Algebra.Parts <> A var
+R10796:10802 Algebra.Parts <> in_part def
+R10806:10806 Algebra.Parts <> A var
+R10804:10804 Algebra.Parts <> x var
+R10734:10740 Algebra.Parts <> in_part def
+R10744:10753 Algebra.Parts <> union_part def
+R10742:10742 Algebra.Parts <> x var
+prf 10864:10882 <> union_part_prop_rev
+R10898:10905 Algebra.Parts <> part_set def
+R10907:10907 Algebra.Parts <> Union_of_part.E var
+R10922:10925 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10937:10937 Algebra.Parts <> Union_of_part.E var
+R10951:10954 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10955:10961 Algebra.Parts <> in_part def
+R10965:10974 Algebra.Parts <> union_part def
+R10963:10963 Algebra.Parts <> x var
+R10940:10946 Algebra.Parts <> in_part def
+R10950:10950 Algebra.Parts <> A var
+R10948:10948 Algebra.Parts <> x var
+R10911:10917 Algebra.Parts <> in_part def
+R10921:10921 Algebra.Parts <> Union_of_part.P var
+R10919:10919 Algebra.Parts <> A var
+R10984:10993 Algebra.Parts <> union_part def
+prf 11149:11167 <> union_part_included
+R11183:11190 Algebra.Parts <> part_set def
+R11192:11192 Algebra.Parts <> Union_of_part.E var
+R11206:11209 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11210:11217 Algebra.Parts <> included def
+R11221:11230 Algebra.Parts <> union_part def
+R11219:11219 Algebra.Parts <> A var
+R11195:11201 Algebra.Parts <> in_part def
+R11205:11205 Algebra.Parts <> Union_of_part.P var
+R11203:11203 Algebra.Parts <> A var
+R11269:11276 Algebra.Parts <> included def
+R11342:11360 Algebra.Parts <> union_part_prop_rev thm
+R11342:11360 Algebra.Parts <> union_part_prop_rev thm
+prf 11408:11429 <> union_part_upper_bound
+R11445:11452 Algebra.Parts <> part_set def
+R11454:11454 Algebra.Parts <> Union_of_part.E var
+R11458:11458 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11509:11514 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11515:11522 Algebra.Parts <> included def
+R11535:11535 Algebra.Parts <> Y var
+R11524:11533 Algebra.Parts <> union_part def
+R11470:11477 Algebra.Parts <> part_set def
+R11479:11479 Algebra.Parts <> Union_of_part.E var
+R11493:11496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R11497:11504 Algebra.Parts <> included def
+R11508:11508 Algebra.Parts <> Y var
+R11506:11506 Algebra.Parts <> A var
+R11482:11488 Algebra.Parts <> in_part def
+R11492:11492 Algebra.Parts <> Union_of_part.P var
+R11490:11490 Algebra.Parts <> A var
+R11574:11581 Algebra.Parts <> included def
+R11628:11642 Algebra.Parts <> union_part_prop thm
+R11628:11642 Algebra.Parts <> union_part_prop thm
+R11729:11736 Algebra.Parts <> included def
+R11797:11809 Algebra.Parts Union_of_part <> sec
+sec 11820:11835 <> Part_set_greater
+var 11875:11875 Part_set_greater E
+R11879:11884 Algebra.Sets <> Setoid rec
+var 11896:11896 Part_set_greater f
+R11900:11902 Algebra.Sets <> MAP def
+R11907:11914 Algebra.Parts <> part_set def
+R11916:11916 Algebra.Parts <> Part_set_greater.E var
+R11904:11904 Algebra.Parts <> Part_set_greater.E var
+var 11931:11935 Part_set_greater fsurj
+R11939:11948 Algebra.Sets <> surjective def
+R11950:11950 Algebra.Parts <> Part_set_greater.f var
+var 11958:11962 Part_set_greater X_def
+R11969:11969 Algebra.Parts <> Part_set_greater.E var
+R11982:11983 Coq.Init.Logic <> ::type_scope:'~'_x not
+R11984:11990 Algebra.Parts <> in_part def
+R11995:11995 Algebra.Parts <> Part_set_greater.f var
+R11997:11997 Algebra.Parts <> x var
+R11992:11992 Algebra.Parts <> x var
+var 12006:12006 Part_set_greater X
+R12010:12017 Algebra.Parts <> part_set def
+R12019:12019 Algebra.Parts <> Part_set_greater.E var
+R12029:12043 Algebra.Parts <> Build_Predicate constr
+R12063:12067 Algebra.Parts <> Part_set_greater.X_def var
+R12049:12049 Algebra.Parts <> Part_set_greater.E var
+R12029:12043 Algebra.Parts <> Build_Predicate constr
+R12063:12067 Algebra.Parts <> Part_set_greater.X_def var
+R12049:12049 Algebra.Parts <> Part_set_greater.E var
+R12079:12083 Algebra.Parts <> X_def vardef
+R12114:12116 Coq.Init.Logic <> not def
+R12182:12195 Algebra.Parts <> in_part_comp_l thm
+R12182:12195 Algebra.Parts <> in_part_comp_l thm
+R12251:12252 Algebra.Sets <> Ap proj
+R12254:12254 Algebra.Parts <> Part_set_greater.f var
+R12230:12243 Algebra.Parts <> in_part_comp_r thm
+R12251:12252 Algebra.Sets <> Ap proj
+R12254:12254 Algebra.Parts <> Part_set_greater.f var
+R12230:12243 Algebra.Parts <> in_part_comp_r thm
+var 12293:12296 Part_set_greater invX
+R12300:12306 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12312:12313 Coq.Init.Logic <> ::type_scope:'exists'_x_'..'_x_','_x not
+R12311:12311 Algebra.Parts <> Part_set_greater.E var
+R12314:12318 Algebra.Sets <> Equal proj
+R12323:12323 Algebra.Parts <> Part_set_greater.f var
+R12325:12325 Algebra.Parts <> x var
+R12320:12320 Algebra.Parts <> Part_set_greater.X var
+R12336:12340 Algebra.Parts <> Part_set_greater.fsurj var
+R12342:12342 Algebra.Parts <> Part_set_greater.X var
+R12336:12340 Algebra.Parts <> Part_set_greater.fsurj var
+R12342:12342 Algebra.Parts <> Part_set_greater.X var
+prf 12358:12374 <> not_inpart_comp_r
+R12391:12396 Algebra.Sets <> Setoid rec
+R12404:12404 Algebra.Parts <> E var
+R12414:12421 Algebra.Parts <> part_set def
+R12423:12423 Algebra.Parts <> E var
+R12441:12444 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12454:12457 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R12458:12459 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12460:12466 Algebra.Parts <> in_part def
+R12470:12470 Algebra.Parts <> B var
+R12468:12468 Algebra.Parts <> x var
+R12445:12449 Algebra.Sets <> Equal proj
+R12453:12453 Algebra.Parts <> B var
+R12451:12451 Algebra.Parts <> A var
+R12428:12429 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12430:12436 Algebra.Parts <> in_part def
+R12440:12440 Algebra.Parts <> A var
+R12438:12438 Algebra.Parts <> x var
+R12480:12482 Coq.Init.Logic <> not def
+R12553:12566 Algebra.Parts <> in_part_comp_r thm
+R12553:12566 Algebra.Parts <> in_part_comp_r thm
+prf 12609:12646 <> part_set_is_strictly_greater_than_set1
+R12650:12654 Coq.Init.Logic <> False ind
+R12662:12665 Algebra.Parts <> Part_set_greater.invX var
+R12662:12665 Algebra.Parts <> Part_set_greater.invX var
+R12702:12703 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12704:12710 Algebra.Parts <> in_part def
+R12714:12714 Algebra.Parts <> Part_set_greater.X var
+R12702:12703 Coq.Init.Logic <> ::type_scope:'~'_x not
+R12704:12710 Algebra.Parts <> in_part def
+R12714:12714 Algebra.Parts <> Part_set_greater.X var
+R12754:12760 Algebra.Parts <> in_part def
+R12764:12764 Algebra.Parts <> Part_set_greater.X var
+R12754:12760 Algebra.Parts <> in_part def
+R12764:12764 Algebra.Parts <> Part_set_greater.X var
+R12809:12813 Algebra.Parts <> X_def vardef
+R12853:12853 Algebra.Parts <> Part_set_greater.X var
+R12830:12846 Algebra.Parts <> not_inpart_comp_r thm
+R12853:12853 Algebra.Parts <> Part_set_greater.X var
+R12830:12846 Algebra.Parts <> not_inpart_comp_r thm
+R12882:12884 Coq.Init.Logic <> not def
+R12931:12937 Algebra.Parts <> in_part def
+R12941:12941 Algebra.Parts <> Part_set_greater.X var
+R12931:12937 Algebra.Parts <> in_part def
+R12941:12941 Algebra.Parts <> Part_set_greater.X var
+R12994:12995 Algebra.Sets <> Ap proj
+R12997:12997 Algebra.Parts <> Part_set_greater.f var
+R12970:12986 Algebra.Parts <> not_inpart_comp_r thm
+R12994:12995 Algebra.Sets <> Ap proj
+R12997:12997 Algebra.Parts <> Part_set_greater.f var
+R12970:12986 Algebra.Parts <> not_inpart_comp_r thm
+R13031:13046 Algebra.Parts Part_set_greater <> sec
+prf 13058:13094 <> part_set_is_strictly_greater_than_set
+R13111:13116 Algebra.Sets <> Setoid rec
+R13124:13126 Algebra.Sets <> MAP def
+R13131:13138 Algebra.Parts <> part_set def
+R13140:13140 Algebra.Parts <> E var
+R13128:13128 Algebra.Parts <> E var
+R13145:13146 Coq.Init.Logic <> ::type_scope:'~'_x not
+R13147:13156 Algebra.Sets <> surjective def
+R13158:13158 Algebra.Parts <> f var
+R13167:13204 Algebra.Parts <> part_set_is_strictly_greater_than_set1 thm
+R13167:13204 Algebra.Parts <> part_set_is_strictly_greater_than_set1 thm
+R13224:13238 Algebra.Parts <> pred_compatible def

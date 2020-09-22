@@ -1,0 +1,415 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 15; Loc.bol_pos = 840; Loc.line_nb_last = 15; Loc.bol_pos_last = 840; Loc.bp = 840; Loc.ep = 869} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 17; Loc.bol_pos = 871; Loc.line_nb_last = 17; Loc.bol_pos_last = 871; Loc.bp = 871; Loc.ep = 898} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 19; Loc.bol_pos = 900; Loc.line_nb_last = 19; Loc.bol_pos_last = 900; Loc.bp = 900; Loc.ep = 922} **)
+(**VERNAC_TYPE** VernacReserve **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 23; Loc.bol_pos = 986; Loc.line_nb_last = 23; Loc.bol_pos_last = 986; Loc.bp = 986; Loc.ep = 1027} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 28; Loc.bol_pos = 1166; Loc.line_nb_last = 30; Loc.bol_pos_last = 1209; Loc.bp = 1166; Loc.ep = 1275} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 31; Loc.bol_pos = 1276; Loc.line_nb_last = 31; Loc.bol_pos_last = 1276; Loc.bp = 1276; Loc.ep = 1282} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 32; Loc.bol_pos = 1283; Loc.line_nb_last = 32; Loc.bol_pos_last = 1283; Loc.bp = 1285; Loc.ep = 1303} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 33; Loc.bol_pos = 1304; Loc.line_nb_last = 33; Loc.bol_pos_last = 1304; Loc.bp = 1306; Loc.ep = 1323} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 34; Loc.bol_pos = 1324; Loc.line_nb_last = 34; Loc.bol_pos_last = 1324; Loc.bp = 1326; Loc.ep = 1348} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 35; Loc.bol_pos = 1349; Loc.line_nb_last = 35; Loc.bol_pos_last = 1349; Loc.bp = 1351; Loc.ep = 1352} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 35; Loc.bol_pos = 1349; Loc.line_nb_last = 35; Loc.bol_pos_last = 1349; Loc.bp = 1353; Loc.ep = 1362} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 36; Loc.bol_pos = 1363; Loc.line_nb_last = 36; Loc.bol_pos_last = 1363; Loc.bp = 1365; Loc.ep = 1366} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 36; Loc.bol_pos = 1363; Loc.line_nb_last = 36; Loc.bol_pos_last = 1363; Loc.bp = 1367; Loc.ep = 1376} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 37; Loc.bol_pos = 1377; Loc.line_nb_last = 37; Loc.bol_pos_last = 1377; Loc.bp = 1379; Loc.ep = 1380} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 37; Loc.bol_pos = 1377; Loc.line_nb_last = 37; Loc.bol_pos_last = 1377; Loc.bp = 1381; Loc.ep = 1402} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 38; Loc.bol_pos = 1403; Loc.line_nb_last = 38; Loc.bol_pos_last = 1403; Loc.bp = 1403; Loc.ep = 1407} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** ind_0_1_SS **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 42; Loc.bol_pos = 1437; Loc.line_nb_last = 42; Loc.bol_pos_last = 1437; Loc.bp = 1437; Loc.ep = 1475} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 43; Loc.bol_pos = 1476; Loc.line_nb_last = 43; Loc.bol_pos_last = 1476; Loc.bp = 1476; Loc.ep = 1482} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 43; Loc.bol_pos = 1476; Loc.line_nb_last = 43; Loc.bol_pos_last = 1476; Loc.bp = 1483; Loc.ep = 1501} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 43; Loc.bol_pos = 1476; Loc.line_nb_last = 43; Loc.bol_pos_last = 1476; Loc.bp = 1502; Loc.ep = 1506} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** lt_div2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 45; Loc.bol_pos = 1508; Loc.line_nb_last = 45; Loc.bol_pos_last = 1508; Loc.bp = 1508; Loc.ep = 1536} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 49; Loc.bol_pos = 1579; Loc.line_nb_last = 49; Loc.bol_pos_last = 1579; Loc.bp = 1579; Loc.ep = 1629} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 50; Loc.bol_pos = 1630; Loc.line_nb_last = 50; Loc.bol_pos_last = 1630; Loc.bp = 1630; Loc.ep = 1636} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 51; Loc.bol_pos = 1637; Loc.line_nb_last = 51; Loc.bol_pos_last = 1637; Loc.bp = 1638; Loc.ep = 1662} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 51; Loc.bol_pos = 1637; Loc.line_nb_last = 51; Loc.bol_pos_last = 1637; Loc.bp = 1663; Loc.ep = 1677} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 52; Loc.bol_pos = 1678; Loc.line_nb_last = 52; Loc.bol_pos_last = 1678; Loc.bp = 1679; Loc.ep = 1708} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 52; Loc.bol_pos = 1678; Loc.line_nb_last = 52; Loc.bol_pos_last = 1678; Loc.bp = 1709; Loc.ep = 1731} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 53; Loc.bol_pos = 1732; Loc.line_nb_last = 53; Loc.bol_pos_last = 1732; Loc.bp = 1732; Loc.ep = 1736} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** even_div2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 55; Loc.bol_pos = 1738; Loc.line_nb_last = 55; Loc.bol_pos_last = 1738; Loc.bp = 1738; Loc.ep = 1790} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 56; Loc.bol_pos = 1791; Loc.line_nb_last = 56; Loc.bol_pos_last = 1791; Loc.bp = 1791; Loc.ep = 1797} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 57; Loc.bol_pos = 1798; Loc.line_nb_last = 57; Loc.bol_pos_last = 1798; Loc.bp = 1799; Loc.ep = 1822} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 57; Loc.bol_pos = 1798; Loc.line_nb_last = 57; Loc.bol_pos_last = 1798; Loc.bp = 1823; Loc.ep = 1837} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 58; Loc.bol_pos = 1838; Loc.line_nb_last = 58; Loc.bol_pos_last = 1838; Loc.bp = 1839; Loc.ep = 1881} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 59; Loc.bol_pos = 1882; Loc.line_nb_last = 59; Loc.bol_pos_last = 1882; Loc.bp = 1883; Loc.ep = 1889} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 59; Loc.bol_pos = 1882; Loc.line_nb_last = 59; Loc.bol_pos_last = 1882; Loc.bp = 1890; Loc.ep = 1898} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 59; Loc.bol_pos = 1882; Loc.line_nb_last = 59; Loc.bol_pos_last = 1882; Loc.bp = 1899; Loc.ep = 1908} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 59; Loc.bol_pos = 1882; Loc.line_nb_last = 59; Loc.bol_pos_last = 1882; Loc.bp = 1909; Loc.ep = 1931} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 60; Loc.bol_pos = 1932; Loc.line_nb_last = 60; Loc.bol_pos_last = 1932; Loc.bp = 1932; Loc.ep = 1936} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** odd_div2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 62; Loc.bol_pos = 1938; Loc.line_nb_last = 62; Loc.bol_pos_last = 1938; Loc.bp = 1938; Loc.ep = 1988} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 63; Loc.bol_pos = 1989; Loc.line_nb_last = 63; Loc.bol_pos_last = 1989; Loc.bp = 1989; Loc.ep = 1995} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 64; Loc.bol_pos = 1996; Loc.line_nb_last = 64; Loc.bol_pos_last = 1996; Loc.bp = 1997; Loc.ep = 2042} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 65; Loc.bol_pos = 2043; Loc.line_nb_last = 65; Loc.bol_pos_last = 2043; Loc.bp = 2044; Loc.ep = 2065} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 65; Loc.bol_pos = 2043; Loc.line_nb_last = 65; Loc.bol_pos_last = 2043; Loc.bp = 2066; Loc.ep = 2080} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 65; Loc.bol_pos = 2043; Loc.line_nb_last = 65; Loc.bol_pos_last = 2043; Loc.bp = 2081; Loc.ep = 2091} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 66; Loc.bol_pos = 2092; Loc.line_nb_last = 66; Loc.bol_pos_last = 2092; Loc.bp = 2093; Loc.ep = 2111} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 67; Loc.bol_pos = 2112; Loc.line_nb_last = 67; Loc.bol_pos_last = 2112; Loc.bp = 2112; Loc.ep = 2116} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** div2_even **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 69; Loc.bol_pos = 2118; Loc.line_nb_last = 69; Loc.bol_pos_last = 2118; Loc.bp = 2118; Loc.ep = 2170} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 70; Loc.bol_pos = 2171; Loc.line_nb_last = 70; Loc.bol_pos_last = 2171; Loc.bp = 2171; Loc.ep = 2177} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 71; Loc.bol_pos = 2178; Loc.line_nb_last = 71; Loc.bol_pos_last = 2178; Loc.bp = 2179; Loc.ep = 2224} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 72; Loc.bol_pos = 2225; Loc.line_nb_last = 72; Loc.bol_pos_last = 2225; Loc.bp = 2226; Loc.ep = 2248} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 72; Loc.bol_pos = 2225; Loc.line_nb_last = 72; Loc.bol_pos_last = 2225; Loc.bp = 2249; Loc.ep = 2263} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 72; Loc.bol_pos = 2225; Loc.line_nb_last = 72; Loc.bol_pos_last = 2225; Loc.bp = 2264; Loc.ep = 2274} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 73; Loc.bol_pos = 2275; Loc.line_nb_last = 73; Loc.bol_pos_last = 2275; Loc.bp = 2276; Loc.ep = 2292} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 73; Loc.bol_pos = 2275; Loc.line_nb_last = 73; Loc.bol_pos_last = 2275; Loc.bp = 2293; Loc.ep = 2311} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 74; Loc.bol_pos = 2312; Loc.line_nb_last = 74; Loc.bol_pos_last = 2312; Loc.bp = 2312; Loc.ep = 2316} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** div2_odd **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 76; Loc.bol_pos = 2318; Loc.line_nb_last = 76; Loc.bol_pos_last = 2318; Loc.bp = 2318; Loc.ep = 2376} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 78; Loc.bol_pos = 2378; Loc.line_nb_last = 80; Loc.bol_pos_last = 2439; Loc.bp = 2378; Loc.ep = 2476} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 81; Loc.bol_pos = 2477; Loc.line_nb_last = 81; Loc.bol_pos_last = 2477; Loc.bp = 2477; Loc.ep = 2483} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 82; Loc.bol_pos = 2484; Loc.line_nb_last = 82; Loc.bol_pos_last = 2484; Loc.bp = 2485; Loc.ep = 2551} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 83; Loc.bol_pos = 2552; Loc.line_nb_last = 83; Loc.bol_pos_last = 2552; Loc.bp = 2552; Loc.ep = 2556} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** even_odd_div2 **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 89; Loc.bol_pos = 2608; Loc.line_nb_last = 89; Loc.bol_pos_last = 2608; Loc.bp = 2608; Loc.ep = 2653} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 91; Loc.bol_pos = 2655; Loc.line_nb_last = 91; Loc.bol_pos_last = 2655; Loc.bp = 2655; Loc.ep = 2692} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 93; Loc.bol_pos = 2694; Loc.line_nb_last = 93; Loc.bol_pos_last = 2694; Loc.bp = 2694; Loc.ep = 2745} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 94; Loc.bol_pos = 2746; Loc.line_nb_last = 94; Loc.bol_pos_last = 2746; Loc.bp = 2746; Loc.ep = 2752} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 95; Loc.bol_pos = 2753; Loc.line_nb_last = 95; Loc.bol_pos_last = 2753; Loc.bp = 2755; Loc.ep = 2776} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 96; Loc.bol_pos = 2777; Loc.line_nb_last = 96; Loc.bol_pos_last = 2777; Loc.bp = 2777; Loc.ep = 2781} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** double_S **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 98; Loc.bol_pos = 2783; Loc.line_nb_last = 98; Loc.bol_pos_last = 2783; Loc.bp = 2783; Loc.ep = 2844} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 99; Loc.bol_pos = 2845; Loc.line_nb_last = 99; Loc.bol_pos_last = 2845; Loc.bp = 2845; Loc.ep = 2851} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 100; Loc.bol_pos = 2852; Loc.line_nb_last = 100; Loc.bol_pos_last = 2852; Loc.bp = 2854; Loc.ep = 2877} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 101; Loc.bol_pos = 2878; Loc.line_nb_last = 101; Loc.bol_pos_last = 2878; Loc.bp = 2878; Loc.ep = 2882} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** double_plus **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 103; Loc.bol_pos = 2884; Loc.line_nb_last = 103; Loc.bol_pos_last = 2884; Loc.bp = 2884; Loc.ep = 2913} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 105; Loc.bol_pos = 2915; Loc.line_nb_last = 106; Loc.bol_pos_last = 2941; Loc.bp = 2915; Loc.ep = 3015} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 107; Loc.bol_pos = 3016; Loc.line_nb_last = 107; Loc.bol_pos_last = 3016; Loc.bp = 3016; Loc.ep = 3022} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 108; Loc.bol_pos = 3023; Loc.line_nb_last = 108; Loc.bol_pos_last = 3023; Loc.bp = 3025; Loc.ep = 3034} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 108; Loc.bol_pos = 3023; Loc.line_nb_last = 108; Loc.bol_pos_last = 3023; Loc.bp = 3035; Loc.ep = 3057} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 108; Loc.bol_pos = 3023; Loc.line_nb_last = 108; Loc.bol_pos_last = 3023; Loc.bp = 3058; Loc.ep = 3080} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 109; Loc.bol_pos = 3081; Loc.line_nb_last = 109; Loc.bol_pos_last = 3081; Loc.bp = 3083; Loc.ep = 3084} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 110; Loc.bol_pos = 3097; Loc.line_nb_last = 110; Loc.bol_pos_last = 3097; Loc.bp = 3101; Loc.ep = 3131} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 110; Loc.bol_pos = 3097; Loc.line_nb_last = 110; Loc.bol_pos_last = 3097; Loc.bp = 3132; Loc.ep = 3144} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 111; Loc.bol_pos = 3145; Loc.line_nb_last = 111; Loc.bol_pos_last = 3145; Loc.bp = 3147; Loc.ep = 3148} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 112; Loc.bol_pos = 3161; Loc.line_nb_last = 112; Loc.bol_pos_last = 3161; Loc.bp = 3165; Loc.ep = 3195} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 112; Loc.bol_pos = 3161; Loc.line_nb_last = 112; Loc.bol_pos_last = 3161; Loc.bp = 3196; Loc.ep = 3214} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 112; Loc.bol_pos = 3161; Loc.line_nb_last = 112; Loc.bol_pos_last = 3161; Loc.bp = 3215; Loc.ep = 3228} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 113; Loc.bol_pos = 3229; Loc.line_nb_last = 113; Loc.bol_pos_last = 3229; Loc.bp = 3231; Loc.ep = 3232} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 114; Loc.bol_pos = 3254; Loc.line_nb_last = 114; Loc.bol_pos_last = 3254; Loc.bp = 3258; Loc.ep = 3310} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 115; Loc.bol_pos = 3311; Loc.line_nb_last = 115; Loc.bol_pos_last = 3311; Loc.bp = 3315; Loc.ep = 3359} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 116; Loc.bol_pos = 3360; Loc.line_nb_last = 116; Loc.bol_pos_last = 3360; Loc.bp = 3364; Loc.ep = 3365} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 116; Loc.bol_pos = 3360; Loc.line_nb_last = 116; Loc.bol_pos_last = 3360; Loc.bp = 3366; Loc.ep = 3384} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 116; Loc.bol_pos = 3360; Loc.line_nb_last = 116; Loc.bol_pos_last = 3360; Loc.bp = 3385; Loc.ep = 3404} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 116; Loc.bol_pos = 3360; Loc.line_nb_last = 116; Loc.bol_pos_last = 3360; Loc.bp = 3405; Loc.ep = 3410} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 117; Loc.bol_pos = 3411; Loc.line_nb_last = 117; Loc.bol_pos_last = 3411; Loc.bp = 3415; Loc.ep = 3416} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 117; Loc.bol_pos = 3411; Loc.line_nb_last = 117; Loc.bol_pos_last = 3411; Loc.bp = 3417; Loc.ep = 3429} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 117; Loc.bol_pos = 3411; Loc.line_nb_last = 117; Loc.bol_pos_last = 3411; Loc.bp = 3430; Loc.ep = 3446} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 118; Loc.bol_pos = 3447; Loc.line_nb_last = 118; Loc.bol_pos_last = 3447; Loc.bp = 3451; Loc.ep = 3452} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 118; Loc.bol_pos = 3447; Loc.line_nb_last = 118; Loc.bol_pos_last = 3447; Loc.bp = 3453; Loc.ep = 3471} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 118; Loc.bol_pos = 3447; Loc.line_nb_last = 118; Loc.bol_pos_last = 3447; Loc.bp = 3472; Loc.ep = 3491} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 118; Loc.bol_pos = 3447; Loc.line_nb_last = 118; Loc.bol_pos_last = 3447; Loc.bp = 3492; Loc.ep = 3497} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 119; Loc.bol_pos = 3498; Loc.line_nb_last = 119; Loc.bol_pos_last = 3498; Loc.bp = 3502; Loc.ep = 3503} **)
+(**VERNAC_TYPE** VernacBullet **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 119; Loc.bol_pos = 3498; Loc.line_nb_last = 119; Loc.bol_pos_last = 3498; Loc.bp = 3504; Loc.ep = 3516} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 119; Loc.bol_pos = 3498; Loc.line_nb_last = 119; Loc.bol_pos_last = 3498; Loc.bp = 3517; Loc.ep = 3533} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 120; Loc.bol_pos = 3534; Loc.line_nb_last = 120; Loc.bol_pos_last = 3534; Loc.bp = 3534; Loc.ep = 3538} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** even_odd_double **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 124; Loc.bol_pos = 3564; Loc.line_nb_last = 124; Loc.bol_pos_last = 3564; Loc.bp = 3564; Loc.ep = 3616} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 125; Loc.bol_pos = 3617; Loc.line_nb_last = 125; Loc.bol_pos_last = 3617; Loc.bp = 3617; Loc.ep = 3657} **)
+(**VERNAC_TYPE** VernacExactProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 127; Loc.bol_pos = 3659; Loc.line_nb_last = 127; Loc.bol_pos_last = 3659; Loc.bp = 3659; Loc.ep = 3711} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 128; Loc.bol_pos = 3712; Loc.line_nb_last = 128; Loc.bol_pos_last = 3712; Loc.bp = 3712; Loc.ep = 3752} **)
+(**VERNAC_TYPE** VernacExactProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 130; Loc.bol_pos = 3754; Loc.line_nb_last = 130; Loc.bol_pos_last = 3754; Loc.bp = 3754; Loc.ep = 3808} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 131; Loc.bol_pos = 3809; Loc.line_nb_last = 131; Loc.bol_pos_last = 3809; Loc.bp = 3809; Loc.ep = 3849} **)
+(**VERNAC_TYPE** VernacExactProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 133; Loc.bol_pos = 3851; Loc.line_nb_last = 133; Loc.bol_pos_last = 3851; Loc.bp = 3851; Loc.ep = 3905} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 134; Loc.bol_pos = 3906; Loc.line_nb_last = 134; Loc.bol_pos_last = 3906; Loc.bp = 3906; Loc.ep = 3946} **)
+(**VERNAC_TYPE** VernacExactProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 136; Loc.bol_pos = 3948; Loc.line_nb_last = 136; Loc.bol_pos_last = 3948; Loc.bp = 3948; Loc.ep = 4014} **)
+(**VERNAC_TYPE** VernacHints **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 144; Loc.bol_pos = 4189; Loc.line_nb_last = 144; Loc.bol_pos_last = 4189; Loc.bp = 4189; Loc.ep = 4250} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 145; Loc.bol_pos = 4251; Loc.line_nb_last = 145; Loc.bol_pos_last = 4251; Loc.bp = 4251; Loc.ep = 4257} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 146; Loc.bol_pos = 4258; Loc.line_nb_last = 146; Loc.bol_pos_last = 4258; Loc.bp = 4260; Loc.ep = 4271} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 146; Loc.bol_pos = 4258; Loc.line_nb_last = 146; Loc.bol_pos_last = 4258; Loc.bp = 4272; Loc.ep = 4288} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 146; Loc.bol_pos = 4258; Loc.line_nb_last = 146; Loc.bol_pos_last = 4258; Loc.bp = 4289; Loc.ep = 4305} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 147; Loc.bol_pos = 4306; Loc.line_nb_last = 147; Loc.bol_pos_last = 4306; Loc.bp = 4306; Loc.ep = 4314} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** even_2n **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 149; Loc.bol_pos = 4316; Loc.line_nb_last = 149; Loc.bol_pos_last = 4316; Loc.bp = 4316; Loc.ep = 4380} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 150; Loc.bol_pos = 4381; Loc.line_nb_last = 150; Loc.bol_pos_last = 4381; Loc.bp = 4381; Loc.ep = 4387} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 151; Loc.bol_pos = 4388; Loc.line_nb_last = 151; Loc.bol_pos_last = 4388; Loc.bp = 4390; Loc.ep = 4401} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 151; Loc.bol_pos = 4388; Loc.line_nb_last = 151; Loc.bol_pos_last = 4388; Loc.bp = 4402; Loc.ep = 4418} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 151; Loc.bol_pos = 4388; Loc.line_nb_last = 151; Loc.bol_pos_last = 4388; Loc.bp = 4419; Loc.ep = 4435} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 152; Loc.bol_pos = 4436; Loc.line_nb_last = 152; Loc.bol_pos_last = 4436; Loc.bp = 4436; Loc.ep = 4444} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** odd_S2n **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 156; Loc.bol_pos = 4521; Loc.line_nb_last = 156; Loc.bol_pos_last = 4521; Loc.bp = 4521; Loc.ep = 4558} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 157; Loc.bol_pos = 4559; Loc.line_nb_last = 157; Loc.bol_pos_last = 4559; Loc.bp = 4559; Loc.ep = 4565} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 157; Loc.bol_pos = 4559; Loc.line_nb_last = 157; Loc.bol_pos_last = 4559; Loc.bp = 4566; Loc.ep = 4588} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 157; Loc.bol_pos = 4559; Loc.line_nb_last = 157; Loc.bol_pos_last = 4559; Loc.bp = 4589; Loc.ep = 4593} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** div2_double **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 159; Loc.bol_pos = 4595; Loc.line_nb_last = 159; Loc.bol_pos_last = 4595; Loc.bp = 4595; Loc.ep = 4645} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 160; Loc.bol_pos = 4646; Loc.line_nb_last = 160; Loc.bol_pos_last = 4646; Loc.bp = 4646; Loc.ep = 4652} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 160; Loc.bol_pos = 4646; Loc.line_nb_last = 160; Loc.bol_pos_last = 4646; Loc.bp = 4653; Loc.ep = 4680} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Arith/Div2.v"; Loc.line_nb = 160; Loc.bol_pos = 4646; Loc.line_nb_last = 160; Loc.bol_pos_last = 4646; Loc.bp = 4681; Loc.ep = 4685} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** div2_double_plus_one **)

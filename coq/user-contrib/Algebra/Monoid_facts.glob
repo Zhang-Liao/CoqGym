@@ -1,0 +1,82 @@
+DIGEST 7ed6e28d98e9322b20d4334fd9d1fb42
+FAlgebra.Monoid_facts
+R1086:1095 Algebra.Monoid_cat <> <> lib
+sec 1106:1111 <> Lemmas
+var 1123:1123 Lemmas E
+R1127:1132 Algebra.Monoid_cat <> MONOID def
+prf 1142:1154 <> MONOID_unit_r
+R1169:1169 Algebra.Monoid_facts <> Lemmas.E var
+R1172:1176 Algebra.Sets <> Equal proj
+R1211:1211 Algebra.Monoid_facts <> x var
+R1179:1188 Algebra.Sgroup_cat <> sgroup_law def
+R1195:1205 Algebra.Monoid_cat <> monoid_unit proj
+R1207:1207 Algebra.Monoid_facts <> Lemmas.E var
+R1192:1192 Algebra.Monoid_facts <> x var
+R1229:1245 Algebra.Monoid_cat <> monoid_unit_r_prf proj
+R1247:1247 Algebra.Monoid_facts <> Lemmas.E var
+R1229:1245 Algebra.Monoid_cat <> monoid_unit_r_prf proj
+R1247:1247 Algebra.Monoid_facts <> Lemmas.E var
+prf 1265:1277 <> MONOID_unit_l
+R1292:1292 Algebra.Monoid_facts <> Lemmas.E var
+R1295:1299 Algebra.Sets <> Equal proj
+R1334:1334 Algebra.Monoid_facts <> x var
+R1302:1311 Algebra.Sgroup_cat <> sgroup_law def
+R1331:1331 Algebra.Monoid_facts <> x var
+R1316:1326 Algebra.Monoid_cat <> monoid_unit proj
+R1328:1328 Algebra.Monoid_facts <> Lemmas.E var
+R1352:1368 Algebra.Monoid_cat <> monoid_unit_l_prf proj
+R1370:1370 Algebra.Monoid_facts <> Lemmas.E var
+R1352:1368 Algebra.Monoid_cat <> monoid_unit_l_prf proj
+R1370:1370 Algebra.Monoid_facts <> Lemmas.E var
+prf 1388:1405 <> MONOID_unit_unique
+R1421:1421 Algebra.Monoid_facts <> Lemmas.E var
+R1425:1425 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1466:1471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1472:1472 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1513:1517 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1518:1522 Algebra.Sets <> Equal proj
+R1527:1537 Algebra.Monoid_cat <> monoid_unit proj
+R1539:1539 Algebra.Monoid_facts <> Lemmas.E var
+R1524:1524 Algebra.Monoid_facts <> e var
+R1484:1484 Algebra.Monoid_facts <> Lemmas.E var
+R1487:1491 Algebra.Sets <> Equal proj
+R1512:1512 Algebra.Monoid_facts <> x var
+R1494:1503 Algebra.Sgroup_cat <> sgroup_law def
+R1509:1509 Algebra.Monoid_facts <> x var
+R1507:1507 Algebra.Monoid_facts <> e var
+R1437:1437 Algebra.Monoid_facts <> Lemmas.E var
+R1440:1444 Algebra.Sets <> Equal proj
+R1465:1465 Algebra.Monoid_facts <> x var
+R1447:1456 Algebra.Sgroup_cat <> sgroup_law def
+R1462:1462 Algebra.Monoid_facts <> e var
+R1460:1460 Algebra.Monoid_facts <> x var
+R1594:1603 Algebra.Sgroup_cat <> sgroup_law def
+R1610:1620 Algebra.Monoid_cat <> monoid_unit proj
+R1622:1622 Algebra.Monoid_facts <> Lemmas.E var
+R1582:1586 Algebra.Sets <> Trans thm
+R1594:1603 Algebra.Sgroup_cat <> sgroup_law def
+R1610:1620 Algebra.Monoid_cat <> monoid_unit proj
+R1622:1622 Algebra.Monoid_facts <> Lemmas.E var
+R1582:1586 Algebra.Sets <> Trans thm
+R1652:1654 Algebra.Sets <> Sym thm
+R1652:1654 Algebra.Sets <> Sym thm
+R1663:1675 Algebra.Monoid_facts <> MONOID_unit_r thm
+R1663:1675 Algebra.Monoid_facts <> MONOID_unit_r thm
+var 1692:1692 Lemmas F
+R1696:1701 Algebra.Monoid_cat <> MONOID def
+var 1713:1713 Lemmas f
+R1717:1719 Algebra.Categories <> Hom proj
+R1723:1723 Algebra.Monoid_facts <> Lemmas.F var
+R1721:1721 Algebra.Monoid_facts <> Lemmas.E var
+prf 1733:1747 <> MONOID_hom_prop
+R1751:1755 Algebra.Sets <> Equal proj
+R1778:1788 Algebra.Monoid_cat <> monoid_unit proj
+R1790:1790 Algebra.Monoid_facts <> Lemmas.F var
+R1758:1758 Algebra.Monoid_facts <> Lemmas.f var
+R1761:1771 Algebra.Monoid_cat <> monoid_unit proj
+R1773:1773 Algebra.Monoid_facts <> Lemmas.E var
+R1801:1814 Algebra.Monoid_cat <> monoid_hom_prf proj
+R1816:1816 Algebra.Monoid_facts <> Lemmas.f var
+R1801:1814 Algebra.Monoid_cat <> monoid_hom_prf proj
+R1816:1816 Algebra.Monoid_facts <> Lemmas.f var
+R1829:1834 Algebra.Monoid_facts Lemmas <> sec

@@ -1,0 +1,62 @@
+DIGEST c3e7c2f74b55fade158c0bcced03af2a
+FAlgebra.Diff
+R1086:1090 Algebra.Parts <> <> lib
+sec 1141:1144 <> Diff
+var 1156:1156 Diff E
+R1160:1165 Algebra.Sets <> Setoid rec
+def 1180:1183 <> diff
+R1197:1200 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1211:1214 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1215:1222 Algebra.Parts <> part_set def
+R1224:1224 Algebra.Diff <> Diff.E var
+R1201:1208 Algebra.Parts <> part_set def
+R1210:1210 Algebra.Diff <> Diff.E var
+R1187:1194 Algebra.Parts <> part_set def
+R1196:1196 Algebra.Diff <> Diff.E var
+R1246:1260 Algebra.Parts <> Build_Predicate constr
+R1281:1281 Algebra.Diff <> Diff.E var
+R1297:1300 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1286:1292 Algebra.Parts <> in_part def
+R1294:1294 Algebra.Diff <> x var
+R1301:1302 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1303:1309 Algebra.Parts <> in_part def
+R1311:1311 Algebra.Diff <> x var
+R1246:1260 Algebra.Parts <> Build_Predicate constr
+R1281:1281 Algebra.Diff <> Diff.E var
+R1297:1300 Coq.Init.Logic <> ::type_scope:x_'/\'_x not
+R1286:1292 Algebra.Parts <> in_part def
+R1294:1294 Algebra.Diff <> x var
+R1301:1302 Coq.Init.Logic <> ::type_scope:'~'_x not
+R1303:1309 Algebra.Parts <> in_part def
+R1311:1311 Algebra.Diff <> x var
+R1457:1470 Algebra.Parts <> in_part_comp_l thm
+R1457:1470 Algebra.Parts <> in_part_comp_l thm
+R1547:1553 Algebra.Parts <> in_part def
+R1547:1553 Algebra.Parts <> in_part def
+R1586:1599 Algebra.Parts <> in_part_comp_l thm
+R1586:1599 Algebra.Parts <> in_part_comp_l thm
+prf 1644:1652 <> diff_comp
+R1676:1683 Algebra.Parts <> part_set def
+R1685:1685 Algebra.Diff <> Diff.E var
+R1699:1702 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1713:1716 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1717:1721 Algebra.Sets <> Equal proj
+R1735:1738 Algebra.Diff <> diff def
+R1743:1744 Algebra.Diff <> B' var
+R1740:1741 Algebra.Diff <> A' var
+R1724:1727 Algebra.Diff <> diff def
+R1731:1731 Algebra.Diff <> B var
+R1729:1729 Algebra.Diff <> A var
+R1703:1707 Algebra.Sets <> Equal proj
+R1711:1712 Algebra.Diff <> B' var
+R1709:1709 Algebra.Diff <> B var
+R1689:1693 Algebra.Sets <> Equal proj
+R1697:1698 Algebra.Diff <> A' var
+R1695:1695 Algebra.Diff <> A var
+R1789:1792 Algebra.Diff <> diff def
+R1825:1831 Algebra.Parts <> eq_part def
+R2138:2144 Algebra.Parts <> in_part def
+R2138:2144 Algebra.Parts <> in_part def
+R2583:2589 Algebra.Parts <> in_part def
+R2583:2589 Algebra.Parts <> in_part def
+R2790:2793 Algebra.Diff Diff <> sec

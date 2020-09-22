@@ -1,0 +1,20 @@
+DIGEST ea616f7b71307be6c0a58679e11de9a4
+FListString.All
+R8:11 ListString.Case <> <> lib
+R22:31 ListString.Comparison <> <> lib
+R42:51 ListString.Conversion <> <> lib
+R62:64 ListString.Etc <> <> lib
+R75:81 ListString.LString <> <> lib
+R92:95 ListString.Trim <> <> lib
+mod 106:112 <> LString
+R125:139 ListString.Case <> <> modtype
+R152:172 ListString.Comparison <> <> modtype
+R185:205 ListString.Conversion <> <> modtype
+R218:231 ListString.Etc <> <> modtype
+R244:261 ListString.LString <> <> modtype
+R274:288 ListString.Trim <> <> modtype
+mod 301:304 <> LString.Char
+R319:322 ListString.Char <> <> lib
+R337:351 ListString.Char <> <> modtype
+R360:363 ListString.All LString.Char <> mod
+R370:376 ListString.All LString <> mod

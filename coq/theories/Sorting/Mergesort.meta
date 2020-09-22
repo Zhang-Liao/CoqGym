@@ -1,0 +1,422 @@
+(**PWD** /Users/zhangliao/CoqGym/coq **)
+(**LOAD_PATH** Logical Path / Physical path / Implicit:
+<> /Users/zhangliao/CoqGym/coq/ide false
+protocol /Users/zhangliao/CoqGym/coq/ide/protocol false
+MacOS /Users/zhangliao/CoqGym/coq/ide/MacOS false
+<> /Users/zhangliao/CoqGym/coq/user-contrib false
+Algebra /Users/zhangliao/CoqGym/coq/user-contrib/Algebra false
+FunctionNinjas /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas false
+ListPlus /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus false
+mathcomp.algebra /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra
+  false
+mathcomp.ssreflect
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect false
+mathcomp.solvable /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable
+  false
+mathcomp.field /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field false
+mathcomp.all /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all false
+mathcomp.bigenough
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough false
+mathcomp.character
+  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character false
+mathcomp.fingroup /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup
+  false
+mathcomp.finmap /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap
+  false
+mathcomp /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp false
+InfSeqExt /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt false
+ErrorHandlers /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers false
+CUnit /Users/zhangliao/CoqGym/coq/user-contrib/CUnit false
+BellantoniCook /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook false
+StructTact /Users/zhangliao/CoqGym/coq/user-contrib/StructTact false
+Pocklington /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington false
+fcsl.pcm /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm false
+fcsl.finmap /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap false
+fcsl /Users/zhangliao/CoqGym/coq/user-contrib/fcsl false
+ZornsLemma /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma false
+SimpleIO /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO false
+Verdi /Users/zhangliao/CoqGym/coq/user-contrib/Verdi false
+ListString /Users/zhangliao/CoqGym/coq/user-contrib/ListString false
+Coquelicot /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot false
+LinAlg.extras /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras false
+LinAlg.examples /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples
+  false
+LinAlg.support /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support false
+LinAlg.LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg false
+LinAlg /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg false
+ExtLib.Data.Set /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set
+  false
+ExtLib.Data.Monads
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads false
+ExtLib.Data.Map /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map
+  false
+ExtLib.Data.Graph /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph
+  false
+ExtLib.Data.Eq /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq false
+ExtLib.Data /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data false
+ExtLib.Generic /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic false
+ExtLib.Programming
+  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming false
+ExtLib.Tactics /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics false
+ExtLib.Recur /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur false
+ExtLib.Relations /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations
+  false
+ExtLib.Structures /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures
+  false
+ExtLib.Core /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core false
+ExtLib /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib false
+Iterable /Users/zhangliao/CoqGym/coq/user-contrib/Iterable false
+Cheerios /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios false
+Metalib /Users/zhangliao/CoqGym/coq/user-contrib/Metalib false
+Hammer /Users/zhangliao/CoqGym/coq/user-contrib/Hammer false
+IntMap /Users/zhangliao/CoqGym/coq/user-contrib/IntMap false
+Coq /Users/zhangliao/CoqGym/coq/plugins true
+Coq.firstorder /Users/zhangliao/CoqGym/coq/plugins/firstorder true
+Coq.ltac /Users/zhangliao/CoqGym/coq/plugins/ltac true
+Coq.extraction /Users/zhangliao/CoqGym/coq/plugins/extraction true
+Coq.btauto /Users/zhangliao/CoqGym/coq/plugins/btauto true
+Coq.syntax /Users/zhangliao/CoqGym/coq/plugins/syntax true
+Coq.nsatz /Users/zhangliao/CoqGym/coq/plugins/nsatz true
+Coq.omega /Users/zhangliao/CoqGym/coq/plugins/omega true
+Coq.cc /Users/zhangliao/CoqGym/coq/plugins/cc true
+Coq.derive /Users/zhangliao/CoqGym/coq/plugins/derive true
+Coq.ssr /Users/zhangliao/CoqGym/coq/plugins/ssr true
+Coq.xml /Users/zhangliao/CoqGym/coq/plugins/xml true
+Coq.rtauto /Users/zhangliao/CoqGym/coq/plugins/rtauto true
+Coq.romega /Users/zhangliao/CoqGym/coq/plugins/romega true
+Coq.micromega /Users/zhangliao/CoqGym/coq/plugins/micromega true
+Coq.funind /Users/zhangliao/CoqGym/coq/plugins/funind true
+Coq.quote /Users/zhangliao/CoqGym/coq/plugins/quote true
+Coq.setoid_ring /Users/zhangliao/CoqGym/coq/plugins/setoid_ring true
+Coq.ssrmatching /Users/zhangliao/CoqGym/coq/plugins/ssrmatching true
+Coq /Users/zhangliao/CoqGym/coq/theories true
+Coq.PArith /Users/zhangliao/CoqGym/coq/theories/PArith true
+Coq.MSets /Users/zhangliao/CoqGym/coq/theories/MSets true
+Coq.QArith /Users/zhangliao/CoqGym/coq/theories/QArith true
+Coq.Sorting /Users/zhangliao/CoqGym/coq/theories/Sorting true
+Coq.Program /Users/zhangliao/CoqGym/coq/theories/Program true
+Coq.ZArith /Users/zhangliao/CoqGym/coq/theories/ZArith true
+Coq.Bool /Users/zhangliao/CoqGym/coq/theories/Bool true
+Coq.Sets /Users/zhangliao/CoqGym/coq/theories/Sets true
+Coq.NArith /Users/zhangliao/CoqGym/coq/theories/NArith true
+Coq.Wellfounded /Users/zhangliao/CoqGym/coq/theories/Wellfounded true
+Coq.Arith /Users/zhangliao/CoqGym/coq/theories/Arith true
+Coq.Vectors /Users/zhangliao/CoqGym/coq/theories/Vectors true
+Coq.Reals /Users/zhangliao/CoqGym/coq/theories/Reals true
+Coq.Logic /Users/zhangliao/CoqGym/coq/theories/Logic true
+Coq.Classes /Users/zhangliao/CoqGym/coq/theories/Classes true
+Coq.Lists /Users/zhangliao/CoqGym/coq/theories/Lists true
+Coq.Relations /Users/zhangliao/CoqGym/coq/theories/Relations true
+Coq.Unicode /Users/zhangliao/CoqGym/coq/theories/Unicode true
+Coq.Structures /Users/zhangliao/CoqGym/coq/theories/Structures true
+Coq.Setoids /Users/zhangliao/CoqGym/coq/theories/Setoids true
+Coq.Numbers.Integer.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Binary true
+Coq.Numbers.Integer.NatPairs
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/NatPairs true
+Coq.Numbers.Integer.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer/Abstract true
+Coq.Numbers.Integer /Users/zhangliao/CoqGym/coq/theories/Numbers/Integer true
+Coq.Numbers.NatInt /Users/zhangliao/CoqGym/coq/theories/Numbers/NatInt true
+Coq.Numbers.Natural.Binary
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Binary true
+Coq.Numbers.Natural.Peano
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Peano true
+Coq.Numbers.Natural.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural/Abstract true
+Coq.Numbers.Natural /Users/zhangliao/CoqGym/coq/theories/Numbers/Natural true
+Coq.Numbers.Cyclic.Int31
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Int31 true
+Coq.Numbers.Cyclic.ZModulo
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/ZModulo true
+Coq.Numbers.Cyclic.Abstract
+  /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic/Abstract true
+Coq.Numbers.Cyclic /Users/zhangliao/CoqGym/coq/theories/Numbers/Cyclic true
+Coq.Numbers /Users/zhangliao/CoqGym/coq/theories/Numbers true
+Coq.Compat /Users/zhangliao/CoqGym/coq/theories/Compat true
+Coq.Strings /Users/zhangliao/CoqGym/coq/theories/Strings true
+Coq.Init /Users/zhangliao/CoqGym/coq/theories/Init true
+Coq.FSets /Users/zhangliao/CoqGym/coq/theories/FSets true
+<> /Users/zhangliao/CoqGym/coq false **)
+(**ML_PATH**  "ML Load Path:\n  /Users/zhangliao/CoqGym/coq/ide\n  /Users/zhangliao/CoqGym/coq/ide/protocol\n  /Users/zhangliao/CoqGym/coq/ide/MacOS\n  /Users/zhangliao/CoqGym/coq/user-contrib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/FunctionNinjas\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListPlus\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/algebra\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/ssreflect\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/solvable\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/field\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/all\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/bigenough\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/character\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/fingroup\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/mathcomp\n  /Users/zhangliao/CoqGym/coq/user-contrib/InfSeqExt\n  /Users/zhangliao/CoqGym/coq/user-contrib/ErrorHandlers\n  /Users/zhangliao/CoqGym/coq/user-contrib/CUnit\n  /Users/zhangliao/CoqGym/coq/user-contrib/BellantoniCook\n  /Users/zhangliao/CoqGym/coq/user-contrib/StructTact\n  /Users/zhangliao/CoqGym/coq/user-contrib/Pocklington\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/pcm\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl/finmap\n  /Users/zhangliao/CoqGym/coq/user-contrib/fcsl\n  /Users/zhangliao/CoqGym/coq/user-contrib/ZornsLemma\n  /Users/zhangliao/CoqGym/coq/user-contrib/SimpleIO\n  /Users/zhangliao/CoqGym/coq/user-contrib/Verdi\n  /Users/zhangliao/CoqGym/coq/user-contrib/ListString\n  /Users/zhangliao/CoqGym/coq/user-contrib/Coquelicot\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/extras\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/examples\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/support\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/LinAlg\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Set\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Monads\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Map\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Graph\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data/Eq\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Data\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Generic\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Programming\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Tactics\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Recur\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Relations\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Structures\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib/Core\n  /Users/zhangliao/CoqGym/coq/user-contrib/ExtLib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Iterable\n  /Users/zhangliao/CoqGym/coq/user-contrib/Cheerios\n  /Users/zhangliao/CoqGym/coq/user-contrib/Metalib\n  /Users/zhangliao/CoqGym/coq/user-contrib/Hammer\n  /Users/zhangliao/CoqGym/coq/user-contrib/IntMap\n  /Users/zhangliao/CoqGym/coq/plugins\n  /Users/zhangliao/CoqGym/coq/plugins/firstorder\n  /Users/zhangliao/CoqGym/coq/plugins/ltac\n  /Users/zhangliao/CoqGym/coq/plugins/extraction\n  /Users/zhangliao/CoqGym/coq/plugins/btauto\n  /Users/zhangliao/CoqGym/coq/plugins/syntax\n  /Users/zhangliao/CoqGym/coq/plugins/nsatz\n  /Users/zhangliao/CoqGym/coq/plugins/omega\n  /Users/zhangliao/CoqGym/coq/plugins/cc\n  /Users/zhangliao/CoqGym/coq/plugins/derive\n  /Users/zhangliao/CoqGym/coq/plugins/ssr\n  /Users/zhangliao/CoqGym/coq/plugins/xml\n  /Users/zhangliao/CoqGym/coq/plugins/rtauto\n  /Users/zhangliao/CoqGym/coq/plugins/romega\n  /Users/zhangliao/CoqGym/coq/plugins/micromega\n  /Users/zhangliao/CoqGym/coq/plugins/funind\n  /Users/zhangliao/CoqGym/coq/plugins/quote\n  /Users/zhangliao/CoqGym/coq/plugins/setoid_ring\n  /Users/zhangliao/CoqGym/coq/plugins/ssrmatching\n  /Users/zhangliao/CoqGym/coq\n  /Users/zhangliao/CoqGym/coq/dev" **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 16; Loc.bol_pos = 829; Loc.line_nb_last = 16; Loc.bol_pos_last = 829; Loc.bp = 829; Loc.ep = 882} **)
+(**VERNAC_TYPE** VernacRequire **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 20; Loc.bol_pos = 918; Loc.line_nb_last = 20; Loc.bol_pos_last = 918; Loc.bp = 918; Loc.ep = 946} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 21; Loc.bol_pos = 947; Loc.line_nb_last = 21; Loc.bol_pos_last = 947; Loc.bp = 947; Loc.ep = 1005} **)
+(**VERNAC_TYPE** VernacNotation **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 23; Loc.bol_pos = 1007; Loc.line_nb_last = 23; Loc.bol_pos_last = 1007; Loc.bp = 1007; Loc.ep = 1029} **)
+(**VERNAC_TYPE** VernacOpenCloseScope **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 25; Loc.bol_pos = 1031; Loc.line_nb_last = 25; Loc.bol_pos_last = 1031; Loc.bp = 1031; Loc.ep = 1075} **)
+(**VERNAC_TYPE** VernacCoercion **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 34; Loc.bol_pos = 1384; Loc.line_nb_last = 34; Loc.bol_pos_last = 1384; Loc.bp = 1384; Loc.ep = 1427} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 36; Loc.bol_pos = 1429; Loc.line_nb_last = 44; Loc.bol_pos_last = 1629; Loc.bp = 1429; Loc.ep = 1647} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 90; Loc.bol_pos = 4055; Loc.line_nb_last = 95; Loc.bol_pos_last = 4245; Loc.bp = 4055; Loc.ep = 4251} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 97; Loc.bol_pos = 4253; Loc.line_nb_last = 102; Loc.bol_pos_last = 4409; Loc.bp = 4253; Loc.ep = 4415} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 104; Loc.bol_pos = 4417; Loc.line_nb_last = 108; Loc.bol_pos_last = 4550; Loc.bp = 4417; Loc.ep = 4556} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 110; Loc.bol_pos = 4558; Loc.line_nb_last = 110; Loc.bol_pos_last = 4558; Loc.bp = 4558; Loc.ep = 4591} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 114; Loc.bol_pos = 4626; Loc.line_nb_last = 114; Loc.bol_pos_last = 4626; Loc.bp = 4626; Loc.ep = 4686} **)
+(**VERNAC_TYPE** VernacSyntacticDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 116; Loc.bol_pos = 4688; Loc.line_nb_last = 121; Loc.bol_pos_last = 4848; Loc.bp = 4688; Loc.ep = 4854} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 123; Loc.bol_pos = 4856; Loc.line_nb_last = 123; Loc.bol_pos_last = 4856; Loc.bp = 4856; Loc.ep = 4907} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 125; Loc.bol_pos = 4909; Loc.line_nb_last = 130; Loc.bol_pos_last = 5093; Loc.bp = 4909; Loc.ep = 5099} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 132; Loc.bol_pos = 5101; Loc.line_nb_last = 133; Loc.bol_pos_last = 5138; Loc.bp = 5101; Loc.ep = 5187} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 134; Loc.bol_pos = 5188; Loc.line_nb_last = 134; Loc.bol_pos_last = 5188; Loc.bp = 5188; Loc.ep = 5194} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 135; Loc.bol_pos = 5195; Loc.line_nb_last = 135; Loc.bol_pos_last = 5195; Loc.bp = 5195; Loc.ep = 5243} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 136; Loc.bol_pos = 5244; Loc.line_nb_last = 136; Loc.bol_pos_last = 5244; Loc.bp = 5246; Loc.ep = 5275} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 137; Loc.bol_pos = 5276; Loc.line_nb_last = 137; Loc.bol_pos_last = 5276; Loc.bp = 5280; Loc.ep = 5289} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 138; Loc.bol_pos = 5290; Loc.line_nb_last = 138; Loc.bol_pos_last = 5290; Loc.bp = 5296; Loc.ep = 5302} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 138; Loc.bol_pos = 5290; Loc.line_nb_last = 138; Loc.bol_pos_last = 5290; Loc.bp = 5303; Loc.ep = 5351} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 139; Loc.bol_pos = 5352; Loc.line_nb_last = 139; Loc.bol_pos_last = 5352; Loc.bp = 5358; Loc.ep = 5420} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 140; Loc.bol_pos = 5421; Loc.line_nb_last = 140; Loc.bol_pos_last = 5421; Loc.bp = 5427; Loc.ep = 5456} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 141; Loc.bol_pos = 5457; Loc.line_nb_last = 141; Loc.bol_pos_last = 5457; Loc.bp = 5463; Loc.ep = 5531} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 142; Loc.bol_pos = 5532; Loc.line_nb_last = 143; Loc.bol_pos_last = 5557; Loc.bp = 5536; Loc.ep = 5649} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 144; Loc.bol_pos = 5650; Loc.line_nb_last = 144; Loc.bol_pos_last = 5650; Loc.bp = 5654; Loc.ep = 5664} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 145; Loc.bol_pos = 5665; Loc.line_nb_last = 145; Loc.bol_pos_last = 5665; Loc.bp = 5671; Loc.ep = 5692} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 146; Loc.bol_pos = 5693; Loc.line_nb_last = 146; Loc.bol_pos_last = 5693; Loc.bp = 5699; Loc.ep = 5757} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 147; Loc.bol_pos = 5758; Loc.line_nb_last = 147; Loc.bol_pos_last = 5758; Loc.bp = 5764; Loc.ep = 5787} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 148; Loc.bol_pos = 5788; Loc.line_nb_last = 148; Loc.bol_pos_last = 5788; Loc.bp = 5794; Loc.ep = 5832} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 149; Loc.bol_pos = 5833; Loc.line_nb_last = 149; Loc.bol_pos_last = 5833; Loc.bp = 5833; Loc.ep = 5837} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Sorted_merge **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 151; Loc.bol_pos = 5839; Loc.line_nb_last = 151; Loc.bol_pos_last = 5839; Loc.bp = 5839; Loc.ep = 5913} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 152; Loc.bol_pos = 5914; Loc.line_nb_last = 152; Loc.bol_pos_last = 5914; Loc.bp = 5914; Loc.ep = 5920} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 153; Loc.bol_pos = 5921; Loc.line_nb_last = 153; Loc.bol_pos_last = 5921; Loc.bp = 5923; Loc.ep = 5956} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 154; Loc.bol_pos = 5957; Loc.line_nb_last = 155; Loc.bol_pos_last = 6031; Loc.bp = 5961; Loc.ep = 6066} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 156; Loc.bol_pos = 6089; Loc.line_nb_last = 156; Loc.bol_pos_last = 6089; Loc.bp = 6093; Loc.ep = 6116} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 157; Loc.bol_pos = 6117; Loc.line_nb_last = 157; Loc.bol_pos_last = 6117; Loc.bp = 6119; Loc.ep = 6132} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 158; Loc.bol_pos = 6133; Loc.line_nb_last = 158; Loc.bol_pos_last = 6133; Loc.bp = 6137; Loc.ep = 6155} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 158; Loc.bol_pos = 6133; Loc.line_nb_last = 158; Loc.bol_pos_last = 6133; Loc.bp = 6156; Loc.ep = 6179} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 159; Loc.bol_pos = 6180; Loc.line_nb_last = 159; Loc.bol_pos_last = 6180; Loc.bp = 6184; Loc.ep = 6204} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 160; Loc.bol_pos = 6205; Loc.line_nb_last = 160; Loc.bol_pos_last = 6205; Loc.bp = 6211; Loc.ep = 6235} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 161; Loc.bol_pos = 6236; Loc.line_nb_last = 161; Loc.bol_pos_last = 6236; Loc.bp = 6242; Loc.ep = 6309} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 162; Loc.bol_pos = 6310; Loc.line_nb_last = 162; Loc.bol_pos_last = 6310; Loc.bp = 6310; Loc.ep = 6314} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permuted_merge **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 164; Loc.bol_pos = 6316; Loc.line_nb_last = 165; Loc.bol_pos_last = 6369; Loc.bp = 6316; Loc.ep = 6446} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 166; Loc.bol_pos = 6447; Loc.line_nb_last = 166; Loc.bol_pos_last = 6447; Loc.bp = 6447; Loc.ep = 6453} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 167; Loc.bol_pos = 6454; Loc.line_nb_last = 167; Loc.bol_pos_last = 6454; Loc.bp = 6456; Loc.ep = 6497} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 168; Loc.bol_pos = 6498; Loc.line_nb_last = 168; Loc.bol_pos_last = 6498; Loc.bp = 6502; Loc.ep = 6507} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 169; Loc.bol_pos = 6508; Loc.line_nb_last = 169; Loc.bol_pos_last = 6508; Loc.bp = 6512; Loc.ep = 6526} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 169; Loc.bol_pos = 6508; Loc.line_nb_last = 169; Loc.bol_pos_last = 6508; Loc.bp = 6527; Loc.ep = 6548} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 169; Loc.bol_pos = 6508; Loc.line_nb_last = 169; Loc.bol_pos_last = 6508; Loc.bp = 6549; Loc.ep = 6572} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 169; Loc.bol_pos = 6508; Loc.line_nb_last = 169; Loc.bol_pos_last = 6508; Loc.bp = 6573; Loc.ep = 6578} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 170; Loc.bol_pos = 6579; Loc.line_nb_last = 170; Loc.bol_pos_last = 6579; Loc.bp = 6585; Loc.ep = 6628} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 171; Loc.bol_pos = 6629; Loc.line_nb_last = 171; Loc.bol_pos_last = 6629; Loc.bp = 6635; Loc.ep = 6640} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 172; Loc.bol_pos = 6641; Loc.line_nb_last = 172; Loc.bol_pos_last = 6641; Loc.bp = 6641; Loc.ep = 6645} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Sorted_merge_list_to_stack **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 174; Loc.bol_pos = 6647; Loc.line_nb_last = 175; Loc.bol_pos_last = 6702; Loc.bp = 6647; Loc.ep = 6789} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 176; Loc.bol_pos = 6790; Loc.line_nb_last = 176; Loc.bol_pos_last = 6790; Loc.bp = 6790; Loc.ep = 6796} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 177; Loc.bol_pos = 6797; Loc.line_nb_last = 177; Loc.bol_pos_last = 6797; Loc.bp = 6799; Loc.ep = 6839} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 178; Loc.bol_pos = 6840; Loc.line_nb_last = 178; Loc.bol_pos_last = 6840; Loc.bp = 6844; Loc.ep = 6856} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 179; Loc.bol_pos = 6857; Loc.line_nb_last = 179; Loc.bol_pos_last = 6857; Loc.bp = 6861; Loc.ep = 6879} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 180; Loc.bol_pos = 6880; Loc.line_nb_last = 180; Loc.bol_pos_last = 6880; Loc.bp = 6884; Loc.ep = 6898} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 181; Loc.bol_pos = 6899; Loc.line_nb_last = 181; Loc.bol_pos_last = 6899; Loc.bp = 6905; Loc.ep = 6932} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 182; Loc.bol_pos = 6933; Loc.line_nb_last = 182; Loc.bol_pos_last = 6933; Loc.bp = 6939; Loc.ep = 6953} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 183; Loc.bol_pos = 6954; Loc.line_nb_last = 183; Loc.bol_pos_last = 6954; Loc.bp = 6962; Loc.ep = 6989} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 184; Loc.bol_pos = 6990; Loc.line_nb_last = 184; Loc.bol_pos_last = 6990; Loc.bp = 6996; Loc.ep = 7017} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 185; Loc.bol_pos = 7018; Loc.line_nb_last = 185; Loc.bol_pos_last = 7018; Loc.bp = 7022; Loc.ep = 7036} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 186; Loc.bol_pos = 7037; Loc.line_nb_last = 186; Loc.bol_pos_last = 7037; Loc.bp = 7041; Loc.ep = 7053} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 187; Loc.bol_pos = 7054; Loc.line_nb_last = 187; Loc.bol_pos_last = 7054; Loc.bp = 7054; Loc.ep = 7058} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permuted_merge_list_to_stack **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 189; Loc.bol_pos = 7060; Loc.line_nb_last = 190; Loc.bol_pos_last = 7103; Loc.bp = 7060; Loc.ep = 7153} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 191; Loc.bol_pos = 7154; Loc.line_nb_last = 191; Loc.bol_pos_last = 7154; Loc.bp = 7154; Loc.ep = 7160} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 192; Loc.bol_pos = 7161; Loc.line_nb_last = 192; Loc.bol_pos_last = 7161; Loc.bp = 7161; Loc.ep = 7202} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 193; Loc.bol_pos = 7203; Loc.line_nb_last = 193; Loc.bol_pos_last = 7203; Loc.bp = 7205; Loc.ep = 7223} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 194; Loc.bol_pos = 7224; Loc.line_nb_last = 194; Loc.bol_pos_last = 7224; Loc.bp = 7226; Loc.ep = 7252} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 195; Loc.bol_pos = 7253; Loc.line_nb_last = 195; Loc.bol_pos_last = 7253; Loc.bp = 7255; Loc.ep = 7260} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 196; Loc.bol_pos = 7261; Loc.line_nb_last = 196; Loc.bol_pos_last = 7261; Loc.bp = 7261; Loc.ep = 7265} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Sorted_merge_stack **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 198; Loc.bol_pos = 7267; Loc.line_nb_last = 199; Loc.bol_pos_last = 7312; Loc.bp = 7267; Loc.ep = 7368} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 200; Loc.bol_pos = 7369; Loc.line_nb_last = 200; Loc.bol_pos_last = 7369; Loc.bp = 7369; Loc.ep = 7375} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 201; Loc.bol_pos = 7376; Loc.line_nb_last = 201; Loc.bol_pos_last = 7376; Loc.bp = 7376; Loc.ep = 7408} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 202; Loc.bol_pos = 7409; Loc.line_nb_last = 202; Loc.bol_pos_last = 7409; Loc.bp = 7411; Loc.ep = 7419} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 203; Loc.bol_pos = 7420; Loc.line_nb_last = 203; Loc.bol_pos_last = 7420; Loc.bp = 7422; Loc.ep = 7460} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 204; Loc.bol_pos = 7461; Loc.line_nb_last = 204; Loc.bol_pos_last = 7461; Loc.bp = 7465; Loc.ep = 7501} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 205; Loc.bol_pos = 7502; Loc.line_nb_last = 205; Loc.bol_pos_last = 7502; Loc.bp = 7506; Loc.ep = 7527} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 206; Loc.bol_pos = 7528; Loc.line_nb_last = 206; Loc.bol_pos_last = 7528; Loc.bp = 7530; Loc.ep = 7541} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 207; Loc.bol_pos = 7542; Loc.line_nb_last = 207; Loc.bol_pos_last = 7542; Loc.bp = 7542; Loc.ep = 7546} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permuted_merge_stack **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 209; Loc.bol_pos = 7548; Loc.line_nb_last = 210; Loc.bol_pos_last = 7592; Loc.bp = 7548; Loc.ep = 7643} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 211; Loc.bol_pos = 7644; Loc.line_nb_last = 211; Loc.bol_pos_last = 7644; Loc.bp = 7644; Loc.ep = 7650} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 212; Loc.bol_pos = 7651; Loc.line_nb_last = 212; Loc.bol_pos_last = 7651; Loc.bp = 7653; Loc.ep = 7707} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 213; Loc.bol_pos = 7708; Loc.line_nb_last = 213; Loc.bol_pos_last = 7708; Loc.bp = 7712; Loc.ep = 7742} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 214; Loc.bol_pos = 7743; Loc.line_nb_last = 214; Loc.bol_pos_last = 7743; Loc.bp = 7747; Loc.ep = 7782} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 215; Loc.bol_pos = 7783; Loc.line_nb_last = 215; Loc.bol_pos_last = 7783; Loc.bp = 7787; Loc.ep = 7825} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 216; Loc.bol_pos = 7826; Loc.line_nb_last = 216; Loc.bol_pos_last = 7826; Loc.bp = 7826; Loc.ep = 7830} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Sorted_iter_merge **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 218; Loc.bol_pos = 7832; Loc.line_nb_last = 219; Loc.bol_pos_last = 7878; Loc.bp = 7832; Loc.ep = 7940} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 220; Loc.bol_pos = 7941; Loc.line_nb_last = 220; Loc.bol_pos_last = 7941; Loc.bp = 7941; Loc.ep = 7947} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 221; Loc.bol_pos = 7948; Loc.line_nb_last = 221; Loc.bol_pos_last = 7948; Loc.bp = 7950; Loc.ep = 7977} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 222; Loc.bol_pos = 7978; Loc.line_nb_last = 222; Loc.bol_pos_last = 7978; Loc.bp = 7982; Loc.ep = 8000} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 222; Loc.bol_pos = 7978; Loc.line_nb_last = 222; Loc.bol_pos_last = 7978; Loc.bp = 8001; Loc.ep = 8028} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 223; Loc.bol_pos = 8029; Loc.line_nb_last = 223; Loc.bol_pos_last = 8029; Loc.bp = 8033; Loc.ep = 8061} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 224; Loc.bol_pos = 8062; Loc.line_nb_last = 224; Loc.bol_pos_last = 8062; Loc.bp = 8066; Loc.ep = 8084} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 225; Loc.bol_pos = 8085; Loc.line_nb_last = 225; Loc.bol_pos_last = 8085; Loc.bp = 8089; Loc.ep = 8103} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 226; Loc.bol_pos = 8104; Loc.line_nb_last = 226; Loc.bol_pos_last = 8104; Loc.bp = 8110; Loc.ep = 8137} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 227; Loc.bol_pos = 8138; Loc.line_nb_last = 227; Loc.bol_pos_last = 8138; Loc.bp = 8142; Loc.ep = 8156} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 228; Loc.bol_pos = 8157; Loc.line_nb_last = 228; Loc.bol_pos_last = 8157; Loc.bp = 8161; Loc.ep = 8188} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 229; Loc.bol_pos = 8189; Loc.line_nb_last = 229; Loc.bol_pos_last = 8189; Loc.bp = 8193; Loc.ep = 8228} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 230; Loc.bol_pos = 8229; Loc.line_nb_last = 230; Loc.bol_pos_last = 8229; Loc.bp = 8233; Loc.ep = 8243} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 231; Loc.bol_pos = 8244; Loc.line_nb_last = 231; Loc.bol_pos_last = 8244; Loc.bp = 8244; Loc.ep = 8248} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permuted_iter_merge **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 233; Loc.bol_pos = 8250; Loc.line_nb_last = 233; Loc.bol_pos_last = 8250; Loc.bp = 8250; Loc.ep = 8298} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 234; Loc.bol_pos = 8299; Loc.line_nb_last = 234; Loc.bol_pos_last = 8299; Loc.bp = 8299; Loc.ep = 8305} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 235; Loc.bol_pos = 8306; Loc.line_nb_last = 235; Loc.bol_pos_last = 8306; Loc.bp = 8306; Loc.ep = 8337} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 235; Loc.bol_pos = 8306; Loc.line_nb_last = 235; Loc.bol_pos_last = 8306; Loc.bp = 8338; Loc.ep = 8350} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 236; Loc.bol_pos = 8351; Loc.line_nb_last = 236; Loc.bol_pos_last = 8351; Loc.bp = 8351; Loc.ep = 8355} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Sorted_sort **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 238; Loc.bol_pos = 8357; Loc.line_nb_last = 238; Loc.bol_pos_last = 8357; Loc.bp = 8357; Loc.ep = 8425} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 239; Loc.bol_pos = 8426; Loc.line_nb_last = 239; Loc.bol_pos_last = 8426; Loc.bp = 8426; Loc.ep = 8432} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 239; Loc.bol_pos = 8426; Loc.line_nb_last = 239; Loc.bol_pos_last = 8426; Loc.bp = 8433; Loc.ep = 8491} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 239; Loc.bol_pos = 8426; Loc.line_nb_last = 239; Loc.bol_pos_last = 8426; Loc.bp = 8492; Loc.ep = 8496} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** LocallySorted_sort **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 241; Loc.bol_pos = 8498; Loc.line_nb_last = 241; Loc.bol_pos_last = 8498; Loc.bp = 8498; Loc.ep = 8555} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 242; Loc.bol_pos = 8556; Loc.line_nb_last = 242; Loc.bol_pos_last = 8556; Loc.bp = 8556; Loc.ep = 8562} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 243; Loc.bol_pos = 8563; Loc.line_nb_last = 243; Loc.bol_pos_last = 8563; Loc.bp = 8563; Loc.ep = 8603} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 244; Loc.bol_pos = 8604; Loc.line_nb_last = 244; Loc.bol_pos_last = 8604; Loc.bp = 8604; Loc.ep = 8608} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** Permuted_sort **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 246; Loc.bol_pos = 8610; Loc.line_nb_last = 247; Loc.bol_pos_last = 8652; Loc.bp = 8610; Loc.ep = 8700} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 248; Loc.bol_pos = 8701; Loc.line_nb_last = 248; Loc.bol_pos_last = 8701; Loc.bp = 8701; Loc.ep = 8707} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 248; Loc.bol_pos = 8701; Loc.line_nb_last = 248; Loc.bol_pos_last = 8701; Loc.bp = 8708; Loc.ep = 8761} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 248; Loc.bol_pos = 8701; Loc.line_nb_last = 248; Loc.bol_pos_last = 8701; Loc.bp = 8762; Loc.ep = 8766} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** StronglySorted_sort **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 250; Loc.bol_pos = 8768; Loc.line_nb_last = 250; Loc.bol_pos_last = 8768; Loc.bp = 8768; Loc.ep = 8777} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 254; Loc.bol_pos = 8798; Loc.line_nb_last = 254; Loc.bol_pos_last = 8798; Loc.bp = 8798; Loc.ep = 8829} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 255; Loc.bol_pos = 8830; Loc.line_nb_last = 255; Loc.bol_pos_last = 8830; Loc.bp = 8832; Loc.ep = 8852} **)
+(**VERNAC_TYPE** VernacDefinition **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 256; Loc.bol_pos = 8853; Loc.line_nb_last = 261; Loc.bol_pos_last = 8964; Loc.bp = 8855; Loc.ep = 8972} **)
+(**VERNAC_TYPE** VernacFixpoint **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 262; Loc.bol_pos = 8973; Loc.line_nb_last = 262; Loc.bol_pos_last = 8973; Loc.bp = 8975; Loc.ep = 9008} **)
+(**VERNAC_TYPE** VernacInfix **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 263; Loc.bol_pos = 9009; Loc.line_nb_last = 263; Loc.bol_pos_last = 9009; Loc.bp = 9011; Loc.ep = 9068} **)
+(**VERNAC_TYPE** VernacStartTheoremProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 264; Loc.bol_pos = 9069; Loc.line_nb_last = 264; Loc.bol_pos_last = 9069; Loc.bp = 9071; Loc.ep = 9077} **)
+(**VERNAC_TYPE** VernacProof **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 265; Loc.bol_pos = 9078; Loc.line_nb_last = 265; Loc.bol_pos_last = 9078; Loc.bp = 9082; Loc.ep = 9121} **)
+(**VERNAC_TYPE** VernacExtend **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 266; Loc.bol_pos = 9122; Loc.line_nb_last = 266; Loc.bol_pos_last = 9122; Loc.bp = 9124; Loc.ep = 9128} **)
+(**VERNAC_TYPE** VernacEndProof **)
+(**PROOF_NAME** leb_total **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 267; Loc.bol_pos = 9129; Loc.line_nb_last = 267; Loc.bol_pos_last = 9129; Loc.bp = 9129; Loc.ep = 9142} **)
+(**VERNAC_TYPE** VernacEndSegment **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 269; Loc.bol_pos = 9144; Loc.line_nb_last = 269; Loc.bol_pos_last = 9144; Loc.bp = 9144; Loc.ep = 9183} **)
+(**VERNAC_TYPE** VernacDefineModule **)
+(**LOC** Loc.t{Loc.fname = Loc.InFile "./theories/Sorting/Mergesort.v"; Loc.line_nb = 271; Loc.bol_pos = 9185; Loc.line_nb_last = 271; Loc.bol_pos_last = 9185; Loc.bp = 9185; Loc.ep = 9252} **)
+(**VERNAC_TYPE** VernacDefinition **)

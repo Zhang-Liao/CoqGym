@@ -1,0 +1,7 @@
+DIGEST a6794db786311dce39145032920e2f12
+FExtLib.Tactics.MonadTac
+R15:30 ExtLib.Core.Type <> <> lib
+R48:71 ExtLib.Structures.Proper <> <> lib
+R89:112 ExtLib.Structures.Monads <> <> lib
+R130:156 ExtLib.Structures.MonadLaws <> <> lib
+R174:195 ExtLib.Tactics.TypeTac <> <> lib

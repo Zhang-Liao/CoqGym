@@ -1,0 +1,86 @@
+DIGEST 41272d47f6a3e894ebd97fada539f435
+FAlgebra.Sub_monoid
+R1086:1095 Algebra.Sub_sgroup <> <> lib
+R1113:1124 Algebra.Monoid_facts <> <> lib
+sec 1135:1137 <> Def
+var 1149:1149 Def G
+R1153:1158 Algebra.Monoid_cat <> MONOID def
+sec 1169:1178 Def Sub_monoid
+var 1190:1190 Def.Sub_monoid H
+R1194:1202 Algebra.Sub_sgroup <> subsgroup rec
+R1204:1204 Algebra.Sub_monoid <> Def.G var
+var 1218:1222 Def.Sub_monoid Hunit
+R1226:1232 Algebra.Parts <> in_part def
+R1250:1250 Algebra.Sub_monoid <> Def.Sub_monoid.H var
+R1235:1245 Algebra.Monoid_cat <> monoid_unit proj
+R1247:1247 Algebra.Sub_monoid <> Def.G var
+def 1265:1280 <> submonoid_monoid
+R1284:1289 Algebra.Monoid_cat <> monoid rec
+R1299:1310 Algebra.Monoid_cat <> Build_monoid constr
+R1328:1328 Algebra.Sub_monoid <> Def.Sub_monoid.H var
+R1299:1310 Algebra.Monoid_cat <> Build_monoid constr
+R1328:1328 Algebra.Sub_monoid <> Def.Sub_monoid.H var
+R1340:1354 Algebra.Monoid_cat <> Build_monoid_on constr
+R1377:1389 Algebra.Parts <> Build_subtype constr
+R1391:1395 Algebra.Sub_monoid <> Def.Sub_monoid.Hunit var
+R1360:1360 Algebra.Sub_monoid <> Def.Sub_monoid.H var
+R1340:1354 Algebra.Monoid_cat <> Build_monoid_on constr
+R1377:1389 Algebra.Parts <> Build_subtype constr
+R1391:1395 Algebra.Sub_monoid <> Def.Sub_monoid.Hunit var
+R1360:1360 Algebra.Sub_monoid <> Def.Sub_monoid.H var
+R1435:1453 Algebra.Parts <> subtype_image_equal def
+R1533:1551 Algebra.Parts <> subtype_image_equal def
+R1609:1618 Algebra.Sub_monoid Def.Sub_monoid <> sec
+rec 1629:1637 <> submonoid
+proj 1653:1671 <> submonoid_subsgroup
+proj 1691:1704 <> submonoid_prop
+R1675:1683 Algebra.Sub_sgroup <> subsgroup rec
+R1685:1685 Algebra.Sub_monoid <> Def.G var
+R1708:1714 Algebra.Parts <> in_part def
+R1732:1750 Algebra.Sub_monoid <> submonoid_subsgroup meth
+R1717:1727 Algebra.Monoid_cat <> monoid_unit proj
+R1729:1729 Algebra.Sub_monoid <> Def.G var
+def 1766:1784 <> monoid_of_submonoid
+R1791:1799 Algebra.Sub_monoid <> submonoid rec
+R1807:1822 Algebra.Sub_monoid <> submonoid_monoid def
+R1825:1838 Algebra.Sub_monoid <> submonoid_prop proj
+R1840:1840 Algebra.Sub_monoid <> H var
+R1848:1850 Algebra.Sub_monoid Def <> sec
+R1853:1903 Algebra.Sub_monoid <> monoid_of_submonoid def
+R1906:1959 Algebra.Sub_monoid <> submonoid_subsgroup proj
+sec 1970:1978 <> Injection
+var 1990:1990 Injection G
+R1994:1999 Algebra.Monoid_cat <> MONOID def
+var 2011:2011 Injection H
+R2015:2023 Algebra.Sub_monoid <> submonoid rec
+R2025:2025 Algebra.Sub_monoid <> Injection.G var
+prf 2035:2051 <> submonoid_in_prop
+R2055:2061 Algebra.Parts <> in_part def
+R2079:2079 Algebra.Sub_monoid <> Injection.H var
+R2064:2074 Algebra.Monoid_cat <> monoid_unit proj
+R2076:2076 Algebra.Sub_monoid <> Injection.G var
+R2089:2102 Algebra.Sub_monoid <> submonoid_prop proj
+R2111:2111 Algebra.Sub_monoid <> Injection.H var
+R2108:2108 Algebra.Sub_monoid <> Injection.G var
+R2089:2102 Algebra.Sub_monoid <> submonoid_prop proj
+R2111:2111 Algebra.Sub_monoid <> Injection.H var
+R2108:2108 Algebra.Sub_monoid <> Injection.G var
+def 2151:2163 <> inj_submonoid
+R2167:2169 Algebra.Categories <> Hom proj
+R2182:2182 Algebra.Sub_monoid <> Injection.G var
+R2174:2179 Algebra.Monoid_cat <> MONOID def
+R2172:2172 Algebra.Sub_monoid <> Injection.H var
+R2192:2207 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2243:2255 Algebra.Sub_sgroup <> inj_subsgroup def
+R2257:2257 Algebra.Sub_monoid <> Injection.H var
+R2220:2220 Algebra.Sub_monoid <> Injection.G var
+R2213:2213 Algebra.Sub_monoid <> Injection.H var
+R2192:2207 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2243:2255 Algebra.Sub_sgroup <> inj_subsgroup def
+R2257:2257 Algebra.Sub_monoid <> Injection.H var
+R2220:2220 Algebra.Sub_monoid <> Injection.G var
+R2213:2213 Algebra.Sub_monoid <> Injection.H var
+prf 2310:2333 <> inj_subsmonoid_injective
+R2337:2345 Algebra.Sets <> injective def
+R2347:2359 Algebra.Sub_monoid <> inj_submonoid def
+R2403:2411 Algebra.Sub_monoid Injection <> sec

@@ -1,0 +1,290 @@
+DIGEST 4e83c6c30e9b2eb37aac2bb43f0183b3
+FInfSeqExt.subseq
+R15:30 InfSeqExt.infseq <> <> lib
+R48:62 InfSeqExt.exteq <> <> lib
+sec 185:194 <> sec_subseq
+var 207:207 sec_subseq T
+ind 271:274 <> suff
+constr 317:321 <> sp_eq
+constr 338:344 <> sp_next
+R281:286 InfSeqExt.infseq <> infseq coind
+R288:288 InfSeqExt.subseq <> sec_subseq.T var
+R301:304 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R293:298 InfSeqExt.infseq <> infseq coind
+R300:300 InfSeqExt.subseq <> sec_subseq.T var
+R325:328 InfSeqExt.subseq <> suff ind
+R332:332 InfSeqExt.subseq <> s var
+R330:330 InfSeqExt.subseq <> s var
+R370:373 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R374:377 InfSeqExt.subseq <> suff ind
+R382:385 InfSeqExt.infseq <> Cons constr
+R389:390 InfSeqExt.subseq <> s0 var
+R387:387 InfSeqExt.subseq <> x var
+R379:379 InfSeqExt.subseq <> s var
+R361:364 InfSeqExt.subseq <> suff ind
+R368:369 InfSeqExt.subseq <> s0 var
+R366:366 InfSeqExt.subseq <> s var
+ind 462:467 <> subseq
+constr 507:512 <> Subseq
+R479:482 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R491:494 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R483:488 InfSeqExt.infseq <> infseq coind
+R490:490 InfSeqExt.subseq <> sec_subseq.T var
+R471:476 InfSeqExt.infseq <> infseq coind
+R478:478 InfSeqExt.subseq <> sec_subseq.T var
+R555:558 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R575:578 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R579:584 InfSeqExt.subseq <> subseq ind
+R603:604 InfSeqExt.subseq <> s0 var
+R587:590 InfSeqExt.infseq <> Cons constr
+R600:600 InfSeqExt.subseq <> s var
+R593:594 InfSeqExt.infseq <> hd def
+R596:597 InfSeqExt.subseq <> s1 var
+R559:564 InfSeqExt.subseq <> subseq ind
+R569:570 InfSeqExt.infseq <> tl def
+R572:573 InfSeqExt.subseq <> s1 var
+R566:566 InfSeqExt.subseq <> s var
+R545:548 InfSeqExt.subseq <> suff ind
+R553:554 InfSeqExt.subseq <> s0 var
+R550:551 InfSeqExt.subseq <> s1 var
+ind 620:627 <> subseqs'
+constr 676:683 <> Subseqs'
+R648:651 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R660:663 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R652:657 InfSeqExt.infseq <> infseq coind
+R659:659 InfSeqExt.subseq <> sec_subseq.T var
+R631:636 InfSeqExt.infseq <> infseq coind
+R639:644 InfSeqExt.infseq <> infseq coind
+R646:646 InfSeqExt.subseq <> sec_subseq.T var
+R727:730 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R750:753 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R754:761 InfSeqExt.subseq <> subseqs' ind
+R776:777 InfSeqExt.subseq <> s0 var
+R764:767 InfSeqExt.infseq <> Cons constr
+R772:773 InfSeqExt.subseq <> si var
+R769:770 InfSeqExt.subseq <> s1 var
+R731:738 InfSeqExt.subseq <> subseqs' ind
+R744:745 InfSeqExt.infseq <> tl def
+R747:748 InfSeqExt.subseq <> s1 var
+R740:741 InfSeqExt.subseq <> si var
+R717:720 InfSeqExt.subseq <> suff ind
+R725:726 InfSeqExt.subseq <> s0 var
+R722:723 InfSeqExt.subseq <> s1 var
+ind 794:800 <> subseqs
+constr 849:855 <> Subseqs
+R821:824 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R833:836 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R825:830 InfSeqExt.infseq <> infseq coind
+R832:832 InfSeqExt.subseq <> sec_subseq.T var
+R804:809 InfSeqExt.infseq <> infseq coind
+R812:817 InfSeqExt.infseq <> infseq coind
+R819:819 InfSeqExt.subseq <> sec_subseq.T var
+R899:902 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R931:934 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R935:941 InfSeqExt.subseq <> subseqs ind
+R946:946 InfSeqExt.subseq <> s var
+R943:944 InfSeqExt.subseq <> si var
+R903:909 InfSeqExt.subseq <> subseqs ind
+R920:921 InfSeqExt.infseq <> tl def
+R924:925 InfSeqExt.infseq <> hd def
+R927:928 InfSeqExt.subseq <> si var
+R912:913 InfSeqExt.infseq <> tl def
+R915:916 InfSeqExt.subseq <> si var
+R885:888 InfSeqExt.subseq <> suff ind
+R898:898 InfSeqExt.subseq <> s var
+R891:892 InfSeqExt.infseq <> hd def
+R894:895 InfSeqExt.subseq <> si var
+prf 957:972 <> subseqs_subseqs'
+R1001:1004 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1005:1012 InfSeqExt.subseq <> subseqs' coind
+R1017:1017 InfSeqExt.subseq <> s var
+R1014:1015 InfSeqExt.subseq <> si var
+R989:995 InfSeqExt.subseq <> subseqs coind
+R1000:1000 InfSeqExt.subseq <> s var
+R997:998 InfSeqExt.subseq <> si var
+prf 1196:1211 <> subseqs'_subseqs
+R1241:1244 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1245:1251 InfSeqExt.subseq <> subseqs coind
+R1256:1256 InfSeqExt.subseq <> s var
+R1253:1254 InfSeqExt.subseq <> si var
+R1228:1235 InfSeqExt.subseq <> subseqs' coind
+R1240:1240 InfSeqExt.subseq <> s var
+R1237:1238 InfSeqExt.subseq <> si var
+prf 1542:1559 <> subseqs_eventually
+R1593:1596 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1609:1612 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1613:1622 InfSeqExt.infseq <> eventually ind
+R1626:1626 InfSeqExt.subseq <> s var
+R1624:1624 InfSeqExt.subseq <> P var
+R1597:1603 InfSeqExt.infseq <> always1 coind
+R1607:1608 InfSeqExt.subseq <> si var
+R1605:1605 InfSeqExt.subseq <> P var
+R1581:1587 InfSeqExt.subseq <> subseqs coind
+R1592:1592 InfSeqExt.subseq <> s var
+R1589:1590 InfSeqExt.subseq <> si var
+prf 1834:1843 <> subseqs_tl
+R1877:1880 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1881:1887 InfSeqExt.subseq <> subseqs coind
+R1892:1892 InfSeqExt.subseq <> s var
+R1889:1890 InfSeqExt.subseq <> si var
+R1860:1866 InfSeqExt.subseq <> subseqs coind
+R1872:1873 InfSeqExt.infseq <> tl def
+R1875:1875 InfSeqExt.subseq <> s var
+R1868:1869 InfSeqExt.subseq <> si var
+prf 2052:2067 <> subseq_inf_often
+R2100:2103 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2116:2119 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2120:2128 InfSeqExt.infseq <> inf_often def
+R2132:2132 InfSeqExt.subseq <> s var
+R2130:2130 InfSeqExt.subseq <> P var
+R2104:2110 InfSeqExt.infseq <> always1 coind
+R2114:2115 InfSeqExt.subseq <> si var
+R2112:2112 InfSeqExt.subseq <> P var
+R2088:2094 InfSeqExt.subseq <> subseqs coind
+R2099:2099 InfSeqExt.subseq <> s var
+R2096:2097 InfSeqExt.subseq <> si var
+R2213:2230 InfSeqExt.subseq <> subseqs_eventually thm
+R2213:2230 InfSeqExt.subseq <> subseqs_eventually thm
+R2418:2427 InfSeqExt.subseq <> subseqs_tl thm
+R2418:2427 InfSeqExt.subseq <> subseqs_tl thm
+R2475:2481 InfSeqExt.infseq <> always1 coind
+R2486:2487 InfSeqExt.infseq <> tl def
+R2490:2493 InfSeqExt.infseq <> Cons constr
+R2475:2481 InfSeqExt.infseq <> always1 coind
+R2486:2487 InfSeqExt.infseq <> tl def
+R2490:2493 InfSeqExt.infseq <> Cons constr
+ind 2571:2577 <> ex_suff
+constr 2629:2631 <> Esp
+R2591:2594 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2583:2588 InfSeqExt.infseq <> infseq coind
+R2590:2590 InfSeqExt.subseq <> sec_subseq.T var
+R2607:2612 InfSeqExt.infseq <> infseq coind
+R2614:2614 InfSeqExt.subseq <> sec_subseq.T var
+R2654:2657 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2661:2664 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2665:2671 InfSeqExt.subseq <> ex_suff ind
+R2675:2676 InfSeqExt.subseq <> s' var
+R2673:2673 InfSeqExt.subseq <> P var
+R2658:2658 InfSeqExt.subseq <> P var
+R2660:2660 InfSeqExt.subseq <> s var
+R2645:2648 InfSeqExt.subseq <> suff ind
+R2652:2653 InfSeqExt.subseq <> s' var
+R2650:2650 InfSeqExt.subseq <> s var
+prf 2688:2702 <> eventually_suff
+R2737:2740 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2741:2747 InfSeqExt.subseq <> ex_suff ind
+R2751:2752 InfSeqExt.subseq <> s' var
+R2749:2749 InfSeqExt.subseq <> P var
+R2722:2731 InfSeqExt.infseq <> eventually ind
+R2735:2736 InfSeqExt.subseq <> s' var
+R2733:2733 InfSeqExt.subseq <> P var
+ind 2959:2968 <> suff_exteq
+constr 3011:3015 <> sb_eq
+constr 3064:3070 <> sb_next
+R2975:2980 InfSeqExt.infseq <> infseq coind
+R2982:2982 InfSeqExt.subseq <> sec_subseq.T var
+R2995:2998 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2987:2992 InfSeqExt.infseq <> infseq coind
+R2994:2994 InfSeqExt.subseq <> sec_subseq.T var
+R3040:3043 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3044:3053 InfSeqExt.subseq <> suff_exteq ind
+R3057:3058 InfSeqExt.subseq <> s' var
+R3055:3055 InfSeqExt.subseq <> s var
+R3030:3034 InfSeqExt.exteq <> exteq coind
+R3038:3039 InfSeqExt.subseq <> s' var
+R3036:3036 InfSeqExt.subseq <> s var
+R3102:3105 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3106:3115 InfSeqExt.subseq <> suff_exteq ind
+R3120:3123 InfSeqExt.infseq <> Cons constr
+R3127:3128 InfSeqExt.subseq <> s' var
+R3125:3125 InfSeqExt.subseq <> x var
+R3117:3117 InfSeqExt.subseq <> s var
+R3087:3096 InfSeqExt.subseq <> suff_exteq ind
+R3100:3101 InfSeqExt.subseq <> s' var
+R3098:3098 InfSeqExt.subseq <> s var
+ind 3143:3147 <> suffb
+constr 3198:3203 <> sp_eqb
+constr 3258:3265 <> sp_nextb
+R3154:3154 InfSeqExt.subseq <> sec_subseq.T var
+R3162:3167 InfSeqExt.infseq <> infseq coind
+R3169:3169 InfSeqExt.subseq <> sec_subseq.T var
+R3182:3185 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3174:3179 InfSeqExt.infseq <> infseq coind
+R3181:3181 InfSeqExt.subseq <> sec_subseq.T var
+R3237:3240 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3241:3245 InfSeqExt.subseq <> suffb ind
+R3251:3252 InfSeqExt.subseq <> s' var
+R3249:3249 InfSeqExt.subseq <> s var
+R3247:3247 InfSeqExt.subseq <> x var
+R3218:3222 InfSeqExt.exteq <> exteq coind
+R3235:3236 InfSeqExt.subseq <> s' var
+R3225:3228 InfSeqExt.infseq <> Cons constr
+R3232:3232 InfSeqExt.subseq <> s var
+R3230:3230 InfSeqExt.subseq <> x var
+R3294:3297 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3298:3302 InfSeqExt.subseq <> suffb ind
+R3309:3312 InfSeqExt.infseq <> Cons constr
+R3316:3317 InfSeqExt.subseq <> s' var
+R3314:3314 InfSeqExt.subseq <> y var
+R3306:3306 InfSeqExt.subseq <> s var
+R3304:3304 InfSeqExt.subseq <> x var
+R3282:3286 InfSeqExt.subseq <> suffb ind
+R3292:3293 InfSeqExt.subseq <> s' var
+R3290:3290 InfSeqExt.subseq <> s var
+R3288:3288 InfSeqExt.subseq <> x var
+ind 3334:3340 <> subseqb
+constr 3380:3386 <> Subseqb
+R3352:3355 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3364:3367 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3356:3361 InfSeqExt.infseq <> infseq coind
+R3363:3363 InfSeqExt.subseq <> sec_subseq.T var
+R3344:3349 InfSeqExt.infseq <> infseq coind
+R3351:3351 InfSeqExt.subseq <> sec_subseq.T var
+R3417:3420 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3433:3436 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3437:3443 InfSeqExt.subseq <> subseqb ind
+R3456:3457 InfSeqExt.subseq <> s' var
+R3446:3449 InfSeqExt.infseq <> Cons constr
+R3453:3453 InfSeqExt.subseq <> s var
+R3451:3451 InfSeqExt.subseq <> x var
+R3421:3427 InfSeqExt.subseq <> subseqb ind
+R3431:3432 InfSeqExt.subseq <> s' var
+R3429:3429 InfSeqExt.subseq <> s var
+R3405:3409 InfSeqExt.subseq <> suffb ind
+R3415:3416 InfSeqExt.subseq <> s' var
+R3413:3413 InfSeqExt.subseq <> s var
+R3411:3411 InfSeqExt.subseq <> x var
+ind 3471:3473 <> mem
+constr 3509:3512 <> mem0
+constr 3547:3554 <> mem_next
+R3480:3480 InfSeqExt.subseq <> sec_subseq.T var
+R3493:3496 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3485:3490 InfSeqExt.infseq <> infseq coind
+R3492:3492 InfSeqExt.subseq <> sec_subseq.T var
+R3526:3528 InfSeqExt.subseq <> mem ind
+R3533:3536 InfSeqExt.infseq <> Cons constr
+R3540:3540 InfSeqExt.subseq <> s var
+R3538:3538 InfSeqExt.subseq <> x var
+R3530:3530 InfSeqExt.subseq <> x var
+R3577:3580 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3581:3583 InfSeqExt.subseq <> mem ind
+R3588:3591 InfSeqExt.infseq <> Cons constr
+R3595:3595 InfSeqExt.subseq <> s var
+R3593:3593 InfSeqExt.subseq <> y var
+R3585:3585 InfSeqExt.subseq <> x var
+R3570:3572 InfSeqExt.subseq <> mem ind
+R3576:3576 InfSeqExt.subseq <> s var
+R3574:3574 InfSeqExt.subseq <> x var
+prf 3606:3621 <> subseqb_included
+R3644:3647 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3671:3674 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R3675:3677 InfSeqExt.subseq <> mem ind
+R3681:3682 InfSeqExt.subseq <> s' var
+R3679:3679 InfSeqExt.subseq <> x var
+R3659:3665 InfSeqExt.subseq <> subseqb coind
+R3669:3670 InfSeqExt.subseq <> s' var
+R3667:3667 InfSeqExt.subseq <> s var
+R3637:3639 InfSeqExt.subseq <> mem ind
+R3643:3643 InfSeqExt.subseq <> s var
+R3641:3641 InfSeqExt.subseq <> x var
+R3917:3926 InfSeqExt.subseq sec_subseq <> sec

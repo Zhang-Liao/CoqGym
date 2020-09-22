@@ -1,0 +1,120 @@
+DIGEST ecbe912885d285aa13faea2457c04725
+FAlgebra.Sub_group
+R1086:1095 Algebra.Sub_monoid <> <> lib
+R1113:1123 Algebra.Group_facts <> <> lib
+sec 1134:1136 <> Def
+var 1148:1148 Def G
+R1152:1156 Algebra.Group_cat <> GROUP def
+sec 1167:1175 Def Sub_group
+var 1187:1187 Def.Sub_group H
+R1191:1199 Algebra.Sub_monoid <> submonoid rec
+R1201:1201 Algebra.Sub_group <> Def.G var
+var 1215:1218 Def.Sub_group Hinv
+R1233:1233 Algebra.Sub_group <> Def.G var
+R1247:1250 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R1251:1257 Algebra.Parts <> in_part def
+R1279:1279 Algebra.Sub_group <> Def.Sub_group.H var
+R1260:1272 Algebra.Group_cat <> group_inverse def
+R1276:1276 Algebra.Sub_group <> x var
+R1236:1242 Algebra.Parts <> in_part def
+R1246:1246 Algebra.Sub_group <> Def.Sub_group.H var
+R1244:1244 Algebra.Sub_group <> x var
+def 1294:1305 <> subgroup_inv
+R1309:1311 Algebra.Sets <> MAP def
+R1315:1315 Algebra.Sub_group <> Def.Sub_group.H var
+R1313:1313 Algebra.Sub_group <> Def.Sub_group.H var
+R1326:1334 Algebra.Sets <> Build_Map constr
+R1367:1367 Algebra.Sub_group <> Def.Sub_group.H var
+R1372:1384 Algebra.Parts <> Build_subtype constr
+R1387:1390 Algebra.Sub_group <> Def.Sub_group.Hinv var
+R1393:1403 Algebra.Parts <> subtype_prf proj
+R1405:1405 Algebra.Sub_group <> x var
+R1347:1347 Algebra.Sub_group <> Def.Sub_group.H var
+R1340:1340 Algebra.Sub_group <> Def.Sub_group.H var
+R1326:1334 Algebra.Sets <> Build_Map constr
+R1367:1367 Algebra.Sub_group <> Def.Sub_group.H var
+R1372:1384 Algebra.Parts <> Build_subtype constr
+R1387:1390 Algebra.Sub_group <> Def.Sub_group.Hinv var
+R1393:1403 Algebra.Parts <> subtype_prf proj
+R1405:1405 Algebra.Sub_group <> x var
+R1347:1347 Algebra.Sub_group <> Def.Sub_group.H var
+R1340:1340 Algebra.Sub_group <> Def.Sub_group.H var
+R1447:1465 Algebra.Parts <> subtype_image_equal def
+def 1531:1544 <> subgroup_group
+R1548:1552 Algebra.Group_cat <> group rec
+R1562:1572 Algebra.Group_cat <> Build_group constr
+R1589:1589 Algebra.Sub_group <> Def.Sub_group.H var
+R1562:1572 Algebra.Group_cat <> Build_group constr
+R1589:1589 Algebra.Sub_group <> Def.Sub_group.H var
+R1601:1614 Algebra.Group_cat <> Build_group_on constr
+R1643:1654 Algebra.Sub_group <> subgroup_inv def
+R1620:1620 Algebra.Sub_group <> Def.Sub_group.H var
+R1601:1614 Algebra.Group_cat <> Build_group_on constr
+R1643:1654 Algebra.Sub_group <> subgroup_inv def
+R1620:1620 Algebra.Sub_group <> Def.Sub_group.H var
+R1694:1712 Algebra.Parts <> subtype_image_equal def
+R1792:1810 Algebra.Parts <> subtype_image_equal def
+R1868:1876 Algebra.Sub_group Def.Sub_group <> sec
+rec 1887:1894 <> subgroup
+proj 1910:1927 <> subgroup_submonoid
+proj 1947:1959 <> subgroup_prop
+R1931:1939 Algebra.Sub_monoid <> submonoid rec
+R1941:1941 Algebra.Sub_group <> Def.G var
+R1978:1978 Algebra.Sub_group <> Def.G var
+R2013:2020 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2021:2027 Algebra.Parts <> in_part def
+R2049:2066 Algebra.Sub_group <> subgroup_submonoid meth
+R2030:2042 Algebra.Group_cat <> group_inverse def
+R2046:2046 Algebra.Sub_group <> x var
+R1985:1991 Algebra.Parts <> in_part def
+R1995:2012 Algebra.Sub_group <> subgroup_submonoid meth
+R1993:1993 Algebra.Sub_group <> x var
+def 2082:2098 <> group_of_subgroup
+R2105:2112 Algebra.Sub_group <> subgroup rec
+R2120:2133 Algebra.Sub_group <> subgroup_group def
+R2136:2148 Algebra.Sub_group <> subgroup_prop proj
+R2154:2154 Algebra.Sub_group <> H var
+R2163:2165 Algebra.Sub_group Def <> sec
+R2168:2214 Algebra.Sub_group <> group_of_subgroup def
+R2217:2268 Algebra.Sub_group <> subgroup_submonoid proj
+sec 2279:2287 <> Injection
+var 2299:2299 Injection G
+R2303:2307 Algebra.Group_cat <> GROUP def
+var 2319:2319 Injection H
+R2323:2330 Algebra.Sub_group <> subgroup rec
+R2332:2332 Algebra.Sub_group <> Injection.G var
+prf 2342:2357 <> subgroup_in_prop
+R2373:2373 Algebra.Sub_group <> Injection.G var
+R2387:2390 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R2391:2397 Algebra.Parts <> in_part def
+R2419:2419 Algebra.Sub_group <> Injection.H var
+R2400:2412 Algebra.Group_cat <> group_inverse def
+R2416:2416 Algebra.Sub_group <> x var
+R2376:2382 Algebra.Parts <> in_part def
+R2386:2386 Algebra.Sub_group <> Injection.H var
+R2384:2384 Algebra.Sub_group <> x var
+R2458:2470 Algebra.Sub_group <> subgroup_prop proj
+R2483:2483 Algebra.Sub_group <> Injection.H var
+R2476:2476 Algebra.Sub_group <> Injection.G var
+R2458:2470 Algebra.Sub_group <> subgroup_prop proj
+R2483:2483 Algebra.Sub_group <> Injection.H var
+R2476:2476 Algebra.Sub_group <> Injection.G var
+def 2524:2535 <> inj_subgroup
+R2539:2541 Algebra.Categories <> Hom proj
+R2553:2553 Algebra.Sub_group <> Injection.G var
+R2546:2550 Algebra.Group_cat <> GROUP def
+R2544:2544 Algebra.Sub_group <> Injection.H var
+R2563:2578 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2614:2626 Algebra.Sub_sgroup <> inj_subsgroup def
+R2628:2628 Algebra.Sub_group <> Injection.H var
+R2591:2591 Algebra.Sub_group <> Injection.G var
+R2584:2584 Algebra.Sub_group <> Injection.H var
+R2563:2578 Algebra.Monoid_cat <> Build_monoid_hom constr
+R2614:2626 Algebra.Sub_sgroup <> inj_subsgroup def
+R2628:2628 Algebra.Sub_group <> Injection.H var
+R2591:2591 Algebra.Sub_group <> Injection.G var
+R2584:2584 Algebra.Sub_group <> Injection.H var
+prf 2681:2702 <> inj_subgroup_injective
+R2706:2714 Algebra.Sets <> injective def
+R2716:2727 Algebra.Sub_group <> inj_subgroup def
+R2771:2779 Algebra.Sub_group Injection <> sec
