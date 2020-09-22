@@ -19,6 +19,23 @@ from agent import Agent
 from models.prover import Prover
 import pdb
 
+import xlrd
+
+similar_record_file = (
+    "/users/zhangliao/Downloads/Documents/research/Master-Thesis/result4.xlsx"
+)
+
+
+def read_similar_record():
+
+    wb = xlrd.open_workbook(filename=similar_record_file)
+
+    # print(wb.sheet_names())
+    sheet = wb.sheet_by_name("Sheet3")
+    target_goals = sheet.col_values(0)[1::]
+    learn_from = sheet.col_values(1)[1::]
+    return target_goals, learn_from
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -116,7 +133,10 @@ if __name__ == "__main__":
     results = []
     bar = ProgressBar(max_value=len(files))
     if opts.eval_similar == True:
-        print("eval_similar")
+        for i, f in enumerate(files):
+            print("begin to evaluate Similar")
+            target_goals, learn_from = read_similar_record()
+            results.extend(agent.evaluate_similar(filename, target_goals, learn_from))
     else:
         for i, f in enumerate(files):
             print("file: ", f)
