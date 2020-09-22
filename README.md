@@ -51,7 +51,7 @@ International Conference on Machine Learning (ICML) 2019
 
 
 Follow these steps to obtain the CoqGym dataset and build the environment for interacting with it. 
-Alternatively, you may also use CoqGym in a [container](#using-coqgym-in-a-container).
+Alternatively, you may also use CoqGym in a [container](#2-using-coqgym-in-a-container).
 
 
 ### 1.1 Dependencies
@@ -294,7 +294,7 @@ You may implement your own tools for similar purposes.
 
 ### 4.1 Interacting with CoqGym
 
-`eval_env.py` enables the interactiong with the proofs in CoqGym. 
+`eval_env.py` enables the interaction with the proofs in CoqGym. 
 See [ASTactic/agent.py](ASTactic/agent.py) for examples.
 
 
