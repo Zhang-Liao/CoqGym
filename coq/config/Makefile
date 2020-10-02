@@ -14,8 +14,8 @@ COQ_CONFIGURED=yes
 LOCAL=true
 
 # Bytecode link flags : should we use -custom or not ?
-CUSTOM=-custom
-VMBYTEFLAGS=-custom
+CUSTOM=
+VMBYTEFLAGS=-dllib -lcoqrun -dllpath /home/zhangliao/Documents/Similar/CoqGym/coq/kernel/byterun
 # you might want to set CAML_LD_LIBRARY_PATH by hand!
 
 # Paths for true installation
@@ -26,23 +26,23 @@ VMBYTEFLAGS=-custom
 # MANDIR: path for the Coq man pages
 # DOCDIR: path for the Coq documentation
 # COQDOCDIR: path for the Coqdoc LaTeX files
-BINDIR="/Users/zhangliao/CoqGym/coq/bin"
-COQLIBINSTALL="/Users/zhangliao/CoqGym/coq"
-CONFIGDIR="/Users/zhangliao/CoqGym/coq/ide"
-DATADIR="/Users/zhangliao/CoqGym/coq/ide"
-MANDIR="/Users/zhangliao/CoqGym/coq/man"
-DOCDIR="/Users/zhangliao/CoqGym/coq/doc"
-COQDOCDIR="/Users/zhangliao/CoqGym/coq/tools/coqdoc"
+BINDIR="/home/zhangliao/Documents/Similar/CoqGym/coq/bin"
+COQLIBINSTALL="/home/zhangliao/Documents/Similar/CoqGym/coq"
+CONFIGDIR="/home/zhangliao/Documents/Similar/CoqGym/coq/ide"
+DATADIR="/home/zhangliao/Documents/Similar/CoqGym/coq/ide"
+MANDIR="/home/zhangliao/Documents/Similar/CoqGym/coq/man"
+DOCDIR="/home/zhangliao/Documents/Similar/CoqGym/coq/doc"
+COQDOCDIR="/home/zhangliao/Documents/Similar/CoqGym/coq/tools/coqdoc"
 
 # Coq version
 VERSION=8.9.0
 VERSION4MACOS=8.9.0
 
 # Objective-Caml compile command
-OCAML="/Users/zhangliao/.opam/4.07.1+flambda/bin//ocaml"
-OCAMLFIND="/Users/zhangliao/.opam/4.07.1+flambda/bin/ocamlfind"
-OCAMLLEX="/Users/zhangliao/.opam/4.07.1+flambda/bin//ocamllex"
-OCAMLYACC="/Users/zhangliao/.opam/4.07.1+flambda/bin//ocamlyacc"
+OCAML="/home/zhangliao/.opam/4.07.1+flambda/bin//ocaml"
+OCAMLFIND="/home/zhangliao/.opam/4.07.1+flambda/bin/ocamlfind"
+OCAMLLEX="/home/zhangliao/.opam/4.07.1+flambda/bin//ocamllex"
+OCAMLYACC="/home/zhangliao/.opam/4.07.1+flambda/bin//ocamlyacc"
 # The best compiler: native (=opt) or bytecode (=byte)
 BEST=opt
 
@@ -50,10 +50,10 @@ BEST=opt
 CAMLVERSION=OCAML407
 
 # Ocaml libraries
-CAMLLIB="/Users/zhangliao/.opam/4.07.1+flambda/lib/ocaml"
+CAMLLIB="/home/zhangliao/.opam/4.07.1+flambda/lib/ocaml"
 
 # Ocaml .h directory
-CAMLHLIB="/Users/zhangliao/.opam/4.07.1+flambda/lib/ocaml"
+CAMLHLIB="/home/zhangliao/.opam/4.07.1+flambda/lib/ocaml"
 
 # Caml link command and Caml make top command
 # Caml flags
@@ -74,13 +74,13 @@ CAMLTIMEPROF=
 
 # Camlp5 : flavor, binaries, libraries ...
 # NB : avoid using CAMLP5LIB (conflict under Windows)
-CAMLP5O="/Users/zhangliao/.opam/4.07.1+flambda/bin/camlp5o"
+CAMLP5O="/home/zhangliao/.opam/4.07.1+flambda/bin/camlp5o"
 CAMLP5COMPAT=-loc loc
-MYCAMLP5LIB="/Users/zhangliao/.opam/4.07.1+flambda/lib/camlp5"
+MYCAMLP5LIB="/home/zhangliao/.opam/4.07.1+flambda/lib/camlp5"
 
 # Your architecture
 # Can be obtain by UNIX command arch
-ARCH=Darwin
+ARCH=Linux
 HASNATDYNLINK=true
 
 # Supplementary libs for some systems, currently:
@@ -101,10 +101,10 @@ MKDIR=mkdir -p
 STRIP=true
 
 # LablGTK
-COQIDEINCLUDES=-I "/Users/zhangliao/.opam/4.07.1+flambda/lib/lablgtk2"
+COQIDEINCLUDES=
 
 # CoqIde (no/byte/opt)
-HASCOQIDE=opt
+HASCOQIDE=no
 IDEFLAGS=
 IDEOPTCDEPS=
 IDECDEPS=

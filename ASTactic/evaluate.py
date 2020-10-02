@@ -81,12 +81,15 @@ if __name__ == "__main__":
         "--hidden_dim", type=int, default=256, help="dimension of the LSTM controller"
     )
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--eval_similar", type=int)
 
-    parser.add_argument(
-        "--eval_similar", default=argparse.SUPPRESS, action="store_true"
-    )
+
+
+#    parser.add_argument("--eval_test", type=int)
 
     opts = parser.parse_args()
+
+
     log(opts)
     opts.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if opts.device.type == "cpu":
@@ -132,7 +135,7 @@ if __name__ == "__main__":
     print(files)
     results = []
     bar = ProgressBar(max_value=len(files))
-    if opts.eval_similar == True:
+    if opts.eval_similar is not None:
         for i, f in enumerate(files):
             print("begin to evaluate Similar")
             target_goals, learn_from = read_similar_record()

@@ -67,6 +67,11 @@ checker/esubst.cmo : lib/util.cmi clib/int.cmi clib/cArray.cmi \
     checker/esubst.cmi
 checker/esubst.cmx : lib/util.cmx clib/int.cmx clib/cArray.cmx \
     checker/esubst.cmi
+checker/esubst.cmo : lib/util.cmi clib/int.cmi clib/cArray.cmi \
+    checker/esubst.cmi
+checker/esubst.cmx : lib/util.cmx clib/int.cmx clib/cArray.cmx \
+    checker/esubst.cmi
+checker/esubst.cmi : lib/util.cmi
 checker/esubst.cmi : lib/util.cmi
 checker/indtypes.cmo : lib/util.cmi checker/univ.cmi checker/typeops.cmi \
     checker/term.cmi lib/rtree.cmi checker/reduction.cmi lib/pp.cmi \
@@ -122,6 +127,16 @@ checker/names.cmx : lib/util.cmx clib/unicode.cmx clib/predicate.cmx \
     lib/pp.cmx clib/option.cmx clib/int.cmx clib/hashset.cmx \
     clib/hashcons.cmx clib/hMap.cmx clib/cMap.cmx lib/cErrors.cmx \
     lib/cAst.cmx checker/names.cmi
+checker/names.cmo : lib/util.cmi clib/unicode.cmi clib/predicate.cmi \
+    lib/pp.cmi clib/option.cmi clib/int.cmi clib/hashset.cmi \
+    clib/hashcons.cmi clib/hMap.cmi clib/cMap.cmi lib/cErrors.cmi \
+    lib/cAst.cmi checker/names.cmi
+checker/names.cmx : lib/util.cmx clib/unicode.cmx clib/predicate.cmx \
+    lib/pp.cmx clib/option.cmx clib/int.cmx clib/hashset.cmx \
+    clib/hashcons.cmx clib/hMap.cmx clib/cMap.cmx lib/cErrors.cmx \
+    lib/cAst.cmx checker/names.cmi
+checker/names.cmi : lib/util.cmi clib/predicate.cmi lib/pp.cmi clib/int.cmi \
+    clib/cSig.cmi lib/cAst.cmi
 checker/names.cmi : lib/util.cmi clib/predicate.cmi lib/pp.cmi clib/int.cmi \
     clib/cSig.cmi lib/cAst.cmi
 checker/print.cmo : checker/univ.cmi lib/pp.cmi checker/names.cmi \

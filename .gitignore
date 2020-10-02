@@ -1,9 +1,13 @@
+coq-serapi/coq-serapi.install
+
 *.vo
 *.pyc
 data/
 sexp_cache/
 coq_projects/
 *.annot
+*.meta
+*.aux
 *.cmo
 *.cma
 *.cmi
@@ -26,3 +30,6 @@ setup.log
 
 # Merlin configuring file for Vim and Emacs
 .merlin
+
+*.gz
+*.pth
